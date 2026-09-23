@@ -1,0 +1,204 @@
+@import "tailwindcss";
+
+/* ── Design tokens ─────────────────────────────────────────────────────────
+   Warm paper + deep ink, emerald accent, brass highlights. Every color is a token
+   so light and dark themes stay in lockstep. */
+:root {
+  --paper: #f6f3ec;
+  --surface: #fffdf8;
+  --surface-muted: #eeeae0;
+  --ink: #111a24;
+  --ink-soft: #33404d;
+  --muted: #66707b;
+  --rule: #e0dacd;
+  --rule-strong: #c9c1b0;
+  --accent: #0d5c4b;
+  --accent-soft: #e1eee9;
+  --accent-ink: #ffffff;
+  --brass: #94701f;
+  --brass-soft: #f4ead3;
+  --up: #17774a;
+  --down: #b2352b;
+  --focus: #1f6feb;
+  --masthead: #0f1d2b;
+  --masthead-ink: #f6f3ec;
+  --sec-markets: #1f4e8c;
+  --sec-private-markets: #0d7a5f;
+  --sec-private-equity: #9b2c3a;
+  --sec-hedge-funds: #5b3f99;
+  --sec-voices: #94701f;
+  --sec-filings: #4b5563;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0d1218;
+    --surface: #141b23;
+    --surface-muted: #1b242e;
+    --ink: #ece8df;
+    --ink-soft: #c4c0b7;
+    --muted: #939aa3;
+    --rule: #25303b;
+    --rule-strong: #34414e;
+    --accent: #5cc4a6;
+    --accent-soft: #15302a;
+    --accent-ink: #0d1218;
+    --brass: #d9b25d;
+    --brass-soft: #2e2615;
+    --up: #4cc38a;
+    --down: #f07167;
+    --focus: #7aa7ff;
+    --masthead: #0a0f14;
+    --masthead-ink: #ece8df;
+    --sec-markets: #7fa9e6;
+    --sec-private-markets: #5cc4a6;
+    --sec-private-equity: #ea8a96;
+    --sec-hedge-funds: #b39ae8;
+    --sec-voices: #d9b25d;
+    --sec-filings: #a3acb8;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #0d1218;
+  --surface: #141b23;
+  --surface-muted: #1b242e;
+  --ink: #ece8df;
+  --ink-soft: #c4c0b7;
+  --muted: #939aa3;
+  --rule: #25303b;
+  --rule-strong: #34414e;
+  --accent: #5cc4a6;
+  --accent-soft: #15302a;
+  --accent-ink: #0d1218;
+  --brass: #d9b25d;
+  --brass-soft: #2e2615;
+  --up: #4cc38a;
+  --down: #f07167;
+  --focus: #7aa7ff;
+  --masthead: #0a0f14;
+  --masthead-ink: #ece8df;
+  --sec-markets: #7fa9e6;
+  --sec-private-markets: #5cc4a6;
+  --sec-private-equity: #ea8a96;
+  --sec-hedge-funds: #b39ae8;
+  --sec-voices: #d9b25d;
+  --sec-filings: #a3acb8;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-muted: var(--muted);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+  --color-brass: var(--brass);
+  --color-brass-soft: var(--brass-soft);
+  --color-up: var(--up);
+  --color-down: var(--down);
+  --color-masthead: var(--masthead);
+  --color-masthead-ink: var(--masthead-ink);
+  --font-serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  background: var(--paper);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.font-display {
+  font-family: var(--font-serif);
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 30, "WONK" 0;
+  letter-spacing: -0.01em;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Section color: set --sec on an element via data-section. */
+[data-section="markets"] { --sec: var(--sec-markets); }
+[data-section="private-markets"] { --sec: var(--sec-private-markets); }
+[data-section="private-equity"] { --sec: var(--sec-private-equity); }
+[data-section="hedge-funds"] { --sec: var(--sec-hedge-funds); }
+[data-section="voices"] { --sec: var(--sec-voices); }
+[data-section="filings"] { --sec: var(--sec-filings); }
+
+.sec-text { color: var(--sec); }
+.sec-bg { background: var(--sec); }
+.sec-border { border-color: var(--sec); }
+.sec-tint { background: color-mix(in srgb, var(--sec) 10%, transparent); }
+
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .chev {
+  transform: rotate(90deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  :root {
+    --paper: #fff;
+    --surface: #fff;
+    --surface-muted: #fff;
+    --masthead: #fff;
+    --masthead-ink: #111;
+  }
+  .print-hidden {
+    display: none !important;
+  }
+  article {
+    break-inside: avoid;
+  }
+  details > *:not(summary) {
+    display: block !important;
+  }
+}

@@ -1,0 +1,52 @@
+# Builds each morning's edition and commits it to the repo. Vercel redeploys on every push,
+# so this is the only automation the site needs. No secrets or API keys are required.
+name: Daily digest
+
+on:
+  schedule:
+    - cron: "15 10 * * *" # 10:15 UTC ≈ 6:15 AM New York (5:15 AM in winter)
+  workflow_dispatch: # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write # lets the built-in GITHUB_TOKEN commit the new edition
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  build-digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Test the pipeline
+        run: npm test
+
+      - name: Build today's edition
+        run: npm run digest
+        env:
+          # Optional. SEC asks automated clients for a contact. Set a plain repository *variable*
+          # (Settings → Secrets and variables → Actions → Variables) named SEC_CONTACT to your email.
+          # When unset, the repository URL is sent instead.
+          SEC_CONTACT: ${{ vars.SEC_CONTACT }}
+
+      - name: Commit the new edition
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Daily digest: $(TZ=America/New_York date +%Y-%m-%d)"
+          git push

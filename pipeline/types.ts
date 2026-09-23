@@ -1,0 +1,111 @@
+// Shared between the pipeline (Node) and the site (browser). No Node-only imports here.
+
+export const SECTIONS = [
+  { id: "markets", label: "Markets & Macro" },
+  { id: "private-markets", label: "Private Markets & Family Offices" },
+  { id: "private-equity", label: "Private Equity" },
+  { id: "hedge-funds", label: "Hedge Funds" },
+  { id: "voices", label: "Voices & Interviews" },
+  { id: "filings", label: "Filings" },
+] as const;
+
+export type SectionId = (typeof SECTIONS)[number]["id"];
+
+/** The firms the digest is built around: boosted in ranking and listed first in the site's firm filter. */
+export const CORE_FIRMS: readonly string[] = ["Blackstone", "KKR", "Apollo", "Carlyle", "Bridgewater"];
+
+export type SourceKind = "rss" | "edgar" | "fred";
+export type ContentType = "news" | "press-release" | "podcast" | "filing" | "regulator" | "research";
+
+export interface SourceRef {
+  id: string;
+  name: string;
+  homepage: string;
+  contentType: ContentType;
+}
+
+/** A normalized item straight from a feed/API, before enrichment. */
+export interface RawItem {
+  id: string;
+  title: string;
+  url: string;
+  publishedAt: string; // ISO 8601
+  excerpt: string; // plain text, ≤ 600 chars, from the feed itself
+  source: SourceRef;
+  tier: 1 | 2 | 3;
+  firms: string[];
+  section: SectionId; // heuristic guess from keywords
+}
+
+export interface BeginnerNote {
+  term: string;
+  explanation: string;
+}
+
+export interface ThemeRef {
+  id: string;
+  label: string;
+}
+
+export interface DigestItem {
+  id: string;
+  title: string;
+  url: string;
+  publishedAt: string;
+  source: SourceRef;
+  section: SectionId;
+  firms: string[];
+  theme: ThemeRef;
+  importance: number; // 1–5
+  takeaway: string;
+  whyItMatters: string;
+  marketContext: string;
+  beginnerNote: BeginnerNote | null;
+}
+
+export interface MarketPoint {
+  date: string; // YYYY-MM-DD
+  value: number;
+}
+
+export interface MarketSeries {
+  id: string; // FRED series id
+  label: string;
+  unit: "index" | "percent";
+  value: number;
+  previous: number | null;
+  asOf: string; // YYYY-MM-DD
+  history: MarketPoint[]; // oldest → newest, for sparklines
+  sourceUrl: string;
+}
+
+export interface ExecutiveBrief {
+  headline: string;
+  bullets: string[];
+  marketRead: string;
+  themes: (ThemeRef & { count: number })[];
+}
+
+export interface Digest {
+  date: string; // YYYY-MM-DD (America/New_York)
+  generatedAt: string;
+  engine: string; // summary engine version, e.g. "rules-v1" — no AI model or API key involved
+  edition: number;
+  brief: ExecutiveBrief;
+  market: MarketSeries[];
+  topStoryIds: string[];
+  items: DigestItem[];
+  stats: { sourcesChecked: number; sourcesOk: number; candidates: number; selected: number };
+}
+
+export interface ArchiveEntry {
+  date: string;
+  edition: number;
+  headline: string;
+  items: number;
+}
+
+export interface ArchiveIndex {
+  updatedAt: string;
+  editions: ArchiveEntry[]; // newest first
+}
