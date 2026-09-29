@@ -122,10 +122,14 @@ export function tagFirms(text: string, fixed: string[] = []): string[] {
   return [...found];
 }
 
+/** Family-office and private-wealth vocabulary: routes stories to "Family Offices & Wealth". */
+export const WEALTH_TOPIC = /\bfamily offices?\b|\bmulti-?family office|\b(ultra-)?high-net-worth\b|\bU?HNW\b|\bwealth manag|\bprivate wealth\b|\bRIAs?\b|\bwealthy (families|individuals|investors)\b|\bfinancial advis[eo]rs?\b/i;
+
 const SECTION_KEYWORDS: [SectionId, RegExp][] = [
   ["hedge-funds", /\bhedge funds?\b|\bmulti-?strateg|\bmacro fund|\bactivist investor|\bshort seller|\b13F\b|\bpod shop/i],
   ["private-equity", /\bprivate equity\b|\bbuyouts?\b|\bLBO\b|\btake[- ]private\b|\bportfolio compan|\bsponsor-backed|\bcarve-?out/i],
-  ["private-markets", /\bprivate (credit|markets?|capital|wealth)\b|\bfamily offices?\b|\bendowments?\b|\bsecondar(y|ies) (market|fund)|\binfrastructure fund|\balternative (assets?|investments?)|\bdirect lending|\bLPs?\b|\bGPs?\b|\bsovereign wealth|\bpension fund|\bRIAs?\b|\bwealth manag/i],
+  ["family-offices", WEALTH_TOPIC],
+  ["private-markets", /\bprivate (credit|markets?|capital)\b|\bendowments?\b|\bsecondar(y|ies) (market|fund)|\binfrastructure fund|\balternative (assets?|investments?)|\bdirect lending|\bLPs?\b|\bGPs?\b|\bsovereign wealth|\bpension fund/i],
 ];
 
 export function guessSection(text: string, fallback: SectionId): SectionId {

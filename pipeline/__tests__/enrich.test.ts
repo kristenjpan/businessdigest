@@ -7,7 +7,8 @@ import { findTerm, GLOSSARY } from "../enrich/glossary";
 import { describeMove, hyRegime, MarketView, vixRegime } from "../enrich/market";
 import { cleanExcerpt, extractTakeaway, splitSentences, trimToClause } from "../enrich/takeaway";
 import { storyTypeOf } from "../enrich/storyType";
-import { classify, THEMES } from "../enrich/themes";
+import { classify, resolveSection, THEMES } from "../enrich/themes";
+import { guessSection } from "../normalize";
 import type { ArchiveIndex, MarketSeries, RawItem, SourceRef } from "../types";
 
 const now = new Date("2026-09-23T15:00:00Z");
@@ -289,5 +290,21 @@ describe("story type", () => {
     expect(storyTypeOf(raw({ title: "‘There is no need for urgency,’ Williams tells investors" }))).toBe("quote");
     expect(storyTypeOf(raw({ title: "AAR to acquire 65% of Bain-backed MRO Holdings in $1.8bn deal" }))).toBe("news");
     expect(storyTypeOf(raw({ source: src("sec-press", "regulator"), title: "SEC Charges Adviser for Undisclosed Conflicts" }))).toBe("news");
+  });
+});
+
+describe("Private Markets vs Family Offices & Wealth", () => {
+  it("routes wealth and family-office stories to their own section", () => {
+    expect(guessSection("Northwestern Mutual launches family office services", "markets")).toBe("family-offices");
+    expect(guessSection("Captrust buys two RIAs with $1.2B AUM", "markets")).toBe("family-offices");
+    expect(guessSection("Ares closes direct lending fund", "markets")).toBe("private-markets");
+    expect(guessSection("Sovereign wealth fund boosts private credit allocation", "markets")).toBe("private-markets");
+  });
+
+  it("keeps wealth stories in place but moves general market news out of wealth feeds", () => {
+    const wealth = raw({ title: "Captrust Adds $1.2B in Double Deal for Long Island Firms", section: "family-offices" });
+    expect(resolveSection(wealth, classify(wealth))).toBe("family-offices");
+    const macro = raw({ title: "Goldman Says High-Yield Debt Deluge Overwhelming Investors", excerpt: "Higher bond yields have made corporate bonds attractive.", section: "family-offices" });
+    expect(resolveSection(macro, classify(macro))).not.toBe("family-offices");
   });
 });

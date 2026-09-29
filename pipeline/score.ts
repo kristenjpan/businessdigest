@@ -38,7 +38,7 @@ export function isRecent(item: RawItem, now: Date, baseHours: number): boolean {
 }
 
 /**
- * Picks a diverse shortlist: up to `perSection` of the best items from each section first,
+ * Picks a diverse shortlist: up to `perSection` of the best items from each section first (taken in turns),
  * then fills by score, never taking more than `perSource` from one source.
  */
 export function shortlist(items: RawItem[], now: Date, opts = { total: 80, perSection: 6, perSource: 8 }): RawItem[] {
@@ -52,12 +52,16 @@ export function shortlist(items: RawItem[], now: Date, opts = { total: 80, perSe
     picked.add(item);
     return true;
   };
-  for (const { id } of SECTIONS) {
-    let n = 0;
-    for (const { item } of ranked) {
-      if (n >= opts.perSection || picked.size >= opts.total) break;
-      if (item.section === id && take(item)) n++;
-    }
+  // Round-robin across sections (best remaining story from each in turn), so every section gets
+  // its share before any one fills up — later sections such as Voices are never crowded out.
+  const bySection = SECTIONS.map(({ id }) => ranked.filter((r) => r.item.section === id).map((r) => r.item));
+  const taken = bySection.map(() => 0);
+  for (let round = 0; round < opts.perSection && picked.size < opts.total; round++) {
+    bySection.forEach((items, s) => {
+      if (picked.size >= opts.total || taken[s] > round) return;
+      const next = items.find((it) => !picked.has(it) && take(it));
+      if (next) taken[s]++;
+    });
   }
   for (const { item } of ranked) {
     if (picked.size >= opts.total) break;

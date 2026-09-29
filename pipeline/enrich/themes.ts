@@ -1,3 +1,4 @@
+import { WEALTH_TOPIC } from "../normalize";
 import type { RawItem, SectionId } from "../types";
 import { type MarketView, sentence } from "./market";
 
@@ -368,6 +369,7 @@ export const THEME_BY_ID = new Map(THEMES.map((t) => [t.id, t]));
 const SECTION_DEFAULT: Record<SectionId, string> = {
   markets: "markets",
   "private-markets": "private-markets",
+  "family-offices": "family-office",
   "private-equity": "deals",
   "hedge-funds": "hedge-funds",
   voices: "voices",
@@ -439,7 +441,7 @@ const THEME_SECTION: Partial<Record<string, SectionId>> = {
   exits: "private-equity",
   fundraising: "private-markets",
   "private-credit": "private-markets",
-  "family-office": "private-markets",
+  "family-office": "family-offices",
   "real-estate": "private-markets",
   infrastructure: "private-markets",
   insurance: "private-markets",
@@ -447,11 +449,20 @@ const THEME_SECTION: Partial<Record<string, SectionId>> = {
   holdings: "hedge-funds",
 };
 
+// Deals, hires, results etc. count as wealth stories only when the text is about wealth management.
+const WEALTH_THEMES = new Set(["deals", "people", "exits", "fundraising", "earnings", "insurance"]);
+
 /**
  * Trade feeds file everything under one default section (e.g. HedgeCo → hedge funds, even for
  * buyouts). Moves an item to its theme's natural section; voices, filings and markets stay put.
  */
 export function resolveSection(item: RawItem, theme: Theme): SectionId {
   if (item.section === "voices" || item.section === "filings" || item.section === "markets") return item.section;
+  // Wealth-trade feeds also carry general market news: keep wealth stories (RIA deals, hires, results,
+  // products) here, and send the rest to their theme's section, or Markets.
+  if (item.section === "family-offices") {
+    const wealthStory = theme.id === "family-office" || (WEALTH_THEMES.has(theme.id) && WEALTH_TOPIC.test(`${item.title} ${item.excerpt}`));
+    return wealthStory ? "family-offices" : (THEME_SECTION[theme.id] ?? "markets");
+  }
   return THEME_SECTION[theme.id] ?? item.section;
 }

@@ -24,6 +24,7 @@
   --masthead-ink: #f6f3ec;
   --sec-markets: #1f4e8c;
   --sec-private-markets: #0d7a5f;
+  --sec-family-offices: #b35a24;
   --sec-private-equity: #9b2c3a;
   --sec-hedge-funds: #5b3f99;
   --sec-voices: #94701f;
@@ -53,6 +54,7 @@
     --masthead-ink: #ece8df;
     --sec-markets: #7fa9e6;
     --sec-private-markets: #5cc4a6;
+    --sec-family-offices: #e8a06e;
     --sec-private-equity: #ea8a96;
     --sec-hedge-funds: #b39ae8;
     --sec-voices: #d9b25d;
@@ -82,6 +84,7 @@
   --masthead-ink: #ece8df;
   --sec-markets: #7fa9e6;
   --sec-private-markets: #5cc4a6;
+  --sec-family-offices: #e8a06e;
   --sec-private-equity: #ea8a96;
   --sec-hedge-funds: #b39ae8;
   --sec-voices: #d9b25d;
@@ -153,6 +156,7 @@ body {
 /* Section color: set --sec on an element via data-section. */
 [data-section="markets"] { --sec: var(--sec-markets); }
 [data-section="private-markets"] { --sec: var(--sec-private-markets); }
+[data-section="family-offices"] { --sec: var(--sec-family-offices); }
 [data-section="private-equity"] { --sec: var(--sec-private-equity); }
 [data-section="hedge-funds"] { --sec: var(--sec-hedge-funds); }
 [data-section="voices"] { --sec: var(--sec-voices); }

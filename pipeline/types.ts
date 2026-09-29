@@ -2,7 +2,8 @@
 
 export const SECTIONS = [
   { id: "markets", label: "Markets & Macro" },
-  { id: "private-markets", label: "Private Markets & Family Offices" },
+  { id: "private-markets", label: "Private Markets" },
+  { id: "family-offices", label: "Family Offices & Wealth" },
   { id: "private-equity", label: "Private Equity" },
   { id: "hedge-funds", label: "Hedge Funds" },
   { id: "voices", label: "Voices & Interviews" },

@@ -99,7 +99,7 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
       <div className="mt-10 lg:grid lg:grid-cols-[1fr_260px] lg:gap-10">
         <div className="min-w-0">
           <div className="print-hidden z-10 -mx-4 border-b sm:sticky sm:top-0 border-rule bg-paper/95 px-4 pt-3 pb-3 backdrop-blur sm:mx-0 sm:px-0">
-            <div className="no-scrollbar -mx-4 flex gap-1.5 overflow-x-auto px-4 sm:mx-0 sm:px-0" role="tablist" aria-label="Sections">
+            <div className="no-scrollbar -mx-4 flex gap-1.5 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0" role="tablist" aria-label="Sections">
               <SectionTab label="All" count={digest.items.length} active={filters.section === "all"} onClick={() => set({ section: "all" })} />
               {SECTIONS.filter((s) => sectionCounts.get(s.id)).map((s) => (
                 <SectionTab
