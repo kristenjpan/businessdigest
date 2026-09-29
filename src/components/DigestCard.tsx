@@ -46,11 +46,10 @@ const icons = {
 
 interface Props {
   item: DigestItem;
-  beginner: boolean;
   onFirm?: (firm: string) => void;
 }
 
-export function DigestCard({ item, beginner, onFirm }: Props) {
+export function DigestCard({ item, onFirm }: Props) {
   return (
     <article data-section={item.section} className="relative rounded-xl border border-rule bg-surface p-5 sm:p-6">
       <span aria-hidden className="sec-bg absolute top-5 bottom-5 left-0 w-[3px] rounded-r sm:top-6 sm:bottom-6" />
@@ -87,7 +86,7 @@ export function DigestCard({ item, beginner, onFirm }: Props) {
       </div>
 
       {item.beginnerNote && (
-        <details key={String(beginner)} open={beginner} className="group mt-4 rounded-lg bg-brass-soft px-3.5 py-2.5">
+        <details className="group mt-4 rounded-lg bg-brass-soft px-3.5 py-2.5">
           <summary className="flex items-center gap-2 text-[13px] font-semibold text-brass">
             <svg aria-hidden viewBox="0 0 16 16" className="chev h-3 w-3 transition-transform" fill="currentColor">
               <path d="M5 3l6 5-6 5z" />

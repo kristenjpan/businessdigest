@@ -33,7 +33,7 @@ function scrollToItem(id: string) {
   el?.querySelector<HTMLAnchorElement>("h3 a")?.focus({ preventScroll: true });
 }
 
-export function DigestView({ digest, beginner, archived }: { digest: Digest; beginner: boolean; archived?: boolean }) {
+export function DigestView({ digest, archived }: { digest: Digest; archived?: boolean }) {
   const [filters, setFilters] = useState<Filters>(EMPTY);
   const set = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
   const active = JSON.stringify(filters) !== JSON.stringify(EMPTY);
@@ -91,17 +91,6 @@ export function DigestView({ digest, beginner, archived }: { digest: Digest; beg
             ))}
           </ol>
         </section>
-      )}
-
-      {beginner && (
-        <aside className="mt-8 rounded-xl border border-brass/40 bg-brass-soft p-5 text-[14px] leading-relaxed text-ink-soft">
-          <p className="font-semibold text-ink">How to read each story</p>
-          <p className="mt-1">
-            <strong>Key takeaway</strong> says what happened, quoted from the source. <strong>Why it matters</strong> explains the significance for
-            investors. <strong>Market context</strong> ties it to today's actual market numbers. The dots show importance (1–5), and{" "}
-            <strong>New to this?</strong> explains one piece of jargon. Every story links to the original source.
-          </p>
-        </aside>
       )}
 
       <div className="mt-10 lg:grid lg:grid-cols-[1fr_260px] lg:gap-10">
@@ -188,7 +177,7 @@ export function DigestView({ digest, beginner, archived }: { digest: Digest; beg
                   <div className="mt-4 space-y-4">
                     {items.map((item) => (
                       <div key={item.id} id={`item-${item.id}`} className="scroll-mt-44">
-                        <DigestCard item={item} beginner={beginner} onFirm={(firm) => set({ firm })} />
+                        <DigestCard item={item} onFirm={(firm) => set({ firm })} />
                       </div>
                     ))}
                   </div>

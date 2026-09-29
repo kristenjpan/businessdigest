@@ -75,8 +75,3 @@ export function useTheme() {
   return [theme, setTheme] as const;
 }
 
-/** Beginner mode expands every "New to this?" explainer and shows reading tips. */
-export function useBeginnerMode() {
-  const [mode, setMode] = useStoredChoice<"on" | "off">("tda-beginner", ["on", "off"], "off");
-  return [mode === "on", (on: boolean) => setMode(on ? "on" : "off")] as const;
-}

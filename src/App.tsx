@@ -4,14 +4,13 @@ import { DigestView } from "./components/DigestView";
 import { Masthead } from "./components/Masthead";
 import { loadEdition, loadLatest } from "./lib/data";
 import { generatedLabel, longDate } from "./lib/format";
-import { useBeginnerMode, useHashRoute, useTheme } from "./lib/hooks";
+import { useHashRoute, useTheme } from "./lib/hooks";
 import { SITE } from "./lib/site";
 import { AboutPage, ArchivePage, EmptyState, Footer, GlossaryPage, LoadingState, SourcesPage } from "./pages/Pages";
 
 export default function App() {
   const route = useHashRoute();
   const [theme, setTheme] = useTheme();
-  const [beginner, setBeginner] = useBeginnerMode();
   // undefined = loading, null = not found / not published yet
   const [latest, setLatest] = useState<Digest | null | undefined>(undefined);
   const [edition, setEdition] = useState<Digest | null | undefined>(undefined);
@@ -68,12 +67,12 @@ export default function App() {
                 Go to today's edition →
               </a>
             </div>
-            <DigestView key={edition.date} digest={edition} beginner={beginner} archived />
+            <DigestView key={edition.date} digest={edition} archived />
           </>
         );
       break;
     default:
-      body = latest === undefined ? <LoadingState /> : latest === null ? <EmptyState /> : <DigestView digest={latest} beginner={beginner} />;
+      body = latest === undefined ? <LoadingState /> : latest === null ? <EmptyState /> : <DigestView digest={latest} />;
   }
 
   return (
@@ -88,7 +87,7 @@ export default function App() {
       >
         Skip to content
       </a>
-      <Masthead route={route} theme={theme} onTheme={setTheme} beginner={beginner} onBeginner={setBeginner} editionLine={editionLine} />
+      <Masthead route={route} theme={theme} onTheme={setTheme} editionLine={editionLine} />
       <main id="main" tabIndex={-1} className="mx-auto max-w-6xl px-4 outline-none sm:px-6">
         {body}
       </main>

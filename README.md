@@ -1,4 +1,4 @@
-# The Daily Allocation
+# The Daily Digest
 
 A free daily investment-intelligence digest for business executives, family-office professionals and investment beginners.
 
@@ -18,7 +18,7 @@ Each story shows:
 | **Key takeaway** | What happened, quoted from the publisher's own summary |
 | **Why it matters** | Significance for investors, allocators and family offices |
 | **Market context** | That morning's real FRED numbers, framed for the story's theme |
-| **New to this?** | A plain-English explainer of one jargon term (expanded in *Beginner mode*) |
+| **New to this?** | A plain-English explainer of one jargon term, tap to expand |
 
 There is also a Morning Brief, a market snapshot with sparklines, Top Stories, filters by section, firm, format and theme, a 90-day archive, a glossary, and full light/dark support.
 

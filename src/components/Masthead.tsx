@@ -16,12 +16,10 @@ interface Props {
   route: Route;
   theme: Theme;
   onTheme: (t: Theme) => void;
-  beginner: boolean;
-  onBeginner: (on: boolean) => void;
   editionLine: string | null;
 }
 
-export function Masthead({ route, theme, onTheme, beginner, onBeginner, editionLine }: Props) {
+export function Masthead({ route, theme, onTheme, editionLine }: Props) {
   return (
     <header className="bg-masthead text-masthead-ink print:border-b print:border-black">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -38,18 +36,6 @@ export function Masthead({ route, theme, onTheme, beginner, onBeginner, editionL
           </a>
 
           <div className="print-hidden flex shrink-0 items-center gap-2">
-            <button
-              type="button"
-              onClick={() => onBeginner(!beginner)}
-              aria-pressed={beginner}
-              className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-[13px] font-medium transition-colors ${
-                beginner ? "border-[#5cc4a6] bg-[#5cc4a6] text-[#0a0f14]" : "border-white/25 text-masthead-ink hover:border-white/60"
-              }`}
-              title="Beginner mode expands plain-English explainers on every story"
-            >
-              <span aria-hidden className={`inline-block h-2 w-2 rounded-full ${beginner ? "bg-[#0a0f14]" : "bg-white/40"}`} />
-              Beginner mode
-            </button>
             <button
               type="button"
               onClick={() => onTheme(THEME_NEXT[theme])}

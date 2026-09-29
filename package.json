@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "The Daily Allocation: a keyless daily investment-intelligence digest built from public feeds.",
+  "description": "The Daily Digest: a keyless daily investment-intelligence digest built from public feeds.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -p tsconfig.json && vite build",
