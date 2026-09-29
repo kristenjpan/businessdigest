@@ -1,10 +1,11 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { editionFor, updateArchiveIndex } from "../archive";
 import { dedupeStories } from "../dedupe";
-import { buildBrief, buildMarketRead, enrichItem, selectAndEnrich } from "../enrich";
+import { applyAI, buildBrief, buildMarketRead, enrichItem, selectAndEnrich } from "../enrich";
+import { validTakeaway, writeWithAI } from "../enrich/ai";
 import { findTerm, GLOSSARY } from "../enrich/glossary";
 import { describeMove, hyRegime, MarketView, vixRegime } from "../enrich/market";
-import { cleanExcerpt, extractTakeaway, splitSentences } from "../enrich/takeaway";
+import { cleanExcerpt, extractTakeaway, splitSentences, trimToClause } from "../enrich/takeaway";
 import { classify, THEMES } from "../enrich/themes";
 import type { ArchiveIndex, MarketSeries, RawItem, SourceRef } from "../types";
 
@@ -87,6 +88,28 @@ describe("takeaway extraction", () => {
       }),
     );
     expect(t).toBe("The firm said demand came from pensions and family offices across the region.");
+  });
+
+  it("returns exactly one sentence even when the first is short", () => {
+    const t = extractTakeaway(raw({ excerpt: "Apollo raised a new $5bn credit fund on Monday. It drew strong demand from insurers and pensions worldwide." }));
+    expect(t).toBe("Apollo raised a new $5bn credit fund on Monday.");
+  });
+
+  it("repairs a sentence the feed cut off instead of showing an ellipsis", () => {
+    const t = extractTakeaway(
+      raw({ excerpt: "Golden Gate Capital faces a lawsuit alleging it contributed to a $2.2bn capital shortfall, according to a report by the Wall…" }),
+    );
+    expect(t).toBe("Golden Gate Capital faces a lawsuit alleging it contributed to a $2.2bn capital shortfall.");
+    expect(trimToClause("Too short, cut…")).toBeNull();
+    expect(trimToClause("The SEC charged overseas entities with defrauding retail investors, including many in the U.S., through scams where…")).toBe(
+      "The SEC charged overseas entities with defrauding retail investors, including many in the U.S.",
+    );
+  });
+
+  it("skips podcast filler and never adds a 'New episode' prefix", () => {
+    const pod: SourceRef = { id: "pod", name: "Invest Like the Best", homepage: "", contentType: "podcast" };
+    const t = extractTakeaway(raw({ source: pod, excerpt: "My guest today is Noah Shinn. Noah is the founder of Instinct, a personal assistant you text like a person." }));
+    expect(t).toBe("Noah is the founder of Instinct, a personal assistant you text like a person.");
   });
 
   it("falls back to the headline when the excerpt is thin", () => {
@@ -192,5 +215,60 @@ describe("archive", () => {
     const { index: next, removed } = updateArchiveIndex(index, { date: "2026-09-23", edition: 42, headline: "Today", items: 24 }, now);
     expect(next.editions.map((e) => e.date)).toEqual(["2026-09-23", "2026-09-22"]);
     expect(removed).toEqual(["2026-06-01"]);
+  });
+});
+
+describe("AI writer (GitHub Models)", () => {
+  const item = raw({
+    id: "a1",
+    title: "Millennium's new cash raise draws USD30 billion in client demand",
+    excerpt: "Millennium Management's capital raise attracted more than USD30bn of commitments, above the USD20bn it initially sought.",
+  });
+
+  it("validates takeaways: one grounded, complete sentence that adds to the headline", () => {
+    expect(validTakeaway("Millennium drew more than $30bn of commitments, well above the $20bn it set out to raise.", item)).toBe(true);
+    expect(validTakeaway("Millennium drew $35bn of commitments against a $20bn target.", item)).toBe(false); // 35 not in source
+    expect(validTakeaway("Millennium drew strong demand. Investors piled in.", item)).toBe(false); // two sentences
+    expect(validTakeaway("Millennium drew more than $30bn of commitments, well above…", item)).toBe(false); // cut off
+    expect(validTakeaway("Millennium's new cash raise draws USD30 billion in client demand.", item)).toBe(false); // headline copy
+    expect(validTakeaway(42, item)).toBe(false);
+  });
+
+  afterEach(() => vi.unstubAllEnvs());
+
+  function reply(content: unknown, status = 200) {
+    return vi.fn(async () => new Response(JSON.stringify({ choices: [{ message: { content: JSON.stringify(content) } }] }), { status }));
+  }
+
+  it("keeps only validated answers and skips failed batches", async () => {
+    vi.stubEnv("GITHUB_TOKEN", "test");
+    const good = reply({ items: [{ ref: 1, takeaway: "Millennium drew more than $30bn of commitments, well above its $20bn goal." }] });
+    expect((await writeWithAI([item], good)).get("a1")?.takeaway).toMatch(/^Millennium drew/);
+
+    const invented = reply({ items: [{ ref: 1, takeaway: "Millennium drew $99bn of commitments from new clients worldwide." }] });
+    expect((await writeWithAI([item], invented)).size).toBe(0);
+
+    const broken = vi.fn(async () => new Response("not json", { status: 200 }));
+    expect((await writeWithAI([item], broken)).size).toBe(0);
+
+    const down = vi.fn(async () => new Response("", { status: 500 }));
+    expect((await writeWithAI([item], down)).size).toBe(0);
+  });
+
+  it("overlays AI takeaways and leaves the rest on rules", async () => {
+    const sel = selectAndEnrich(
+      [
+        raw({ title: "Blackstone acquires software maker in take-private", firms: ["Blackstone"] }),
+        raw({ title: "Hedge fund posts gains in macro strategy", section: "hedge-funds", source: { ...news, id: "h" } }),
+      ],
+      market,
+      now,
+    );
+    const [first, second] = sel.items;
+    const before = second.takeaway;
+    const n = await applyAI(sel, async () => new Map([[first.id, { takeaway: "Blackstone agreed to buy a software maker and take it private." }]]));
+    expect(n).toBe(1);
+    expect(first.takeaway).toBe("Blackstone agreed to buy a software maker and take it private.");
+    expect(second.takeaway).toBe(before);
   });
 });

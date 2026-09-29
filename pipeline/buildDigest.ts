@@ -1,7 +1,8 @@
 /**
- * Daily digest pipeline: fetch → normalize → dedupe → select → enrich (rule-based) → write JSON.
- * No API keys: feeds are public, FRED is read via its public CSV endpoint, and summaries come
- * from the deterministic engine in ./enrich. Run daily by .github/workflows/daily-digest.yml.
+ * Daily digest pipeline: fetch → normalize → dedupe → select → enrich (rules) → AI writer → write JSON.
+ * No API keys: feeds are public, FRED is read via its public CSV endpoint, and the optional AI writer
+ * (./enrich/ai) uses the GitHub Action's built-in token. Without it, every item uses the rules
+ * engine in ./enrich. Run daily by .github/workflows/daily-digest.yml.
  *
  *   npm run digest               full run; writes public/data/latest.json + archive
  *   npm run digest -- --dry-run  fetch + enrich, print the edition, write nothing
@@ -11,7 +12,8 @@ import path from "node:path";
 import { editionFor, updateArchiveIndex } from "./archive";
 import { dedupe, dedupeStories } from "./dedupe";
 import { fetchEdgarSource } from "./edgar";
-import { buildBrief, ENGINE, selectAndEnrich } from "./enrich";
+import { applyAI, buildBrief, ENGINE, selectAndEnrich } from "./enrich";
+import { AI_MODEL, aiEnabled } from "./enrich/ai";
 import { MarketView } from "./enrich/market";
 import { fetchRssSource } from "./fetchFeeds";
 import { fetchMarketSnapshot } from "./fred";
@@ -60,6 +62,13 @@ async function main() {
   if (selection.items.length < MIN_ITEMS) {
     throw new Error(`Only ${selection.items.length} items (minimum ${MIN_ITEMS}). Keeping the previous edition.`);
   }
+  let aiWritten = 0;
+  if (aiEnabled()) {
+    aiWritten = await applyAI(selection);
+    console.log(`  AI (${AI_MODEL}) wrote ${aiWritten}/${selection.items.length} items; the rest use rules`);
+  } else {
+    console.log("  AI writer off (no GITHUB_TOKEN); using rules for every item");
+  }
   const brief = buildBrief(selection, view);
 
   const indexFile = path.join(ARCHIVE_DIR, "index.json");
@@ -67,13 +76,13 @@ async function main() {
   const digest: Digest = {
     date,
     generatedAt: now.toISOString(),
-    engine: ENGINE,
+    engine: aiWritten ? `github-models:${AI_MODEL} + ${ENGINE}` : ENGINE,
     edition: editionFor(archiveIndex, date),
     brief,
     market,
     topStoryIds: selection.topStoryIds,
     items: selection.items,
-    stats: { sourcesChecked: SOURCES.length, sourcesOk, candidates: unique.length, selected: selection.items.length },
+    stats: { sourcesChecked: SOURCES.length, sourcesOk, candidates: unique.length, selected: selection.items.length, aiWritten },
   };
 
   if (dryRun) {

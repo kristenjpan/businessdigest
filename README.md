@@ -15,7 +15,7 @@ Each story shows:
 | Field | What it is |
 | --- | --- |
 | **Source and date** | Publisher, publication time, and a link to the original |
-| **Key takeaway** | What happened, quoted from the publisher's own summary |
+| **Key takeaway** | One sentence on what's new, written by AI from the publisher's headline and excerpt |
 | **Why it matters** | Significance for investors, allocators and family offices |
 | **Market context** | That morning's real FRED numbers, framed for the story's theme |
 | **New to this?** | A plain-English explainer of one jargon term, tap to expand |
@@ -29,7 +29,7 @@ There is also a Morning Brief, a market snapshot with sparklines, Top Stories, f
 | News and commentary | Public RSS, Atom and podcast feeds |
 | SEC filings | EDGAR's public submissions API |
 | Market data | FRED's public CSV endpoint |
-| Summaries | A deterministic rule-based engine (`pipeline/enrich/`) instead of an LLM |
+| Summaries | GitHub Models, called with the Action's built-in `GITHUB_TOKEN` (`models: read`), plus a rule-based fallback (`pipeline/enrich/`) |
 | Daily refresh | GitHub Actions using its built-in `GITHUB_TOKEN` |
 | Hosting | A static Vite build on Vercel |
 
@@ -74,12 +74,20 @@ npm test                       # pipeline unit tests
    ─▶ takeaway · why it matters · market context · glossary term ─▶ Morning Brief ─▶ JSON
 ```
 
+**The AI writer** (`pipeline/enrich/ai.ts`). In the GitHub Action it sends the selected stories to GitHub Models (`openai/gpt-4.1-mini`, free tier, about 4 requests a day) using the built-in token. The model sees only each story's headline and excerpt. Every answer is validated, and a takeaway is rejected if it is:
+
+- more than one sentence, or cut off
+- too similar to the headline
+- carrying a number that isn't in the source
+
+Rejected or missing answers keep the rule-based text. Locally there is no token, so `npm run digest` uses rules only. Set `DIGEST_AI=off` to force rules in the Action.
+
 **The rules engine** (`pipeline/enrich/`):
 
 | File | What it does |
 | --- | --- |
 | `themes.ts` | 20 themes: fundraising, M&A, private credit, exits, real estate, infrastructure, rates, regulation, hedge funds, family offices and more. Each has keyword patterns, an importance weight, "why it matters" templates, an allocator angle, and a market-context builder. |
-| `takeaway.ts` | Extracts the first complete sentences of the publisher's excerpt and strips feed boilerplate. It never writes new facts. |
+| `takeaway.ts` | Fallback takeaway: the first complete, informative sentence of the publisher's excerpt, with boilerplate stripped and cut-off sentences trimmed to their last full clause. It never writes new facts. |
 | `market.ts` | Turns FRED data into sentences with regime labels, e.g. VIX *calm/normal/elevated/stressed*, HY spreads *tight/normal/wide*, and curve shape. |
 | `firms.ts` | Qualitative profiles of about 25 firms. These deliberately contain no figures that could go stale. |
 | `glossary.ts` | About 50 beginner terms. It is shared with the site's Glossary page. |

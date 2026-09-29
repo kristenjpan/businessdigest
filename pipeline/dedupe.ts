@@ -14,6 +14,7 @@ export function titleTokens(title: string): Set<string> {
       .replace(/[’']s\b/g, "")
       .replace(/[^a-z0-9$%.\s]/g, " ")
       .split(/\s+/)
+      .map((t) => t.replace(/\.+$/, "")) // "demand." at a sentence end is the same word as "demand"
       .filter((t) => t.length > 1 && !STOPWORDS.has(t)),
   );
 }

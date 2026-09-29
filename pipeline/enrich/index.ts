@@ -1,6 +1,7 @@
 import { LOW_VALUE } from "../normalize";
 import { score, shortlist } from "../score";
 import { SECTIONS, type DigestItem, type ExecutiveBrief, type RawItem } from "../types";
+import { type AiFields, writeWithAI } from "./ai";
 import { FIRM_PROFILES, leadFirm } from "./firms";
 import { findTerm } from "./glossary";
 import { cap, MarketView, sentence } from "./market";
@@ -11,7 +12,7 @@ import { cleanTitle, extractTakeaway } from "./takeaway";
  * The keyless enrichment engine. Deterministic, rule-based and free: no LLM, no API key.
  * Given the same feed items and market data it always produces the same digest.
  */
-export const ENGINE = "rules-v1";
+export const ENGINE = "rules-v2";
 
 export function whyItMatters(item: RawItem, theme: Theme): string {
   const firm = leadFirm(item.firms);
@@ -61,6 +62,8 @@ export function enrichItem(item: RawItem, market: MarketView, now: Date): Digest
 export interface Selection {
   items: DigestItem[];
   topStoryIds: string[];
+  /** The feed items behind `items`, by id, for the optional AI writer. */
+  raw: Map<string, RawItem>;
 }
 
 /**
@@ -89,16 +92,23 @@ export function selectAndEnrich(unique: RawItem[], market: MarketView, now: Date
   const items = enriched
     .sort((a, b) => order.get(a.section)! - order.get(b.section)! || b.rank - a.rank || b.publishedAt.localeCompare(a.publishedAt))
     .map(({ rank: _rank, ...rest }) => rest);
-  return { items, topStoryIds: top.map((t) => t.id) };
+  return { items, topStoryIds: top.map((t) => t.id), raw: new Map(picked.map((i) => [i.id, i])) };
 }
 
-function firstSentence(text: string, max = 170): string {
-  const s = text.replace(/^New episode: /, "");
-  const end = s.search(/[.!?](\s|$)/);
-  const one = end > 0 ? s.slice(0, end + 1) : s;
-  if (one.length <= max) return one;
-  const cut = one.slice(0, max);
-  return `${cut.slice(0, cut.lastIndexOf(" "))}…`;
+/**
+ * Overlays AI-written fields (see ./ai) on the rule-based edition. Items the AI skipped, or whose
+ * answers failed validation, keep their rule-based text. Returns how many items the AI wrote.
+ */
+export async function applyAI(sel: Selection, write: (items: RawItem[]) => Promise<Map<string, AiFields>> = writeWithAI): Promise<number> {
+  const fields = await write(sel.items.map((i) => sel.raw.get(i.id)!).filter(Boolean));
+  let written = 0;
+  for (const item of sel.items) {
+    const f = fields.get(item.id);
+    if (!f) continue;
+    if (f.takeaway) item.takeaway = f.takeaway;
+    written++;
+  }
+  return written;
 }
 
 export function buildMarketRead(market: MarketView): string {
@@ -135,7 +145,8 @@ export function buildBrief(sel: Selection, market: MarketView): ExecutiveBrief {
 
   return {
     headline: tops[0]?.title ?? sel.items[0]?.title ?? "Today's investment intelligence",
-    bullets: bulletItems.map((i) => `${i.theme.label}: ${firstSentence(i.takeaway)}`),
+    // Takeaways are a single complete sentence, so bullets use them whole (no clipping).
+    bullets: bulletItems.map((i) => `${i.theme.label}: ${i.takeaway}`),
     marketRead: buildMarketRead(market),
     themes,
   };

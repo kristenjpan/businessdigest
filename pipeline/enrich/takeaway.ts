@@ -1,8 +1,6 @@
 import { jaccard, titleTokens } from "../dedupe";
 import type { RawItem } from "../types";
 
-const MAX_LEN = 280;
-
 /** Boilerplate that feeds append to excerpts: WordPress footers, podcast ad notices, CTAs. */
 const BOILERPLATE: RegExp[] = [
   /The post .{0,300}? appeared first on .{0,120}?(\.|$)/gi,
@@ -52,11 +50,22 @@ function ensurePeriod(s: string): string {
   return /[.!?…]["”’)]?$/.test(s) ? s : `${s}.`;
 }
 
-/** Trims to a word boundary when a single sentence is too long. */
-function clip(s: string, max = MAX_LEN): string {
-  if (s.length <= max) return s;
-  const cut = s.slice(0, max);
-  return `${cut.slice(0, cut.lastIndexOf(" ")).replace(/[\s,;:–—-]+$/, "")}…`;
+/** Podcast show-note openers that introduce rather than inform. */
+const FILLER = /^(my guest (today )?is|today(['’]s)? guest is|in (this|today['’]s) (episode|conversation)|on (this|today['’]s) episode|welcome (back )?to|this week on)\b/i;
+
+const MAX_SENTENCE = 300;
+
+/**
+ * A sentence the feed cut off ("…a $2.2bn shortfall, according…") is trimmed back to its last
+ * complete clause and closed with a period. Returns null when too little would remain.
+ */
+export function trimToClause(s: string): string | null {
+  const body = s.replace(/[\s.…]+$/, "");
+  const cuts = [...body.matchAll(/[,;:]\s|\s[—–]\s/g)].map((m) => m.index!).filter((i) => i >= 40);
+  const cut = cuts.at(-1);
+  if (cut === undefined) return null;
+  const out = body.slice(0, cut).replace(/[\s,;:–—-]+$/, "");
+  return out.length >= 40 ? ensurePeriod(out) : null; // "…in the U.S." already ends with a period
 }
 
 function stripLeadingTitle(excerpt: string, title: string): string {
@@ -68,29 +77,22 @@ function stripLeadingTitle(excerpt: string, title: string): string {
 }
 
 /**
- * Extractive key takeaway: the first one or two complete sentences of the feed's own excerpt
- * (never text we write ourselves), skipping any sentence that just repeats the headline.
- * Falls back to a sentence built from the headline when the excerpt is empty or thin.
+ * Rule-based key takeaway: exactly one complete sentence from the feed's own excerpt (never text
+ * we write ourselves). Skips sentences that repeat the headline or are show-note filler, repairs a
+ * sentence the feed cut off by trimming to its last full clause, and falls back to a sentence
+ * built from the headline when nothing usable is left.
  */
 export function extractTakeaway(item: RawItem): string {
   if (item.source.id === "fed-speeches") return fedSpeech(item);
   const titleSet = titleTokens(item.title);
   const excerpt = stripLeadingTitle(cleanExcerpt(item.excerpt), item.title);
-  const sentences = splitSentences(excerpt).filter((s) => s.length > 25 && jaccard(titleTokens(s), titleSet) < 0.75);
+  const candidates = splitSentences(excerpt).filter((s) => s.length > 25 && !FILLER.test(s) && jaccard(titleTokens(s), titleSet) < 0.75);
 
-  const complete = sentences.filter(isComplete);
-  const pool = complete.length ? complete : sentences;
-  if (!pool.length) return fallback(item);
-
-  let out = pool[0];
-  if (out.length < 110 && pool[1] && out.length + pool[1].length + 1 <= MAX_LEN) out = `${out} ${pool[1]}`;
-  out = clip(out);
-  if (out.length < 40) return fallback(item);
-
-  if (item.source.contentType === "podcast" && !/\b(episode|podcast|conversation|interview|joins|guest|talks?)\b/i.test(out)) {
-    out = `New episode: ${out}`;
+  for (const s of candidates) {
+    const sentence = isComplete(s) && s.length <= MAX_SENTENCE ? s : trimToClause(s.slice(0, MAX_SENTENCE));
+    if (sentence && sentence.length >= 40) return sentence;
   }
-  return ensurePeriod(out);
+  return fallback(item);
 }
 
 /** Fed speech feeds give "Speaker, Title" plus a venue line; turn that into a readable sentence. */

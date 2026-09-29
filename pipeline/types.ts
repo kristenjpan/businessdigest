@@ -89,13 +89,13 @@ export interface ExecutiveBrief {
 export interface Digest {
   date: string; // YYYY-MM-DD (America/New_York)
   generatedAt: string;
-  engine: string; // summary engine version, e.g. "rules-v1" — no AI model or API key involved
+  engine: string; // e.g. "rules-v2", or "github-models:openai/gpt-4.1-mini + rules-v2" when the AI writer ran
   edition: number;
   brief: ExecutiveBrief;
   market: MarketSeries[];
   topStoryIds: string[];
   items: DigestItem[];
-  stats: { sourcesChecked: number; sourcesOk: number; candidates: number; selected: number };
+  stats: { sourcesChecked: number; sourcesOk: number; candidates: number; selected: number; aiWritten?: number };
 }
 
 export interface ArchiveEntry {

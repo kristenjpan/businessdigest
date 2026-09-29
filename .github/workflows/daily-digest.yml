@@ -1,5 +1,6 @@
 # Builds each morning's edition and commits it to the repo. Vercel redeploys on every push,
-# so this is the only automation the site needs. No secrets or API keys are required.
+# so this is the only automation the site needs. No secrets or API keys are required: the AI
+# writer uses GitHub Models through the built-in GITHUB_TOKEN.
 name: Daily digest
 
 on:
@@ -9,6 +10,7 @@ on:
 
 permissions:
   contents: write # lets the built-in GITHUB_TOKEN commit the new edition
+  models: read # lets the same token call GitHub Models for the AI-written summaries
 
 concurrency:
   group: daily-digest
@@ -34,6 +36,8 @@ jobs:
       - name: Build today's edition
         run: npm run digest
         env:
+          # Built-in token, created automatically for every run. Nothing to set up.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Optional. SEC asks automated clients for a contact. Set a plain repository *variable*
           # (Settings → Secrets and variables → Actions → Variables) named SEC_CONTACT to your email.
           # When unset, the repository URL is sent instead.
