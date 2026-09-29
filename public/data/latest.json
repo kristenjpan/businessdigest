@@ -1,48 +1,48 @@
 {
   "date": "2026-09-29",
-  "generatedAt": "2026-09-29T10:25:54.633Z",
-  "engine": "rules-v1",
+  "generatedAt": "2026-09-29T21:16:57.184Z",
+  "engine": "rules-v2",
   "edition": 7,
   "brief": {
-    "headline": "AAR to acquire 65% of Bain-backed MRO Holdings in $1.8bn deal",
+    "headline": "Apollo to Announce Third Quarter 2026 Financial Results on November 3, 2026",
     "bullets": [
-      "M&A & Buyouts: Aviation services company AAR has agreed to acquire a 65% stake in Bain Capital-backed aircraft maintenance provider MRO Holdings for approximately $1.8bn, in a deal…",
-      "Hedge Funds: Nitin Dewan has left Bobby Jain's hedge fund to join Tudor as a portfolio manager and global head of equity capital markets in New York.",
-      "Market Moves: A JPMorgan unit that focuses on short-term trading signals has turned bullish again after a month of caution.",
-      "Investor Outlook: On Inside Blackstone, host Christine Anderson sits down with Relativity Space CEO & former Google CEO Eric Schmidt on the AI data center build-out, what he thinks about…",
-      "Private Credit: New York Life Investment Management (NYLIM) has taken a majority stake in Invictus Capital Partners, a $20bn (£17.6bn) US single-family residential credit manager."
+      "Private Markets: In a press release: Apollo to Announce Third Quarter 2026 Financial Results on November 3, 2026.",
+      "M&A & Buyouts: Aviation services company AAR has agreed to acquire a 65% stake in Bain Capital-backed aircraft maintenance provider MRO Holdings for approximately $1.8bn, in a deal that will see the PE firm retain an interest in the business, according to a report by the Wall Street Journal.",
+      "Fed & Rates: Federal Reserve announced: Agencies publish resolution plan feedback letters for 15 banking organizations.",
+      "Investor Outlook: On Inside Blackstone, host Christine Anderson sits down with Relativity Space CEO & former Google CEO Eric Schmidt on the AI data center build-out, what he thinks about Silicon Valley’s timeline for superintelligence, what it takes to be an AI-native CEO.",
+      "Investor Outlook: Companies with significant family ownership generate roughly 70% of global economic output and 60% of the world’s jobs."
     ],
-    "marketRead": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the VIX is 14.2, a normal-volatility reading. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.17% (down 1 bp on the prior reading) and the 10Y–2Y yield curve is +0.32 pts (positively sloped). High-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Bottom line: calm volatility and open credit markets are a supportive backdrop for dealmaking, fundraising and exits.",
+    "marketRead": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the VIX is 16.1, a normal-volatility reading. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.24% (up 7 bps on the prior reading) and the 10Y–2Y yield curve is +0.37 pts (positively sloped). High-yield credit spreads are 3.02%, near long-run norms (up 9 bps on the prior reading). Bottom line: calm volatility and open credit markets are a supportive backdrop for dealmaking, fundraising and exits.",
     "themes": [
       {
-        "id": "markets",
-        "label": "Market Moves",
-        "count": 3
-      },
-      {
-        "id": "regulation",
-        "label": "Regulation & Policy",
-        "count": 3
-      },
-      {
-        "id": "exits",
-        "label": "Exits & Secondaries",
-        "count": 3
-      },
-      {
-        "id": "hedge-funds",
-        "label": "Hedge Funds",
-        "count": 3
+        "id": "family-office",
+        "label": "Family Offices & Wealth",
+        "count": 4
       },
       {
         "id": "voices",
         "label": "Investor Outlook",
+        "count": 4
+      },
+      {
+        "id": "rates",
+        "label": "Fed & Rates",
         "count": 3
       },
       {
         "id": "private-credit",
         "label": "Private Credit",
-        "count": 2
+        "count": 3
+      },
+      {
+        "id": "deals",
+        "label": "M&A & Buyouts",
+        "count": 3
+      },
+      {
+        "id": "regulation",
+        "label": "Regulation & Policy",
+        "count": 1
       }
     ]
   },
@@ -150,14 +150,10 @@
       "id": "DGS10",
       "label": "10-Yr Treasury",
       "unit": "percent",
-      "value": 5.17,
-      "previous": 5.18,
-      "asOf": "2026-09-25",
+      "value": 5.24,
+      "previous": 5.17,
+      "asOf": "2026-09-28",
       "history": [
-        {
-          "date": "2026-08-26",
-          "value": 4.66
-        },
         {
           "date": "2026-08-27",
           "value": 4.67
@@ -241,6 +237,10 @@
         {
           "date": "2026-09-25",
           "value": 5.17
+        },
+        {
+          "date": "2026-09-28",
+          "value": 5.24
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
@@ -249,14 +249,10 @@
       "id": "DGS2",
       "label": "2-Yr Treasury",
       "unit": "percent",
-      "value": 4.81,
-      "previous": 4.87,
-      "asOf": "2026-09-25",
+      "value": 4.92,
+      "previous": 4.81,
+      "asOf": "2026-09-28",
       "history": [
-        {
-          "date": "2026-08-26",
-          "value": 4.19
-        },
         {
           "date": "2026-08-27",
           "value": 4.2
@@ -340,6 +336,10 @@
         {
           "date": "2026-09-25",
           "value": 4.81
+        },
+        {
+          "date": "2026-09-28",
+          "value": 4.92
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS2"
@@ -348,14 +348,10 @@
       "id": "T10Y2Y",
       "label": "10Y–2Y Curve",
       "unit": "percent",
-      "value": 0.32,
-      "previous": 0.36,
-      "asOf": "2026-09-28",
+      "value": 0.37,
+      "previous": 0.32,
+      "asOf": "2026-09-29",
       "history": [
-        {
-          "date": "2026-08-27",
-          "value": 0.47
-        },
         {
           "date": "2026-08-28",
           "value": 0.39
@@ -439,6 +435,10 @@
         {
           "date": "2026-09-28",
           "value": 0.32
+        },
+        {
+          "date": "2026-09-29",
+          "value": 0.37
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/T10Y2Y"
@@ -447,26 +447,10 @@
       "id": "VIXCLS",
       "label": "VIX",
       "unit": "index",
-      "value": 14.21,
+      "value": 16.07,
       "previous": 14.87,
-      "asOf": "2026-09-22",
+      "asOf": "2026-09-28",
       "history": [
-        {
-          "date": "2026-08-24",
-          "value": 15.85
-        },
-        {
-          "date": "2026-08-25",
-          "value": 15.45
-        },
-        {
-          "date": "2026-08-26",
-          "value": 15.21
-        },
-        {
-          "date": "2026-08-27",
-          "value": 14.51
-        },
         {
           "date": "2026-08-28",
           "value": 14.43
@@ -538,6 +522,22 @@
         {
           "date": "2026-09-22",
           "value": 14.21
+        },
+        {
+          "date": "2026-09-23",
+          "value": 15.18
+        },
+        {
+          "date": "2026-09-24",
+          "value": 15.67
+        },
+        {
+          "date": "2026-09-25",
+          "value": 14.87
+        },
+        {
+          "date": "2026-09-28",
+          "value": 16.07
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/VIXCLS"
@@ -546,14 +546,10 @@
       "id": "BAMLH0A0HYM2",
       "label": "High-Yield Spread",
       "unit": "percent",
-      "value": 2.93,
-      "previous": 2.8,
-      "asOf": "2026-09-25",
+      "value": 3.02,
+      "previous": 2.93,
+      "asOf": "2026-09-28",
       "history": [
-        {
-          "date": "2026-08-27",
-          "value": 2.63
-        },
         {
           "date": "2026-08-28",
           "value": 2.6
@@ -637,6 +633,10 @@
         {
           "date": "2026-09-25",
           "value": 2.93
+        },
+        {
+          "date": "2026-09-28",
+          "value": 3.02
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
@@ -647,20 +647,8 @@
       "unit": "percent",
       "value": 3.88,
       "previous": 3.88,
-      "asOf": "2026-09-25",
+      "asOf": "2026-09-28",
       "history": [
-        {
-          "date": "2026-09-04",
-          "value": 3.63
-        },
-        {
-          "date": "2026-09-05",
-          "value": 3.63
-        },
-        {
-          "date": "2026-09-06",
-          "value": 3.63
-        },
         {
           "date": "2026-09-07",
           "value": 3.63
@@ -736,78 +724,118 @@
         {
           "date": "2026-09-25",
           "value": 3.88
+        },
+        {
+          "date": "2026-09-26",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-27",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-28",
+          "value": 3.88
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/DFF"
     }
   ],
   "topStoryIds": [
+    "4ef4cfa59558",
     "114343a1f34d",
-    "243f0e71c8a5",
-    "7740abf639b2"
+    "1478a1671637"
   ],
   "items": [
     {
-      "id": "7740abf639b2",
-      "title": "A month ago, this JPMorgan team urged caution on stocks. Now it’s going all in on tech.",
-      "url": "https://www.marketwatch.com/story/a-month-ago-this-jpmorgan-team-urged-caution-on-stocks-now-its-going-all-in-on-tech-f2e4b007?mod=mw_rss_topstories",
-      "publishedAt": "2026-09-29T08:56:00.000Z",
+      "id": "1478a1671637",
+      "title": "Agencies publish resolution plan feedback letters for 15 banking organizations",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
+      "publishedAt": "2026-09-29T20:00:00.000Z",
       "source": {
-        "id": "marketwatch-top",
-        "name": "MarketWatch — Top Stories",
-        "homepage": "https://www.marketwatch.com/",
-        "contentType": "news"
+        "id": "fed-press",
+        "name": "Federal Reserve — Press Releases",
+        "homepage": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+        "contentType": "regulator"
       },
       "section": "markets",
-      "firms": [
-        "J.P. Morgan"
-      ],
+      "firms": [],
       "theme": {
-        "id": "markets",
-        "label": "Market Moves"
+        "id": "rates",
+        "label": "Fed & Rates"
       },
       "importance": 3,
-      "takeaway": "A JPMorgan unit that focuses on short-term trading signals has turned bullish again after a month of caution.",
-      "whyItMatters": "J.P. Morgan is the largest U.S. bank and a major wealth manager, so its research and commentary carry weight with executives and families. Big market moves change portfolio weights and can prompt rebalancing across asset classes. For allocators: short-term market moves matter most when they change long-term plans or liquidity needs.",
-      "marketContext": "The VIX is 14.2, a normal-volatility reading and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Sep 28.)",
+      "takeaway": "Federal Reserve announced: Agencies publish resolution plan feedback letters for 15 banking organizations.",
+      "whyItMatters": "Shifts in rate expectations ripple quickly into bond prices, real estate values and the appeal of floating-rate private credit. For allocators: the rate path changes the relative appeal of cash, bonds, private credit and leveraged equity.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.24% (up 7 bps on the prior reading) and the 10Y–2Y yield curve is +0.37 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Sep 29.)",
       "beginnerNote": {
-        "term": "Volatility (VIX)",
-        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
-      }
+        "term": "Basis point",
+        "explanation": "One hundredth of a percentage point (0.01%). A rate rising from 4.00% to 4.25% has risen 25 basis points."
+      },
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
-      "id": "9e167ac692fc",
-      "title": "Goldman Sachs $100bn Treasury Fund Adds Tokenized Settlement",
-      "url": "https://www.marketsmedia.com/goldman-sachs-100bn-treasury-fund-joins-tokenized-settlement-platform/",
-      "publishedAt": "2026-09-29T08:24:35.000Z",
+      "id": "96198714a74b",
+      "title": "Barr, Economic Conditions and Monetary Policy",
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20260929a.htm",
+      "publishedAt": "2026-09-29T16:40:00.000Z",
       "source": {
-        "id": "markets-media",
-        "name": "Markets Media",
-        "homepage": "https://www.marketsmedia.com/",
-        "contentType": "news"
+        "id": "fed-speeches",
+        "name": "Federal Reserve — Speeches",
+        "homepage": "https://www.federalreserve.gov/newsevents/speeches.htm",
+        "contentType": "regulator"
       },
       "section": "markets",
-      "firms": [
-        "Goldman Sachs"
-      ],
+      "firms": [],
       "theme": {
-        "id": "regulation",
-        "label": "Regulation & Policy"
+        "id": "rates",
+        "label": "Fed & Rates"
       },
       "importance": 3,
-      "takeaway": "Modern market infrastructure can bring established institutional products together with real-time settlement.",
-      "whyItMatters": "Goldman Sachs is a top global investment bank and growing alternatives manager, with a front-row view of deal, capital-markets and client flows. Policy decisions set the ground rules for who can invest in private markets and on what terms. For allocators: new rules can change fees, transparency and eligibility, so check with advisers how they affect existing commitments.",
-      "marketContext": "The VIX is 14.2, a normal-volatility reading and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Sep 28.)",
+      "takeaway": "Federal Reserve official Barr spoke on “Economic Conditions and Monetary Policy” at the Detroit Economic Club, Detroit, Michigan.",
+      "whyItMatters": "Interest rates are the gravity of finance. They set borrowing costs for deals, the discount rate on every asset and the return on cash. For allocators: the rate path changes the relative appeal of cash, bonds, private credit and leveraged equity.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.24% (up 7 bps on the prior reading) and the 10Y–2Y yield curve is +0.37 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Sep 29.)",
       "beginnerNote": {
-        "term": "Accredited investor",
-        "explanation": "An individual or entity that meets SEC wealth or income tests and is therefore allowed to invest in most private funds."
-      }
+        "term": "Basis point",
+        "explanation": "One hundredth of a percentage point (0.01%). A rate rising from 4.00% to 4.25% has risen 25 basis points."
+      },
+      "storyType": "quote",
+      "aiSummarized": false
     },
     {
-      "id": "dce9afeee83b",
-      "title": "SEC Charges Registered Investment Adviser Zoe Financial for Failure to Disclose Conflict of Interest",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-94-sec-charges-registered-investment-adviser-zoe-financial-failure-disclose-conflict-interest",
-      "publishedAt": "2026-09-28T17:46:30.000Z",
+      "id": "15941f2780d8",
+      "title": "Bowman, Opening Remarks",
+      "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm",
+      "publishedAt": "2026-09-29T15:00:00.000Z",
+      "source": {
+        "id": "fed-speeches",
+        "name": "Federal Reserve — Speeches",
+        "homepage": "https://www.federalreserve.gov/newsevents/speeches.htm",
+        "contentType": "regulator"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "rates",
+        "label": "Fed & Rates"
+      },
+      "importance": 3,
+      "takeaway": "Federal Reserve official Bowman spoke on “Opening Remarks” at the Community Bank Cyber Workshop, Denver, Colorado (via pre-recorded video).",
+      "whyItMatters": "Shifts in rate expectations ripple quickly into bond prices, real estate values and the appeal of floating-rate private credit. For allocators: the rate path changes the relative appeal of cash, bonds, private credit and leveraged equity.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.24% (up 7 bps on the prior reading) and the 10Y–2Y yield curve is +0.37 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Sep 29.)",
+      "beginnerNote": {
+        "term": "Basis point",
+        "explanation": "One hundredth of a percentage point (0.01%). A rate rising from 4.00% to 4.25% has risen 25 basis points."
+      },
+      "storyType": "quote",
+      "aiSummarized": false
+    },
+    {
+      "id": "5ded3c9f80ae",
+      "title": "SEC Charges Multiple Entities in Fraud Schemes Totaling at Least $15 Million That Used WhatsApp and Other Platforms to Lure Investors",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms",
+      "publishedAt": "2026-09-29T13:55:53.000Z",
       "source": {
         "id": "sec-press",
         "name": "SEC — Press Releases",
@@ -821,71 +849,79 @@
         "label": "Regulation & Policy"
       },
       "importance": 3,
-      "takeaway": "The Securities and Exchange Commission today announced settled charges against New York-based investment adviser Zoe Financial Inc. for failing to fully and fairly disclose material facts concerning conflicts of interest to its clients and prospective…",
+      "takeaway": "The Securities and Exchange Commission today charged multiple entities that are likely operated by individuals located overseas for defrauding hundreds of retail investors, including many in the U.S.",
       "whyItMatters": "Regulatory scrutiny of private funds is rising as the industry grows; new rules often reshape fees, disclosure and access. For allocators: new rules can change fees, transparency and eligibility, so check with advisers how they affect existing commitments.",
-      "marketContext": "The VIX is 14.2, a normal-volatility reading and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Sep 28.)",
+      "marketContext": "The VIX is 16.1, a normal-volatility reading and high-yield credit spreads are 3.02%, near long-run norms (up 9 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Sep 29.)",
       "beginnerNote": {
-        "term": "RIA",
-        "explanation": "Registered investment adviser, an independent firm legally obliged to act in its clients' best interests when giving investment advice."
-      }
+        "term": "Accredited investor",
+        "explanation": "An individual or entity that meets SEC wealth or income tests and is therefore allowed to invest in most private funds."
+      },
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
-      "id": "279aa2af0206",
-      "title": "Cook, An Update on AI and the Economy",
-      "url": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm",
-      "publishedAt": "2026-09-28T17:25:00.000Z",
+      "id": "4ef4cfa59558",
+      "title": "Apollo to Announce Third Quarter 2026 Financial Results on November 3, 2026",
+      "url": "https://ir.apollo.com/news-events/press-releases/detail/652/apollo-to-announce-third-quarter-2026-financial-results-on",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
       "source": {
-        "id": "fed-speeches",
-        "name": "Federal Reserve — Speeches",
-        "homepage": "https://www.federalreserve.gov/newsevents/speeches.htm",
-        "contentType": "regulator"
+        "id": "apollo-ir",
+        "name": "Apollo — Press Releases",
+        "homepage": "https://ir.apollo.com/news-events/press-releases",
+        "contentType": "press-release"
       },
-      "section": "markets",
-      "firms": [],
+      "section": "private-markets",
+      "firms": [
+        "Apollo"
+      ],
       "theme": {
-        "id": "ai-tech",
-        "label": "AI & Technology"
+        "id": "private-markets",
+        "label": "Private Markets"
       },
-      "importance": 3,
-      "takeaway": "Federal Reserve official Cook spoke on “An Update on AI and the Economy” at the Oakland Tech Week Opening Keynote, cohosted by the Kapor Center, Oakland, California.",
-      "whyItMatters": "Capital flowing into AI shapes returns across asset classes, from tech equities to power infrastructure and private credit for data centers. For allocators: AI exposure often builds up across several holdings at once, so check for concentration at the portfolio level.",
-      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the VIX is 14.2, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Sep 28.)",
+      "importance": 4,
+      "takeaway": "In a press release: Apollo to Announce Third Quarter 2026 Financial Results on November 3, 2026.",
+      "whyItMatters": "Apollo is a private-credit heavyweight whose insurance arm, Athene, supplies long-term capital, which makes it central to the fusion of insurance and private lending. Developments in private markets show how capital is being raised, deployed and returned outside public exchanges. For allocators: private-market commitments tie up capital for years, so pacing and manager selection drive outcomes.",
+      "marketContext": "The 10-year Treasury yield is 5.24% (up 7 bps on the prior reading) and high-yield credit spreads are 3.02%, near long-run norms (up 9 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Sep 29.)",
       "beginnerNote": {
-        "term": "Valuation multiple",
-        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
-      }
+        "term": "Limited partner (LP)",
+        "explanation": "The investors in a private fund, such as pensions, endowments, insurers and family offices. They commit capital but do not manage the fund."
+      },
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
-      "id": "c3c961c19a52",
-      "title": "Novo Nordisk strikes second licensing deal since frosty capital-markets day",
-      "url": "https://www.marketwatch.com/story/novo-nordisk-strikes-second-licensing-deal-since-frosty-capital-markets-day-cc0db878?mod=mw_rss_topstories",
-      "publishedAt": "2026-09-29T09:45:00.000Z",
+      "id": "b6aa538943a6",
+      "title": "15 Investment Must Reads for This Week (Sept. 29, 2026)",
+      "url": "https://www.wealthmanagement.com/etfs/15-investment-must-reads-for-this-week-sept-29-2026-",
+      "publishedAt": "2026-09-29T16:05:19.000Z",
       "source": {
-        "id": "marketwatch-top",
-        "name": "MarketWatch — Top Stories",
-        "homepage": "https://www.marketwatch.com/",
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
         "contentType": "news"
       },
-      "section": "markets",
+      "section": "private-markets",
       "firms": [],
       "theme": {
-        "id": "markets",
-        "label": "Market Moves"
+        "id": "private-credit",
+        "label": "Private Credit"
       },
-      "importance": 2,
-      "takeaway": "Novo Nordisk on Tuesday struck its second licensing deal since receiving a poor reception from investors after presenting its long-term strategy.",
-      "whyItMatters": "Public-market swings feed directly into private-market valuations, IPO windows and investor sentiment. For allocators: short-term market moves matter most when they change long-term plans or liquidity needs.",
-      "marketContext": "The VIX is 14.2, a normal-volatility reading and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Sep 28.)",
+      "importance": 3,
+      "takeaway": "Investment news for financial advisors on the AI boom, executive shuffles at top asset managers, active ETFs, NAV lending, BDC redemptions and more.",
+      "whyItMatters": "Developments here show how easily companies can borrow outside the banking system, and at what price. For allocators: private credit offers high floating-rate income but less liquidity, so manager selection and underwriting discipline matter.",
+      "marketContext": "The effective fed funds rate is 3.88% and high-yield credit spreads are 3.02%, near long-run norms (up 9 bps on the prior reading). Most private loans pay a floating rate, so lender income tracks short-term rates while spreads show how much extra investors demand for credit risk. (FRED data as of Sep 29.)",
       "beginnerNote": {
-        "term": "Volatility (VIX)",
-        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
-      }
+        "term": "BDC",
+        "explanation": "Business development company, a vehicle (often publicly listed) that lets ordinary investors own a portfolio of private loans."
+      },
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
-      "id": "7d4188f9407e",
-      "title": "New York Life boosts private credit arm with Invictus stake",
-      "url": "https://alternativecreditinvestor.com/2026/09/29/new-york-life-boosts-private-credit-arm-with-invictus-stake/",
-      "publishedAt": "2026-09-29T10:02:07.000Z",
+      "id": "e817f0a7612b",
+      "title": "Pemberton hires Investcorp’s Courtman to lead CLO arm",
+      "url": "https://alternativecreditinvestor.com/2026/09/29/pemberton-hires-investcorps-courtman-to-lead-clo-arm/",
+      "publishedAt": "2026-09-29T15:10:31.000Z",
       "source": {
         "id": "alt-credit-investor",
         "name": "Alternative Credit Investor",
@@ -899,49 +935,25 @@
         "label": "Private Credit"
       },
       "importance": 3,
-      "takeaway": "New York Life Investment Management (NYLIM) has taken a majority stake in Invictus Capital Partners, a $20bn (£17.6bn) US single-family residential credit manager.",
-      "whyItMatters": "Developments here show how easily companies can borrow outside the banking system, and at what price. For allocators: private credit offers high floating-rate income but less liquidity, so manager selection and underwriting discipline matter.",
-      "marketContext": "The effective fed funds rate is 3.88% and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Most private loans pay a floating rate, so lender income tracks short-term rates while spreads show how much extra investors demand for credit risk. (FRED data as of Sep 28.)",
+      "takeaway": "Pemberton Asset Management has appointed Investcorp’s Dominic Courtman to head its €1.6bn (£1.4bn) collateralised loan obligation (CLO) platform.",
+      "whyItMatters": "Private credit has grown into one of the fastest-growing corners of finance as non-bank lenders take share from banks. For allocators: private credit offers high floating-rate income but less liquidity, so manager selection and underwriting discipline matter.",
+      "marketContext": "The effective fed funds rate is 3.88% and high-yield credit spreads are 3.02%, near long-run norms (up 9 bps on the prior reading). Most private loans pay a floating rate, so lender income tracks short-term rates while spreads show how much extra investors demand for credit risk. (FRED data as of Sep 29.)",
       "beginnerNote": {
-        "term": "Private credit",
-        "explanation": "Loans made by investment funds rather than banks, usually to mid-sized companies. They often pay higher, floating interest rates."
-      }
+        "term": "CLO",
+        "explanation": "Collateralized loan obligation, a pool of corporate loans sliced into bonds with different levels of risk and return."
+      },
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
-      "id": "8684e25ee5ba",
-      "title": "Northwestern Mutual Launches Family Office Services",
-      "url": "https://www.wealthmanagement.com/high-net-worth/northwestern-mutual-launches-family-office-services",
-      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "id": "8256954ed8cc",
+      "title": "Värde backs launch of European credit manager Valcia",
+      "url": "https://alternativecreditinvestor.com/2026/09/29/varde-backs-launch-of-european-credit-manager-valcia/",
+      "publishedAt": "2026-09-29T13:06:29.000Z",
       "source": {
-        "id": "wealthmanagement",
-        "name": "WealthManagement.com",
-        "homepage": "https://www.wealthmanagement.com/",
-        "contentType": "news"
-      },
-      "section": "private-markets",
-      "firms": [],
-      "theme": {
-        "id": "family-office",
-        "label": "Family Offices & Wealth"
-      },
-      "importance": 3,
-      "takeaway": "The firm assembled a team of over 40 specialists to deliver coordinated advice to clients with at least $50 million in net worth.",
-      "whyItMatters": "New products aimed at private wealth are changing how individuals access private equity, credit and real estate, including liquidity terms and fees. For family offices: compare liquidity terms, fees and valuation policies closely when evaluating new semi-liquid or evergreen products.",
-      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the 10-year Treasury yield is 5.17% (down 1 bp on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Sep 28.)",
-      "beginnerNote": {
-        "term": "Family office",
-        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
-      }
-    },
-    {
-      "id": "219072fc3c80",
-      "title": "With Burry as adviser, a new short-focused fund takes aim at private credit risks",
-      "url": "https://www.opalesque.com/fullarticle/716534/With_Burry_as_adviser_a_new_fund653.html",
-      "publishedAt": "2026-09-28T23:58:20.000Z",
-      "source": {
-        "id": "opalesque",
-        "name": "Opalesque",
-        "homepage": "https://www.opalesque.com/",
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
         "contentType": "news"
       },
       "section": "private-markets",
@@ -951,65 +963,127 @@
         "label": "Private Credit"
       },
       "importance": 3,
-      "takeaway": "Minerva Investment Management, founded by Laks Ganapathi with Michael Burry as a senior adviser, is preparing to launch a short-biased hedge fund targeting companies vulnerable to stress in private credit.",
-      "whyItMatters": "Developments here show how easily companies can borrow outside the banking system, and at what price. For allocators: private credit offers high floating-rate income but less liquidity, so manager selection and underwriting discipline matter.",
-      "marketContext": "The effective fed funds rate is 3.88% and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Most private loans pay a floating rate, so lender income tracks short-term rates while spreads show how much extra investors demand for credit risk. (FRED data as of Sep 28.)",
+      "takeaway": "Valcia Asset Management, a new specialist European credit investment manager, has launched with the backing of Värde Partners.",
+      "whyItMatters": "Private credit has grown into one of the fastest-growing corners of finance as non-bank lenders take share from banks. For allocators: private credit offers high floating-rate income but less liquidity, so manager selection and underwriting discipline matter.",
+      "marketContext": "The effective fed funds rate is 3.88% and high-yield credit spreads are 3.02%, near long-run norms (up 9 bps on the prior reading). Most private loans pay a floating rate, so lender income tracks short-term rates while spreads show how much extra investors demand for credit risk. (FRED data as of Sep 29.)",
+      "beginnerNote": {
+        "term": "Direct lending",
+        "explanation": "The largest form of private credit: a fund lends directly to a company, often one owned by private equity, without a bank in the middle."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "465e8c27c658",
+      "title": "BNY Pershing Sunsetting Wove Wealth Platform",
+      "url": "https://www.wealthmanagement.com/ria-news/bny-pershing-revamping-wove-wealth-platform",
+      "publishedAt": "2026-09-29T17:57:57.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "BNY has told advisors it is restructuring its multi-custodial wealth management platform to be part of its larger wealth solutions business, led by recently promoted wealth head Adam Vos.",
+      "whyItMatters": "Family offices are becoming more institutional, direct and influential investors, often competing alongside PE firms for deals. For family offices: compare liquidity terms, fees and valuation policies closely when evaluating new semi-liquid or evergreen products.",
+      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the 10-year Treasury yield is 5.24% (up 7 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Sep 29.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "521b8adac343",
+      "title": "FINRA Bars Former LPL Rep For Taking $1.7M From Clients",
+      "url": "https://www.wealthmanagement.com/regulation-compliance/finra-bars-former-lpl-rep-over-17m-theft",
+      "publishedAt": "2026-09-29T17:25:21.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "According to FINRA, Rudy Anguiano allegedly transferred funds from two clients to a separate account for his own LLC. LPL reimbursed both customers in full after discovering the misconduct.",
+      "whyItMatters": "Family offices are becoming more institutional, direct and influential investors, often competing alongside PE firms for deals. For family offices: compare liquidity terms, fees and valuation policies closely when evaluating new semi-liquid or evergreen products.",
+      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the 10-year Treasury yield is 5.24% (up 7 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Sep 29.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "e2103f471274",
+      "title": "The Changing Geography of Investment Risk",
+      "url": "https://www.wealthmanagement.com/investing-strategies/the-changing-geography-of-investment-risk",
+      "publishedAt": "2026-09-29T16:52:35.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "Stop assuming the rich world is the safe leg.",
+      "whyItMatters": "New products aimed at private wealth are changing how individuals access private equity, credit and real estate, including liquidity terms and fees. For family offices: compare liquidity terms, fees and valuation policies closely when evaluating new semi-liquid or evergreen products.",
+      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the 10-year Treasury yield is 5.24% (up 7 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Sep 29.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "151064dcbe5e",
+      "title": "Fidelity hits $451m RE debt fund close",
+      "url": "https://alternativecreditinvestor.com/2026/09/29/fidelity-hits-451m-re-debt-fund-close/",
+      "publishedAt": "2026-09-29T12:26:01.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "Fidelity Investments has closed its second real estate debt opportunities fund at $451m (£340.4m), more than double the committed capital of its predecessor.",
+      "whyItMatters": "Family offices are becoming more institutional, direct and influential investors, often competing alongside PE firms for deals. For family offices: compare liquidity terms, fees and valuation policies closely when evaluating new semi-liquid or evergreen products.",
+      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the 10-year Treasury yield is 5.24% (up 7 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Sep 29.)",
       "beginnerNote": {
         "term": "Private credit",
         "explanation": "Loans made by investment funds rather than banks, usually to mid-sized companies. They often pay higher, floating interest rates."
-      }
-    },
-    {
-      "id": "f318749ed10d",
-      "title": "Golden Gate Capital sued over PHL insurer’s $2.2bn capital shortfall",
-      "url": "https://www.privateequitywire.co.uk/golden-gate-capital-sued-over-phl-insurers-2-2bn-capital-shortfall/",
-      "publishedAt": "2026-09-29T08:43:05.000Z",
-      "source": {
-        "id": "pe-wire",
-        "name": "Private Equity Wire",
-        "homepage": "https://www.privateequitywire.co.uk/",
-        "contentType": "news"
       },
-      "section": "private-markets",
-      "firms": [],
-      "theme": {
-        "id": "insurance",
-        "label": "Insurance & Retirement"
-      },
-      "importance": 2,
-      "takeaway": "Golden Gate Capital is facing a lawsuit from policyholders of struggling life insurer PHL Variable Insurance Company, who allege that the private equity firm and its affiliate Nassau Financial Group mismanaged the business and contributed to a $2.2bn capital shortfall, according…",
-      "whyItMatters": "Alternative managers increasingly own or partner with insurers, using long-term policyholder capital to fund private credit. For allocators: the insurance–private credit link is a structural shift worth understanding for both its opportunity and its risks.",
-      "marketContext": "The 10-year Treasury yield is 5.17% (down 1 bp on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Sep 28.)",
-      "beginnerNote": {
-        "term": "Annuity",
-        "explanation": "An insurance product that pays a guaranteed income, often for life. Insurers invest the premiums, increasingly in private credit."
-      }
-    },
-    {
-      "id": "15294d905f16",
-      "title": "SEC urges greater scrutiny of private asset valuations",
-      "url": "https://www.privateequitywire.co.uk/sec-urges-greater-scrutiny-of-private-asset-valuations/",
-      "publishedAt": "2026-09-29T08:38:59.000Z",
-      "source": {
-        "id": "pe-wire",
-        "name": "Private Equity Wire",
-        "homepage": "https://www.privateequitywire.co.uk/",
-        "contentType": "news"
-      },
-      "section": "private-markets",
-      "firms": [],
-      "theme": {
-        "id": "regulation",
-        "label": "Regulation & Policy"
-      },
-      "importance": 2,
-      "takeaway": "The US Securities and Exchange Commission has issued a reminder to asset managers, auditors and other market participants to strengthen their approach to valuing private assets and explaining those valuations to investors as liquidity pressures across private markets increase…",
-      "whyItMatters": "Regulatory scrutiny of private funds is rising as the industry grows; new rules often reshape fees, disclosure and access. For allocators: new rules can change fees, transparency and eligibility, so check with advisers how they affect existing commitments.",
-      "marketContext": "The VIX is 14.2, a normal-volatility reading and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Sep 28.)",
-      "beginnerNote": {
-        "term": "Accredited investor",
-        "explanation": "An individual or entity that meets SEC wealth or income tests and is therefore allowed to invest in most private funds."
-      }
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
       "id": "114343a1f34d",
@@ -1031,19 +1105,21 @@
         "label": "M&A & Buyouts"
       },
       "importance": 3,
-      "takeaway": "Aviation services company AAR has agreed to acquire a 65% stake in Bain Capital-backed aircraft maintenance provider MRO Holdings for approximately $1.8bn, in a deal that will see the the PE firm retain an interest in the business, according to a report by the Wall Street…",
+      "takeaway": "Aviation services company AAR has agreed to acquire a 65% stake in Bain Capital-backed aircraft maintenance provider MRO Holdings for approximately $1.8bn, in a deal that will see the PE firm retain an interest in the business, according to a report by the Wall Street Journal.",
       "whyItMatters": "Bain Capital is a major private-equity and credit investor whose deals are a read on sponsor appetite in its sectors. Large transactions reset valuation benchmarks for comparable companies, public and private. For allocators: deployment pace drives when committed capital is actually called, so it matters for liquidity planning.",
-      "marketContext": "The 10-year Treasury yield is 5.17% (down 1 bp on the prior reading) and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Sep 28.)",
+      "marketContext": "The 10-year Treasury yield is 5.24% (up 7 bps on the prior reading) and high-yield credit spreads are 3.02%, near long-run norms (up 9 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Sep 29.)",
       "beginnerNote": {
         "term": "Take-private",
         "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
-      }
+      },
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
-      "id": "28481962599b",
-      "title": "Blackstone PE chief to leave firm after 28 years",
-      "url": "https://www.privateequitywire.co.uk/blackstone-pe-chief-to-leave-firm-after-28-years/",
-      "publishedAt": "2026-09-28T08:29:49.000Z",
+      "id": "873d54476df6",
+      "title": "Apax in talks to acquire Warburg Pincus stake in €6.5bn Dutch telecoms group Odido",
+      "url": "https://www.privateequitywire.co.uk/apax-in-talks-to-acquire-warburg-pincus-stake-in-e6-5bn-dutch-telecoms-group-odido/",
+      "publishedAt": "2026-09-28T09:33:45.000Z",
       "source": {
         "id": "pe-wire",
         "name": "Private Equity Wire",
@@ -1052,98 +1128,78 @@
       },
       "section": "private-equity",
       "firms": [
-        "Blackstone"
+        "Warburg Pincus"
       ],
       "theme": {
-        "id": "private-markets",
-        "label": "Private Markets"
+        "id": "deals",
+        "label": "M&A & Buyouts"
       },
       "importance": 3,
-      "takeaway": "Joe Baratta, one of Blackstone's longest-serving senior executives and a key figure in the firm's private equity business, is set to leave the alternative asset manager by the end of the year after 28 years with the firm, according to a report by Bloomberg.",
-      "whyItMatters": "Blackstone is the world's largest alternative asset manager and a leader in real estate and private-wealth products, so its moves are widely read as a bellwether for private markets. Developments in private markets show how capital is being raised, deployed and returned outside public exchanges. For allocators: private-market commitments tie up capital for years, so pacing and manager selection drive outcomes.",
-      "marketContext": "The 10-year Treasury yield is 5.17% (down 1 bp on the prior reading) and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Sep 28.)",
+      "takeaway": "Apax is in advanced discussions to acquire Warburg Pincus’ interest in Dutch telecoms operator Odido, potentially taking sole private equity ownership of the business at a valuation of about €6.5bn, according to a report by the Financial Times.",
+      "whyItMatters": "Warburg Pincus is a veteran growth-equity investor, a useful read on growth-stage private valuations. Deal activity is the heartbeat of private equity: it shows sponsors are willing to put capital to work at today's prices and financing costs. For allocators: deployment pace drives when committed capital is actually called, so it matters for liquidity planning.",
+      "marketContext": "The 10-year Treasury yield is 5.24% (up 7 bps on the prior reading) and high-yield credit spreads are 3.02%, near long-run norms (up 9 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Sep 29.)",
       "beginnerNote": {
-        "term": "Limited partner (LP)",
-        "explanation": "The investors in a private fund, such as pensions, endowments, insurers and family offices. They commit capital but do not manage the fund."
-      }
+        "term": "Take-private",
+        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
+      },
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
-      "id": "6ca1bc202487",
-      "title": "Insurer and Wealth Manager HUB Rebrands Ahead of Planned IPO",
-      "url": "https://www.wealthmanagement.com/ria-news/insurer-and-wealth-manager-hub-rebrands-ahead-of-planned-ipo",
-      "publishedAt": "2026-09-28T18:21:50.000Z",
+      "id": "5a39507849f0",
+      "title": "Temasek takes 9% stake in Italian PE firm FSI",
+      "url": "https://www.privateequitywire.co.uk/temasek-takes-9-stake-in-italian-pe-firm-fsi/",
+      "publishedAt": "2026-09-29T08:41:26.000Z",
       "source": {
-        "id": "wealthmanagement",
-        "name": "WealthManagement.com",
-        "homepage": "https://www.wealthmanagement.com/",
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
         "contentType": "news"
       },
       "section": "private-equity",
       "firms": [],
       "theme": {
-        "id": "exits",
-        "label": "Exits & Secondaries"
+        "id": "deals",
+        "label": "M&A & Buyouts"
       },
       "importance": 2,
-      "takeaway": "Hub’s rebrand aims to elevate its $207 billion workplace and individual wealth division in the marketplace, as well as its insurance and employee benefits services.",
-      "whyItMatters": "Secondaries and continuation vehicles have become key liquidity tools while traditional IPO and M&A exits recover. For allocators: distributions (DPI) are the ultimate scorecard, because paper gains only count once they turn into cash.",
-      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the VIX is 14.2, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Sep 28.)",
+      "takeaway": "Singaporean state investment company Temasek Holdings has acquired a 9% minority interest in the management company of Italian private equity firm FSI, strengthening an existing relationship between the two investors that dates back to 2018, according to a report by Bloomberg.",
+      "whyItMatters": "Deal activity is the heartbeat of private equity: it shows sponsors are willing to put capital to work at today's prices and financing costs. For allocators: deployment pace drives when committed capital is actually called, so it matters for liquidity planning.",
+      "marketContext": "The 10-year Treasury yield is 5.24% (up 7 bps on the prior reading) and high-yield credit spreads are 3.02%, near long-run norms (up 9 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Sep 29.)",
       "beginnerNote": {
-        "term": "IPO",
-        "explanation": "Initial public offering, when a private company first sells shares on a stock exchange. It is a key exit route for private-equity and venture investors."
-      }
+        "term": "Take-private",
+        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
+      },
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
-      "id": "b83e74881263",
-      "title": "Ives Ultra AI Opportunities Sought a NYSE Listing to Offer Public Access to Private AI Companies",
-      "url": "https://hedgeco.net/news/09/2026/ives-ultra-ai-opportunities-sought-a-nyse-listing-to-offer-public-access-to-private-ai-companies.html",
-      "publishedAt": "2026-09-28T10:06:17.000Z",
+      "id": "3feca038cbd3",
+      "title": "Bridgepoint, Astorg weigh £2bn-plus sale of Fenergo",
+      "url": "https://www.privateequitywire.co.uk/bridgepoint-astorg-weigh-2bn-plus-sale-of-fenergo/",
+      "publishedAt": "2026-09-29T08:40:29.000Z",
       "source": {
-        "id": "hedgeco",
-        "name": "HedgeCo Networks",
-        "homepage": "https://www.hedgeco.net/news/",
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
         "contentType": "news"
       },
       "section": "private-equity",
       "firms": [],
       "theme": {
-        "id": "exits",
-        "label": "Exits & Secondaries"
+        "id": "ai-tech",
+        "label": "AI & Technology"
       },
       "importance": 2,
-      "takeaway": "Ives Ultra AI Opportunities Inc., a newly formed closed-end fund advised by Ives Ultra Capital Management LLC, is seeking a New York Stock Exchange listing under…",
-      "whyItMatters": "Exits return cash to investors. A slow exit market has left many LPs waiting on distributions, so every sale or IPO is closely watched. For allocators: distributions (DPI) are the ultimate scorecard, because paper gains only count once they turn into cash.",
-      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the VIX is 14.2, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Sep 28.)",
+      "takeaway": "Bridgepoint and Astorg are considering a potential sale of Irish financial software provider Fenergo at a valuation of more than £2bn, according to a report by Reuters citing unnamed people familiar with the matter.",
+      "whyItMatters": "Capital flowing into AI shapes returns across asset classes, from tech equities to power infrastructure and private credit for data centers. For allocators: AI exposure often builds up across several holdings at once, so check for concentration at the portfolio level.",
+      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the VIX is 16.1, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Sep 29.)",
       "beginnerNote": {
-        "term": "Continuation vehicle",
-        "explanation": "A new fund set up by a manager to keep holding its best assets longer, while giving existing investors the option to cash out."
-      }
-    },
-    {
-      "id": "4b2c1293aa2f",
-      "title": "TrueBridge Capital Partners Closed Secondaries II at $508 Million",
-      "url": "https://hedgeco.net/news/09/2026/truebridge-capital-partners-closed-secondaries-ii-at-508-million.html",
-      "publishedAt": "2026-09-28T10:06:10.000Z",
-      "source": {
-        "id": "hedgeco",
-        "name": "HedgeCo Networks",
-        "homepage": "https://www.hedgeco.net/news/",
-        "contentType": "news"
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
       },
-      "section": "private-equity",
-      "firms": [],
-      "theme": {
-        "id": "exits",
-        "label": "Exits & Secondaries"
-      },
-      "importance": 2,
-      "takeaway": "TrueBridge Capital Partners on September 8, 2026 announced the final close of TrueBridge Secondaries II, L.P. with $508 million in commitments, according to the…",
-      "whyItMatters": "Exits return cash to investors. A slow exit market has left many LPs waiting on distributions, so every sale or IPO is closely watched. For allocators: distributions (DPI) are the ultimate scorecard, because paper gains only count once they turn into cash.",
-      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the VIX is 14.2, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Sep 28.)",
-      "beginnerNote": {
-        "term": "Fund close",
-        "explanation": "A milestone in fundraising. The first close lets a fund start investing; the final close means no new investors can join."
-      }
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
       "id": "243f0e71c8a5",
@@ -1167,11 +1223,13 @@
       "importance": 3,
       "takeaway": "Nitin Dewan has left Bobby Jain's hedge fund to join Tudor as a portfolio manager and global head of equity capital markets in New York.",
       "whyItMatters": "Brookfield is a global leader in infrastructure, renewable power and real assets, so its deals shape the market for long-lived hard assets. Hedge-fund performance and positioning show how sophisticated money is navigating current markets. For allocators: hedge funds are judged on returns that don't simply track the stock market, so check what drove performance.",
-      "marketContext": "The VIX is 14.2, a normal-volatility reading and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Sep 28.)",
+      "marketContext": "The VIX is 16.1, a normal-volatility reading and high-yield credit spreads are 3.02%, near long-run norms (up 9 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Sep 29.)",
       "beginnerNote": {
         "term": "Multi-strategy fund",
         "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
-      }
+      },
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
       "id": "70eabe4a7cf9",
@@ -1192,20 +1250,22 @@
         "id": "people",
         "label": "People & Leadership"
       },
-      "importance": 3,
+      "importance": 2,
       "takeaway": "Centerview Partners has hired Bennett Schachter from Elliott Investment Management to lead its capital advisory practice.",
       "whyItMatters": "Elliott Management is one of the most influential activist investors, and its campaigns can force strategy changes at large companies. Leadership changes at major firms can signal strategic shifts, succession planning or a new push into a growth area. For allocators: key-person changes matter because many fund agreements tie commitments to specific investment leaders.",
-      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the VIX is 14.2, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Sep 28.)",
+      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the VIX is 16.1, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Sep 29.)",
       "beginnerNote": {
         "term": "General partner (GP)",
         "explanation": "The firm that runs a private fund, picks the investments and earns fees plus a share of profits."
-      }
+      },
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
-      "id": "ac884aefb78b",
-      "title": "Millenniums new cash raise draws USD30 billion in client demand",
-      "url": "https://www.opalesque.com/fullarticle/716512/new_cash_raise_draws_USD30_billion_in651.html",
-      "publishedAt": "2026-09-27T23:33:20.000Z",
+      "id": "ef83e5ee74da",
+      "title": "iMGP DBi Managed Futures Strategy ETF (DBMF) surpasses USD5bn in assets under management",
+      "url": "https://www.opalesque.com/fullarticle/716536/iMGP_DBi_Managed_Futures_Strategy_ETF_surpasses653.html",
+      "publishedAt": "2026-09-28T23:55:00.000Z",
       "source": {
         "id": "opalesque",
         "name": "Opalesque",
@@ -1213,57 +1273,31 @@
         "contentType": "news"
       },
       "section": "hedge-funds",
-      "firms": [
-        "Millennium"
-      ],
-      "theme": {
-        "id": "hedge-funds",
-        "label": "Hedge Funds"
-      },
-      "importance": 3,
-      "takeaway": "Millennium Management 's latest capital raise attracted more than USD30bn of investor commitments, well above the USD20bn it initially sought, underscoring surging demand for the largest multistrategy hedge funds.",
-      "whyItMatters": "Millennium is a leading multi-strategy hedge fund whose growth and talent moves influence the whole pod-shop industry. Hedge-fund performance and positioning show how sophisticated money is navigating current markets. For allocators: hedge funds are judged on returns that don't simply track the stock market, so check what drove performance.",
-      "marketContext": "The VIX is 14.2, a normal-volatility reading and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Sep 28.)",
-      "beginnerNote": {
-        "term": "Multi-strategy fund",
-        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
-      }
-    },
-    {
-      "id": "f17c7cd757cd",
-      "title": "ARK Invest Tokenized Its About $1.3 Billion ARK Venture Fund on Ethereum via Securitize",
-      "url": "https://hedgeco.net/news/09/2026/ark-invest-tokenized-its-about-1-3-billion-ark-venture-fund-on-ethereum-via-securitize.html",
-      "publishedAt": "2026-09-28T10:06:02.000Z",
-      "source": {
-        "id": "hedgeco",
-        "name": "HedgeCo Networks",
-        "homepage": "https://www.hedgeco.net/news/",
-        "contentType": "news"
-      },
-      "section": "hedge-funds",
       "firms": [],
       "theme": {
-        "id": "hedge-funds",
-        "label": "Hedge Funds"
+        "id": "earnings",
+        "label": "Earnings & AUM"
       },
       "importance": 2,
-      "takeaway": "ARK Invest and Securitize on September 24, 2026 announced tokenization of the ARK Venture Fund (ARKVX) for eligible investors on Ethereum, according to Securitize’s…",
-      "whyItMatters": "Hedge funds are often the first to act on shifts in rates, currencies and volatility, so their behavior is an early signal. For allocators: hedge funds are judged on returns that don't simply track the stock market, so check what drove performance.",
-      "marketContext": "The VIX is 14.2, a normal-volatility reading and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Sep 28.)",
+      "takeaway": "The iMGP DBi Managed Futures Strategy ETF has surpassed USD5bn in assets under management, making it the largest managed futures ETF.",
+      "whyItMatters": "Earnings from the big alternative managers often set the tone for the whole private-markets industry. For allocators: manager financials reveal momentum and business priorities, which help when evaluating a GP relationship.",
+      "marketContext": "The S&P 500 stands at 7,683.69 (down 0.8% on the prior reading) and the VIX is 16.1, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Sep 29.)",
       "beginnerNote": {
-        "term": "Multi-strategy fund",
-        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
-      }
+        "term": "Assets under management (AUM)",
+        "explanation": "The total market value of money a firm invests on behalf of clients. It is the main yardstick of an asset manager's size."
+      },
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
-      "id": "8b56e21d6ab5",
-      "title": "Tidan Capital Broadened Access to Its NOVA Volatility Strategy via a UCITS Vehicle",
-      "url": "https://hedgeco.net/news/09/2026/tidan-capital-broadened-access-to-its-nova-volatility-strategy-via-a-ucits-vehicle.html",
-      "publishedAt": "2026-09-28T10:06:13.000Z",
+      "id": "7d4aca6ebd62",
+      "title": "Tokenized equities: 88% of institutional users increased activity over the past year, survey finds",
+      "url": "https://www.opalesque.com/fullarticle/716533/Tokenized_equities_of_institutional_users_increased_activity653.html",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
       "source": {
-        "id": "hedgeco",
-        "name": "HedgeCo Networks",
-        "homepage": "https://www.hedgeco.net/news/",
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
         "contentType": "news"
       },
       "section": "hedge-funds",
@@ -1273,13 +1307,15 @@
         "label": "Market Moves"
       },
       "importance": 2,
-      "takeaway": "Swedish multi-strategy firm Tidan Capital launched a UCITS version of its NOVA volatility arbitrage strategy on the Alma Capital platform, HedgeNordic reported on…",
+      "takeaway": "Matthias Knab, Opalesque for New Managers: Nearly two-thirds (65%) of professional investors expect the tokenized equities market to reach at least $10bn in on-chain trading volumes by June 2027.",
       "whyItMatters": "Big market moves change portfolio weights and can prompt rebalancing across asset classes. For allocators: short-term market moves matter most when they change long-term plans or liquidity needs.",
-      "marketContext": "The VIX is 14.2, a normal-volatility reading and high-yield credit spreads are 2.93%, historically tight (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Sep 28.)",
+      "marketContext": "The VIX is 16.1, a normal-volatility reading and high-yield credit spreads are 3.02%, near long-run norms (up 9 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Sep 29.)",
       "beginnerNote": {
-        "term": "Multi-strategy fund",
-        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
-      }
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
     },
     {
       "id": "2e22503a07cb",
@@ -1301,39 +1337,45 @@
         "label": "Investor Outlook"
       },
       "importance": 5,
-      "takeaway": "New episode: On Inside Blackstone, host Christine Anderson sits down with Relativity Space CEO & former Google CEO Eric Schmidt on the AI data center build-out, what he thinks about Silicon Valley’s timeline for superintelligence, what it takes to be an AI-native CEO, and explains why deep…",
+      "takeaway": "On Inside Blackstone, host Christine Anderson sits down with Relativity Space CEO & former Google CEO Eric Schmidt on the AI data center build-out, what he thinks about Silicon Valley’s timeline for superintelligence, what it takes to be an AI-native CEO.",
       "whyItMatters": "Blackstone is the world's largest alternative asset manager and a leader in real estate and private-wealth products, so its moves are widely read as a bellwether for private markets. Commentary from leading investors shows how the people who allocate the most capital are thinking, often before it shows up in their portfolios. For allocators: compare views across managers to see where consensus is forming and where it is not.",
-      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.17% (down 1 bp on the prior reading) and the 10Y–2Y yield curve is +0.32 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Sep 28.)",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.24% (up 7 bps on the prior reading) and the 10Y–2Y yield curve is +0.37 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Sep 29.)",
       "beginnerNote": {
         "term": "Market cycle",
         "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
-      }
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
     },
     {
-      "id": "f4fe4da5239c",
-      "title": "Why Building a Crosswalk in LA Is Kafkaesque",
-      "url": "https://omny.fm/shows/odd-lots/why-building-a-crosswalk-in-la-is-kafkaesque",
-      "publishedAt": "2026-09-28T08:00:00.000Z",
+      "id": "cd7b36869470",
+      "title": "How Family Businesses Should Plan for Generational Success",
+      "url": "https://www.goldmansachs.com/insights/series/exchanges-at-goldman-sachs/index.html",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
       "source": {
-        "id": "odd-lots",
-        "name": "Odd Lots (Bloomberg podcast)",
-        "homepage": "https://www.bloomberg.com/oddlots",
+        "id": "gs-exchanges",
+        "name": "Goldman Sachs Exchanges",
+        "homepage": "https://www.goldmansachs.com/insights/podcasts/",
         "contentType": "podcast"
       },
       "section": "voices",
-      "firms": [],
+      "firms": [
+        "Goldman Sachs"
+      ],
       "theme": {
-        "id": "real-estate",
-        "label": "Real Estate"
+        "id": "voices",
+        "label": "Investor Outlook"
       },
-      "importance": 2,
-      "takeaway": "New episode: Bill McBride did not just predict the 2008 housing bubble, he helped invent financial blogging with his Calculated Risk newsletter.",
-      "whyItMatters": "Real estate is highly sensitive to interest rates, so it is often the first place higher or lower borrowing costs show up in valuations. For allocators: check whether exposure is concentrated in sectors with structural demand or in those facing lasting headwinds.",
-      "marketContext": "The 10-year Treasury yield is 5.17% (down 1 bp on the prior reading) and the 10Y–2Y yield curve is +0.32 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Sep 28.)",
+      "importance": 4,
+      "takeaway": "Companies with significant family ownership generate roughly 70% of global economic output and 60% of the world’s jobs.",
+      "whyItMatters": "Goldman Sachs is a top global investment bank and growing alternatives manager, with a front-row view of deal, capital-markets and client flows. Hearing how top investors frame risk and opportunity is one of the fastest ways to build judgment about markets. For allocators: compare views across managers to see where consensus is forming and where it is not.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.24% (up 7 bps on the prior reading) and the 10Y–2Y yield curve is +0.37 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Sep 29.)",
       "beginnerNote": {
-        "term": "REIT",
-        "explanation": "Real estate investment trust, a company that owns income-producing property and must pay out most of its income to shareholders."
-      }
+        "term": "IPO",
+        "explanation": "Initial public offering, when a private company first sells shares on a stock exchange. It is a key exit route for private-equity and venture investors."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
     },
     {
       "id": "4ddc83ce0da2",
@@ -1353,13 +1395,15 @@
         "label": "Investor Outlook"
       },
       "importance": 2,
-      "takeaway": "My guest today is Noah Shinn. Noah is the founder of Instinct, a personal assistant that you text, call, or email the same way you would a person.",
+      "takeaway": "Noah is the founder of Instinct, a personal assistant that you text, call, or email the same way you would a person.",
       "whyItMatters": "Hearing how top investors frame risk and opportunity is one of the fastest ways to build judgment about markets. For allocators: compare views across managers to see where consensus is forming and where it is not.",
-      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.17% (down 1 bp on the prior reading) and the 10Y–2Y yield curve is +0.32 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Sep 28.)",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.24% (up 7 bps on the prior reading) and the 10Y–2Y yield curve is +0.37 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Sep 29.)",
       "beginnerNote": {
         "term": "Market cycle",
         "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
-      }
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
     },
     {
       "id": "17ab4d06fcc7",
@@ -1379,19 +1423,22 @@
         "label": "Investor Outlook"
       },
       "importance": 2,
-      "takeaway": "New episode: Nancy Zimmerman is the co-founder and Managing Partner of Bracebridge Capital, a $13 billion alternative asset manager specializing in fixed income arbitrage that she founded over 30 years ago, in 1994, alongside Gabe Sunshine with capital from David Swensen at Yale.",
+      "takeaway": "Nancy Zimmerman is the co-founder and Managing Partner of Bracebridge Capital, a $13 billion alternative asset manager specializing in fixed income arbitrage that she founded over 30 years ago, in 1994, alongside Gabe Sunshine with capital from David Swensen at Yale.",
       "whyItMatters": "Commentary from leading investors shows how the people who allocate the most capital are thinking, often before it shows up in their portfolios. For allocators: compare views across managers to see where consensus is forming and where it is not.",
-      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.17% (down 1 bp on the prior reading) and the 10Y–2Y yield curve is +0.32 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Sep 28.)",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.24% (up 7 bps on the prior reading) and the 10Y–2Y yield curve is +0.37 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Sep 29.)",
       "beginnerNote": {
         "term": "Market cycle",
         "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
-      }
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
     }
   ],
   "stats": {
     "sourcesChecked": 37,
     "sourcesOk": 28,
-    "candidates": 97,
-    "selected": 24
+    "candidates": 115,
+    "selected": 24,
+    "aiWritten": 0
   }
 }
