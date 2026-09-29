@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import { CORE_FIRMS, SECTIONS, type ContentType, type Digest, type DigestItem, type SectionId } from "../../pipeline/types";
-import { CONTENT_TYPE_LABEL, publishedLabel } from "../lib/format";
+import { CORE_FIRMS, SECTIONS, type Digest, type DigestItem, type SectionId, type StoryType } from "../../pipeline/types";
+import { publishedLabel, STORY_TYPE_LABEL, STORY_TYPES, storyTypeOf } from "../lib/format";
 import { DigestCard } from "./DigestCard";
 import { MarketStrip } from "./MarketStrip";
 import { MorningBrief } from "./MorningBrief";
@@ -8,7 +8,7 @@ import { MorningBrief } from "./MorningBrief";
 interface Filters {
   section: SectionId | "all";
   firm: string;
-  type: ContentType | "";
+  type: StoryType | "";
   theme: string | null;
   q: string;
 }
@@ -18,7 +18,7 @@ const EMPTY: Filters = { section: "all", firm: "", type: "", theme: null, q: "" 
 function matches(item: DigestItem, f: Filters): boolean {
   if (f.section !== "all" && item.section !== f.section) return false;
   if (f.firm && !item.firms.includes(f.firm)) return false;
-  if (f.type && item.source.contentType !== f.type) return false;
+  if (f.type && storyTypeOf(item) !== f.type) return false;
   if (f.theme && item.theme.id !== f.theme) return false;
   if (f.q) {
     const hay = `${item.title} ${item.takeaway} ${item.whyItMatters} ${item.source.name} ${item.firms.join(" ")} ${item.theme.label}`.toLowerCase();
@@ -54,7 +54,10 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
     return [...m.entries()].sort((a, b) => Number(CORE_FIRMS.includes(b[0])) - Number(CORE_FIRMS.includes(a[0])) || b[1] - a[1] || a[0].localeCompare(b[0]));
   }, [digest.items]);
 
-  const types = useMemo(() => [...new Set(digest.items.map((i) => i.source.contentType))], [digest.items]);
+  const types = useMemo(() => {
+    const present = new Set(digest.items.map(storyTypeOf));
+    return STORY_TYPES.filter((t) => present.has(t));
+  }, [digest.items]);
 
   return (
     <>
@@ -135,14 +138,14 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
               </select>
               <select
                 value={filters.type}
-                onChange={(e) => set({ type: e.target.value as ContentType | "" })}
-                aria-label="Filter by content type"
+                onChange={(e) => set({ type: e.target.value as StoryType | "" })}
+                aria-label="Filter by story type"
                 className="min-w-0 rounded-lg border border-rule bg-surface px-2.5 py-2 text-[14px] text-ink"
               >
-                <option value="">All formats</option>
+                <option value="">All story types</option>
                 {types.map((t) => (
                   <option key={t} value={t}>
-                    {CONTENT_TYPE_LABEL[t]}
+                    {STORY_TYPE_LABEL[t]}
                   </option>
                 ))}
               </select>

@@ -1,5 +1,26 @@
-import type { DigestItem } from "../../pipeline/types";
-import { CONTENT_TYPE_LABEL, hostOf, publishedLabel } from "../lib/format";
+import type { DigestItem, StoryType } from "../../pipeline/types";
+import { hostOf, publishedLabel, STORY_TYPE_LABEL, storyTypeOf } from "../lib/format";
+
+const TYPE_ICON: Record<StoryType, React.ReactNode> = {
+  news: <path d="M3 3.5h8v9H4a1 1 0 0 1-1-1v-8Zm8 2h2v6a1 1 0 0 1-2 0M5 6h4M5 8.5h4M5 11h2.5" />,
+  quote: <path d="M3 9.5c0-2.5 1-4 3-5M3 9.5h2.5V12H3Zm6 0c0-2.5 1-4 3-5M9 9.5h2.5V12H9Z" />,
+  podcast: <path d="M8 2.5a2 2 0 0 1 2 2V8a2 2 0 0 1-4 0V4.5a2 2 0 0 1 2-2ZM4.5 7.5a3.5 3.5 0 0 0 7 0M8 11v2.5" />,
+  filing: <path d="M4 2.5h5l3 3v8H4Zm5 0v3h3M6 9h4M6 11h4" />,
+  letter: <path d="M2.5 4h11v8h-11Zm0 0L8 8.5 13.5 4" />,
+};
+
+/** "News", "Direct Quote", "Podcast", "Filing" or "Letter", so readers know what kind of source this is. */
+export function StoryTypeBadge({ item }: { item: DigestItem }) {
+  const type = storyTypeOf(item);
+  return (
+    <span className="inline-flex items-center gap-1 rounded-full border border-rule px-2 py-0.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-soft">
+      <svg aria-hidden viewBox="0 0 16 16" className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
+        {TYPE_ICON[type]}
+      </svg>
+      {STORY_TYPE_LABEL[type]}
+    </span>
+  );
+}
 
 export function Importance({ level }: { level: number }) {
   return (
@@ -57,7 +78,7 @@ export function DigestCard({ item, onFirm }: Props) {
       <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-[12px]">
         <span className="sec-text sec-tint rounded-full px-2 py-0.5 font-semibold">{item.theme.label}</span>
         <Importance level={item.importance} />
-        <span className="text-muted">{CONTENT_TYPE_LABEL[item.source.contentType]}</span>
+        <StoryTypeBadge item={item} />
       </div>
 
       <h3 className="font-display mt-3 text-[21px] leading-snug font-semibold text-ink sm:text-[23px]">
@@ -121,12 +142,17 @@ export function DigestCard({ item, onFirm }: Props) {
           href={item.url}
           target="_blank"
           rel="noreferrer"
-          className="inline-flex items-center gap-1 text-[13px] font-semibold text-accent hover:underline"
+          className="group inline-flex flex-wrap items-center gap-x-1.5 text-[12px] text-muted"
+          title={item.aiSummarized ? "The takeaway was written by AI from the publisher's headline and excerpt" : "The takeaway is taken from the publisher's own excerpt"}
         >
-          Read at {hostOf(item.url)}
-          <svg aria-hidden viewBox="0 0 16 16" className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth="1.8">
-            <path d="M5 11 11 5M6 5h5v5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
+          <span>{item.aiSummarized ? "AI-summarized" : "Summary from the source's excerpt"}</span>
+          <span aria-hidden>·</span>
+          <span className="inline-flex items-center gap-1 font-semibold text-accent group-hover:underline">
+            Read the original at {hostOf(item.url)}
+            <svg aria-hidden viewBox="0 0 16 16" className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth="1.8">
+              <path d="M5 11 11 5M6 5h5v5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </span>
         </a>
       </div>
     </article>

@@ -6,6 +6,7 @@ import { FIRM_PROFILES, leadFirm } from "./firms";
 import { findTerm } from "./glossary";
 import { cap, MarketView, sentence } from "./market";
 import { classify, pickBySeed, resolveSection, type Theme } from "./themes";
+import { storyTypeOf } from "./storyType";
 import { cleanTitle, extractTakeaway } from "./takeaway";
 
 /**
@@ -55,6 +56,8 @@ export function enrichItem(item: RawItem, market: MarketView, now: Date): Digest
     whyItMatters: whyItMatters(item, theme),
     marketContext: marketContext(theme, market),
     beginnerNote: term ? { term: term.term, explanation: term.explanation } : null,
+    storyType: storyTypeOf(item),
+    aiSummarized: false,
     rank: raw + theme.weight,
   };
 }
@@ -105,7 +108,10 @@ export async function applyAI(sel: Selection, write: (items: RawItem[]) => Promi
   for (const item of sel.items) {
     const f = fields.get(item.id);
     if (!f) continue;
-    if (f.takeaway) item.takeaway = f.takeaway;
+    if (f.takeaway) {
+      item.takeaway = f.takeaway;
+      item.aiSummarized = true;
+    }
     written++;
   }
   return written;

@@ -1,4 +1,4 @@
-import type { ContentType, MarketSeries } from "../../pipeline/types";
+import type { ContentType, DigestItem, MarketSeries, StoryType } from "../../pipeline/types";
 
 const TZ = "America/New_York";
 
@@ -61,6 +61,24 @@ export const CONTENT_TYPE_LABEL: Record<ContentType, string> = {
   regulator: "Regulator",
   research: "Research",
 };
+
+export const STORY_TYPE_LABEL: Record<StoryType, string> = {
+  news: "News",
+  quote: "Direct Quote",
+  podcast: "Podcast",
+  filing: "Filing",
+  letter: "Letter",
+};
+
+export const STORY_TYPES = Object.keys(STORY_TYPE_LABEL) as StoryType[];
+
+/** Story type, derived from the source for editions published before the field existed. */
+export function storyTypeOf(item: DigestItem): StoryType {
+  if (item.storyType) return item.storyType;
+  if (item.source.contentType === "podcast") return "podcast";
+  if (item.source.contentType === "filing") return "filing";
+  return "news";
+}
 
 export function hostOf(url: string): string {
   try {

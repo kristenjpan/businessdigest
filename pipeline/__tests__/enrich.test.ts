@@ -6,6 +6,7 @@ import { validTakeaway, writeWithAI } from "../enrich/ai";
 import { findTerm, GLOSSARY } from "../enrich/glossary";
 import { describeMove, hyRegime, MarketView, vixRegime } from "../enrich/market";
 import { cleanExcerpt, extractTakeaway, splitSentences, trimToClause } from "../enrich/takeaway";
+import { storyTypeOf } from "../enrich/storyType";
 import { classify, THEMES } from "../enrich/themes";
 import type { ArchiveIndex, MarketSeries, RawItem, SourceRef } from "../types";
 
@@ -269,6 +270,24 @@ describe("AI writer (GitHub Models)", () => {
     const n = await applyAI(sel, async () => new Map([[first.id, { takeaway: "Blackstone agreed to buy a software maker and take it private." }]]));
     expect(n).toBe(1);
     expect(first.takeaway).toBe("Blackstone agreed to buy a software maker and take it private.");
+    expect(first.aiSummarized).toBe(true);
     expect(second.takeaway).toBe(before);
+    expect(second.aiSummarized).toBe(false);
+  });
+});
+
+describe("story type", () => {
+  const src = (id: string, contentType: SourceRef["contentType"]): SourceRef => ({ id, name: id, homepage: "", contentType });
+
+  it("labels filings, letters, podcasts, direct quotes and news", () => {
+    expect(storyTypeOf(raw({ source: src("edgar-bx", "filing"), title: "Blackstone Inc. files Form 10-Q" }))).toBe("filing");
+    expect(storyTypeOf(raw({ source: src("oaktree-memo", "podcast"), title: "Shall We Repeal the Laws of Economics" }))).toBe("letter");
+    expect(storyTypeOf(raw({ title: "Pershing Square publishes annual letter to shareholders" }))).toBe("letter");
+    expect(storyTypeOf(raw({ source: src("capital-allocators", "podcast"), title: "Nancy Zimmerman on fixed income arbitrage" }))).toBe("podcast");
+    expect(storyTypeOf(raw({ source: src("fed-speeches", "regulator"), title: "Cook, An Update on AI and the Economy" }))).toBe("quote");
+    expect(storyTypeOf(raw({ title: "Dimon warns private credit is heading for trouble" }))).toBe("quote");
+    expect(storyTypeOf(raw({ title: "‘There is no need for urgency,’ Williams tells investors" }))).toBe("quote");
+    expect(storyTypeOf(raw({ title: "AAR to acquire 65% of Bain-backed MRO Holdings in $1.8bn deal" }))).toBe("news");
+    expect(storyTypeOf(raw({ source: src("sec-press", "regulator"), title: "SEC Charges Adviser for Undisclosed Conflicts" }))).toBe("news");
   });
 });

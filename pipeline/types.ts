@@ -47,6 +47,9 @@ export interface ThemeRef {
   label: string;
 }
 
+/** Reader-facing story type: reporting, someone's own words, a podcast, a filing or a letter. */
+export type StoryType = "news" | "quote" | "podcast" | "filing" | "letter";
+
 export interface DigestItem {
   id: string;
   title: string;
@@ -61,6 +64,8 @@ export interface DigestItem {
   whyItMatters: string;
   marketContext: string;
   beginnerNote: BeginnerNote | null;
+  storyType?: StoryType; // absent in editions published before Sep 30, 2026
+  aiSummarized?: boolean; // true when the takeaway was written by the AI writer
 }
 
 export interface MarketPoint {
