@@ -6,7 +6,9 @@ export type Route =
   | { page: "archive" }
   | { page: "glossary" }
   | { page: "sources" }
-  | { page: "about" };
+  | { page: "about" }
+  | { page: "saved" }
+  | { page: "account" };
 
 export function parseHash(hash: string): Route {
   const path = hash.replace(/^#\/?/, "").split("?")[0];
@@ -18,6 +20,8 @@ export function parseHash(hash: string): Route {
     case "glossary":
     case "sources":
     case "about":
+    case "saved":
+    case "account":
       return { page: head };
     default:
       return { page: "today" };

@@ -15,6 +15,33 @@ export type SectionId = (typeof SECTIONS)[number]["id"];
 /** The firms the digest is built around: boosted in ranking and listed first in the site's firm filter. */
 export const CORE_FIRMS: readonly string[] = ["Blackstone", "KKR", "Apollo", "Carlyle", "Bridgewater"];
 
+/**
+ * Every firm the pipeline tags (core firms first), as plain names the browser can use for reader
+ * preferences. Must match the keys of FIRM_PATTERNS in normalize.ts; a test enforces it.
+ */
+export const TRACKED_FIRMS: readonly string[] = [
+  ...CORE_FIRMS,
+  "Brookfield",
+  "Ares",
+  "Blue Owl",
+  "TPG",
+  "Oaktree",
+  "BlackRock",
+  "Goldman Sachs",
+  "J.P. Morgan",
+  "Morgan Stanley",
+  "Citadel",
+  "Millennium",
+  "Elliott",
+  "Pershing Square",
+  "Berkshire",
+  "Bain Capital",
+  "Thoma Bravo",
+  "Warburg Pincus",
+  "EQT",
+  "Vista Equity",
+];
+
 export type SourceKind = "rss" | "edgar" | "fred";
 export type ContentType = "news" | "press-release" | "podcast" | "filing" | "regulator" | "research";
 

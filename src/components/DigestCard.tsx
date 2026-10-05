@@ -1,4 +1,5 @@
 import type { DigestItem, StoryType } from "../../pipeline/types";
+import { useAccount } from "../lib/account";
 import { hostOf, publishedLabel, STORY_TYPE_LABEL, storyTypeOf } from "../lib/format";
 
 const TYPE_ICON: Record<StoryType, React.ReactNode> = {
@@ -68,9 +69,11 @@ const icons = {
 interface Props {
   item: DigestItem;
   onFirm?: (firm: string) => void;
+  /** The edition this card belongs to; enables the Save button. */
+  editionDate?: string;
 }
 
-export function DigestCard({ item, onFirm }: Props) {
+export function DigestCard({ item, onFirm, editionDate }: Props) {
   return (
     <article data-section={item.section} className="relative rounded-xl border border-rule bg-surface p-5 sm:p-6">
       <span aria-hidden className="sec-bg absolute top-5 bottom-5 left-0 w-[3px] rounded-r sm:top-6 sm:bottom-6" />
@@ -79,6 +82,7 @@ export function DigestCard({ item, onFirm }: Props) {
         <span className="sec-text sec-tint rounded-full px-2 py-0.5 font-semibold">{item.theme.label}</span>
         <Importance level={item.importance} />
         <StoryTypeBadge item={item} />
+        {editionDate && <SaveButton item={item} editionDate={editionDate} />}
       </div>
 
       <h3 className="font-display mt-3 text-[21px] leading-snug font-semibold text-ink sm:text-[23px]">
@@ -156,5 +160,27 @@ export function DigestCard({ item, onFirm }: Props) {
         </a>
       </div>
     </article>
+  );
+}
+
+/** Bookmark toggle. Works signed out (saved in this browser) and signed in (saved to the account). */
+function SaveButton({ item, editionDate }: { item: DigestItem; editionDate: string }) {
+  const { isSaved, toggleSave } = useAccount();
+  const saved = isSaved(item.id);
+  return (
+    <button
+      type="button"
+      aria-pressed={saved}
+      onClick={() => void toggleSave(item, editionDate)}
+      className={`print-hidden ml-auto inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-[12px] font-semibold transition-colors ${
+        saved ? "border-accent bg-accent text-accent-ink" : "border-rule text-ink-soft hover:border-rule-strong hover:bg-surface-muted"
+      }`}
+      title={saved ? "Remove from Saved" : "Save for later"}
+    >
+      <svg aria-hidden viewBox="0 0 16 16" className="h-3 w-3" fill={saved ? "currentColor" : "none"} stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round">
+        <path d="M4 2.5h8v11L8 10.5l-4 3Z" />
+      </svg>
+      {saved ? "Saved" : "Save"}
+    </button>
   );
 }

@@ -1,3 +1,4 @@
+import { useAccount } from "../lib/account";
 import type { Route, Theme } from "../lib/hooks";
 import { SITE } from "../lib/site";
 
@@ -7,6 +8,7 @@ const NAV: { href: string; label: string; pages: Route["page"][] }[] = [
   { href: "#/glossary", label: "Glossary", pages: ["glossary"] },
   { href: "#/sources", label: "Sources", pages: ["sources"] },
   { href: "#/about", label: "About", pages: ["about"] },
+  { href: "#/saved", label: "Saved", pages: ["saved"] },
 ];
 
 const THEME_NEXT: Record<Theme, Theme> = { system: "light", light: "dark", dark: "system" };
@@ -17,15 +19,17 @@ interface Props {
   theme: Theme;
   onTheme: (t: Theme) => void;
   editionLine: string | null;
+  onSignIn: () => void;
 }
 
-export function Masthead({ route, theme, onTheme, editionLine }: Props) {
+export function Masthead({ route, theme, onTheme, editionLine, onSignIn }: Props) {
+  const account = useAccount();
   return (
     <header className="bg-masthead text-masthead-ink print:border-b print:border-black">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 border-b border-white/10 py-2 text-[12px] tracking-wide text-masthead-ink/70">
           <span className="tabular">{editionLine ?? "Daily investment intelligence"}</span>
-          <span className="hidden sm:inline">Free · No sign-up · Not investment advice</span>
+          <span className="hidden sm:inline">Free to read · Account optional · Not investment advice</span>
         </div>
 
         <div className="flex flex-col gap-4 py-6 sm:flex-row sm:items-end sm:justify-between">
@@ -36,6 +40,27 @@ export function Masthead({ route, theme, onTheme, editionLine }: Props) {
           </a>
 
           <div className="print-hidden flex shrink-0 items-center gap-2">
+            {account.authEnabled && account.ready &&
+              (account.user ? (
+                <a
+                  href="#/account"
+                  className="inline-flex items-center gap-2 rounded-full border border-white/25 py-1 pr-3 pl-1 text-[13px] font-medium text-masthead-ink hover:border-white/60"
+                  title={`Signed in as ${account.user.email}`}
+                >
+                  <span aria-hidden className="grid h-6 w-6 place-items-center rounded-full bg-[#5cc4a6] text-[12px] font-semibold text-[#0a0f14] uppercase">
+                    {account.user.email.charAt(0) || "?"}
+                  </span>
+                  Account
+                </a>
+              ) : (
+                <button
+                  type="button"
+                  onClick={onSignIn}
+                  className="rounded-full bg-[#5cc4a6] px-3.5 py-1.5 text-[13px] font-semibold text-[#0a0f14] hover:bg-[#7ed3ba]"
+                >
+                  Sign in
+                </button>
+              ))}
             <button
               type="button"
               onClick={() => onTheme(THEME_NEXT[theme])}
@@ -60,6 +85,9 @@ export function Masthead({ route, theme, onTheme, editionLine }: Props) {
                 }`}
               >
                 {n.label}
+                {n.href === "#/saved" && account.saved.length > 0 && (
+                  <span className="tabular ml-1.5 rounded-full bg-white/15 px-1.5 py-px text-[11px]">{account.saved.length}</span>
+                )}
               </a>
             );
           })}

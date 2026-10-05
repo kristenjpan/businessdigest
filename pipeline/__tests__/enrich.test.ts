@@ -308,3 +308,11 @@ describe("Private Markets vs Family Offices & Wealth", () => {
     expect(resolveSection(macro, classify(macro))).not.toBe("family-offices");
   });
 });
+
+describe("browser-safe firm list", () => {
+  it("TRACKED_FIRMS lists exactly the firms the pipeline tags", async () => {
+    const { FIRM_PATTERNS } = await import("../normalize");
+    const { TRACKED_FIRMS } = await import("../types");
+    expect([...TRACKED_FIRMS].sort()).toEqual(Object.keys(FIRM_PATTERNS).sort());
+  });
+});

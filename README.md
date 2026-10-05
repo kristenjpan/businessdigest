@@ -54,6 +54,21 @@ git push -u origin main
 
 The repo ships with a first edition already generated, so the site has content the moment it deploys. If a daily run fails (for example, fewer than 8 usable stories), nothing is committed and yesterday's edition stays live.
 
+## Reader accounts (optional)
+
+Readers can sign in with **email and password** or **Google** to keep saved stories across devices and to choose the sections and firms they follow. Their picks get a **For you** pill, and their chosen sections move to the top of the edition. Accounts are never required. Without one, everything is free to read and **Save** keeps stories in that browser; those saves move into the account at sign-in.
+
+Accounts use [Supabase](https://supabase.com) (free tier). Without the two environment variables below, the Sign in button is hidden and the site works as before.
+
+1. **Create a Supabase project.** Under **Project Settings → API Keys**, copy the **Project URL** and the **publishable key** (`sb_publishable_…`). The publishable key is designed to be public; Row Level Security protects each reader's data. Never use the secret key here.
+2. **Create the tables.** In the **SQL Editor**, paste [`supabase/schema.sql`](supabase/schema.sql) and click **Run**. It creates `saved_stories` and `preferences` with Row Level Security, so each reader can reach only their own rows.
+3. **Email sign-in.** Under **Authentication → Sign In / Providers → Email**, keep it on and turn **Confirm email** off. Supabase's built-in email service only delivers to your own project team, about 2 messages an hour, so confirmation emails would never reach readers. Password-reset emails have the same limit until you add a custom SMTP provider under **Authentication → Emails → SMTP**; Resend, Postmark and Brevo have free tiers but need a domain you own.
+4. **Redirect URLs.** Under **Authentication → URL Configuration**, set **Site URL** to your Vercel URL. Add the Vercel URL and `http://localhost:5188` under **Redirect URLs**.
+5. **Google sign-in.** In the Google Cloud Console, create an OAuth client ID of type **Web application**, with authorized redirect URI `https://<your-project>.supabase.co/auth/v1/callback`. Paste its client ID and secret into **Authentication → Sign In / Providers → Google** in Supabase. The secret stays in Supabase, never in this repository.
+6. **Vercel.** Under **Project → Settings → Environment Variables**, add `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` for Production and Preview, then redeploy.
+7. **Keep the project awake.** Free Supabase projects pause after about a week without activity. Under **GitHub → Settings → Secrets and variables → Actions → Variables**, add `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY`. The daily workflow then makes one small read each morning.
+8. **Local testing.** Create `.env.local` in the project folder with the same two `VITE_…` lines. It is ignored by git.
+
 ## Run locally
 
 ```bash
@@ -117,6 +132,7 @@ pipeline/                 daily build (Node + tsx)
   __tests__/              vitest suites
 scripts/check-feeds.ts    source health check
 src/                      React + Tailwind site (hash routing, static)
+supabase/schema.sql       tables and Row Level Security for optional reader accounts
 public/data/              generated editions (committed by the Action)
 .github/workflows/        daily-digest.yml
 vercel.json               static build settings

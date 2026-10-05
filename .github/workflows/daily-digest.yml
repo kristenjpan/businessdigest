@@ -54,3 +54,13 @@ jobs:
           fi
           git commit -m "Daily digest: $(TZ=America/New_York date +%Y-%m-%d)"
           git push
+
+      # Optional reader accounts: free Supabase projects pause after about a week without activity.
+      # One read a day keeps it awake. Row Level Security returns nothing to this public key.
+      - name: Keep the reader-accounts database awake
+        if: ${{ vars.SUPABASE_URL != '' && vars.SUPABASE_PUBLISHABLE_KEY != '' }}
+        continue-on-error: true
+        run: |
+          curl -sS -o /dev/null -w "Supabase keep-alive: HTTP %{http_code}\n" \
+            -H "apikey: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}" \
+            "${{ vars.SUPABASE_URL }}/rest/v1/preferences?select=user_id&limit=1"

@@ -1,16 +1,21 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import type { Digest } from "../pipeline/types";
 import { DigestView } from "./components/DigestView";
 import { Masthead } from "./components/Masthead";
+import { SignInDialog } from "./components/SignInDialog";
 import { loadEdition, loadLatest } from "./lib/data";
 import { generatedLabel, longDate } from "./lib/format";
 import { useHashRoute, useTheme } from "./lib/hooks";
 import { SITE } from "./lib/site";
+import { AccountPage, SavedPage } from "./pages/AccountPages";
 import { AboutPage, ArchivePage, EmptyState, Footer, GlossaryPage, LoadingState, SourcesPage } from "./pages/Pages";
 
 export default function App() {
   const route = useHashRoute();
   const [theme, setTheme] = useTheme();
+  const [signInOpen, setSignInOpen] = useState(false);
+  const openSignIn = useCallback(() => setSignInOpen(true), []);
+  const closeSignIn = useCallback(() => setSignInOpen(false), []);
   // undefined = loading, null = not found / not published yet
   const [latest, setLatest] = useState<Digest | null | undefined>(undefined);
   const [edition, setEdition] = useState<Digest | null | undefined>(undefined);
@@ -48,6 +53,12 @@ export default function App() {
       break;
     case "about":
       body = <AboutPage />;
+      break;
+    case "saved":
+      body = <SavedPage onSignIn={openSignIn} />;
+      break;
+    case "account":
+      body = <AccountPage onSignIn={openSignIn} />;
       break;
     case "edition":
       body =
@@ -87,11 +98,12 @@ export default function App() {
       >
         Skip to content
       </a>
-      <Masthead route={route} theme={theme} onTheme={setTheme} editionLine={editionLine} />
+      <Masthead route={route} theme={theme} onTheme={setTheme} editionLine={editionLine} onSignIn={openSignIn} />
       <main id="main" tabIndex={-1} className="mx-auto max-w-6xl px-4 outline-none sm:px-6">
         {body}
       </main>
       <Footer generatedAt={shown?.generatedAt} engine={shown?.engine} />
+      {signInOpen && <SignInDialog onClose={closeSignIn} />}
     </div>
   );
 }

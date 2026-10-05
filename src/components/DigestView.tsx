@@ -1,12 +1,14 @@
 import { useMemo, useState } from "react";
 import { CORE_FIRMS, SECTIONS, type Digest, type DigestItem, type SectionId, type StoryType } from "../../pipeline/types";
+import { useAccount } from "../lib/account";
 import { publishedLabel, STORY_TYPE_LABEL, STORY_TYPES, storyTypeOf } from "../lib/format";
+import { hasPrefs, matchesPrefs, orderSections, type Prefs } from "../lib/personalize";
 import { DigestCard } from "./DigestCard";
 import { MarketStrip } from "./MarketStrip";
 import { MorningBrief } from "./MorningBrief";
 
 interface Filters {
-  section: SectionId | "all";
+  section: SectionId | "all" | "foryou";
   firm: string;
   type: StoryType | "";
   theme: string | null;
@@ -15,8 +17,10 @@ interface Filters {
 
 const EMPTY: Filters = { section: "all", firm: "", type: "", theme: null, q: "" };
 
-function matches(item: DigestItem, f: Filters): boolean {
-  if (f.section !== "all" && item.section !== f.section) return false;
+function matches(item: DigestItem, f: Filters, prefs: Prefs): boolean {
+  if (f.section === "foryou") {
+    if (!matchesPrefs(item, prefs)) return false;
+  } else if (f.section !== "all" && item.section !== f.section) return false;
   if (f.firm && !item.firms.includes(f.firm)) return false;
   if (f.type && storyTypeOf(item) !== f.type) return false;
   if (f.theme && item.theme.id !== f.theme) return false;
@@ -34,11 +38,18 @@ function scrollToItem(id: string) {
 }
 
 export function DigestView({ digest, archived }: { digest: Digest; archived?: boolean }) {
-  const [filters, setFilters] = useState<Filters>(EMPTY);
+  const { prefs } = useAccount();
+  const personalized = hasPrefs(prefs);
+  // A reader's chosen sections lead the page; everyone else sees the usual order.
+  const sections = useMemo(() => orderSections(SECTIONS, prefs), [prefs]);
+  const forYouCount = useMemo(() => digest.items.filter((i) => matchesPrefs(i, prefs)).length, [digest.items, prefs]);
+  const [rawFilters, setFilters] = useState<Filters>(EMPTY);
+  // If preferences are cleared while "For you" is selected, fall back to All.
+  const filters = rawFilters.section === "foryou" && !personalized ? { ...rawFilters, section: "all" as const } : rawFilters;
   const set = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
   const active = JSON.stringify(filters) !== JSON.stringify(EMPTY);
 
-  const visible = useMemo(() => digest.items.filter((i) => matches(i, filters)), [digest.items, filters]);
+  const visible = useMemo(() => digest.items.filter((i) => matches(i, filters, prefs)), [digest.items, filters, prefs]);
   const byId = useMemo(() => new Map(digest.items.map((i) => [i.id, i])), [digest.items]);
   const tops = (digest.topStoryIds ?? []).map((id) => byId.get(id)).filter((i): i is DigestItem => Boolean(i));
 
@@ -100,8 +111,11 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
         <div className="min-w-0">
           <div className="print-hidden z-10 -mx-4 border-b sm:sticky sm:top-0 border-rule bg-paper/95 px-4 pt-3 pb-3 backdrop-blur sm:mx-0 sm:px-0">
             <div className="no-scrollbar -mx-4 flex gap-1.5 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0" role="tablist" aria-label="Sections">
+              {personalized && (
+                <SectionTab label="For you" count={forYouCount} active={filters.section === "foryou"} onClick={() => set({ section: "foryou" })} forYou />
+              )}
               <SectionTab label="All" count={digest.items.length} active={filters.section === "all"} onClick={() => set({ section: "all" })} />
-              {SECTIONS.filter((s) => sectionCounts.get(s.id)).map((s) => (
+              {sections.filter((s) => sectionCounts.get(s.id)).map((s) => (
                 <SectionTab
                   key={s.id}
                   section={s.id}
@@ -166,7 +180,7 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
           {visible.length === 0 ? (
             <p className="py-16 text-center text-muted">No stories match these filters.</p>
           ) : (
-            SECTIONS.map((s) => {
+            sections.map((s) => {
               const items = visible.filter((i) => i.section === s.id);
               if (!items.length) return null;
               return (
@@ -180,7 +194,7 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
                   <div className="mt-4 space-y-4">
                     {items.map((item) => (
                       <div key={item.id} id={`item-${item.id}`} className="scroll-mt-44">
-                        <DigestCard item={item} onFirm={(firm) => set({ firm })} />
+                        <DigestCard item={item} editionDate={digest.date} onFirm={(firm) => set({ firm })} />
                       </div>
                     ))}
                   </div>
@@ -201,7 +215,7 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
                 <Stat label="Edition" value={`#${digest.edition}`} />
               </dl>
               <ul className="mt-4 space-y-1.5 border-t border-rule pt-3">
-                {SECTIONS.filter((s) => sectionCounts.get(s.id)).map((s) => (
+                {sections.filter((s) => sectionCounts.get(s.id)).map((s) => (
                   <li key={s.id} data-section={s.id}>
                     <button
                       type="button"
@@ -254,7 +268,21 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
   );
 }
 
-function SectionTab({ label, count, active, onClick, section }: { label: string; count: number; active: boolean; onClick: () => void; section?: SectionId }) {
+function SectionTab({
+  label,
+  count,
+  active,
+  onClick,
+  section,
+  forYou,
+}: {
+  label: string;
+  count: number;
+  active: boolean;
+  onClick: () => void;
+  section?: SectionId;
+  forYou?: boolean;
+}) {
   return (
     <button
       type="button"
@@ -263,10 +291,19 @@ function SectionTab({ label, count, active, onClick, section }: { label: string;
       data-section={section}
       onClick={onClick}
       className={`flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-1.5 text-[13px] font-medium transition-colors ${
-        active ? "border-ink bg-ink text-paper" : "border-rule bg-surface text-ink-soft hover:border-rule-strong"
+        active
+          ? "border-ink bg-ink text-paper"
+          : forYou
+            ? "border-accent bg-accent-soft text-ink hover:border-accent"
+            : "border-rule bg-surface text-ink-soft hover:border-rule-strong"
       }`}
     >
       {section && <span aria-hidden className="sec-bg h-2 w-2 rounded-sm" />}
+      {forYou && (
+        <svg aria-hidden viewBox="0 0 16 16" className="h-3 w-3 text-accent" fill="currentColor">
+          <path d="M8 1.5l1.9 4 4.4.5-3.3 3 .9 4.4L8 11.2l-3.9 2.2.9-4.4-3.3-3 4.4-.5Z" />
+        </svg>
+      )}
       {label}
       <span className="tabular opacity-60">{count}</span>
     </button>

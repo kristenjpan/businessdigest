@@ -6,7 +6,7 @@ import { loadArchiveIndex } from "../lib/data";
 import { CONTENT_TYPE_LABEL, longDate } from "../lib/format";
 import { SITE } from "../lib/site";
 
-function PageHeader({ kicker, title, children }: { kicker: string; title: string; children?: React.ReactNode }) {
+export function PageHeader({ kicker, title, children }: { kicker: string; title: string; children?: React.ReactNode }) {
   return (
     <header className="pt-10 pb-6">
       <p className="text-[12px] font-semibold uppercase tracking-[0.16em] text-accent">{kicker}</p>

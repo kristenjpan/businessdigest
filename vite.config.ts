@@ -8,6 +8,6 @@ export default defineConfig({
   base: "./",
   plugins: [react(), tailwindcss()],
   test: {
-    include: ["pipeline/**/*.test.ts"],
+    include: ["pipeline/**/*.test.ts", "src/**/*.test.ts"],
   },
 });
