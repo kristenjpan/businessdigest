@@ -90,7 +90,7 @@ export function SignInDialog({ onClose }: { onClose: () => void }) {
           Save stories across devices and choose the sections and firms you follow.
         </p>
 
-        {mode !== "reset" && (
+        {mode !== "reset" && account.googleEnabled && (
           <>
             <button
               type="button"
@@ -114,7 +114,7 @@ export function SignInDialog({ onClose }: { onClose: () => void }) {
           </>
         )}
 
-        <form onSubmit={submit} className={mode === "reset" ? "mt-5 space-y-3" : "space-y-3"}>
+        <form onSubmit={submit} className={mode === "reset" || !account.googleEnabled ? "mt-5 space-y-3" : "space-y-3"}>
           <label className="block">
             <span className="text-[13px] font-medium text-ink-soft">Email</span>
             <input

@@ -26,6 +26,24 @@ export function getSupabase(): Promise<SupabaseClient> {
   return client;
 }
 
+/**
+ * Which sign-in methods are switched on in the Supabase dashboard, read from its public settings
+ * endpoint (no extra keys, and without loading the Supabase library). Google sign-in needs its own
+ * Google Cloud setup, so the site offers it only once it's enabled there.
+ */
+export async function fetchEnabledProviders(): Promise<{ google: boolean }> {
+  if (!authEnabled) return { google: false };
+  const res = await fetch(`${URL}/auth/v1/settings`, { headers: { apikey: KEY! } });
+  if (!res.ok) throw new Error(`Supabase settings: HTTP ${res.status}`);
+  return enabledProviders(await res.json());
+}
+
+/** Reads Supabase's /auth/v1/settings response; anything unexpected counts as "off". */
+export function enabledProviders(settings: unknown): { google: boolean } {
+  const external = (settings as { external?: Record<string, unknown> } | null)?.external;
+  return { google: external?.google === true };
+}
+
 /** Where sign-in, Google and password-reset links send readers back to. */
 export function siteRoot(): string {
   return `${window.location.origin}${window.location.pathname}`;

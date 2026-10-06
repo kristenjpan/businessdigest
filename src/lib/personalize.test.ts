@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { SECTIONS } from "../../pipeline/types";
 import { EMPTY_PREFS, hasPrefs, matchesPrefs, orderSections } from "./personalize";
 import { mergeSaved, type SavedStory } from "./saved";
+import { enabledProviders } from "./supabase";
 
 describe("reader preferences", () => {
   const prefs = { sections: ["hedge-funds" as const], firms: ["Apollo"] };
@@ -45,5 +46,14 @@ describe("moving browser saves into an account", () => {
     const merged = mergeSaved(local, remote);
     expect(merged.map((s) => s.id)).toEqual(["b", "c", "a"]);
     expect(merged.find((s) => s.id === "a")?.title).toBe("account a");
+  });
+});
+
+describe("Google sign-in button", () => {
+  it("shows only when Google is switched on in Supabase", () => {
+    expect(enabledProviders({ external: { email: true, google: true } })).toEqual({ google: true });
+    expect(enabledProviders({ external: { email: true, google: false } })).toEqual({ google: false });
+    expect(enabledProviders({})).toEqual({ google: false });
+    expect(enabledProviders(null)).toEqual({ google: false });
   });
 });

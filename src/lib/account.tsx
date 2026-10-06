@@ -2,7 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import type { DigestItem, SectionId } from "../../pipeline/types";
 import { EMPTY_PREFS, type Prefs } from "./personalize";
 import { mergeSaved, readLocalSaved, snapshot, writeLocalSaved, type SavedStory } from "./saved";
-import { authEnabled, getSupabase, siteRoot } from "./supabase";
+import { authEnabled, fetchEnabledProviders, getSupabase, siteRoot } from "./supabase";
 
 export interface Reader {
   id: string;
@@ -13,6 +13,8 @@ interface Account {
   authEnabled: boolean;
   /** False until the stored session (if any) has been checked. */
   ready: boolean;
+  /** True only when Google sign-in is switched on in Supabase; the button stays hidden otherwise. */
+  googleEnabled: boolean;
   user: Reader | null;
   /** True after a reader opens a password-reset link, until they set a new password. */
   recovering: boolean;
@@ -62,6 +64,14 @@ interface SavedRow {
 
 export function AccountProvider({ children }: { children: React.ReactNode }) {
   const [ready, setReady] = useState(!authEnabled);
+  const [googleEnabled, setGoogleEnabled] = useState(false);
+
+  useEffect(() => {
+    if (!authEnabled) return;
+    fetchEnabledProviders()
+      .then((p) => setGoogleEnabled(p.google))
+      .catch((err) => console.warn("Could not read sign-in options:", err));
+  }, []);
   const [user, setUser] = useState<Reader | null>(null);
   const [recovering, setRecovering] = useState(false);
   const [saved, setSaved] = useState<SavedStory[]>(readLocalSaved);
@@ -248,6 +258,7 @@ export function AccountProvider({ children }: { children: React.ReactNode }) {
     () => ({
       authEnabled,
       ready,
+      googleEnabled,
       user,
       recovering,
       signUp,
@@ -264,7 +275,7 @@ export function AccountProvider({ children }: { children: React.ReactNode }) {
       prefs,
       setPrefs,
     }),
-    [ready, user, recovering, signUp, signIn, signInWithGoogle, sendPasswordReset, updatePassword, signOut, saved, savedIds, toggleSave, removeSaved, clearSaved, prefs, setPrefs],
+    [ready, googleEnabled, user, recovering, signUp, signIn, signInWithGoogle, sendPasswordReset, updatePassword, signOut, saved, savedIds, toggleSave, removeSaved, clearSaved, prefs, setPrefs],
   );
 
   return <AccountContext.Provider value={value}>{children}</AccountContext.Provider>;
