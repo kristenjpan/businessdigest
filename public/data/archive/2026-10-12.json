@@ -1,0 +1,1452 @@
+{
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T19:46:58.703Z",
+  "engine": "rules-v2",
+  "edition": 20,
+  "brief": {
+    "headline": "Ardian and KKR-backed investors explore €6.3bn INWIT take-private",
+    "bullets": [
+      "M&A & Buyouts: Ardian and a consortium of investors led by Oak Holdings 1 are working on financing arrangements for a potential take-private of Italian telecom tower operator INWIT, as the company faces contractual disputes with its two largest customers, according to a report by Reuters.",
+      "Infrastructure & Energy: HedgeCo Networks reports: KKR and TotalEnergies Added a 700 MW U.S. Solar Portfolio Valued at $1.2 Billion to Their Joint Venture.",
+      "Hedge Funds: New hedge funds are finding it increasingly difficult to raise money as institutional investors concentrate allocations among established managers.",
+      "M&A & Buyouts: KKR has prohibited non-compete agreements for employees earning less than $100,000 annually at its US portfolio companies, as the PE firm seeks to demonstrate that businesses can remain competitive without restricting workers’ future employment options, according to a report by Bloomberg.",
+      "M&A & Buyouts: DCC Energy has agreed to sell its technology division, Nexora, to private equity firm One Equity Partners for an enterprise value of $725m, as the Irish energy group prepares for its planned takeover by KKR and Energy Capital Partners, according to a report by Reuters."
+    ],
+    "marketRead": "The S&P 500 stands at 7,811.54 (up 0.6% on the prior reading) and the VIX is 14.8, a normal-volatility reading. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.22% (down 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.44 pts (positively sloped). High-yield credit spreads are 3.15%, near long-run norms (up 6 bps on the prior reading). Bottom line: calm volatility and open credit markets are a supportive backdrop for dealmaking, fundraising and exits.",
+    "themes": [
+      {
+        "id": "ai-tech",
+        "label": "AI & Technology",
+        "count": 6
+      },
+      {
+        "id": "family-office",
+        "label": "Family Offices & Wealth",
+        "count": 4
+      },
+      {
+        "id": "deals",
+        "label": "M&A & Buyouts",
+        "count": 4
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure & Energy",
+        "count": 3
+      },
+      {
+        "id": "hedge-funds",
+        "label": "Hedge Funds",
+        "count": 3
+      },
+      {
+        "id": "regulation",
+        "label": "Regulation & Policy",
+        "count": 1
+      }
+    ]
+  },
+  "market": [
+    {
+      "id": "SP500",
+      "label": "S&P 500",
+      "unit": "index",
+      "value": 7811.54,
+      "previous": 7765.36,
+      "asOf": "2026-10-09",
+      "history": [
+        {
+          "date": "2026-09-10",
+          "value": 7591.7
+        },
+        {
+          "date": "2026-09-11",
+          "value": 7656.98
+        },
+        {
+          "date": "2026-09-14",
+          "value": 7619.98
+        },
+        {
+          "date": "2026-09-15",
+          "value": 7585.73
+        },
+        {
+          "date": "2026-09-16",
+          "value": 7551.81
+        },
+        {
+          "date": "2026-09-17",
+          "value": 7637.76
+        },
+        {
+          "date": "2026-09-18",
+          "value": 7650.5
+        },
+        {
+          "date": "2026-09-21",
+          "value": 7764.7
+        },
+        {
+          "date": "2026-09-22",
+          "value": 7764.64
+        },
+        {
+          "date": "2026-09-23",
+          "value": 7706.03
+        },
+        {
+          "date": "2026-09-24",
+          "value": 7704.13
+        },
+        {
+          "date": "2026-09-25",
+          "value": 7743.41
+        },
+        {
+          "date": "2026-09-28",
+          "value": 7683.69
+        },
+        {
+          "date": "2026-09-29",
+          "value": 7670.84
+        },
+        {
+          "date": "2026-09-30",
+          "value": 7651.54
+        },
+        {
+          "date": "2026-10-01",
+          "value": 7666.45
+        },
+        {
+          "date": "2026-10-02",
+          "value": 7722.72
+        },
+        {
+          "date": "2026-10-05",
+          "value": 7773.95
+        },
+        {
+          "date": "2026-10-06",
+          "value": 7818.93
+        },
+        {
+          "date": "2026-10-07",
+          "value": 7801.77
+        },
+        {
+          "date": "2026-10-08",
+          "value": 7765.36
+        },
+        {
+          "date": "2026-10-09",
+          "value": 7811.54
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/SP500"
+    },
+    {
+      "id": "DGS10",
+      "label": "10-Yr Treasury",
+      "unit": "percent",
+      "value": 5.22,
+      "previous": 5.28,
+      "asOf": "2026-10-08",
+      "history": [
+        {
+          "date": "2026-09-09",
+          "value": 4.83
+        },
+        {
+          "date": "2026-09-10",
+          "value": 4.95
+        },
+        {
+          "date": "2026-09-11",
+          "value": 4.96
+        },
+        {
+          "date": "2026-09-14",
+          "value": 4.97
+        },
+        {
+          "date": "2026-09-15",
+          "value": 5
+        },
+        {
+          "date": "2026-09-16",
+          "value": 5.01
+        },
+        {
+          "date": "2026-09-17",
+          "value": 4.94
+        },
+        {
+          "date": "2026-09-18",
+          "value": 5.01
+        },
+        {
+          "date": "2026-09-21",
+          "value": 4.96
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4.96
+        },
+        {
+          "date": "2026-09-23",
+          "value": 5.11
+        },
+        {
+          "date": "2026-09-24",
+          "value": 5.18
+        },
+        {
+          "date": "2026-09-25",
+          "value": 5.17
+        },
+        {
+          "date": "2026-09-28",
+          "value": 5.24
+        },
+        {
+          "date": "2026-09-29",
+          "value": 5.26
+        },
+        {
+          "date": "2026-09-30",
+          "value": 5.29
+        },
+        {
+          "date": "2026-10-01",
+          "value": 5.24
+        },
+        {
+          "date": "2026-10-02",
+          "value": 5.28
+        },
+        {
+          "date": "2026-10-05",
+          "value": 5.31
+        },
+        {
+          "date": "2026-10-06",
+          "value": 5.27
+        },
+        {
+          "date": "2026-10-07",
+          "value": 5.28
+        },
+        {
+          "date": "2026-10-08",
+          "value": 5.22
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
+    },
+    {
+      "id": "DGS2",
+      "label": "2-Yr Treasury",
+      "unit": "percent",
+      "value": 4.75,
+      "previous": 4.77,
+      "asOf": "2026-10-08",
+      "history": [
+        {
+          "date": "2026-09-09",
+          "value": 4.43
+        },
+        {
+          "date": "2026-09-10",
+          "value": 4.56
+        },
+        {
+          "date": "2026-09-11",
+          "value": 4.63
+        },
+        {
+          "date": "2026-09-14",
+          "value": 4.65
+        },
+        {
+          "date": "2026-09-15",
+          "value": 4.67
+        },
+        {
+          "date": "2026-09-16",
+          "value": 4.74
+        },
+        {
+          "date": "2026-09-17",
+          "value": 4.67
+        },
+        {
+          "date": "2026-09-18",
+          "value": 4.76
+        },
+        {
+          "date": "2026-09-21",
+          "value": 4.76
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4.71
+        },
+        {
+          "date": "2026-09-23",
+          "value": 4.85
+        },
+        {
+          "date": "2026-09-24",
+          "value": 4.87
+        },
+        {
+          "date": "2026-09-25",
+          "value": 4.81
+        },
+        {
+          "date": "2026-09-28",
+          "value": 4.92
+        },
+        {
+          "date": "2026-09-29",
+          "value": 4.89
+        },
+        {
+          "date": "2026-09-30",
+          "value": 4.88
+        },
+        {
+          "date": "2026-10-01",
+          "value": 4.78
+        },
+        {
+          "date": "2026-10-02",
+          "value": 4.83
+        },
+        {
+          "date": "2026-10-05",
+          "value": 4.84
+        },
+        {
+          "date": "2026-10-06",
+          "value": 4.79
+        },
+        {
+          "date": "2026-10-07",
+          "value": 4.77
+        },
+        {
+          "date": "2026-10-08",
+          "value": 4.75
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/DGS2"
+    },
+    {
+      "id": "T10Y2Y",
+      "label": "10Y–2Y Curve",
+      "unit": "percent",
+      "value": 0.44,
+      "previous": 0.47,
+      "asOf": "2026-10-09",
+      "history": [
+        {
+          "date": "2026-09-10",
+          "value": 0.39
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0.33
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0.32
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0.33
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0.27
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0.27
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0.25
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0.2
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0.25
+        },
+        {
+          "date": "2026-09-23",
+          "value": 0.26
+        },
+        {
+          "date": "2026-09-24",
+          "value": 0.31
+        },
+        {
+          "date": "2026-09-25",
+          "value": 0.36
+        },
+        {
+          "date": "2026-09-28",
+          "value": 0.32
+        },
+        {
+          "date": "2026-09-29",
+          "value": 0.37
+        },
+        {
+          "date": "2026-09-30",
+          "value": 0.41
+        },
+        {
+          "date": "2026-10-01",
+          "value": 0.46
+        },
+        {
+          "date": "2026-10-02",
+          "value": 0.45
+        },
+        {
+          "date": "2026-10-05",
+          "value": 0.47
+        },
+        {
+          "date": "2026-10-06",
+          "value": 0.48
+        },
+        {
+          "date": "2026-10-07",
+          "value": 0.51
+        },
+        {
+          "date": "2026-10-08",
+          "value": 0.47
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0.44
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/T10Y2Y"
+    },
+    {
+      "id": "VIXCLS",
+      "label": "VIX",
+      "unit": "index",
+      "value": 14.84,
+      "previous": 15.41,
+      "asOf": "2026-10-09",
+      "history": [
+        {
+          "date": "2026-09-10",
+          "value": 17.84
+        },
+        {
+          "date": "2026-09-11",
+          "value": 15.84
+        },
+        {
+          "date": "2026-09-14",
+          "value": 17.1
+        },
+        {
+          "date": "2026-09-15",
+          "value": 17.2
+        },
+        {
+          "date": "2026-09-16",
+          "value": 17.71
+        },
+        {
+          "date": "2026-09-17",
+          "value": 15.44
+        },
+        {
+          "date": "2026-09-18",
+          "value": 14.81
+        },
+        {
+          "date": "2026-09-21",
+          "value": 14.87
+        },
+        {
+          "date": "2026-09-22",
+          "value": 14.21
+        },
+        {
+          "date": "2026-09-23",
+          "value": 15.18
+        },
+        {
+          "date": "2026-09-24",
+          "value": 15.67
+        },
+        {
+          "date": "2026-09-25",
+          "value": 14.87
+        },
+        {
+          "date": "2026-09-28",
+          "value": 16.07
+        },
+        {
+          "date": "2026-09-29",
+          "value": 16.04
+        },
+        {
+          "date": "2026-09-30",
+          "value": 16.34
+        },
+        {
+          "date": "2026-10-01",
+          "value": 16.39
+        },
+        {
+          "date": "2026-10-02",
+          "value": 15.31
+        },
+        {
+          "date": "2026-10-05",
+          "value": 15.52
+        },
+        {
+          "date": "2026-10-06",
+          "value": 15.01
+        },
+        {
+          "date": "2026-10-07",
+          "value": 15.08
+        },
+        {
+          "date": "2026-10-08",
+          "value": 15.41
+        },
+        {
+          "date": "2026-10-09",
+          "value": 14.84
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/VIXCLS"
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "label": "High-Yield Spread",
+      "unit": "percent",
+      "value": 3.15,
+      "previous": 3.09,
+      "asOf": "2026-10-08",
+      "history": [
+        {
+          "date": "2026-09-09",
+          "value": 2.71
+        },
+        {
+          "date": "2026-09-10",
+          "value": 2.7
+        },
+        {
+          "date": "2026-09-11",
+          "value": 2.65
+        },
+        {
+          "date": "2026-09-14",
+          "value": 2.71
+        },
+        {
+          "date": "2026-09-15",
+          "value": 2.76
+        },
+        {
+          "date": "2026-09-16",
+          "value": 2.7
+        },
+        {
+          "date": "2026-09-17",
+          "value": 2.7
+        },
+        {
+          "date": "2026-09-18",
+          "value": 2.68
+        },
+        {
+          "date": "2026-09-21",
+          "value": 2.66
+        },
+        {
+          "date": "2026-09-22",
+          "value": 2.68
+        },
+        {
+          "date": "2026-09-23",
+          "value": 2.73
+        },
+        {
+          "date": "2026-09-24",
+          "value": 2.8
+        },
+        {
+          "date": "2026-09-25",
+          "value": 2.93
+        },
+        {
+          "date": "2026-09-28",
+          "value": 3.02
+        },
+        {
+          "date": "2026-09-29",
+          "value": 3.08
+        },
+        {
+          "date": "2026-09-30",
+          "value": 3.12
+        },
+        {
+          "date": "2026-10-01",
+          "value": 3.24
+        },
+        {
+          "date": "2026-10-02",
+          "value": 3.1
+        },
+        {
+          "date": "2026-10-05",
+          "value": 3.12
+        },
+        {
+          "date": "2026-10-06",
+          "value": 3.03
+        },
+        {
+          "date": "2026-10-07",
+          "value": 3.09
+        },
+        {
+          "date": "2026-10-08",
+          "value": 3.15
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+    },
+    {
+      "id": "DFF",
+      "label": "Fed Funds Rate",
+      "unit": "percent",
+      "value": 3.88,
+      "previous": 3.88,
+      "asOf": "2026-10-08",
+      "history": [
+        {
+          "date": "2026-09-17",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-18",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-19",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-20",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-21",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-22",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-23",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-24",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-25",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-26",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-27",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-28",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-29",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-30",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-01",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-02",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-03",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-04",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-05",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-06",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-07",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-08",
+          "value": 3.88
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/DFF"
+    }
+  ],
+  "topStoryIds": [
+    "21545325b98d",
+    "786bb2756e80",
+    "5190f3b7829b"
+  ],
+  "items": [
+    {
+      "id": "b946a3a23f98",
+      "title": "Goldman’s $2.3 Billion Deal Puts Tax-Smart ETFs Under Scrutiny",
+      "url": "https://www.wealthmanagement.com/etfs/goldman-s-2-3-billion-deal-puts-tax-smart-etfs-under-scrutiny",
+      "publishedAt": "2026-10-12T15:26:05.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [
+        "Goldman Sachs"
+      ],
+      "theme": {
+        "id": "regulation",
+        "label": "Regulation & Policy"
+      },
+      "importance": 3,
+      "takeaway": "In corners of the $195 billion market for derivative-income products, the Neos funds are seen as pushing the boundaries of tax rules.",
+      "whyItMatters": "Goldman Sachs is a top global investment bank and growing alternatives manager, with a front-row view of deal, capital-markets and client flows. Rule changes can open new pools of capital, or raise compliance costs, for asset managers and their investors. For allocators: new rules can change fees, transparency and eligibility, so check with advisers how they affect existing commitments.",
+      "marketContext": "The VIX is 14.8, a normal-volatility reading and high-yield credit spreads are 3.15%, near long-run norms (up 6 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Accredited investor",
+        "explanation": "An individual or entity that meets SEC wealth or income tests and is therefore allowed to invest in most private funds."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "8c130da02c26",
+      "title": "Meta is back on the AI leaderboard with its new family of Wonder models",
+      "url": "https://www.marketwatch.com/story/meta-is-back-on-the-ai-leaderboard-with-its-new-family-of-wonder-models-a704b6cc?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-12T19:43:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "ai-tech",
+        "label": "AI & Technology"
+      },
+      "importance": 2,
+      "takeaway": "The company’s stock was up more than 3% following the release of Muse Wonder and Muse Wonder Full, which analysts expect to drive new business opportunities.",
+      "whyItMatters": "Capital flowing into AI shapes returns across asset classes, from tech equities to power infrastructure and private credit for data centers. For allocators: AI exposure often builds up across several holdings at once, so check for concentration at the portfolio level.",
+      "marketContext": "The S&P 500 stands at 7,811.54 (up 0.6% on the prior reading) and the VIX is 14.8, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "2d92d452fc53",
+      "title": "Trump’s ‘energy ceasefire’ collides with real-world problems of dwindling fuel supplies",
+      "url": "https://www.marketwatch.com/story/trumps-energy-ceasefire-collides-with-real-world-problems-of-dwindling-fuel-supplies-8ba3993b?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-12T18:36:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "infrastructure",
+        "label": "Infrastructure & Energy"
+      },
+      "importance": 2,
+      "takeaway": "Oil markets were struggling on Monday to gauge how President Donald Trump’s new declaration of an “energy ceasefire” between Russia and Ukraine might help mitigate a deepening global oil crisis as the Middle East conflict drags on.",
+      "whyItMatters": "The AI build-out depends on power and data-center capacity, making infrastructure one of private markets' biggest growth stories. For allocators: infrastructure can diversify a portfolio, but deal sizes are large and access often runs through the biggest managers.",
+      "marketContext": "The 10-year Treasury yield is 5.22% (down 6 bps on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Infrastructure fund",
+        "explanation": "A fund that owns essential physical assets such as power, pipelines, data centers, airports and fiber, which usually produce steady, long-term cash flows."
+      },
+      "storyType": "quote",
+      "aiSummarized": false
+    },
+    {
+      "id": "1d4837a1fe71",
+      "title": "These stocks could be the future winners — and losers — of a massive shift in IT spending",
+      "url": "https://www.marketwatch.com/story/these-stocks-could-be-the-future-winners-and-losers-of-a-massive-shift-in-it-spending-bfc88c05?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-12T16:47:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "ai-tech",
+        "label": "AI & Technology"
+      },
+      "importance": 2,
+      "takeaway": "As more money flows toward AI software offerings, Salesforce could deepen its customer relationships while Adobe looks vulnerable, analysts say.",
+      "whyItMatters": "AI is the dominant investment theme of the cycle, driving public-market leadership, data-center demand and venture valuations. For allocators: AI exposure often builds up across several holdings at once, so check for concentration at the portfolio level.",
+      "marketContext": "The S&P 500 stands at 7,811.54 (up 0.6% on the prior reading) and the VIX is 14.8, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "c45c3c0d7077",
+      "title": "Here’s why Goldman Sachs just flipped bullish on stocks for the rest of the year",
+      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=457e2fb0-7cfa-4d53-8163-ce8bd30f8e29&mod=mw_rss_bulletins",
+      "publishedAt": "2026-10-12T14:10:22.000Z",
+      "source": {
+        "id": "marketwatch-bulletins",
+        "name": "MarketWatch — Bulletins",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [
+        "Goldman Sachs"
+      ],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "MarketWatch reports: Here’s why Goldman Sachs just flipped bullish on stocks for the rest of the year.",
+      "whyItMatters": "Goldman Sachs is a top global investment bank and growing alternatives manager, with a front-row view of deal, capital-markets and client flows. Public-market swings feed directly into private-market valuations, IPO windows and investor sentiment. For allocators: short-term market moves matter most when they change long-term plans or liquidity needs.",
+      "marketContext": "The VIX is 14.8, a normal-volatility reading and high-yield credit spreads are 3.15%, near long-run norms (up 6 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "786bb2756e80",
+      "title": "KKR and TotalEnergies Added a 700 MW U.S. Solar Portfolio Valued at $1.2 Billion to Their Joint Venture",
+      "url": "https://hedgeco.net/news/10/2026/kkr-and-totalenergies-added-a-700-mw-u-s-solar-portfolio-valued-at-1-2-billion-to-their-joint-venture.html",
+      "publishedAt": "2026-10-12T10:06:30.000Z",
+      "source": {
+        "id": "hedgeco",
+        "name": "HedgeCo Networks",
+        "homepage": "https://www.hedgeco.net/news/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [
+        "KKR"
+      ],
+      "theme": {
+        "id": "infrastructure",
+        "label": "Infrastructure & Energy"
+      },
+      "importance": 4,
+      "takeaway": "HedgeCo Networks reports: KKR and TotalEnergies Added a 700 MW U.S. Solar Portfolio Valued at $1.2 Billion to Their Joint Venture.",
+      "whyItMatters": "KKR pioneered the leveraged buyout and now spans private equity, infrastructure, credit and insurance, so its activity is a barometer for global dealmaking. Infrastructure assets offer long-dated, often inflation-linked cash flows, which appeals to investors seeking stability. For allocators: infrastructure can diversify a portfolio, but deal sizes are large and access often runs through the biggest managers.",
+      "marketContext": "The 10-year Treasury yield is 5.22% (down 6 bps on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Infrastructure fund",
+        "explanation": "A fund that owns essential physical assets such as power, pipelines, data centers, airports and fiber, which usually produce steady, long-term cash flows."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "919195d22ce8",
+      "title": "‘The prospectus looks impressive’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
+      "url": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-12T17:15:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "infrastructure",
+        "label": "Infrastructure & Energy"
+      },
+      "importance": 3,
+      "takeaway": "“I’m in my 60s, recently retired and living my best life.”",
+      "whyItMatters": "Demand for power, data centers and energy transition projects is pulling record private capital into infrastructure. For allocators: infrastructure can diversify a portfolio, but deal sizes are large and access often runs through the biggest managers.",
+      "marketContext": "The 10-year Treasury yield is 5.22% (down 6 bps on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Infrastructure fund",
+        "explanation": "A fund that owns essential physical assets such as power, pipelines, data centers, airports and fiber, which usually produce steady, long-term cash flows."
+      },
+      "storyType": "quote",
+      "aiSummarized": false
+    },
+    {
+      "id": "3b6ba4952086",
+      "title": "Managers retreat from software to the old economy",
+      "url": "https://alternativecreditinvestor.com/2026/10/12/managers-retreat-from-software-to-the-old-economy/",
+      "publishedAt": "2026-10-12T16:37:15.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "ai-tech",
+        "label": "AI & Technology"
+      },
+      "importance": 2,
+      "takeaway": "Manufacturing, healthcare and defence are all areas seeing increased interest from alternative asset managers, as private credit investors retrench from their over-concentration in software.",
+      "whyItMatters": "AI is the dominant investment theme of the cycle, driving public-market leadership, data-center demand and venture valuations. For allocators: AI exposure often builds up across several holdings at once, so check for concentration at the portfolio level.",
+      "marketContext": "The S&P 500 stands at 7,811.54 (up 0.6% on the prior reading) and the VIX is 14.8, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Private credit",
+        "explanation": "Loans made by investment funds rather than banks, usually to mid-sized companies. They often pay higher, floating interest rates."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "7a52eaa2dd85",
+      "title": "Canyon names new CIO as it deepens AI integration",
+      "url": "https://alternativecreditinvestor.com/2026/10/12/canyon-names-new-cio-as-it-deepens-ai-integration/",
+      "publishedAt": "2026-10-12T15:37:53.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "ai-tech",
+        "label": "AI & Technology"
+      },
+      "importance": 2,
+      "takeaway": "Global alternative investment manager Canyon Partners has named Chris Hansen partner and chief information officer as it looks to integrate artificial intelligence (AI) into its investment platform.",
+      "whyItMatters": "Capital flowing into AI shapes returns across asset classes, from tech equities to power infrastructure and private credit for data centers. For allocators: AI exposure often builds up across several holdings at once, so check for concentration at the portfolio level.",
+      "marketContext": "The S&P 500 stands at 7,811.54 (up 0.6% on the prior reading) and the VIX is 14.8, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "8fd33221e0b8",
+      "title": "Last chance to secure your place at the Alternative Credit Investor conference",
+      "url": "https://alternativecreditinvestor.com/2026/10/12/last-chance-to-secure-your-place-at-the-alternative-credit-investor-conference/",
+      "publishedAt": "2026-10-12T11:57:59.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "private-markets",
+        "label": "Private Markets"
+      },
+      "importance": 2,
+      "takeaway": "In just one week, the alternative credit community will gather in London for the Alternative Credit Investor Conference.",
+      "whyItMatters": "Private markets now hold a large and growing share of global investment capital; shifts here affect pensions, endowments and family offices alike. For allocators: private-market commitments tie up capital for years, so pacing and manager selection drive outcomes.",
+      "marketContext": "The 10-year Treasury yield is 5.22% (down 6 bps on the prior reading) and high-yield credit spreads are 3.15%, near long-run norms (up 6 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Limited partner (LP)",
+        "explanation": "The investors in a private fund, such as pensions, endowments, insurers and family offices. They commit capital but do not manage the fund."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "baf8a81c3a51",
+      "title": "Why TPAs are Suddenly Sexy",
+      "url": "https://www.wealthmanagement.com/rpa-news/why-tpas-are-suddenly-sexy",
+      "publishedAt": "2026-10-12T15:47:01.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "Why PE firms are throwing money at them.",
+      "whyItMatters": "Family offices are becoming more institutional, direct and influential investors, often competing alongside PE firms for deals. For family offices: compare liquidity terms, fees and valuation policies closely when evaluating new semi-liquid or evergreen products.",
+      "marketContext": "The S&P 500 stands at 7,811.54 (up 0.6% on the prior reading) and the 10-year Treasury yield is 5.22% (down 6 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "d706a5b9c203",
+      "title": "Wealth Management Invest: Opportunities Beyond Large Cap Stocks with BNY’s Alicia Levine",
+      "url": "https://www.wealthmanagement.com/investing-strategies/wealth-management-invest-opportunities-beyond-large-cap-stocks-with-bny-s-alicia-levine",
+      "publishedAt": "2026-10-12T15:37:15.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "BNY Wealth’s Alicia Levine discusses recent market forces influencing portfolio decisions.",
+      "whyItMatters": "Private-market firms are racing to reach wealthy families and individuals, their biggest new source of growth after pensions and endowments. For family offices: compare liquidity terms, fees and valuation policies closely when evaluating new semi-liquid or evergreen products.",
+      "marketContext": "The S&P 500 stands at 7,811.54 (up 0.6% on the prior reading) and the 10-year Treasury yield is 5.22% (down 6 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "40b492073a66",
+      "title": "When a Family Has Several Advisors",
+      "url": "https://www.wealthmanagement.com/high-net-worth/when-a-family-has-several-advisors-but-no-one-sees-the-whole-picture",
+      "publishedAt": "2026-10-09T18:28:47.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 1,
+      "takeaway": "WealthManagement.com reports: When a Family Has Several Advisors.",
+      "whyItMatters": "Private-market firms are racing to reach wealthy families and individuals, their biggest new source of growth after pensions and endowments. For family offices: compare liquidity terms, fees and valuation policies closely when evaluating new semi-liquid or evergreen products.",
+      "marketContext": "The S&P 500 stands at 7,811.54 (up 0.6% on the prior reading) and the 10-year Treasury yield is 5.22% (down 6 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "21545325b98d",
+      "title": "Ardian and KKR-backed investors explore €6.3bn INWIT take-private",
+      "url": "https://www.privateequitywire.co.uk/ardian-and-kkr-backed-investors-explore-e6-3bn-inwit-take-private/",
+      "publishedAt": "2026-10-12T10:01:44.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [
+        "KKR"
+      ],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 4,
+      "takeaway": "Ardian and a consortium of investors led by Oak Holdings 1 are working on financing arrangements for a potential take-private of Italian telecom tower operator INWIT, as the company faces contractual disputes with its two largest customers, according to a report by Reuters.",
+      "whyItMatters": "KKR pioneered the leveraged buyout and now spans private equity, infrastructure, credit and insurance, so its activity is a barometer for global dealmaking. Each deal reveals where sponsors see value and which sectors they expect to outperform. For allocators: deployment pace drives when committed capital is actually called, so it matters for liquidity planning.",
+      "marketContext": "The 10-year Treasury yield is 5.22% (down 6 bps on the prior reading) and high-yield credit spreads are 3.15%, near long-run norms (up 6 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Take-private",
+        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "b00c98ab47fd",
+      "title": "KKR bans non-compete clauses for US portfolio company staff earning under $100,000",
+      "url": "https://www.privateequitywire.co.uk/kkr-bans-non-compete-clauses-for-us-portfolio-company-staff-earning-under-100000/",
+      "publishedAt": "2026-10-12T08:30:02.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [
+        "KKR"
+      ],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 4,
+      "takeaway": "KKR has prohibited non-compete agreements for employees earning less than $100,000 annually at its US portfolio companies, as the PE firm seeks to demonstrate that businesses can remain competitive without restricting workers’ future employment options, according to a report by Bloomberg.",
+      "whyItMatters": "KKR pioneered the leveraged buyout and now spans private equity, infrastructure, credit and insurance, so its activity is a barometer for global dealmaking. Large transactions reset valuation benchmarks for comparable companies, public and private. For allocators: deployment pace drives when committed capital is actually called, so it matters for liquidity planning.",
+      "marketContext": "The 10-year Treasury yield is 5.22% (down 6 bps on the prior reading) and high-yield credit spreads are 3.15%, near long-run norms (up 6 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Portfolio company",
+        "explanation": "A business owned by a private-equity fund."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "3516e438bbe8",
+      "title": "DCC energy to sell Nexora for $725m ahead of KKR-led buyout",
+      "url": "https://www.privateequitywire.co.uk/dcc-energy-to-sell-nexora-for-725m-ahead-of-kkr-led-buyout/",
+      "publishedAt": "2026-10-12T08:27:58.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [
+        "KKR"
+      ],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 4,
+      "takeaway": "DCC Energy has agreed to sell its technology division, Nexora, to private equity firm One Equity Partners for an enterprise value of $725m, as the Irish energy group prepares for its planned takeover by KKR and Energy Capital Partners, according to a report by Reuters.",
+      "whyItMatters": "KKR pioneered the leveraged buyout and now spans private equity, infrastructure, credit and insurance, so its activity is a barometer for global dealmaking. Deal activity is the heartbeat of private equity: it shows sponsors are willing to put capital to work at today's prices and financing costs. For allocators: deployment pace drives when committed capital is actually called, so it matters for liquidity planning.",
+      "marketContext": "The 10-year Treasury yield is 5.22% (down 6 bps on the prior reading) and high-yield credit spreads are 3.15%, near long-run norms (up 6 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Leveraged buyout (LBO)",
+        "explanation": "Buying a company using a large amount of borrowed money, secured against the company's own cash flows, to amplify returns."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "342a5205f946",
+      "title": "GTCR and Elliott Near Deal to Acquire CCC Intelligent Solutions",
+      "url": "https://www.privateequitywire.co.uk/gtcr-and-elliott-near-deal-to-acquire-ccc-intelligent-solutions/",
+      "publishedAt": "2026-10-12T09:04:31.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [
+        "Elliott"
+      ],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 3,
+      "takeaway": "Private equity firm GTCR and activist investor Elliott Investment Management are in advanced discussions to acquire CCC Intelligent Solutions, a provider of software for the automotive insurance industry, according to a report by Bloomberg citing unnamed people familiar with the matter.",
+      "whyItMatters": "Elliott Management is one of the most influential activist investors, and its campaigns can force strategy changes at large companies. Large transactions reset valuation benchmarks for comparable companies, public and private. For allocators: deployment pace drives when committed capital is actually called, so it matters for liquidity planning.",
+      "marketContext": "The 10-year Treasury yield is 5.22% (down 6 bps on the prior reading) and high-yield credit spreads are 3.15%, near long-run norms (up 6 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Activist investor",
+        "explanation": "An investor who buys a stake in a company and pushes management for changes such as new strategy, board seats or a sale, to unlock value."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "5190f3b7829b",
+      "title": "Hedge fund launches struggle to attract fresh capital as industry giants dominate allocations",
+      "url": "https://www.opalesque.com/fullarticle/716705/Hedge_fund_launches_struggle_to_attract_fresh_capital670.html",
+      "publishedAt": "2026-10-11T23:50:00.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [
+        "Blackstone"
+      ],
+      "theme": {
+        "id": "hedge-funds",
+        "label": "Hedge Funds"
+      },
+      "importance": 4,
+      "takeaway": "New hedge funds are finding it increasingly difficult to raise money as institutional investors concentrate allocations among established managers.",
+      "whyItMatters": "Blackstone is the world's largest alternative asset manager and a leader in real estate and private-wealth products, so its moves are widely read as a bellwether for private markets. Large multi-strategy and macro funds move significant capital; their moves can amplify market trends. For allocators: hedge funds are judged on returns that don't simply track the stock market, so check what drove performance.",
+      "marketContext": "The VIX is 14.8, a normal-volatility reading and high-yield credit spreads are 3.15%, near long-run norms (up 6 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Multi-strategy fund",
+        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "45bceffa1b0a",
+      "title": "'What you don't know is greater than anything you do know': How Ray Dalio would build a portfolio to withstand a popping AI bubble",
+      "url": "https://www.opalesque.com/fullarticle/716709/you_know_is_greater_than_anything670.html",
+      "publishedAt": "2026-10-11T23:43:20.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [
+        "Bridgewater"
+      ],
+      "theme": {
+        "id": "ai-tech",
+        "label": "AI & Technology"
+      },
+      "importance": 4,
+      "takeaway": "Bridgewater Associates founder Ray Dalio warns that enthusiasm for artificial intelligence resembles earlier speculative bubbles and that debt-financed investment could amplify the eventual downturn.",
+      "whyItMatters": "Bridgewater is the world's largest hedge fund by assets and a leading macro investor, so its positioning and views are closely tracked by institutions. AI is the dominant investment theme of the cycle, driving public-market leadership, data-center demand and venture valuations. For allocators: AI exposure often builds up across several holdings at once, so check for concentration at the portfolio level.",
+      "marketContext": "The S&P 500 stands at 7,811.54 (up 0.6% on the prior reading) and the VIX is 14.8, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "983bc50210ee",
+      "title": "Millennium, other big hedge funds crowd out new launches by star traders",
+      "url": "https://www.opalesque.com/fullarticle/716704/Millennium_other_big_hedge_funds_crowd_out_new670.html",
+      "publishedAt": "2026-10-11T23:51:40.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [
+        "Millennium"
+      ],
+      "theme": {
+        "id": "hedge-funds",
+        "label": "Hedge Funds"
+      },
+      "importance": 3,
+      "takeaway": "Large multistrategy hedge funds including Millennium Management are making it increasingly difficult for prominent traders to establish independent firms.",
+      "whyItMatters": "Millennium is a leading multi-strategy hedge fund whose growth and talent moves influence the whole pod-shop industry. Hedge-fund performance and positioning show how sophisticated money is navigating current markets. For allocators: hedge funds are judged on returns that don't simply track the stock market, so check what drove performance.",
+      "marketContext": "The VIX is 14.8, a normal-volatility reading and high-yield credit spreads are 3.15%, near long-run norms (up 6 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Multi-strategy fund",
+        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "1350f7303bfe",
+      "title": "Hedge fund giant Citadel taps former Amazon exec as chief technology officer",
+      "url": "https://www.opalesque.com/fullarticle/716713/Hedge_fund_giant_Citadel_taps_former_Amazon_exec671.html",
+      "publishedAt": "2026-10-11T23:36:40.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [
+        "Citadel"
+      ],
+      "theme": {
+        "id": "hedge-funds",
+        "label": "Hedge Funds"
+      },
+      "importance": 3,
+      "takeaway": "Ken Griffin 's hedge fund Citadel has tapped former Amazon vice president Matt Taddy as its new chief technology officer....",
+      "whyItMatters": "Citadel is one of the largest and most successful multi-strategy hedge funds, making it a benchmark for the pod-based model. Hedge-fund performance and positioning show how sophisticated money is navigating current markets. For allocators: hedge funds are judged on returns that don't simply track the stock market, so check what drove performance.",
+      "marketContext": "The VIX is 14.8, a normal-volatility reading and high-yield credit spreads are 3.15%, near long-run norms (up 6 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Multi-strategy fund",
+        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "4b6bc9a8bde2",
+      "title": "Senior Decision Makers: Erlina Yeo Terwelp, Columbia Investment Management Company (EP.520)",
+      "url": "https://tedseides.libsyn.com/senior-decision-makers-erlina-yeo-terwelp-columbia-investment-management-ep520",
+      "publishedAt": "2026-10-12T08:00:00.000Z",
+      "source": {
+        "id": "capital-allocators",
+        "name": "Capital Allocators with Ted Seides",
+        "homepage": "https://www.capitalallocators.com/",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "Our next guest on the Senior Decision Makers series is Erlina Yeo Terwelp, a Managing Director at Columbia Investment Management Company, where she oversees the endowment's private markets portfolio.",
+      "whyItMatters": "Private-market firms are racing to reach wealthy families and individuals, their biggest new source of growth after pensions and endowments. For family offices: compare liquidity terms, fees and valuation policies closely when evaluating new semi-liquid or evergreen products.",
+      "marketContext": "The S&P 500 stands at 7,811.54 (up 0.6% on the prior reading) and the 10-year Treasury yield is 5.22% (down 6 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    },
+    {
+      "id": "05d06dd11f75",
+      "title": "Nate Soares on How AI Really Could Kill Us All",
+      "url": "https://omny.fm/shows/odd-lots/nate-soares-on-how-ai-really-could-kill-us-all",
+      "publishedAt": "2026-10-12T08:00:00.000Z",
+      "source": {
+        "id": "odd-lots",
+        "name": "Odd Lots (Bloomberg podcast)",
+        "homepage": "https://www.bloomberg.com/oddlots",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [],
+      "theme": {
+        "id": "ai-tech",
+        "label": "AI & Technology"
+      },
+      "importance": 3,
+      "takeaway": "Since the Hugging Face incident, concerns over AI doomsday scenarios has entered the mainstream.",
+      "whyItMatters": "Capital flowing into AI shapes returns across asset classes, from tech equities to power infrastructure and private credit for data centers. For allocators: AI exposure often builds up across several holdings at once, so check for concentration at the portfolio level.",
+      "marketContext": "The S&P 500 stands at 7,811.54 (up 0.6% on the prior reading) and the VIX is 14.8, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    },
+    {
+      "id": "45fb5fab0c1c",
+      "title": "Balancing Conviction and Risk: Masters in Business with Maria Vassalou",
+      "url": "https://omny.fm/shows/masters-in-business/balancing-conviction-and-risk-masters-in-business-with-maria-vassalou",
+      "publishedAt": "2026-10-09T21:00:00.000Z",
+      "source": {
+        "id": "masters-in-business",
+        "name": "Masters in Business (Bloomberg podcast)",
+        "homepage": "https://www.bloomberg.com/podcasts/series/masters-in-business",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [],
+      "theme": {
+        "id": "voices",
+        "label": "Investor Outlook"
+      },
+      "importance": 2,
+      "takeaway": "Barry speaks with Maria Vassalou, Head of the Pictet Research Institute.",
+      "whyItMatters": "Commentary from leading investors shows how the people who allocate the most capital are thinking, often before it shows up in their portfolios. For allocators: compare views across managers to see where consensus is forming and where it is not.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.22% (down 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.44 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 9.)",
+      "beginnerNote": {
+        "term": "Market cycle",
+        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    }
+  ],
+  "stats": {
+    "sourcesChecked": 37,
+    "sourcesOk": 26,
+    "candidates": 82,
+    "selected": 24,
+    "aiWritten": 0
+  }
+}
