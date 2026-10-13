@@ -25,16 +25,16 @@ interface Props {
 export function Masthead({ route, theme, onTheme, editionLine, onSignIn }: Props) {
   const account = useAccount();
   return (
-    <header className="bg-masthead text-masthead-ink print:border-b print:border-black">
+    <header className="border-b border-rule bg-masthead text-masthead-ink print:border-black">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 border-b border-white/10 py-2 text-[12px] tracking-wide text-masthead-ink/70">
+        <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 border-b border-rule py-2 text-[12px] tracking-wide text-masthead-ink/70">
           <span className="tabular">{editionLine ?? "Daily investment intelligence"}</span>
           <span className="hidden sm:inline">Free to read · Account optional · Not investment advice</span>
         </div>
 
         <div className="flex flex-col gap-4 py-6 sm:flex-row sm:items-end sm:justify-between">
           <a href="#/" className="group block min-w-0">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#d9b25d]">Morning Edition</p>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-accent">Morning Edition</p>
             <h1 className="font-display mt-1 text-[34px] leading-none font-semibold sm:text-[44px]">{SITE.name}</h1>
             <p className="mt-2 max-w-xl text-[14px] text-masthead-ink/70">{SITE.tagline}</p>
           </a>
@@ -44,10 +44,10 @@ export function Masthead({ route, theme, onTheme, editionLine, onSignIn }: Props
               (account.user ? (
                 <a
                   href="#/account"
-                  className="inline-flex items-center gap-2 rounded-full border border-white/25 py-1 pr-3 pl-1 text-[13px] font-medium text-masthead-ink hover:border-white/60"
+                  className="inline-flex items-center gap-2 rounded-full border border-rule py-1 pr-3 pl-1 text-[13px] font-medium text-masthead-ink hover:border-rule-strong"
                   title={`Signed in as ${account.user.email}`}
                 >
-                  <span aria-hidden className="grid h-6 w-6 place-items-center rounded-full bg-[#5cc4a6] text-[12px] font-semibold text-[#0a0f14] uppercase">
+                  <span aria-hidden className="grid h-6 w-6 place-items-center rounded-full bg-accent text-[12px] font-semibold text-accent-ink uppercase">
                     {account.user.email.charAt(0) || "?"}
                   </span>
                   Account
@@ -56,7 +56,7 @@ export function Masthead({ route, theme, onTheme, editionLine, onSignIn }: Props
                 <button
                   type="button"
                   onClick={onSignIn}
-                  className="rounded-full bg-[#5cc4a6] px-3.5 py-1.5 text-[13px] font-semibold text-[#0a0f14] hover:bg-[#7ed3ba]"
+                  className="rounded-full bg-accent px-3.5 py-1.5 text-[13px] font-semibold text-accent-ink hover:opacity-90"
                 >
                   Sign in
                 </button>
@@ -64,7 +64,7 @@ export function Masthead({ route, theme, onTheme, editionLine, onSignIn }: Props
             <button
               type="button"
               onClick={() => onTheme(THEME_NEXT[theme])}
-              className="rounded-full border border-white/25 px-3 py-1.5 text-[13px] font-medium text-masthead-ink hover:border-white/60"
+              className="rounded-full border border-rule px-3 py-1.5 text-[13px] font-medium text-masthead-ink hover:border-rule-strong"
               aria-label={`Color theme: ${THEME_LABEL[theme]}. Click to change.`}
             >
               <ThemeIcon theme={theme} /> <span className="ml-1">{THEME_LABEL[theme]}</span>
@@ -81,12 +81,12 @@ export function Masthead({ route, theme, onTheme, editionLine, onSignIn }: Props
                 href={n.href}
                 aria-current={active ? "page" : undefined}
                 className={`shrink-0 border-b-2 px-3 pt-1 pb-2.5 text-[14px] font-medium transition-colors ${
-                  active ? "border-[#5cc4a6] text-masthead-ink" : "border-transparent text-masthead-ink/65 hover:text-masthead-ink"
+                  active ? "border-accent text-masthead-ink" : "border-transparent text-masthead-ink/65 hover:text-masthead-ink"
                 }`}
               >
                 {n.label}
                 {n.href === "#/saved" && account.saved.length > 0 && (
-                  <span className="tabular ml-1.5 rounded-full bg-white/15 px-1.5 py-px text-[11px]">{account.saved.length}</span>
+                  <span className="tabular ml-1.5 rounded-full bg-surface-muted px-1.5 py-px text-[11px]">{account.saved.length}</span>
                 )}
               </a>
             );

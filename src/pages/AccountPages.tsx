@@ -72,7 +72,7 @@ export function SavedPage({ onSignIn }: { onSignIn: () => void }) {
                     void clearSaved();
                     setConfirmClear(false);
                   }}
-                  className="rounded-lg bg-down px-4 py-2 text-[14px] font-semibold text-white hover:opacity-90"
+                  className="rounded-lg bg-down px-4 py-2 text-[14px] font-semibold text-accent-ink hover:opacity-90"
                 >
                   Yes, clear all
                 </button>

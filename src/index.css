@@ -1,94 +1,95 @@
 @import "tailwindcss";
 
 /* ── Design tokens ─────────────────────────────────────────────────────────
-   Warm paper + deep ink, emerald accent, brass highlights. Every color is a token
-   so light and dark themes stay in lockstep. */
+   Modern minimal: white and slate surfaces, one blue accent, muted section colors.
+   Every color is a token so light and dark themes stay in lockstep; text pairs are
+   checked for at least 4.5:1 contrast. */
 :root {
-  --paper: #f6f3ec;
-  --surface: #fffdf8;
-  --surface-muted: #eeeae0;
-  --ink: #111a24;
-  --ink-soft: #33404d;
-  --muted: #66707b;
-  --rule: #e0dacd;
-  --rule-strong: #c9c1b0;
-  --accent: #0d5c4b;
-  --accent-soft: #e1eee9;
+  --paper: #f8fafc;
+  --surface: #ffffff;
+  --surface-muted: #f1f5f9;
+  --ink: #0f172a;
+  --ink-soft: #334155;
+  --muted: #64748b;
+  --rule: #e2e8f0;
+  --rule-strong: #cbd5e1;
+  --accent: #2563eb;
+  --accent-soft: #eff6ff;
   --accent-ink: #ffffff;
-  --brass: #94701f;
-  --brass-soft: #f4ead3;
-  --up: #17774a;
-  --down: #b2352b;
-  --focus: #1f6feb;
-  --masthead: #0f1d2b;
-  --masthead-ink: #f6f3ec;
-  --sec-markets: #1f4e8c;
-  --sec-private-markets: #0d7a5f;
-  --sec-family-offices: #b35a24;
-  --sec-private-equity: #9b2c3a;
-  --sec-hedge-funds: #5b3f99;
-  --sec-voices: #94701f;
-  --sec-filings: #4b5563;
+  --brass: #a16207;
+  --brass-soft: #fef9ec;
+  --up: #047857;
+  --down: #dc2626;
+  --focus: #2563eb;
+  --masthead: #ffffff;
+  --masthead-ink: #0f172a;
+  --sec-markets: #4f6b8a;
+  --sec-private-markets: #346c61;
+  --sec-family-offices: #8a5c43;
+  --sec-private-equity: #8e5566;
+  --sec-hedge-funds: #6a609e;
+  --sec-voices: #73632e;
+  --sec-filings: #5a6678;
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #0d1218;
-    --surface: #141b23;
-    --surface-muted: #1b242e;
-    --ink: #ece8df;
-    --ink-soft: #c4c0b7;
-    --muted: #939aa3;
-    --rule: #25303b;
-    --rule-strong: #34414e;
-    --accent: #5cc4a6;
-    --accent-soft: #15302a;
-    --accent-ink: #0d1218;
-    --brass: #d9b25d;
-    --brass-soft: #2e2615;
-    --up: #4cc38a;
-    --down: #f07167;
-    --focus: #7aa7ff;
-    --masthead: #0a0f14;
-    --masthead-ink: #ece8df;
-    --sec-markets: #7fa9e6;
-    --sec-private-markets: #5cc4a6;
-    --sec-family-offices: #e8a06e;
-    --sec-private-equity: #ea8a96;
-    --sec-hedge-funds: #b39ae8;
-    --sec-voices: #d9b25d;
-    --sec-filings: #a3acb8;
+    --paper: #0b1120;
+    --surface: #111827;
+    --surface-muted: #1e293b;
+    --ink: #e2e8f0;
+    --ink-soft: #cbd5e1;
+    --muted: #94a3b8;
+    --rule: #1f2937;
+    --rule-strong: #334155;
+    --accent: #60a5fa;
+    --accent-soft: #172554;
+    --accent-ink: #0b1120;
+    --brass: #e3b341;
+    --brass-soft: #2a2112;
+    --up: #34d399;
+    --down: #f87171;
+    --focus: #60a5fa;
+    --masthead: #0f172a;
+    --masthead-ink: #e2e8f0;
+    --sec-markets: #93aecb;
+    --sec-private-markets: #86c2b5;
+    --sec-family-offices: #d1a98f;
+    --sec-private-equity: #d19aab;
+    --sec-hedge-funds: #afa6da;
+    --sec-voices: #cdbc86;
+    --sec-filings: #a3aebd;
     color-scheme: dark;
   }
 }
 
 :root[data-theme="dark"] {
-  --paper: #0d1218;
-  --surface: #141b23;
-  --surface-muted: #1b242e;
-  --ink: #ece8df;
-  --ink-soft: #c4c0b7;
-  --muted: #939aa3;
-  --rule: #25303b;
-  --rule-strong: #34414e;
-  --accent: #5cc4a6;
-  --accent-soft: #15302a;
-  --accent-ink: #0d1218;
-  --brass: #d9b25d;
-  --brass-soft: #2e2615;
-  --up: #4cc38a;
-  --down: #f07167;
-  --focus: #7aa7ff;
-  --masthead: #0a0f14;
-  --masthead-ink: #ece8df;
-  --sec-markets: #7fa9e6;
-  --sec-private-markets: #5cc4a6;
-  --sec-family-offices: #e8a06e;
-  --sec-private-equity: #ea8a96;
-  --sec-hedge-funds: #b39ae8;
-  --sec-voices: #d9b25d;
-  --sec-filings: #a3acb8;
+  --paper: #0b1120;
+  --surface: #111827;
+  --surface-muted: #1e293b;
+  --ink: #e2e8f0;
+  --ink-soft: #cbd5e1;
+  --muted: #94a3b8;
+  --rule: #1f2937;
+  --rule-strong: #334155;
+  --accent: #60a5fa;
+  --accent-soft: #172554;
+  --accent-ink: #0b1120;
+  --brass: #e3b341;
+  --brass-soft: #2a2112;
+  --up: #34d399;
+  --down: #f87171;
+  --focus: #60a5fa;
+  --masthead: #0f172a;
+  --masthead-ink: #e2e8f0;
+  --sec-markets: #93aecb;
+  --sec-private-markets: #86c2b5;
+  --sec-family-offices: #d1a98f;
+  --sec-private-equity: #d19aab;
+  --sec-hedge-funds: #afa6da;
+  --sec-voices: #cdbc86;
+  --sec-filings: #a3aebd;
   color-scheme: dark;
 }
 
@@ -110,7 +111,7 @@
   --color-down: var(--down);
   --color-masthead: var(--masthead);
   --color-masthead-ink: var(--masthead-ink);
-  --font-serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-display: "Inter Tight", "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
@@ -136,10 +137,8 @@ body {
 }
 
 .font-display {
-  font-family: var(--font-serif);
-  font-optical-sizing: auto;
-  font-variation-settings: "SOFT" 30, "WONK" 0;
-  letter-spacing: -0.01em;
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
 }
 
 .tabular {
