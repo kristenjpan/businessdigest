@@ -6,7 +6,10 @@ import { fetchEdgarSource } from "../pipeline/edgar";
 import { fetchRssSource } from "../pipeline/fetchFeeds";
 import { fetchMarketSnapshot } from "../pipeline/fred";
 import { isRecent, lookbackHours } from "../pipeline/score";
-import { SOURCES } from "../pipeline/sources";
+import { SOURCES as FREE_SOURCES, SUBSCRIPTION_SOURCES } from "../pipeline/sources";
+
+// Subscriber feeds are checked too (robots.txt, status, recent items).
+const SOURCES = [...FREE_SOURCES, ...SUBSCRIPTION_SOURCES];
 
 const now = new Date();
 const base = lookbackHours(now);

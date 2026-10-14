@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { CORE_FIRMS, SECTIONS, TRACKED_FIRMS, type SectionId } from "../../pipeline/types";
+import { CORE_FIRMS, SECTIONS, SUBSCRIPTION_PUBLISHERS, TRACKED_FIRMS, type SectionId, type SubscriptionId } from "../../pipeline/types";
 import { useAccount } from "../lib/account";
 import { hostOf, publishedLabel } from "../lib/format";
 import { PageHeader } from "./Pages";
@@ -142,6 +142,7 @@ function PreferencesForm() {
   const { prefs, setPrefs } = useAccount();
   const [sections, setSections] = useState<SectionId[]>(prefs.sections);
   const [firms, setFirms] = useState<string[]>(prefs.firms);
+  const [subscriptions, setSubscriptions] = useState<SubscriptionId[]>(prefs.subscriptions);
   const [status, setStatus] = useState<{ ok: boolean; text: string } | null>(null);
   const [busy, setBusy] = useState(false);
 
@@ -149,6 +150,7 @@ function PreferencesForm() {
   useEffect(() => {
     setSections(prefs.sections);
     setFirms(prefs.firms);
+    setSubscriptions(prefs.subscriptions);
   }, [prefs]);
 
   const toggle = <T,>(list: T[], value: T) => (list.includes(value) ? list.filter((v) => v !== value) : [...list, value]);
@@ -158,9 +160,10 @@ function PreferencesForm() {
     const err = await setPrefs(
       SECTIONS.map((s) => s.id).filter((id) => sections.includes(id)),
       TRACKED_FIRMS.filter((f) => firms.includes(f)),
+      SUBSCRIPTION_PUBLISHERS.map((p) => p.id).filter((id) => subscriptions.includes(id)),
     );
     setBusy(false);
-    setStatus(err ? { ok: false, text: err } : { ok: true, text: "Saved. Today's edition now has a For you filter." });
+    setStatus(err ? { ok: false, text: err } : { ok: true, text: "Saved. Today's edition reflects your choices." });
   }
 
   return (
@@ -200,6 +203,27 @@ function PreferencesForm() {
               </button>
             );
           })}
+        </div>
+      </fieldset>
+
+      <fieldset className="mt-6">
+        <legend className="text-[12px] font-semibold uppercase tracking-[0.14em] text-muted">Your subscriptions</legend>
+        <p className="mt-1 text-[13px] leading-relaxed text-ink-soft">
+          Tick the publications you pay for to add their latest headlines to your Today page. Articles open on the publisher's site, where your
+          own subscription applies. We never ask for your publisher login.
+        </p>
+        <div className="mt-2 grid gap-2 sm:grid-cols-2">
+          {SUBSCRIPTION_PUBLISHERS.map((p) => (
+            <label key={p.id} className="flex items-center gap-2.5 rounded-lg border border-rule px-3 py-2 text-[14px] text-ink hover:bg-surface-muted">
+              <input
+                type="checkbox"
+                checked={subscriptions.includes(p.id)}
+                onChange={() => setSubscriptions((l) => toggle(l, p.id))}
+                className="h-4 w-4 accent-[var(--accent)]"
+              />
+              {p.name}
+            </label>
+          ))}
         </div>
       </fieldset>
 

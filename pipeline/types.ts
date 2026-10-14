@@ -142,3 +142,33 @@ export interface ArchiveIndex {
   updatedAt: string;
   editions: ArchiveEntry[]; // newest first
 }
+
+// ── Reader subscriptions ──────────────────────────────────────────────────
+/**
+ * Paywalled publishers whose free, public headline feeds signed-in readers can opt into.
+ * The site only shows headlines and the publisher's own one-line summary, and links out;
+ * readers open the article on the publisher's site with their own subscription.
+ */
+export const SUBSCRIPTION_PUBLISHERS = [
+  { id: "wsj", name: "The Wall Street Journal", short: "WSJ", homepage: "https://www.wsj.com/" },
+  { id: "ft", name: "Financial Times", short: "FT", homepage: "https://www.ft.com/" },
+  { id: "bloomberg", name: "Bloomberg", short: "Bloomberg", homepage: "https://www.bloomberg.com/" },
+  { id: "economist", name: "The Economist", short: "The Economist", homepage: "https://www.economist.com/" },
+] as const;
+
+export type SubscriptionId = (typeof SUBSCRIPTION_PUBLISHERS)[number]["id"];
+
+export interface SubscriberHeadline {
+  id: string;
+  title: string;
+  url: string;
+  publishedAt: string;
+  /** The publisher's own first sentence from its feed, or "" when there isn't a complete one. */
+  teaser: string;
+  firms: string[];
+}
+
+export interface SubscriberFeed {
+  generatedAt: string;
+  publishers: { id: SubscriptionId; items: SubscriberHeadline[] }[];
+}

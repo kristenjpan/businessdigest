@@ -18,6 +18,10 @@ create table if not exists public.preferences (
   updated_at timestamptz not null default now()
 );
 
+-- Publishers the reader subscribes to (wsj, ft, bloomberg, economist). Adds headlines from those
+-- publishers' public feeds to their Today page; no publisher logins are ever stored.
+alter table public.preferences add column if not exists subscriptions text[] not null default '{}';
+
 alter table public.saved_stories enable row level security;
 alter table public.preferences   enable row level security;
 

@@ -69,6 +69,20 @@ Accounts use [Supabase](https://supabase.com) (free tier). Without the two envir
 7. **Keep the project awake.** Free Supabase projects pause after about a week without activity. Under **GitHub → Settings → Secrets and variables → Actions → Variables**, add `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY`. The daily workflow then makes one small read each morning.
 8. **Local testing.** Create `.env.local` in the project folder with the same two `VITE_…` lines. It is ignored by git.
 
+### Reader subscriptions (optional)
+
+Signed-in readers can tick the publications they pay for (The Wall Street Journal, Financial Times, Bloomberg, The Economist) on their Account page. Their Today page then shows a **From your subscriptions** section with those publishers' latest headlines and each publisher's own one-sentence summary, linking to the article on the publisher's site, where the reader's own subscription applies.
+
+- **No publisher logins.** Publishers offer no way for outside sites to link a subscription, and collecting readers' passwords would break their terms, so the site never asks.
+- **Headlines only.** They come from each publisher's free public feed (`SUBSCRIPTION_SOURCES` in `pipeline/sources.ts`, checked against robots.txt). No article text is fetched, summarized or stored, and these headlines never enter the free edition. The daily build writes them to `public/data/subscriptions.json`.
+- **Setup for an existing Supabase project:** run this once in the SQL Editor (it's also in `supabase/schema.sql`):
+
+  ```sql
+  alter table public.preferences add column if not exists subscriptions text[] not null default '{}';
+  ```
+
+Each publisher's feed terms apply. Before promoting the site widely, review them or ask the publisher's permissions team.
+
 ## Run locally
 
 ```bash

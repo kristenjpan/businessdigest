@@ -1,4 +1,4 @@
-import type { ContentType, SectionId } from "./types";
+import type { ContentType, SectionId, SubscriptionId } from "./types";
 
 interface BaseSource {
   id: string;
@@ -18,6 +18,8 @@ export interface RssSource extends BaseSource {
   excludeUrl?: RegExp;
   /** High-volume wires: keep only items that name a tracked firm or match investment keywords. */
   requireRelevance?: boolean;
+  /** A paywalled publisher's public headline feed, shown only to readers who subscribe to it. */
+  subscription?: SubscriptionId;
 }
 
 export interface EdgarSource extends BaseSource {
@@ -413,6 +415,34 @@ export const SOURCES: Source[] = [
     firms: ["Bridgewater"],
     description: "Bridgewater's quarterly 13F holdings disclosures.",
   },
+];
+
+/**
+ * Public headline feeds from paywalled publishers. They never enter the free edition: the daily
+ * build writes their headlines to public/data/subscriptions.json, and the site shows them only to
+ * signed-in readers who tick that publisher under "Your subscriptions". No article text is fetched,
+ * summarized or stored; every headline links to the publisher's site.
+ */
+const subscriber = (
+  id: string,
+  subscription: SubscriptionId,
+  name: string,
+  url: string,
+  homepage: string,
+  description: string,
+  // Dedicated markets feeds are on-topic already; general feeds keep only investment-related headlines.
+  requireRelevance = true,
+): RssSource => ({ kind: "rss", id, subscription, name, url, homepage, description, contentType: "news", section: "markets", tier: 2, requireRelevance });
+
+export const SUBSCRIPTION_SOURCES: RssSource[] = [
+  subscriber("wsj-markets", "wsj", "The Wall Street Journal — Markets", "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", "https://www.wsj.com/finance", "WSJ's public markets headline feed.", false),
+  subscriber("wsj-business", "wsj", "The Wall Street Journal — Business", "https://feeds.content.dowjones.io/public/rss/WSJcomUSBusiness", "https://www.wsj.com/business", "WSJ's public U.S. business headline feed."),
+  subscriber("ft-markets", "ft", "Financial Times — Markets", "https://www.ft.com/markets?format=rss", "https://www.ft.com/markets", "FT's public markets headline feed.", false),
+  subscriber("ft-home", "ft", "Financial Times — Top stories", "https://www.ft.com/rss/home", "https://www.ft.com/", "FT's public top-stories headline feed."),
+  // Bloomberg's markets feed also carries videos and politics: keep articles, investment topics only.
+  { ...subscriber("bloomberg-markets", "bloomberg", "Bloomberg — Markets", "https://feeds.bloomberg.com/markets/news.rss", "https://www.bloomberg.com/markets", "Bloomberg's public markets headline feed."), excludeUrl: /\/news\/videos\// },
+  subscriber("economist-finance", "economist", "The Economist — Finance & economics", "https://www.economist.com/finance-and-economics/rss.xml", "https://www.economist.com/finance-and-economics", "The Economist's public finance and economics headline feed."),
+  subscriber("economist-business", "economist", "The Economist — Business", "https://www.economist.com/business/rss.xml", "https://www.economist.com/business", "The Economist's public business headline feed."),
 ];
 
 /** FRED series for the market strip. Public CSV endpoint, no key required. */

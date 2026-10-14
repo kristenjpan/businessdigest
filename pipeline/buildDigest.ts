@@ -18,7 +18,8 @@ import { MarketView } from "./enrich/market";
 import { fetchRssSource } from "./fetchFeeds";
 import { fetchMarketSnapshot } from "./fred";
 import { isRecent, lookbackHours } from "./score";
-import { SOURCES } from "./sources";
+import { SOURCES, SUBSCRIPTION_SOURCES } from "./sources";
+import { buildSubscriberFeed } from "./subscriptions";
 import type { ArchiveIndex, Digest } from "./types";
 
 const DATA_DIR = path.resolve("public/data");
@@ -44,7 +45,18 @@ async function main() {
   console.log(`Building digest for ${date}${dryRun ? " (dry run)" : ""} · engine ${ENGINE} (no API keys)`);
 
   // 1. Fetch
-  const results = await Promise.all(SOURCES.map((s) => (s.kind === "edgar" ? fetchEdgarSource(s) : fetchRssSource(s))));
+  // Subscriber feeds (paywalled publishers' public headlines) are fetched alongside but kept apart:
+  // they never enter the free edition.
+  const [results, subscriberResults] = await Promise.all([
+    Promise.all(SOURCES.map((s) => (s.kind === "edgar" ? fetchEdgarSource(s) : fetchRssSource(s)))),
+    Promise.all(SUBSCRIPTION_SOURCES.map(async (source) => ({ source, result: await fetchRssSource(source) }))),
+  ]);
+  for (const { result } of subscriberResults.filter((r) => !r.result.ok)) console.warn(`  ✗ ${result.sourceId}: ${result.status}`);
+  const subscriberFeed = buildSubscriberFeed(
+    subscriberResults.map(({ source, result }) => ({ source, items: result.items })),
+    now,
+  );
+  const subscriberCount = subscriberFeed.publishers.reduce((n, p) => n + p.items.length, 0);
   for (const r of results.filter((r) => !r.ok)) console.warn(`  ✗ ${r.sourceId}: ${r.status}`);
   const sourcesOk = results.filter((r) => r.ok).length;
   const market = await fetchMarketSnapshot(now);
@@ -85,6 +97,8 @@ async function main() {
     stats: { sourcesChecked: SOURCES.length, sourcesOk, candidates: unique.length, selected: selection.items.length, aiWritten },
   };
 
+  console.log(`  Subscriber headlines: ${subscriberFeed.publishers.map((p) => `${p.id} ${p.items.length}`).join(", ")}`);
+
   if (dryRun) {
     console.log(`\n${brief.headline}\n`);
     for (const b of brief.bullets) console.log(`  • ${b}`);
@@ -108,6 +122,9 @@ async function main() {
   );
   await writeFile(indexFile, JSON.stringify(index, null, 2));
   for (const d of removed) await rm(path.join(ARCHIVE_DIR, `${d}.json`), { force: true });
+  // Keep yesterday's subscriber headlines if every subscriber feed failed today.
+  if (subscriberCount) await writeFile(path.join(DATA_DIR, "subscriptions.json"), JSON.stringify(subscriberFeed, null, 2));
+  else console.warn("  No subscriber headlines today; keeping the previous subscriptions.json");
   console.log(`✓ Edition #${digest.edition}: ${digest.items.length} items → public/data/latest.json (+ archive, ${index.editions.length} kept)`);
 }
 

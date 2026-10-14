@@ -5,7 +5,7 @@ import { mergeSaved, type SavedStory } from "./saved";
 import { enabledProviders } from "./supabase";
 
 describe("reader preferences", () => {
-  const prefs = { sections: ["hedge-funds" as const], firms: ["Apollo"] };
+  const prefs = { sections: ["hedge-funds" as const], firms: ["Apollo"], subscriptions: [] };
 
   it("matches stories in a chosen section or mentioning a chosen firm", () => {
     expect(matchesPrefs({ section: "hedge-funds", firms: [] }, prefs)).toBe(true);
@@ -16,11 +16,12 @@ describe("reader preferences", () => {
 
   it("knows whether a reader has set any preferences", () => {
     expect(hasPrefs(EMPTY_PREFS)).toBe(false);
-    expect(hasPrefs({ sections: [], firms: ["KKR"] })).toBe(true);
+    expect(hasPrefs({ sections: [], firms: ["KKR"], subscriptions: [] })).toBe(true);
+    expect(hasPrefs({ sections: [], firms: [], subscriptions: ["ft"] })).toBe(false);
   });
 
   it("puts chosen sections first, keeping the usual order otherwise", () => {
-    const ordered = orderSections(SECTIONS, { sections: ["voices", "private-markets"], firms: [] }).map((s) => s.id);
+    const ordered = orderSections(SECTIONS, { sections: ["voices", "private-markets"], firms: [], subscriptions: [] }).map((s) => s.id);
     expect(ordered.slice(0, 2)).toEqual(["private-markets", "voices"]);
     expect(ordered).toHaveLength(SECTIONS.length);
     expect(orderSections(SECTIONS, EMPTY_PREFS).map((s) => s.id)).toEqual(SECTIONS.map((s) => s.id));

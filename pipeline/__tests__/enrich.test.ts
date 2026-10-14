@@ -316,3 +316,33 @@ describe("browser-safe firm list", () => {
     expect([...TRACKED_FIRMS].sort()).toEqual(Object.keys(FIRM_PATTERNS).sort());
   });
 });
+
+describe("subscriber headlines", () => {
+  it("keeps only the publisher's first complete sentence as the teaser", async () => {
+    const { teaserOf } = await import("../subscriptions");
+    expect(teaserOf("U.S. stocks slid as rising inflation bolstered the case for a rate increase. More inside.")).toBe(
+      "U.S. stocks slid as rising inflation bolstered the case for a rate increase.",
+    );
+    expect(teaserOf("A sentence the feed cut off before it could finish…")).toBe("");
+    expect(teaserOf("")).toBe("");
+  });
+
+  it("groups by publisher, keeps recent relevant headlines, and never mixes into the free edition", async () => {
+    const { buildSubscriberFeed } = await import("../subscriptions");
+    const { SUBSCRIPTION_SOURCES, SOURCES } = await import("../sources");
+    const ft = SUBSCRIPTION_SOURCES.find((s) => s.subscription === "ft")!;
+    const econ = SUBSCRIPTION_SOURCES.find((s) => s.subscription === "economist")!;
+    const at = (h: number) => new Date(now.getTime() - h * 3_600_000).toISOString();
+    const feed = buildSubscriberFeed(
+      [
+        { source: ft, items: [raw({ title: "Fresh FT deal story", publishedAt: at(2) }), raw({ title: "Old FT story from last week", publishedAt: at(100) })] },
+        { source: econ, items: [raw({ title: "Economist weekly piece on private credit", publishedAt: at(100) })] },
+      ],
+      now,
+    );
+    expect(feed.publishers.find((p) => p.id === "ft")!.items.map((i) => i.title)).toEqual(["Fresh FT deal story"]);
+    expect(feed.publishers.find((p) => p.id === "economist")!.items).toHaveLength(1); // 7-day window
+    expect(feed.publishers.find((p) => p.id === "wsj")!.items).toHaveLength(0);
+    expect(SOURCES.some((s) => s.kind === "rss" && s.subscription)).toBe(false);
+  });
+});

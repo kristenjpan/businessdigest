@@ -1,11 +1,13 @@
-import type { DigestItem, SectionId } from "../../pipeline/types";
+import type { DigestItem, SectionId, SubscriptionId } from "../../pipeline/types";
 
 export interface Prefs {
   sections: SectionId[];
   firms: string[];
+  /** Publishers whose headlines appear under "From your subscriptions". Doesn't affect For you. */
+  subscriptions: SubscriptionId[];
 }
 
-export const EMPTY_PREFS: Prefs = { sections: [], firms: [] };
+export const EMPTY_PREFS: Prefs = { sections: [], firms: [], subscriptions: [] };
 
 export function hasPrefs(p: Prefs): boolean {
   return p.sections.length > 0 || p.firms.length > 0;

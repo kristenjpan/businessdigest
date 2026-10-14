@@ -6,6 +6,7 @@ import { hasPrefs, matchesPrefs, orderSections, type Prefs } from "../lib/person
 import { DigestCard } from "./DigestCard";
 import { MarketStrip } from "./MarketStrip";
 import { MorningBrief } from "./MorningBrief";
+import { SubscriptionsSection } from "./SubscriptionsSection";
 
 interface Filters {
   section: SectionId | "all" | "foryou";
@@ -106,6 +107,8 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
           </ol>
         </section>
       )}
+
+      {!archived && <SubscriptionsSection />}
 
       <div className="mt-10 lg:grid lg:grid-cols-[1fr_260px] lg:gap-10">
         <div className="min-w-0">

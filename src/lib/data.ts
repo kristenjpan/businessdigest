@@ -1,4 +1,4 @@
-import type { ArchiveIndex, Digest } from "../../pipeline/types";
+import type { ArchiveIndex, Digest, SubscriberFeed } from "../../pipeline/types";
 
 async function getJson<T>(path: string): Promise<T | null> {
   try {
@@ -17,3 +17,6 @@ export const loadEdition = (date: string) =>
   /^\d{4}-\d{2}-\d{2}$/.test(date) ? getJson<Digest>(`data/archive/${date}.json`) : Promise.resolve(null);
 
 export const loadArchiveIndex = () => getJson<ArchiveIndex>("data/archive/index.json");
+
+/** Headlines from paywalled publishers' public feeds, shown only to readers who subscribe to them. */
+export const loadSubscriberFeed = () => getJson<SubscriberFeed>("data/subscriptions.json");

@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
-import type { DigestItem, SectionId } from "../../pipeline/types";
+import type { DigestItem, SectionId, SubscriptionId } from "../../pipeline/types";
 import { EMPTY_PREFS, type Prefs } from "./personalize";
 import { mergeSaved, readLocalSaved, snapshot, writeLocalSaved, type SavedStory } from "./saved";
 import { authEnabled, fetchEnabledProviders, getSupabase, siteRoot } from "./supabase";
@@ -32,7 +32,7 @@ interface Account {
   clearSaved(): Promise<void>;
 
   prefs: Prefs;
-  setPrefs(sections: SectionId[], firms: string[]): Promise<string | null>;
+  setPrefs(sections: SectionId[], firms: string[], subscriptions: SubscriptionId[]): Promise<string | null>;
 }
 
 const AccountContext = createContext<Account | null>(null);
@@ -129,12 +129,14 @@ export function AccountProvider({ children }: { children: React.ReactNode }) {
       }
       const [savedRes, prefsRes] = await Promise.all([
         sb.from("saved_stories").select("story_id, story, saved_at").order("saved_at", { ascending: false }),
-        sb.from("preferences").select("sections, firms").maybeSingle(),
+        // "*" so accounts whose database predates the subscriptions column still load.
+        sb.from("preferences").select("*").maybeSingle(),
       ]);
       if (cancelled) return;
       const remote = ((savedRes.data ?? []) as SavedRow[]).map((r) => ({ ...r.story, id: r.story_id, savedAt: r.saved_at }));
       setSaved(mergeSaved(readLocalSaved(), remote));
-      if (prefsRes.data) setPrefsState({ sections: prefsRes.data.sections ?? [], firms: prefsRes.data.firms ?? [] });
+      if (prefsRes.data)
+        setPrefsState({ sections: prefsRes.data.sections ?? [], firms: prefsRes.data.firms ?? [], subscriptions: prefsRes.data.subscriptions ?? [] });
       else setPrefsState(EMPTY_PREFS);
     })().catch((err) => console.warn("Could not load account data:", err));
     return () => {
@@ -243,14 +245,23 @@ export function AccountProvider({ children }: { children: React.ReactNode }) {
     }
   }, [applySaved]);
 
-  const setPrefs = useCallback(async (sections: SectionId[], firms: string[]) => {
+  const prefsRef = useRef(prefs);
+  prefsRef.current = prefs;
+
+  const setPrefs = useCallback(async (sections: SectionId[], firms: string[], subscriptions: SubscriptionId[]) => {
     const u = userRef.current;
     if (!u) return "Sign in to save preferences.";
-    const { error } = await (await getSupabase())
-      .from("preferences")
-      .upsert({ user_id: u.id, sections, firms, updated_at: new Date().toISOString() }, { onConflict: "user_id" });
-    if (error) return error.message;
-    setPrefsState({ sections, firms });
+    const row: Record<string, unknown> = { user_id: u.id, sections, firms, updated_at: new Date().toISOString() };
+    // Only send subscriptions when they're in use, so saving sections and firms keeps working on a
+    // database that hasn't had the subscriptions column added yet.
+    if (subscriptions.length || prefsRef.current.subscriptions.length) row.subscriptions = subscriptions;
+    const { error } = await (await getSupabase()).from("preferences").upsert(row, { onConflict: "user_id" });
+    if (error) {
+      return /subscriptions/i.test(error.message)
+        ? "Subscriptions aren't set up in the database yet. Run the subscriptions line from supabase/schema.sql in the Supabase SQL Editor."
+        : error.message;
+    }
+    setPrefsState({ sections, firms, subscriptions });
     return null;
   }, []);
 
