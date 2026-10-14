@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-10-14T23:16:55.945Z",
+  "publishers": [
+    {
+      "id": "wsj",
+      "items": [
+        {
+          "id": "04265ba6da98",
+          "title": "WSJ Dollar Index Rises 0.23% to 97.57",
+          "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-ahead-of-u-s-cpi-data-993f6e8d?mod=rss_markets_main",
+          "publishedAt": "2026-10-14T22:57:00.000Z",
+          "teaser": "The WSJ Dollar Index rose 0.2% — up three of the past four trading days.",
+          "firms": []
+        },
+        {
+          "id": "84fa58b78479",
+          "title": "Opinion | The End of the Libor Fraud Persecution",
+          "url": "https://www.wsj.com/opinion/libor-fraud-convictions-overturned-banks-finance-5674196d?mod=rss_markets_main",
+          "publishedAt": "2026-10-14T21:58:00.000Z",
+          "teaser": "A flagrant attempt to scapegoat bankers for the last crisis collapses.",
+          "firms": []
+        },
+        {
+          "id": "1f44e4168e24",
+          "title": "U.S. Stocks Fall on Hot Inflation Report, AI Sell-Off",
+          "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-on-hot-inflation-report-ai-sell-off-6c98113d?mod=rss_markets_main",
+          "publishedAt": "2026-10-14T21:32:00.000Z",
+          "teaser": "U.S. stocks slid as rising inflation bolstered the case for another rate increase this year.",
+          "firms": []
+        },
+        {
+          "id": "0fa331365381",
+          "title": "AI Jitters and Rate-Hike Fears Combine for Worst Day for Stocks Since July",
+          "url": "https://www.wsj.com/finance/stocks/ai-jitters-and-rate-hike-fears-combine-for-worst-day-for-stocks-since-july-6abd3a0f?mod=rss_markets_main",
+          "publishedAt": "2026-10-14T21:13:00.000Z",
+          "teaser": "A hot inflation report reset expectations for an October rate increase.",
+          "firms": []
+        },
+        {
+          "id": "a93716962429",
+          "title": "Basic Materials Roundup: Market Talk",
+          "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-4f9f083f?mod=rss_markets_main",
+          "publishedAt": "2026-10-14T21:00:00.000Z",
+          "teaser": "Find insight on gold and silver futures, Rio Tinto, Mineral Resources and more in the latest Market Talks covering Basic Materials.",
+          "firms": []
+        },
+        {
+          "id": "718b37be113f",
+          "title": "Tech, Media & Telecom Roundup: Market Talk",
+          "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-e9bd3bcd?mod=rss_markets_main",
+          "publishedAt": "2026-10-14T20:58:00.000Z",
+          "teaser": "Find insight on Samsung Electronics, SK Hynix, ASML Holding and more in the latest Market Talks covering Technology, Media and Telecom.",
+          "firms": []
+        },
+        {
+          "id": "fb1d84a8b987",
+          "title": "Opinion | America Needs More Capital",
+          "url": "https://www.wsj.com/opinion/america-needs-more-capital-43428ee0?mod=rss_markets_main",
+          "publishedAt": "2026-10-14T20:31:00.000Z",
+          "teaser": "Economic growth will solve the debt problem and keep us ahead in AI.",
+          "firms": []
+        },
+        {
+          "id": "853102d45254",
+          "title": "Inflation Runs Hot, Stocks Go Cold",
+          "url": "https://www.wsj.com/finance/stocks/inflation-runs-hot-stocks-go-cold-eb83d91a?mod=rss_markets_main",
+          "publishedAt": "2026-10-14T20:21:00.000Z",
+          "teaser": "",
+          "firms": []
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "items": [
+        {
+          "id": "263c11261454",
+          "title": "Anthropic tells investors quarterly revenue up 50% to $16.8bn ahead of IPO",
+          "url": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-14T22:47:45.000Z",
+          "teaser": "",
+          "firms": []
+        },
+        {
+          "id": "662aff9c3dd9",
+          "title": "US chip stocks slide as inflation and AI debt fears unsettle investors",
+          "url": "https://www.ft.com/content/fb258413-e88d-47fe-98c8-f645adaea1e1?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-14T20:36:40.000Z",
+          "teaser": "",
+          "firms": []
+        },
+        {
+          "id": "bb5b5a76c8bb",
+          "title": "Perella Weinberg and Piper Sandler abandon merger talks",
+          "url": "https://www.ft.com/content/dadac221-a4dd-4935-897e-7f7faebe8f17?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-14T20:16:29.000Z",
+          "teaser": "",
+          "firms": []
+        },
+        {
+          "id": "0935728a85da",
+          "title": "Berkshire Hathaway adds $330mn to stake in tech group Bending Spoons",
+          "url": "https://www.ft.com/content/3f821be4-f137-4cc9-b0b0-b2014f2607c2?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-14T20:08:42.000Z",
+          "teaser": "",
+          "firms": [
+            "Berkshire"
+          ]
+        },
+        {
+          "id": "3a3aa176c311",
+          "title": "German prosecutors accuse Ukraine of Nord Stream sabotage",
+          "url": "https://www.ft.com/content/8c3c631c-e37f-4209-aefd-112c4c58020c?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-14T13:39:09.000Z",
+          "teaser": "",
+          "firms": []
+        },
+        {
+          "id": "01f69627c6c4",
+          "title": "Houthis attack Saudi Aramco headquarters",
+          "url": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-14T13:25:00.000Z",
+          "teaser": "",
+          "firms": []
+        },
+        {
+          "id": "9101507b4614",
+          "title": "Global diesel prices set to rise again, warns IEA",
+          "url": "https://www.ft.com/content/b06d00da-9df7-405b-9410-b5485c267397?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-14T12:25:57.000Z",
+          "teaser": "",
+          "firms": []
+        },
+        {
+          "id": "6d70f2f9d081",
+          "title": "BlackRock pulls in $205bn to take assets to record high",
+          "url": "https://www.ft.com/content/63e3c39b-357f-4a87-adf0-090c60c929a7?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-14T11:39:33.000Z",
+          "teaser": "",
+          "firms": [
+            "BlackRock"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "items": [
+        {
+          "id": "6f663b437eef",
+          "title": "777 Partners’ Co-Founder Wander Signals Guilty Plea in Filing",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/777-partners-co-founder-wander-signals-guilty-plea-in-filing",
+          "publishedAt": "2026-10-14T22:36:28.000Z",
+          "teaser": "Josh Wander, the 777 Partners co-founder, signaled he would plead guilty in a case that accused him of cheating lenders and investors out of almost $500 million.",
+          "firms": []
+        },
+        {
+          "id": "c030760562bd",
+          "title": "Canadian Lender Cash Today Inc. Under Scrutiny as 44,000 Loans Vanish",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/canadian-lender-cash-today-inc-under-scrutiny-as-44-000-loans-vanish",
+          "publishedAt": "2026-10-14T21:29:59.000Z",
+          "teaser": "A Canadian consumer lender has left creditors with potential claims of more than C$613 million ($430 million), while a court-appointed receiver struggles to account for the firms’ loans and determine how investor money was used.",
+          "firms": []
+        },
+        {
+          "id": "88503751267d",
+          "title": "Woman Admits Trying to Scam Wes Edens for $1.2 Billion",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/woman-pleads-guilty-to-trying-to-scam-wes-edens-for-1-2-billion",
+          "publishedAt": "2026-10-14T17:44:54.000Z",
+          "teaser": "A woman pleaded guilty to fraud in connection with a plot to extort Fortress Investment Group co-founder Wes Edens out of more than $1.2 billion by threatening to release videos of them having sex.",
+          "firms": []
+        },
+        {
+          "id": "be8f1e804a64",
+          "title": "TSMC Results Face High Bar to Calm Global AI Stock Trade Jitters",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/tsmc-results-face-high-bar-to-calm-global-ai-stock-trade-jitters",
+          "publishedAt": "2026-10-14T16:01:00.000Z",
+          "teaser": "With strong earnings from global chip majors failing to boost the AI trade, Taiwan Semiconductor Manufacturing Co. faces a high bar to impress investors.",
+          "firms": []
+        }
+      ]
+    },
+    {
+      "id": "economist",
+      "items": [
+        {
+          "id": "9fddd78454ee",
+          "title": "The AI boom is threatened by an epidemic of unreliable numbers",
+          "url": "https://www.economist.com/business/2026/10/14/the-ai-boom-is-threatened-by-an-epidemic-of-unreliable-numbers",
+          "publishedAt": "2026-10-14T21:19:50.000Z",
+          "teaser": "",
+          "firms": []
+        },
+        {
+          "id": "0d4556d669c9",
+          "title": "Another warning sign for China’s economy: falling consumer credit",
+          "url": "https://www.economist.com/finance-and-economics/2026/10/14/another-warning-sign-for-chinas-economy-falling-consumer-credit",
+          "publishedAt": "2026-10-14T17:52:55.000Z",
+          "teaser": "",
+          "firms": []
+        }
+      ]
+    }
+  ]
+}
