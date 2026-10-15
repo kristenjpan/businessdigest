@@ -1,19 +1,18 @@
 import { LOW_VALUE } from "../normalize";
 import { score, shortlist } from "../score";
 import { SECTIONS, type DigestItem, type ExecutiveBrief, type RawItem } from "../types";
-import { type AiFields, writeWithAI } from "./ai";
 import { FIRM_PROFILES, leadFirm } from "./firms";
 import { findTerm } from "./glossary";
 import { cap, MarketView, sentence } from "./market";
 import { classify, pickBySeed, resolveSection, type Theme } from "./themes";
 import { storyTypeOf } from "./storyType";
-import { cleanTitle, extractTakeaway } from "./takeaway";
+import { cleanTitle, extractTakeaway, takeawayFor } from "./takeaway";
 
 /**
  * The keyless enrichment engine. Deterministic, rule-based and free: no LLM, no API key.
  * Given the same feed items and market data it always produces the same digest.
  */
-export const ENGINE = "rules-v2";
+export const ENGINE = "rules-v3";
 
 export function whyItMatters(item: RawItem, theme: Theme): string {
   const firm = leadFirm(item.firms);
@@ -65,8 +64,6 @@ export function enrichItem(item: RawItem, market: MarketView, now: Date): Digest
 export interface Selection {
   items: DigestItem[];
   topStoryIds: string[];
-  /** The feed items behind `items`, by id, for the optional AI writer. */
-  raw: Map<string, RawItem>;
 }
 
 /**
@@ -79,7 +76,10 @@ export function selectAndEnrich(unique: RawItem[], market: MarketView, now: Date
   const pool = unique
     .filter((i) => !LOW_VALUE.test(i.title))
     .map((i) => ({ ...i, section: resolveSection(i, classify(i)) }));
-  const picked = shortlist(pool, now, { total, perSection: 5, perSource: 4 });
+  // Prefer stories whose feed gives a real summary: a headline-only story would show the headline
+  // twice. Fall back to the full pool only when there aren't enough rich stories to fill the edition.
+  const rich = pool.filter((i) => takeawayFor(i).fromExcerpt);
+  const picked = shortlist(rich.length >= total ? rich : pool, now, { total, perSection: 5, perSource: 4 });
   const enriched = picked.map((i) => enrichItem(i, market, now));
 
   const byRank = [...enriched].sort((a, b) => b.rank - a.rank || b.publishedAt.localeCompare(a.publishedAt));
@@ -95,26 +95,7 @@ export function selectAndEnrich(unique: RawItem[], market: MarketView, now: Date
   const items = enriched
     .sort((a, b) => order.get(a.section)! - order.get(b.section)! || b.rank - a.rank || b.publishedAt.localeCompare(a.publishedAt))
     .map(({ rank: _rank, ...rest }) => rest);
-  return { items, topStoryIds: top.map((t) => t.id), raw: new Map(picked.map((i) => [i.id, i])) };
-}
-
-/**
- * Overlays AI-written fields (see ./ai) on the rule-based edition. Items the AI skipped, or whose
- * answers failed validation, keep their rule-based text. Returns how many items the AI wrote.
- */
-export async function applyAI(sel: Selection, write: (items: RawItem[]) => Promise<Map<string, AiFields>> = writeWithAI): Promise<number> {
-  const fields = await write(sel.items.map((i) => sel.raw.get(i.id)!).filter(Boolean));
-  let written = 0;
-  for (const item of sel.items) {
-    const f = fields.get(item.id);
-    if (!f) continue;
-    if (f.takeaway) {
-      item.takeaway = f.takeaway;
-      item.aiSummarized = true;
-    }
-    written++;
-  }
-  return written;
+  return { items, topStoryIds: top.map((t) => t.id) };
 }
 
 export function buildMarketRead(market: MarketView): string {

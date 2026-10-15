@@ -15,12 +15,12 @@ Each story shows:
 | Field | What it is |
 | --- | --- |
 | **Source and date** | Publisher, publication time, and a link to the original |
-| **Key takeaway** | One sentence on what's new, written by AI from the publisher's headline and excerpt |
+| **Key takeaway** | One sentence on what's new, taken from the publisher's own summary |
 | **Why it matters** | Significance for investors, allocators and family offices |
 | **Market context** | That morning's real FRED numbers, framed for the story's theme |
 | **New to this?** | A plain-English explainer of one jargon term, tap to expand |
 
-There is also a Morning Brief, a market snapshot with sparklines, Top Stories, filters by section, firm, format and theme, a 90-day archive, a glossary, and full light/dark support.
+There is also Today's Brief, a market snapshot with sparklines, Top Stories, filters by section, firm, format and theme, a 90-day archive, a glossary, and full light/dark support.
 
 ## No API keys, no secrets
 
@@ -29,7 +29,7 @@ There is also a Morning Brief, a market snapshot with sparklines, Top Stories, f
 | News and commentary | Public RSS, Atom and podcast feeds |
 | SEC filings | EDGAR's public submissions API |
 | Market data | FRED's public CSV endpoint |
-| Summaries | GitHub Models, called with the Action's built-in `GITHUB_TOKEN` (`models: read`), plus a rule-based fallback (`pipeline/enrich/`) |
+| Summaries | A transparent rule-based engine (`pipeline/enrich/`); no AI |
 | Daily refresh | GitHub Actions using its built-in `GITHUB_TOKEN` |
 | Hosting | A static Vite build on Vercel |
 
@@ -100,16 +100,10 @@ npm test                       # pipeline unit tests
 37 public sources ─▶ ~180 recent items ─▶ drop advice columns, reruns, routine notices
    ─▶ dedupe (same URL, near-identical headline, same story across outlets)
    ─▶ classify into 20 themes ─▶ rank + pick ~24 balanced across sections
-   ─▶ takeaway · why it matters · market context · glossary term ─▶ Morning Brief ─▶ JSON
+   ─▶ takeaway · why it matters · market context · glossary term ─▶ Today's Brief ─▶ JSON
 ```
 
-**The AI writer** (`pipeline/enrich/ai.ts`). In the GitHub Action it sends the selected stories to GitHub Models (`openai/gpt-4.1-mini`, free tier, about 4 requests a day) using the built-in token. The model sees only each story's headline and excerpt. Every answer is validated, and a takeaway is rejected if it is:
-
-- more than one sentence, or cut off
-- too similar to the headline
-- carrying a number that isn't in the source
-
-Rejected or missing answers keep the rule-based text. Locally there is no token, so `npm run digest` uses rules only. Set `DIGEST_AI=off` to force rules in the Action.
+**Takeaways** are one complete sentence from the publisher's own summary. Sentences that are quotations, show-note filler or a repeat of the headline are skipped. When a feed offers nothing beyond the headline, the story is left out as long as there are enough other stories to fill the edition. The site used GitHub Models for AI takeaways until GitHub retired that service on July 30, 2026.
 
 **The rules engine** (`pipeline/enrich/`):
 
@@ -120,7 +114,7 @@ Rejected or missing answers keep the rule-based text. Locally there is no token,
 | `market.ts` | Turns FRED data into sentences with regime labels, e.g. VIX *calm/normal/elevated/stressed*, HY spreads *tight/normal/wide*, and curve shape. |
 | `firms.ts` | Qualitative profiles of about 25 firms. These deliberately contain no figures that could go stale. |
 | `glossary.ts` | About 50 beginner terms. It is shared with the site's Glossary page. |
-| `index.ts` | Selection, importance (1–5), Top Stories and the Morning Brief. |
+| `index.ts` | Selection, importance (1–5), Top Stories and Today's Brief. |
 
 To improve the writing, edit the templates in `themes.ts` and `firms.ts`. Tests in `pipeline/__tests__/` guard the behavior.
 

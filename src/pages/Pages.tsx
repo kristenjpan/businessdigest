@@ -168,7 +168,7 @@ const STEPS = [
   ["Collect", "Each morning a scheduled GitHub Action reads about 37 public RSS feeds, podcast feeds, SEC EDGAR filings and FRED market data. No API keys or paid services are involved."],
   ["Filter", "Stories from the last 36 hours (76 on Mondays) are kept. Duplicates across outlets are merged, and advice columns, reruns and routine notices are dropped."],
   ["Rank", "Each story is scored on source authority, whether it involves major firms (Blackstone, KKR, Apollo, Carlyle, Bridgewater and others), topic and freshness. About 24 are picked, balanced across sections."],
-  ["Explain", "An AI model (via GitHub Models) writes each key takeaway as one sentence, using only the publisher's headline and excerpt. Automatic checks reject any answer that is cut off, repeats the headline or contains a number not in the source; those stories get a rule-based takeaway instead. A rules engine sorts each story into one of 20 themes and writes \"Why it matters\". Market context uses that morning's real FRED numbers."],
+  ["Explain", "A transparent rules engine picks each key takeaway: one complete sentence from the publisher's own summary, skipping quotes, filler and anything that just repeats the headline. Stories whose feed offers nothing beyond a headline are usually left out. The same engine sorts each story into one of 20 themes and writes \"Why it matters\", and market context uses that morning's real FRED numbers."],
   ["Publish", "The edition is saved to the repository, which triggers Vercel to redeploy the site. Past editions stay in the archive for 90 days."],
 ] as const;
 
@@ -192,12 +192,11 @@ export function AboutPage() {
       </ol>
 
       <section className="mt-10 space-y-3 text-[15px] leading-relaxed text-ink-soft">
-        <h3 className="font-display text-[22px] font-semibold text-ink">How AI is used</h3>
+        <h3 className="font-display text-[22px] font-semibold text-ink">How summaries are written</h3>
         <p>
-          Takeaways are written by an AI model through GitHub Models, which the daily update calls with GitHub's built-in credentials, so
-          there are no API keys. The model sees only each story's headline and the publisher's short excerpt, and is told not to add facts.
-          Every answer is checked automatically; if it fails, or the AI is unavailable, the story falls back to a sentence taken directly
-          from the publisher. AI can still misread a story, so always read the source before relying on it.
+          The site uses no AI. Each key takeaway is a sentence taken directly from the publisher's own summary, so it never adds facts.
+          "Why it matters" and the beginner explainers come from a fixed library the site maintains, and market context uses that morning's
+          real data. The trade-off is that the wording is more formulaic than a human editor's, so read the source for the full story.
         </p>
         <h3 className="font-display pt-4 text-[22px] font-semibold text-ink">Important disclaimer</h3>
         <p>

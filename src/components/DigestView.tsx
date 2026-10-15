@@ -260,8 +260,8 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
 
             {!archived && (
               <p className="px-1 text-[12px] leading-relaxed text-muted">
-                Updated automatically every morning from public feeds, SEC EDGAR and FRED. Takeaways are written by AI from each
-                publisher's own excerpt, with automatic checks and a rule-based fallback. <a href="#/about" className="underline hover:text-ink">How it works →</a>
+                Updated automatically every morning from public feeds, SEC EDGAR and FRED. Takeaways are taken from each publisher's
+                own summary by transparent rules. <a href="#/about" className="underline hover:text-ink">How it works →</a>
               </p>
             )}
           </div>

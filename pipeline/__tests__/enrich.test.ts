@@ -1,11 +1,10 @@
-import { afterEach, describe, expect, it, vi } from "vitest";
+import { describe, expect, it } from "vitest";
 import { editionFor, updateArchiveIndex } from "../archive";
 import { dedupeStories } from "../dedupe";
-import { applyAI, buildBrief, buildMarketRead, enrichItem, selectAndEnrich } from "../enrich";
-import { validTakeaway, writeWithAI } from "../enrich/ai";
+import { buildBrief, buildMarketRead, enrichItem, selectAndEnrich } from "../enrich";
 import { findTerm, GLOSSARY } from "../enrich/glossary";
 import { describeMove, hyRegime, MarketView, vixRegime } from "../enrich/market";
-import { cleanExcerpt, extractTakeaway, splitSentences, trimToClause } from "../enrich/takeaway";
+import { cleanExcerpt, extractTakeaway, splitSentences, takeawayFor, trimToClause } from "../enrich/takeaway";
 import { storyTypeOf } from "../enrich/storyType";
 import { classify, resolveSection, THEMES } from "../enrich/themes";
 import { guessSection } from "../normalize";
@@ -220,63 +219,6 @@ describe("archive", () => {
   });
 });
 
-describe("AI writer (GitHub Models)", () => {
-  const item = raw({
-    id: "a1",
-    title: "Millennium's new cash raise draws USD30 billion in client demand",
-    excerpt: "Millennium Management's capital raise attracted more than USD30bn of commitments, above the USD20bn it initially sought.",
-  });
-
-  it("validates takeaways: one grounded, complete sentence that adds to the headline", () => {
-    expect(validTakeaway("Millennium drew more than $30bn of commitments, well above the $20bn it set out to raise.", item)).toBe(true);
-    expect(validTakeaway("Millennium drew $35bn of commitments against a $20bn target.", item)).toBe(false); // 35 not in source
-    expect(validTakeaway("Millennium drew strong demand. Investors piled in.", item)).toBe(false); // two sentences
-    expect(validTakeaway("Millennium drew more than $30bn of commitments, well above…", item)).toBe(false); // cut off
-    expect(validTakeaway("Millennium's new cash raise draws USD30 billion in client demand.", item)).toBe(false); // headline copy
-    expect(validTakeaway(42, item)).toBe(false);
-  });
-
-  afterEach(() => vi.unstubAllEnvs());
-
-  function reply(content: unknown, status = 200) {
-    return vi.fn(async () => new Response(JSON.stringify({ choices: [{ message: { content: JSON.stringify(content) } }] }), { status }));
-  }
-
-  it("keeps only validated answers and skips failed batches", async () => {
-    vi.stubEnv("GITHUB_TOKEN", "test");
-    const good = reply({ items: [{ ref: 1, takeaway: "Millennium drew more than $30bn of commitments, well above its $20bn goal." }] });
-    expect((await writeWithAI([item], good)).get("a1")?.takeaway).toMatch(/^Millennium drew/);
-
-    const invented = reply({ items: [{ ref: 1, takeaway: "Millennium drew $99bn of commitments from new clients worldwide." }] });
-    expect((await writeWithAI([item], invented)).size).toBe(0);
-
-    const broken = vi.fn(async () => new Response("not json", { status: 200 }));
-    expect((await writeWithAI([item], broken)).size).toBe(0);
-
-    const down = vi.fn(async () => new Response("", { status: 500 }));
-    expect((await writeWithAI([item], down)).size).toBe(0);
-  });
-
-  it("overlays AI takeaways and leaves the rest on rules", async () => {
-    const sel = selectAndEnrich(
-      [
-        raw({ title: "Blackstone acquires software maker in take-private", firms: ["Blackstone"] }),
-        raw({ title: "Hedge fund posts gains in macro strategy", section: "hedge-funds", source: { ...news, id: "h" } }),
-      ],
-      market,
-      now,
-    );
-    const [first, second] = sel.items;
-    const before = second.takeaway;
-    const n = await applyAI(sel, async () => new Map([[first.id, { takeaway: "Blackstone agreed to buy a software maker and take it private." }]]));
-    expect(n).toBe(1);
-    expect(first.takeaway).toBe("Blackstone agreed to buy a software maker and take it private.");
-    expect(first.aiSummarized).toBe(true);
-    expect(second.takeaway).toBe(before);
-    expect(second.aiSummarized).toBe(false);
-  });
-});
-
 describe("story type", () => {
   const src = (id: string, contentType: SourceRef["contentType"]): SourceRef => ({ id, name: id, homepage: "", contentType });
 
@@ -344,5 +286,31 @@ describe("subscriber headlines", () => {
     expect(feed.publishers.find((p) => p.id === "economist")!.items).toHaveLength(1); // 7-day window
     expect(feed.publishers.find((p) => p.id === "wsj")!.items).toHaveLength(0);
     expect(SOURCES.some((s) => s.kind === "rss" && s.subscription)).toBe(false);
+  });
+});
+
+describe("takeaway quality", () => {
+  it("skips pull quotes and uses the next factual sentence", () => {
+    const t = takeawayFor(
+      raw({
+        title: "Retirees pile into private credit funds",
+        excerpt: "“I presume these are sophisticated investors taking a profit.” Flows into semi-liquid private credit funds hit a record in September.",
+      }),
+    );
+    expect(t).toEqual({ text: "Flows into semi-liquid private credit funds hit a record in September.", fromExcerpt: true });
+  });
+
+  it("flags stories whose feed offers nothing beyond quotes or the headline", () => {
+    expect(takeawayFor(raw({ title: "Will mortgage rates stay above 7%?", excerpt: "“I’m in my 60s, recently retired and living my best life.”" })).fromExcerpt).toBe(false);
+    expect(takeawayFor(raw({ title: "KKR adds solar portfolio", excerpt: "" })).fromExcerpt).toBe(false);
+  });
+
+  it("leaves headline-only stories out when there are enough stories with real summaries", () => {
+    const rich = Array.from({ length: 5 }, (_, i) =>
+      raw({ title: `Apollo closes credit fund number ${i}`, excerpt: `Apollo closed credit fund number ${i} with strong demand from insurers and pensions.`, source: { ...news, id: `r${i}` } }),
+    );
+    const thin = raw({ title: "MarketWatch headline with no summary", excerpt: "", source: { ...news, id: "thin" } });
+    expect(selectAndEnrich([...rich, thin], market, now, 4).items.map((i) => i.title)).not.toContain(thin.title);
+    expect(selectAndEnrich([rich[0], thin], market, now, 4).items.map((i) => i.title)).toContain(thin.title);
   });
 });

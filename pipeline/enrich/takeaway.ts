@@ -53,6 +53,9 @@ function ensurePeriod(s: string): string {
 /** Podcast show-note openers that introduce rather than inform. */
 const FILLER = /^(my guest (today )?is|today(['’]s)? guest is|in (this|today['’]s) (episode|conversation)|on (this|today['’]s) episode|welcome (back )?to|this week on)\b/i;
 
+/** Pull quotes and attributed quotes ("“I presume these are…”") say who said something, not what happened. */
+const QUOTE_FIRST = /^["“‘']/;
+
 const MAX_SENTENCE = 300;
 
 /**
@@ -78,21 +81,28 @@ function stripLeadingTitle(excerpt: string, title: string): string {
 
 /**
  * Rule-based key takeaway: exactly one complete sentence from the feed's own excerpt (never text
- * we write ourselves). Skips sentences that repeat the headline or are show-note filler, repairs a
- * sentence the feed cut off by trimming to its last full clause, and falls back to a sentence
- * built from the headline when nothing usable is left.
+ * we write ourselves). Skips sentences that repeat the headline, quotations and show-note filler,
+ * repairs a sentence the feed cut off by trimming to its last full clause, and falls back to a
+ * sentence built from the headline (fromExcerpt: false) when nothing usable is left.
  */
-export function extractTakeaway(item: RawItem): string {
-  if (item.source.id === "fed-speeches") return fedSpeech(item);
+export function takeawayFor(item: RawItem): { text: string; fromExcerpt: boolean } {
+  if (item.source.id === "fed-speeches") return { text: fedSpeech(item), fromExcerpt: true };
   const titleSet = titleTokens(item.title);
   const excerpt = stripLeadingTitle(cleanExcerpt(item.excerpt), item.title);
-  const candidates = splitSentences(excerpt).filter((s) => s.length > 25 && !FILLER.test(s) && jaccard(titleTokens(s), titleSet) < 0.75);
+  const candidates = splitSentences(excerpt).filter(
+    (s) => s.length > 25 && !FILLER.test(s) && !QUOTE_FIRST.test(s) && jaccard(titleTokens(s), titleSet) < 0.75,
+  );
 
   for (const s of candidates) {
     const sentence = isComplete(s) && s.length <= MAX_SENTENCE ? s : trimToClause(s.slice(0, MAX_SENTENCE));
-    if (sentence && sentence.length >= 40) return sentence;
+    if (sentence && sentence.length >= 40) return { text: sentence, fromExcerpt: true };
   }
-  return fallback(item);
+  return { text: fallback(item), fromExcerpt: false };
+}
+
+/** The takeaway text alone; see takeawayFor for whether it came from the publisher's excerpt. */
+export function extractTakeaway(item: RawItem): string {
+  return takeawayFor(item).text;
 }
 
 /** Fed speech feeds give "Speaker, Title" plus a venue line; turn that into a readable sentence. */

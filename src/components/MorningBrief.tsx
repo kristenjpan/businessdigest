@@ -12,7 +12,7 @@ export function MorningBrief({ digest, activeTheme, onTheme }: Props) {
     <section aria-labelledby="brief-heading" className="mt-8 grid gap-6 lg:grid-cols-[1.6fr_1fr]">
       <div className="rounded-xl border border-rule bg-surface p-5 sm:p-7">
         <p id="brief-heading" className="text-[12px] font-semibold uppercase tracking-[0.16em] text-accent">
-          The Morning Brief
+          Today's Brief
         </p>
         <h2 className="font-display mt-2 text-[26px] leading-tight font-semibold text-ink sm:text-[32px]">{brief.headline}</h2>
         <ul className="mt-5 space-y-3">

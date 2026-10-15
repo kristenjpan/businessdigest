@@ -34,7 +34,7 @@ export function Masthead({ route, theme, onTheme, editionLine, onSignIn }: Props
 
         <div className="flex flex-col gap-4 py-6 sm:flex-row sm:items-end sm:justify-between">
           <a href="#/" className="group block min-w-0">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-accent">Morning Edition</p>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-accent">Today's Edition</p>
             <h1 className="font-display mt-1 text-[34px] leading-none font-semibold sm:text-[44px]">{SITE.name}</h1>
             <p className="mt-2 max-w-xl text-[14px] text-masthead-ink/70">{SITE.tagline}</p>
           </a>
