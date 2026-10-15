@@ -171,6 +171,13 @@ body {
   background: var(--accent-soft);
 }
 
+/* Archive search link: outline the story the reader came for. */
+.story-highlight {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: 14px;
+}
+
 details > summary {
   list-style: none;
   cursor: pointer;

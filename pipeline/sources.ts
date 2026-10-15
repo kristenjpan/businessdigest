@@ -430,14 +430,15 @@ const subscriber = (
   url: string,
   homepage: string,
   description: string,
-  // Dedicated markets feeds are on-topic already; general feeds keep only investment-related headlines.
+  // Keep only investment-related headlines (deals, funds, capital, credit…), even from markets feeds,
+  // so commodity ticks and filler stay out of readers' subscription sections.
   requireRelevance = true,
 ): RssSource => ({ kind: "rss", id, subscription, name, url, homepage, description, contentType: "news", section: "markets", tier: 2, requireRelevance });
 
 export const SUBSCRIPTION_SOURCES: RssSource[] = [
-  subscriber("wsj-markets", "wsj", "The Wall Street Journal — Markets", "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", "https://www.wsj.com/finance", "WSJ's public markets headline feed.", false),
+  subscriber("wsj-markets", "wsj", "The Wall Street Journal — Markets", "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", "https://www.wsj.com/finance", "WSJ's public markets headline feed."),
   subscriber("wsj-business", "wsj", "The Wall Street Journal — Business", "https://feeds.content.dowjones.io/public/rss/WSJcomUSBusiness", "https://www.wsj.com/business", "WSJ's public U.S. business headline feed."),
-  subscriber("ft-markets", "ft", "Financial Times — Markets", "https://www.ft.com/markets?format=rss", "https://www.ft.com/markets", "FT's public markets headline feed.", false),
+  subscriber("ft-markets", "ft", "Financial Times — Markets", "https://www.ft.com/markets?format=rss", "https://www.ft.com/markets", "FT's public markets headline feed."),
   subscriber("ft-home", "ft", "Financial Times — Top stories", "https://www.ft.com/rss/home", "https://www.ft.com/", "FT's public top-stories headline feed."),
   // Bloomberg's markets feed also carries videos and politics: keep articles, investment topics only.
   { ...subscriber("bloomberg-markets", "bloomberg", "Bloomberg — Markets", "https://feeds.bloomberg.com/markets/news.rss", "https://www.bloomberg.com/markets", "Bloomberg's public markets headline feed."), excludeUrl: /\/news\/videos\// },

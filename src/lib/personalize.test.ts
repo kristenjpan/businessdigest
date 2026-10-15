@@ -92,3 +92,41 @@ describe("first-timer helpers", () => {
     expect(isNewAccount(null, now)).toBe(false);
   });
 });
+
+describe("current-user helpers", () => {
+  const prefs = { sections: ["private-equity" as const], firms: ["Elliott"], subscriptions: ["ft" as const] };
+  const h = (title: string, section?: "markets" | "private-equity", firms: string[] = []) => ({ id: title, title, url: "https://x", publishedAt: "", teaser: "", firms, section });
+
+  it("shows only subscriber headlines that match what the reader follows", async () => {
+    const { followedHeadlines } = await import("../components/SubscriptionsSection");
+    const out = followedHeadlines(
+      [h("PE deal", "private-equity"), h("Gas futures", "markets"), h("Elliott stake", "markets", ["Elliott"]), h("Old-format KKR story", undefined, ["KKR"])],
+      prefs,
+    ).map((x) => x.title);
+    expect(out).toEqual(["PE deal", "Elliott stake"]);
+  });
+
+  it("finds past stories by keyword and firm", async () => {
+    const { searchArchive, firmsInIndex } = await import("./archiveSearch");
+    const entries = [
+      { d: "2026-10-14", id: "1", t: "KKR closes record infrastructure fund", k: "The fund drew pensions.", s: "PE Wire", f: ["KKR"], sec: "private-markets" as const },
+      { d: "2026-10-13", id: "2", t: "Apollo buys lender", k: "A private credit deal.", s: "FT", f: ["Apollo"], sec: "private-equity" as const },
+    ];
+    expect(searchArchive(entries, "infrastructure fund", "").map((e) => e.id)).toEqual(["1"]);
+    expect(searchArchive(entries, "", "Apollo").map((e) => e.id)).toEqual(["2"]);
+    expect(searchArchive(entries, "private credit", "KKR")).toEqual([]);
+    expect(firmsInIndex(entries)).toEqual(["Apollo", "KKR"]);
+  });
+
+  it("keeps why it matters and the theme in saved stories", async () => {
+    const { snapshot } = await import("./saved");
+    const item = {
+      id: "s1", title: "T", url: "https://x", publishedAt: "", section: "markets", firms: [], importance: 3, takeaway: "Take.",
+      whyItMatters: "Why.", marketContext: null, beginnerNote: null, theme: { id: "deals", label: "M&A & Buyouts" },
+      source: { id: "x", name: "X", homepage: "https://x", contentType: "news" },
+    };
+    const saved = snapshot(item as never, "2026-10-15");
+    expect(saved.whyItMatters).toBe("Why.");
+    expect(saved.themeLabel).toBe("M&A & Buyouts");
+  });
+});

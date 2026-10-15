@@ -109,7 +109,7 @@ export const THEMES: Theme[] = [
     id: "deals",
     label: "M&A & Buyouts",
     weight: 1.5,
-    patterns: [/\bacquir(e|es|ed|ing)\b/i, /\bacquisition\b/i, /\btake[- ]private\b/i, /\bbuyouts?\b/i, /\bmerger\b/i, /\b(agrees?|agreed|deal) to (buy|acquire|sell)\b/i, /\bdeal valued\b/i, /\b(stake|investment) in\b/i, /\bcarve-?out\b/i, /\bLBO\b/],
+    patterns: [/\bacquir(e|es|ed|ing)\b/i, /\bacquisition\b/i, /\btake[- ]private\b|\btaken private\b/i, /\bbuyouts?\b/i, /\bmerger\b/i, /\b(agrees?|agreed|deal) to (buy|acquire|sell)\b/i, /\bdeal valued\b/i, /\b(stake|investment) in\b/i, /\bcarve-?out\b/i, /\bLBO\b/],
     term: "Take-private",
     why: [
       "Deal activity is the heartbeat of private equity: it shows sponsors are willing to put capital to work at today's prices and financing costs.",
@@ -451,6 +451,11 @@ const THEME_SECTION: Partial<Record<string, SectionId>> = {
 
 // Deals, hires, results etc. count as wealth stories only when the text is about wealth management.
 const WEALTH_THEMES = new Set(["deals", "people", "exits", "fundraising", "earnings", "insurance"]);
+
+/** The section a theme's stories naturally belong to, if it has one (deals → Private Equity, …). */
+export function sectionForTheme(theme: Theme): SectionId | undefined {
+  return THEME_SECTION[theme.id];
+}
 
 /**
  * Trade feeds file everything under one default section (e.g. HedgeCo → hedge funds, even for

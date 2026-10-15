@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import { GLOSSARY, termSlug } from "../../pipeline/enrich/glossary";
 import { FRED_SERIES, PAYWALLED_DOMAINS, SOURCES } from "../../pipeline/sources";
-import type { ArchiveIndex, ContentType } from "../../pipeline/types";
-import { loadArchiveIndex } from "../lib/data";
+import type { ArchiveIndex, ContentType, SearchIndex } from "../../pipeline/types";
+import { firmsInIndex, searchArchive } from "../lib/archiveSearch";
+import { loadArchiveIndex, loadSearchIndex } from "../lib/data";
 import { CONTENT_TYPE_LABEL, longDate } from "../lib/format";
 import { SITE } from "../lib/site";
 
@@ -18,11 +19,21 @@ export function PageHeader({ kicker, title, children }: { kicker: string; title:
 
 // ── Archive ──────────────────────────────────────────────────────────────
 
+const RESULTS_SHOWN = 50;
+
 export function ArchivePage() {
   const [index, setIndex] = useState<ArchiveIndex | null | undefined>(undefined);
+  const [search, setSearch] = useState<SearchIndex | null>(null);
+  const [q, setQ] = useState("");
+  const [firm, setFirm] = useState("");
   useEffect(() => {
     loadArchiveIndex().then(setIndex);
+    loadSearchIndex().then(setSearch);
   }, []);
+
+  const searching = q.trim().length >= 2 || Boolean(firm);
+  const results = useMemo(() => (search && searching ? searchArchive(search.entries, q.trim(), firm) : []), [search, searching, q, firm]);
+  const firmOptions = useMemo(() => (search ? firmsInIndex(search.entries) : []), [search]);
 
   const byMonth = useMemo(() => {
     const m = new Map<string, ArchiveIndex["editions"]>();
@@ -36,8 +47,78 @@ export function ArchivePage() {
   return (
     <div className="max-w-3xl">
       <PageHeader kicker="Archive" title="Past editions">
-        Every morning's digest is saved here for 90 days, so you can catch up on anything you missed.
+        Every morning's digest is saved here for 90 days. Search by keyword or firm to find a past story.
       </PageHeader>
+      {search && (
+        <div className="mb-8 grid gap-2 sm:grid-cols-[1fr_auto]">
+          <label>
+            <span className="sr-only">Search past stories</span>
+            <input
+              type="search"
+              value={q}
+              onChange={(e) => setQ(e.target.value)}
+              placeholder="Search past stories by keyword, firm or source…"
+              className="w-full rounded-lg border border-rule bg-surface px-3 py-2.5 text-[15px] text-ink placeholder:text-muted focus:border-accent focus:outline-none"
+            />
+          </label>
+          <select
+            value={firm}
+            onChange={(e) => setFirm(e.target.value)}
+            aria-label="Filter past stories by firm"
+            className="min-w-0 rounded-lg border border-rule bg-surface px-2.5 py-2.5 text-[15px] text-ink"
+          >
+            <option value="">All firms</option>
+            {firmOptions.map((f) => (
+              <option key={f} value={f}>
+                {f}
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
+
+      {searching ? (
+        <section aria-live="polite">
+          <p className="mb-3 text-[14px] text-muted">
+            {results.length === 0
+              ? "No past stories match. Try another keyword or firm."
+              : `${results.length} ${results.length === 1 ? "story" : "stories"}${results.length > RESULTS_SHOWN ? `, showing the newest ${RESULTS_SHOWN}` : ""}`}
+            {" · "}
+            <button
+              type="button"
+              onClick={() => {
+                setQ("");
+                setFirm("");
+              }}
+              className="font-medium text-accent hover:underline"
+            >
+              Clear search
+            </button>
+          </p>
+          <ul className="divide-y divide-rule overflow-hidden rounded-xl border border-rule bg-surface">
+            {results.slice(0, RESULTS_SHOWN).map((r) => (
+              <li key={`${r.d}-${r.id}`} data-section={r.sec}>
+                <a href={`#/edition/${r.d}?story=${r.id}`} className="block px-5 py-4 hover:bg-surface-muted">
+                  <span className="text-[13px] text-muted">
+                    {longDate(r.d)} · {r.s}
+                  </span>
+                  <span className="font-display mt-0.5 block text-[17px] leading-snug font-semibold text-ink">{r.t}</span>
+                  {r.f.length > 0 && (
+                    <span className="mt-1.5 flex flex-wrap gap-1.5">
+                      {r.f.map((f) => (
+                        <span key={f} className="rounded-md border border-rule px-2 py-0.5 text-[12px] font-medium text-ink-soft">
+                          {f}
+                        </span>
+                      ))}
+                    </span>
+                  )}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : (
+        <>
       {index === undefined && <p className="text-muted">Loading…</p>}
       {index === null && <p className="text-muted">No archived editions yet. The first one appears after the daily update runs.</p>}
       {byMonth.map(([month, editions]) => (
@@ -59,6 +140,8 @@ export function ArchivePage() {
           </ul>
         </section>
       ))}
+        </>
+      )}
     </div>
   );
 }

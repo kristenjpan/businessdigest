@@ -10,6 +10,11 @@ const quietButton = "rounded-lg border border-rule px-4 py-2 text-[14px] font-se
 
 // ── Saved ────────────────────────────────────────────────────────────────
 
+function savedOn(iso: string): string {
+  const d = new Date(iso);
+  return Number.isNaN(d.getTime()) ? "an earlier date" : d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+}
+
 export function SavedPage({ onSignIn }: { onSignIn: () => void }) {
   const { saved, removeSaved, clearSaved, user, authEnabled } = useAccount();
   const [confirmClear, setConfirmClear] = useState(false);
@@ -44,30 +49,49 @@ export function SavedPage({ onSignIn }: { onSignIn: () => void }) {
             {saved.map((s) => (
               <li key={s.id} data-section={s.section} className="relative rounded-xl border border-rule bg-surface p-5">
                 <span aria-hidden className="sec-bg absolute top-5 bottom-5 left-0 w-[3px] rounded-r" />
-                <a href={s.url} target="_blank" rel="noreferrer" className="font-display text-[19px] leading-snug font-semibold text-ink hover:underline">
+                {s.themeLabel && <span className="sec-text sec-tint rounded-full px-2 py-0.5 text-[12px] font-semibold">{s.themeLabel}</span>}
+                <a
+                  href={s.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={`font-display block text-[19px] leading-snug font-semibold text-ink hover:underline ${s.themeLabel ? "mt-2" : ""}`}
+                >
                   {s.title}
                 </a>
                 <p className="mt-1 text-[13px] text-muted">
                   {s.source.name} · {publishedLabel(s.publishedAt)}
                 </p>
-                <p className="mt-2 text-[15px] leading-relaxed text-ink-soft">{s.takeaway}</p>
-                <div className="mt-3 flex flex-wrap items-center justify-between gap-3 text-[13px]">
-                  <a href={s.url} target="_blank" rel="noreferrer" className="font-semibold text-accent hover:underline">
-                    Read the original at {hostOf(s.url)} ↗
-                  </a>
-                  <button type="button" onClick={() => void removeSaved(s.id)} className="font-medium text-muted hover:text-down">
-                    Remove
-                  </button>
+                <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">Key takeaway</p>
+                <p className="mt-0.5 text-[15px] leading-relaxed text-ink">{s.takeaway}</p>
+                {s.whyItMatters && (
+                  <>
+                    <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">Why it matters</p>
+                    <p className="mt-0.5 text-[15px] leading-relaxed text-ink-soft">{s.whyItMatters}</p>
+                  </>
+                )}
+                <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-rule pt-3 text-[13px]">
+                  <span className="text-muted">Saved on {savedOn(s.savedAt)}</span>
+                  <span className="flex items-center gap-4">
+                    <a href={s.url} target="_blank" rel="noreferrer" className="font-semibold text-accent hover:underline">
+                      Read the original at {hostOf(s.url)} ↗
+                    </a>
+                    <button type="button" onClick={() => void removeSaved(s.id)} className="font-medium text-muted hover:text-down">
+                      Remove
+                    </button>
+                  </span>
                 </div>
               </li>
             ))}
           </ul>
-          <div className="mt-6 flex items-center gap-3">
+          <div className="mt-6">
             {confirmClear ? (
-              <>
-                <span className="text-[14px] text-ink-soft">Remove all {saved.length} saved stories?</span>
+              <div role="alertdialog" aria-label="Confirm clearing saved stories" className="flex flex-wrap items-center gap-3 rounded-xl border border-down/40 bg-down/5 px-4 py-3">
+                <span className="text-[14px] text-ink">
+                  Remove all {saved.length} saved stor{saved.length === 1 ? "y" : "ies"}? This can't be undone.
+                </span>
                 <button
                   type="button"
+                  autoFocus
                   onClick={() => {
                     void clearSaved();
                     setConfirmClear(false);
@@ -79,7 +103,7 @@ export function SavedPage({ onSignIn }: { onSignIn: () => void }) {
                 <button type="button" onClick={() => setConfirmClear(false)} className={quietButton}>
                   Cancel
                 </button>
-              </>
+              </div>
             ) : (
               <button type="button" onClick={() => setConfirmClear(true)} className={quietButton}>
                 Clear all
@@ -130,8 +154,8 @@ export function AccountPage({ onSignIn }: { onSignIn: () => void }) {
       {account.recovering && <PasswordForm title="Set a new password" highlight />}
       {welcome && (
         <div className="mb-4 rounded-xl border border-accent/40 bg-accent-soft px-5 py-4 text-[15px] text-ink">
-          <strong className="font-semibold">Welcome! Let's set up your digest.</strong> Pick at least one section and a few firms you follow, then
-          click <strong className="font-semibold">Save preferences</strong>.
+          <strong className="font-semibold">Welcome! Let's set up your digest.</strong> Pick at least one section and a few firms you follow. Your
+          choices save automatically.
         </div>
       )}
       <PreferencesForm welcome={welcome} />
@@ -156,8 +180,9 @@ function PreferencesForm({ welcome = false }: { welcome?: boolean }) {
   const [sections, setSections] = useState<SectionId[]>(prefs.sections);
   const [firms, setFirms] = useState<string[]>(prefs.firms);
   const [subscriptions, setSubscriptions] = useState<SubscriptionId[]>(prefs.subscriptions);
-  const [status, setStatus] = useState<{ ok: boolean; text: string } | null>(null);
-  const [busy, setBusy] = useState(false);
+  const [status, setStatus] = useState<{ state: "saving" | "saved" | "error"; text: string } | null>(null);
+  // Counts the reader's own changes; only those trigger a save (loading account data doesn't).
+  const [edits, setEdits] = useState(0);
 
   // Account data loads just after sign-in; show it once it arrives.
   useEffect(() => {
@@ -167,17 +192,25 @@ function PreferencesForm({ welcome = false }: { welcome?: boolean }) {
   }, [prefs]);
 
   const toggle = <T,>(list: T[], value: T) => (list.includes(value) ? list.filter((v) => v !== value) : [...list, value]);
+  const change = <T,>(setter: React.Dispatch<React.SetStateAction<T[]>>, value: T) => {
+    setter((l) => toggle(l, value));
+    setEdits((n) => n + 1);
+  };
 
-  async function save() {
-    setBusy(true);
-    const err = await setPrefs(
-      SECTIONS.map((s) => s.id).filter((id) => sections.includes(id)),
-      TRACKED_FIRMS.filter((f) => firms.includes(f)),
-      SUBSCRIPTION_PUBLISHERS.map((p) => p.id).filter((id) => subscriptions.includes(id)),
-    );
-    setBusy(false);
-    setStatus(err ? { ok: false, text: err } : { ok: true, text: welcome ? "All set." : "Saved. Today's edition reflects your choices." });
-  }
+  // Auto-save: a short pause after the last tick, so quick changes go out as one save.
+  useEffect(() => {
+    if (edits === 0) return;
+    setStatus({ state: "saving", text: "Saving…" });
+    const t = window.setTimeout(async () => {
+      const err = await setPrefs(
+        SECTIONS.map((s) => s.id).filter((id) => sections.includes(id)),
+        TRACKED_FIRMS.filter((f) => firms.includes(f)),
+        SUBSCRIPTION_PUBLISHERS.map((p) => p.id).filter((id) => subscriptions.includes(id)),
+      );
+      setStatus(err ? { state: "error", text: err } : { state: "saved", text: welcome ? "All set." : "Saved ✓" });
+    }, 600);
+    return () => window.clearTimeout(t);
+  }, [edits]); // only the reader's own edits trigger a save
 
   return (
     <section
@@ -185,7 +218,20 @@ function PreferencesForm({ welcome = false }: { welcome?: boolean }) {
       id="what-you-follow"
       className={`mt-2 scroll-mt-6 rounded-xl border bg-surface p-5 sm:p-6 ${welcome ? "border-accent ring-2 ring-accent/30" : "border-rule"}`}
     >
-      <h3 className="font-display text-[22px] font-semibold text-ink">What you follow</h3>
+      <div className="flex flex-wrap items-baseline justify-between gap-2">
+        <h3 className="font-display text-[22px] font-semibold text-ink">What you follow</h3>
+        <span role="status" aria-live="polite" className={`text-[13px] ${status?.state === "error" ? "text-down" : status?.state === "saved" ? "text-up" : "text-muted"}`}>
+          {status ? status.text : "Changes save automatically"}
+          {status?.state === "saved" && welcome && (
+            <>
+              {" "}
+              <a href="#/" className="font-semibold text-accent hover:underline">
+                See your For you stories →
+              </a>
+            </>
+          )}
+        </span>
+      </div>
       <p className="mt-1 text-[14px] text-ink-soft">Stories in these sections, or that mention these firms, appear under For you. Your sections also move to the top.</p>
 
       <fieldset className="mt-5">
@@ -193,7 +239,7 @@ function PreferencesForm({ welcome = false }: { welcome?: boolean }) {
         <div className="mt-2 grid gap-2 sm:grid-cols-2">
           {SECTIONS.map((s) => (
             <label key={s.id} data-section={s.id} className="flex items-center gap-2.5 rounded-lg border border-rule px-3 py-2 text-[14px] text-ink hover:bg-surface-muted">
-              <input type="checkbox" checked={sections.includes(s.id)} onChange={() => setSections((l) => toggle(l, s.id))} className="h-4 w-4 accent-[var(--accent)]" />
+              <input type="checkbox" checked={sections.includes(s.id)} onChange={() => change(setSections, s.id)} className="h-4 w-4 accent-[var(--accent)]" />
               <span aria-hidden className="sec-bg h-2 w-2 rounded-sm" />
               {s.label}
             </label>
@@ -211,7 +257,7 @@ function PreferencesForm({ welcome = false }: { welcome?: boolean }) {
                 key={f}
                 type="button"
                 aria-pressed={on}
-                onClick={() => setFirms((l) => toggle(l, f))}
+                onClick={() => change(setFirms, f)}
                 className={`rounded-full border px-3 py-1 text-[13px] font-medium transition-colors ${
                   on ? "border-accent bg-accent text-accent-ink" : "border-rule text-ink-soft hover:bg-surface-muted"
                 } ${CORE_FIRMS.includes(f) ? "font-semibold" : ""}`}
@@ -235,7 +281,7 @@ function PreferencesForm({ welcome = false }: { welcome?: boolean }) {
               <input
                 type="checkbox"
                 checked={subscriptions.includes(p.id)}
-                onChange={() => setSubscriptions((l) => toggle(l, p.id))}
+                onChange={() => change(setSubscriptions, p.id)}
                 className="h-4 w-4 accent-[var(--accent)]"
               />
               {p.name}
@@ -244,24 +290,6 @@ function PreferencesForm({ welcome = false }: { welcome?: boolean }) {
         </div>
       </fieldset>
 
-      <div className="mt-6 flex flex-wrap items-center gap-3">
-        <button type="button" onClick={save} disabled={busy} className={primaryButton}>
-          {busy ? "Saving…" : "Save preferences"}
-        </button>
-        {status && (
-          <span role="status" className={`text-[14px] ${status.ok ? "text-up" : "text-down"}`}>
-            {status.text}
-            {status.ok && welcome && (
-              <>
-                {" "}
-                <a href="#/" className="font-semibold text-accent hover:underline">
-                  See your For you stories →
-                </a>
-              </>
-            )}
-          </span>
-        )}
-      </div>
     </section>
   );
 }

@@ -1,4 +1,4 @@
-import type { ArchiveEntry, ArchiveIndex } from "./types";
+import type { ArchiveEntry, ArchiveIndex, Digest, SearchIndex } from "./types";
 
 export const KEEP_DAYS = 90;
 
@@ -24,4 +24,20 @@ export function updateArchiveIndex(
   const kept = all.filter((e) => e.date >= cutoff);
   const removed = all.filter((e) => e.date < cutoff).map((e) => e.date);
   return { index: { updatedAt: now.toISOString(), editions: kept }, removed };
+}
+
+/**
+ * Flattens kept editions into the Archive search index: one entry per story, newest edition first.
+ * A story that ran in more than one edition is listed once, under its most recent edition.
+ */
+export function buildSearchIndex(editions: Digest[], now: Date): SearchIndex {
+  const seen = new Set<string>();
+  const entries = [...editions]
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .flatMap((ed) =>
+      ed.items
+        .filter((i) => !seen.has(i.id) && seen.add(i.id))
+        .map((i) => ({ d: ed.date, id: i.id, t: i.title, k: i.takeaway, s: i.source.name, f: i.firms, sec: i.section })),
+    );
+  return { updatedAt: now.toISOString(), entries };
 }

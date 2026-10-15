@@ -10,6 +10,9 @@ export interface SavedStory {
   section: SectionId;
   storyType?: StoryType;
   takeaway: string;
+  /** Added Oct 15, 2026; older saves don't have it. */
+  whyItMatters?: string;
+  themeLabel?: string;
   editionDate: string;
   savedAt: string; // ISO 8601
 }
@@ -26,6 +29,8 @@ export function snapshot(item: DigestItem, editionDate: string, now = new Date()
     section: item.section,
     storyType: item.storyType,
     takeaway: item.takeaway,
+    whyItMatters: item.whyItMatters,
+    themeLabel: item.theme.label,
     editionDate,
     savedAt: now.toISOString(),
   };

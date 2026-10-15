@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { CORE_FIRMS, SECTIONS, type Digest, type DigestItem, type SectionId, type StoryType } from "../../pipeline/types";
 import { useAccount } from "../lib/account";
 import { publishedLabel, STORY_TYPE_LABEL, STORY_TYPES, storyTypeOf } from "../lib/format";
@@ -51,7 +51,37 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
   const [rawFilters, setFilters] = useState<Filters>(EMPTY);
   // If preferences are cleared while "For you" is selected, fall back to All.
   const filters = rawFilters.section === "foryou" && !personalized ? { ...rawFilters, section: "all" as const } : rawFilters;
-  const set = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
+  // A link from Archive search names a story to jump to (…?story=<id>); open on All so it's visible.
+  const storyParam = new URLSearchParams(window.location.hash.split("?")[1] ?? "").get("story");
+  // Once the reader picks a filter themselves, never switch it for them.
+  const touched = useRef(Boolean(storyParam));
+  const set = (patch: Partial<Filters>) => {
+    touched.current = true;
+    setFilters((f) => ({ ...f, ...patch }));
+  };
+  const resetFilters = () => {
+    touched.current = true;
+    setFilters(EMPTY);
+  };
+
+  // Readers with preferences open on For you (preferences arrive just after sign-in), unless
+  // nothing matches today, so the page is never empty.
+  useEffect(() => {
+    if (touched.current || !personalized || forYouCount === 0) return;
+    setFilters((f) => (f.section === "all" ? { ...f, section: "foryou" } : f));
+  }, [personalized, forYouCount]);
+
+  useEffect(() => {
+    if (!storyParam) return;
+    const t = window.setTimeout(() => {
+      const el = document.getElementById(`item-${storyParam}`);
+      if (!el) return;
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      el.classList.add("story-highlight");
+      window.setTimeout(() => el.classList.remove("story-highlight"), 2400);
+    }, 150);
+    return () => window.clearTimeout(t);
+  }, [storyParam, digest.date]);
   const active = JSON.stringify(filters) !== JSON.stringify(EMPTY);
 
   const visible = useMemo(() => digest.items.filter((i) => matches(i, filters, prefs)), [digest.items, filters, prefs]);
@@ -92,7 +122,7 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
                 <button
                   type="button"
                   onClick={() => {
-                    setFilters(EMPTY);
+                    resetFilters();
                     requestAnimationFrame(() => scrollToItem(t.id));
                   }}
                   className="group flex w-full flex-col rounded-xl border border-rule bg-surface p-5 text-left transition-colors hover:border-rule-strong"
@@ -113,7 +143,6 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
         </section>
       )}
 
-      {!archived && <SubscriptionsSection />}
       {!archived && onSignIn && <SignInPreview onSignIn={onSignIn} className="mt-8 lg:hidden" />}
 
       <div className="mt-10 lg:grid lg:grid-cols-[1fr_260px] lg:gap-10">
@@ -199,7 +228,7 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
                   Showing {visible.length} of {digest.items.length} stories
                   {filters.theme && ` · theme: ${digest.items.find((i) => i.theme.id === filters.theme)?.theme.label}`}
                 </span>
-                <button type="button" onClick={() => setFilters(EMPTY)} className="font-medium text-accent hover:underline">
+                <button type="button" onClick={() => resetFilters()} className="font-medium text-accent hover:underline">
                   Clear filters
                 </button>
               </p>
@@ -231,6 +260,9 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
               );
             })
           )}
+
+          {/* Subscriber headlines sit after the reader's stories, filtered to what they follow. */}
+          {!archived && <SubscriptionsSection />}
         </div>
 
         <aside className="print-hidden mt-10 lg:mt-0" aria-label="About this edition">
@@ -250,7 +282,7 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
                     <button
                       type="button"
                       onClick={() => {
-                        setFilters(EMPTY);
+                        resetFilters();
                         requestAnimationFrame(() => document.getElementById(`section-${s.id}`)?.scrollIntoView({ behavior: "smooth" }));
                       }}
                       className="flex w-full items-center gap-2 text-left text-[14px] text-ink-soft hover:text-ink"

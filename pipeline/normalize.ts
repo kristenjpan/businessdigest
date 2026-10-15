@@ -127,7 +127,7 @@ export const WEALTH_TOPIC = /\bfamily offices?\b|\bmulti-?family office|\b(ultra
 
 const SECTION_KEYWORDS: [SectionId, RegExp][] = [
   ["hedge-funds", /\bhedge funds?\b|\bmulti-?strateg|\bmacro fund|\bactivist investor|\bshort seller|\b13F\b|\bpod shop/i],
-  ["private-equity", /\bprivate equity\b|\bbuyouts?\b|\bLBO\b|\btake[- ]private\b|\bportfolio compan|\bsponsor-backed|\bcarve-?out/i],
+  ["private-equity", /\bprivate[- ]equity\b|\bbuyouts?\b|\bLBO\b|\btake[- ]private\b|\btaken private\b|\bportfolio compan|\bsponsor-backed|\bcarve-?out/i],
   ["family-offices", WEALTH_TOPIC],
   ["private-markets", /\bprivate (credit|markets?|capital)\b|\bendowments?\b|\bsecondar(y|ies) (market|fund)|\binfrastructure fund|\balternative (assets?|investments?)|\bdirect lending|\bLPs?\b|\bGPs?\b|\bsovereign wealth|\bpension fund/i],
 ];
@@ -152,6 +152,8 @@ export const LOW_VALUE = new RegExp(
     String.raw`^prediction:|\bbetter (buy|stock)\b|\bone is a (much )?better\b`,
     // Personal-finance advice columns written in the first person.
     String.raw`\bmy (\d+-year-old|wife|husband|partner|parents?|mother|father|mom|dad|son|daughter|sister|brother|kids?|children)\b|\bplease help\b|^\d+ (places|ways|things|reasons|signs|mistakes|questions|tips)\b|\b(I['’]m|I['’]ve|I have|can['’]t I|should I|I want)\b|\bSocial Security\b|\bcredit cards?\b`,
+    // Rankings and sponsored-style listicles ("11 of the Best Financial Advisor Companies"), and wire roundups.
+    String.raw`\b\d+ of the (best|top)\b|\bbest (financial )?advis[eo]r (companies|firms)\b|\broundup\b|\bmarket talk\b|^how to (invest|save|retire|pay)\b`,
     // Podcast reruns and routine regulatory/listing notices.
     String.raw`^\[?(replay|rerun|rebroadcast|encore)\b`,
     String.raw`\b(major shareholder announcement|transactions? in own shares|total voting rights|managers['’] transactions|notification of major holdings|form 8\.3|approval of (application|proposal|notice)s?)\b`,

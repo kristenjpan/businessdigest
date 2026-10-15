@@ -166,9 +166,27 @@ export interface SubscriberHeadline {
   /** The publisher's own first sentence from its feed, or "" when there isn't a complete one. */
   teaser: string;
   firms: string[];
+  /** Same section logic as free stories; absent in files written before Oct 15, 2026. */
+  section?: SectionId;
 }
 
 export interface SubscriberFeed {
   generatedAt: string;
   publishers: { id: SubscriptionId; items: SubscriberHeadline[] }[];
+}
+
+/** One story in the Archive search index (short keys keep public/data/archive/search.json small). */
+export interface SearchEntry {
+  d: string; // edition date, YYYY-MM-DD
+  id: string;
+  t: string; // title
+  k: string; // key takeaway
+  s: string; // source name
+  f: string[]; // firms
+  sec: SectionId;
+}
+
+export interface SearchIndex {
+  updatedAt: string;
+  entries: SearchEntry[]; // newest first
 }

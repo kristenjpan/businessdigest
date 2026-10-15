@@ -8,7 +8,7 @@
  */
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { editionFor, updateArchiveIndex } from "./archive";
+import { buildSearchIndex, editionFor, updateArchiveIndex } from "./archive";
 import { dedupe, dedupeStories } from "./dedupe";
 import { fetchEdgarSource } from "./edgar";
 import { buildBrief, ENGINE, selectAndEnrich } from "./enrich";
@@ -113,6 +113,13 @@ async function main() {
   );
   await writeFile(indexFile, JSON.stringify(index, null, 2));
   for (const d of removed) await rm(path.join(ARCHIVE_DIR, `${d}.json`), { force: true });
+  // Archive search: rebuilt from every kept edition, so it always matches the archive.
+  const kept = (await Promise.all(index.editions.map((e) => readJson<Digest>(path.join(ARCHIVE_DIR, `${e.date}.json`))))).filter(
+    (d): d is Digest => d !== null,
+  );
+  const search = buildSearchIndex(kept, now);
+  await writeFile(path.join(ARCHIVE_DIR, "search.json"), JSON.stringify(search));
+  console.log(`  Archive search: ${search.entries.length} stories across ${kept.length} editions`);
   // Keep yesterday's subscriber headlines if every subscriber feed failed today.
   if (subscriberCount) await writeFile(path.join(DATA_DIR, "subscriptions.json"), JSON.stringify(subscriberFeed, null, 2));
   else console.warn("  No subscriber headlines today; keeping the previous subscriptions.json");

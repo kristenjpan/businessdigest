@@ -322,3 +322,48 @@ describe("Market Read", () => {
     expect(read).toContain("7,764.64");
   });
 });
+
+describe("current-user improvements", () => {
+  it("drops rankings, roundups and how-to columns but keeps real deal news", async () => {
+    const { LOW_VALUE } = await import("../normalize");
+    expect(LOW_VALUE.test("11 of the Best Financial Advisor Companies: Well-Known Fiduciary Investment Firms to Consider")).toBe(true);
+    expect(LOW_VALUE.test("Energy & Utilities Roundup: Market Talk")).toBe(true);
+    expect(LOW_VALUE.test("How to Invest for the Middle Class Blues")).toBe(true);
+    expect(LOW_VALUE.test("GTCR, Elliott Acquire Software Firm CCC for $4.6 Billion")).toBe(false);
+  });
+
+  it("gives subscriber headlines the section their story belongs to", async () => {
+    const { buildSubscriberFeed } = await import("../subscriptions");
+    const { SUBSCRIPTION_SOURCES } = await import("../sources");
+    const wsj = SUBSCRIPTION_SOURCES.find((s) => s.subscription === "wsj")!;
+    const at = new Date(now.getTime() - 3_600_000).toISOString();
+    const feed = buildSubscriberFeed(
+      [
+        {
+          source: wsj,
+          items: [
+            raw({ title: "Penske Automotive Group to Be Taken Private by Penske, Mitsui", publishedAt: at, section: "markets" }),
+            raw({ title: "Fed holds interest rates steady as inflation cools", publishedAt: at, section: "markets" }),
+          ],
+        },
+      ],
+      now,
+    );
+    const items = feed.publishers.find((p) => p.id === "wsj")!.items;
+    expect(items.find((i) => i.title.startsWith("Penske"))!.section).toBe("private-equity");
+    expect(items.find((i) => i.title.startsWith("Fed"))!.section).toBe("markets");
+  });
+
+  it("builds the Archive search index newest first, listing each story once", async () => {
+    const { buildSearchIndex } = await import("../archive");
+    const story = (id: string, title: string) => ({ ...enrichItem(raw({ id, title }), market, now) });
+    const older = { date: "2026-10-13", items: [story("a", "KKR closes fund"), story("b", "Apollo buys lender")] };
+    const newer = { date: "2026-10-14", items: [story("a", "KKR closes fund"), story("c", "Carlyle exits stake")] };
+    const idx = buildSearchIndex([older, newer] as never, now);
+    expect(idx.entries.map((e) => [e.d, e.id])).toEqual([
+      ["2026-10-14", "a"],
+      ["2026-10-14", "c"],
+      ["2026-10-13", "b"],
+    ]);
+  });
+});

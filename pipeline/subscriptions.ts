@@ -1,5 +1,6 @@
 import { dedupe } from "./dedupe";
 import { cleanExcerpt, cleanTitle, splitSentences } from "./enrich/takeaway";
+import { classify, sectionForTheme } from "./enrich/themes";
 import { LOW_VALUE } from "./normalize";
 import type { RssSource } from "./sources";
 import { SUBSCRIPTION_PUBLISHERS, type RawItem, type SubscriberFeed, type SubscriberHeadline, type SubscriptionId } from "./types";
@@ -34,7 +35,17 @@ export function buildSubscriberFeed(
     const items: SubscriberHeadline[] = dedupe(pool)
       .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
       .slice(0, opts.perPublisher)
-      .map((i) => ({ id: i.id, title: cleanTitle(i.title), url: i.url, publishedAt: i.publishedAt, teaser: teaserOf(i.excerpt), firms: i.firms }));
+      .map((i) => ({
+        id: i.id,
+        title: cleanTitle(i.title),
+        url: i.url,
+        publishedAt: i.publishedAt,
+        teaser: teaserOf(i.excerpt),
+        firms: i.firms,
+        // Subscriber feeds default to Markets, so let keywords or the story's theme pick the real
+        // section (a take-private is Private Equity), letting readers' section picks filter them.
+        section: i.section !== "markets" ? i.section : (sectionForTheme(classify(i)) ?? "markets"),
+      }));
     return { id, items };
   });
   return { generatedAt: now.toISOString(), publishers };
