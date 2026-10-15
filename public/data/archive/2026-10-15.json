@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T14:57:32.697Z",
-  "engine": "rules-v2",
+  "generatedAt": "2026-10-15T15:17:34.758Z",
+  "engine": "rules-v3",
   "edition": 23,
   "brief": {
     "headline": "Apollo’s £5.7bn easyJet takeover faces union opposition",
@@ -834,10 +834,10 @@
       "aiSummarized": false
     },
     {
-      "id": "4acc4b23f725",
-      "title": "Will mortgage rates stay above 7% in 2027? Signs point to yes.",
-      "url": "https://www.marketwatch.com/story/will-mortgage-rates-stay-above-7-in-2027-437873bd?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-15T13:14:00.000Z",
+      "id": "ef4ad73cbd00",
+      "title": "Medicare open enrollment is here. What to know about deadlines, options and more.",
+      "url": "https://www.marketwatch.com/story/medicare-open-enrollment-is-here-what-to-know-about-deadlines-options-and-more-eac92756?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-15T13:02:00.000Z",
       "source": {
         "id": "marketwatch-top",
         "name": "MarketWatch — Top Stories",
@@ -851,8 +851,8 @@
         "label": "Market Moves"
       },
       "importance": 2,
-      "takeaway": "MarketWatch reports: Will mortgage rates stay above 7% in 2027? Signs point to yes.",
-      "whyItMatters": "Public-market swings feed directly into private-market valuations, IPO windows and investor sentiment. For allocators: short-term market moves matter most when they change long-term plans or liquidity needs.",
+      "takeaway": "The open-enrollment period goes from Oct. 15 to Dec. 7.",
+      "whyItMatters": "Big market moves change portfolio weights and can prompt rebalancing across asset classes. For allocators: short-term market moves matter most when they change long-term plans or liquidity needs.",
       "marketContext": "The VIX is 16.9, a normal-volatility reading and high-yield credit spreads are 3.25%, near long-run norms (up 9 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 14.)",
       "beginnerNote": {
         "term": "Volatility (VIX)",
@@ -1118,36 +1118,6 @@
       "aiSummarized": false
     },
     {
-      "id": "4bd3d71fee70",
-      "title": "Warburg Pincus Called Its A$5.25-a-Security Proposal for Ingenia Communities Best and Final",
-      "url": "https://hedgeco.net/news/10/2026/warburg-pincus-called-its-a5-25-a-security-proposal-for-ingenia-communities-best-and-final.html",
-      "publishedAt": "2026-10-15T09:59:44.000Z",
-      "source": {
-        "id": "hedgeco",
-        "name": "HedgeCo Networks",
-        "homepage": "https://www.hedgeco.net/news/",
-        "contentType": "news"
-      },
-      "section": "private-equity",
-      "firms": [
-        "Warburg Pincus"
-      ],
-      "theme": {
-        "id": "deals",
-        "label": "M&A & Buyouts"
-      },
-      "importance": 3,
-      "takeaway": "HedgeCo Networks reports: Warburg Pincus Called Its A$5.25-a-Security Proposal for Ingenia Communities Best and Final.",
-      "whyItMatters": "Warburg Pincus is a veteran growth-equity investor, a useful read on growth-stage private valuations. Deal activity is the heartbeat of private equity: it shows sponsors are willing to put capital to work at today's prices and financing costs. For allocators: deployment pace drives when committed capital is actually called, so it matters for liquidity planning.",
-      "marketContext": "The 10-year Treasury yield is 5.21% (down 3 bps on the prior reading) and high-yield credit spreads are 3.25%, near long-run norms (up 9 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 14.)",
-      "beginnerNote": {
-        "term": "Take-private",
-        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
       "id": "5908b5ef9504",
       "title": "BlackRock’s HPS Agreed to Buy Welsh Carson’s Roughly $2.8 Billion Stake in Nearly 150 CenterWell Senior Primary Care Clinics",
       "url": "https://hedgeco.net/news/10/2026/blackrocks-hps-agreed-to-buy-welsh-carsons-roughly-2-8-billion-stake-in-nearly-150-centerwell-senior-primary-care-clinics.html",
@@ -1203,6 +1173,34 @@
       "beginnerNote": {
         "term": "IPO",
         "explanation": "Initial public offering, when a private company first sells shares on a stock exchange. It is a key exit route for private-equity and venture investors."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "156dc0af3e13",
+      "title": "Multistrat New Holland Capital acquires majority stake in Foundation Credit",
+      "url": "https://www.opalesque.com/fullarticle/716782/Multistrat_New_Holland_Capital_acquires_majority_stake_in678.html",
+      "publishedAt": "2026-10-14T23:36:40.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 2,
+      "takeaway": "New Holland Capital, a multi-strategy investment manager overseeing more than $8.3bn, has acquired a majority stake in Foundation Credit, which specializes in US municipal credit and infrastructure debt.",
+      "whyItMatters": "Each deal reveals where sponsors see value and which sectors they expect to outperform. For allocators: deployment pace drives when committed capital is actually called, so it matters for liquidity planning.",
+      "marketContext": "The 10-year Treasury yield is 5.21% (down 3 bps on the prior reading) and high-yield credit spreads are 3.25%, near long-run norms (up 9 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 14.)",
+      "beginnerNote": {
+        "term": "Multi-strategy fund",
+        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
       },
       "storyType": "news",
       "aiSummarized": false
@@ -1447,8 +1445,7 @@
   "stats": {
     "sourcesChecked": 37,
     "sourcesOk": 26,
-    "candidates": 111,
-    "selected": 24,
-    "aiWritten": 0
+    "candidates": 114,
+    "selected": 24
   }
 }

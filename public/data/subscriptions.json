@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T14:57:32.697Z",
+  "generatedAt": "2026-10-15T15:17:34.758Z",
   "publishers": [
     {
       "id": "wsj",
@@ -77,7 +77,7 @@
           "id": "8f2fbe2bbb76",
           "title": "Global chip stocks sink as AI debt fears intensify",
           "url": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T14:28:41.000Z",
+          "publishedAt": "2026-10-15T14:56:35.000Z",
           "teaser": "",
           "firms": []
         },
@@ -144,7 +144,7 @@
       "items": [
         {
           "id": "4fa451f399b5",
-          "title": "Thames Water Seeks £2.4 Billion More Funds as Debt Talks Drag On",
+          "title": "Thames Water Seeks £2.4 Billion More Funds to Keep Operating",
           "url": "https://www.bloomberg.com/news/articles/2026-10-15/thames-water-seeks-2-4-billion-more-funds-as-debt-talks-drag-on",
           "publishedAt": "2026-10-15T14:28:04.000Z",
           "teaser": "Thames Water is seeking to raise £2.4 billion ($3.2 billion) of additional funding from its creditors to stay afloat while it negotiates a long-term solution for its debt burden.",
@@ -161,22 +161,6 @@
           ]
         },
         {
-          "id": "3455cc750733",
-          "title": "NYC Comptroller Calls for Anthropic to Pause IPO for AI Safety",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-15/nyc-comptroller-calls-for-anthropic-to-pause-ipo-for-ai-safety",
-          "publishedAt": "2026-10-15T13:13:33.000Z",
-          "teaser": "Anthropic PBC should pause its initial public offering until it has fully addressed risks around the safety, governance and pace of development of artificial intelligence, according to New York City’s comptroller.",
-          "firms": []
-        },
-        {
-          "id": "c393c2aaded9",
-          "title": "A $1 Trillion Chip Rout Draws Billions Into Leveraged ETF Bets",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-15/a-1-trillion-chip-rout-draws-billions-into-leveraged-etf-bets",
-          "publishedAt": "2026-10-15T13:00:49.000Z",
-          "teaser": "As chip stocks shed $1 trillion in market value, ETF investors are pouring billions into the selloff, putting a fund that triples their daily exposure to the sector on pace for record weekly inflows.",
-          "firms": []
-        },
-        {
           "id": "22987bfae2ae",
           "title": "Anthropic Results May Aid IPO But Not AI Trade",
           "url": "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-results-may-aid-ipo-but-not-ai-trade-analysts-say",
@@ -186,10 +170,10 @@
         },
         {
           "id": "b4f91b8e5204",
-          "title": "Chip Selloff Spurs Flight to Bonds on AI Worries: Markets Wrap",
+          "title": "S&P 500 Bounces as Chip Rout Spurs Stock Rotation: Markets Wrap",
           "url": "https://www.bloomberg.com/news/articles/2026-10-14/stock-market-today-dow-s-p-live-updates",
           "publishedAt": "2026-10-14T22:04:59.000Z",
-          "teaser": "Another selloff in chipmakers weighed on stocks on concerns over whether massive artificial-intelligence investments will justify lofty valuations, pushing investors toward the safety of bonds.",
+          "teaser": "Wall Street traders drove a rotation out of high-profile chipmakers and into a broader category of companies while pushing investors toward the safety of bonds.",
           "firms": []
         }
       ]
