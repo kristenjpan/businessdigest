@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T15:37:32.040Z",
+  "generatedAt": "2026-10-15T16:01:41.273Z",
   "publishers": [
     {
       "id": "wsj",
@@ -84,10 +84,10 @@
       "id": "ft",
       "items": [
         {
-          "id": "8f2fbe2bbb76",
-          "title": "Global chip stocks sink as AI debt fears intensify",
-          "url": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T14:56:35.000Z",
+          "id": "693daf13a0a0",
+          "title": "Former Everton bidder Josh Wander to plead guilty in US fraud case",
+          "url": "https://www.ft.com/content/0a436452-c1a1-492a-b5be-92848ed5e6e7?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-15T15:33:40.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
@@ -96,10 +96,19 @@
           "id": "b64dfdd8f42a",
           "title": "Investors dump data centre bonds as AI borrowers face ‘Darwin moment’",
           "url": "https://www.ft.com/content/678bcd31-6c2a-447b-a68c-ce6dec220bbc?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T13:26:08.000Z",
+          "publishedAt": "2026-10-15T15:25:47.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-markets"
+        },
+        {
+          "id": "8f2fbe2bbb76",
+          "title": "Treasuries rally as investors seek shelter from AI turbulence",
+          "url": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-15T14:56:35.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
         },
         {
           "id": "8b0928a73cde",
@@ -109,24 +118,6 @@
           "teaser": "",
           "firms": [],
           "section": "private-equity"
-        },
-        {
-          "id": "f959839795b3",
-          "title": "Credit Suisse secured $800mn from insurers in Greensill settlement",
-          "url": "https://www.ft.com/content/43c9d38a-652a-45df-b3be-c3dead3390f1?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T13:00:37.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "4a822a5caf5e",
-          "title": "Credit Suisse bankers denied bonuses stripped after UBS takeover",
-          "url": "https://www.ft.com/content/6607f0e4-6f99-46d1-a994-decafda46e16?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T11:46:19.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
         },
         {
           "id": "4edd9e4d0709",
@@ -154,12 +145,33 @@
           "teaser": "",
           "firms": [],
           "section": "private-markets"
+        },
+        {
+          "id": "d7769b9b0845",
+          "title": "General Atlantic’s IPO ambitions",
+          "url": "https://www.ft.com/content/d9353431-e9ba-4b34-a277-ab1510120ef8?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-15T04:00:39.000Z",
+          "teaser": "",
+          "firms": [
+            "Blackstone",
+            "Apollo"
+          ],
+          "section": "private-markets"
         }
       ]
     },
     {
       "id": "bloomberg",
       "items": [
+        {
+          "id": "45a378c4b9e7",
+          "title": "Nigeria Tycoon Sees $15 Billion Project Pipeline for West Africa",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/nigeria-tycoon-sees-15-billion-project-pipeline-for-west-africa",
+          "publishedAt": "2026-10-15T15:46:17.000Z",
+          "teaser": "Nigerian tycoon Tony Elumelu is part of a team considering a $15 billion pipeline of investment projects across West Africa to help curb the region’s infrastructure deficit.",
+          "firms": [],
+          "section": "private-markets"
+        },
         {
           "id": "9198a8eecfa2",
           "title": "JPMorgan Mulls Revival of Software Debt Deal Lenders Had Shunned",
@@ -172,15 +184,6 @@
           "section": "markets"
         },
         {
-          "id": "4fa451f399b5",
-          "title": "Thames Water Seeks £2.4 Billion More Funds to Keep Operating",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-15/thames-water-seeks-2-4-billion-more-funds-as-debt-talks-drag-on",
-          "publishedAt": "2026-10-15T14:28:04.000Z",
-          "teaser": "Thames Water is seeking to raise £2.4 billion ($3.2 billion) of additional funding from its creditors to stay afloat while it negotiates a long-term solution for its debt burden.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
           "id": "93dd1af0b51f",
           "title": "GTCR, Elliott Acquire Software Firm CCC for $4.6 Billion",
           "url": "https://www.bloomberg.com/news/articles/2026-10-15/gtcr-elliott-acquire-software-firm-ccc-for-4-6-billion",
@@ -189,24 +192,6 @@
           "firms": [
             "Elliott"
           ],
-          "section": "private-equity"
-        },
-        {
-          "id": "51c9d1e92bf1",
-          "title": "Defense Stock Rout Lures Dip Buyers Looking Past US Election",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-15/defense-stock-rout-lures-dip-buyers-looking-past-election-risk",
-          "publishedAt": "2026-10-15T12:01:08.000Z",
-          "teaser": "A quick and painful selloff in shares of companies that make military equipment, missiles and planes is attracting investors who are betting the stocks will have an open runway once the midterm elections are over and fuel prices normalize.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "22987bfae2ae",
-          "title": "Anthropic Results May Aid IPO But Not AI Trade",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-results-may-aid-ipo-but-not-ai-trade-analysts-say",
-          "publishedAt": "2026-10-15T03:21:25.000Z",
-          "teaser": "",
-          "firms": [],
           "section": "private-equity"
         }
       ]

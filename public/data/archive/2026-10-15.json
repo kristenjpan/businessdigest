@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T15:37:32.040Z",
+  "generatedAt": "2026-10-15T16:01:41.273Z",
   "engine": "rules-v3",
   "edition": 23,
   "brief": {
@@ -10,7 +10,7 @@
       "AI & Technology: BlackRock attracted $15.3bn in private markets inflows during the third quarter, exceeding analyst expectations of $12.2bn, as the firm expanded its financing activities and deployed capital from its AI infrastructure fund, according to a report by Yahoo Finance.",
       "Hedge Funds: U.S. spot bitcoin exchange-traded funds recorded $261.4 million of net outflows on Wednesday, October 14, according to Farside Investors.",
       "AI & Technology: On Inside Blackstone, host Christine Anderson sits down with SoftBank founder and CEO Masayoshi “Masa” Son.",
-      "Family Offices & Wealth: Reports from DeVoe, Piper Sandler and Fintrx show a lighter third-quarter deal market, but the analysts see no signs of slowing among capital-backed RIA consolidators."
+      "Family Offices & Wealth: The best conference is not necessarily the one with the biggest crowd."
     ],
     "marketRead": "Bottom line: calm volatility and open credit markets are a supportive backdrop for dealmaking, fundraising and exits. The S&P 500 stands at 7,718.94 (down 1.1% on the prior reading) and the VIX is 16.9, a normal-volatility reading. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.21% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.37 pts (positively sloped). High-yield credit spreads are 3.25%, near long-run norms (up 9 bps on the prior reading).",
     "themes": [
@@ -20,8 +20,8 @@
         "count": 3
       },
       {
-        "id": "people",
-        "label": "People & Leadership",
+        "id": "family-office",
+        "label": "Family Offices & Wealth",
         "count": 3
       },
       {
@@ -835,7 +835,7 @@
     },
     {
       "id": "b2222ebcf1c8",
-      "title": "Traders pile into bonds and defensive stocks as the ‘tech wreck’ picks up steam",
+      "title": "Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now.",
       "url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374?mod=mw_rss_topstories",
       "publishedAt": "2026-10-15T15:21:00.000Z",
       "source": {
@@ -976,6 +976,34 @@
       "aiSummarized": false
     },
     {
+      "id": "ca1fe3d9e20d",
+      "title": "How to Evaluate Financial Advisory Conferences",
+      "url": "https://www.wealthmanagement.com/professional-development/how-to-evaluate-financial-advisory-conferences",
+      "publishedAt": "2026-10-15T15:40:51.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "The best conference is not necessarily the one with the biggest crowd.",
+      "whyItMatters": "Private-market firms are racing to reach wealthy families and individuals, their biggest new source of growth after pensions and endowments. For family offices: compare liquidity terms, fees and valuation policies closely when evaluating new semi-liquid or evergreen products.",
+      "marketContext": "The S&P 500 stands at 7,718.94 (down 1.1% on the prior reading) and the 10-year Treasury yield is 5.21% (down 3 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 14.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
       "id": "5255f84cc908",
       "title": "Q3 M&A Deal Volume Cools, But Consolidators May Yet Drive a Record 2026",
       "url": "https://www.wealthmanagement.com/ria-news/q3-m-a-deal-volume-cools-but-consolidators-may-yet-drive-a-record-2026",
@@ -1050,34 +1078,6 @@
       },
       "importance": 2,
       "takeaway": "Valla Wealth is operating as a DBA of The Invictus Collective, a Dynasty-backed firm, using the RIA’s proprietary tech stack and structured notes products.",
-      "whyItMatters": "Where senior talent moves shows which strategies firms are prioritising, such as private credit, wealth or infrastructure. For allocators: key-person changes matter because many fund agreements tie commitments to specific investment leaders.",
-      "marketContext": "The S&P 500 stands at 7,718.94 (down 1.1% on the prior reading) and the VIX is 16.9, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 14.)",
-      "beginnerNote": {
-        "term": "RIA",
-        "explanation": "Registered investment adviser, an independent firm legally obliged to act in its clients' best interests when giving investment advice."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "f978ec77bc53",
-      "title": "SEI Names Kristie Edling-Day as Chief Information Officer",
-      "url": "https://www.wealthmanagement.com/advisor-support-platforms/sei-names-kristie-edling-day-as-chief-information-officer",
-      "publishedAt": "2026-10-15T10:00:00.000Z",
-      "source": {
-        "id": "wealthmanagement",
-        "name": "WealthManagement.com",
-        "homepage": "https://www.wealthmanagement.com/",
-        "contentType": "news"
-      },
-      "section": "family-offices",
-      "firms": [],
-      "theme": {
-        "id": "people",
-        "label": "People & Leadership"
-      },
-      "importance": 2,
-      "takeaway": "The $2 trillion asset manager and tech provider to RIAs has brought on the industry veteran to straddle both strategy and technology buildout.",
       "whyItMatters": "Where senior talent moves shows which strategies firms are prioritising, such as private credit, wealth or infrastructure. For allocators: key-person changes matter because many fund agreements tie commitments to specific investment leaders.",
       "marketContext": "The S&P 500 stands at 7,718.94 (down 1.1% on the prior reading) and the VIX is 16.9, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 14.)",
       "beginnerNote": {
@@ -1445,7 +1445,7 @@
   "stats": {
     "sourcesChecked": 37,
     "sourcesOk": 26,
-    "candidates": 113,
+    "candidates": 115,
     "selected": 24
   }
 }
