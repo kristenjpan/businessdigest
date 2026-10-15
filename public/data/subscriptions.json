@@ -1,16 +1,26 @@
 {
-  "generatedAt": "2026-10-15T15:17:34.758Z",
+  "generatedAt": "2026-10-15T15:37:32.040Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
+        {
+          "id": "01eb89f31c8b",
+          "title": "William Draper, Pioneering Silicon Valley Venture Capitalist, Dies at 98",
+          "url": "https://www.wsj.com/business/entrepreneurship/william-draper-silicon-valley-vc-dead-634e413e?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-15T15:25:00.000Z",
+          "teaser": "He searched the fruit orchards south of San Francisco looking for startup companies to fund.",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "8b6b1d281f03",
           "title": "Investors Turn to Safety of Treasurys as Tech Stocks Extend Selloff",
           "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-slide-as-global-ai-selloff-gathers-pace-da79ad4d?mod=rss_markets_main",
           "publishedAt": "2026-10-15T14:06:00.000Z",
           "teaser": "Fears around the AI trade sent tech stocks slumping for a second day and investors turned to government bonds for safety.",
-          "firms": []
+          "firms": [],
+          "section": "markets"
         },
         {
           "id": "80f396c28da7",
@@ -18,23 +28,8 @@
           "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-gulf-supply-recovery-hormuz-attacks-f0337002?mod=pls_whats_news_us_business_f",
           "publishedAt": "2026-10-15T13:49:00.000Z",
           "teaser": "Oil prices traded mixed as investors weighed a weaker global demand outlook and signs of recovering Middle East crude supplies against persistent shipping risks around the Strait of Hormuz.",
-          "firms": []
-        },
-        {
-          "id": "49185bac663d",
-          "title": "U.S. Natural Gas Futures Gain Ahead of Storage Report",
-          "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-gain-ahead-of-storage-report-1e14389f?mod=rss_markets_main",
-          "publishedAt": "2026-10-15T13:35:00.000Z",
-          "teaser": "U.S. natural gas futures rose ahead of the EIA’s weekly inventory data, with a cold weather expected in the Northeast supporting near-term heating demand.",
-          "firms": []
-        },
-        {
-          "id": "d3568fe55d78",
-          "title": "11 of the Best Financial Advisor Companies: Well-Known Fiduciary Investment Firms to Consider",
-          "url": "https://www.wsj.com/buyside/personal-finance/financial-advisors/best-financial-advisors?mod=rss_markets_main",
-          "publishedAt": "2026-10-15T13:23:00.000Z",
-          "teaser": "We analyzed everything from advisor credentials to fees to portfolio options at some of the larger and more well-known registered investment advisor firms, to help you select a firm that could best connect you with a fiduciary financial advisor.",
-          "firms": []
+          "firms": [],
+          "section": "markets"
         },
         {
           "id": "5ac8b41cf059",
@@ -42,31 +37,46 @@
           "url": "https://www.wsj.com/business/deals/penske-automotive-group-to-be-taken-private-by-penske-mitsui-77e061af?mod=rss_markets_main",
           "publishedAt": "2026-10-15T12:26:00.000Z",
           "teaser": "Penske Automotive Group has agreed to be taken private by the transportation-services company’s biggest investors for about $4 billion.",
-          "firms": []
+          "firms": [],
+          "section": "private-equity"
         },
         {
-          "id": "5492151ce7f1",
-          "title": "Auto & Transport Roundup: Market Talk",
-          "url": "https://www.wsj.com/business/auto-transport-roundup-market-talk-8846d7b6?mod=rss_markets_main",
-          "publishedAt": "2026-10-15T11:30:00.000Z",
-          "teaser": "Find insight on Lufthansa, Air Canada and more in the latest Market Talks covering Auto and Transport.",
-          "firms": []
+          "id": "20c3d0b52409",
+          "title": "PNC Revenue Rises on National Expansion",
+          "url": "https://www.wsj.com/business/earnings/pnc-revenue-rises-on-national-expansion-5fec02b9?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-15T10:58:00.000Z",
+          "teaser": "PNC Financial Services Group recorded higher revenue, but came in short of Wall Street’s estimates, as profit was dented by $36 million in integration costs tied to its acquisition of FirstBank.",
+          "firms": [],
+          "section": "markets"
         },
         {
-          "id": "9a7a69a7c0a2",
-          "title": "Energy & Utilities Roundup: Market Talk",
-          "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-e032b827?mod=rss_markets_main",
-          "publishedAt": "2026-10-15T11:25:00.000Z",
-          "teaser": "Find insight on TotalEnergies, Enerflex, Iberdrola and more in the latest Market Talks covering Energy and Utilities.",
-          "firms": []
+          "id": "53a75bc951e3",
+          "title": "New Private-Equity Firm Specializes in Giving Companies AI Glow-Ups",
+          "url": "https://www.wsj.com/finance/investing/a-new-private-equity-firm-specializes-in-giving-companies-ai-glow-ups-86fcb48e?mod=rss_markets_main",
+          "publishedAt": "2026-10-15T10:00:00.000Z",
+          "teaser": "Aldaron, with co-founders coming from Palantir and Carlyle, recently closed its debut fund and made its first investment.",
+          "firms": [
+            "Carlyle"
+          ],
+          "section": "private-equity"
         },
         {
-          "id": "c19e50778e6d",
-          "title": "Dollar Stays Lower After Slew of U.S. Data",
-          "url": "https://www.wsj.com/finance/currencies/asian-currencies-mixed-but-may-be-weighed-by-higher-prospects-of-fed-rate-hikes-31f584a1?mod=rss_markets_main",
-          "publishedAt": "2026-10-15T11:00:00.000Z",
-          "teaser": "The DXY dollar index fell but was little changed than the level before better-than-expected U.S. retail sales data and higher-than-forecast U.S. wholesale inflation figures.",
-          "firms": []
+          "id": "8aab3bcb95cd",
+          "title": "Ericsson Shares Surge on Strong Sales of Network Gear",
+          "url": "https://www.wsj.com/business/earnings/ericsson-to-streamline-structure-as-component-costs-pressure-profitability-f4be0cb0?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-15T09:22:00.000Z",
+          "teaser": "Investors shrugged off the Swedish telecommunications-equipment maker’s warning that higher component costs will be a headwind to profitability next year.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "f7d3d44196b9",
+          "title": "TSMC Weighs Texas Expansion, Holds Talks on Musk’s Terafab",
+          "url": "https://www.wsj.com/tech/ai-demand-extends-tsmcs-record-earnings-streak-95bbef62?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-15T09:18:00.000Z",
+          "teaser": "The world’s largest contract chip maker signaled its willingness to participate in large-scale AI infrastructure projects.",
+          "firms": [],
+          "section": "markets"
         }
       ]
     },
@@ -79,23 +89,8 @@
           "url": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
           "publishedAt": "2026-10-15T14:56:35.000Z",
           "teaser": "",
-          "firms": []
-        },
-        {
-          "id": "8e23f388a613",
-          "title": "Anglo American chief says tech giants show ‘deep interest’ in mining stakes",
-          "url": "https://www.ft.com/content/15d18ed4-543d-4004-ae38-f429a118daab?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T14:19:54.000Z",
-          "teaser": "",
-          "firms": []
-        },
-        {
-          "id": "c8fc56851aaa",
-          "title": "The future energy mix",
-          "url": "https://www.ft.com/content/d3a07d72-0f99-40b6-a1ad-97ecc91af81f",
-          "publishedAt": "2026-10-15T13:31:06.000Z",
-          "teaser": "Decades of policy have sought to diversify not only sources of oil and natural gas but the energy mix as a whole.",
-          "firms": []
+          "firms": [],
+          "section": "markets"
         },
         {
           "id": "b64dfdd8f42a",
@@ -103,7 +98,8 @@
           "url": "https://www.ft.com/content/678bcd31-6c2a-447b-a68c-ce6dec220bbc?syn-25a6b1a6=1",
           "publishedAt": "2026-10-15T13:26:08.000Z",
           "teaser": "",
-          "firms": []
+          "firms": [],
+          "section": "private-markets"
         },
         {
           "id": "8b0928a73cde",
@@ -111,7 +107,8 @@
           "url": "https://www.ft.com/content/1ca17b0c-24f3-4c54-94b9-0b0526941efe?syn-25a6b1a6=1",
           "publishedAt": "2026-10-15T13:13:36.000Z",
           "teaser": "",
-          "firms": []
+          "firms": [],
+          "section": "private-equity"
         },
         {
           "id": "f959839795b3",
@@ -119,7 +116,8 @@
           "url": "https://www.ft.com/content/43c9d38a-652a-45df-b3be-c3dead3390f1?syn-25a6b1a6=1",
           "publishedAt": "2026-10-15T13:00:37.000Z",
           "teaser": "",
-          "firms": []
+          "firms": [],
+          "section": "markets"
         },
         {
           "id": "4a822a5caf5e",
@@ -127,7 +125,8 @@
           "url": "https://www.ft.com/content/6607f0e4-6f99-46d1-a994-decafda46e16?syn-25a6b1a6=1",
           "publishedAt": "2026-10-15T11:46:19.000Z",
           "teaser": "",
-          "firms": []
+          "firms": [],
+          "section": "markets"
         },
         {
           "id": "4edd9e4d0709",
@@ -135,7 +134,26 @@
           "url": "https://www.ft.com/content/0d33f7c8-91e6-4a65-bf13-6447de9d2097?syn-25a6b1a6=1",
           "publishedAt": "2026-10-15T11:43:57.000Z",
           "teaser": "",
-          "firms": []
+          "firms": [],
+          "section": "hedge-funds"
+        },
+        {
+          "id": "66ce02ba2ead",
+          "title": "Republicans fund midterms ad blitz as Democrats gain in polls",
+          "url": "https://www.ft.com/content/481f7865-b6bb-40b8-9ee2-7554f6914007?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-15T10:00:09.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "cbfc2c69f40f",
+          "title": "EQT to acquire US real estate group Stockbridge",
+          "url": "https://www.ft.com/content/179f6911-cf9b-4fea-98e4-f635e8e8c563?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-15T07:27:36.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
         }
       ]
     },
@@ -143,12 +161,24 @@
       "id": "bloomberg",
       "items": [
         {
+          "id": "9198a8eecfa2",
+          "title": "JPMorgan Mulls Revival of Software Debt Deal Lenders Had Shunned",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/jpmorgan-mulls-revival-of-software-debt-deal-lenders-had-shunned",
+          "publishedAt": "2026-10-15T15:13:21.000Z",
+          "teaser": "JPMorgan Chase & Co. is weighing options for a fresh debt sale for Qualtrics International Inc. after underwriters got stuck with more than $5 billion of loans earlier this year.",
+          "firms": [
+            "J.P. Morgan"
+          ],
+          "section": "markets"
+        },
+        {
           "id": "4fa451f399b5",
           "title": "Thames Water Seeks £2.4 Billion More Funds to Keep Operating",
           "url": "https://www.bloomberg.com/news/articles/2026-10-15/thames-water-seeks-2-4-billion-more-funds-as-debt-talks-drag-on",
           "publishedAt": "2026-10-15T14:28:04.000Z",
           "teaser": "Thames Water is seeking to raise £2.4 billion ($3.2 billion) of additional funding from its creditors to stay afloat while it negotiates a long-term solution for its debt burden.",
-          "firms": []
+          "firms": [],
+          "section": "markets"
         },
         {
           "id": "93dd1af0b51f",
@@ -158,7 +188,17 @@
           "teaser": "GTCR and Elliott Investment Management are acquiring car-insurance software provider CCC Intelligent Solutions Holdings Inc. for about $4.6 billion.",
           "firms": [
             "Elliott"
-          ]
+          ],
+          "section": "private-equity"
+        },
+        {
+          "id": "51c9d1e92bf1",
+          "title": "Defense Stock Rout Lures Dip Buyers Looking Past US Election",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/defense-stock-rout-lures-dip-buyers-looking-past-election-risk",
+          "publishedAt": "2026-10-15T12:01:08.000Z",
+          "teaser": "A quick and painful selloff in shares of companies that make military equipment, missiles and planes is attracting investors who are betting the stocks will have an open runway once the midterm elections are over and fuel prices normalize.",
+          "firms": [],
+          "section": "markets"
         },
         {
           "id": "22987bfae2ae",
@@ -166,15 +206,8 @@
           "url": "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-results-may-aid-ipo-but-not-ai-trade-analysts-say",
           "publishedAt": "2026-10-15T03:21:25.000Z",
           "teaser": "",
-          "firms": []
-        },
-        {
-          "id": "b4f91b8e5204",
-          "title": "S&P 500 Bounces as Chip Rout Spurs Stock Rotation: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-14/stock-market-today-dow-s-p-live-updates",
-          "publishedAt": "2026-10-14T22:04:59.000Z",
-          "teaser": "Wall Street traders drove a rotation out of high-profile chipmakers and into a broader category of companies while pushing investors toward the safety of bonds.",
-          "firms": []
+          "firms": [],
+          "section": "private-equity"
         }
       ]
     },
@@ -187,7 +220,8 @@
           "url": "https://www.economist.com/business/2026/10/14/the-ai-boom-is-threatened-by-an-epidemic-of-unreliable-numbers",
           "publishedAt": "2026-10-14T21:19:50.000Z",
           "teaser": "",
-          "firms": []
+          "firms": [],
+          "section": "markets"
         },
         {
           "id": "0d4556d669c9",
@@ -195,7 +229,8 @@
           "url": "https://www.economist.com/finance-and-economics/2026/10/14/another-warning-sign-for-chinas-economy-falling-consumer-credit",
           "publishedAt": "2026-10-14T17:52:55.000Z",
           "teaser": "",
-          "firms": []
+          "firms": [],
+          "section": "markets"
         }
       ]
     }

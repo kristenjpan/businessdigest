@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T15:17:34.758Z",
+  "generatedAt": "2026-10-15T15:37:32.040Z",
   "engine": "rules-v3",
   "edition": 23,
   "brief": {
@@ -12,7 +12,7 @@
       "AI & Technology: On Inside Blackstone, host Christine Anderson sits down with SoftBank founder and CEO Masayoshi “Masa” Son.",
       "Family Offices & Wealth: Reports from DeVoe, Piper Sandler and Fintrx show a lighter third-quarter deal market, but the analysts see no signs of slowing among capital-backed RIA consolidators."
     ],
-    "marketRead": "The S&P 500 stands at 7,718.94 (down 1.1% on the prior reading) and the VIX is 16.9, a normal-volatility reading. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.21% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.37 pts (positively sloped). High-yield credit spreads are 3.25%, near long-run norms (up 9 bps on the prior reading). Bottom line: calm volatility and open credit markets are a supportive backdrop for dealmaking, fundraising and exits.",
+    "marketRead": "Bottom line: calm volatility and open credit markets are a supportive backdrop for dealmaking, fundraising and exits. The S&P 500 stands at 7,718.94 (down 1.1% on the prior reading) and the VIX is 16.9, a normal-volatility reading. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.21% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.37 pts (positively sloped). High-yield credit spreads are 3.25%, near long-run norms (up 9 bps on the prior reading).",
     "themes": [
       {
         "id": "ai-tech",
@@ -834,10 +834,10 @@
       "aiSummarized": false
     },
     {
-      "id": "ef4ad73cbd00",
-      "title": "Medicare open enrollment is here. What to know about deadlines, options and more.",
-      "url": "https://www.marketwatch.com/story/medicare-open-enrollment-is-here-what-to-know-about-deadlines-options-and-more-eac92756?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-15T13:02:00.000Z",
+      "id": "b2222ebcf1c8",
+      "title": "Traders pile into bonds and defensive stocks as the ‘tech wreck’ picks up steam",
+      "url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-15T15:21:00.000Z",
       "source": {
         "id": "marketwatch-top",
         "name": "MarketWatch — Top Stories",
@@ -851,14 +851,14 @@
         "label": "Market Moves"
       },
       "importance": 2,
-      "takeaway": "The open-enrollment period goes from Oct. 15 to Dec. 7.",
-      "whyItMatters": "Big market moves change portfolio weights and can prompt rebalancing across asset classes. For allocators: short-term market moves matter most when they change long-term plans or liquidity needs.",
+      "takeaway": "The continued selloff in the AI trade is forcing investors to ditch highflying tech for relative safety of government bonds, even as hot inflation threatens to make that trade complicated.",
+      "whyItMatters": "Public-market swings feed directly into private-market valuations, IPO windows and investor sentiment. For allocators: short-term market moves matter most when they change long-term plans or liquidity needs.",
       "marketContext": "The VIX is 16.9, a normal-volatility reading and high-yield credit spreads are 3.25%, near long-run norms (up 9 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 14.)",
       "beginnerNote": {
         "term": "Volatility (VIX)",
         "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
       },
-      "storyType": "news",
+      "storyType": "quote",
       "aiSummarized": false
     },
     {
@@ -1445,7 +1445,7 @@
   "stats": {
     "sourcesChecked": 37,
     "sourcesOk": 26,
-    "candidates": 114,
+    "candidates": 113,
     "selected": 24
   }
 }
