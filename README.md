@@ -20,7 +20,7 @@ Each story shows:
 | **Market context** | That morning's real FRED numbers, framed for the story's theme |
 | **New to this?** | A plain-English explainer of one jargon term, tap to expand |
 
-There is also Today's Brief, a market snapshot with sparklines, Top Stories, filters by section, firm, format and theme, a 90-day archive, a glossary, and full light/dark support.
+There is also Today's Brief, a market snapshot with sparklines, filters by section, firm, format and theme, a 90-day archive, a glossary, and full light/dark support.
 
 ## No API keys, no secrets
 
@@ -114,7 +114,7 @@ npm test                       # pipeline unit tests
 | `market.ts` | Turns FRED data into sentences with regime labels, e.g. VIX *calm/normal/elevated/stressed*, HY spreads *tight/normal/wide*, and curve shape. |
 | `firms.ts` | Qualitative profiles of about 25 firms. These deliberately contain no figures that could go stale. |
 | `glossary.ts` | About 50 beginner terms. It is shared with the site's Glossary page. |
-| `index.ts` | Selection, importance (1–5), Top Stories and Today's Brief. |
+| `index.ts` | Selection, importance (1–5) and Today's Brief. |
 
 To improve the writing, edit the templates in `themes.ts` and `firms.ts`. Tests in `pipeline/__tests__/` guard the behavior.
 

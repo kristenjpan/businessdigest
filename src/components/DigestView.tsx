@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { CORE_FIRMS, SECTIONS, type Digest, type DigestItem, type SectionId, type StoryType } from "../../pipeline/types";
 import { useAccount } from "../lib/account";
-import { publishedLabel, STORY_TYPE_LABEL, STORY_TYPES, storyTypeOf } from "../lib/format";
+import { STORY_TYPE_LABEL, STORY_TYPES, storyTypeOf } from "../lib/format";
 import { hasPrefs, matchesPrefs, orderSections, type Prefs } from "../lib/personalize";
 import { DigestCard } from "./DigestCard";
 import { MarketStrip } from "./MarketStrip";
@@ -32,12 +32,6 @@ function matches(item: DigestItem, f: Filters, prefs: Prefs): boolean {
     if (!f.q.toLowerCase().split(/\s+/).filter(Boolean).every((w) => hay.includes(w))) return false;
   }
   return true;
-}
-
-function scrollToItem(id: string) {
-  const el = document.getElementById(`item-${id}`);
-  el?.scrollIntoView({ behavior: "smooth", block: "start" });
-  el?.querySelector<HTMLAnchorElement>("h3 a")?.focus({ preventScroll: true });
 }
 
 export function DigestView({ digest, archived, onSignIn }: { digest: Digest; archived?: boolean; onSignIn?: () => void }) {
@@ -85,8 +79,6 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
   const active = JSON.stringify(filters) !== JSON.stringify(EMPTY);
 
   const visible = useMemo(() => digest.items.filter((i) => matches(i, filters, prefs)), [digest.items, filters, prefs]);
-  const byId = useMemo(() => new Map(digest.items.map((i) => [i.id, i])), [digest.items]);
-  const tops = (digest.topStoryIds ?? []).map((id) => byId.get(id)).filter((i): i is DigestItem => Boolean(i));
 
   const sectionCounts = useMemo(() => {
     const m = new Map<SectionId, number>();
@@ -110,38 +102,6 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
       {!archived && <WelcomeNote />}
       <MarketStrip market={digest.market} />
       <MorningBrief digest={digest} activeTheme={filters.theme} onTheme={(theme) => set({ theme })} />
-
-      {tops.length > 0 && (
-        <section aria-labelledby="top-heading" className="mt-10">
-          <h2 id="top-heading" className="text-[12px] font-semibold uppercase tracking-[0.16em] text-muted">
-            Top stories
-          </h2>
-          <ol className="mt-3 grid gap-4 md:grid-cols-3">
-            {tops.map((t, n) => (
-              <li key={t.id} data-section={t.section} className="flex">
-                <button
-                  type="button"
-                  onClick={() => {
-                    resetFilters();
-                    requestAnimationFrame(() => scrollToItem(t.id));
-                  }}
-                  className="group flex w-full flex-col rounded-xl border border-rule bg-surface p-5 text-left transition-colors hover:border-rule-strong"
-                >
-                  <span className="flex items-center gap-2 text-[12px] font-semibold">
-                    <span className="font-display sec-text text-[28px] leading-none">{n + 1}</span>
-                    <span className="sec-text">{SECTIONS.find((s) => s.id === t.section)?.label}</span>
-                  </span>
-                  <span className="font-display mt-3 text-[18px] leading-snug font-semibold text-ink group-hover:underline">{t.title}</span>
-                  <span className="mt-2 line-clamp-3 text-[14px] leading-relaxed text-ink-soft">{t.takeaway}</span>
-                  <span className="mt-auto pt-3 text-[12px] text-muted">
-                    {t.source.name} · {publishedLabel(t.publishedAt)}
-                  </span>
-                </button>
-              </li>
-            ))}
-          </ol>
-        </section>
-      )}
 
       {!archived && onSignIn && <SignInPreview onSignIn={onSignIn} className="mt-8 lg:hidden" />}
 
