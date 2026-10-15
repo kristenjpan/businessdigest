@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { GLOSSARY } from "../../pipeline/enrich/glossary";
+import { GLOSSARY, termSlug } from "../../pipeline/enrich/glossary";
 import { FRED_SERIES, PAYWALLED_DOMAINS, SOURCES } from "../../pipeline/sources";
 import type { ArchiveIndex, ContentType } from "../../pipeline/types";
 import { loadArchiveIndex } from "../lib/data";
@@ -65,8 +65,19 @@ export function ArchivePage() {
 
 // ── Glossary ─────────────────────────────────────────────────────────────
 
-export function GlossaryPage() {
+export function GlossaryPage({ term }: { term?: string }) {
   const [q, setQ] = useState("");
+
+  // Deep links such as #/glossary/high-yield-spread scroll to that term and briefly highlight it.
+  useEffect(() => {
+    if (!term) return;
+    const el = document.getElementById(`term-${term}`);
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth", block: "center" });
+    el.classList.add("term-highlight");
+    const t = window.setTimeout(() => el.classList.remove("term-highlight"), 2400);
+    return () => window.clearTimeout(t);
+  }, [term]);
   const categories = useMemo(() => {
     const needle = q.trim().toLowerCase();
     const hits = GLOSSARY.filter((g) => !needle || `${g.term} ${g.explanation}`.toLowerCase().includes(needle));
@@ -95,7 +106,7 @@ export function GlossaryPage() {
           <h3 className="mb-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-muted">{cat}</h3>
           <dl className="divide-y divide-rule rounded-xl border border-rule bg-surface">
             {terms.map((t) => (
-              <div key={t.term} className="px-5 py-4">
+              <div key={t.term} id={`term-${termSlug(t.term)}`} className="scroll-mt-24 px-5 py-4 transition-colors duration-700">
                 <dt className="font-display text-[18px] font-semibold text-ink">{t.term}</dt>
                 <dd className="mt-1 text-[15px] leading-relaxed text-ink-soft">{t.explanation}</dd>
               </div>

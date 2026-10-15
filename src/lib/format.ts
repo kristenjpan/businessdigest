@@ -110,3 +110,15 @@ export function sparkPoints(values: number[], width: number, height: number, pad
     })
     .join(" ");
 }
+
+/**
+ * Splits a Market Read into its "Bottom line: …" sentence and the numbers behind it, whichever order
+ * the edition stored them in (editions before Oct 15, 2026 put the bottom line last).
+ */
+export function splitBottomLine(text: string): { bottomLine: string | null; rest: string } {
+  const m = text.match(/Bottom line:\s*([^]*?[.!?])(?=\s|$)/);
+  if (!m) return { bottomLine: null, rest: text };
+  const bottomLine = m[1].charAt(0).toUpperCase() + m[1].slice(1);
+  const rest = (text.slice(0, m.index) + text.slice(m.index! + m[0].length)).replace(/\s+/g, " ").trim();
+  return { bottomLine, rest };
+}

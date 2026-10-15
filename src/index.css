@@ -166,6 +166,11 @@ body {
 .sec-border { border-color: var(--sec); }
 .sec-tint { background: color-mix(in srgb, var(--sec) 10%, transparent); }
 
+/* Glossary deep link: briefly highlight the term the reader came for. */
+.term-highlight {
+  background: var(--accent-soft);
+}
+
 details > summary {
   list-style: none;
   cursor: pointer;

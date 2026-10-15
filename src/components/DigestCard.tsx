@@ -1,4 +1,5 @@
 import type { DigestItem, StoryType } from "../../pipeline/types";
+import { termSlug } from "../../pipeline/enrich/glossary";
 import { useAccount } from "../lib/account";
 import { hostOf, publishedLabel, STORY_TYPE_LABEL, storyTypeOf } from "../lib/format";
 
@@ -119,6 +120,9 @@ export function DigestCard({ item, onFirm, editionDate }: Props) {
             New to this? <span className="font-normal text-ink-soft">{item.beginnerNote.term}</span>
           </summary>
           <p className="mt-1.5 pl-5 text-[14px] leading-relaxed text-ink-soft">{item.beginnerNote.explanation}</p>
+          <a href={`#/glossary/${termSlug(item.beginnerNote.term)}`} className="mt-1 ml-5 inline-block text-[13px] font-medium text-brass hover:underline">
+            More terms in the Glossary →
+          </a>
         </details>
       )}
 

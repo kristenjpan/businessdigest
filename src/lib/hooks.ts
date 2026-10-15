@@ -4,7 +4,7 @@ export type Route =
   | { page: "today" }
   | { page: "edition"; date: string }
   | { page: "archive" }
-  | { page: "glossary" }
+  | { page: "glossary"; term?: string }
   | { page: "sources" }
   | { page: "about" }
   | { page: "saved" }
@@ -16,8 +16,9 @@ export function parseHash(hash: string): Route {
   switch (head) {
     case "edition":
       return arg && /^\d{4}-\d{2}-\d{2}$/.test(arg) ? { page: "edition", date: arg } : { page: "archive" };
-    case "archive":
     case "glossary":
+      return arg && /^[a-z0-9-]+$/.test(arg) ? { page: "glossary", term: arg } : { page: "glossary" };
+    case "archive":
     case "sources":
     case "about":
     case "saved":

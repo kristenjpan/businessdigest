@@ -5,7 +5,9 @@ import { Masthead } from "./components/Masthead";
 import { SignInDialog } from "./components/SignInDialog";
 import { loadEdition, loadLatest } from "./lib/data";
 import { generatedLabel, longDate } from "./lib/format";
+import { isNewAccount, useAccount } from "./lib/account";
 import { useHashRoute, useTheme } from "./lib/hooks";
+import { hasPrefs } from "./lib/personalize";
 import { SITE } from "./lib/site";
 import { AccountPage, SavedPage } from "./pages/AccountPages";
 import { AboutPage, ArchivePage, EmptyState, Footer, GlossaryPage, LoadingState, SourcesPage } from "./pages/Pages";
@@ -16,6 +18,22 @@ export default function App() {
   const [signInOpen, setSignInOpen] = useState(false);
   const openSignIn = useCallback(() => setSignInOpen(true), []);
   const closeSignIn = useCallback(() => setSignInOpen(false), []);
+  const account = useAccount();
+
+  // Brand-new accounts go straight to "What you follow", once per account.
+  useEffect(() => {
+    const u = account.user;
+    if (!u || !account.accountLoaded || !isNewAccount(u)) return;
+    if (hasPrefs(account.prefs) || account.prefs.subscriptions.length) return;
+    const key = `tda-onboarded-${u.id}`;
+    try {
+      if (localStorage.getItem(key)) return;
+      localStorage.setItem(key, "1");
+    } catch {
+      /* storage unavailable: still guide them this once */
+    }
+    window.location.hash = "#/account?welcome=1";
+  }, [account.user, account.accountLoaded, account.prefs]);
   // undefined = loading, null = not found / not published yet
   const [latest, setLatest] = useState<Digest | null | undefined>(undefined);
   const [edition, setEdition] = useState<Digest | null | undefined>(undefined);
@@ -46,7 +64,7 @@ export default function App() {
       body = <ArchivePage />;
       break;
     case "glossary":
-      body = <GlossaryPage />;
+      body = <GlossaryPage term={route.term} />;
       break;
     case "sources":
       body = <SourcesPage />;
@@ -83,7 +101,7 @@ export default function App() {
         );
       break;
     default:
-      body = latest === undefined ? <LoadingState /> : latest === null ? <EmptyState /> : <DigestView digest={latest} />;
+      body = latest === undefined ? <LoadingState /> : latest === null ? <EmptyState /> : <DigestView digest={latest} onSignIn={openSignIn} />;
   }
 
   return (

@@ -7,6 +7,15 @@ import { authEnabled, fetchEnabledProviders, getSupabase, siteRoot } from "./sup
 export interface Reader {
   id: string;
   email: string;
+  /** When the account was created (ISO 8601), used to guide brand-new accounts through setup. */
+  createdAt: string;
+}
+
+/** An account counts as new for 10 minutes after sign-up (email or first Google sign-in). */
+export function isNewAccount(reader: Reader | null, now = Date.now()): boolean {
+  if (!reader?.createdAt) return false;
+  const age = now - Date.parse(reader.createdAt);
+  return age >= 0 && age < 10 * 60_000;
 }
 
 interface Account {
@@ -16,6 +25,8 @@ interface Account {
   /** True only when Google sign-in is switched on in Supabase; the button stays hidden otherwise. */
   googleEnabled: boolean;
   user: Reader | null;
+  /** True once the signed-in reader's saved stories and preferences have been loaded. */
+  accountLoaded: boolean;
   /** True after a reader opens a password-reset link, until they set a new password. */
   recovering: boolean;
   signUp(email: string, password: string): Promise<string | null>;
@@ -76,6 +87,7 @@ export function AccountProvider({ children }: { children: React.ReactNode }) {
   const [recovering, setRecovering] = useState(false);
   const [saved, setSaved] = useState<SavedStory[]>(readLocalSaved);
   const [prefs, setPrefsState] = useState<Prefs>(EMPTY_PREFS);
+  const [accountLoaded, setAccountLoaded] = useState(false);
   const userRef = useRef<Reader | null>(null);
   userRef.current = user;
 
@@ -92,7 +104,7 @@ export function AccountProvider({ children }: { children: React.ReactNode }) {
             window.location.hash = "#/account";
           }
           const u = session?.user;
-          setUser((prev) => (u ? (prev?.id === u.id ? prev : { id: u.id, email: u.email ?? "" }) : null));
+          setUser((prev) => (u ? (prev?.id === u.id ? prev : { id: u.id, email: u.email ?? "", createdAt: u.created_at ?? "" }) : null));
           setReady(true);
           cleanAuthParams();
         });
@@ -108,6 +120,7 @@ export function AccountProvider({ children }: { children: React.ReactNode }) {
   // On sign-in: move browser saves into the account, then load the account's saves and preferences.
   // On sign-out: show this browser's saves again (normally none, since they moved to the account).
   useEffect(() => {
+    setAccountLoaded(false);
     if (!user) {
       setPrefsState(EMPTY_PREFS);
       setSaved(readLocalSaved());
@@ -138,6 +151,7 @@ export function AccountProvider({ children }: { children: React.ReactNode }) {
       if (prefsRes.data)
         setPrefsState({ sections: prefsRes.data.sections ?? [], firms: prefsRes.data.firms ?? [], subscriptions: prefsRes.data.subscriptions ?? [] });
       else setPrefsState(EMPTY_PREFS);
+      setAccountLoaded(true);
     })().catch((err) => console.warn("Could not load account data:", err));
     return () => {
       cancelled = true;
@@ -271,6 +285,7 @@ export function AccountProvider({ children }: { children: React.ReactNode }) {
       ready,
       googleEnabled,
       user,
+      accountLoaded,
       recovering,
       signUp,
       signIn,
@@ -286,7 +301,7 @@ export function AccountProvider({ children }: { children: React.ReactNode }) {
       prefs,
       setPrefs,
     }),
-    [ready, googleEnabled, user, recovering, signUp, signIn, signInWithGoogle, sendPasswordReset, updatePassword, signOut, saved, savedIds, toggleSave, removeSaved, clearSaved, prefs, setPrefs],
+    [ready, googleEnabled, user, accountLoaded, recovering, signUp, signIn, signInWithGoogle, sendPasswordReset, updatePassword, signOut, saved, savedIds, toggleSave, removeSaved, clearSaved, prefs, setPrefs],
   );
 
   return <AccountContext.Provider value={value}>{children}</AccountContext.Provider>;

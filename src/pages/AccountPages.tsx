@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { CORE_FIRMS, SECTIONS, SUBSCRIPTION_PUBLISHERS, TRACKED_FIRMS, type SectionId, type SubscriptionId } from "../../pipeline/types";
 import { useAccount } from "../lib/account";
 import { hostOf, publishedLabel } from "../lib/format";
@@ -96,6 +96,7 @@ export function SavedPage({ onSignIn }: { onSignIn: () => void }) {
 
 export function AccountPage({ onSignIn }: { onSignIn: () => void }) {
   const account = useAccount();
+  const welcome = /[?&]welcome=1\b/.test(window.location.hash);
 
   if (!account.authEnabled) {
     return (
@@ -127,7 +128,13 @@ export function AccountPage({ onSignIn }: { onSignIn: () => void }) {
         Signed in as <strong className="text-ink">{account.user.email}</strong>.
       </PageHeader>
       {account.recovering && <PasswordForm title="Set a new password" highlight />}
-      <PreferencesForm />
+      {welcome && (
+        <div className="mb-4 rounded-xl border border-accent/40 bg-accent-soft px-5 py-4 text-[15px] text-ink">
+          <strong className="font-semibold">Welcome! Let's set up your digest.</strong> Pick at least one section and a few firms you follow, then
+          click <strong className="font-semibold">Save preferences</strong>.
+        </div>
+      )}
+      <PreferencesForm welcome={welcome} />
       {!account.recovering && <PasswordForm title="Change password" />}
       <section className="mt-8 border-t border-rule pt-6">
         <button type="button" onClick={() => void account.signOut()} className={quietButton}>
@@ -138,7 +145,13 @@ export function AccountPage({ onSignIn }: { onSignIn: () => void }) {
   );
 }
 
-function PreferencesForm() {
+function PreferencesForm({ welcome = false }: { welcome?: boolean }) {
+  const sectionRef = useRef<HTMLElement>(null);
+  // New accounts land here from sign-up: bring the form into view and outline it briefly.
+  useEffect(() => {
+    if (!welcome || !sectionRef.current) return;
+    sectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [welcome]);
   const { prefs, setPrefs } = useAccount();
   const [sections, setSections] = useState<SectionId[]>(prefs.sections);
   const [firms, setFirms] = useState<string[]>(prefs.firms);
@@ -163,11 +176,15 @@ function PreferencesForm() {
       SUBSCRIPTION_PUBLISHERS.map((p) => p.id).filter((id) => subscriptions.includes(id)),
     );
     setBusy(false);
-    setStatus(err ? { ok: false, text: err } : { ok: true, text: "Saved. Today's edition reflects your choices." });
+    setStatus(err ? { ok: false, text: err } : { ok: true, text: welcome ? "All set." : "Saved. Today's edition reflects your choices." });
   }
 
   return (
-    <section className="mt-2 rounded-xl border border-rule bg-surface p-5 sm:p-6">
+    <section
+      ref={sectionRef}
+      id="what-you-follow"
+      className={`mt-2 scroll-mt-6 rounded-xl border bg-surface p-5 sm:p-6 ${welcome ? "border-accent ring-2 ring-accent/30" : "border-rule"}`}
+    >
       <h3 className="font-display text-[22px] font-semibold text-ink">What you follow</h3>
       <p className="mt-1 text-[14px] text-ink-soft">Stories in these sections, or that mention these firms, appear under For you. Your sections also move to the top.</p>
 
@@ -234,6 +251,14 @@ function PreferencesForm() {
         {status && (
           <span role="status" className={`text-[14px] ${status.ok ? "text-up" : "text-down"}`}>
             {status.text}
+            {status.ok && welcome && (
+              <>
+                {" "}
+                <a href="#/" className="font-semibold text-accent hover:underline">
+                  See your For you stories →
+                </a>
+              </>
+            )}
           </span>
         )}
       </div>

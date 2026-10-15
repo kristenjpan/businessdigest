@@ -6,7 +6,9 @@ import { hasPrefs, matchesPrefs, orderSections, type Prefs } from "../lib/person
 import { DigestCard } from "./DigestCard";
 import { MarketStrip } from "./MarketStrip";
 import { MorningBrief } from "./MorningBrief";
+import { SignInPreview } from "./SignInPreview";
 import { SubscriptionsSection } from "./SubscriptionsSection";
+import { WelcomeNote } from "./WelcomeNote";
 
 interface Filters {
   section: SectionId | "all" | "foryou";
@@ -38,8 +40,10 @@ function scrollToItem(id: string) {
   el?.querySelector<HTMLAnchorElement>("h3 a")?.focus({ preventScroll: true });
 }
 
-export function DigestView({ digest, archived }: { digest: Digest; archived?: boolean }) {
-  const { prefs } = useAccount();
+export function DigestView({ digest, archived, onSignIn }: { digest: Digest; archived?: boolean; onSignIn?: () => void }) {
+  const { prefs, authEnabled, ready, user } = useAccount();
+  // Signed-out readers see a locked For you pill that opens sign-in, so they know it exists.
+  const showLockedForYou = Boolean(onSignIn && authEnabled && ready && !user);
   const personalized = hasPrefs(prefs);
   // A reader's chosen sections lead the page; everyone else sees the usual order.
   const sections = useMemo(() => orderSections(SECTIONS, prefs), [prefs]);
@@ -73,6 +77,7 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
 
   return (
     <>
+      {!archived && <WelcomeNote />}
       <MarketStrip market={digest.market} />
       <MorningBrief digest={digest} activeTheme={filters.theme} onTheme={(theme) => set({ theme })} />
 
@@ -109,11 +114,32 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
       )}
 
       {!archived && <SubscriptionsSection />}
+      {!archived && onSignIn && <SignInPreview onSignIn={onSignIn} className="mt-8 lg:hidden" />}
 
       <div className="mt-10 lg:grid lg:grid-cols-[1fr_260px] lg:gap-10">
         <div className="min-w-0">
           <div className="print-hidden z-10 -mx-4 border-b sm:sticky sm:top-0 border-rule bg-paper/95 px-4 pt-3 pb-3 backdrop-blur sm:mx-0 sm:px-0">
-            <div className="no-scrollbar -mx-4 flex gap-1.5 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0" role="tablist" aria-label="Sections">
+            <div
+              id="section-filters"
+              className="no-scrollbar -mx-4 flex scroll-mt-24 gap-1.5 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0"
+              role="tablist"
+              aria-label="Sections"
+            >
+              {showLockedForYou && (
+                <button
+                  type="button"
+                  onClick={onSignIn}
+                  title="Sign in to choose sections and firms"
+                  className="flex shrink-0 items-center gap-1.5 rounded-full border border-dashed border-rule-strong bg-surface px-3 py-1.5 text-[13px] font-medium text-muted hover:border-accent hover:text-ink"
+                >
+                  <svg aria-hidden viewBox="0 0 16 16" className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth="1.6">
+                    <rect x="3.5" y="7" width="9" height="6.5" rx="1.5" />
+                    <path d="M5.5 7V5a2.5 2.5 0 0 1 5 0v2" />
+                  </svg>
+                  For you
+                  <span className="sr-only">(sign in to choose sections and firms)</span>
+                </button>
+              )}
               {personalized && (
                 <SectionTab label="For you" count={forYouCount} active={filters.section === "foryou"} onClick={() => set({ section: "foryou" })} forYou />
               )}
@@ -209,6 +235,7 @@ export function DigestView({ digest, archived }: { digest: Digest; archived?: bo
 
         <aside className="print-hidden mt-10 lg:mt-0" aria-label="About this edition">
           <div className="space-y-6 lg:sticky lg:top-6">
+            {!archived && onSignIn && <SignInPreview onSignIn={onSignIn} className="hidden lg:block" />}
             <div className="rounded-xl border border-rule bg-surface p-5">
               <p className="text-[12px] font-semibold uppercase tracking-[0.16em] text-muted">In this edition</p>
               <dl className="mt-3 grid grid-cols-2 gap-3">

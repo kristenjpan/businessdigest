@@ -1,4 +1,5 @@
 import type { Digest } from "../../pipeline/types";
+import { splitBottomLine } from "../lib/format";
 
 interface Props {
   digest: Digest;
@@ -38,7 +39,15 @@ export function MorningBrief({ digest, activeTheme, onTheme }: Props) {
       <div className="flex flex-col gap-6">
         <div className="rounded-xl border border-rule bg-surface-muted p-5 sm:p-6">
           <p className="text-[12px] font-semibold uppercase tracking-[0.16em] text-muted">Market read</p>
-          <p className="mt-2 text-[15px] leading-relaxed text-ink-soft">{brief.marketRead}</p>
+          {(() => {
+            const { bottomLine, rest } = splitBottomLine(brief.marketRead);
+            return (
+              <>
+                {bottomLine && <p className="mt-2 text-[16px] leading-snug font-semibold text-ink">{bottomLine}</p>}
+                {rest && <p className="mt-2 text-[14px] leading-relaxed text-ink-soft">{rest}</p>}
+              </>
+            );
+          })()}
         </div>
         {brief.themes.length > 0 && (
           <div className="rounded-xl border border-rule bg-surface p-5 sm:p-6">

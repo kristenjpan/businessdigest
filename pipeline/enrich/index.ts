@@ -104,13 +104,14 @@ export function buildMarketRead(market: MarketView): string {
   const equities = sentence([market.sp500?.text, market.vix?.text]);
   const rates = sentence([market.fedFunds?.text, market.tenYear?.text, market.curve?.text]);
   const credit = market.hy ? `${cap(market.hy.text)}.` : null;
-  if (equities) parts.push(equities);
-  if (rates) parts.push(rates);
-  if (credit) parts.push(credit);
+  // Lead with the conclusion, then the numbers behind it.
   const tone = market.tone;
   if (tone === "risk-on") parts.push("Bottom line: calm volatility and open credit markets are a supportive backdrop for dealmaking, fundraising and exits.");
   else if (tone === "risk-off") parts.push("Bottom line: stressed volatility and credit conditions tend to slow deals and IPOs and favor defensive positioning.");
   else if (tone === "mixed") parts.push("Bottom line: signals are mixed, with some markets calm and others showing strain, so expect selective risk-taking.");
+  if (equities) parts.push(equities);
+  if (rates) parts.push(rates);
+  if (credit) parts.push(credit);
   return parts.join(" ");
 }
 

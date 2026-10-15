@@ -58,3 +58,37 @@ describe("Google sign-in button", () => {
     expect(enabledProviders(null)).toEqual({ google: false });
   });
 });
+
+describe("first-timer helpers", () => {
+  it("makes glossary terms linkable", async () => {
+    const { termSlug } = await import("../../pipeline/enrich/glossary");
+    const { parseHash } = await import("./hooks");
+    expect(termSlug("High-yield spread")).toBe("high-yield-spread");
+    expect(termSlug("Volatility (VIX)")).toBe("volatility-vix");
+    expect(termSlug("Form 10-Q / 10-K")).toBe("form-10-q-10-k");
+    expect(parseHash("#/glossary/high-yield-spread")).toEqual({ page: "glossary", term: "high-yield-spread" });
+    expect(parseHash("#/glossary")).toEqual({ page: "glossary" });
+    expect(parseHash("#/account?welcome=1")).toEqual({ page: "account" });
+  });
+
+  it("pulls the bottom line to the front, whatever order the edition stored", async () => {
+    const { splitBottomLine } = await import("./format");
+    const oldOrder = "The S&P 500 stands at 7,718. High-yield credit spreads are 3.25%. Bottom line: calm volatility and open credit markets are supportive.";
+    const newOrder = "Bottom line: calm volatility and open credit markets are supportive. The S&P 500 stands at 7,718. High-yield credit spreads are 3.25%.";
+    for (const text of [oldOrder, newOrder]) {
+      expect(splitBottomLine(text)).toEqual({
+        bottomLine: "Calm volatility and open credit markets are supportive.",
+        rest: "The S&P 500 stands at 7,718. High-yield credit spreads are 3.25%.",
+      });
+    }
+    expect(splitBottomLine("Market data was unavailable for this edition.")).toEqual({ bottomLine: null, rest: "Market data was unavailable for this edition." });
+  });
+
+  it("treats an account as new for 10 minutes after sign-up", async () => {
+    const { isNewAccount } = await import("./account");
+    const now = Date.parse("2026-10-15T12:00:00Z");
+    expect(isNewAccount({ id: "u", email: "a@b.c", createdAt: "2026-10-15T11:55:00Z" }, now)).toBe(true);
+    expect(isNewAccount({ id: "u", email: "a@b.c", createdAt: "2026-10-14T11:55:00Z" }, now)).toBe(false);
+    expect(isNewAccount(null, now)).toBe(false);
+  });
+});

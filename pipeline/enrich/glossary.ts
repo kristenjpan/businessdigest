@@ -82,3 +82,11 @@ export function findTerm(text: string, fallbackTerm?: string): GlossaryTerm | nu
   if (fallbackTerm && BY_TERM.has(fallbackTerm)) return BY_TERM.get(fallbackTerm)!;
   return GLOSSARY.find((g) => g.match.test(text)) ?? null;
 }
+
+/** URL-safe id for a term: "High-yield spread" → "high-yield-spread", "Volatility (VIX)" → "volatility-vix". */
+export function termSlug(term: string): string {
+  return term
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}

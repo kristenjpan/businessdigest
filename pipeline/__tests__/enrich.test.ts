@@ -314,3 +314,11 @@ describe("takeaway quality", () => {
     expect(selectAndEnrich([rich[0], thin], market, now, 4).items.map((i) => i.title)).toContain(thin.title);
   });
 });
+
+describe("Market Read", () => {
+  it("leads with the bottom line, then the numbers", () => {
+    const read = buildMarketRead(market);
+    expect(read.startsWith("Bottom line:")).toBe(true);
+    expect(read).toContain("7,764.64");
+  });
+});
