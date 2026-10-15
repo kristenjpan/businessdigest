@@ -1,11 +1,11 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { CORE_FIRMS, SECTIONS, type Digest, type DigestItem, type SectionId, type StoryType } from "../../pipeline/types";
 import { useAccount } from "../lib/account";
-import { STORY_TYPE_LABEL, STORY_TYPES, storyTypeOf } from "../lib/format";
+import { publishedLabel, splitBottomLine, STORY_TYPE_LABEL, STORY_TYPES, storyTypeOf } from "../lib/format";
 import { hasPrefs, matchesPrefs, orderSections, type Prefs } from "../lib/personalize";
-import { DigestCard } from "./DigestCard";
+import { sectionSnapshots, sixtySecondVersion, type SectionSnapshot } from "../lib/snapshot";
+import { DigestCard, StoryTypeBadge } from "./DigestCard";
 import { MarketStrip } from "./MarketStrip";
-import { MorningBrief } from "./MorningBrief";
 import { SignInPreview } from "./SignInPreview";
 import { SubscriptionsSection } from "./SubscriptionsSection";
 import { WelcomeNote } from "./WelcomeNote";
@@ -14,11 +14,10 @@ interface Filters {
   section: SectionId | "all" | "foryou";
   firm: string;
   type: StoryType | "";
-  theme: string | null;
   q: string;
 }
 
-const EMPTY: Filters = { section: "all", firm: "", type: "", theme: null, q: "" };
+const EMPTY: Filters = { section: "all", firm: "", type: "", q: "" };
 
 function matches(item: DigestItem, f: Filters, prefs: Prefs): boolean {
   if (f.section === "foryou") {
@@ -26,7 +25,6 @@ function matches(item: DigestItem, f: Filters, prefs: Prefs): boolean {
   } else if (f.section !== "all" && item.section !== f.section) return false;
   if (f.firm && !item.firms.includes(f.firm)) return false;
   if (f.type && storyTypeOf(item) !== f.type) return false;
-  if (f.theme && item.theme.id !== f.theme) return false;
   if (f.q) {
     const hay = `${item.title} ${item.takeaway} ${item.whyItMatters} ${item.source.name} ${item.firms.join(" ")} ${item.theme.label}`.toLowerCase();
     if (!f.q.toLowerCase().split(/\s+/).filter(Boolean).every((w) => hay.includes(w))) return false;
@@ -47,23 +45,8 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
   const filters = rawFilters.section === "foryou" && !personalized ? { ...rawFilters, section: "all" as const } : rawFilters;
   // A link from Archive search names a story to jump to (…?story=<id>); open on All so it's visible.
   const storyParam = new URLSearchParams(window.location.hash.split("?")[1] ?? "").get("story");
-  // Once the reader picks a filter themselves, never switch it for them.
-  const touched = useRef(Boolean(storyParam));
-  const set = (patch: Partial<Filters>) => {
-    touched.current = true;
-    setFilters((f) => ({ ...f, ...patch }));
-  };
-  const resetFilters = () => {
-    touched.current = true;
-    setFilters(EMPTY);
-  };
-
-  // Readers with preferences open on For you (preferences arrive just after sign-in), unless
-  // nothing matches today, so the page is never empty.
-  useEffect(() => {
-    if (touched.current || !personalized || forYouCount === 0) return;
-    setFilters((f) => (f.section === "all" ? { ...f, section: "foryou" } : f));
-  }, [personalized, forYouCount]);
+  const set = (patch: Partial<Filters>) => setFilters((f) => ({ ...f, ...patch }));
+  const resetFilters = () => setFilters(EMPTY);
 
   useEffect(() => {
     if (!storyParam) return;
@@ -77,6 +60,16 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
     return () => window.clearTimeout(t);
   }, [storyParam, digest.date]);
   const active = JSON.stringify(filters) !== JSON.stringify(EMPTY);
+  // Snapshot (lead + two headlines per section) unless the reader filters, searches, picks a pill,
+  // or arrives from an Archive search link, which needs every card on the page.
+  const snapshotMode = !active && !storyParam;
+  const snapshots = useMemo(() => sectionSnapshots(digest.items, sections), [digest.items, sections]);
+  const marketLine = splitBottomLine(digest.brief.marketRead).bottomLine;
+
+  const seeAll = (id: SectionId) => {
+    set({ section: id });
+    requestAnimationFrame(() => document.getElementById("section-filters")?.scrollIntoView({ behavior: "smooth", block: "start" }));
+  };
 
   const visible = useMemo(() => digest.items.filter((i) => matches(i, filters, prefs)), [digest.items, filters, prefs]);
 
@@ -99,13 +92,21 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
 
   return (
     <>
+      <div className="mx-auto max-w-4xl">
       {!archived && <WelcomeNote />}
       <MarketStrip market={digest.market} />
-      <MorningBrief digest={digest} activeTheme={filters.theme} onTheme={(theme) => set({ theme })} />
+      {marketLine && (
+        <p className="mt-3 flex items-start gap-2 text-[15px] leading-snug font-semibold text-ink">
+          <span aria-hidden className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-accent" />
+          {marketLine}
+        </p>
+      )}
 
-      {!archived && onSignIn && <SignInPreview onSignIn={onSignIn} className="mt-8 lg:hidden" />}
+      <SixtySecondVersion snapshots={snapshots} />
 
-      <div className="mt-10 lg:grid lg:grid-cols-[1fr_260px] lg:gap-10">
+      {!archived && onSignIn && <SignInPreview onSignIn={onSignIn} className="mt-6" />}
+
+      <div className="mt-10">
         <div className="min-w-0">
           <div className="print-hidden z-10 -mx-4 border-b sm:sticky sm:top-0 border-rule bg-paper/95 px-4 pt-3 pb-3 backdrop-blur sm:mx-0 sm:px-0">
             <div
@@ -186,7 +187,6 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
               <p className="mt-2 flex items-center justify-between text-[13px] text-muted" aria-live="polite">
                 <span>
                   Showing {visible.length} of {digest.items.length} stories
-                  {filters.theme && ` · theme: ${digest.items.find((i) => i.theme.id === filters.theme)?.theme.label}`}
                 </span>
                 <button type="button" onClick={() => resetFilters()} className="font-medium text-accent hover:underline">
                   Clear filters
@@ -195,7 +195,11 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
             )}
           </div>
 
-          {visible.length === 0 ? (
+          {snapshotMode ? (
+            snapshots.map((snap) => (
+              <SectionBlock key={snap.id} snap={snap} editionDate={digest.date} onFirm={(firm) => set({ firm })} onSeeAll={() => seeAll(snap.id)} />
+            ))
+          ) : visible.length === 0 ? (
             <p className="py-16 text-center text-muted">No stories match these filters.</p>
           ) : (
             sections.map((s) => {
@@ -225,66 +229,7 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
           {!archived && <SubscriptionsSection />}
         </div>
 
-        <aside className="print-hidden mt-10 lg:mt-0" aria-label="About this edition">
-          <div className="space-y-6 lg:sticky lg:top-6">
-            {!archived && onSignIn && <SignInPreview onSignIn={onSignIn} className="hidden lg:block" />}
-            <div className="rounded-xl border border-rule bg-surface p-5">
-              <p className="text-[12px] font-semibold uppercase tracking-[0.16em] text-muted">In this edition</p>
-              <dl className="mt-3 grid grid-cols-2 gap-3">
-                <Stat label="Stories" value={digest.items.length} />
-                <Stat label="Sources checked" value={digest.stats.sourcesChecked} />
-                <Stat label="Candidates" value={digest.stats.candidates} />
-                <Stat label="Edition" value={`#${digest.edition}`} />
-              </dl>
-              <ul className="mt-4 space-y-1.5 border-t border-rule pt-3">
-                {sections.filter((s) => sectionCounts.get(s.id)).map((s) => (
-                  <li key={s.id} data-section={s.id}>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        resetFilters();
-                        requestAnimationFrame(() => document.getElementById(`section-${s.id}`)?.scrollIntoView({ behavior: "smooth" }));
-                      }}
-                      className="flex w-full items-center gap-2 text-left text-[14px] text-ink-soft hover:text-ink"
-                    >
-                      <span aria-hidden className="sec-bg h-2 w-2 rounded-sm" />
-                      <span className="flex-1">{s.label}</span>
-                      <span className="tabular text-muted">{sectionCounts.get(s.id)}</span>
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {firms.length > 0 && (
-              <div className="rounded-xl border border-rule bg-surface p-5">
-                <p className="text-[12px] font-semibold uppercase tracking-[0.16em] text-muted">Firms in the news</p>
-                <div className="mt-3 flex flex-wrap gap-1.5">
-                  {firms.map(([f, n]) => (
-                    <button
-                      key={f}
-                      type="button"
-                      aria-pressed={filters.firm === f}
-                      onClick={() => set({ firm: filters.firm === f ? "" : f })}
-                      className={`rounded-md border px-2 py-0.5 text-[12px] font-medium ${
-                        filters.firm === f ? "border-accent bg-accent text-accent-ink" : "border-rule text-ink-soft hover:bg-surface-muted"
-                      }`}
-                    >
-                      {f} <span className="tabular opacity-60">{n}</span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {!archived && (
-              <p className="px-1 text-[12px] leading-relaxed text-muted">
-                Updated automatically every morning from public feeds, SEC EDGAR and FRED. Takeaways are taken from each publisher's
-                own summary by transparent rules. <a href="#/about" className="underline hover:text-ink">How it works →</a>
-              </p>
-            )}
-          </div>
-        </aside>
+      </div>
       </div>
     </>
   );
@@ -332,11 +277,89 @@ function SectionTab({
   );
 }
 
-function Stat({ label, value }: { label: string; value: string | number }) {
+/** The 60-Second Version: one line per section naming its single biggest story. */
+function SixtySecondVersion({ snapshots }: { snapshots: SectionSnapshot[] }) {
+  const lines = sixtySecondVersion(snapshots);
+  if (!lines.length) return null;
   return (
-    <div>
-      <dt className="text-[11px] text-muted">{label}</dt>
-      <dd className="tabular font-display text-[22px] font-semibold text-ink">{value}</dd>
-    </div>
+    <section id="sixty-second" aria-labelledby="sixty-heading" className="mt-6 scroll-mt-6 rounded-xl border border-rule bg-surface p-5 sm:p-6">
+      <h2 id="sixty-heading" className="text-[12px] font-semibold uppercase tracking-[0.16em] text-accent">
+        The 60-Second Version
+      </h2>
+      <ul className="mt-3 space-y-2.5">
+        {lines.map((l) => (
+          <li key={l.id} data-section={l.id}>
+            <button
+              type="button"
+              onClick={() => document.getElementById(`section-${l.id}`)?.scrollIntoView({ behavior: "smooth", block: "start" })}
+              className="grid w-full grid-cols-[10px_1fr] items-baseline gap-2.5 text-left text-[15px] leading-snug text-ink-soft hover:text-ink"
+            >
+              <span aria-hidden className="sec-bg h-2 w-2 translate-y-[-1px] rounded-sm" />
+              <span>
+                <strong className="font-semibold text-ink">{l.label}:</strong> {l.headline}
+              </span>
+            </button>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+/** One section in snapshot mode: summary line, lead story card, two short headlines, See all. */
+function SectionBlock({
+  snap,
+  editionDate,
+  onFirm,
+  onSeeAll,
+}: {
+  snap: SectionSnapshot;
+  editionDate: string;
+  onFirm: (firm: string) => void;
+  onSeeAll: () => void;
+}) {
+  const rest = snap.total - 1 - snap.headlines.length;
+  return (
+    <section data-section={snap.id} aria-labelledby={`sec-${snap.id}`} id={`section-${snap.id}`} className="mt-10 scroll-mt-40">
+      <h2 id={`sec-${snap.id}`} className="flex items-center gap-3">
+        <span aria-hidden className="sec-bg h-2.5 w-2.5 rounded-sm" />
+        <span className="font-display text-[22px] font-semibold text-ink">{snap.label}</span>
+        <span className="tabular text-[13px] text-muted">{snap.total}</span>
+        <span aria-hidden className="h-px flex-1 bg-rule" />
+      </h2>
+      <p className="mt-2 text-[14px] leading-relaxed text-ink-soft">{snap.summary}</p>
+      <div id={`item-${snap.lead.id}`} className="mt-4 scroll-mt-44">
+        <DigestCard item={snap.lead} editionDate={editionDate} onFirm={onFirm} />
+      </div>
+      {snap.headlines.length > 0 && (
+        <ul className="mt-3 divide-y divide-rule rounded-xl border border-rule bg-surface">
+          {snap.headlines.map((h) => (
+            <HeadlineRow key={h.id} item={h} />
+          ))}
+        </ul>
+      )}
+      {rest > 0 && (
+        <button type="button" onClick={onSeeAll} className="mt-3 text-[14px] font-semibold text-accent hover:underline">
+          See all {snap.total} in {snap.label} →
+        </button>
+      )}
+    </section>
+  );
+}
+
+/** A short headline: title linking to the original, story type, source and time. */
+function HeadlineRow({ item }: { item: DigestItem }) {
+  return (
+    <li id={`item-${item.id}`} className="scroll-mt-44 px-4 py-3">
+      <a href={item.url} target="_blank" rel="noreferrer" className="text-[15px] leading-snug font-semibold text-ink hover:underline">
+        {item.title}
+      </a>
+      <p className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-[12px] text-muted">
+        <StoryTypeBadge item={item} />
+        <span>
+          {item.source.name} · {publishedLabel(item.publishedAt)}
+        </span>
+      </p>
+    </li>
   );
 }

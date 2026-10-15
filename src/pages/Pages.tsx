@@ -261,7 +261,7 @@ export function SourcesPage() {
 const STEPS = [
   ["Collect", "Each morning a scheduled GitHub Action reads about 37 public RSS feeds, podcast feeds, SEC EDGAR filings and FRED market data. No API keys or paid services are involved."],
   ["Filter", "Stories from the last 36 hours (76 on Mondays) are kept. Duplicates across outlets are merged, and advice columns, reruns and routine notices are dropped."],
-  ["Rank", "Each story is scored on source authority, whether it involves major firms (Blackstone, KKR, Apollo, Carlyle, Bridgewater and others), topic and freshness. About 24 are picked, balanced across sections."],
+  ["Rank", "Each story is scored on source authority, whether it involves major firms (Blackstone, KKR, Apollo, Carlyle, Bridgewater and others), topic and freshness. About 24 are picked, balanced across sections. The page opens with the 60-Second Version, one line per section, and each section shows a one-line summary, its lead story and two more headlines."],
   ["Explain", "A transparent rules engine picks each key takeaway: one complete sentence from the publisher's own summary, skipping quotes, filler and anything that just repeats the headline. Stories whose feed offers nothing beyond a headline are usually left out. The same engine sorts each story into one of 20 themes and writes \"Why it matters\", and market context uses that morning's real FRED numbers."],
   ["Publish", "The edition is saved to the repository, which triggers Vercel to redeploy the site. Past editions stay in the archive for 90 days."],
 ] as const;

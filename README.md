@@ -20,7 +20,7 @@ Each story shows:
 | **Market context** | That morning's real FRED numbers, framed for the story's theme |
 | **New to this?** | A plain-English explainer of one jargon term, tap to expand |
 
-There is also Today's Brief, a market snapshot with sparklines, filters by section, firm, format and theme, a 90-day archive, a glossary, and full light/dark support.
+Today opens with a market snapshot and its one-line bottom line, then **the 60-Second Version**: one line per section naming its biggest story. Each section follows the same format: a one-line summary, a lead story, two short headlines and See all. There are also filters by section, firm and story type, a 90-day archive, a glossary, and full light/dark support.
 
 ## No API keys, no secrets
 
@@ -100,7 +100,8 @@ npm test                       # pipeline unit tests
 37 public sources ─▶ ~180 recent items ─▶ drop advice columns, reruns, routine notices
    ─▶ dedupe (same URL, near-identical headline, same story across outlets)
    ─▶ classify into 20 themes ─▶ rank + pick ~24 balanced across sections
-   ─▶ takeaway · why it matters · market context · glossary term ─▶ Today's Brief ─▶ JSON
+   ─▶ takeaway · why it matters · market context · glossary term ─▶ JSON
+   (the site builds the 60-Second Version and section summaries from the stories: src/lib/snapshot.ts)
 ```
 
 **Takeaways** are one complete sentence from the publisher's own summary. Sentences that are quotations, show-note filler or a repeat of the headline are skipped. When a feed offers nothing beyond the headline, the story is left out as long as there are enough other stories to fill the edition. The site used GitHub Models for AI takeaways until GitHub retired that service on July 30, 2026.
@@ -114,7 +115,7 @@ npm test                       # pipeline unit tests
 | `market.ts` | Turns FRED data into sentences with regime labels, e.g. VIX *calm/normal/elevated/stressed*, HY spreads *tight/normal/wide*, and curve shape. |
 | `firms.ts` | Qualitative profiles of about 25 firms. These deliberately contain no figures that could go stale. |
 | `glossary.ts` | About 50 beginner terms. It is shared with the site's Glossary page. |
-| `index.ts` | Selection, importance (1–5) and Today's Brief. |
+| `index.ts` | Selection, importance (1–5) and the market read. |
 
 To improve the writing, edit the templates in `themes.ts` and `firms.ts`. Tests in `pipeline/__tests__/` guard the behavior.
 
