@@ -1,80 +1,78 @@
 {
-  "generatedAt": "2026-10-15T16:01:41.273Z",
+  "generatedAt": "2026-10-16T14:47:56.277Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "01eb89f31c8b",
-          "title": "William Draper, Pioneering Silicon Valley Venture Capitalist, Dies at 98",
-          "url": "https://www.wsj.com/business/entrepreneurship/william-draper-silicon-valley-vc-dead-634e413e?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-15T15:25:00.000Z",
-          "teaser": "He searched the fruit orchards south of San Francisco looking for startup companies to fund.",
+          "id": "f65d90fb60e0",
+          "title": "France and Germany Reach Deal to Protect Europe’s Car Industry",
+          "url": "https://www.wsj.com/business/autos/france-and-germany-reach-deal-to-protect-europes-car-industry-f829c51d?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-16T14:34:00.000Z",
+          "teaser": "The deal, which is aimed at safeguarding Europe’s struggling auto sector, includes more flexibility with decarbonization rules and provides incentives for investment.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "8b6b1d281f03",
-          "title": "Investors Turn to Safety of Treasurys as Tech Stocks Extend Selloff",
-          "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-slide-as-global-ai-selloff-gathers-pace-da79ad4d?mod=rss_markets_main",
-          "publishedAt": "2026-10-15T14:06:00.000Z",
-          "teaser": "Fears around the AI trade sent tech stocks slumping for a second day and investors turned to government bonds for safety.",
+          "id": "f9191e068ff9",
+          "title": "Your ‘Cheap’ ETF Costs More Than You Think",
+          "url": "https://www.wsj.com/finance/investing/your-cheap-etf-costs-more-than-you-think-e7e34eea?mod=rss_markets_main",
+          "publishedAt": "2026-10-16T13:00:00.000Z",
+          "teaser": "The costs of many popular funds have barely budged even though assets have soared.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "80f396c28da7",
-          "title": "Oil Prices Mixed as Traders Weigh Demand Outlook, Hormuz Shipping Risks",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-gulf-supply-recovery-hormuz-attacks-f0337002?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-15T13:49:00.000Z",
-          "teaser": "Oil prices traded mixed as investors weighed a weaker global demand outlook and signs of recovering Middle East crude supplies against persistent shipping risks around the Strait of Hormuz.",
+          "id": "622b0e5a12b4",
+          "title": "Travelers Profit Ticks Up on Investment Gains",
+          "url": "https://www.wsj.com/business/earnings/travelers-profit-ticks-up-on-investment-gains-b91f6ea7?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-16T11:44:00.000Z",
+          "teaser": "Travelers reported higher quarterly profit, despite roughly flat revenue, helped by investment gains.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "5ac8b41cf059",
-          "title": "Penske Automotive Group to Be Taken Private by Penske, Mitsui",
-          "url": "https://www.wsj.com/business/deals/penske-automotive-group-to-be-taken-private-by-penske-mitsui-77e061af?mod=rss_markets_main",
-          "publishedAt": "2026-10-15T12:26:00.000Z",
-          "teaser": "Penske Automotive Group has agreed to be taken private by the transportation-services company’s biggest investors for about $4 billion.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "20c3d0b52409",
-          "title": "PNC Revenue Rises on National Expansion",
-          "url": "https://www.wsj.com/business/earnings/pnc-revenue-rises-on-national-expansion-5fec02b9?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-15T10:58:00.000Z",
-          "teaser": "PNC Financial Services Group recorded higher revenue, but came in short of Wall Street’s estimates, as profit was dented by $36 million in integration costs tied to its acquisition of FirstBank.",
+          "id": "61b088601550",
+          "title": "The Radical Plan That Could Torch Your Portfolio",
+          "url": "https://www.wsj.com/finance/stocks/the-radical-plan-that-could-torch-your-portfolio-5baa09b3?mod=rss_markets_main",
+          "publishedAt": "2026-10-16T10:39:00.000Z",
+          "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "53a75bc951e3",
-          "title": "New Private-Equity Firm Specializes in Giving Companies AI Glow-Ups",
-          "url": "https://www.wsj.com/finance/investing/a-new-private-equity-firm-specializes-in-giving-companies-ai-glow-ups-86fcb48e?mod=rss_markets_main",
-          "publishedAt": "2026-10-15T10:00:00.000Z",
-          "teaser": "Aldaron, with co-founders coming from Palantir and Carlyle, recently closed its debut fund and made its first investment.",
-          "firms": [
-            "Carlyle"
-          ],
-          "section": "private-equity"
-        },
-        {
-          "id": "8aab3bcb95cd",
-          "title": "Ericsson Shares Surge on Strong Sales of Network Gear",
-          "url": "https://www.wsj.com/business/earnings/ericsson-to-streamline-structure-as-component-costs-pressure-profitability-f4be0cb0?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-15T09:22:00.000Z",
-          "teaser": "Investors shrugged off the Swedish telecommunications-equipment maker’s warning that higher component costs will be a headwind to profitability next year.",
+          "id": "99442fe1756f",
+          "title": "Stock Market Today: Investors Pare Rate-Hike Bets After Warsh Declines to Guide on Next Move",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-16-2026?mod=rss_markets_main",
+          "publishedAt": "2026-10-16T08:08:29.000Z",
+          "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "f7d3d44196b9",
-          "title": "TSMC Weighs Texas Expansion, Holds Talks on Musk’s Terafab",
-          "url": "https://www.wsj.com/tech/ai-demand-extends-tsmcs-record-earnings-streak-95bbef62?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-15T09:18:00.000Z",
-          "teaser": "The world’s largest contract chip maker signaled its willingness to participate in large-scale AI infrastructure projects.",
+          "id": "e1cd47d6c5fa",
+          "title": "High Rates Have Upturned How Moody’s Looks at Credit Risk, Chief Credit Officer Says",
+          "url": "https://www.wsj.com/finance/investing/high-rates-have-upturned-how-moodys-looks-at-credit-risk-chief-credit-officer-says-e84c61fd?mod=rss_markets_main",
+          "publishedAt": "2026-10-16T08:02:00.000Z",
+          "teaser": "Leverage matters more now because interest costs are rising, said Atsi Sheth, the ratings company’s chief credit officer.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "38d010ce5d07",
+          "title": "Asia Stocks Recover Some Ground After Tech Rout",
+          "url": "https://www.wsj.com/finance/stocks/asia-stocks-recover-some-ground-after-tech-rout-c0735307?mod=rss_markets_main",
+          "publishedAt": "2026-10-16T05:28:00.000Z",
+          "teaser": "Asian stocks rebounded Friday, following gains on Wall Street, as investors bought shares after a technology selloff fueled by concerns about the artificial-intelligence trade.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "7f2130111969",
+          "title": "Opinion | The Market’s Rude Reminder on AI",
+          "url": "https://www.wsj.com/opinion/ai-market-selloff-tech-stocks-988964d2?mod=rss_markets_main",
+          "publishedAt": "2026-10-15T21:44:00.000Z",
+          "teaser": "Sooner or later investors will demand returns, and there will be losers.",
           "firms": [],
           "section": "markets"
         }
@@ -84,79 +82,76 @@
       "id": "ft",
       "items": [
         {
-          "id": "693daf13a0a0",
-          "title": "Former Everton bidder Josh Wander to plead guilty in US fraud case",
-          "url": "https://www.ft.com/content/0a436452-c1a1-492a-b5be-92848ed5e6e7?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T15:33:40.000Z",
+          "id": "36e92bb80201",
+          "title": "Treasuries head for best week since February as AI jitters halt bond rout",
+          "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-16T14:13:05.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "b64dfdd8f42a",
-          "title": "Investors dump data centre bonds as AI borrowers face ‘Darwin moment’",
-          "url": "https://www.ft.com/content/678bcd31-6c2a-447b-a68c-ce6dec220bbc?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T15:25:47.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "8f2fbe2bbb76",
-          "title": "Treasuries rally as investors seek shelter from AI turbulence",
-          "url": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T14:56:35.000Z",
+          "id": "ac8daca2dedc",
+          "title": "Lufthansa exploring sale of software assets in €1bn deal",
+          "url": "https://www.ft.com/content/800db28a-9176-4ca3-9334-69ede9a2b3ef?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-16T13:56:44.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "8b0928a73cde",
-          "title": "Private equity interest endangers London float of former DS Smith business",
-          "url": "https://www.ft.com/content/1ca17b0c-24f3-4c54-94b9-0b0526941efe?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T13:13:36.000Z",
+          "id": "7786fe466059",
+          "title": "World’s oldest gunmaker expands American foothold after boardroom tussle",
+          "url": "https://www.ft.com/content/4dffb678-9d90-46fa-b98e-40f988057984?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-16T12:10:08.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "4edd9e4d0709",
-          "title": "Second activist pushes for sale of UK self-storage company Big Yellow",
-          "url": "https://www.ft.com/content/0d33f7c8-91e6-4a65-bf13-6447de9d2097?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T11:43:57.000Z",
+          "id": "f2ce02d46294",
+          "title": "Sizing CoreWeave’s ‘unlimited’ insurance capital",
+          "url": "https://www.ft.com/content/6b9b0cb6-2d47-46e4-bc00-febb182a5af7",
+          "publishedAt": "2026-10-16T10:24:31.000Z",
           "teaser": "",
           "firms": [],
-          "section": "hedge-funds"
+          "section": "private-markets"
         },
         {
-          "id": "66ce02ba2ead",
-          "title": "Republicans fund midterms ad blitz as Democrats gain in polls",
-          "url": "https://www.ft.com/content/481f7865-b6bb-40b8-9ee2-7554f6914007?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T10:00:09.000Z",
+          "id": "9237cddc456a",
+          "title": "The data centre IPO debacle that sparked a market meltdown",
+          "url": "https://www.ft.com/content/537c9a68-7b6f-41a7-80ff-acac5c52e80d?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-16T04:54:52.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "a4782ab4f8eb",
+          "title": "Anthropic secured highest junk credit rating in June",
+          "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-16T04:00:18.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "cbfc2c69f40f",
-          "title": "EQT to acquire US real estate group Stockbridge",
-          "url": "https://www.ft.com/content/179f6911-cf9b-4fea-98e4-f635e8e8c563?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T07:27:36.000Z",
+          "id": "75d395ecae94",
+          "title": "The secret fight around financial flows",
+          "url": "https://www.ft.com/content/9585ba4d-5036-4f5d-9656-0dc4f6bdee4e?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-16T04:00:17.000Z",
           "teaser": "",
           "firms": [],
-          "section": "private-markets"
+          "section": "markets"
         },
         {
-          "id": "d7769b9b0845",
-          "title": "General Atlantic’s IPO ambitions",
-          "url": "https://www.ft.com/content/d9353431-e9ba-4b34-a277-ab1510120ef8?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-15T04:00:39.000Z",
-          "teaser": "",
-          "firms": [
-            "Blackstone",
-            "Apollo"
-          ],
-          "section": "private-markets"
+          "id": "46360160c1d0",
+          "title": "Why is the fintech boom failing to improve fin-lit?",
+          "url": "https://www.ft.com/content/4dfcf1ba-0b8e-4198-b0a4-e975ebde9066",
+          "publishedAt": "2026-10-16T04:00:09.000Z",
+          "teaser": "What good is $1tn of investment if financial literacy levels are falling?",
+          "firms": [],
+          "section": "markets"
         }
       ]
     },
@@ -164,35 +159,76 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "45a378c4b9e7",
-          "title": "Nigeria Tycoon Sees $15 Billion Project Pipeline for West Africa",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-15/nigeria-tycoon-sees-15-billion-project-pipeline-for-west-africa",
-          "publishedAt": "2026-10-15T15:46:17.000Z",
-          "teaser": "Nigerian tycoon Tony Elumelu is part of a team considering a $15 billion pipeline of investment projects across West Africa to help curb the region’s infrastructure deficit.",
+          "id": "241db1a77695",
+          "title": "Kimberly-Clark Readies Bond Sale Ahead of Tylenol Maker Purchase",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/kimberly-clark-preps-bond-sale-ahead-of-tylenol-maker-purchase",
+          "publishedAt": "2026-10-16T14:26:00.000Z",
+          "teaser": "Kimberly-Clark Corp. is holding investor calls on Friday ahead of a possible bond sale, as the closing of its pending acquisition of Tylenol maker Kenvue Inc. nears.",
           "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "9198a8eecfa2",
-          "title": "JPMorgan Mulls Revival of Software Debt Deal Lenders Had Shunned",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-15/jpmorgan-mulls-revival-of-software-debt-deal-lenders-had-shunned",
-          "publishedAt": "2026-10-15T15:13:21.000Z",
-          "teaser": "JPMorgan Chase & Co. is weighing options for a fresh debt sale for Qualtrics International Inc. after underwriters got stuck with more than $5 billion of loans earlier this year.",
-          "firms": [
-            "J.P. Morgan"
-          ],
           "section": "markets"
         },
         {
-          "id": "93dd1af0b51f",
-          "title": "GTCR, Elliott Acquire Software Firm CCC for $4.6 Billion",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-15/gtcr-elliott-acquire-software-firm-ccc-for-4-6-billion",
-          "publishedAt": "2026-10-15T13:37:44.000Z",
-          "teaser": "GTCR and Elliott Investment Management are acquiring car-insurance software provider CCC Intelligent Solutions Holdings Inc. for about $4.6 billion.",
-          "firms": [
-            "Elliott"
-          ],
-          "section": "private-equity"
+          "id": "170c959198f3",
+          "title": "S&P 500 Steady as Warsh Boosts Expectations of Rate Hold",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/s-p-500-steady-as-warsh-boosts-expectations-of-rate-hold",
+          "publishedAt": "2026-10-16T14:01:24.000Z",
+          "teaser": "The S&P 500 Index was little changed on Friday, as indications that the Federal Reserve will hold interest rates steady this month heartened investors despite continued worries about the viability of the artificial intelligence trade.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "1b70c1155ad4",
+          "title": "Investors Prepare for Data Dump That Will Determine Canada Rate Path",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/investors-prepare-for-data-dump-that-will-determine-canada-rate-path",
+          "publishedAt": "2026-10-16T14:00:40.000Z",
+          "teaser": "Two key economic data releases Monday could make or break the case for a Bank of Canada interest-rate hike later this month.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "d1d50de41ffc",
+          "title": "Bank of America Taps High-Grade Bond Market After Turbulent Week",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/bank-of-america-taps-high-grade-bond-market-after-turbulent-week",
+          "publishedAt": "2026-10-16T13:28:22.000Z",
+          "teaser": "Bank of America Corp. has kicked off the sale of investment-grade bonds, becoming the third major Wall Street firm to tap a turbulent market this week after reporting third-quarter results.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "10f8ddbdc24a",
+          "title": "Market Euphoria Distracts From Brazil’s Mounting Debt Problem",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/market-euphoria-distracts-from-brazil-s-mounting-debt-problem",
+          "publishedAt": "2026-10-16T13:26:43.000Z",
+          "teaser": "Flávio Bolsonaro’s early success in Brazil’s presidential race sparked such euphoria that investors risk overlooking a debt problem running through every corner of the nation’s economy.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "05bd4ce5fb05",
+          "title": "IMF Says Colombia’s Fiscal Situation is Unsustainable, Untenable",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/imf-says-colombia-s-fiscal-situation-is-unsustainable-untenable",
+          "publishedAt": "2026-10-16T13:06:54.000Z",
+          "teaser": "The International Monetary Fund warned that Colombia’s fiscal situation is unsustainable, sharpening its assessment of the country’s public finances as the new government seeks the lender’s help to stabilize its accounts.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "36e41fa2f51c",
+          "title": "India Detains Youth Activists Ahead of Protest Over Voter Rolls",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/new-delhi-braces-for-fresh-crackdown-as-cockroaches-plan-march",
+          "publishedAt": "2026-10-16T01:00:00.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "6f5fa54c60a7",
+          "title": "Chip Stocks Set for Longest Losing Run Since 2008: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/stock-market-today-dow-s-p-live-updates",
+          "publishedAt": "2026-10-15T22:04:06.000Z",
+          "teaser": "The final stretch of a jittery week on Wall Street saw stocks wavering amid an ongoing selloff in chipmakers that has left investors questioning the prospects for the artificial-intelligence trade.",
+          "firms": [],
+          "section": "markets"
         }
       ]
     },
