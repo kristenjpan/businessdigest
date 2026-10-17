@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-10-16T14:47:56.277Z",
+  "generatedAt": "2026-10-17T13:41:31.650Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
+        {
+          "id": "baeccf87aa6d",
+          "title": "Blue Owl Founders Promised a Comeback. The Company’s Share Price Hasn’t Budged.",
+          "url": "https://www.wsj.com/finance/blue-owl-stock-price-private-credit-ca6673d9?mod=rss_markets_main",
+          "publishedAt": "2026-10-17T00:00:00.000Z",
+          "teaser": "Executives at the private-credit giant have been trying to reassure employees, yet Blue Owl stock is down about 67% from its record high in January 2025.",
+          "firms": [
+            "Blue Owl"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "054bf1d9ee87",
+          "title": "U.S. Stocks Fall as Credit Fears Haunt Tech Sector",
+          "url": "https://www.wsj.com/finance/investing/u-s-stocks-fall-as-credit-fears-haunt-tech-sector-db50c887?mod=rss_markets_main",
+          "publishedAt": "2026-10-16T21:39:00.000Z",
+          "teaser": "U.S. stocks fell as fears mounted that artificial-intelligence profits would not come soon enough to meet increasingly expensive credit obligations for CoreWeave and other aspiring hyperscalers.",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "f65d90fb60e0",
           "title": "France and Germany Reach Deal to Protect Europe’s Car Industry",
@@ -41,15 +61,6 @@
           "section": "markets"
         },
         {
-          "id": "99442fe1756f",
-          "title": "Stock Market Today: Investors Pare Rate-Hike Bets After Warsh Declines to Guide on Next Move",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-16-2026?mod=rss_markets_main",
-          "publishedAt": "2026-10-16T08:08:29.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
           "id": "e1cd47d6c5fa",
           "title": "High Rates Have Upturned How Moody’s Looks at Credit Risk, Chief Credit Officer Says",
           "url": "https://www.wsj.com/finance/investing/high-rates-have-upturned-how-moodys-looks-at-credit-risk-chief-credit-officer-says-e84c61fd?mod=rss_markets_main",
@@ -61,18 +72,9 @@
         {
           "id": "38d010ce5d07",
           "title": "Asia Stocks Recover Some Ground After Tech Rout",
-          "url": "https://www.wsj.com/finance/stocks/asia-stocks-recover-some-ground-after-tech-rout-c0735307?mod=rss_markets_main",
+          "url": "https://www.wsj.com/finance/stocks/asia-stocks-recover-some-ground-after-tech-rout-c0735307?mod=pls_whats_news_us_business_f",
           "publishedAt": "2026-10-16T05:28:00.000Z",
           "teaser": "Asian stocks rebounded Friday, following gains on Wall Street, as investors bought shares after a technology selloff fueled by concerns about the artificial-intelligence trade.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "7f2130111969",
-          "title": "Opinion | The Market’s Rude Reminder on AI",
-          "url": "https://www.wsj.com/opinion/ai-market-selloff-tech-stocks-988964d2?mod=rss_markets_main",
-          "publishedAt": "2026-10-15T21:44:00.000Z",
-          "teaser": "Sooner or later investors will demand returns, and there will be losers.",
           "firms": [],
           "section": "markets"
         }
@@ -82,10 +84,30 @@
       "id": "ft",
       "items": [
         {
+          "id": "d895c25d4538",
+          "title": "UK dividend payments jump 14% in a year",
+          "url": "https://www.ft.com/content/169bbf6e-d0af-4c8d-afd0-2c561a58c855?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-17T04:00:21.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "983261733f03",
+          "title": "Anthropic offers Blackstone double-digit yield in latest chip financing",
+          "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-17T00:47:25.000Z",
+          "teaser": "",
+          "firms": [
+            "Blackstone"
+          ],
+          "section": "markets"
+        },
+        {
           "id": "36e92bb80201",
-          "title": "Treasuries head for best week since February as AI jitters halt bond rout",
+          "title": "Big Tech stocks suffer biggest weekly drop since ‘liberation day’",
           "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-16T14:13:05.000Z",
+          "publishedAt": "2026-10-16T20:42:16.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
@@ -98,15 +120,6 @@
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "7786fe466059",
-          "title": "World’s oldest gunmaker expands American foothold after boardroom tussle",
-          "url": "https://www.ft.com/content/4dffb678-9d90-46fa-b98e-40f988057984?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-16T12:10:08.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
         },
         {
           "id": "f2ce02d46294",
@@ -128,18 +141,9 @@
         },
         {
           "id": "a4782ab4f8eb",
-          "title": "Anthropic secured highest junk credit rating in June",
+          "title": "Anthropic assigned highest junk credit rating in June",
           "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1",
           "publishedAt": "2026-10-16T04:00:18.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "75d395ecae94",
-          "title": "The secret fight around financial flows",
-          "url": "https://www.ft.com/content/9585ba4d-5036-4f5d-9656-0dc4f6bdee4e?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-16T04:00:17.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
@@ -159,74 +163,29 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "241db1a77695",
-          "title": "Kimberly-Clark Readies Bond Sale Ahead of Tylenol Maker Purchase",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/kimberly-clark-preps-bond-sale-ahead-of-tylenol-maker-purchase",
-          "publishedAt": "2026-10-16T14:26:00.000Z",
-          "teaser": "Kimberly-Clark Corp. is holding investor calls on Friday ahead of a possible bond sale, as the closing of its pending acquisition of Tylenol maker Kenvue Inc. nears.",
+          "id": "6ec76f637363",
+          "title": "Fairfax’s Watsa Bets On IDBI Payoff As India Booms, Report Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/fairfax-s-watsa-bets-on-idbi-payoff-as-india-booms-report-says",
+          "publishedAt": "2026-10-17T04:55:30.000Z",
+          "teaser": "Canadian billionaire Prem Watsa is betting that his Fairfax Financial Holdings Ltd.’s acquisition of IDBI Bank Ltd. will pay off given India’s growth prospects, the Economic Times reported.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "170c959198f3",
-          "title": "S&P 500 Steady as Warsh Boosts Expectations of Rate Hold",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/s-p-500-steady-as-warsh-boosts-expectations-of-rate-hold",
-          "publishedAt": "2026-10-16T14:01:24.000Z",
-          "teaser": "The S&P 500 Index was little changed on Friday, as indications that the Federal Reserve will hold interest rates steady this month heartened investors despite continued worries about the viability of the artificial intelligence trade.",
+          "id": "e3a37a2766a2",
+          "title": "Jio’s $3.2 Billion IPO Tests Ambani Appeal With India’s Gen Z",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/jio-s-3-2-billion-ipo-tests-ambani-appeal-with-young-indians",
+          "publishedAt": "2026-10-17T02:30:00.000Z",
+          "teaser": "For generations of Indians, Reliance Industries Ltd. was their introduction to the stock market.",
           "firms": [],
-          "section": "markets"
+          "section": "private-equity"
         },
         {
-          "id": "1b70c1155ad4",
-          "title": "Investors Prepare for Data Dump That Will Determine Canada Rate Path",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/investors-prepare-for-data-dump-that-will-determine-canada-rate-path",
-          "publishedAt": "2026-10-16T14:00:40.000Z",
-          "teaser": "Two key economic data releases Monday could make or break the case for a Bank of Canada interest-rate hike later this month.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "d1d50de41ffc",
-          "title": "Bank of America Taps High-Grade Bond Market After Turbulent Week",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/bank-of-america-taps-high-grade-bond-market-after-turbulent-week",
-          "publishedAt": "2026-10-16T13:28:22.000Z",
-          "teaser": "Bank of America Corp. has kicked off the sale of investment-grade bonds, becoming the third major Wall Street firm to tap a turbulent market this week after reporting third-quarter results.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "10f8ddbdc24a",
-          "title": "Market Euphoria Distracts From Brazil’s Mounting Debt Problem",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/market-euphoria-distracts-from-brazil-s-mounting-debt-problem",
-          "publishedAt": "2026-10-16T13:26:43.000Z",
-          "teaser": "Flávio Bolsonaro’s early success in Brazil’s presidential race sparked such euphoria that investors risk overlooking a debt problem running through every corner of the nation’s economy.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "05bd4ce5fb05",
-          "title": "IMF Says Colombia’s Fiscal Situation is Unsustainable, Untenable",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/imf-says-colombia-s-fiscal-situation-is-unsustainable-untenable",
-          "publishedAt": "2026-10-16T13:06:54.000Z",
-          "teaser": "The International Monetary Fund warned that Colombia’s fiscal situation is unsustainable, sharpening its assessment of the country’s public finances as the new government seeks the lender’s help to stabilize its accounts.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "36e41fa2f51c",
-          "title": "India Detains Youth Activists Ahead of Protest Over Voter Rolls",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/new-delhi-braces-for-fresh-crackdown-as-cockroaches-plan-march",
-          "publishedAt": "2026-10-16T01:00:00.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "6f5fa54c60a7",
-          "title": "Chip Stocks Set for Longest Losing Run Since 2008: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-15/stock-market-today-dow-s-p-live-updates",
-          "publishedAt": "2026-10-15T22:04:06.000Z",
-          "teaser": "The final stretch of a jittery week on Wall Street saw stocks wavering amid an ongoing selloff in chipmakers that has left investors questioning the prospects for the artificial-intelligence trade.",
+          "id": "26d6fbaee356",
+          "title": "Indonesia Unveils $117 Million in Fines After MSCI Warning",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/indonesia-unveils-117-million-in-fines-after-msci-warning",
+          "publishedAt": "2026-10-16T09:40:58.000Z",
+          "teaser": "Indonesia announced about $117 million in fines tied to manipulative market practices involving three companies, hours after global index provider MSCI Inc. said it was weighing a downgrade of the country’s stock market over investability concerns.",
           "firms": [],
           "section": "markets"
         }
