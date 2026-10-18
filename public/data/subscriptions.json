@@ -1,9 +1,18 @@
 {
-  "generatedAt": "2026-10-17T13:41:31.650Z",
+  "generatedAt": "2026-10-18T13:58:06.965Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
+        {
+          "id": "67b2eb777d1c",
+          "title": "The AI Stock Market Wobble Is a Reminder: This Time Isn’t Different",
+          "url": "https://www.wsj.com/finance/stocks/the-ai-stock-market-wobble-is-a-reminder-this-time-isnt-different-d3ea7f07?mod=rss_markets_main",
+          "publishedAt": "2026-10-18T09:30:00.000Z",
+          "teaser": "The artificial intelligence build-out hasn’t shown it can avoid the problems of past massive capital projects, such as railways and the internet.",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "baeccf87aa6d",
           "title": "Blue Owl Founders Promised a Comeback. The Company’s Share Price Hasn’t Budged.",
@@ -32,57 +41,39 @@
           "teaser": "The deal, which is aimed at safeguarding Europe’s struggling auto sector, includes more flexibility with decarbonization rules and provides incentives for investment.",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "f9191e068ff9",
-          "title": "Your ‘Cheap’ ETF Costs More Than You Think",
-          "url": "https://www.wsj.com/finance/investing/your-cheap-etf-costs-more-than-you-think-e7e34eea?mod=rss_markets_main",
-          "publishedAt": "2026-10-16T13:00:00.000Z",
-          "teaser": "The costs of many popular funds have barely budged even though assets have soared.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "622b0e5a12b4",
-          "title": "Travelers Profit Ticks Up on Investment Gains",
-          "url": "https://www.wsj.com/business/earnings/travelers-profit-ticks-up-on-investment-gains-b91f6ea7?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-16T11:44:00.000Z",
-          "teaser": "Travelers reported higher quarterly profit, despite roughly flat revenue, helped by investment gains.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "61b088601550",
-          "title": "The Radical Plan That Could Torch Your Portfolio",
-          "url": "https://www.wsj.com/finance/stocks/the-radical-plan-that-could-torch-your-portfolio-5baa09b3?mod=rss_markets_main",
-          "publishedAt": "2026-10-16T10:39:00.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "e1cd47d6c5fa",
-          "title": "High Rates Have Upturned How Moody’s Looks at Credit Risk, Chief Credit Officer Says",
-          "url": "https://www.wsj.com/finance/investing/high-rates-have-upturned-how-moodys-looks-at-credit-risk-chief-credit-officer-says-e84c61fd?mod=rss_markets_main",
-          "publishedAt": "2026-10-16T08:02:00.000Z",
-          "teaser": "Leverage matters more now because interest costs are rising, said Atsi Sheth, the ratings company’s chief credit officer.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "38d010ce5d07",
-          "title": "Asia Stocks Recover Some Ground After Tech Rout",
-          "url": "https://www.wsj.com/finance/stocks/asia-stocks-recover-some-ground-after-tech-rout-c0735307?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-16T05:28:00.000Z",
-          "teaser": "Asian stocks rebounded Friday, following gains on Wall Street, as investors bought shares after a technology selloff fueled by concerns about the artificial-intelligence trade.",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
     {
       "id": "ft",
       "items": [
+        {
+          "id": "871f58107a4e",
+          "title": "St Petersburg endures biggest Ukrainian drone attack",
+          "url": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-18T12:30:14.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "ffb7b8294fe9",
+          "title": "America’s $10tn AI infrastructure boom is starting to fray",
+          "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-18T04:00:18.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "7feeed87738b",
+          "title": "Listings in south-east Asia gain momentum with $1bn IPO",
+          "url": "https://www.ft.com/content/a2b83aa7-49e0-4735-b115-d406fcb24de8?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-18T01:00:06.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
         {
           "id": "d895c25d4538",
           "title": "UK dividend payments jump 14% in a year",
@@ -111,51 +102,6 @@
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "ac8daca2dedc",
-          "title": "Lufthansa exploring sale of software assets in €1bn deal",
-          "url": "https://www.ft.com/content/800db28a-9176-4ca3-9334-69ede9a2b3ef?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-16T13:56:44.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "f2ce02d46294",
-          "title": "Sizing CoreWeave’s ‘unlimited’ insurance capital",
-          "url": "https://www.ft.com/content/6b9b0cb6-2d47-46e4-bc00-febb182a5af7",
-          "publishedAt": "2026-10-16T10:24:31.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "9237cddc456a",
-          "title": "The data centre IPO debacle that sparked a market meltdown",
-          "url": "https://www.ft.com/content/537c9a68-7b6f-41a7-80ff-acac5c52e80d?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-16T04:54:52.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "a4782ab4f8eb",
-          "title": "Anthropic assigned highest junk credit rating in June",
-          "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-16T04:00:18.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "46360160c1d0",
-          "title": "Why is the fintech boom failing to improve fin-lit?",
-          "url": "https://www.ft.com/content/4dfcf1ba-0b8e-4198-b0a4-e975ebde9066",
-          "publishedAt": "2026-10-16T04:00:09.000Z",
-          "teaser": "What good is $1tn of investment if financial literacy levels are falling?",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -163,29 +109,47 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "6ec76f637363",
-          "title": "Fairfax’s Watsa Bets On IDBI Payoff As India Booms, Report Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-17/fairfax-s-watsa-bets-on-idbi-payoff-as-india-booms-report-says",
-          "publishedAt": "2026-10-17T04:55:30.000Z",
-          "teaser": "Canadian billionaire Prem Watsa is betting that his Fairfax Financial Holdings Ltd.’s acquisition of IDBI Bank Ltd. will pay off given India’s growth prospects, the Economic Times reported.",
+          "id": "65b3a6ec81d7",
+          "title": "Poland Investigates Suspected Violation of Its Airspace",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/poland-investigates-suspected-violation-of-its-airspace",
+          "publishedAt": "2026-10-18T06:52:54.000Z",
+          "teaser": "Poland is investigating a possible violation of its airspace overnight, the Operational Command of the Armed Forces said.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "e3a37a2766a2",
-          "title": "Jio’s $3.2 Billion IPO Tests Ambani Appeal With India’s Gen Z",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-17/jio-s-3-2-billion-ipo-tests-ambani-appeal-with-young-indians",
-          "publishedAt": "2026-10-17T02:30:00.000Z",
-          "teaser": "For generations of Indians, Reliance Industries Ltd. was their introduction to the stock market.",
+          "id": "7bd641d0422c",
+          "title": "China’s Anti-Graft Body Investigates Ex-Guangxi Official Huang",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/china-s-anti-graft-body-investigates-ex-guangxi-official-huang",
+          "publishedAt": "2026-10-18T03:39:38.000Z",
+          "teaser": "",
           "firms": [],
-          "section": "private-equity"
+          "section": "markets"
         },
         {
-          "id": "26d6fbaee356",
-          "title": "Indonesia Unveils $117 Million in Fines After MSCI Warning",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/indonesia-unveils-117-million-in-fines-after-msci-warning",
-          "publishedAt": "2026-10-16T09:40:58.000Z",
-          "teaser": "Indonesia announced about $117 million in fines tied to manipulative market practices involving three companies, hours after global index provider MSCI Inc. said it was weighing a downgrade of the country’s stock market over investability concerns.",
+          "id": "752b128da20b",
+          "title": "Venezuela Sees Nearly $76 Billion Oil Investment Over Five Years",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/venezuela-sees-nearly-76-billion-oil-investment-over-five-years",
+          "publishedAt": "2026-10-18T00:48:28.000Z",
+          "teaser": "Venezuela expects almost $76 billion of investment in its oil and gas sector over the next five years, Acting President Delcy Rodríguez said Saturday, as the country seeks to draw private capital into a push to boost energy production.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "92c1f790febf",
+          "title": "Avalanche in Chile Kills Three Climbers Amid Rare Snowy Spring",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/avalanche-in-chile-kills-three-climbers-amid-rare-snowy-spring",
+          "publishedAt": "2026-10-17T22:09:20.000Z",
+          "teaser": "An avalanche killed three climbers and injured four others Saturday afternoon near the Portillo ski resort in the Chilean Andes, northeast of the capital Santiago.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "bda51c97fd34",
+          "title": "CoreWeave Woes Risk Shutting Down AI Junk Market: Credit Weekly",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly",
+          "publishedAt": "2026-10-17T14:27:13.000Z",
+          "teaser": "Junk bond buyers are increasingly freezing out tech startups looking for financing, as CoreWeave Inc.’s pain raises bigger questions about how artificial intelligence companies will fund themselves.",
           "firms": [],
           "section": "markets"
         }
