@@ -1,88 +1,78 @@
 {
-  "generatedAt": "2026-10-19T16:57:44.502Z",
+  "generatedAt": "2026-10-20T15:00:24.241Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "6c526c75ab5d",
-          "title": "KKR Sent Formal Objection by EU Over Information Provided in NetCo Deal",
-          "url": "https://www.wsj.com/business/kkr-sent-formal-objection-by-eu-over-information-provided-in-26-billion-netco-deal-5848d196?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-19T13:53:00.000Z",
-          "teaser": "The European Commission said it provisionally found that the group gave what it said was incorrect or misleading information related to long-term wholesale access agreements.",
-          "firms": [
-            "KKR"
-          ],
-          "section": "markets"
+          "id": "f548b878627d",
+          "title": "Bob Chapek Is Getting $100,000 a Month as Activist’s Nominee for Vail Board",
+          "url": "https://www.wsj.com/business/bob-chapek-is-getting-100-000-a-month-as-activists-nominee-for-vail-board-b3585fcd?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-20T14:24:00.000Z",
+          "teaser": "Oasis Management is paying the consulting fee to the former Disney CEO, one of the activist investor’s four nominees to the ski company’s board of directors.",
+          "firms": [],
+          "section": "hedge-funds"
         },
         {
-          "id": "9a29e298d347",
-          "title": "H.B. Fuller Rejects Ancora’s Latest Acquisition Bid, Plans to Consider Selling Noncore Businesses",
-          "url": "https://www.wsj.com/business/h-b-fuller-rejects-ancoras-latest-acquisition-bid-plans-to-consider-selling-noncore-businesses-14a2f298?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-19T13:30:00.000Z",
-          "teaser": "Company says Ancora’s revised cash offer of $1.2 billion to $1.4 billion still undervalues its building adhesives solutions business.",
+          "id": "8f474f5a6ea2",
+          "title": "Webull to Offer Perpetual Futures Starting Next Month",
+          "url": "https://www.wsj.com/finance/commodities-futures/webull-to-offer-perpetual-futures-starting-next-month-32a82d44?mod=rss_markets_main",
+          "publishedAt": "2026-10-20T13:00:00.000Z",
+          "teaser": "Webull is preparing to roll out perpetual futures contracts, a derivative contract new to regulated U.S. markets that never expires, on its online investment platform next month.",
+          "firms": [],
+          "section": "family-offices"
+        },
+        {
+          "id": "cf1e6a7228d4",
+          "title": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion",
+          "url": "https://www.wsj.com/business/deals/salesforce-to-buy-customer-engagement-platform-for-nearly-5-7-billion-aba17cfe?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-20T12:44:00.000Z",
+          "teaser": "Salesforce signed a deal to buy Braze for about $5.66 billion including debt, adding a customer-engagement platform to its portfolio.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "22122c8d832b",
-          "title": "Jamie Dimon Ignores the Noise, While Hermès Seeks Suburban Wealth",
-          "url": "https://www.wsj.com/cmo-today/jamie-dimon-ignores-the-noise-while-hermes-seeks-suburban-wealth-e0183fa4?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-19T13:23:00.000Z",
-          "teaser": "Criticism in the press doesn’t change what’s right, JPMorgan Chase CEO says.",
-          "firms": [
-            "J.P. Morgan"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "7b6ecd9607c7",
-          "title": "Jamie Dimon’s View on the U.S. Economy: Booming, but War and Inflation Pose Risks",
-          "url": "https://www.wsj.com/cfo-journal/jamie-dimons-view-on-the-u-s-economy-booming-but-war-and-inflation-pose-risks-a7efa933?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-19T11:14:00.000Z",
-          "teaser": "Plus, Yum Brands’ KFC switches sides in the soda fight.",
-          "firms": [
-            "J.P. Morgan"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "ea17a02510f0",
-          "title": "How Patriotism Shapes Jamie Dimon’s Leadership",
-          "url": "https://www.wsj.com/business/how-patriotism-shapes-jamie-dimons-leadership-6c7be063?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-19T10:05:00.000Z",
-          "teaser": "",
-          "firms": [
-            "J.P. Morgan"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "89dad74bec8b",
-          "title": "Putin’s Bid to End the War in Ukraine on Moscow’s Terms",
-          "url": "https://www.wsj.com/articles/putins-bid-to-end-the-war-in-ukraine-on-moscows-terms-3e09dfec?mod=rss_markets_main",
-          "publishedAt": "2026-10-19T10:02:00.000Z",
-          "teaser": "Plus, a little-known private trust is looming over Anthropic’s IPO, and French leaders are trading blame after rioting sweeps the nation.",
+          "id": "ea2c142448eb",
+          "title": "Synchrony Financial Profit Falls on Higher Costs but Credit Trends Improve",
+          "url": "https://www.wsj.com/business/earnings/synchrony-financial-profit-falls-on-higher-costs-but-credit-trends-improve-7ba1ad80?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-20T12:36:00.000Z",
+          "teaser": "Synchrony posted a third-quarter profit of $892 million, or $2.68 a share, down from $1.1 billion, or $2.86 a share, a year earlier.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "929602a67305",
-          "title": "Jamie Dimon’s National-Security Pledge Finances $230 Billion in First Year",
-          "url": "https://www.wsj.com/finance/banking/jamie-dimons-national-security-pledge-finances-230-billion-in-first-year-c757faf2?mod=rss_markets_main",
-          "publishedAt": "2026-10-19T10:01:00.000Z",
-          "teaser": "JPMorgan’s “security and resiliency initiative” is helping bolster U.S. supply chains and defense contractors.",
-          "firms": [
-            "J.P. Morgan"
-          ],
+          "id": "8dedf7e3d687",
+          "title": "Prudential Financial Sells Prudential of Brazil, Prudential of Mexico for $4 Billion",
+          "url": "https://www.wsj.com/finance/investing/prudential-financial-sells-prudential-of-brazil-prudential-of-mexico-for-4-billion-985c25bf?mod=rss_markets_main",
+          "publishedAt": "2026-10-20T11:13:00.000Z",
+          "teaser": "The investment manager and financial services provider said it has entered a definitive agreement to sell Prudential of Brazil and Prudential of Mexico to CNP Assurances in a cash deal.",
+          "firms": [],
           "section": "markets"
         },
         {
-          "id": "a337456a8df2",
-          "title": "EU Curbs on Chinese Hybrids Could Make European Automakers Investable Again",
-          "url": "https://www.wsj.com/finance/stocks/nikkei-falls-1-8-tracking-wall-streets-losses-413895f0?mod=rss_markets_main",
-          "publishedAt": "2026-10-19T09:31:00.000Z",
-          "teaser": "China’s automakers could see a slowdown in market-share gains next year if measures to curb hybrid exports to Europe are implemented, Citi said, adding the legislation could make EU manufacturers investable again.",
+          "id": "f3445cd9175d",
+          "title": "Amazon Pledges More Than $17 Billion to Expand German Operations",
+          "url": "https://www.wsj.com/business/telecom/amazon-pledges-over-17-billion-to-expand-german-operations-52c311ee?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-20T11:03:00.000Z",
+          "teaser": "The company plans to invest AI infrastructure, high-speed satellite internet, logistics projects and new Prime Video content, the latest big-ticket investment from a U.S. tech company keen to expand overseas.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "a041b649d9ad",
+          "title": "Four Financial Lessons From the Hedge-Fund Divorce Captivating Wall Street",
+          "url": "https://www.wsj.com/personal-finance/four-financial-lessons-from-the-hedge-fund-divorce-captivating-wall-street-e09a441b?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-20T09:30:00.000Z",
+          "teaser": "John and Laura Overdeck have been engaged in a monthslong trial that could produce one of the largest divorce settlements in history.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "7a67d4271ebe",
+          "title": "Gold Slips as Investors Await Fed Meeting Next Week",
+          "url": "https://www.wsj.com/finance/commodities-futures/gold-edges-lower-as-higher-yields-weigh-ebc91ac4?mod=rss_markets_main",
+          "publishedAt": "2026-10-20T08:55:00.000Z",
+          "teaser": "Gold prices slipped as rising energy prices heightened inflation concerns, and silver futures and platinum rose.",
           "firms": [],
           "section": "markets"
         }
@@ -92,73 +82,73 @@
       "id": "ft",
       "items": [
         {
+          "id": "f9e8ba2a5b2c",
+          "title": "Gilt market catches up with peers as investor worries over Budget ease",
+          "url": "https://www.ft.com/content/31f86452-c16a-4fbf-b393-bb5282c1cb59?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-20T11:54:05.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "11de895e8c20",
+          "title": "HSBC reviews Palantir holding in $9bn Islamic fund",
+          "url": "https://www.ft.com/content/f3d80441-2ab4-4ccb-bf8c-e2b6c040f238?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-20T10:48:39.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
           "id": "8498c735486a",
-          "title": "Indonesia expels tightly held companies from Jakarta index in bid to avoid MSCI downgrade",
+          "title": "Indonesia expels key stocks in bid to fend off MSCI downgrade",
           "url": "https://www.ft.com/content/472ad6cf-438f-4d62-a41c-8725cbf53383?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-19T15:59:35.000Z",
+          "publishedAt": "2026-10-20T08:34:36.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "434906f37d0c",
-          "title": "Saudi Arabia to postpone ‘Davos in the desert’ after Houthi attacks",
-          "url": "https://www.ft.com/content/75a2ee4e-ead9-4d37-b1ea-6fd759c4691d?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-19T15:40:33.000Z",
+          "id": "47ad7b41c3bb",
+          "title": "It’s time to give individual shareholders direct votes on climate change",
+          "url": "https://www.ft.com/content/dcc245d8-2dca-4892-a9fb-2bddfa69ed35?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-20T06:28:32.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "27be8b143580",
-          "title": "Submit a question: Could Anthropic’s IPO be a turning point for AI?",
-          "url": "https://www.ft.com/content/8cdf338e-d472-460c-8642-a8f033b99462?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-19T14:10:33.000Z",
+          "id": "4e33ac322f9b",
+          "title": "Waiting for good IPO",
+          "url": "https://www.ft.com/content/6c6fb412-5eca-4ed3-8b3d-f1c367712c5c?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-20T05:30:09.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "9ab84ffcfc3a",
-          "title": "BoE scrutinises Barclays over claim traders misrepresented private credit exposure",
-          "url": "https://www.ft.com/content/f3127b4f-d33a-4431-acff-021829f3aa72?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-19T13:54:39.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "7dc434726bac",
-          "title": "North Sea oil producer threatens to stop investing if UK blocks Rosebank oilfield",
-          "url": "https://www.ft.com/content/2ad6e5dd-b8c2-4186-a6e2-ba27f222e1f0?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-19T13:37:50.000Z",
+          "id": "793abe84276b",
+          "title": "AI debt worries spark surge in default insurance trading",
+          "url": "https://www.ft.com/content/6dd31584-064c-4015-bf5d-e5747799ccd5?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-20T04:00:19.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "2a6419419f95",
-          "title": "US defence stocks tumble as investors bet on Democratic election sweep",
-          "url": "https://www.ft.com/content/e73d0106-486b-4382-8ecc-5c96ac44fdff?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-19T13:04:40.000Z",
+          "id": "8c4aa471c996",
+          "title": "Iran war tilts balance of global oil power towards Americas",
+          "url": "https://www.ft.com/content/cfa976d5-e320-4ee8-8c86-84733471a4a1?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-20T04:00:19.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "11ac79611a41",
-          "title": "Freshfields apologises ‘unreservedly’ over Middle East comments in email leak",
-          "url": "https://www.ft.com/content/6075e0ec-9116-4de4-84e6-d50b5ed1d47a?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-19T11:09:30.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "a1afd7445eb2",
-          "title": "US grocery giants head to court in $9bn battle over failed merger",
-          "url": "https://www.ft.com/content/086e66dd-1e1b-4279-ae6b-2ac88757998f?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-19T10:00:05.000Z",
+          "id": "520ca496dee1",
+          "title": "Ambani looks to pull off India’s biggest IPO",
+          "url": "https://www.ft.com/content/94f983a8-aa6b-4153-8796-f0b46b046ed0?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-20T00:33:09.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
@@ -169,58 +159,65 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "e2652dbc7877",
-          "title": "Hedge Funds Cut Tech at Fastest Pace in a Decade, Goldman Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-19/hedge-funds-cut-tech-at-fastest-pace-in-a-decade-goldman-says",
-          "publishedAt": "2026-10-19T16:53:40.000Z",
-          "teaser": "Hedge funds retreated from tech stocks at the fastest clip in at least a decade, according to Goldman Sachs Inc.’s prime desk.",
-          "firms": [
-            "Goldman Sachs"
-          ],
-          "section": "hedge-funds"
+          "id": "dfbb80d514ed",
+          "title": "Centerbridge, Mubadala in Talks to Buy Canaccord’s UK Wealth Unit",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/centerbridge-mubadala-in-talks-to-buy-canaccord-s-uk-wealth-unit",
+          "publishedAt": "2026-10-20T14:35:59.000Z",
+          "teaser": "Canaccord Genuity Group Inc. is in talks to sell its UK wealth management business to a consortium led by private equity firm Centerbridge Partners, according to people with knowledge of the matter.",
+          "firms": [],
+          "section": "private-equity"
         },
         {
-          "id": "f201afddd6ad",
-          "title": "Avis Budget (CAR) Stock Crashes as 600% Short Squeeze Rally Fully Unwinds",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-19/avis-budget-car-stock-crashes-as-600-short-squeeze-rally-fully-unwinds",
-          "publishedAt": "2026-10-19T16:45:14.000Z",
-          "teaser": "Shares of Avis Budget Group Inc. have crashed back to earth, ending a chapter that put bearish investors through a punishing short squeeze.",
+          "id": "f48a34ca841f",
+          "title": "Top-Rated Junk Debt Becomes Sweet Spot as Investors Flee Risk",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/top-rated-junk-debt-becomes-sweet-spot-as-investors-flee-risk",
+          "publishedAt": "2026-10-20T14:25:36.000Z",
+          "teaser": "High-grade investors, including T.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "2c4c56b1dafa",
-          "title": "Walmart Sells US Debt, Eyes Canadian Market as Spending Grows",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-19/walmart-sells-us-debt-eyes-canadian-market-as-spending-grows",
-          "publishedAt": "2026-10-19T15:36:09.000Z",
-          "teaser": "Walmart Inc. is selling US dollar bonds for a second time this year and sounding out investors for a debut Canadian debt offering as the world’s largest retailer seeks to diversify its funding sources amid a spending spree.",
+          "id": "0cfbf5e13e55",
+          "title": "Southern Africa Private-Money Deals Seen Rising on Exit Revival",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/southern-africa-private-money-deals-seen-rising-on-exit-revival",
+          "publishedAt": "2026-10-20T13:24:20.000Z",
+          "teaser": "A majority of private-capital firms in southern Africa expect business to be brisk next year and beyond as higher fundraising and more money from exits free up capital for new deals, a survey showed.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "82bcfac97ef4",
+          "title": "Higher Ed Startup Uses AI to Help Colleges Prevent Dropouts",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/higher-ed-startup-uses-ai-to-help-colleges-prevent-dropouts",
+          "publishedAt": "2026-10-20T13:00:00.000Z",
+          "teaser": "Straia, a higher-education startup focused on data analytics, has raised $3.1 million from investors to help schools tackle issues like student retention.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "bfb97052a3e8",
+          "title": "Halliburton Sees Lasting Growth as Mideast Rebuilds From War",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/halliburton-sees-multi-year-demand-growth-from-energy-disruption",
+          "publishedAt": "2026-10-20T11:35:28.000Z",
+          "teaser": "Halliburton Co. is predicting years of growth for oil field service work as nations replenish crude reserves and the Middle East rebuilds infrastructure damaged in the Iran war.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "977a042f7c0b",
+          "title": "French Bond Risk Climbs Again With Investors Wary on Outlook",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/french-bond-risk-gauge-hits-150-basis-points-after-protests",
+          "publishedAt": "2026-10-20T08:49:59.000Z",
+          "teaser": "A measure of French bond risk breached a key level on Tuesday, underscoring the challenges facing the government as it struggles to tame the budget deficit and grapples with cost-of-living protests.",
           "firms": [],
           "section": "markets"
         },
         {
           "id": "c71d0f024243",
-          "title": "CIBC Preps Up to C$1 Billion Limited Recourse Capital Note Sale",
+          "title": "CIBC Sells C$1 Billion Limited Recourse Capital Notes",
           "url": "https://www.bloomberg.com/news/articles/2026-10-19/cibc-preps-up-to-c-1-billion-limited-recourse-capital-note-sale",
           "publishedAt": "2026-10-19T15:26:12.000Z",
-          "teaser": "Canadian Imperial Bank of Commerce is readying a sale of as much as C$1 billion ($710 million) of additional tier-one bonds, according to people familiar with the matter.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "7a60389f3771",
-          "title": "Turkey Market Regulator Chief Steps Down During Fund Crisis",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-19/turkey-market-regulator-chief-steps-down-during-fund-crisis",
-          "publishedAt": "2026-10-19T14:29:19.000Z",
-          "teaser": "Turkey’s market regulator chief, Mahmut Sutcu, stepped down on Monday during the fallout of a fund crisis that’s upended the country’s markets.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "4cf3038fb2d1",
-          "title": "Nasdaq 100 Climbs on AI Trade Revival After Rout: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-18/stock-market-today-dow-s-p-live-updates",
-          "publishedAt": "2026-10-18T22:07:25.000Z",
-          "teaser": "A rebound in chipmakers buoyed the stock market as dip buyers emerged on bets the artificial-intelligence investment boom will continue to support solid earnings.",
+          "teaser": "Canadian Imperial Bank of Commerce sold C$1 billion ($710 million) of additional tier-one bonds on Monday.",
           "firms": [],
           "section": "markets"
         }
@@ -229,6 +226,15 @@
     {
       "id": "economist",
       "items": [
+        {
+          "id": "94eb60955a9a",
+          "title": "Who will buy $120bn-worth of fresh Japanese government bonds?",
+          "url": "https://www.economist.com/finance-and-economics/2026/10/19/who-will-buy-120bn-worth-of-fresh-japanese-government-bonds",
+          "publishedAt": "2026-10-19T18:11:37.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
         {
           "id": "a9c3e4759708",
           "title": "The AI industry’s gigantic debts are making investors nervous",
