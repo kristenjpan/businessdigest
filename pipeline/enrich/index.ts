@@ -67,7 +67,7 @@ export interface Selection {
  * Picks a diverse edition from the deduplicated pool, enriches each item, orders by section then
  * importance, and chooses three Top Stories (different sections; no filings or podcasts).
  */
-export function selectAndEnrich(unique: RawItem[], market: MarketView, now: Date, total = 24): Selection {
+export function selectAndEnrich(unique: RawItem[], market: MarketView, now: Date, total = 27): Selection {
   // Drop advice columns, reruns and routine notices outright, then re-home items by theme so the
   // shortlist's per-section diversity works on the sections readers will actually see.
   const pool = unique
@@ -81,7 +81,7 @@ export function selectAndEnrich(unique: RawItem[], market: MarketView, now: Date
     return [i, t.strong ? 2 : t.fromExcerpt ? 1 : 0] as const;
   }));
   const rich = pool.filter((i) => tier.get(i)! > 0);
-  const picked = shortlist(rich.length >= total ? rich : pool, now, { total, perSection: 5, perSource: 4 }, (i) => tier.get(i) ?? 0);
+  const picked = shortlist(rich.length >= total ? rich : pool, now, { total, perSection: 5, perSource: 4, sectionCaps: { "real-estate": 4 } }, (i) => tier.get(i) ?? 0);
   const enriched = picked.map((i) => enrichItem(i, market, now));
 
   const byRank = [...enriched].sort((a, b) => b.rank - a.rank || b.publishedAt.localeCompare(a.publishedAt));

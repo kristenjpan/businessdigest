@@ -25,6 +25,7 @@ const THEME_PHRASE: Record<string, string> = {
   "private-credit": "private credit",
   exits: "exits and secondaries",
   "real-estate": "real estate",
+  hotels: "hotels and hospitality",
   infrastructure: "infrastructure and energy",
   earnings: "earnings and asset flows",
   rates: "the Fed and rates",
@@ -58,6 +59,7 @@ const SECTION_THEME: Partial<Record<SectionId, string>> = {
   "private-markets": "private-markets",
   "family-offices": "family-office",
   "hedge-funds": "hedge-funds",
+  "real-estate": "real-estate",
   voices: "voices",
   filings: "disclosure",
 };

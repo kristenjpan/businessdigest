@@ -27,6 +27,7 @@
   --sec-private-markets: #346c61;
   --sec-family-offices: #8a5c43;
   --sec-private-equity: #8e5566;
+  --sec-real-estate: #4d7536;
   --sec-hedge-funds: #6a609e;
   --sec-voices: #73632e;
   --sec-filings: #5a6678;
@@ -57,6 +58,7 @@
     --sec-private-markets: #86c2b5;
     --sec-family-offices: #d1a98f;
     --sec-private-equity: #d19aab;
+    --sec-real-estate: #a6c98f;
     --sec-hedge-funds: #afa6da;
     --sec-voices: #cdbc86;
     --sec-filings: #a3aebd;
@@ -87,6 +89,7 @@
   --sec-private-markets: #86c2b5;
   --sec-family-offices: #d1a98f;
   --sec-private-equity: #d19aab;
+  --sec-real-estate: #a6c98f;
   --sec-hedge-funds: #afa6da;
   --sec-voices: #cdbc86;
   --sec-filings: #a3aebd;
@@ -157,6 +160,7 @@ body {
 [data-section="private-markets"] { --sec: var(--sec-private-markets); }
 [data-section="family-offices"] { --sec: var(--sec-family-offices); }
 [data-section="private-equity"] { --sec: var(--sec-private-equity); }
+[data-section="real-estate"] { --sec: var(--sec-real-estate); }
 [data-section="hedge-funds"] { --sec: var(--sec-hedge-funds); }
 [data-section="voices"] { --sec: var(--sec-voices); }
 [data-section="filings"] { --sec: var(--sec-filings); }

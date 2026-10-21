@@ -1,4 +1,4 @@
-import { WEALTH_TOPIC } from "../normalize";
+import { PROPERTY_TOPIC, WEALTH_TOPIC } from "../normalize";
 import type { RawItem, SectionId } from "../types";
 import { type MarketView, sentence } from "./market";
 
@@ -159,6 +159,27 @@ export const THEMES: Theme[] = [
       "Real estate trends reveal where demand is strong (data centers, logistics, housing) and where it is weak (older offices).",
     ],
     allocator: "For allocators: check whether exposure is concentrated in sectors with structural demand or in those facing lasting headwinds.",
+    context: realEstate,
+  },
+  {
+    id: "hotels",
+    label: "Hotels & Hospitality",
+    weight: 1,
+    patterns: [
+      /\bhotels?\b/i,
+      /\bresorts?\b/i,
+      /\bhospitality\b/i,
+      /\blodging\b/i,
+      /\bRevPAR\b|\baverage daily rate\b|\boccupancy\b/i,
+      /\b(Marriott|Hilton|Hyatt|IHG|InterContinental|Accor|Wyndham|Choice Hotels|Sonesta|Four Seasons|Kempinski|Mandarin Oriental|Ennismore|Host Hotels)\b/,
+    ],
+    term: "REIT", // switches to "RevPAR" once that glossary term exists
+    why: [
+      "Hotel values move with travel demand and room rates, so hotel news is an early read on consumer and business spending.",
+      "Hotel brands earn fees on hotels other people own, so their growth depends on how many new hotels owners are willing to build or convert.",
+      "Hotel deals show what buyers will pay per room today, a benchmark for owners, lenders and the REITs that own hotels.",
+    ],
+    allocator: "For allocators: hotels behave like an operating business as much as property, so returns swing more with the economy than offices or apartments.",
     context: realEstate,
   },
   {
@@ -378,7 +399,7 @@ const SECTION_DEFAULT: Record<SectionId, string> = {
 };
 
 /** Themes whose clues are strong enough to override the "voices" default for podcasts. */
-const PODCAST_OVERRIDES = new Set(["private-credit", "family-office", "real-estate", "infrastructure", "ai-tech", "insurance", "rates"]);
+const PODCAST_OVERRIDES = new Set(["private-credit", "family-office", "real-estate", "hotels", "infrastructure", "ai-tech", "insurance", "rates"]);
 
 function hits(re: RegExp, text: string): boolean {
   return re.test(text);
@@ -443,12 +464,16 @@ const THEME_SECTION: Partial<Record<string, SectionId>> = {
   fundraising: "private-markets",
   "private-credit": "private-markets",
   "family-office": "family-offices",
-  "real-estate": "private-markets",
+  "real-estate": "real-estate",
+  hotels: "real-estate",
   infrastructure: "private-markets",
   insurance: "private-markets",
   "hedge-funds": "hedge-funds",
   holdings: "hedge-funds",
 };
+
+// Themes that describe a transaction or result rather than an asset class: their section follows the asset.
+const PROPERTY_THEMES = new Set(["deals", "exits", "fundraising", "private-credit", "earnings", "infrastructure", "insurance", "people", "regulation"]);
 
 // Deals, hires, results etc. count as wealth stories only when the text is about wealth management.
 const WEALTH_THEMES = new Set(["deals", "people", "exits", "fundraising", "earnings", "insurance"]);
@@ -463,12 +488,16 @@ export function sectionForTheme(theme: Theme): SectionId | undefined {
  * buyouts). Moves an item to its theme's natural section; voices, filings and markets stay put.
  */
 export function resolveSection(item: RawItem, theme: Theme): SectionId {
-  if (item.section === "voices" || item.section === "filings" || item.section === "markets") return item.section;
+  // Real estate and hotel sources (including their companies' filings) always stay in their section.
+  if (item.section === "voices" || item.section === "filings" || item.section === "markets" || item.section === "real-estate") return item.section;
   // Wealth-trade feeds also carry general market news: keep wealth stories (RIA deals, hires, results,
   // products) here, and send the rest to their theme's section, or Markets.
   if (item.section === "family-offices") {
     const wealthStory = theme.id === "family-office" || (WEALTH_THEMES.has(theme.id) && WEALTH_TOPIC.test(`${item.title} ${item.excerpt}`));
-    return wealthStory ? "family-offices" : (THEME_SECTION[theme.id] ?? "markets");
+    if (wealthStory) return "family-offices";
   }
+  // A deal, sale, fund or loan whose headline is about property or hotels belongs in Real Estate & Hotels.
+  if (PROPERTY_THEMES.has(theme.id) && PROPERTY_TOPIC.test(item.title)) return "real-estate";
+  if (item.section === "family-offices") return THEME_SECTION[theme.id] ?? "markets";
   return THEME_SECTION[theme.id] ?? item.section;
 }

@@ -9,6 +9,7 @@ import { storyTypeOf } from "../enrich/storyType";
 import { actorFor, amountIn, eventOf, speakerIn, whyItMatters } from "../enrich/whyItMatters";
 import { classify, resolveSection, THEMES } from "../enrich/themes";
 import { guessSection } from "../normalize";
+import { propertyDealSize } from "../score";
 import type { ArchiveIndex, MarketSeries, RawItem, SourceRef } from "../types";
 
 const now = new Date("2026-09-23T15:00:00Z");
@@ -477,5 +478,62 @@ describe("why it matters: one specific sentence", () => {
       excerpt: "Kartesia Asset Finance has invested €88m, financing aviation, maritime and logistics assets in Europe and the US.",
     });
     expect(classify(item).id).toBe("private-credit");
+  });
+});
+
+describe("Real Estate & Hotels section", () => {
+  const route = (o: Partial<RawItem>) => {
+    const item = raw(o);
+    return resolveSection(item, classify(item));
+  };
+
+  it("routes real estate and hotel stories to the new section", () => {
+    const hedgeco: SourceRef = { id: "hedgeco", name: "HedgeCo", homepage: "", contentType: "news" };
+    expect(route({ title: "Brookfield Agreed to Buy a Portfolio of 12 Luxury Hotels for $2.1 Billion", section: "hedge-funds", source: hedgeco })).toBe("real-estate");
+    expect(route({ title: "BREIT repurchase requests fall as property values recover", section: "private-markets" })).toBe("real-estate");
+    expect(route({ title: "Sonesta cuts jobs as a $2 billion bid puts many of its best hotels in play", section: "markets" })).toBe("markets"); // general-news feeds keep their section
+    // Real estate sources keep everything they publish, even a data-center financing.
+    const re: SourceRef = { id: "connect-cre", name: "Connect CRE", homepage: "", contentType: "news" };
+    expect(route({ title: "JLL arranges $120M construction loan for Phoenix data center", section: "real-estate", source: re })).toBe("real-estate");
+  });
+
+  it("keeps travel feeds to hotel and real estate topics", async () => {
+    const { SOURCES } = await import("../sources");
+    const skift = SOURCES.find((s) => s.id === "skift")!;
+    const topic = skift.kind === "rss" ? skift.topic! : /$^/;
+    expect(topic.test("United Airlines Cuts Profit Outlook as Jet Fuel Costs Rise")).toBe(false);
+    expect(topic.test("Sonesta Cuts Jobs as a $2 Billion Bid Puts Many of Its Best Hotels in Play")).toBe(true);
+  });
+
+  it("ranks the biggest property deals first and sinks small leases and sales", () => {
+    expect(propertyDealSize("Daiichi Life Bids $4.4B for Challenger")).toBe(3);
+    expect(propertyDealSize("JLL Arranges $120M Construction Loan for Phoenix Data Center")).toBe(1.5);
+    expect(propertyDealSize("Marcus & Millichap Brokers $7.5M Sale of Restaurant Building in Katy, Texas")).toBe(-2);
+    expect(propertyDealSize("Personal Training Studio LIV Method Takes 12K SF in Meatpacking District")).toBe(-2);
+    expect(propertyDealSize("Amazon Signs 400,000 SF Lease in Dallas")).toBe(0);
+  });
+
+  it("gives the section 3 to 4 of 27 stories, with at most one filing", () => {
+    const reNews: SourceRef = { id: "re-news", name: "RE News", homepage: "", contentType: "news" };
+    const reFiling: SourceRef = { id: "edgar-mar", name: "SEC EDGAR — Marriott", homepage: "", contentType: "filing" };
+    const others = (["markets", "private-markets", "family-offices", "private-equity", "hedge-funds", "voices", "filings"] as const).flatMap((section, k) =>
+      Array.from({ length: 5 }, (_, i) =>
+        raw({ title: `Story ${section} ${i} acquires company`, excerpt: `Firm ${k}${i} has acquired a $${i + 2}bn business this week.`, section, source: { ...news, id: `${section}-${i}` } }),
+      ),
+    );
+    const realEstate = [
+      ...Array.from({ length: 6 }, (_, i) =>
+        raw({ title: `Owner ${i} sells $${i + 2}bn office tower`, excerpt: `Owner ${i} has sold a $${i + 2}bn office tower to a pension fund.`, section: "real-estate", source: { ...reNews, id: `re-${i}` } }),
+      ),
+      ...Array.from({ length: 3 }, (_, i) =>
+        raw({ title: `Marriott International, Inc. 8-K: Results ${i}`, excerpt: "Marriott filed Form 8-K with the SEC.", section: "real-estate", tier: 1, source: { ...reFiling, id: `edgar-${i}` } }),
+      ),
+    ];
+    const sel = selectAndEnrich([...others, ...realEstate], market, now);
+    const inSection = sel.items.filter((i) => i.section === "real-estate");
+    expect(sel.items).toHaveLength(27);
+    expect(inSection.length).toBeGreaterThanOrEqual(3);
+    expect(inSection.length).toBeLessThanOrEqual(4);
+    expect(inSection.filter((i) => i.source.contentType === "filing").length).toBeLessThanOrEqual(1);
   });
 });

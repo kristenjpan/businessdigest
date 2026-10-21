@@ -125,6 +125,10 @@ export function tagFirms(text: string, fixed: string[] = []): string[] {
 /** Family-office and private-wealth vocabulary: routes stories to "Family Offices & Wealth". */
 export const WEALTH_TOPIC = /\bfamily offices?\b|\bmulti-?family office|\b(ultra-)?high-net-worth\b|\bU?HNW\b|\bwealth manag|\bprivate wealth\b|\bRIAs?\b|\bwealthy (families|individuals|investors)\b|\bfinancial advis[eo]rs?\b/i;
 
+/** Property and hotel vocabulary in a headline: deals, raises and loans about these go to "Real Estate & Hotels". */
+export const PROPERTY_TOPIC =
+  /\b(hotels?|resorts?|hospitality|lodging|real estate|REITs?|BREIT|office (towers?|buildings?|portfolio|campus|space)|apartments?|multifamily|warehouses?|logistics (parks?|portfolio|property|properties)|industrial (parks?|portfolio|property|properties)|shopping (centers?|malls?)|properties|property portfolio|student housing|senior housing|life science (campus|building))\b/i;
+
 const SECTION_KEYWORDS: [SectionId, RegExp][] = [
   ["hedge-funds", /\bhedge funds?\b|\bmulti-?strateg|\bmacro fund|\bactivist investor|\bshort seller|\b13F\b|\bpod shop/i],
   ["private-equity", /\bprivate[- ]equity\b|\bbuyouts?\b|\bLBO\b|\btake[- ]private\b|\btaken private\b|\bportfolio compan|\bsponsor-backed|\bcarve-?out/i],
