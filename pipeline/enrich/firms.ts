@@ -34,7 +34,7 @@ export const FIRM_PROFILES: Record<string, string> = {
   "Vista Equity": "Vista Equity Partners is a leading enterprise-software buyout firm, and a signal for software valuations.",
 };
 
-/** The most significant firm on an item: core firms first, then any profiled firm. */
+/** The most significant firm on an item: core firms first, then any profiled firm, then any tagged firm. */
 export function leadFirm(firms: string[]): string | null {
-  return firms.find((f) => CORE_FIRMS.includes(f)) ?? firms.find((f) => f in FIRM_PROFILES) ?? null;
+  return firms.find((f) => CORE_FIRMS.includes(f)) ?? firms.find((f) => f in FIRM_PROFILES) ?? firms[0] ?? null;
 }

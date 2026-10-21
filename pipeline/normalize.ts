@@ -155,6 +155,8 @@ export const LOW_VALUE = new RegExp(
     String.raw`\b\d+ (best|top) \w+`,
     String.raw`^prediction:|\bbetter (buy|stock)\b|\bone is a (much )?better\b`,
     // Light closing items ("And, finally: …") and routine fund NAV notices.
+    // Industry awards, Q&A profiles, chef residencies and how-to explainers from real estate and hotel feeds.
+    String.raw`\baward winners?\b|: \d+ questions\b|\bhead chef\b|\bresidency\b|\bexplains how to\b|\bwomen (in|leading|pushing)\b`,
     String.raw`\bmust[- ]reads?\b|^and,? finally\b|\bpublishes net asset value\b`,
     // Earnings-call scheduling notices and law-firm "shareholder alert" solicitations.
     String.raw`\bearnings conference call\b|\bto (report|announce) .{0,40}\bresults\b|\bannounces? (date|timing) of\b|\$hareholder|\bshareholder alert\b|\bequity alert\b|\bclass action (firm|is investigating)\b|\bminimum bid price\b|\bcompliance period\b`,

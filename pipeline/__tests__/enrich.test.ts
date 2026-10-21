@@ -6,7 +6,7 @@ import { findTerm, GLOSSARY } from "../enrich/glossary";
 import { describeMove, hyRegime, MarketView, vixRegime } from "../enrich/market";
 import { cleanExcerpt, extractTakeaway, splitSentences, takeawayFor, trimToClause } from "../enrich/takeaway";
 import { storyTypeOf } from "../enrich/storyType";
-import { actorFor, amountIn, eventOf, speakerIn, whyItMatters } from "../enrich/whyItMatters";
+import { actorFor, amountIn, eventOf, isCompanyDeal, marketOf, propertyTypeOf, speakerIn, whyItMatters } from "../enrich/whyItMatters";
 import { classify, resolveSection, THEMES } from "../enrich/themes";
 import { guessSection } from "../normalize";
 import { propertyDealSize } from "../score";
@@ -535,5 +535,71 @@ describe("Real Estate & Hotels section", () => {
     expect(inSection.length).toBeGreaterThanOrEqual(3);
     expect(inSection.length).toBeLessThanOrEqual(4);
     expect(inSection.filter((i) => i.source.contentType === "filing").length).toBeLessThanOrEqual(1);
+  });
+});
+
+describe("Real Estate & Hotels story cards", () => {
+  const reSource: SourceRef = { id: "connect-cre", name: "Connect CRE", homepage: "", contentType: "news" };
+  const why = (title: string, excerpt = "") => {
+    const item = raw({ title, excerpt, section: "real-estate", source: reSource });
+    const t = takeawayFor(item);
+    return whyItMatters(item, classify(item), t.text, t.fromExcerpt);
+  };
+  const oneSentence = (s: string) => expect(s.split(/(?<=[.!?])\s+(?=[A-Z])/)).toHaveLength(1);
+
+  it("explains what each kind of property news means, naming the property type and market", () => {
+    const cases: [string, string, RegExp][] = [
+      ["Sonesta Cuts Jobs as a $2 Billion Bid Puts Many of Its Best Hotels in Play", "", /^A \$2 billion bid for these hotels shows what buyers will pay for hotels/],
+      ["Blackstone’s 2021 $1.3B CMBS Multifamily Loan Hits Special Servicing", "", /^A troubled \$1\.3bn apartment loan shows which owners can't refinance/],
+      ["JLL Arranges $50M Bridge Loan for Thousand Oaks Office Campus", "", /^A \$50m loan on this office property shows lenders will still back/],
+      ["Hyatt Announces Opening of New Hyatt Centric Hotel in St. Louis, Missouri", "", /grows its fee income without owning the buildings|grow fee income without owning the buildings/],
+      ["Wee Hur Adds Third Student Housing Market With 1,398-Bed Singapore Campus Project", "", /^New student housing supply like this in Singapore/],
+      ["Tokyo Tatemono Selling $207M in Office Stakes to REIT", "", /^The \$207m deal for this office property in Japan is a fresh price point for office values/],
+      ["Trammell Crow Breaks Ground On Office-To-Resi Conversion In Dallas: The DFW Deal Sheet", "", /^Office-to-residential conversions/],
+      ["Life Sciences Vacancy Near 27% for Three Biggest U.S. Hubs", "", /^Life science vacancy and rent trends/],
+      ["Hotel asset managers anticipate RevPAR growth for full-year 2026: survey", "", /RevPAR trends show whether travel demand is holding up/],
+      ["Design Firm Twelve Doubles HQ at Two Trees’ 45 Main Street to 14K SF", "", /^A 14,000-square-foot lease is a vote of confidence/],
+      ["Brooklyn Powerhouse Sports Takes 11K-SF Facility Lease in Sunset Park", "", /^An 11,000-square-foot lease/],
+    ];
+    for (const [title, excerpt, expected] of cases) {
+      const w = why(title, excerpt);
+      expect(w, title).toMatch(expected);
+      oneSentence(w);
+      expect(w).not.toMatch(/owners of similar businesses|For allocators|apartments values|offices values/);
+    }
+  });
+
+  it("treats company takeovers as company deals, not property sales", () => {
+    expect(isCompanyDeal("CBRE Acquires Data Center Equipment Provider Onnec Group for $610M")).toBe(true);
+    expect(isCompanyDeal("Stephen Ross Buys Second Boca Raton Office Property for $64M")).toBe(false);
+    expect(isCompanyDeal("Related Lands $750M Loan To Keep 'Broadway's Bedroom' Affordable: The N.Y. Deal Sheet")).toBe(false);
+    expect(why("CBRE Acquires Data Center Equipment Provider Onnec Group for $610M")).toMatch(/^CBRE's \$610m deal/);
+  });
+
+  it("names property types and Asia-Pacific markets", () => {
+    expect(propertyTypeOf("BlackRock, Dash Living Japan JV Buys Fourth Tokyo Rental Asset", "a 26-unit residential building")).toBe("apartment");
+    expect(propertyTypeOf("Hilco Lists Burlington, VT-Area Warehouse for Sale")).toBe("industrial");
+    expect(marketOf("Sole $351M Bid for Luxury Condo Site in Singapore’s Marina Bay")).toBe(" in Singapore");
+    expect(marketOf("Daiichi Life Bids $4.4B for Australia’s Challenger")).toBe(" in Australia");
+    expect(marketOf("Stephen Ross Buys Boca Raton Office")).toBe("");
+  });
+
+  it("counts property sizes and unit counts as key numbers in takeaways", () => {
+    const t = takeawayFor(
+      raw({ title: "Anaheim sale closes", excerpt: "The deal closed this week after months of talks. Marcus & Millichap completed the sale of Empire Apartments, a 29-unit multifamily property in Anaheim." }),
+    );
+    expect(t.text).toMatch(/29-unit/);
+    expect(t.strong).toBe(true);
+  });
+
+  it("keeps stories that only mention hotels or housing in passing out of the section", () => {
+    const fo: SourceRef = { id: "fa-mag", name: "FA Mag", homepage: "", contentType: "news" };
+    const item = raw({ title: "Rising Healthcare Costs Squeeze Low-Income And Wealthy Voters Alike", excerpt: "Healthcare costs outranked food, housing and real estate taxes.", section: "family-offices", source: fo });
+    expect(resolveSection(item, classify(item))).not.toBe("real-estate");
+  });
+
+  it("does not split sentences at initials or keep a cut-off clause with no verb", () => {
+    expect(splitSentences("Williams Equities is run by Michael T. Cohen and partners. It owns towers.")).toHaveLength(2);
+    expect(trimToClause("The New York City Housing Authority (NYCHA) and Reid Park Rock PACT Partners, which includes Fairstead, BRP Companies, Urbane, cut the ribbon…")).toBeNull();
   });
 });

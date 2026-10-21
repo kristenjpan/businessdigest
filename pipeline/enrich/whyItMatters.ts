@@ -1,7 +1,7 @@
-import { CORE_FIRMS, WEALTH_TOPIC } from "../normalize";
+import { CORE_FIRMS, PROPERTY_TOPIC, WEALTH_TOPIC } from "../normalize";
 import type { RawItem } from "../types";
 import { FIRM_PROFILES, leadFirm } from "./firms";
-import { pickBySeed, type Theme } from "./themes";
+import { pickBySeed, THEME_BY_ID, type Theme } from "./themes";
 import { GENERIC_OPENER } from "./takeaway";
 
 /**
@@ -67,7 +67,7 @@ export function amountIn(text: string): string | null {
 
 /** Verbs a headline's subject is followed by: "Macquarie hires…", "Tradeweb to Acquire…". */
 const TITLE_VERB =
-  /\s(?:to\s)?(?:hires?|hired|appoints?|appointed|names|named|taps|recruits|adds|buys|bought|acquires?|acquired|agreed|agrees|launch(?:es)?|raised|raises|raise|sues|invests|prices|closes|closed|reaches|draws|drew|deploys|opens|unveils|offers|completes|completed|sells?|sold|exits|cuts|halts?|halted|backs off|ends|pitch(?:es)?|forecasts|warns|sees|expects|surpassed|surpasses|tops|partners with)\b/i;
+  /\s(?:to\s)?(?:hires?|hired|appoints?|appointed|names|named|taps|recruits|adds|buys|bought|acquires?|acquired|agreed|agrees|launch(?:es)?|raised|raises|raise|sues|invests|prices|closes|closed|reaches|draws|drew|deploys|opens|unveils|offers|completes|completed|sells?|sold|exits|cuts|halts?|halted|backs off|ends|pitch(?:es)?|forecasts|warns|sees|expects|surpassed|surpasses|tops|partners with|announces)\b/i;
 
 /** The headline's subject, when it is a short name: "Macquarie", "Wells Fargo Advisors", "SoftBank". */
 export function titleActor(title: string): string | null {
@@ -172,11 +172,11 @@ export function topicFor(item: RawItem, takeaway: string): string | null {
 // ── Event detection (first match wins; mostly on the headline) ─────────────
 
 const DEAL =
-  /\bacquir\w*|\bacquisition\b|\btake[- ]?private\b|\btaken private\b|\btakeover\b|\bmerg(e|er|es|ed|ing)\b|\b(buys|bought|to buy)\b|\b(majority|minority|significant)( minority)? stake\b|\bstake in\b|\btender offer for\b|\boffer for\b|\b(bid for|bids for|takeover bid|bid to)\b|\bcarve-?out\b|\binvests? in\b|\bin \$[\d.]+\w* deal\b/i;
+  /\bacquir\w*|\bacquisition\b|\btake[- ]?private\b|\btaken private\b|\btakeover\b|\bmerg(e|er|es|ed|ing)\b|\b(buys|bought|to buy)\b|\b(majority|minority|significant)( minority)? stake\b|\bstake in\b|\btender offer for\b|\boffer for\b|\btakes? full control\b|\b(bid for|bids for|takeover bid|bid to)\b|\bcarve-?out\b|\binvests? in\b|\bin \$[\d.]+\w* deal\b/i;
 
 /** A deal size stated in the takeaway: "The $1.97 bln deal…", "…valued at $2bn". */
 function dealAmountIn(takeaway: string): string | null {
-  const m = takeaway.match(/((?:[$€£]|\bUS\$)\s?\d[\d.,]*\s?(?:bln|billion|bn|mln|million|m)?)\s(?:deal|acquisition|takeover|transaction|purchase)\b|\b(?:valued at|for about|for roughly|for)\s((?:[$€£]|\bUS\$)\s?\d[\d.,]*\s?(?:bln|billion|bn|mln|million|m)?)\b/i);
+  const m = takeaway.match(/((?:[$€£]|\bUS\$)\s?\d[\d.,]*\s?(?:bln|billion|bn|mln|million|m)?)\s(?:deal|acquisition|takeover|transaction|purchase)\b|\b(?:valued at|for about|for roughly|for|paid|priced at)\s((?:[$€£]|\bUS\$)\s?\d[\d.,]*\s?(?:bln|billion|bn|mln|million|m)?)\b/i);
   const raw = m?.[1] ?? m?.[2];
   return raw ? amountIn(raw.replace(/\bbln\b/i, "billion").replace(/\bmln\b/i, "million")) : null;
 }
@@ -198,7 +198,7 @@ const RULES: [EventKind, (title: string, text: string, item: RawItem) => boolean
       /\b(adds?|recruits?|lands?|lures?|stakes?|draws?|hires?)\b.{0,40}\badvisors?( teams?)?\b/i.test(t) ||
       (/\b(adds?|recruits?|lands?|lures?|stakes?)\b.{0,40}\bteams?\b/i.test(t) && (i.section === "family-offices" || WEALTH_TOPIC.test(t))),
   ],
-  ["deal-pushback", (t) => DEAL.test(t) && /\b(oppos\w+|block\w*|reject\w*|pushback|scrutiny|challeng\w+)\b/i.test(t)],
+  ["deal-pushback", (t) => DEAL.test(t) && /\b(oppos\w+|block\w*|reject\w*|pushback|scrutiny|challenge[sd]?)\b/i.test(t)],
   ["deal-talks", (t) => DEAL.test(t) && /\b(possible|potential|talks|explor\w+|consider\w+|weigh\w*|mull\w*|reported|clues)\b/i.test(t)],
   ["raise-target", (t) => /\b(aims|plans|seeks|looks|targets|hopes) to raise\b|\bseeks \S*\s?[$€£]|\btargets? \S*\s?[$€£][\d.]+\w* (for|fund)/i.test(t)],
   ["venture", (t) => /\bseries [A-H]\b|\bseed round\b|\bfunding round\b|\bventure (capital|round|funding)\b|\bgrowth (capital|equity)\b/i.test(t)],
@@ -217,7 +217,7 @@ const RULES: [EventKind, (title: string, text: string, item: RawItem) => boolean
   ["outflows", (t, x) => /\boutflows?\b|\bredemptions?\b|\bwithdraw\w*/i.test(x) || /\bshed\b.{0,30}\b(ETFs?|funds?)\b/i.test(t)],
   ["inflows", (t) => /\binflows?\b|\bnet new assets\b|\b(drew|draws?|attract\w*|pull(s|ed)? in)\b.{0,15}[$€£]|\bnew cash\b|\b(piles?|pour\w*) into\b/i.test(t)],
   ["board", (t) => /\bboard of directors\b|\bto (its |the )?board\b/i.test(t)],
-  ["people", (t) => /\b(appoints?|appointed|appointment|names?|named|hires?|hired|promotes?|promoted|joins?|joined|to join|recruits?|taps|steps? down|resigns?|retires|retiring|succession|succeeds?|departs?|leaves|leaving|moves to|co-CEO|new CEO|out at)\b/i.test(t)],
+  ["people", (t) => /\b(appoints?|appointed|appointments?|names?|named|hires?|hired|promotes?|promoted|joins?|joined|to join|recruits?|taps|steps? down|resigns?|retires|retiring|succession|succeeds?|departs?|leaves|leaving|moves to|co-CEO|new CEO|out at)\b/i.test(t)],
   ["results", (t) => /\bearnings\b|\bresults\b|\bprofits?\b|\brevenues?\b|\bAUM\b|\bassets under management\b|\bassets (swell|climb|rise|grow|hit|reach)|\btops estimates\b|\bbeats?\b|\brecord haul\b|\bsurpass\w*\b|\btops \$/i.test(t)],
   ["partnership", (t) => /\bpartners? with\b|\bpartnership\b|\bteams? up\b|\bcollaborat\w+|\bintegrat\w+|\bties? up\b/i.test(t)],
   ["launch", (t) => /\blaunch(es|ed)?\b|\bunveils?\b|\bintroduc\w+|\bdebuts?\b|\brolls? out\b|\brollout\b|\bgoes live\b|\bopens? .{0,40}\bto\b|\bETN\b|\boffers? .{0,30}\b(ETP|ETF|fund)\b|\btokeni[sz]ed\b|\bnew (fund|product|platform|strategy)\b|\bexpands? .{0,30}\bcapabilit/i.test(t)],
@@ -267,6 +267,17 @@ const isManager = (actor: string | null, text: string) =>
 
 export function whyItMatters(item: RawItem, theme: Theme, takeaway: string, fromExcerpt = true): string {
   const event = eventOf(item, takeaway);
+  if (isPropertyStory(item, theme) && !isCompanyDeal(item.title)) {
+    const property = propertyWhy(item, takeaway, fromExcerpt);
+    if (property) return property;
+    // A property or hotel story with no property-specific event: general wording only where it fits
+    // (lawsuits, hires, fundraising, surveys…); otherwise the real estate or hotel explanation.
+    if (!(event && GENERAL_FOR_PROPERTY.has(event))) {
+      const hotelStory = theme.id === "hotels" || propertyTypeOf(item.title, takeaway) === "hotel";
+      const fallback = THEME_BY_ID.get(hotelStory ? "hotels" : "real-estate")!;
+      return pickBySeed(fallback.why, item.id);
+    }
+  }
   const actor = actorFor(item, takeaway, fromExcerpt);
   const amount = amountIn(item.title) ?? (event === "deal" || event === "exit" || event === "deal-pushback" ? dealAmountIn(takeaway) : null);
   const topic = topicFor(item, takeaway);
@@ -354,7 +365,7 @@ export function whyItMatters(item: RawItem, theme: Theme, takeaway: string, from
       return `Board picks signal where ${actor ?? "a firm"} wants outside expertise, so a new director's background is a hint about its next priorities.`;
     case "people":
       if (wealth) return "Advisors who move usually take most of their clients' assets with them, so moves like this show which firms are winning the competition for advisors and client money.";
-      if (/\b(trader|portfolio manager|PM)\b/.test(text) || /\bfrom hedge fund\b|\bat hedge fund\b/i.test(item.title)) {
+      if (/\b(trader|portfolio manager)\b/i.test(text) || /\bfrom hedge fund\b|\bat hedge fund\b/i.test(item.title)) {
         return `${actor ? `For ${actor} and its rivals, star` : "Star"} traders often take capital and teams with them, so moves like this show which platforms are winning the fight for talent.`;
       }
       return `${actor ? `Leadership changes at ${actor}` : "Leadership changes like this"} can reset strategy and priorities, so clients and fund investors will watch what the new team changes.`;
@@ -379,4 +390,239 @@ export function whyItMatters(item: RawItem, theme: Theme, takeaway: string, from
     default:
       return pickBySeed(theme.why, item.id);
   }
+}
+
+// ── Real estate & hotels ──────────────────────────────────────────────────
+// Property stories get sentences about what the news means for owners, lenders and investors in
+// that kind of property, naming the property type and, where given, the market (Singapore, Japan…).
+
+/** Is this a real estate or hotel story? */
+export function isPropertyStory(item: RawItem, theme: Theme): boolean {
+  if (item.source.contentType === "podcast") return false;
+  return item.section === "real-estate" || theme.id === "real-estate" || theme.id === "hotels" || PROPERTY_TOPIC.test(item.title);
+}
+
+const PROPERTY_TYPES: [RegExp, string][] = [
+  [/\bdata cent(er|re)s?\b/i, "data center"],
+  [/\blife sciences?\b|\blab space\b|\bR&D campus\b/i, "life science"],
+  [/\bstudent housing\b|\bstudent residence\b|\b\d[\d,]*-bed\b/i, "student housing"],
+  [/\bsenior (housing|living)\b/i, "senior housing"],
+  [/\bmedical office\b/i, "medical office"],
+  [/\bhotels?\b|\bresorts?\b|\binns?\b|\bhospitality\b|\blodging\b|\bRevPAR\b|\b\d[\d,]*-room\b/i, "hotel"],
+  [/\bmultifamily\b|\bapartments?\b|\bcondos?\b|\brental (homes?|housing|asset|building)s?\b|\bresidential\b|\b\d[\d,]*-unit\b|\baffordable\b|\bhousing\b/i, "apartment"],
+  [/\bindustrial\b|\bwarehouses?\b|\blogistics\b|\bcold storage\b|\bdistribution (center|facility)\b|\bbuild-to-suit\b/i, "industrial"],
+  [/\bretail\b|\bshopping\b|\bmalls?\b|\brestaurants?\b|\bstorefronts?\b/i, "retail"],
+  [/\boffices?\b|\bHQ\b|\bheadquarters\b|\btowers?\b/i, "office"],
+];
+
+/** The kind of property: "office", "hotel", "apartment", "industrial", "data center"… (headline first). */
+export function propertyTypeOf(title: string, takeaway = ""): string | null {
+  return (PROPERTY_TYPES.find(([re]) => re.test(title)) ?? PROPERTY_TYPES.find(([re]) => re.test(takeaway)))?.[1] ?? null;
+}
+
+/** "data center" → "data centers", "industrial" → "industrial property": the market as a whole. */
+function areaOf(type: string | null): string {
+  const plural: Record<string, string> = {
+    "data center": "data centers",
+    hotel: "hotels",
+    office: "offices",
+    apartment: "apartments",
+    "medical office": "medical offices",
+    industrial: "industrial property",
+    retail: "retail property",
+    "life science": "life science property",
+  };
+  return type ? (plural[type] ?? type) : "property";
+}
+
+const MARKETS: [RegExp, string][] = [
+  [/\bSingapore\b/, "Singapore"],
+  [/\bJapan(ese)?\b|\bTokyo\b|\bOsaka\b/, "Japan"],
+  [/\bAustralia(n)?\b|\bSydney\b|\bMelbourne\b|\bBrisbane\b/, "Australia"],
+  [/\bHong Kong\b/, "Hong Kong"],
+  [/\bChina\b|\bChinese\b|\bShanghai\b|\bBeijing\b|\bShenzhen\b/, "China"],
+  [/\bIndia(n)?\b|\bMumbai\b|\bBengaluru\b|\bDelhi\b/, "India"],
+  [/\bKorea(n)?\b|\bSeoul\b/, "South Korea"],
+  [/\bVietnam\b|\bThailand\b|\bBangkok\b|\bMalaysia\b|\bIndonesia\b|\bPhilippines\b|\bJakarta\b|\bManila\b/, "Southeast Asia"],
+  [/\bNew Zealand\b/, "New Zealand"],
+  [/\bMaldives\b|\bDubai\b|\bSaudi\b|\bAbu Dhabi\b/, "the Middle East and Indian Ocean"],
+  [/\bEurope(an)?\b|\bU\.?K\.?\b|\bBritain\b|\bLondon\b|\bGermany\b|\bFrance\b|\bParis\b|\bSpain\b|\bItaly\b|\bNordics?\b|\bIreland\b/, "Europe"],
+];
+
+/** " in Singapore", " in Japan", " in Europe" — or "" for U.S. and unspecified stories. */
+export function marketOf(title: string, takeaway = ""): string {
+  const hit = MARKETS.find(([re]) => re.test(title)) ?? MARKETS.find(([re]) => re.test(takeaway));
+  return hit ? ` in ${hit[1]}` : "";
+}
+
+/** "office values", "industrial property values", "property values". */
+function valuesOf(type: string | null): string {
+  if (!type) return "property values";
+  return ["industrial", "retail", "life science"].includes(type) ? `${type} property values` : `${type} values`;
+}
+
+/** "a" or "an": "an 11,000-square-foot", "an office", "a hotel". */
+function an(word: string): string {
+  return /^(8|(11|18)(?!\d))|^[aeio]/i.test(word) ? `an ${word}` : `a ${word}`;
+}
+
+/** "11K-SF" / "10,871-square-foot" → "11,000-square-foot". */
+function leaseSize(text: string): string | null {
+  const m = text.match(/\b(\d[\d,.]*)\s?(K)?[- ]?(SF|sq\.? ?ft|square[- ]f(?:oo|ee)t)\b/i);
+  if (!m) return null;
+  const n = Math.round(Number(m[1].replace(/,/g, "")) * (m[2] ? 1000 : 1));
+  return Number.isFinite(n) && n > 0 ? `${n.toLocaleString("en-US")}-square-foot` : null;
+}
+
+/** Words that mark a story as being about a building, site or portfolio rather than a company. */
+const PROPERTY_WORD =
+  /\b(buildings?|towers?|complex|campus|portfolio|assets?|propert(y|ies)|sites?|apartments?|units?|hotels?|inns?|resorts?|warehouses?|offices?|malls?|centers?|facility|land|parcels?|condos?|homes?|plaza|parks?|HQ|headquarters|square[- ]f|SF\b|leases?|loans?|CMBS|mortgage|development|project|conversion)\b|\b\d+ [A-Z]\w+ (Street|Avenue|Ave|Road|Boulevard|Blvd)\b/i;
+
+/** General events whose wording also suits a property story. */
+const GENERAL_FOR_PROPERTY = new Set<EventKind>([
+  "filing", "interview", "legal", "credit-stress", "retreat", "fees", "board", "people", "venture", "fundraise", "raise-target", "survey", "policy", "activism", "outlook",
+]);
+
+/** Buildings, sites and portfolios: what makes a deal a property deal rather than a company deal. */
+const STRONG_PROPERTY =
+  /\b(buildings?|towers?|campus|portfolio|propert(y|ies)|sites?|apartments?|hotels?|inns?|resorts?|warehouses?|office (stakes?|towers?|buildings?|complex|property|campus|portfolio|space)|malls?|land|parcels?|condos?|homes|square[- ]f|\d+K?-?SF\b|rental (asset|building|homes?)|assets?)\b/i;
+
+const DEAL_WORDS = /\b(bids?|offers?|acquir\w*|buys?|bought|sells?|sold|sales?|selling|purchas\w*|deals?|transactions?|in play|takes? (full )?control|stakes?)\b/i;
+
+/** A takeover of a company (CBRE buying an equipment maker, Jardines buying a contractor), not a building. */
+export function isCompanyDeal(title: string): boolean {
+  const t = withoutColumnName(title);
+  return DEAL_WORDS.test(t) && !STRONG_PROPERTY.test(t) && !/\bloans?\b|\bfinanc\w*/i.test(t);
+}
+
+/** Bisnow's column names ("…: The Boston Deal Sheet") aren't part of the news. */
+function withoutColumnName(title: string): string {
+  return title.replace(/:\s*The [\w.\s/-]{0,20}Deal Sheet$/i, "");
+}
+
+/** What each listed property company's results speak to. */
+const COMPANY_AREA: Record<string, string> = {
+  Prologis: "warehouse",
+  Marriott: "hotel",
+  Hilton: "hotel",
+  Hyatt: "hotel",
+  "Host Hotels": "hotel",
+};
+
+function propertyWhy(item: RawItem, takeaway: string, fromExcerpt: boolean): string | null {
+  const title = withoutColumnName(item.title);
+  const text = `${title} ${takeaway}`;
+  // An office-to-residential conversion is neither type; leave it unnamed.
+  const type = /\bconver(sion|ts?|ting|ted)\b|\boffice-to-/i.test(title) ? null : propertyTypeOf(title, takeaway);
+  const area = areaOf(type);
+  const where = marketOf(title, takeaway);
+  const amount = amountIn(title) ?? dealAmountIn(takeaway);
+
+  // Company filings: results speak to the company's kind of property; other filings use the general wording.
+  if (item.source.contentType === "filing") {
+    const firm = item.firms[0];
+    if (firm && /Results of operations/i.test(title)) {
+      const kind = COMPANY_AREA[firm];
+      return `${poss(firm)} results are a read on ${kind ? `${kind} ` : ""}rents, occupancy and demand, and listed property companies often show where private real estate values are heading before appraisals catch up.`;
+    }
+    return null;
+  }
+
+  // Troubled loans and owners
+  const dealWords = DEAL_WORDS;
+  const DISTRESS = /\bspecial servicing\b|\bdebt troubles?\b|\bin default\b|\bdefault(s|ed)?\b|\bforeclos\w*|\bdelinquen\w*|\bdistress\w*|\breceivership\b|\bbankrupt\w*|\bmissed .{0,20}maturity\b|\bfalls? (further )?behind on (its )?loan\b|\bhand(s|ed)? back the keys\b/i;
+  if (DISTRESS.test(title) || (DISTRESS.test(takeaway) && !dealWords.test(title))) {
+    return `${amount ? `A troubled ${amount} ${type ?? "property"} loan` : `Troubled ${type ?? "property"} loans like this`}${where} ${amount ? "shows" : "show"} which owners can't refinance at today's rates, and how lenders resolve ${amount ? "it" : "them"} will show how far ${valuesOf(type)} have really fallen.`;
+  }
+
+  // Moving a stock listing (e.g. Hilton to Nasdaq)
+  if (/\blisting\b/i.test(title) && /\bNasdaq\b/i.test(title)) {
+    const firm = item.firms[0] ?? titleActor(title);
+    return `Moving the listing doesn't change ${firm ? `${poss(firm)} business` : "the business"}, but it can add the stock to Nasdaq indexes and the funds that track them, which can bring new buyers for the shares.`;
+  }
+
+  const hotel = type === "hotel";
+  const hasPropertyWord = PROPERTY_WORD.test(title);
+
+  // Hotel deals
+  if (hotel && dealWords.test(title)) {
+    const subject = /\bbids?\b|\boffer\b|\bin play\b/i.test(title)
+      ? `${amount ? `A ${amount} bid` : "A bid"} for these hotels`
+      : /\btransactions\b|\bdeals\b/i.test(title)
+        ? "These hotel deals"
+        : `${amount ? `The ${amount} sale` : "The sale"} of this hotel`;
+    const plural = subject.startsWith("These");
+    return `${subject} ${plural ? "show" : "shows"} what buyers will pay for hotels${where} today, a price benchmark for hotel owners, lenders and the REITs that own them.`;
+  }
+
+  // Office-to-residential conversions
+  if (/\bconver(sion|ts?|ting|ted)\b|\boffice-to-(resi|residential)\b/i.test(title)) {
+    return "Office-to-residential conversions take empty offices off the market and add housing, which supports nearby office values and adds competition for apartment owners.";
+  }
+
+  // Market statistics: vacancy, rents, sales volume
+  if (/\bvacanc(y|ies)\b|\babsorption\b|\brents? (rise|rises|fall|falls|grow|growth)\b|\bsales volume\b|\bmarket (report|data)\b|\btenant improvement\b/i.test(text) && !dealWords.test(title)) {
+    return `${type ? `${type[0].toUpperCase()}${type.slice(1)}` : "Property"} vacancy and rent trends${where} set what owners can charge and what lenders will lend, so they feed straight into ${valuesOf(type)}.`;
+  }
+
+  // Property sales and purchases (buildings, sites, portfolios, not companies)
+  if (hasPropertyWord && dealWords.test(title) && !/\bloans?\b|\bfinanc\w*/i.test(title)) {
+    if (/\bbids?\b|\btender\b|\blists?\b|\blisting\b|\bfor sale\b|\boffers? (are )?due\b/i.test(title)) {
+      return `${amount ? `A ${amount} bid` : "Bidding"} for this ${type ?? "property"} site is a live read on what buyers will pay${where}, and a weak result can pull down values for similar sites nearby.`;
+    }
+    return `${amount ? `The ${amount} deal for this ${type ?? "property"}` : `This deal for ${an(type ?? "property")}`}${type ? " property" : ""}${where} is a fresh price point for ${valuesOf(type)}, which owners, lenders and appraisers use to value similar buildings.`;
+  }
+
+  // New real estate funds
+  if (/\b(launch\w*|clos\w*|rais\w*|debuts?)\b.{0,40}\bfunds?\b|\bfunds?\b.{0,20}\b(close|closes|closed)\b/i.test(title)) {
+    const actor = titleActor(title);
+    return `${actor ? `${poss(actor)} new fund` : "A new fund like this"} shows where investors are putting money in ${area}${where}, and fresh capital tends to support prices for the kind of property it targets.`;
+  }
+
+  // Financing: loans, refinancings, CMBS, notes
+  if (/\bprovides? [$€£]|\blends?\b|\bloans?\b|\bfinanc\w*|\brefinanc\w*|\brefis?\b|\bCMBS\b|\bmortgage\b|\bbridge\b|\bdebt\b|\bcredit facility\b|\bnotes\b|\bbonds?\b/i.test(title)) {
+    const debt = /\bnotes\b|\bbonds?\b/i.test(title) ? "debt deal" : "loan";
+    return `${amount ? `A ${amount} ${debt}` : "New financing"} on this ${type ?? "property"} property${where} shows lenders will still back the right buildings, a read on how far the ${type ?? "property"} lending market has recovered.`.replace("property property", "property");
+  }
+
+  // Renovations and restorations
+  if (/\brenovat\w+|\brestor\w+|\brehab\w*|\brefurbish\w*|\breposition\w*|\bupgrade\w*/i.test(title)) {
+    return `Upgrades like this help an older ${type ?? "property"} compete for ${hotel ? "guests" : "tenants"} and lift its value, which is why owners keep investing even when sales are slow.`;
+  }
+
+  // Development and new supply
+  if (/\bbreaks? ground\b|\bbroke ground\b|\bgroundbreaking\b|\bdevelop\w*|\bconstruction\b|\bpropos\w+|\bplans? to (build|develop|open|add)\b|\bto build\b|\btops? out\b|\bdeliver\w*|\bproject\b|\d\s?GW\b|\bgigawatts?\b/i.test(title)) {
+    if (type === "data center") {
+      return `Plans like this show where data center capacity is heading${where}, and access to power and land decides which developers and investors capture AI-driven demand.`;
+    }
+    return `New ${type ?? "property"} supply like this${where} can hold down rents nearby once it opens, so it matters to owners and lenders of competing ${type ? area : "properties"}.`;
+  }
+
+  // Hotel brands and operators: openings, signings, management contracts
+  if (hotel && /\bopen(s|ed|ing|ings)?\b|\bdebuts?\b|\bsigns?\b|\bsigned\b|\bagreement\b|\bfranchis\w*|\bunder management\b|\bpipeline\b|\bportfolio\b|\bjoins?\b|\badditions?\b|\bexpan\w+|\bnew propert/i.test(title)) {
+    const actor = titleActor(title);
+    return `${actor ? `${actor} adding hotels grows its` : "New hotel openings and management deals grow"} fee income without owning the buildings, which is why investors watch hotel companies' pipelines as closely as their profits.`;
+  }
+
+  // Hotel performance
+  if (hotel && /\bRevPAR\b|\boccupancy\b|\bADR\b|\baverage daily rate\b|\broom rates?\b|\bdemand\b|\bbookings?\b|\boutlook\b|\bsurvey\b|\bresults\b|\bearnings\b|\boptimis\w+/i.test(text)) {
+    return `Room-rate, occupancy and RevPAR trends show whether travel demand is holding up${where}, which drives hotel values and the profits of the brands and REITs that own them.`;
+  }
+
+  // REITs and real estate funds: results, NAV, withdrawals
+  if (/\bBREIT\b|\bnon-traded REIT\b|\bNAV\b|\brepurchase\w*|\bredemption\w*/i.test(text)) {
+    const actor = actorFor(item, takeaway, fromExcerpt);
+    return `${actor ? `${poss(actor)} figures` : "Figures like these"} show how private real estate values and investor withdrawals are trending, a read for anyone holding non-traded REITs.`;
+  }
+  if (/\bREITs?\b/i.test(title) && /\bresults\b|\bearnings\b|\bFFO\b|\bdividend\b|\bguidance\b/i.test(text)) {
+    return `REIT results are a read on ${area} rents and occupancy, and REIT share prices often signal where private property values are heading before appraisals catch up.`;
+  }
+
+  // Leases
+  if (/\bleas(e|es|ed|ing)\b|\btakes \d|\binks?\b|\brenews?\b|\brelocat\w*|\bHQ\b|\bheadquarters\b|\btenants?\b/i.test(text) && hasPropertyWord) {
+    const size = leaseSize(title) ?? leaseSize(takeaway);
+    return `${size ? `${an(size)[0].toUpperCase()}${an(size).slice(1)} lease` : "A new lease like this"} is a vote of confidence in ${type ? `${type} space` : "the building and its neighborhood"}${where}, which supports the building's value and the loan against it.`;
+  }
+
+  return null;
 }

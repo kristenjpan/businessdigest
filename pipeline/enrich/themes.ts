@@ -177,7 +177,7 @@ export const THEMES: Theme[] = [
     why: [
       "Hotel values move with travel demand and room rates, so hotel news is an early read on consumer and business spending.",
       "Hotel brands earn fees on hotels other people own, so their growth depends on how many new hotels owners are willing to build or convert.",
-      "Hotel deals show what buyers will pay per room today, a benchmark for owners, lenders and the REITs that own hotels.",
+      "Hotels are an operating business as much as property, so their profits swing with travel demand, labor costs and room rates.",
     ],
     allocator: "For allocators: hotels behave like an operating business as much as property, so returns swing more with the economy than offices or apartments.",
     context: realEstate,
@@ -498,6 +498,9 @@ export function resolveSection(item: RawItem, theme: Theme): SectionId {
   }
   // A deal, sale, fund or loan whose headline is about property or hotels belongs in Real Estate & Hotels.
   if (PROPERTY_THEMES.has(theme.id) && PROPERTY_TOPIC.test(item.title)) return "real-estate";
-  if (item.section === "family-offices") return THEME_SECTION[theme.id] ?? "markets";
-  return THEME_SECTION[theme.id] ?? item.section;
+  const target = THEME_SECTION[theme.id];
+  // A story that only mentions housing or hotels in passing stays where it was.
+  if (target === "real-estate" && !PROPERTY_TOPIC.test(item.title)) return item.section === "family-offices" ? "markets" : item.section;
+  if (item.section === "family-offices") return target ?? "markets";
+  return target ?? item.section;
 }

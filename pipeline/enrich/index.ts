@@ -14,7 +14,7 @@ export { whyItMatters };
  * The keyless enrichment engine. Deterministic, rule-based and free: no LLM, no API key.
  * Given the same feed items and market data it always produces the same digest.
  */
-export const ENGINE = "rules-v4";
+export const ENGINE = "rules-v5";
 
 export function marketContext(theme: Theme, market: MarketView): string {
   if (market.empty) return "Live market data was unavailable for this edition. See the Sources page for FRED links.";

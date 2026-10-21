@@ -25,7 +25,7 @@ const BOILERPLATE: RegExp[] = [
 const TRUNCATED = /\s*\S*…?\s*Continue reading\s*(→|&rarr;)?\.?/gi;
 
 /** Abbreviations whose period should not end a sentence. */
-const ABBREVIATIONS = /\b(J\.P|U\.S|U\.K|U\.N|E\.U|Inc|Corp|Co|Ltd|L\.P|LLC|Mr|Ms|Mrs|Dr|St|vs|No|approx|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec|e\.g|i\.e|Jr|Sr)\./g;
+const ABBREVIATIONS = /\b([A-Z](?=\.\s[A-Z][a-z])|J\.P|U\.S|U\.K|U\.N|E\.U|Inc|Corp|Co|Ltd|L\.P|LLC|Mr|Ms|Mrs|Dr|St|vs|No|approx|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec|e\.g|i\.e|Jr|Sr)\./g;
 const PLACEHOLDER = "\u0000";
 
 export function cleanExcerpt(text: string): string {
@@ -78,6 +78,9 @@ export function trimToClause(s: string): string | null {
   const cut = cuts.at(-1);
   if (cut === undefined) return null;
   const out = body.slice(0, cut).replace(/[\s,;:–—-]+$/, "");
+  // "The Housing Authority and Reid Park Partners, which includes …": the main clause needs a verb.
+  const main = out.split(/,\s(?:which|who|whose|including|a|an|the)\b/)[0];
+  if (!/\b(has|have|had|is|are|was|were|will|would|can|could|may|said|says|[a-z]+ed|[a-z]{3,}s)\b/.test(main.replace(/\b[A-Z]\w*/g, ""))) return null;
   return out.length >= 40 ? ensurePeriod(out) : null; // "…in the U.S." already ends with a period
 }
 
@@ -87,7 +90,7 @@ export function trimToClause(s: string): string | null {
 
 /** A key number: money, percentages, basis points, multiples, or a count of deals, funds, clients… */
 export const KEY_NUMBER =
-  /(?:[$€£¥]|\b(?:US|A|C|HK|S)\$|\b(?:AUD|USD|EUR|GBP|CHF|JPY)\s?)\s?\d|\b\d[\d.,]*\s?(?:%|percent\b|bps\b|basis points\b|(?:bn|billion|mn|million|tn|trillion)\b|-?times\b|x\b)|\b\d[\d,]*\s(?:[a-z-]+\s){0,2}(?:deals|funds|companies|firms|transactions|investments|assets|properties|clients|advisors|employees|jobs|clinics|sectors|loans|homes|units)\b/i;
+  /(?:[$€£¥]|\b(?:US|A|C|HK|S)\$|\b(?:AUD|USD|EUR|GBP|CHF|JPY)\s?)\s?\d|\b\d[\d.,]*\s?(?:%|percent\b|bps\b|basis points\b|(?:bn|billion|mn|million|tn|trillion)\b|-?times\b|x\b)|\b\d[\d,]*\s(?:[a-z-]+\s){0,2}(?:deals|funds|companies|firms|transactions|investments|assets|properties|clients|advisors|employees|jobs|clinics|sectors|loans|homes|units)\b|\b\d[\d,.]*(?:-|\s)(?:units?|rooms?|keys|beds?|acres?|stor(?:y|ies)|square-f(?:oo|ee)t)\b|\b\d[\d,.]*\s?K?[- ]?(?:SF|sq\.? ?ft)\b/i;
 
 /** What changed: deal, raise, launch, move, hire, result… (stems, so "acquires", "acquired" both match). */
 const ACTION =
