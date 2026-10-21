@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "generatedAt": "2026-10-21T03:17:08.325Z",
+  "generatedAt": "2026-10-21T03:18:21.419Z",
   "engine": "rules-v5",
   "edition": 28,
   "brief": {
@@ -1234,8 +1234,8 @@
       "whyItMatters": "A troubled $1.3bn apartment loan shows which owners can't refinance at today's rates, and how lenders resolve it will show how far apartment values have really fallen.",
       "marketContext": "The 10-year Treasury yield is 5.15% (up 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.33 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 20.)",
       "beginnerNote": {
-        "term": "REIT",
-        "explanation": "Real estate investment trust, a company that owns income-producing property and must pay out most of its income to shareholders."
+        "term": "Cap rate",
+        "explanation": "A property's yearly net operating income divided by its price. A building earning $5 million a year that sells for $100 million has a 5% cap rate. A lower cap rate means a higher price, and cap rates tend to rise when interest rates rise."
       },
       "storyType": "news",
       "aiSummarized": false
@@ -1262,8 +1262,8 @@
       "whyItMatters": "A $2 billion bid for these hotels shows what buyers will pay for hotels today, a price benchmark for hotel owners, lenders and the REITs that own them.",
       "marketContext": "The 10-year Treasury yield is 5.15% (up 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.33 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 20.)",
       "beginnerNote": {
-        "term": "REIT",
-        "explanation": "Real estate investment trust, a company that owns income-producing property and must pay out most of its income to shareholders."
+        "term": "RevPAR",
+        "explanation": "Revenue per available room: a hotel's room revenue divided by all its rooms, sold or not. It equals occupancy times average daily rate, so it captures both how full a hotel is and what it charges. It is the industry's headline performance number."
       },
       "storyType": "news",
       "aiSummarized": false
@@ -1320,8 +1320,8 @@
       "whyItMatters": "Hyatt adding hotels grows its fee income without owning the buildings, which is why investors watch hotel companies' pipelines as closely as their profits.",
       "marketContext": "The 10-year Treasury yield is 5.15% (up 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.33 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 20.)",
       "beginnerNote": {
-        "term": "REIT",
-        "explanation": "Real estate investment trust, a company that owns income-producing property and must pay out most of its income to shareholders."
+        "term": "RevPAR",
+        "explanation": "Revenue per available room: a hotel's room revenue divided by all its rooms, sold or not. It equals occupancy times average daily rate, so it captures both how full a hotel is and what it charges. It is the industry's headline performance number."
       },
       "storyType": "news",
       "aiSummarized": false
