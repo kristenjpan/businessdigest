@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
-  "generatedAt": "2026-10-21T03:00:52.227Z",
-  "engine": "rules-v4",
+  "generatedAt": "2026-10-21T03:11:22.186Z",
+  "engine": "rules-v5",
   "edition": 28,
   "brief": {
     "headline": "Blackstone’s 2021 $1.3B CMBS Multifamily Loan Hits Special Servicing",
@@ -1231,7 +1231,7 @@
       },
       "importance": 5,
       "takeaway": "A $1.3 billion Blackstone commercial mortgage-backed securities (CMBS) loan with a $517.7 million balance issued in fall 2021 has entered special servicing after missing its October 2026 maturity date.",
-      "whyItMatters": "Blackstone's $1.3bn deal shows private lenders are still putting money to work in real estate, and the terms they win set the bar for returns across the strategy.",
+      "whyItMatters": "A troubled $1.3bn apartment loan shows which owners can't refinance at today's rates, and how lenders resolve it will show how far apartment values have really fallen.",
       "marketContext": "The 10-year Treasury yield is 5.15% (up 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.33 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 20.)",
       "beginnerNote": {
         "term": "REIT",
@@ -1259,7 +1259,7 @@
       },
       "importance": 4,
       "takeaway": "Service Properties Trust hired Sonesta to operate 68 of the hotels it owns.",
-      "whyItMatters": "Hotel brands earn fees on hotels other people own, so their growth depends on how many new hotels owners are willing to build or convert.",
+      "whyItMatters": "A $2 billion bid for these hotels shows what buyers will pay for hotels today, a price benchmark for hotel owners, lenders and the REITs that own them.",
       "marketContext": "The 10-year Treasury yield is 5.15% (up 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.33 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 20.)",
       "beginnerNote": {
         "term": "REIT",
@@ -1314,8 +1314,8 @@
         "label": "Real Estate"
       },
       "importance": 2,
-      "takeaway": "The property sold for $8.5 million, or $293,103 per unit.",
-      "whyItMatters": "Real estate is highly sensitive to interest rates, so it is often the first place higher or lower borrowing costs show up in valuations.",
+      "takeaway": "Marcus & Millichap recently completed the sale of Empire Apartments, a 29-unit multifamily property in Anaheim.",
+      "whyItMatters": "This deal for an apartment property is a fresh price point for apartment values, which owners, lenders and appraisers use to value similar buildings.",
       "marketContext": "The 10-year Treasury yield is 5.15% (up 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.33 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 20.)",
       "beginnerNote": {
         "term": "REIT",
@@ -1344,7 +1344,7 @@
         "label": "AI & Technology"
       },
       "importance": 3,
-      "takeaway": "The Nasdaq 100 fell 5.5% in the week to October 16.",
+      "takeaway": "Hedge funds cut their technology positions at the fastest rate in at least a decade over the five sessions through October 15, according to Goldman Sachs data, with semiconductors accounting for the largest dollar amount of selling.",
       "whyItMatters": "A lasting selloff in tech stocks would cut the value of private companies priced against them and make IPOs harder, so watch whether it spreads.",
       "marketContext": "The S&P 500 stands at 7,712.57 (up 0.3% on the prior reading) and the VIX is 18.4, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 20.)",
       "beginnerNote": {
@@ -1531,7 +1531,7 @@
   ],
   "stats": {
     "sourcesChecked": 52,
-    "sourcesOk": 33,
+    "sourcesOk": 34,
     "candidates": 150,
     "selected": 27
   }
