@@ -6,7 +6,7 @@ import { hasPrefs, matchesPrefs, orderSections, type Prefs } from "../lib/person
 import { sectionSnapshots, sixtySecondVersion, type SectionSnapshot } from "../lib/snapshot";
 import { DigestCard, StoryTypeBadge } from "./DigestCard";
 import { MarketStrip } from "./MarketStrip";
-import { SignInPreview } from "./SignInPreview";
+import { LockedForYou } from "./LockedForYou";
 import { SubscriptionsSection } from "./SubscriptionsSection";
 import { WelcomeNote } from "./WelcomeNote";
 
@@ -104,46 +104,33 @@ export function DigestView({ digest, archived, onSignIn }: { digest: Digest; arc
 
       <SixtySecondVersion snapshots={snapshots} />
 
-      {!archived && onSignIn && <SignInPreview onSignIn={onSignIn} className="mt-6" />}
-
       <div className="mt-10">
         <div className="min-w-0">
           <div className="print-hidden z-10 -mx-4 border-b sm:sticky sm:top-0 border-rule bg-paper/95 px-4 pt-3 pb-3 backdrop-blur sm:mx-0 sm:px-0">
-            <div
-              id="section-filters"
-              className="no-scrollbar -mx-4 flex scroll-mt-24 gap-1.5 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0"
-              role="tablist"
-              aria-label="Sections"
-            >
-              {showLockedForYou && (
-                <button
-                  type="button"
-                  onClick={onSignIn}
-                  title="Sign in to choose sections and firms"
-                  className="flex shrink-0 items-center gap-1.5 rounded-full border border-dashed border-rule-strong bg-surface px-3 py-1.5 text-[13px] font-medium text-muted hover:border-accent hover:text-ink"
-                >
-                  <svg aria-hidden viewBox="0 0 16 16" className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth="1.6">
-                    <rect x="3.5" y="7" width="9" height="6.5" rx="1.5" />
-                    <path d="M5.5 7V5a2.5 2.5 0 0 1 5 0v2" />
-                  </svg>
-                  For you
-                  <span className="sr-only">(sign in to choose sections and firms)</span>
-                </button>
-              )}
-              {personalized && (
-                <SectionTab label="For you" count={forYouCount} active={filters.section === "foryou"} onClick={() => set({ section: "foryou" })} forYou />
-              )}
-              <SectionTab label="All" count={digest.items.length} active={filters.section === "all"} onClick={() => set({ section: "all" })} />
-              {sections.filter((s) => sectionCounts.get(s.id)).map((s) => (
-                <SectionTab
-                  key={s.id}
-                  section={s.id}
-                  label={s.label}
-                  count={sectionCounts.get(s.id) ?? 0}
-                  active={filters.section === s.id}
-                  onClick={() => set({ section: s.id })}
-                />
-              ))}
+            {/* Positioned wrapper outside the scrolling row, so the For you tooltip isn't clipped by it. */}
+            <div className="relative">
+              <div
+                id="section-filters"
+                className="no-scrollbar -mx-4 flex scroll-mt-24 gap-1.5 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0"
+                role="tablist"
+                aria-label="Sections"
+              >
+                {showLockedForYou && onSignIn && <LockedForYou onSignIn={onSignIn} />}
+                {personalized && (
+                  <SectionTab label="For you" count={forYouCount} active={filters.section === "foryou"} onClick={() => set({ section: "foryou" })} forYou />
+                )}
+                <SectionTab label="All" count={digest.items.length} active={filters.section === "all"} onClick={() => set({ section: "all" })} />
+                {sections.filter((s) => sectionCounts.get(s.id)).map((s) => (
+                  <SectionTab
+                    key={s.id}
+                    section={s.id}
+                    label={s.label}
+                    count={sectionCounts.get(s.id) ?? 0}
+                    active={filters.section === s.id}
+                    onClick={() => set({ section: s.id })}
+                  />
+                ))}
+              </div>
             </div>
             <div className="mt-2.5 grid grid-cols-2 gap-2 sm:grid-cols-[1fr_auto_auto]">
               <label className="col-span-2 sm:col-span-1">
