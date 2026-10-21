@@ -41,6 +41,15 @@ export const TRACKED_FIRMS: readonly string[] = [
   "Warburg Pincus",
   "EQT",
   "Vista Equity",
+  // Real estate and hotels
+  "Starwood Capital",
+  "Prologis",
+  "Marriott",
+  "Hilton",
+  "Hyatt",
+  "IHG",
+  "Accor",
+  "Host Hotels",
 ];
 
 export type SourceKind = "rss" | "edgar" | "fred";

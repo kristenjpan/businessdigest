@@ -110,6 +110,16 @@ export const FIRM_PATTERNS: Record<string, RegExp> = {
   "Warburg Pincus": /\bWarburg Pincus\b/,
   EQT: /\bEQT (AB|Partners|Group)\b|\bEQT\b(?=.*\b(private equity|fund|buyout))/,
   "Vista Equity": /\bVista Equity\b/,
+  // Real estate and hotels. Starwood Property Trust and SREIT are managed by Starwood Capital affiliates.
+  "Starwood Capital": /\bStarwood (Capital|Property Trust|Real Estate Income Trust)\b|\bSREIT\b|\bSternlicht\b/,
+  Prologis: /\bPrologis\b/,
+  Marriott: /\bMarriott\b/,
+  // Not "Paris Hilton" or "Hilton Head": the hotel company, its brands, or "Hilton" in a hotel story.
+  Hilton: /\bHilton (Worldwide|Hotels|Grand Vacations|Garden Inn|Honors)\b|\bby Hilton\b|(?<!Paris )\bHilton\b(?! Head)(?=.*\b(hotels?|brands?|resorts?|rooms?|hospitality|HLT|Nasdaq|NYSE|Scandic)\b)/i,
+  Hyatt: /\bHyatt\b/,
+  IHG: /\bIHG\b|\bInterContinental Hotels\b/,
+  Accor: /\bAccor(Hotels)?\b/,
+  "Host Hotels": /\bHost Hotels\b/,
 };
 
 export const CORE_FIRMS = new Set(CORE_FIRM_LIST);

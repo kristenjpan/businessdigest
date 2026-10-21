@@ -603,3 +603,32 @@ describe("Real Estate & Hotels story cards", () => {
     expect(trimToClause("The New York City Housing Authority (NYCHA) and Reid Park Rock PACT Partners, which includes Fairstead, BRP Companies, Urbane, cut the ribbon…")).toBeNull();
   });
 });
+
+describe("real estate and hotel firms", () => {
+  it("tags each firm and avoids look-alikes", async () => {
+    const { tagFirms } = await import("../normalize");
+    const cases: [string, string[]][] = [
+      ["Hilton and Scandic Sign New Nordics Strategic Agreement", ["Hilton"]],
+      ["DoubleTree by Hilton opens in Austin", ["Hilton"]],
+      ["Paris Hilton launches a fragrance at a Las Vegas hotel", []],
+      ["Hilton Head Island home prices rise", []],
+      ["Hyatt opens first Hyatt Centric hotel in Missouri", ["Hyatt"]],
+      ["How Marriott Bonvoy got scale", ["Marriott"]],
+      ["IHG signs 30 hotels in China", ["IHG"]],
+      ["Accor and Ennismore expand lifestyle brands", ["Accor"]],
+      ["Accordingly, investors rebalanced", []],
+      ["Barry Sternlicht says office is bottoming", ["Starwood Capital"]],
+      ["Prologis raises guidance", ["Prologis"]],
+      ["Host Hotels & Resorts sells two resorts", ["Host Hotels"]],
+      ["Intercontinental Exchange reports volumes", []],
+    ];
+    for (const [text, firms] of cases) expect(tagFirms(text), text).toEqual(firms);
+  });
+
+  it("lists them for readers to follow", async () => {
+    const { TRACKED_FIRMS } = await import("../types");
+    for (const f of ["Starwood Capital", "Prologis", "Marriott", "Hilton", "Hyatt", "IHG", "Accor", "Host Hotels", "Blackstone", "Brookfield"]) {
+      expect(TRACKED_FIRMS).toContain(f);
+    }
+  });
+});
