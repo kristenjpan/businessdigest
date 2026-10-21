@@ -152,7 +152,7 @@ export const THEMES: Theme[] = [
     label: "Real Estate",
     weight: 1,
     patterns: [/\breal estate\b/i, /\bREITs?\b/, /\bBREIT\b/, /\bproperty\b|\bproperties\b/i, /\boffice (market|buildings?|space)\b/i, /\b(housing|multifamily|apartments?|warehouses?|logistics (property|properties|parks?|real estate|portfolio))\b/i, /\bcommercial (real estate|mortgage)\b/i, /\bCRE\b/],
-    term: "REIT",
+    term: "Cap rate",
     why: [
       "Real estate is highly sensitive to interest rates, so it is often the first place higher or lower borrowing costs show up in valuations.",
       "Property is a core holding for family offices and pensions; shifts in values or flows affect a large share of private portfolios.",
@@ -173,7 +173,7 @@ export const THEMES: Theme[] = [
       /\bRevPAR\b|\baverage daily rate\b|\boccupancy\b/i,
       /\b(Marriott|Hilton|Hyatt|IHG|InterContinental|Accor|Wyndham|Choice Hotels|Sonesta|Four Seasons|Kempinski|Mandarin Oriental|Ennismore|Host Hotels)\b/,
     ],
-    term: "REIT", // switches to "RevPAR" once that glossary term exists
+    term: "RevPAR",
     why: [
       "Hotel values move with travel demand and room rates, so hotel news is an early read on consumer and business spending.",
       "Hotel brands earn fees on hotels other people own, so their growth depends on how many new hotels owners are willing to build or convert.",

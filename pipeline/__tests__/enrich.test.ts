@@ -632,3 +632,29 @@ describe("real estate and hotel firms", () => {
     }
   });
 });
+
+describe("real estate and hotel glossary", () => {
+  const RE = "Real estate & hotels" as const;
+  it("finds each term in plain sentences", () => {
+    expect(findTerm("The tower traded at a 5.2% cap rate.", undefined, RE)?.term).toBe("Cap rate");
+    expect(findTerm("Net operating income rose 8% after the lease-up.", undefined, RE)?.term).toBe("NOI");
+    expect(findTerm("U.S. hotel RevPAR grew 2% in September.", undefined, RE)?.term).toBe("RevPAR");
+    expect(findTerm("The hotel's ADR climbed to $310 a night.", undefined, RE)?.term).toBe("ADR");
+    expect(findTerm("Average daily rates held up in Tokyo.", undefined, RE)?.term).toBe("ADR");
+    expect(findTerm("Office occupancy in Manhattan reached 92%.", undefined, RE)?.term).toBe("Occupancy");
+    expect(findTerm("BREIT limited withdrawals again.", undefined, RE)?.term).toBe("REIT");
+  });
+
+  it("only treats ADR as the hotel term in a hotel story", () => {
+    expect(findTerm("IHG ADR shares moved to a new depositary.")?.term).not.toBe("ADR");
+  });
+
+  it("puts real estate terms first for that section, and uses them as the section's defaults", () => {
+    expect(findTerm("A private credit fund lent against a hotel with strong RevPAR.", undefined, RE)?.term).toBe("RevPAR");
+    expect(findTerm("A private credit fund lent against a hotel with strong RevPAR.")?.term).toBe("Private credit");
+    const hotel = raw({ title: "Hyatt opens first Hyatt Centric hotel in Missouri", excerpt: "The lifestyle brand expands.", section: "real-estate", source: { ...news, id: "hotel-dive" } });
+    expect(enrichItem(hotel, market, now).beginnerNote?.term).toBe("RevPAR");
+    const office = raw({ title: "Stephen Ross Buys Second Boca Raton Office Property for $64M", excerpt: "The firm paid $64 million for the office complex.", section: "real-estate", source: { ...news, id: "connect-cre" } });
+    expect(enrichItem(office, market, now).beginnerNote?.term).toBe("Cap rate");
+  });
+});

@@ -36,7 +36,7 @@ export function enrichItem(item: RawItem, market: MarketView, now: Date): Digest
   const theme = classify(item);
   const raw = score(item, now);
   const section = resolveSection(item, theme);
-  const term = findTerm(`${item.title} ${item.excerpt}`, theme.term);
+  const term = findTerm(`${item.title} ${item.excerpt}`, theme.term, section === "real-estate" ? "Real estate & hotels" : undefined);
   const takeaway = takeawayFor(item);
   return {
     id: item.id,

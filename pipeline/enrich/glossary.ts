@@ -4,7 +4,7 @@ export interface GlossaryTerm {
   term: string;
   match: RegExp; // how the term is spotted in a headline or excerpt
   explanation: string;
-  category: "Private markets" | "Public markets" | "Credit" | "Hedge funds" | "Filings & rules" | "Wealth";
+  category: "Private markets" | "Public markets" | "Credit" | "Hedge funds" | "Filings & rules" | "Wealth" | "Real estate & hotels";
 }
 
 export const GLOSSARY: GlossaryTerm[] = [
@@ -48,7 +48,6 @@ export const GLOSSARY: GlossaryTerm[] = [
   { term: "Fed funds rate", match: /\bfed funds\b|\bfederal funds\b|\brate (cut|hike)s?\b/i, category: "Public markets", explanation: "The short-term interest rate set by the Federal Reserve. It drives borrowing costs across the economy, including floating-rate private loans." },
   { term: "Recession", match: /\brecession\b/i, category: "Public markets", explanation: "A broad, sustained decline in economic activity, commonly (though not officially) defined as two quarters of shrinking GDP." },
   { term: "IPO", match: /\bIPOs?\b|\binitial public offering\b/i, category: "Public markets", explanation: "Initial public offering, when a private company first sells shares on a stock exchange. It is a key exit route for private-equity and venture investors." },
-  { term: "REIT", match: /\bREITs?\b|\bBREIT\b/, category: "Public markets", explanation: "Real estate investment trust, a company that owns income-producing property and must pay out most of its income to shareholders." },
 
   // Hedge funds
   { term: "Multi-strategy fund", match: /\bmulti-?strateg(y|ies)\b|\bpod(s| shop)\b/i, category: "Hedge funds", explanation: "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits." },
@@ -69,12 +68,27 @@ export const GLOSSARY: GlossaryTerm[] = [
   { term: "Annuity", match: /\bannuit(y|ies)\b/i, category: "Wealth", explanation: "An insurance product that pays a guaranteed income, often for life. Insurers invest the premiums, increasingly in private credit." },
   { term: "RIA", match: /\bRIAs?\b|\bregistered investment advis/i, category: "Wealth", explanation: "Registered investment adviser, an independent firm legally obliged to act in its clients' best interests when giving investment advice." },
   { term: "Endowment", match: /\bendowments?\b/i, category: "Wealth", explanation: "A pool of money owned by a university or charity and invested to fund its mission forever. The Yale-style endowment model popularized heavy private-market investing." },
+
+  // Real estate & hotels
+  { term: "Cap rate", match: /\bcap rates?\b|\bcapitali[sz]ation rates?\b/i, category: "Real estate & hotels", explanation: "A property's yearly net operating income divided by its price. A building earning $5 million a year that sells for $100 million has a 5% cap rate. A lower cap rate means a higher price, and cap rates tend to rise when interest rates rise." },
+  { term: "NOI", match: /\bNOI\b|\bnet operating income\b/i, category: "Real estate & hotels", explanation: "Net operating income: a property's rent and other income minus the costs of running it (staff, maintenance, property taxes, insurance), before loan payments. It is the profit figure buyers and lenders use to value a building." },
+  { term: "RevPAR", match: /\bRevPAR\b|\brevenue per available room\b/i, category: "Real estate & hotels", explanation: "Revenue per available room: a hotel's room revenue divided by all its rooms, sold or not. It equals occupancy times average daily rate, so it captures both how full a hotel is and what it charges. It is the industry's headline performance number." },
+  { term: "ADR", match: /\baverage daily rates?\b|\bADR\b(?=[\s\S]*\b(hotels?|rooms?|RevPAR|occupancy|lodging)\b)|(?<=\b(hotels?|rooms?|RevPAR|occupancy|lodging)\b[\s\S]*)\bADR\b/i, category: "Real estate & hotels", explanation: "Average daily rate: the average price paid per occupied hotel room per night. Rising ADR while occupancy holds steady means hotels have pricing power." },
+  { term: "Occupancy", match: /\boccupancy\b/i, category: "Real estate & hotels", explanation: "The share of available space in use. For hotels, it is the percentage of rooms sold on a given night; for offices and apartments, the share of space that is leased. Higher occupancy supports income and property values." },
+  { term: "REIT", match: /\bREITs?\b|\bBREIT\b/, category: "Real estate & hotels", explanation: "Real estate investment trust, a company that owns income-producing property and must pay out most of its income to shareholders. Many trade on stock exchanges; non-traded REITs such as BREIT are sold to individuals and limit how much can be withdrawn." },
 ];
 
 const BY_TERM = new Map(GLOSSARY.map((g) => [g.term, g]));
 
-/** Finds the first glossary term mentioned in the text, falling back to the theme's default. */
-export function findTerm(text: string, fallbackTerm?: string): GlossaryTerm | null {
+/**
+ * Finds the first glossary term mentioned in the text, falling back to the theme's default.
+ * `preferCategory` checks one category's terms first (e.g. "Real estate & hotels" for that section).
+ */
+export function findTerm(text: string, fallbackTerm?: string, preferCategory?: GlossaryTerm["category"]): GlossaryTerm | null {
+  if (preferCategory) {
+    const preferred = GLOSSARY.find((g) => g.category === preferCategory && g.match.test(text));
+    if (preferred) return preferred;
+  }
   // Prefer specific terms (earlier in their category, longer match) over broad ones like "valuation".
   const broad = new Set(["Valuation multiple", "Market cycle", "Exit", "High-yield spread", "Volatility (VIX)"]);
   const specific = GLOSSARY.find((g) => !broad.has(g.term) && g.match.test(text));

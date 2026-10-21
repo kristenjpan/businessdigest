@@ -172,7 +172,7 @@ export function GlossaryPage({ term }: { term?: string }) {
   return (
     <div className="max-w-3xl">
       <PageHeader kicker="Glossary" title="Investing terms, in plain English">
-        The jargon you'll meet in private equity, private credit, hedge funds and family-office investing, explained without assuming a
+        The jargon you'll meet in private equity, private credit, hedge funds, real estate and family-office investing, explained without assuming a
         finance degree.
       </PageHeader>
       <input
