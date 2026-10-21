@@ -1,24 +1,20 @@
 import { LOW_VALUE } from "../normalize";
 import { score, shortlist } from "../score";
 import { SECTIONS, type DigestItem, type ExecutiveBrief, type RawItem } from "../types";
-import { FIRM_PROFILES, leadFirm } from "./firms";
 import { findTerm } from "./glossary";
 import { cap, MarketView, sentence } from "./market";
-import { classify, pickBySeed, resolveSection, type Theme } from "./themes";
+import { classify, resolveSection, type Theme } from "./themes";
 import { storyTypeOf } from "./storyType";
-import { cleanTitle, extractTakeaway, takeawayFor } from "./takeaway";
+import { cleanTitle, takeawayFor } from "./takeaway";
+import { whyItMatters } from "./whyItMatters";
+
+export { whyItMatters };
 
 /**
  * The keyless enrichment engine. Deterministic, rule-based and free: no LLM, no API key.
  * Given the same feed items and market data it always produces the same digest.
  */
-export const ENGINE = "rules-v3";
-
-export function whyItMatters(item: RawItem, theme: Theme): string {
-  const firm = leadFirm(item.firms);
-  const parts = [firm ? FIRM_PROFILES[firm] : null, pickBySeed(theme.why, item.id), theme.allocator];
-  return parts.filter(Boolean).join(" ");
-}
+export const ENGINE = "rules-v4";
 
 export function marketContext(theme: Theme, market: MarketView): string {
   if (market.empty) return "Live market data was unavailable for this edition. See the Sources page for FRED links.";
@@ -41,6 +37,7 @@ export function enrichItem(item: RawItem, market: MarketView, now: Date): Digest
   const raw = score(item, now);
   const section = resolveSection(item, theme);
   const term = findTerm(`${item.title} ${item.excerpt}`, theme.term);
+  const takeaway = takeawayFor(item);
   return {
     id: item.id,
     title: cleanTitle(item.title),
@@ -51,8 +48,8 @@ export function enrichItem(item: RawItem, market: MarketView, now: Date): Digest
     firms: item.firms,
     theme: { id: theme.id, label: theme.label },
     importance: importanceOf(raw, theme),
-    takeaway: extractTakeaway(item),
-    whyItMatters: whyItMatters(item, theme),
+    takeaway: takeaway.text,
+    whyItMatters: whyItMatters(item, theme, takeaway.text, takeaway.fromExcerpt),
     marketContext: marketContext(theme, market),
     beginnerNote: term ? { term: term.term, explanation: term.explanation } : null,
     storyType: storyTypeOf(item),
@@ -76,10 +73,15 @@ export function selectAndEnrich(unique: RawItem[], market: MarketView, now: Date
   const pool = unique
     .filter((i) => !LOW_VALUE.test(i.title))
     .map((i) => ({ ...i, section: resolveSection(i, classify(i)) }));
-  // Prefer stories whose feed gives a real summary: a headline-only story would show the headline
-  // twice. Fall back to the full pool only when there aren't enough rich stories to fill the edition.
-  const rich = pool.filter((i) => takeawayFor(i).fromExcerpt);
-  const picked = shortlist(rich.length >= total ? rich : pool, now, { total, perSection: 5, perSource: 4 });
+  // Tiered fill: stories whose takeaway has a "so what" (what changed, plus who or how much) first,
+  // then other stories with a real summary, then headline-only stories (which would show the
+  // headline twice) only when there aren't enough of the others to fill the edition.
+  const tier = new Map(pool.map((i) => {
+    const t = takeawayFor(i);
+    return [i, t.strong ? 2 : t.fromExcerpt ? 1 : 0] as const;
+  }));
+  const rich = pool.filter((i) => tier.get(i)! > 0);
+  const picked = shortlist(rich.length >= total ? rich : pool, now, { total, perSection: 5, perSource: 4 }, (i) => tier.get(i) ?? 0);
   const enriched = picked.map((i) => enrichItem(i, market, now));
 
   const byRank = [...enriched].sort((a, b) => b.rank - a.rank || b.publishedAt.localeCompare(a.publishedAt));

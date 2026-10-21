@@ -288,9 +288,12 @@ export function AboutPage() {
       <section className="mt-10 space-y-3 text-[15px] leading-relaxed text-ink-soft">
         <h3 className="font-display text-[22px] font-semibold text-ink">How summaries are written</h3>
         <p>
-          The site uses no AI. Each key takeaway is a sentence taken directly from the publisher's own summary, so it never adds facts.
-          "Why it matters" and the beginner explainers come from a fixed library the site maintains, and market context uses that morning's
-          real data. The trade-off is that the wording is more formulaic than a human editor's, so read the source for the full story.
+          The site uses no AI. Each key takeaway is a sentence taken directly from the publisher's own summary, so it never adds facts. Of
+          the sentences available, it picks the one that best says who did what and the key number, and stories with a clear takeaway are
+          preferred for the edition. "Why it matters" is one sentence chosen for the kind of news (a deal, a fundraise, a loan, a hire,
+          outflows and so on) and filled in with the story's own firm, amount and subject. Beginner explainers come from a fixed library,
+          and market context uses that morning's real data. The trade-off is that the wording is more formulaic than a human editor's, so
+          read the source for the full story.
         </p>
         <h3 className="font-display pt-4 text-[22px] font-semibold text-ink">Important disclaimer</h3>
         <p>

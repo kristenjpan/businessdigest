@@ -150,6 +150,10 @@ export const LOW_VALUE = new RegExp(
     String.raw`\b(should i|how can i|do (i|we) really need)\b`,
     String.raw`\b\d+ (best|top) \w+`,
     String.raw`^prediction:|\bbetter (buy|stock)\b|\bone is a (much )?better\b`,
+    // Light closing items ("And, finally: …") and routine fund NAV notices.
+    String.raw`\bmust[- ]reads?\b|^and,? finally\b|\bpublishes net asset value\b`,
+    // Earnings-call scheduling notices and law-firm "shareholder alert" solicitations.
+    String.raw`\bearnings conference call\b|\bto (report|announce) .{0,40}\bresults\b|\bannounces? (date|timing) of\b|\$hareholder|\bshareholder alert\b|\bequity alert\b|\bclass action (firm|is investigating)\b|\bminimum bid price\b|\bcompliance period\b`,
     // Personal-finance advice columns written in the first person.
     String.raw`\bmy (\d+-year-old|wife|husband|partner|parents?|mother|father|mom|dad|son|daughter|sister|brother|kids?|children)\b|\bplease help\b|^\d+ (places|ways|things|reasons|signs|mistakes|questions|tips)\b|\b(I['’]m|I['’]ve|I have|can['’]t I|should I|I want)\b|\bSocial Security\b|\bcredit cards?\b`,
     // Rankings and sponsored-style listicles ("11 of the Best Financial Advisor Companies"), and wire roundups.

@@ -6,6 +6,7 @@ import { findTerm, GLOSSARY } from "../enrich/glossary";
 import { describeMove, hyRegime, MarketView, vixRegime } from "../enrich/market";
 import { cleanExcerpt, extractTakeaway, splitSentences, takeawayFor, trimToClause } from "../enrich/takeaway";
 import { storyTypeOf } from "../enrich/storyType";
+import { actorFor, amountIn, eventOf, speakerIn, whyItMatters } from "../enrich/whyItMatters";
 import { classify, resolveSection, THEMES } from "../enrich/themes";
 import { guessSection } from "../normalize";
 import type { ArchiveIndex, MarketSeries, RawItem, SourceRef } from "../types";
@@ -147,7 +148,7 @@ describe("market context", () => {
     expect(item.marketContext).toContain("3.88%");
     expect(item.marketContext).toContain("2.68%");
     expect(item.marketContext).toContain("as of Sep 22");
-    expect(item.whyItMatters).toMatch(/^Apollo is/);
+    expect(item.whyItMatters).toMatch(/^Fewer withdrawal requests .* private credit/);
     expect(item.beginnerNote?.term).toBe("Private credit");
   });
 
@@ -186,6 +187,13 @@ describe("selection and brief", () => {
 });
 
 describe("story-level dedupe", () => {
+  it("merges the same story when only the figure and the names in the summary match", () => {
+    const a = raw({ title: "J.P. Morgan Team Departs to Create $18.6B Independent Firm", excerpt: "Phil Scott and Jim Atwood are forming Latigo Peak Partners." });
+    const b = raw({ title: "Ex-J.P. Morgan Duo Launches $18.6B AUM RIA In Palm Beach", excerpt: "Phil Scott and Jim Atwood created Latigo Peak, with hubs in Boston." });
+    const c = raw({ title: "Another firm crosses $18.6B in assets", excerpt: "Unrelated Partners reported growth." });
+    expect(dedupeStories([a, b, c])).toHaveLength(2);
+  });
+
   it("merges the same story from two outlets but keeps unrelated stories", () => {
     const a = raw({ title: "KKR Committed $350 Million to Launch Akrapoint Commercial Capital", firms: ["KKR"], tier: 3, excerpt: "KKR will commit $350 million." });
     const b = raw({ title: "KKR launches $350m equipment finance platform", firms: ["KKR"], tier: 2, excerpt: "KKR has launched Akrapoint, backed by $350m." });
@@ -297,7 +305,7 @@ describe("takeaway quality", () => {
         excerpt: "“I presume these are sophisticated investors taking a profit.” Flows into semi-liquid private credit funds hit a record in September.",
       }),
     );
-    expect(t).toEqual({ text: "Flows into semi-liquid private credit funds hit a record in September.", fromExcerpt: true });
+    expect(t).toEqual({ text: "Flows into semi-liquid private credit funds hit a record in September.", fromExcerpt: true, strong: false });
   });
 
   it("flags stories whose feed offers nothing beyond quotes or the headline", () => {
@@ -365,5 +373,109 @@ describe("current-user improvements", () => {
       ["2026-10-14", "c"],
       ["2026-10-13", "b"],
     ]);
+  });
+});
+
+describe("so-what takeaways", () => {
+  it("picks the sentence with who, what changed and the number, not just the first one", () => {
+    const t = takeawayFor(
+      raw({
+        title: "Kartesia deploys capital from third asset finance fund",
+        excerpt:
+          "Investors want more exposure to real assets. Kartesia Asset Finance has invested €88m across the first three transactions from its KAF III fund, financing aviation and maritime assets.",
+      }),
+    );
+    expect(t.text).toMatch(/^Kartesia Asset Finance has invested €88m/);
+    expect(t.strong).toBe(true);
+  });
+
+  it("marks vague takeaways as weak", () => {
+    const t = takeawayFor(raw({ title: "SGX FX expands integration", excerpt: "Investors want FX execution to connect more seamlessly with portfolio and risk systems." }));
+    expect(t.fromExcerpt).toBe(true);
+    expect(t.strong).toBe(false);
+  });
+
+  it("does not trim a cut-off sentence into a subject with no verb", () => {
+    const t = takeawayFor(
+      raw({
+        title: "HPS to buy clinic stake",
+        excerpt: "HedgeCo.Net — Humana said funds and accounts managed by HPS Investment Partners, part of BlackRock, will acquire Welsh, Carson, Anderson & Stowe's equity ownership in a network of … Continue reading →",
+      }),
+    );
+    expect(t.text).not.toMatch(/part of BlackRock\.$|Welsh, Carson\.$/);
+  });
+
+  it("fills the edition with strong takeaways first", () => {
+    const strong = Array.from({ length: 4 }, (_, i) =>
+      raw({ title: `Ares deal ${i}`, excerpt: `Ares has acquired a $${i + 2}bn portfolio of loans from a regional bank this week.`, source: { ...news, id: `st${i}` } }),
+    );
+    const weak = Array.from({ length: 4 }, (_, i) =>
+      raw({ title: `Musings ${i}`, excerpt: `Investors want more clarity on what comes next for markets this autumn, number ${i}.`, tier: 1, firms: ["KKR"], source: { ...news, id: `wk${i}` } }),
+    );
+    const picked = selectAndEnrich([...weak, ...strong], market, now, 4).items.map((i) => i.title);
+    expect(picked.every((t) => t.startsWith("Ares deal"))).toBe(true);
+    expect(selectAndEnrich([...weak, ...strong.slice(0, 2)], market, now, 4).items).toHaveLength(4); // weaker ones fill the gap
+  });
+});
+
+describe("why it matters: one specific sentence", () => {
+  const why = (o: Partial<RawItem>, takeaway = "") => {
+    const item = raw(o);
+    return whyItMatters(item, classify(item), takeaway || takeawayFor(item).text, Boolean(takeaway) || takeawayFor(item).fromExcerpt);
+  };
+
+  it("detects the kind of event from the headline", () => {
+    const ev = (title: string) => eventOf(raw({ title }), "");
+    expect(ev("Blackstone agrees to acquire software maker in $4bn take-private")).toBe("deal");
+    expect(ev("Hg reaches €1bn first close for debut secondaries fund")).toBe("fundraise");
+    expect(ev("KKR Agreed to Sell Railcar Lessor to Ares for About $2.9 Billion")).toBe("exit");
+    expect(ev("GTCR Leads $200 Million Second Lien Term Loan for Sophos")).toBe("financing");
+    expect(ev("U.S. Spot Bitcoin ETFs Shed $261.4 Million as BlackRock Led Redemptions")).toBe("outflows");
+    expect(ev("Citizens Sues Ameriprise, Accusing Ex-Advisor of Breaking Employment Contracts")).toBe("legal");
+    expect(ev("Macquarie hires credit head from Blackstone")).toBe("people");
+    expect(ev("Partners Group Cuts Management Fees Before Fund Overhaul")).toBe("fees");
+    expect(ev("Tenstorrent Raised a $1.5 Billion Series E")).toBe("venture");
+    expect(ev("Hedge funds dumped tech stocks at fastest pace since 2016")).toBe("market-move");
+  });
+
+  it("names the actor and the amount when the story has them", () => {
+    expect(why({ title: "Apollo’s £5.7bn easyJet takeover faces union opposition", firms: ["Apollo"] })).toMatch(/^Apollo's £5\.7bn deal now faces pushback/);
+    expect(why({ title: "Kartesia Asset Finance deploys €88m across first three KAF III investments", section: "private-markets" })).toMatch(
+      /^Kartesia Asset Finance's €88m deal shows private lenders .* asset-based finance/,
+    );
+    expect(why({ title: "Macquarie hires credit head from Blackstone", firms: ["Blackstone"] })).toMatch(/Macquarie/);
+    expect(why({ title: "Macquarie hires credit head from Blackstone", firms: ["Blackstone"] })).not.toMatch(/Blackstone/);
+  });
+
+  it("is exactly one sentence, with no firm biography or allocator line", () => {
+    const titles = [
+      "Blackstone agrees to acquire software maker in $4bn take-private",
+      "Ares holds final close on sixth direct lending fund",
+      "Fed holds interest rates steady, signals patience on inflation",
+      "A conversation with a legendary investor",
+      "Something with no clear event at all",
+    ];
+    for (const title of titles) {
+      const w = why({ title, firms: ["Blackstone"] });
+      expect(w.split(/(?<=[.!?])\s+(?=[A-Z])/)).toHaveLength(1);
+      expect(w).not.toMatch(/For allocators|largest alternative asset manager/);
+    }
+  });
+
+  it("pulls clean facts from headlines", () => {
+    expect(amountIn("BlackRock’s HPS Agreed to Buy Welsh Carson’s Roughly $2.8 Billion Stake")).toBe("$2.8 billion");
+    expect(amountIn("Palliser Opposing CVC’s Revised €53-a-Share Offer")).toBeNull();
+    expect(amountIn("Osaic Adds $2.3B N.J. Advisor Team")).toBe("$2.3bn");
+    expect(speakerIn("SoftBank CEO Masayoshi Son: Superintelligence and AI Investing")).toBe("Masayoshi Son");
+    expect(speakerIn("SEC Announces Roundtable on Machine-Understandable Data")).toBeNull();
+    expect(actorFor(raw({ title: "Novavax critic Shah Capital ends its activism campaign" }), "", false)).toBe("Shah Capital");
+  });
+
+  it("classifies asset finance as private credit, not real estate", () => {
+    const item = raw({
+      title: "Kartesia Asset Finance deploys €88m across first three KAF III investments",
+      excerpt: "Kartesia Asset Finance has invested €88m, financing aviation, maritime and logistics assets in Europe and the US.",
+    });
+    expect(classify(item).id).toBe("private-credit");
   });
 });

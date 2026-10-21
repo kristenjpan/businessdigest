@@ -39,10 +39,19 @@ export function isRecent(item: RawItem, now: Date, baseHours: number): boolean {
 
 /**
  * Picks a diverse shortlist: up to `perSection` of the best items from each section first (taken in turns),
- * then fills by score, never taking more than `perSource` from one source.
+ * then fills by score, never taking more than `perSource` from one source. An optional `priority`
+ * ranks ahead of score, so within each section higher-priority stories are taken first.
  */
-export function shortlist(items: RawItem[], now: Date, opts = { total: 80, perSection: 6, perSource: 8 }): RawItem[] {
-  const ranked = items.map((item) => ({ item, s: score(item, now) })).sort((a, b) => b.s - a.s);
+export function shortlist(
+  items: RawItem[],
+  now: Date,
+  opts = { total: 80, perSection: 6, perSource: 8 },
+  priority: (item: RawItem) => number = () => 0,
+): RawItem[] {
+  // Higher priority always comes first (e.g. stories whose takeaway has a real "so what"), then score.
+  const ranked = items
+    .map((item) => ({ item, p: priority(item), s: score(item, now) }))
+    .sort((a, b) => b.p - a.p || b.s - a.s);
   const picked = new Set<RawItem>();
   const perSource = new Map<string, number>();
   const take = (item: RawItem) => {

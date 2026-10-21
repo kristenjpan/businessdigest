@@ -90,7 +90,11 @@ export function dedupeStories(items: RawItem[]): RawItem[] {
       const rare = [...nouns[a]].filter((n) => nouns[b].has(n) && df.get(n) === 2);
       const inBothTitles = rare.filter((n) => titleNouns[a].has(n) && titleNouns[b].has(n));
       const inATitle = rare.some((n) => titleNouns[a].has(n) || titleNouns[b].has(n));
-      if (!inATitle) continue;
+      // Same figure in both headlines plus two shared rare names in the summaries ("J.P. Morgan Team
+      // Departs to Create $18.6B Firm" / "Ex-J.P. Morgan Duo Launches $18.6B RIA", both naming Latigo Peak).
+      const titleAmtA = amounts(items[a].title);
+      const sameHeadlineFigure = [...amounts(items[b].title)].some((x) => titleAmtA.has(x));
+      if (!inATitle && !(sameHeadlineFigure && rare.length >= 2)) continue;
       const sharedFirm = items[a].firms.some((f) => items[b].firms.includes(f));
       const amtA = amounts(`${items[a].title} ${items[a].excerpt}`);
       const sharedAmount = [...amounts(`${items[b].title} ${items[b].excerpt}`)].some((x) => amtA.has(x));

@@ -15,8 +15,8 @@ Each story shows:
 | Field | What it is |
 | --- | --- |
 | **Source and date** | Publisher, publication time, and a link to the original |
-| **Key takeaway** | One sentence on what's new, taken from the publisher's own summary |
-| **Why it matters** | Significance for investors, allocators and family offices |
+| **Key takeaway** | One sentence on what's new, taken from the publisher's own summary: the sentence that best names who, what changed and the key number |
+| **Why it matters** | One sentence on what the news means for investors, written for the kind of event and naming the story's own firm and amount |
 | **Market context** | That morning's real FRED numbers, framed for the story's theme |
 | **New to this?** | A plain-English explainer of one jargon term, tap to expand |
 
@@ -104,20 +104,23 @@ npm test                       # pipeline unit tests
    (the site builds the 60-Second Version and section summaries from the stories: src/lib/snapshot.ts)
 ```
 
-**Takeaways** are one complete sentence from the publisher's own summary. Sentences that are quotations, show-note filler or a repeat of the headline are skipped. When a feed offers nothing beyond the headline, the story is left out as long as there are enough other stories to fill the edition. The site used GitHub Models for AI takeaways until GitHub retired that service on July 30, 2026.
+**Takeaways** are one complete sentence from the publisher's own summary. Sentences that are quotations, show-note filler or a repeat of the headline are skipped. Each remaining sentence is scored for a "so what": a key number (+3), a named firm or company (+2), a verb saying what changed (+2) and an early position (+1), minus points for vague subjects ("Investors want…") and questions. The best one wins. Selection fills the edition with stories whose takeaway says what changed plus who or how much, then other stories with a real summary. Headline-only stories come last and are used only if needed to fill the edition.
+
+**Why it matters** is a single sentence. `whyItMatters.ts` detects the event from the headline (a deal, deal talks or pushback, fundraise, exit, loan, outflows or inflows, lawsuit, hire, results, launch, fee cut, rates, a market move, an interview and about 15 more). It then fills that event's sentence with the story's own facts: the firm the headline is about, the deal size and the subject (private credit, AI, crypto…). Stories with no recognizable event fall back to their theme's one-sentence explanation. The site used GitHub Models for AI takeaways until GitHub retired that service on July 30, 2026.
 
 **The rules engine** (`pipeline/enrich/`):
 
 | File | What it does |
 | --- | --- |
-| `themes.ts` | 20 themes: fundraising, M&A, private credit, exits, real estate, infrastructure, rates, regulation, hedge funds, family offices and more. Each has keyword patterns, an importance weight, "why it matters" templates, an allocator angle, and a market-context builder. |
-| `takeaway.ts` | Fallback takeaway: the first complete, informative sentence of the publisher's excerpt, with boilerplate stripped and cut-off sentences trimmed to their last full clause. It never writes new facts. |
+| `themes.ts` | 20 themes: fundraising, M&A, private credit, exits, real estate, infrastructure, rates, regulation, hedge funds, family offices and more. Each has keyword patterns, an importance weight, fallback "why it matters" sentences and a market-context builder. |
+| `takeaway.ts` | The takeaway: the publisher's sentence with the most "so what", with boilerplate stripped and cut-off sentences trimmed to their last full clause. It never writes new facts. |
+| `whyItMatters.ts` | One-sentence "why it matters": event detection plus the story's actor, amount and topic. |
 | `market.ts` | Turns FRED data into sentences with regime labels, e.g. VIX *calm/normal/elevated/stressed*, HY spreads *tight/normal/wide*, and curve shape. |
-| `firms.ts` | Qualitative profiles of about 25 firms. These deliberately contain no figures that could go stale. |
+| `firms.ts` | The list of tracked firms used to pick a story's lead firm. |
 | `glossary.ts` | About 50 beginner terms. It is shared with the site's Glossary page. |
 | `index.ts` | Selection, importance (1–5) and the market read. |
 
-To improve the writing, edit the templates in `themes.ts` and `firms.ts`. Tests in `pipeline/__tests__/` guard the behavior.
+To improve the writing, edit the event sentences in `whyItMatters.ts` and the fallback templates in `themes.ts`. Tests in `pipeline/__tests__/` guard the behavior.
 
 ## Sourcing policy
 

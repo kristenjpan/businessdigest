@@ -123,7 +123,7 @@ export const THEMES: Theme[] = [
     id: "private-credit",
     label: "Private Credit",
     weight: 1.5,
-    patterns: [/\bprivate credit\b/i, /\bdirect lending\b/i, /\bBDCs?\b/, /\basset[- ]based (finance|lending)\b/i, /\bequipment financ(e|ing)\b/i, /\bNAV (loan|lending|financing)\b/i, /\bcredit fund\b/i, /\bunitranche\b/i, /\bCLOs?\b/, /\bprivate (debt|lending)\b/i, /\bspecialty finance\b/i],
+    patterns: [/\bprivate credit\b/i, /\bdirect lending\b/i, /\bBDCs?\b/, /\basset[- ]based (finance|lending)\b/i, /\basset finance\b|\bABF\b/i, /\b(equipment|aviation|aircraft) financ(e|ing)\b/i, /\bNAV (loan|lending|financing)\b/i, /\bcredit fund\b/i, /\bunitranche\b/i, /\bCLOs?\b/, /\bprivate (debt|lending)\b/i, /\bspecialty finance\b/i],
     term: "Direct lending",
     why: [
       "Private credit has grown into one of the fastest-growing corners of finance as non-bank lenders take share from banks.",
@@ -151,7 +151,7 @@ export const THEMES: Theme[] = [
     id: "real-estate",
     label: "Real Estate",
     weight: 1,
-    patterns: [/\breal estate\b/i, /\bREITs?\b/, /\bBREIT\b/, /\bproperty\b|\bproperties\b/i, /\boffice (market|buildings?|space)\b/i, /\b(housing|multifamily|apartments?|warehouses?|logistics)\b/i, /\bcommercial (real estate|mortgage)\b/i, /\bCRE\b/],
+    patterns: [/\breal estate\b/i, /\bREITs?\b/, /\bBREIT\b/, /\bproperty\b|\bproperties\b/i, /\boffice (market|buildings?|space)\b/i, /\b(housing|multifamily|apartments?|warehouses?|logistics (property|properties|parks?|real estate|portfolio))\b/i, /\bcommercial (real estate|mortgage)\b/i, /\bCRE\b/],
     term: "REIT",
     why: [
       "Real estate is highly sensitive to interest rates, so it is often the first place higher or lower borrowing costs show up in valuations.",
