@@ -18,6 +18,8 @@ export interface RssSource extends BaseSource {
   excludeUrl?: RegExp;
   /** High-volume wires: keep only items that name a tracked firm or match investment keywords. */
   requireRelevance?: boolean;
+  /** Broad feeds (e.g. travel news): keep only items whose title or summary matches this topic. */
+  topic?: RegExp;
   /** A paywalled publisher's public headline feed, shown only to readers who subscribe to it. */
   subscription?: SubscriptionId;
 }
@@ -374,6 +376,100 @@ export const SOURCES: Source[] = [
     description: "Company-issued press releases from the financials industry.",
   },
 
+  // ── Real estate & hotels ─────────────────────────────────────────────────
+  {
+    kind: "rss",
+    id: "commercial-observer",
+    name: "Commercial Observer",
+    url: "https://commercialobserver.com/feed/",
+    homepage: "https://commercialobserver.com/",
+    contentType: "news",
+    section: "real-estate",
+    tier: 3,
+    description: "Commercial real estate deals, financings and leasing, mainly in the U.S.",
+  },
+  {
+    kind: "rss",
+    id: "bisnow",
+    name: "Bisnow",
+    url: "https://www.bisnow.com/rss",
+    homepage: "https://www.bisnow.com/",
+    contentType: "news",
+    section: "real-estate",
+    tier: 3,
+    description: "National commercial real estate news: deals, development and capital markets.",
+  },
+  {
+    kind: "rss",
+    id: "connect-cre",
+    name: "Connect CRE",
+    url: "https://www.connectcre.com/feed/",
+    homepage: "https://www.connectcre.com/",
+    contentType: "news",
+    section: "real-estate",
+    tier: 3,
+    description: "Commercial real estate sales, financings and development.",
+  },
+  {
+    kind: "rss",
+    id: "mingtiandi",
+    name: "Mingtiandi",
+    url: "https://www.mingtiandi.com/feed/",
+    homepage: "https://www.mingtiandi.com/",
+    contentType: "news",
+    section: "real-estate",
+    tier: 3,
+    description: "Asia-Pacific real estate investment news: Singapore, Japan, Australia, China and more.",
+  },
+  {
+    kind: "rss",
+    id: "hotel-dive",
+    name: "Hotel Dive",
+    url: "https://www.hoteldive.com/feeds/news/",
+    homepage: "https://www.hoteldive.com/",
+    contentType: "news",
+    section: "real-estate",
+    tier: 3,
+    description: "Hotel industry news: brands, openings, owners and operators.",
+  },
+  {
+    kind: "rss",
+    id: "skift",
+    name: "Skift",
+    url: "https://skift.com/feed/",
+    homepage: "https://skift.com/",
+    contentType: "news",
+    section: "real-estate",
+    tier: 3,
+    // Skift also covers airlines and travel tech; keep hotel and real estate stories only.
+    topic: /\b(hotels?|resorts?|hospitality|lodging|RevPAR|occupancy|Marriott|Hilton|Hyatt|IHG|Accor|Wyndham|Choice Hotels|Sonesta|Four Seasons|Ennismore|real estate|REITs?)\b/i,
+    description: "Hotel company strategy, deals and performance (travel-industry coverage filtered to hotels).",
+  },
+  {
+    kind: "rss",
+    id: "lodging-magazine",
+    name: "Lodging Magazine",
+    url: "https://lodgingmagazine.com/feed/",
+    homepage: "https://lodgingmagazine.com/",
+    contentType: "news",
+    section: "real-estate",
+    tier: 3,
+    description: "Hotel transactions, development and ownership news.",
+  },
+  {
+    kind: "rss",
+    id: "hospitality-net",
+    name: "Hospitality Net",
+    url: "https://www.hospitalitynet.org/news/global.xml",
+    homepage: "https://www.hospitalitynet.org/",
+    contentType: "news",
+    section: "real-estate",
+    tier: 3,
+    // Much of this feed is vendor PR; keep deals, openings, brands and performance.
+    topic: /\b(acquir\w*|sale|sells?|sold|buys?|bought|financ\w*|loans?|invest\w*|opens?|opening|debuts?|signs?|signed|pipeline|portfolio|RevPAR|ADR|occupancy|performance|results|earnings|transactions?|deals?|brands?|REITs?|funds?|development|listings?|IPO|shares|Marriott|Hilton|Hyatt|IHG|Accor|Wyndham|Choice Hotels)\b/i,
+    description: "Global hotel industry news, including Asia-Pacific (filtered to deals, openings and performance).",
+  },
+
   // ── SEC EDGAR (official public API) ──────────────────────────────────────
   ...(
     [
@@ -396,6 +492,34 @@ export const SOURCES: Source[] = [
       homepage: `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}`,
       contentType: "filing",
       section: "filings",
+      tier: 1,
+      firms: [firm],
+      description: `Official SEC filings (8-K, 10-Q, 10-K) by ${company}.`,
+    }),
+  ),
+  // Real estate and hotel companies: their filings appear in Real Estate & Hotels.
+  ...(
+    [
+      ["edgar-pld", "Prologis", "Prologis, Inc.", 1045609],
+      ["edgar-mar", "Marriott", "Marriott International, Inc.", 1048286],
+      ["edgar-hlt", "Hilton", "Hilton Worldwide Holdings Inc.", 1585689],
+      ["edgar-h", "Hyatt", "Hyatt Hotels Corporation", 1468174],
+      ["edgar-hst", "Host Hotels", "Host Hotels & Resorts, Inc.", 1070750],
+      ["edgar-breit", "Blackstone", "Blackstone Real Estate Income Trust, Inc.", 1662972],
+      // Externally managed by an affiliate of Starwood Capital Group.
+      ["edgar-stwd", "Starwood Capital", "Starwood Property Trust, Inc.", 1465128],
+    ] as const
+  ).map(
+    ([id, firm, company, cik]): EdgarSource => ({
+      kind: "edgar",
+      id,
+      name: `SEC EDGAR — ${company}`,
+      company,
+      cik,
+      forms: ["8-K", "10-Q", "10-K"],
+      homepage: `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}`,
+      contentType: "filing",
+      section: "real-estate",
       tier: 1,
       firms: [firm],
       description: `Official SEC filings (8-K, 10-Q, 10-K) by ${company}.`,

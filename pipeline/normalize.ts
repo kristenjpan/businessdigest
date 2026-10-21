@@ -133,7 +133,7 @@ const SECTION_KEYWORDS: [SectionId, RegExp][] = [
 ];
 
 export function guessSection(text: string, fallback: SectionId): SectionId {
-  if (fallback === "voices" || fallback === "filings") return fallback;
+  if (fallback === "voices" || fallback === "filings" || fallback === "real-estate") return fallback;
   for (const [section, re] of SECTION_KEYWORDS) if (re.test(text)) return section;
   return fallback;
 }

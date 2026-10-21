@@ -5,6 +5,7 @@ export const SECTIONS = [
   { id: "private-markets", label: "Private Markets" },
   { id: "family-offices", label: "Family Offices & Wealth" },
   { id: "private-equity", label: "Private Equity" },
+  { id: "real-estate", label: "Real Estate & Hotels" },
   { id: "hedge-funds", label: "Hedge Funds" },
   { id: "voices", label: "Voices & Interviews" },
   { id: "filings", label: "Filings" },

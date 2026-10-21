@@ -371,6 +371,7 @@ const SECTION_DEFAULT: Record<SectionId, string> = {
   "private-markets": "private-markets",
   "family-offices": "family-office",
   "private-equity": "deals",
+  "real-estate": "real-estate",
   "hedge-funds": "hedge-funds",
   voices: "voices",
   filings: "disclosure",

@@ -68,6 +68,7 @@ export async function fetchRssSource(source: RssSource): Promise<SourceResult> {
       // Subscriber feeds are paywalled publishers by design; they're kept out of the free edition instead.
       else if (!source.subscription && isPaywalled(item.url)) result.dropped.paywalled++;
       else if (source.requireRelevance && !item.firms.length && !INVESTMENT_RELEVANT.test(`${item.title} ${item.excerpt}`)) result.dropped.offTopic++;
+      else if (source.topic && !source.topic.test(`${item.title} ${item.excerpt}`)) result.dropped.offTopic++;
       else result.items.push(item);
     }
     result.ok = true;
