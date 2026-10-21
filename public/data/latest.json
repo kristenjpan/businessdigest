@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "generatedAt": "2026-10-21T03:11:22.186Z",
+  "generatedAt": "2026-10-21T03:17:08.325Z",
   "engine": "rules-v5",
   "edition": 28,
   "brief": {
@@ -1297,25 +1297,27 @@
       "aiSummarized": false
     },
     {
-      "id": "252146114c0f",
-      "title": "Anaheim Sale is First Closing in Broader Multifamily Portfolio",
-      "url": "https://www.connectcre.com/stories/anaheim-sale-is-first-closing-in-broader-multifamily-portfolio/",
-      "publishedAt": "2026-10-20T21:33:04.000Z",
+      "id": "a9de33e3c363",
+      "title": "Hyatt Announces Opening of New Hyatt Centric Hotel in St. Louis, Missouri",
+      "url": "https://lodgingmagazine.com/hyatt-announces-opening-of-new-hyatt-centric-hotel-in-st-louis-missouri/",
+      "publishedAt": "2026-10-20T12:20:15.000Z",
       "source": {
-        "id": "connect-cre",
-        "name": "Connect CRE",
-        "homepage": "https://www.connectcre.com/",
+        "id": "lodging-magazine",
+        "name": "Lodging Magazine",
+        "homepage": "https://lodgingmagazine.com/",
         "contentType": "news"
       },
       "section": "real-estate",
-      "firms": [],
+      "firms": [
+        "Hyatt"
+      ],
       "theme": {
-        "id": "real-estate",
-        "label": "Real Estate"
+        "id": "hotels",
+        "label": "Hotels & Hospitality"
       },
-      "importance": 2,
-      "takeaway": "Marcus & Millichap recently completed the sale of Empire Apartments, a 29-unit multifamily property in Anaheim.",
-      "whyItMatters": "This deal for an apartment property is a fresh price point for apartment values, which owners, lenders and appraisers use to value similar buildings.",
+      "importance": 3,
+      "takeaway": "CHICAGO, Illinois—Hyatt Hotels Corporation announced the opening of Hyatt Centric Downtown St. Louis, the first Hyatt Centric hotel in Missouri.",
+      "whyItMatters": "Hyatt adding hotels grows its fee income without owning the buildings, which is why investors watch hotel companies' pipelines as closely as their profits.",
       "marketContext": "The 10-year Treasury yield is 5.15% (up 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.33 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 20.)",
       "beginnerNote": {
         "term": "REIT",
@@ -1532,7 +1534,7 @@
   "stats": {
     "sourcesChecked": 52,
     "sourcesOk": 34,
-    "candidates": 150,
+    "candidates": 149,
     "selected": 27
   }
 }
