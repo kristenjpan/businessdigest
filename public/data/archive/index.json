@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-21T03:18:21.419Z",
+  "updatedAt": "2026-10-21T15:11:12.858Z",
   "editions": [
+    {
+      "date": "2026-10-21",
+      "edition": 29,
+      "headline": "Northwind Group Closes $1B Debt Fund",
+      "items": 27
+    },
     {
       "date": "2026-10-20",
       "edition": 28,
