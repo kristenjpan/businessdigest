@@ -1,26 +1,71 @@
 {
-  "generatedAt": "2026-10-20T15:00:24.241Z",
+  "generatedAt": "2026-10-21T02:38:34.711Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "f548b878627d",
-          "title": "Bob Chapek Is Getting $100,000 a Month as Activist’s Nominee for Vail Board",
-          "url": "https://www.wsj.com/business/bob-chapek-is-getting-100-000-a-month-as-activists-nominee-for-vail-board-b3585fcd?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-20T14:24:00.000Z",
-          "teaser": "Oasis Management is paying the consulting fee to the former Disney CEO, one of the activist investor’s four nominees to the ski company’s board of directors.",
+          "id": "d60de4b34d07",
+          "title": "Gold Falls Amid Pressure From Rising Crude Prices",
+          "url": "https://www.wsj.com/finance/commodities-futures/gold-falls-amid-pressure-from-rising-crude-prices-ea4a6f71?mod=rss_markets_main",
+          "publishedAt": "2026-10-21T01:15:00.000Z",
+          "teaser": "Gold declined in early Asian trade.",
           "firms": [],
-          "section": "hedge-funds"
+          "section": "markets"
         },
         {
-          "id": "8f474f5a6ea2",
-          "title": "Webull to Offer Perpetual Futures Starting Next Month",
-          "url": "https://www.wsj.com/finance/commodities-futures/webull-to-offer-perpetual-futures-starting-next-month-32a82d44?mod=rss_markets_main",
-          "publishedAt": "2026-10-20T13:00:00.000Z",
-          "teaser": "Webull is preparing to roll out perpetual futures contracts, a derivative contract new to regulated U.S. markets that never expires, on its online investment platform next month.",
+          "id": "c69491aa58d8",
+          "title": "Five Takeaways From SpaceX’s Earnings Call",
+          "url": "https://www.wsj.com/business/five-takeaways-from-spacexs-earnings-call-b91bcaf2?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-20T23:42:00.000Z",
+          "teaser": "A possible SpaceX-Tesla merger, a Louisiana launchpad and projected revenue of $500 billion a year, plus more from CEO Elon Musk.",
           "firms": [],
-          "section": "family-offices"
+          "section": "markets"
+        },
+        {
+          "id": "72fbe4b72b70",
+          "title": "Tesla and SpaceX Formed Committees to Discuss Potential Merger, Elon Musk Says",
+          "url": "https://www.wsj.com/business/earnings/spacex-spcx-q3-earnings-report-2026-stock-4138193d?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-20T22:47:00.000Z",
+          "teaser": "The CEO running both companies said “there is a lot of merit” in combining them.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "22a47acb2973",
+          "title": "U.S. Stocks Mixed as Strong Earnings Offset AI Credit Fears",
+          "url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-strong-earnings-offset-ai-credit-fears-d55414c3?mod=rss_markets_main",
+          "publishedAt": "2026-10-20T21:06:00.000Z",
+          "teaser": "U.S. stocks ended mixed, as generally strong earnings offset worries about the sustainability of the debt-fuelled artificial-intelligence boom.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "6265c780c2b2",
+          "title": "Opinion | A Buyout for Iran’s ‘Shadow Fleet’",
+          "url": "https://www.wsj.com/opinion/a-buyout-for-irans-shadow-fleet-82749edc?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-20T21:03:00.000Z",
+          "teaser": "The U.S. can exploit sanctions to suppress the black market.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "0c96d8f05d35",
+          "title": "Capital One Logs Higher Profit, Revenue as Discover Integration Continues",
+          "url": "https://www.wsj.com/business/earnings/capital-one-logs-higher-profit-revenue-as-discover-integration-continues-c5b264cb?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-20T20:59:00.000Z",
+          "teaser": "The company posted a third-quarter profit of $3.54 billion, up from $3.19 billion a year earlier.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "f548b878627d",
+          "title": "Disney’s Former CEO Is Getting $100,000 a Month as Activist’s Nominee for Vail Board",
+          "url": "https://www.wsj.com/business/bob-chapek-is-getting-100-000-a-month-as-activists-nominee-for-vail-board-b3585fcd?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-20T15:55:00.000Z",
+          "teaser": "Oasis Management is paying the consulting fee to Bob Chapek, one of the activist investor’s four nominees to the ski company’s board of directors.",
+          "firms": [],
+          "section": "hedge-funds"
         },
         {
           "id": "cf1e6a7228d4",
@@ -30,51 +75,6 @@
           "teaser": "Salesforce signed a deal to buy Braze for about $5.66 billion including debt, adding a customer-engagement platform to its portfolio.",
           "firms": [],
           "section": "private-equity"
-        },
-        {
-          "id": "ea2c142448eb",
-          "title": "Synchrony Financial Profit Falls on Higher Costs but Credit Trends Improve",
-          "url": "https://www.wsj.com/business/earnings/synchrony-financial-profit-falls-on-higher-costs-but-credit-trends-improve-7ba1ad80?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-20T12:36:00.000Z",
-          "teaser": "Synchrony posted a third-quarter profit of $892 million, or $2.68 a share, down from $1.1 billion, or $2.86 a share, a year earlier.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "8dedf7e3d687",
-          "title": "Prudential Financial Sells Prudential of Brazil, Prudential of Mexico for $4 Billion",
-          "url": "https://www.wsj.com/finance/investing/prudential-financial-sells-prudential-of-brazil-prudential-of-mexico-for-4-billion-985c25bf?mod=rss_markets_main",
-          "publishedAt": "2026-10-20T11:13:00.000Z",
-          "teaser": "The investment manager and financial services provider said it has entered a definitive agreement to sell Prudential of Brazil and Prudential of Mexico to CNP Assurances in a cash deal.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "f3445cd9175d",
-          "title": "Amazon Pledges More Than $17 Billion to Expand German Operations",
-          "url": "https://www.wsj.com/business/telecom/amazon-pledges-over-17-billion-to-expand-german-operations-52c311ee?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-20T11:03:00.000Z",
-          "teaser": "The company plans to invest AI infrastructure, high-speed satellite internet, logistics projects and new Prime Video content, the latest big-ticket investment from a U.S. tech company keen to expand overseas.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "a041b649d9ad",
-          "title": "Four Financial Lessons From the Hedge-Fund Divorce Captivating Wall Street",
-          "url": "https://www.wsj.com/personal-finance/four-financial-lessons-from-the-hedge-fund-divorce-captivating-wall-street-e09a441b?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-20T09:30:00.000Z",
-          "teaser": "John and Laura Overdeck have been engaged in a monthslong trial that could produce one of the largest divorce settlements in history.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "7a67d4271ebe",
-          "title": "Gold Slips as Investors Await Fed Meeting Next Week",
-          "url": "https://www.wsj.com/finance/commodities-futures/gold-edges-lower-as-higher-yields-weigh-ebc91ac4?mod=rss_markets_main",
-          "publishedAt": "2026-10-20T08:55:00.000Z",
-          "teaser": "Gold prices slipped as rising energy prices heightened inflation concerns, and silver futures and platinum rose.",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -82,10 +82,64 @@
       "id": "ft",
       "items": [
         {
+          "id": "aa8f474008a0",
+          "title": "Australian data centre group falls 44% on profit warning",
+          "url": "https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-21T02:00:40.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "02c0f40860bb",
+          "title": "OpenAI ‘agents’ disabled their own monitoring systems",
+          "url": "https://www.ft.com/content/45fbf130-f82c-465d-bc97-5b18c20fbe27?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-21T01:56:00.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "24a59ff25496",
+          "title": "SpaceX and Tesla boards explore potential merger",
+          "url": "https://www.ft.com/content/f2a2a578-5a2e-42ff-b4c9-8bafff271b37?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-21T01:49:39.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "0a61e9c2e97c",
+          "title": "Pensions invest £11bn in UK private markets despite challenges",
+          "url": "https://www.ft.com/content/98abe089-3c07-4ce3-8ba5-6b6353520c68?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-20T23:01:00.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "27be8b143580",
+          "title": "Submit a question: Could Anthropic’s IPO be a turning point for AI?",
+          "url": "https://www.ft.com/content/8cdf338e-d472-460c-8642-a8f033b99462?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-20T20:57:44.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "d4e754cb4e1b",
+          "title": "Audit regulator takes control of inquiry into Man City accounts",
+          "url": "https://www.ft.com/content/eb8c6c38-3362-49cb-bfd6-4e164d82966d?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-20T17:21:36.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
           "id": "f9e8ba2a5b2c",
           "title": "Gilt market catches up with peers as investor worries over Budget ease",
           "url": "https://www.ft.com/content/31f86452-c16a-4fbf-b393-bb5282c1cb59?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-20T11:54:05.000Z",
+          "publishedAt": "2026-10-20T16:10:56.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
@@ -98,60 +152,6 @@
           "teaser": "",
           "firms": [],
           "section": "private-markets"
-        },
-        {
-          "id": "8498c735486a",
-          "title": "Indonesia expels key stocks in bid to fend off MSCI downgrade",
-          "url": "https://www.ft.com/content/472ad6cf-438f-4d62-a41c-8725cbf53383?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-20T08:34:36.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "47ad7b41c3bb",
-          "title": "It’s time to give individual shareholders direct votes on climate change",
-          "url": "https://www.ft.com/content/dcc245d8-2dca-4892-a9fb-2bddfa69ed35?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-20T06:28:32.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "4e33ac322f9b",
-          "title": "Waiting for good IPO",
-          "url": "https://www.ft.com/content/6c6fb412-5eca-4ed3-8b3d-f1c367712c5c?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-20T05:30:09.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "793abe84276b",
-          "title": "AI debt worries spark surge in default insurance trading",
-          "url": "https://www.ft.com/content/6dd31584-064c-4015-bf5d-e5747799ccd5?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-20T04:00:19.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "8c4aa471c996",
-          "title": "Iran war tilts balance of global oil power towards Americas",
-          "url": "https://www.ft.com/content/cfa976d5-e320-4ee8-8c86-84733471a4a1?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-20T04:00:19.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "520ca496dee1",
-          "title": "Ambani looks to pull off India’s biggest IPO",
-          "url": "https://www.ft.com/content/94f983a8-aa6b-4153-8796-f0b46b046ed0?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-20T00:33:09.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
         }
       ]
     },
@@ -159,65 +159,31 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "dfbb80d514ed",
-          "title": "Centerbridge, Mubadala in Talks to Buy Canaccord’s UK Wealth Unit",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/centerbridge-mubadala-in-talks-to-buy-canaccord-s-uk-wealth-unit",
-          "publishedAt": "2026-10-20T14:35:59.000Z",
-          "teaser": "Canaccord Genuity Group Inc. is in talks to sell its UK wealth management business to a consortium led by private equity firm Centerbridge Partners, according to people with knowledge of the matter.",
-          "firms": [],
+          "id": "28be67879436",
+          "title": "Jio’s Record $3.2 Billion IPO Puts India’s Market Muscle to the Test",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-21/jio-s-record-3-2-billion-ipo-puts-india-s-market-muscle-to-the-test",
+          "publishedAt": "2026-10-21T02:35:57.000Z",
+          "teaser": "The issue has already drawn $854 million from anchor investors including marquee names such as BlackRock, Fidelity, and Capital Group.",
+          "firms": [
+            "BlackRock"
+          ],
           "section": "private-equity"
         },
         {
-          "id": "f48a34ca841f",
-          "title": "Top-Rated Junk Debt Becomes Sweet Spot as Investors Flee Risk",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/top-rated-junk-debt-becomes-sweet-spot-as-investors-flee-risk",
-          "publishedAt": "2026-10-20T14:25:36.000Z",
-          "teaser": "High-grade investors, including T.",
+          "id": "cbe73fede3f3",
+          "title": "Before Tera’s 95% Crash, Punches Were Thrown and Warnings Missed",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/before-tera-s-95-crash-punches-were-thrown-and-warnings-missed",
+          "publishedAt": "2026-10-21T02:00:05.000Z",
+          "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "0cfbf5e13e55",
-          "title": "Southern Africa Private-Money Deals Seen Rising on Exit Revival",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/southern-africa-private-money-deals-seen-rising-on-exit-revival",
-          "publishedAt": "2026-10-20T13:24:20.000Z",
-          "teaser": "A majority of private-capital firms in southern Africa expect business to be brisk next year and beyond as higher fundraising and more money from exits free up capital for new deals, a survey showed.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "82bcfac97ef4",
-          "title": "Higher Ed Startup Uses AI to Help Colleges Prevent Dropouts",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/higher-ed-startup-uses-ai-to-help-colleges-prevent-dropouts",
-          "publishedAt": "2026-10-20T13:00:00.000Z",
-          "teaser": "Straia, a higher-education startup focused on data analytics, has raised $3.1 million from investors to help schools tackle issues like student retention.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "bfb97052a3e8",
-          "title": "Halliburton Sees Lasting Growth as Mideast Rebuilds From War",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/halliburton-sees-multi-year-demand-growth-from-energy-disruption",
-          "publishedAt": "2026-10-20T11:35:28.000Z",
-          "teaser": "Halliburton Co. is predicting years of growth for oil field service work as nations replenish crude reserves and the Middle East rebuilds infrastructure damaged in the Iran war.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "977a042f7c0b",
-          "title": "French Bond Risk Climbs Again With Investors Wary on Outlook",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/french-bond-risk-gauge-hits-150-basis-points-after-protests",
-          "publishedAt": "2026-10-20T08:49:59.000Z",
-          "teaser": "A measure of French bond risk breached a key level on Tuesday, underscoring the challenges facing the government as it struggles to tame the budget deficit and grapples with cost-of-living protests.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "c71d0f024243",
-          "title": "CIBC Sells C$1 Billion Limited Recourse Capital Notes",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-19/cibc-preps-up-to-c-1-billion-limited-recourse-capital-note-sale",
-          "publishedAt": "2026-10-19T15:26:12.000Z",
-          "teaser": "Canadian Imperial Bank of Commerce sold C$1 billion ($710 million) of additional tier-one bonds on Monday.",
+          "id": "798ecdc113eb",
+          "title": "Lithium Miner PLS Sells $700 Million Bond in Expansion Push",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/lithium-miner-pls-markets-700-million-bond-in-expansion-push",
+          "publishedAt": "2026-10-20T16:23:37.000Z",
+          "teaser": "PLS Group Ltd returned to the US dollar bond market, braving a junk-debt selloff as the Australian lithium miner lines up investments to expand production.",
           "firms": [],
           "section": "markets"
         }
