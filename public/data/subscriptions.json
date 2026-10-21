@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:38:34.711Z",
+  "generatedAt": "2026-10-21T03:00:52.227Z",
   "publishers": [
     {
       "id": "wsj",
@@ -175,15 +175,6 @@
           "url": "https://www.bloomberg.com/news/articles/2026-10-21/before-tera-s-95-crash-punches-were-thrown-and-warnings-missed",
           "publishedAt": "2026-10-21T02:00:05.000Z",
           "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "798ecdc113eb",
-          "title": "Lithium Miner PLS Sells $700 Million Bond in Expansion Push",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/lithium-miner-pls-markets-700-million-bond-in-expansion-push",
-          "publishedAt": "2026-10-20T16:23:37.000Z",
-          "teaser": "PLS Group Ltd returned to the US dollar bond market, braving a junk-debt selloff as the Australian lithium miner lines up investments to expand production.",
           "firms": [],
           "section": "markets"
         }

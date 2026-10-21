@@ -1,28 +1,23 @@
 {
   "date": "2026-10-20",
-  "generatedAt": "2026-10-21T02:38:34.711Z",
+  "generatedAt": "2026-10-21T03:00:52.227Z",
   "engine": "rules-v4",
   "edition": 28,
   "brief": {
-    "headline": "KKR Agreed to Sell Railcar Lessor Infinity Transportation to Ares for About $2.9 Billion",
+    "headline": "Blackstone’s 2021 $1.3B CMBS Multifamily Loan Hits Special Servicing",
     "bullets": [
+      "Real Estate: A $1.3 billion Blackstone commercial mortgage-backed securities (CMBS) loan with a $517.7 million balance issued in fall 2021 has entered special servicing after missing its October 2026 maturity date.",
       "M&A & Buyouts: KKR has agreed to sell Infinity Transportation, a full-service railcar and intermodal equipment lessor.",
       "People & Leadership: Macquarie Asset Management has hired Linso Pals from Blackstone to head up credit within its client solutions group.",
-      "Family Offices & Wealth: The J.P. Morgan subsidiary now offers managed and custom model portfolios, plus equity SMAs, in a UMA for RIAs.",
       "AI & Technology: On Inside Blackstone, host Christine Anderson sits down with Moderna President Dr. Stephen Hoge.",
-      "Family Offices & Wealth: Jim Dickson's firm backs the Las Vegas-based Truing Capital, formerly affiliated with UBS, as it pursues an ambitious $50 billion growth target over the next two years."
+      "Hotels & Hospitality: Service Properties Trust hired Sonesta to operate 68 of the hotels it owns."
     ],
     "marketRead": "Bottom line: calm volatility and open credit markets are a supportive backdrop for dealmaking, fundraising and exits. The S&P 500 stands at 7,712.57 (up 0.3% on the prior reading) and the VIX is 18.4, a normal-volatility reading. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.15% (up 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.33 pts (positively sloped). High-yield credit spreads are 3.29%, near long-run norms (down 2 bps on the prior reading).",
     "themes": [
       {
         "id": "deals",
         "label": "M&A & Buyouts",
-        "count": 5
-      },
-      {
-        "id": "ai-tech",
-        "label": "AI & Technology",
-        "count": 4
+        "count": 6
       },
       {
         "id": "people",
@@ -32,6 +27,11 @@
       {
         "id": "family-office",
         "label": "Family Offices & Wealth",
+        "count": 3
+      },
+      {
+        "id": "ai-tech",
+        "label": "AI & Technology",
         "count": 3
       },
       {
@@ -742,9 +742,9 @@
     }
   ],
   "topStoryIds": [
+    "5221d5a343c6",
     "7d3006f12bc8",
-    "d0618e86fd13",
-    "4a5f3847fa4c"
+    "d0618e86fd13"
   ],
   "items": [
     {
@@ -1211,6 +1211,120 @@
       "aiSummarized": false
     },
     {
+      "id": "5221d5a343c6",
+      "title": "Blackstone’s 2021 $1.3B CMBS Multifamily Loan Hits Special Servicing",
+      "url": "https://commercialobserver.com/2026/10/blackstone-sun-belt-multifamily-cmbs-loan/",
+      "publishedAt": "2026-10-20T14:27:25.000Z",
+      "source": {
+        "id": "commercial-observer",
+        "name": "Commercial Observer",
+        "homepage": "https://commercialobserver.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [
+        "Blackstone"
+      ],
+      "theme": {
+        "id": "real-estate",
+        "label": "Real Estate"
+      },
+      "importance": 5,
+      "takeaway": "A $1.3 billion Blackstone commercial mortgage-backed securities (CMBS) loan with a $517.7 million balance issued in fall 2021 has entered special servicing after missing its October 2026 maturity date.",
+      "whyItMatters": "Blackstone's $1.3bn deal shows private lenders are still putting money to work in real estate, and the terms they win set the bar for returns across the strategy.",
+      "marketContext": "The 10-year Treasury yield is 5.15% (up 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.33 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 20.)",
+      "beginnerNote": {
+        "term": "REIT",
+        "explanation": "Real estate investment trust, a company that owns income-producing property and must pay out most of its income to shareholders."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "df889340b7e9",
+      "title": "Sonesta Cuts Jobs as a $2 Billion Bid Puts Many of Its Best Hotels in Play",
+      "url": "https://skift.com/2026/10/20/sonesta-cuts-jobs-as-a-2-billion-bid-puts-many-of-its-best-hotels-in-play/",
+      "publishedAt": "2026-10-20T21:08:53.000Z",
+      "source": {
+        "id": "skift",
+        "name": "Skift",
+        "homepage": "https://skift.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [],
+      "theme": {
+        "id": "hotels",
+        "label": "Hotels & Hospitality"
+      },
+      "importance": 4,
+      "takeaway": "Service Properties Trust hired Sonesta to operate 68 of the hotels it owns.",
+      "whyItMatters": "Hotel brands earn fees on hotels other people own, so their growth depends on how many new hotels owners are willing to build or convert.",
+      "marketContext": "The 10-year Treasury yield is 5.15% (up 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.33 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 20.)",
+      "beginnerNote": {
+        "term": "REIT",
+        "explanation": "Real estate investment trust, a company that owns income-producing property and must pay out most of its income to shareholders."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "93310c513d63",
+      "title": "CBRE Acquires Data Center Equipment Provider Onnec Group for $610M",
+      "url": "https://commercialobserver.com/2026/10/cbre-acquisition-data-center-onnec-group/",
+      "publishedAt": "2026-10-20T18:04:49.000Z",
+      "source": {
+        "id": "commercial-observer",
+        "name": "Commercial Observer",
+        "homepage": "https://commercialobserver.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 3,
+      "takeaway": "The real estate services and investment firm has acquired Onnec Group Limited, a London-based data center equipment provider, for $610 million, CBRE announced Tuesday.",
+      "whyItMatters": "CBRE's $610m deal is a fresh marker for what buyers will pay right now, so owners of similar businesses, and the funds that hold them, may be valued against it.",
+      "marketContext": "The 10-year Treasury yield is 5.15% (up 6 bps on the prior reading) and high-yield credit spreads are 3.29%, near long-run norms (down 2 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 20.)",
+      "beginnerNote": {
+        "term": "Take-private",
+        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "252146114c0f",
+      "title": "Anaheim Sale is First Closing in Broader Multifamily Portfolio",
+      "url": "https://www.connectcre.com/stories/anaheim-sale-is-first-closing-in-broader-multifamily-portfolio/",
+      "publishedAt": "2026-10-20T21:33:04.000Z",
+      "source": {
+        "id": "connect-cre",
+        "name": "Connect CRE",
+        "homepage": "https://www.connectcre.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [],
+      "theme": {
+        "id": "real-estate",
+        "label": "Real Estate"
+      },
+      "importance": 2,
+      "takeaway": "The property sold for $8.5 million, or $293,103 per unit.",
+      "whyItMatters": "Real estate is highly sensitive to interest rates, so it is often the first place higher or lower borrowing costs show up in valuations.",
+      "marketContext": "The 10-year Treasury yield is 5.15% (up 6 bps on the prior reading) and the 10Y–2Y yield curve is +0.33 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 20.)",
+      "beginnerNote": {
+        "term": "REIT",
+        "explanation": "Real estate investment trust, a company that owns income-producing property and must pay out most of its income to shareholders."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
       "id": "24a77c73ab0c",
       "title": "Hedge funds dumped tech stocks at fastest pace since 2016",
       "url": "https://www.opalesque.com/fullarticle/716823/Hedge_funds_dumped_tech_stocks_at_fastest_pace682.html",
@@ -1387,34 +1501,6 @@
       "aiSummarized": false
     },
     {
-      "id": "7bf7dedea303",
-      "title": "Christina Cacioppo - Building an Enduring Software Company in the Age of AI - [Invest Like the Best, EP.496]",
-      "url": "https://colossus.com/episode/becoming-a-category-winner/",
-      "publishedAt": "2026-10-20T08:00:00.000Z",
-      "source": {
-        "id": "invest-like-the-best",
-        "name": "Invest Like the Best",
-        "homepage": "https://www.joincolossus.com/",
-        "contentType": "podcast"
-      },
-      "section": "voices",
-      "firms": [],
-      "theme": {
-        "id": "ai-tech",
-        "label": "AI & Technology"
-      },
-      "importance": 3,
-      "takeaway": "Five years after our first conversation, we discuss how Vanta became a category leader, what it takes to reinvent a successful software business in the age of AI, and why Christina is betting on agents to do the work rather than simply assist users.",
-      "whyItMatters": "Christina Cacioppo's take on AI comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
-      "marketContext": "The S&P 500 stands at 7,712.57 (up 0.3% on the prior reading) and the VIX is 18.4, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 20.)",
-      "beginnerNote": {
-        "term": "Valuation multiple",
-        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
-      },
-      "storyType": "podcast",
-      "aiSummarized": false
-    },
-    {
       "id": "6bbf2cb1f52e",
       "title": "CME's Terry Duffy on the Disconcerting State of Finance Regulation",
       "url": "https://omny.fm/shows/odd-lots/cmes-terry-duffy-on-the-disconcerting-state-of-finance-regulation",
@@ -1444,9 +1530,9 @@
     }
   ],
   "stats": {
-    "sourcesChecked": 37,
-    "sourcesOk": 26,
-    "candidates": 92,
-    "selected": 24
+    "sourcesChecked": 52,
+    "sourcesOk": 33,
+    "candidates": 150,
+    "selected": 27
   }
 }
