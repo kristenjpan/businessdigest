@@ -1,80 +1,84 @@
 {
-  "generatedAt": "2026-10-21T15:11:12.858Z",
+  "generatedAt": "2026-10-22T15:12:09.984Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "2d85887247a3",
-          "title": "Stocks Higher as SpaceX Hints at Tesla Deal Talks",
-          "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-higher-after-asian-ai-rally-5d6a76ef?mod=rss_markets_main",
-          "publishedAt": "2026-10-21T14:10:00.000Z",
-          "teaser": "Stocks were up with Nasdaq leading gains after SpaceX beat Wall Street’s expectations for revenue and teased a potential merger with Tesla.",
+          "id": "88f700ab6e42",
+          "title": "Blackstone’s Core Businesses Hit by Rising Rates",
+          "url": "https://www.wsj.com/finance/blackstones-core-businesses-hit-by-rising-rates-9a6a39cb?mod=rss_markets_main",
+          "publishedAt": "2026-10-22T14:11:00.000Z",
+          "teaser": "Proceeds from asset sales in the firm’s private-equity unit fell 49%.",
+          "firms": [
+            "Blackstone"
+          ],
+          "section": "private-equity"
+        },
+        {
+          "id": "97d95340558b",
+          "title": "SpaceX: A Futuristic Berkshire Hathaway, or Just a Mess?",
+          "url": "https://www.wsj.com/tech/spacex-takes-conglomerate-building-to-sci-fi-extremes-0dd612ab?mod=rss_markets_main",
+          "publishedAt": "2026-10-22T13:16:00.000Z",
+          "teaser": "Elon Musk’s mishmash of businesses will be a maze for investors to evaluate.",
+          "firms": [
+            "Berkshire"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "7bcf25df14f7",
+          "title": "Communications Group Common Interest Buys a Stake in Creative Agency Mirimar",
+          "url": "https://www.wsj.com/cmo-today/communications-group-common-interest-buys-a-stake-in-creative-agency-mirimar-9747a734?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-22T13:16:00.000Z",
+          "teaser": "Plus, fund managers turn to elaborate festival-like events as they recruit individual investors for private credit.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "171cf3b1032e",
+          "title": "Treasury Yields Fall as Investors Seek Safe Haven",
+          "url": "https://www.wsj.com/finance/jgb-yield-curve-flattens-amid-continued-ai-related-credit-concerns-4613a92a?mod=rss_markets_main",
+          "publishedAt": "2026-10-22T13:09:00.000Z",
+          "teaser": "Treasury yields fell to their lowest levels since September as worries about French government debt sent investors searching for safe havens.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "f19f5d29b2ca",
-          "title": "Philip Morris Profit Falls Despite Higher Sales",
-          "url": "https://www.wsj.com/business/earnings/philip-morris-profit-falls-despite-higher-sales-3d525ff4?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-21T11:49:00.000Z",
-          "teaser": "Philip Morris International reported higher revenue in the latest quarter, though profit fell as the company faced inflationary pressures and stepped up its investments.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "d50f3a486fee",
-          "title": "Akzo Nobel in Talks to Shed European Refinishing Unit for Axalta Merger Nod",
-          "url": "https://www.wsj.com/business/deals/akzo-nobel-in-talks-to-shed-european-refinishing-unit-for-axalta-merger-nod-9e194ad0?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-21T11:36:00.000Z",
-          "teaser": "Akzo Nobel is seeking to secure regulatory clearance for its proposed merger with U.S. peer Axalta Coating Systems, the company’s chief executive said.",
+          "id": "d3e726404843",
+          "title": "SpaceX and Tesla Are Already Joined at the Hip. What a Formal Merger Would Mean.",
+          "url": "https://www.wsj.com/tech/spacex-and-tesla-are-joined-at-the-hip-a-merger-would-make-it-formal-507c475f?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-22T12:57:00.000Z",
+          "teaser": "For decades, Elon Musk has mixed resources and ambitions at his two largest companies.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "ae2737f748f0",
-          "title": "Playing the Retreat in Defense Stocks",
-          "url": "https://www.wsj.com/finance/investing/playing-the-retreat-in-defense-stocks-fd1c6355?mod=rss_markets_main",
-          "publishedAt": "2026-10-21T10:30:00.000Z",
-          "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
+          "id": "369112fb25a0",
+          "title": "Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-more-than-2-as-attacks-on-saudi-arabia-u-s-iran-risks-persist-5599ac83?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-22T12:51:00.000Z",
+          "teaser": "Oil prices rose, with Brent climbing above $111 a barrel as traders weighed renewed attacks on Saudi energy infrastructure and the risk of further U.S.-Iran hostilities against recovering Middle East oil supplies.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "bd105bb3d8d8",
+          "title": "SAP Weighs New Metric to Showcase AI Impact on Business",
+          "url": "https://www.wsj.com/business/earnings/sap-weighs-new-metric-to-showcase-ai-impact-on-business-c485302f?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-22T11:50:00.000Z",
+          "teaser": "The business-software group is working on a metric to convey the impact of AI on its operations to appease investors wanting insight into the tech reshaping the industry.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "9b5eb9855532",
-          "title": "Healthcare Stocks Are Rallying, and Flashing a Warning for the Rest of the Market",
-          "url": "https://www.wsj.com/finance/stocks/healthcare-stocks-are-rallying-and-flashing-a-warning-for-the-rest-of-the-market-ae13aa0b?mod=rss_markets_main",
-          "publishedAt": "2026-10-21T09:30:00.000Z",
-          "teaser": "The sector is trading at a premium as investors seek safety from AI jitters.",
+          "id": "27e855c7027d",
+          "title": "PE Firms Are Holding Investments Longer—and Changing Leaders More",
+          "url": "https://www.wsj.com/cfo-journal/pe-firms-are-holding-investments-longerand-changing-leaders-more-2d0bb31a?mod=rss_markets_main",
+          "publishedAt": "2026-10-22T10:55:00.000Z",
+          "teaser": "Plus, Meta loses in data-privacy case.",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "d60de4b34d07",
-          "title": "Gold Futures Fall as Rising Oil Fuels Inflation Concerns",
-          "url": "https://www.wsj.com/finance/commodities-futures/gold-falls-amid-pressure-from-rising-crude-prices-ea4a6f71?mod=rss_markets_main",
-          "publishedAt": "2026-10-21T08:02:00.000Z",
-          "teaser": "Gold prices fell as oil pushed higher, with investors now awaiting next week’s Fed meeting for more cues on the monetary policy outlook.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "c69491aa58d8",
-          "title": "Five Takeaways From SpaceX’s Earnings Call",
-          "url": "https://www.wsj.com/business/five-takeaways-from-spacexs-earnings-call-b91bcaf2?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-20T23:42:00.000Z",
-          "teaser": "A possible SpaceX-Tesla merger, a Louisiana launchpad and projected revenue of $500 billion a year, plus more from CEO Elon Musk.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "72fbe4b72b70",
-          "title": "Tesla and SpaceX Formed Committees to Discuss Potential Merger, Elon Musk Says",
-          "url": "https://www.wsj.com/business/earnings/spacex-spcx-q3-earnings-report-2026-stock-4138193d?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-20T22:47:00.000Z",
-          "teaser": "The CEO running both companies said “there is a lot of merit” in combining them.",
-          "firms": [],
-          "section": "private-equity"
         }
       ]
     },
@@ -82,73 +86,75 @@
       "id": "ft",
       "items": [
         {
-          "id": "e4ec835c9c65",
-          "title": "Dangote takes stake in Kenyan pipeline and pledges more ‘aggressive’ energy investment",
-          "url": "https://www.ft.com/content/e3282291-be9a-4c97-8fc8-d43f9297e167?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-21T13:23:37.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "79dba3953e97",
-          "title": "Can Britain’s grid make the grade?",
-          "url": "https://www.ft.com/content/7713a613-7b31-4e31-9aeb-0fb2bd03391e?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-21T11:01:04.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "8e9c2d7f274c",
-          "title": "UK’s biggest port operator valued at over £10bn in Australian fund purchase",
-          "url": "https://www.ft.com/content/21d3b4e1-941b-4ad8-8e41-f8fc1864e758?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-21T08:19:02.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "aa8f474008a0",
-          "title": "Australian data centre group falls 44% on profit warning",
-          "url": "https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-21T06:33:49.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "02c0f40860bb",
-          "title": "OpenAI ‘agents’ disabled company’s monitoring systems",
-          "url": "https://www.ft.com/content/45fbf130-f82c-465d-bc97-5b18c20fbe27?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-21T01:56:00.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "0a61e9c2e97c",
-          "title": "Pensions invest £11bn in UK private markets despite challenges",
-          "url": "https://www.ft.com/content/98abe089-3c07-4ce3-8ba5-6b6353520c68?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-20T23:01:00.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
           "id": "27be8b143580",
-          "title": "Submit a question: Could Anthropic’s IPO be a turning point for AI?",
+          "title": "Live reader Q&A — Could Anthropic’s IPO be a turning point for AI?",
           "url": "https://www.ft.com/content/8cdf338e-d472-460c-8642-a8f033b99462?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-20T20:57:44.000Z",
+          "publishedAt": "2026-10-22T15:00:13.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "d4e754cb4e1b",
-          "title": "Audit regulator takes control of inquiry into Man City accounts",
-          "url": "https://www.ft.com/content/eb8c6c38-3362-49cb-bfd6-4e164d82966d?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-20T17:21:36.000Z",
+          "id": "47815f26ea4b",
+          "title": "Blackstone cuts property valuations as higher rates hit returns",
+          "url": "https://www.ft.com/content/df7c95d7-72d1-4cec-87f6-9f7968ac3e5e?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-22T11:03:21.000Z",
+          "teaser": "",
+          "firms": [
+            "Blackstone"
+          ],
+          "section": "real-estate"
+        },
+        {
+          "id": "0ae5942a1353",
+          "title": "Big private equity backers call for greater scrutiny of sweetheart deals",
+          "url": "https://www.ft.com/content/531d1ff7-c0b5-427a-87d1-9372c3cf87d3?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-22T04:00:21.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "c62d3556172f",
+          "title": "A dangerous threat to UK company rules must be scrapped",
+          "url": "https://www.ft.com/content/d64695ae-09ab-4fe6-bc68-44085edc2bc2?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-22T04:00:11.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "6aeb213b28e5",
+          "title": "Buyout firm EQT acquires German diagnostics group in €10.8bn deal",
+          "url": "https://www.ft.com/content/5833c24e-3a4b-4242-a8c2-8f9918c4670c?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-21T22:23:49.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "824a0fe250e3",
+          "title": "Bessent shrugs off ‘systemic’ AI risks at closed-door investor conference",
+          "url": "https://www.ft.com/content/5b7c2fdf-2300-4208-860e-6389ceb18886?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-21T18:46:59.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "8b0c07a9f6e3",
+          "title": "CVC explores bid for Verisure just one year after IPO",
+          "url": "https://www.ft.com/content/7c0fb51a-2c17-414e-96a7-ac33f40af3de?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-21T17:43:52.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "889a8979bcfc",
+          "title": "Who’s paying for the AI build-out? Probably you",
+          "url": "https://www.ft.com/content/09f56730-4702-446d-9986-f7c93ffe6bf0?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-21T15:00:25.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
@@ -159,78 +165,67 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "349309ea2ae0",
-          "title": "UBS Cuts Zurich Junior Banker Starting Associate Pay by 20,000 Swiss Francs",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-21/ubs-cuts-zurich-junior-banker-starting-associate-pay-by-20-000-swiss-francs",
-          "publishedAt": "2026-10-21T14:18:11.000Z",
-          "teaser": "Junior investment bankers at UBS Group AG got a smaller pay bump upon their promotion to the first rung of associate this year, following changes to compensation structures at the Swiss lender.",
+          "id": "3fbb5875ffba",
+          "title": "‘Paralyzed’ US IPO Market Asks If There’s Life After Anthropic",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/-paralyzed-us-ipo-market-asks-if-there-s-life-after-anthropic",
+          "publishedAt": "2026-10-22T14:52:25.000Z",
+          "teaser": "The debate over artificial intelligence is keeping IPOs stuck on the launching pad, and with the shadow of Anthropic PBC’s market debut looming larger by the day, billions of dollars of capital and months of preparations are hanging in the balance.",
           "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "0124954c6265",
-          "title": "Berkshire Stock Hits New High, Moving on From Buffett’s Exit",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-21/berkshire-stock-hits-new-high-moving-on-from-buffett-s-exit",
-          "publishedAt": "2026-10-21T14:17:53.000Z",
-          "teaser": "Berkshire Hathaway Inc. investors are moving on after the departure of the firm’s legendary leader Warren Buffett, as shares hit a new high Wednesday.",
-          "firms": [
-            "Berkshire"
-          ],
           "section": "private-equity"
         },
         {
-          "id": "5398afe01bb2",
-          "title": "Ken Griffin’s New NYC Tower Gets $3.3 Billion Construction Loan",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-21/ken-griffin-s-new-nyc-tower-gets-3-3-billion-construction-loan",
-          "publishedAt": "2026-10-21T13:55:09.000Z",
-          "teaser": "Ken Griffin, Vornado Realty Trust and Rudin landed a $3.3 billion construction loan for a new office tower on Manhattan’s Park Avenue, a project whose future was clouded earlier this year after New York Mayor Zohran Mamdani provoked Griffin’s ire.",
+          "id": "5828cd349d1a",
+          "title": "Texas Developer Seeks $3.5 Billion in Debt Financing for AT&T (T) Headquarters",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/texas-developer-seeks-3-5-billion-in-debt-financing-for-at-t-t-headquarters",
+          "publishedAt": "2026-10-22T14:00:59.000Z",
+          "teaser": "The developer behind AT&T Inc.’s new global headquarters in Plano, Texas, is seeking to raise about $3.5 billion via a niche form of financing to fund construction of the sprawling corporate campus.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "1615f290b1b4",
+          "title": "Banque du Caire Boosts Size of Egypt’s Biggest IPO in a Decade",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/banque-du-caire-boosts-size-of-egypt-s-biggest-ipo-in-a-decade",
+          "publishedAt": "2026-10-22T13:59:47.000Z",
+          "teaser": "Banque du Caire boosted the stake it’s offering in a long-delayed IPO to 45%, in what would be Egypt’s largest initial public offering in more than a decade.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "bfb74a1c2232",
+          "title": "Norwegians Leave Gold in Forest as Some Fall for Scam",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/norwegians-leave-gold-in-forest-as-some-fall-for-scam",
+          "publishedAt": "2026-10-22T12:16:20.000Z",
+          "teaser": "Swindlers have persuaded Norwegians into buying gold and leaving it in the forest as part of a growing investment fraud, according to the country’s banking lobby.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "88fa4203b07b",
+          "title": "Stocks Drop as Risk-Off Views Dominate With Oil Up, Meta Falling",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/us-futures-slip-as-risk-off-sentiment-dominates-with-oil-rising",
+          "publishedAt": "2026-10-22T11:29:09.000Z",
+          "teaser": "Stocks opened lower on Thursday as escalating concern about Mideast conflict pushed oil futures higher, spurring inflation fears with US midterm elections less than two weeks away.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "71eafb601dbb",
+          "title": "Blackstone Profit Drops 9.2% as Higher Rates Curb Dealmaking",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/blackstone-profit-drops-9-2-as-rates-inflation-curb-dealmaking",
+          "publishedAt": "2026-10-22T11:06:46.000Z",
+          "teaser": "Blackstone Inc. reported a drop in third-quarter income as higher interest rates subdued dealmaking, with the money the firm deployed reaching a low for this year.",
           "firms": [
-            "Citadel"
+            "Blackstone"
           ],
-          "section": "private-markets"
-        },
-        {
-          "id": "3760d61b369e",
-          "title": "Nscale CEO Touts Doubling of Contract Value in Note to Employees",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-21/nscale-ceo-touts-doubling-of-contract-value-in-note-to-employees",
-          "publishedAt": "2026-10-21T13:44:14.000Z",
-          "teaser": "",
-          "firms": [],
           "section": "markets"
         },
         {
-          "id": "4cb6b526603c",
-          "title": "Surging Yields Bring Biggest Spate of Debt Sale Delays This Year",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-21/surging-yields-bring-biggest-spate-of-debt-sale-delays-this-year",
-          "publishedAt": "2026-10-21T13:36:51.000Z",
-          "teaser": "Companies have postponed more than $5 billion in US and European debt sales this month as investors grow increasingly alarmed about rising interest rates, resurgent inflation, and potential cracks in the artificial-intelligence boom.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "c6f2a47c88e0",
-          "title": "The Treasury Market’s Power Brokers Are Pickier Than Ever",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-21/the-treasury-market-s-new-power-brokers-are-pickier-than-ever",
-          "publishedAt": "2026-10-21T10:15:00.000Z",
-          "teaser": "Beset by a selloff in Treasuries that’s sent benchmark yields to multidecade highs, the US government is finding itself increasingly dependent on investors who only buy if the price is right.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "1df616cd1815",
-          "title": "Turkey’s Fund Crisis Hits Brokerages With Three Firms Suspended",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-21/turkey-shuts-down-three-brokerage-firms-with-ties-to-fund-crisis",
-          "publishedAt": "2026-10-21T08:50:12.000Z",
-          "teaser": "Turkey’s market regulator temporarily shut down three brokerages tied to last month’s fund crisis, as the shockwaves caused by the scandal continue to reverberate throughout the industry.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "aaf164ef6c9f",
-          "title": "Nasdaq 100 Climbs as SpaceX Results Fuel AI Trade: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates",
-          "publishedAt": "2026-10-20T22:05:51.000Z",
-          "teaser": "A blockbuster earnings report from SpaceX spurred a rally in technology stocks, easing concerns over whether a global investment spree in artificial intelligence can prove sustainable.",
+          "id": "eb60c0e14aa3",
+          "title": "Stocks Fall as AI, Oil Risks Spur Flight to Bonds: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/stock-market-today-dow-s-p-live-updates",
+          "publishedAt": "2026-10-21T22:13:33.000Z",
+          "teaser": "Stocks dropped as a jump in oil prices and renewed concerns about the outlook for the artificial-intelligence trade pushed global investors toward the safety of bonds.",
           "firms": [],
           "section": "markets"
         }
@@ -254,24 +249,6 @@
           "url": "https://www.economist.com/business/2026/10/18/the-ai-industrys-gigantic-debts-are-making-investors-nervous",
           "publishedAt": "2026-10-18T20:19:28.000Z",
           "teaser": "Who will be left to pick up the bill in the event of a crash?",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "9fddd78454ee",
-          "title": "The AI boom is threatened by an epidemic of unreliable numbers",
-          "url": "https://www.economist.com/business/2026/10/14/the-ai-boom-is-threatened-by-an-epidemic-of-unreliable-numbers",
-          "publishedAt": "2026-10-14T21:19:50.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "0d4556d669c9",
-          "title": "Another warning sign for China’s economy: falling consumer credit",
-          "url": "https://www.economist.com/finance-and-economics/2026/10/14/another-warning-sign-for-chinas-economy-falling-consumer-credit",
-          "publishedAt": "2026-10-14T17:52:55.000Z",
-          "teaser": "",
           "firms": [],
           "section": "markets"
         }
