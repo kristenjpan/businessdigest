@@ -1,82 +1,78 @@
 {
-  "generatedAt": "2026-10-22T15:12:09.984Z",
+  "generatedAt": "2026-10-23T15:00:31.478Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "88f700ab6e42",
-          "title": "Blackstone’s Core Businesses Hit by Rising Rates",
-          "url": "https://www.wsj.com/finance/blackstones-core-businesses-hit-by-rising-rates-9a6a39cb?mod=rss_markets_main",
-          "publishedAt": "2026-10-22T14:11:00.000Z",
-          "teaser": "Proceeds from asset sales in the firm’s private-equity unit fell 49%.",
-          "firms": [
-            "Blackstone"
-          ],
-          "section": "private-equity"
-        },
-        {
-          "id": "97d95340558b",
-          "title": "SpaceX: A Futuristic Berkshire Hathaway, or Just a Mess?",
-          "url": "https://www.wsj.com/tech/spacex-takes-conglomerate-building-to-sci-fi-extremes-0dd612ab?mod=rss_markets_main",
-          "publishedAt": "2026-10-22T13:16:00.000Z",
-          "teaser": "Elon Musk’s mishmash of businesses will be a maze for investors to evaluate.",
-          "firms": [
-            "Berkshire"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "7bcf25df14f7",
-          "title": "Communications Group Common Interest Buys a Stake in Creative Agency Mirimar",
-          "url": "https://www.wsj.com/cmo-today/communications-group-common-interest-buys-a-stake-in-creative-agency-mirimar-9747a734?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-22T13:16:00.000Z",
-          "teaser": "Plus, fund managers turn to elaborate festival-like events as they recruit individual investors for private credit.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "171cf3b1032e",
-          "title": "Treasury Yields Fall as Investors Seek Safe Haven",
-          "url": "https://www.wsj.com/finance/jgb-yield-curve-flattens-amid-continued-ai-related-credit-concerns-4613a92a?mod=rss_markets_main",
-          "publishedAt": "2026-10-22T13:09:00.000Z",
-          "teaser": "Treasury yields fell to their lowest levels since September as worries about French government debt sent investors searching for safe havens.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "d3e726404843",
-          "title": "SpaceX and Tesla Are Already Joined at the Hip. What a Formal Merger Would Mean.",
-          "url": "https://www.wsj.com/tech/spacex-and-tesla-are-joined-at-the-hip-a-merger-would-make-it-formal-507c475f?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-22T12:57:00.000Z",
-          "teaser": "For decades, Elon Musk has mixed resources and ambitions at his two largest companies.",
+          "id": "17226285731b",
+          "title": "Weil Gotshal Loses More Top Lawyers as Merger Talks Collapse",
+          "url": "https://www.wsj.com/business/deals/weil-gotshal-bleeds-more-top-lawyers-as-it-holds-merger-talks-4d0388ad?mod=rss_markets_main",
+          "publishedAt": "2026-10-23T14:01:00.000Z",
+          "teaser": "Partners are leaving for rivals including Sidley Austin and Davis Polk, increasing pressure on the law firm to secure its future.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "369112fb25a0",
-          "title": "Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-more-than-2-as-attacks-on-saudi-arabia-u-s-iran-risks-persist-5599ac83?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-22T12:51:00.000Z",
-          "teaser": "Oil prices rose, with Brent climbing above $111 a barrel as traders weighed renewed attacks on Saudi energy infrastructure and the risk of further U.S.-Iran hostilities against recovering Middle East oil supplies.",
+          "id": "cb2339aae1d1",
+          "title": "Bombardier to Invest $270 Million in U.S. Expansion",
+          "url": "https://www.wsj.com/business/bombardier-to-invest-270-million-in-u-s-expansion-6d0c88cb?mod=rss_markets_main",
+          "publishedAt": "2026-10-23T13:33:00.000Z",
+          "teaser": "Bombardier plans to invest $270 million to expand its American infrastructure footprint and hire 800 U.S. workers, days after President Trump seemed to soften his rhetoric against the Montreal business-jet maker.",
           "firms": [],
           "section": "private-markets"
         },
         {
-          "id": "bd105bb3d8d8",
-          "title": "SAP Weighs New Metric to Showcase AI Impact on Business",
-          "url": "https://www.wsj.com/business/earnings/sap-weighs-new-metric-to-showcase-ai-impact-on-business-c485302f?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-22T11:50:00.000Z",
-          "teaser": "The business-software group is working on a metric to convey the impact of AI on its operations to appease investors wanting insight into the tech reshaping the industry.",
+          "id": "9af0e6bc52e9",
+          "title": "Oil Prices Rise as Middle East Risks Persist",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-middle-east-risks-persist-c1262364?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-23T13:11:00.000Z",
+          "teaser": "Brent climbed above $114 as traders weighed the risk of renewed U.S.-Iran hostilities and further attacks on Saudi energy infrastructure against recovering Middle East oil supplies.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "f6eeda6fe473",
+          "title": "Brokerage Firms Want to Yank Away Your Investor Protections",
+          "url": "https://www.wsj.com/finance/investing/brokerage-firms-want-to-yank-away-your-investor-protections-b9fddd88?mod=rss_markets_main",
+          "publishedAt": "2026-10-23T13:00:00.000Z",
+          "teaser": "One of Wall Street’s regulators is pondering changes to the way investors can seek to recover losses.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "27e855c7027d",
-          "title": "PE Firms Are Holding Investments Longer—and Changing Leaders More",
-          "url": "https://www.wsj.com/cfo-journal/pe-firms-are-holding-investments-longerand-changing-leaders-more-2d0bb31a?mod=rss_markets_main",
-          "publishedAt": "2026-10-22T10:55:00.000Z",
-          "teaser": "Plus, Meta loses in data-privacy case.",
+          "id": "b5f76b48687d",
+          "title": "Indonesia’s Sovereign Fund Sticks to Investment Strategy Amid Market Turmoil",
+          "url": "https://www.wsj.com/finance/investing/indonesias-sovereign-fund-sticks-with-investment-strategy-after-msci-warning-12459e59?mod=rss_markets_main",
+          "publishedAt": "2026-10-23T11:43:00.000Z",
+          "teaser": "Indonesia’s sovereign wealth fund said it remains confident in its investment strategy after a downgrade warning from index provider MSCI sparked another rout in local markets.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "9ac66da90678",
+          "title": "Railroads Gain as Cargo Shifts to Rail From Highways",
+          "url": "https://www.wsj.com/logistics-report/railroads-gain-as-cargo-shifts-to-rail-from-highways-d121a357?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-23T11:14:00.000Z",
+          "teaser": "Plus, U.S. Steel plans to invest almost $3 billion on a new mill near Pittsburgh, and wars are forcing airlines to reroute flights.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "74d6a815a517",
+          "title": "Elite Colleges Can Give You an Investing Lesson",
+          "url": "https://www.wsj.com/finance/investing/elite-colleges-can-give-you-an-investing-lesson-699dc432?mod=rss_markets_main",
+          "publishedAt": "2026-10-23T10:35:00.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "95fc882118a6",
+          "title": "Is SpaceX Just a Mess?",
+          "url": "https://www.wsj.com/finance/investing/is-spacex-just-a-mess-cb1f06c2?mod=rss_markets_main",
+          "publishedAt": "2026-10-23T10:25:00.000Z",
+          "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
           "firms": [],
           "section": "markets"
         }
@@ -86,78 +82,69 @@
       "id": "ft",
       "items": [
         {
+          "id": "d456a8832205",
+          "title": "Gold drops below $4,000 as ‘haven’ asset joins market sell-off",
+          "url": "https://www.ft.com/content/5a6e15e9-249d-4d59-a140-c51302930a9f?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-23T14:37:46.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "6325f935b8ae",
+          "title": "KKR founders back Valencia in deal valuing football club at €1.25bn",
+          "url": "https://www.ft.com/content/f75c25c2-4164-4dfc-9d56-fc6a86704c47?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-23T12:02:13.000Z",
+          "teaser": "",
+          "firms": [
+            "KKR"
+          ],
+          "section": "family-offices"
+        },
+        {
+          "id": "bcf162d2e7cd",
+          "title": "Anthropic strikes deal to launch European consultancy",
+          "url": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-23T09:04:09.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "8f5bb38eeaa7",
+          "title": "Calpers retreats from Big Tech as AI rally falters",
+          "url": "https://www.ft.com/content/e842173f-6f9f-4115-9e5f-a0f06f0df18d?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-23T04:00:18.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "b1d0c4415268",
+          "title": "Argentina’s resources boom gathers pace",
+          "url": "https://www.ft.com/content/867e072d-4e10-407d-aefc-502c77dfd95b?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-23T04:00:10.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "cde632e3fd59",
+          "title": "UK waters down ‘fit and proper’ rules set up to hold bankers to account",
+          "url": "https://www.ft.com/content/0a5c7582-133c-4e24-8e3d-daa30f5dad56?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-22T20:00:05.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "hedge-funds"
+        },
+        {
           "id": "27be8b143580",
-          "title": "Live reader Q&A — Could Anthropic’s IPO be a turning point for AI?",
+          "title": "Could Anthropic’s IPO be a turning point for AI? You asked, we answered",
           "url": "https://www.ft.com/content/8cdf338e-d472-460c-8642-a8f033b99462?syn-25a6b1a6=1",
           "publishedAt": "2026-10-22T15:00:13.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
-        },
-        {
-          "id": "47815f26ea4b",
-          "title": "Blackstone cuts property valuations as higher rates hit returns",
-          "url": "https://www.ft.com/content/df7c95d7-72d1-4cec-87f6-9f7968ac3e5e?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-22T11:03:21.000Z",
-          "teaser": "",
-          "firms": [
-            "Blackstone"
-          ],
-          "section": "real-estate"
-        },
-        {
-          "id": "0ae5942a1353",
-          "title": "Big private equity backers call for greater scrutiny of sweetheart deals",
-          "url": "https://www.ft.com/content/531d1ff7-c0b5-427a-87d1-9372c3cf87d3?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-22T04:00:21.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "c62d3556172f",
-          "title": "A dangerous threat to UK company rules must be scrapped",
-          "url": "https://www.ft.com/content/d64695ae-09ab-4fe6-bc68-44085edc2bc2?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-22T04:00:11.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "6aeb213b28e5",
-          "title": "Buyout firm EQT acquires German diagnostics group in €10.8bn deal",
-          "url": "https://www.ft.com/content/5833c24e-3a4b-4242-a8c2-8f9918c4670c?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-21T22:23:49.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "824a0fe250e3",
-          "title": "Bessent shrugs off ‘systemic’ AI risks at closed-door investor conference",
-          "url": "https://www.ft.com/content/5b7c2fdf-2300-4208-860e-6389ceb18886?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-21T18:46:59.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "8b0c07a9f6e3",
-          "title": "CVC explores bid for Verisure just one year after IPO",
-          "url": "https://www.ft.com/content/7c0fb51a-2c17-414e-96a7-ac33f40af3de?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-21T17:43:52.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "889a8979bcfc",
-          "title": "Who’s paying for the AI build-out? Probably you",
-          "url": "https://www.ft.com/content/09f56730-4702-446d-9986-f7c93ffe6bf0?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-21T15:00:25.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -165,69 +152,40 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "3fbb5875ffba",
-          "title": "‘Paralyzed’ US IPO Market Asks If There’s Life After Anthropic",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-22/-paralyzed-us-ipo-market-asks-if-there-s-life-after-anthropic",
-          "publishedAt": "2026-10-22T14:52:25.000Z",
-          "teaser": "The debate over artificial intelligence is keeping IPOs stuck on the launching pad, and with the shadow of Anthropic PBC’s market debut looming larger by the day, billions of dollars of capital and months of preparations are hanging in the balance.",
+          "id": "8ed4ff2f9817",
+          "title": "Armenia’s Largest Lender Ardshinbank Is Said to Weigh London IPO",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/armenia-s-largest-lender-ardshinbank-is-said-to-weigh-london-ipo",
+          "publishedAt": "2026-10-23T12:54:53.000Z",
+          "teaser": "Ardshinbank OJSC is exploring a potential initial public offering, according to people familiar with the matter, with London among the venues under consideration.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "5828cd349d1a",
-          "title": "Texas Developer Seeks $3.5 Billion in Debt Financing for AT&T (T) Headquarters",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-22/texas-developer-seeks-3-5-billion-in-debt-financing-for-at-t-t-headquarters",
-          "publishedAt": "2026-10-22T14:00:59.000Z",
-          "teaser": "The developer behind AT&T Inc.’s new global headquarters in Plano, Texas, is seeking to raise about $3.5 billion via a niche form of financing to fund construction of the sprawling corporate campus.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "1615f290b1b4",
-          "title": "Banque du Caire Boosts Size of Egypt’s Biggest IPO in a Decade",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-22/banque-du-caire-boosts-size-of-egypt-s-biggest-ipo-in-a-decade",
-          "publishedAt": "2026-10-22T13:59:47.000Z",
-          "teaser": "Banque du Caire boosted the stake it’s offering in a long-delayed IPO to 45%, in what would be Egypt’s largest initial public offering in more than a decade.",
+          "id": "85c92bd6d59e",
+          "title": "Jio’s Record IPO Draws Strong Demand, Defying India Market Rout",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/jio-s-record-ipo-draws-strong-demand-defying-india-market-rout",
+          "publishedAt": "2026-10-23T12:03:47.000Z",
+          "teaser": "Jio Platforms Ltd.’s $3.1 billion initial public offering drew strong demand, particularly from institutional investors, as the country’s biggest-ever share sale defied the drag of a weeklong selloff in Indian equities.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "bfb74a1c2232",
-          "title": "Norwegians Leave Gold in Forest as Some Fall for Scam",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-22/norwegians-leave-gold-in-forest-as-some-fall-for-scam",
-          "publishedAt": "2026-10-22T12:16:20.000Z",
-          "teaser": "Swindlers have persuaded Norwegians into buying gold and leaving it in the forest as part of a growing investment fraud, according to the country’s banking lobby.",
+          "id": "6a78115f86c3",
+          "title": "Treasuries’ AI Link Shows Sharp Shift as Haven Trade Returns",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/treasuries-link-to-ai-shows-sharp-shift-as-haven-trade-returns",
+          "publishedAt": "2026-10-23T03:19:02.000Z",
+          "teaser": "For much of this year, Treasuries offered investors little of their traditional protection when technology stocks stumbled.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "88fa4203b07b",
-          "title": "Stocks Drop as Risk-Off Views Dominate With Oil Up, Meta Falling",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-22/us-futures-slip-as-risk-off-sentiment-dominates-with-oil-rising",
-          "publishedAt": "2026-10-22T11:29:09.000Z",
-          "teaser": "Stocks opened lower on Thursday as escalating concern about Mideast conflict pushed oil futures higher, spurring inflation fears with US midterm elections less than two weeks away.",
+          "id": "8de81261a9fb",
+          "title": "Copper Trims Weekly Decline as Selloff in AI Stocks Eases",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/copper-heads-for-weekly-loss-as-ai-selloff-hurts-risk-appetite",
+          "publishedAt": "2026-10-23T03:00:19.000Z",
+          "teaser": "Copper pared a weekly loss as a selloff in technology stocks faded, easing concerns over demand for the metal used in data centers and power infrastructure.",
           "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "71eafb601dbb",
-          "title": "Blackstone Profit Drops 9.2% as Higher Rates Curb Dealmaking",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-22/blackstone-profit-drops-9-2-as-rates-inflation-curb-dealmaking",
-          "publishedAt": "2026-10-22T11:06:46.000Z",
-          "teaser": "Blackstone Inc. reported a drop in third-quarter income as higher interest rates subdued dealmaking, with the money the firm deployed reaching a low for this year.",
-          "firms": [
-            "Blackstone"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "eb60c0e14aa3",
-          "title": "Stocks Fall as AI, Oil Risks Spur Flight to Bonds: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-21/stock-market-today-dow-s-p-live-updates",
-          "publishedAt": "2026-10-21T22:13:33.000Z",
-          "teaser": "Stocks dropped as a jump in oil prices and renewed concerns about the outlook for the artificial-intelligence trade pushed global investors toward the safety of bonds.",
-          "firms": [],
-          "section": "markets"
+          "section": "private-markets"
         }
       ]
     },
