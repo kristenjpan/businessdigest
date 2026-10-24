@@ -1,86 +1,95 @@
 {
-  "generatedAt": "2026-10-23T15:00:31.478Z",
+  "generatedAt": "2026-10-24T13:59:28.628Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "17226285731b",
-          "title": "Weil Gotshal Loses More Top Lawyers as Merger Talks Collapse",
-          "url": "https://www.wsj.com/business/deals/weil-gotshal-bleeds-more-top-lawyers-as-it-holds-merger-talks-4d0388ad?mod=rss_markets_main",
-          "publishedAt": "2026-10-23T14:01:00.000Z",
-          "teaser": "Partners are leaving for rivals including Sidley Austin and Davis Polk, increasing pressure on the law firm to secure its future.",
+          "id": "1979e29b8651",
+          "title": "Moderna Investors Should Brace for More Whiplash",
+          "url": "https://www.wsj.com/health/pharma/moderna-investors-should-brace-for-more-whiplash-5c32f32d?mod=rss_markets_main",
+          "publishedAt": "2026-10-24T09:30:00.000Z",
+          "teaser": "Even after its latest sharp fall, the drugmaker’s stock price assumes wild successes.",
           "firms": [],
-          "section": "private-equity"
+          "section": "markets"
         },
         {
-          "id": "cb2339aae1d1",
-          "title": "Bombardier to Invest $270 Million in U.S. Expansion",
-          "url": "https://www.wsj.com/business/bombardier-to-invest-270-million-in-u-s-expansion-6d0c88cb?mod=rss_markets_main",
-          "publishedAt": "2026-10-23T13:33:00.000Z",
-          "teaser": "Bombardier plans to invest $270 million to expand its American infrastructure footprint and hire 800 U.S. workers, days after President Trump seemed to soften his rhetoric against the Montreal business-jet maker.",
+          "id": "8cb5f4b8fae0",
+          "title": "Stocks Pulled in Two Directions, Fall to End Volatile Week",
+          "url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8?mod=rss_markets_main",
+          "publishedAt": "2026-10-23T21:10:00.000Z",
+          "teaser": "Inflation and jitters over artificial intelligence are fighting for investors’ attention.",
           "firms": [],
-          "section": "private-markets"
+          "section": "markets"
+        },
+        {
+          "id": "1d0f15fdcb84",
+          "title": "U.S. Stocks Fall as Oil Prices Hit Five-Month High",
+          "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-oil-prices-hit-five-month-high-a800db83?mod=rss_markets_main",
+          "publishedAt": "2026-10-23T20:34:00.000Z",
+          "teaser": "U.S. stocks declined as Wall Street continued its move toward less risky investments and as oil prices climbed to their highest level in five months.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "69b78cd25f09",
+          "title": "Stock Selloff Continues as Oil Surges",
+          "url": "https://www.wsj.com/finance/stocks/stock-selloff-continues-as-oil-surges-a6d20245?mod=rss_markets_main",
+          "publishedAt": "2026-10-23T20:19:00.000Z",
+          "teaser": "Plus, SK Hynix scraps U.S. IPO plan for its flash-memory subsidiary and American Express cuts 5% of its headcount.",
+          "firms": [],
+          "section": "markets"
         },
         {
           "id": "9af0e6bc52e9",
-          "title": "Oil Prices Rise as Middle East Risks Persist",
+          "title": "Oil Prices Rise on Fears of Middle East Conflict Escalation",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-middle-east-risks-persist-c1262364?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-23T13:11:00.000Z",
-          "teaser": "Brent climbed above $114 as traders weighed the risk of renewed U.S.-Iran hostilities and further attacks on Saudi energy infrastructure against recovering Middle East oil supplies.",
+          "publishedAt": "2026-10-23T19:54:00.000Z",
+          "teaser": "Oil prices closed out the week solidly higher with the market on edge about the possibility of renewed U.S.-Iran hostilities and further attacks on Saudi energy infrastructure.",
           "firms": [],
           "section": "private-markets"
         },
         {
-          "id": "f6eeda6fe473",
-          "title": "Brokerage Firms Want to Yank Away Your Investor Protections",
-          "url": "https://www.wsj.com/finance/investing/brokerage-firms-want-to-yank-away-your-investor-protections-b9fddd88?mod=rss_markets_main",
-          "publishedAt": "2026-10-23T13:00:00.000Z",
-          "teaser": "One of Wall Street’s regulators is pondering changes to the way investors can seek to recover losses.",
+          "id": "b06b5ab810a8",
+          "title": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns",
+          "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-up-bond-market-focus-to-stay-on-france-8b28a326?mod=rss_markets_main",
+          "publishedAt": "2026-10-23T18:11:00.000Z",
+          "teaser": "U.S. Treasury yields rose as investors sought safety from the turmoil in French government bonds ahead of a closely watched interest-rate decision.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "b5f76b48687d",
-          "title": "Indonesia’s Sovereign Fund Sticks to Investment Strategy Amid Market Turmoil",
-          "url": "https://www.wsj.com/finance/investing/indonesias-sovereign-fund-sticks-with-investment-strategy-after-msci-warning-12459e59?mod=rss_markets_main",
-          "publishedAt": "2026-10-23T11:43:00.000Z",
-          "teaser": "Indonesia’s sovereign wealth fund said it remains confident in its investment strategy after a downgrade warning from index provider MSCI sparked another rout in local markets.",
+          "id": "cb2339aae1d1",
+          "title": "Bombardier to Invest $270 Million in U.S. Expansion as Trump Softens Stance",
+          "url": "https://www.wsj.com/business/bombardier-to-invest-270-million-in-u-s-expansion-6d0c88cb?mod=rss_markets_main",
+          "publishedAt": "2026-10-23T15:29:00.000Z",
+          "teaser": "The expansion, which includes projects in Texas, Indiana, Kansas and Connecticut, will directly add 800 U.S. jobs, the Montreal-based business-jet maker said.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "790cf57be0d9",
+          "title": "Eni to Sign up to $1.8 Billion of Infrastructure Contracts for Cyprus Gas Project in Coming Days, Sources Say",
+          "url": "https://www.wsj.com/business/energy-oil/eni-to-sign-up-to-1-8-billion-of-infrastructure-contracts-for-cyprus-gas-project-in-coming-days-sources-say-1a6fd498?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-23T15:06:00.000Z",
+          "teaser": "The contracts involve building subsea infrastructure that will help extract, treat and send gas to Egypt via underwater pipelines, according to people familiar with the matter.",
           "firms": [],
           "section": "private-markets"
-        },
-        {
-          "id": "9ac66da90678",
-          "title": "Railroads Gain as Cargo Shifts to Rail From Highways",
-          "url": "https://www.wsj.com/logistics-report/railroads-gain-as-cargo-shifts-to-rail-from-highways-d121a357?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-23T11:14:00.000Z",
-          "teaser": "Plus, U.S. Steel plans to invest almost $3 billion on a new mill near Pittsburgh, and wars are forcing airlines to reroute flights.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "74d6a815a517",
-          "title": "Elite Colleges Can Give You an Investing Lesson",
-          "url": "https://www.wsj.com/finance/investing/elite-colleges-can-give-you-an-investing-lesson-699dc432?mod=rss_markets_main",
-          "publishedAt": "2026-10-23T10:35:00.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "95fc882118a6",
-          "title": "Is SpaceX Just a Mess?",
-          "url": "https://www.wsj.com/finance/investing/is-spacex-just-a-mess-cb1f06c2?mod=rss_markets_main",
-          "publishedAt": "2026-10-23T10:25:00.000Z",
-          "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
     {
       "id": "ft",
       "items": [
+        {
+          "id": "a6479351b7de",
+          "title": "‘Disrupter’ exchanges battle for ETFs in challenge to NYSE and Nasdaq",
+          "url": "https://www.ft.com/content/8dd8e115-c45e-4b66-8390-b5eeea4671d5?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-24T04:00:04.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "d456a8832205",
           "title": "Gold drops below $4,000 as ‘haven’ asset joins market sell-off",
@@ -136,15 +145,6 @@
           "teaser": "",
           "firms": [],
           "section": "hedge-funds"
-        },
-        {
-          "id": "27be8b143580",
-          "title": "Could Anthropic’s IPO be a turning point for AI? You asked, we answered",
-          "url": "https://www.ft.com/content/8cdf338e-d472-460c-8642-a8f033b99462?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-22T15:00:13.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
         }
       ]
     },
@@ -152,40 +152,40 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "8ed4ff2f9817",
-          "title": "Armenia’s Largest Lender Ardshinbank Is Said to Weigh London IPO",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-23/armenia-s-largest-lender-ardshinbank-is-said-to-weigh-london-ipo",
-          "publishedAt": "2026-10-23T12:54:53.000Z",
-          "teaser": "Ardshinbank OJSC is exploring a potential initial public offering, according to people familiar with the matter, with London among the venues under consideration.",
+          "id": "a973ac97353e",
+          "title": "Mauritius Carrier Looks at Narrow-Body Jets in Fleet Overhaul",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-24/mauritius-carrier-looks-at-narrow-body-jets-in-fleet-overhaul",
+          "publishedAt": "2026-10-24T08:59:12.000Z",
+          "teaser": "Mauritius’ state-owned carrier is planning to add single-aisle aircraft and review the planned acquisition of wide-body planes as part of a long-term strategy review.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "85c92bd6d59e",
-          "title": "Jio’s Record IPO Draws Strong Demand, Defying India Market Rout",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-23/jio-s-record-ipo-draws-strong-demand-defying-india-market-rout",
-          "publishedAt": "2026-10-23T12:03:47.000Z",
-          "teaser": "Jio Platforms Ltd.’s $3.1 billion initial public offering drew strong demand, particularly from institutional investors, as the country’s biggest-ever share sale defied the drag of a weeklong selloff in Indian equities.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "6a78115f86c3",
-          "title": "Treasuries’ AI Link Shows Sharp Shift as Haven Trade Returns",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-23/treasuries-link-to-ai-shows-sharp-shift-as-haven-trade-returns",
-          "publishedAt": "2026-10-23T03:19:02.000Z",
-          "teaser": "For much of this year, Treasuries offered investors little of their traditional protection when technology stocks stumbled.",
+          "id": "f713e3e52508",
+          "title": "India Regulator Orders Options Trainer Avadhut Sathe to Refund INR 5.46B",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-24/india-regulator-orders-options-trainer-avadhut-sathe-to-refund-inr-5-46b",
+          "publishedAt": "2026-10-24T03:54:47.000Z",
+          "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "8de81261a9fb",
-          "title": "Copper Trims Weekly Decline as Selloff in AI Stocks Eases",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-23/copper-heads-for-weekly-loss-as-ai-selloff-hurts-risk-appetite",
-          "publishedAt": "2026-10-23T03:00:19.000Z",
-          "teaser": "Copper pared a weekly loss as a selloff in technology stocks faded, easing concerns over demand for the metal used in data centers and power infrastructure.",
+          "id": "7eb4e1f31efb",
+          "title": "Singapore Expands Haze Investigation to 10 Locally Based Firms",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-24/singapore-expands-haze-investigation-to-10-locally-based-firms",
+          "publishedAt": "2026-10-24T03:20:42.000Z",
+          "teaser": "Singapore expanded its investigation into haze-creating fires in Indonesia that have blanketed the city-state in smog, requesting information from 10 locally registered companies.",
           "firms": [],
-          "section": "private-markets"
+          "section": "markets"
+        },
+        {
+          "id": "896638884bf0",
+          "title": "Growth, Value Stocks Set for Reshuffle as S&P Adopts New Rules",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-24/growth-value-stocks-set-for-reshuffle-as-s-p-adopts-new-rules",
+          "publishedAt": "2026-10-24T00:12:59.000Z",
+          "teaser": "Growth and value shares are set for an overhaul after S&P Dow Jones Indices adopted new rules on how to sort equities into the two investment styles.",
+          "firms": [],
+          "section": "markets"
         }
       ]
     },
