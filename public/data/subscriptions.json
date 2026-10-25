@@ -1,9 +1,36 @@
 {
-  "generatedAt": "2026-10-24T13:59:28.628Z",
+  "generatedAt": "2026-10-25T14:19:45.018Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
+        {
+          "id": "d9c6bce076b0",
+          "title": "The Growing Battle Between Credit-Card Firms and Points Junkies",
+          "url": "https://www.wsj.com/articles/the-growing-battle-between-credit-card-firms-and-points-junkies-e840b792?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-25T11:04:00.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "fb07776b3969",
+          "title": "The Cat-and-Mouse Game Between Premium Credit-Card Firms and Points Junkies",
+          "url": "https://www.wsj.com/finance/banking/the-cat-and-mouse-game-between-premium-credit-card-firms-and-points-junkies-8ce2e30a?mod=rss_markets_main",
+          "publishedAt": "2026-10-25T00:00:00.000Z",
+          "teaser": "A subculture of people obsessed with reaping rewards is prompting banks to adjust to their evolving tactics.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "5bf5b936afe2",
+          "title": "How Trade Desk Rescued Executives’ Stock Options From a Dive in the Share Price",
+          "url": "https://www.wsj.com/business/how-trade-desk-rescued-executives-stock-options-from-a-dive-in-the-share-price-8c055b27?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-24T20:04:00.000Z",
+          "teaser": "CEO Jeff Green used his supervoting power to approve the repricing of options over opposition from outside investors.",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "1979e29b8651",
           "title": "Moderna Investors Should Brace for More Whiplash",
@@ -48,39 +75,21 @@
           "teaser": "Oil prices closed out the week solidly higher with the market on edge about the possibility of renewed U.S.-Iran hostilities and further attacks on Saudi energy infrastructure.",
           "firms": [],
           "section": "private-markets"
-        },
-        {
-          "id": "b06b5ab810a8",
-          "title": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns",
-          "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-up-bond-market-focus-to-stay-on-france-8b28a326?mod=rss_markets_main",
-          "publishedAt": "2026-10-23T18:11:00.000Z",
-          "teaser": "U.S. Treasury yields rose as investors sought safety from the turmoil in French government bonds ahead of a closely watched interest-rate decision.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "cb2339aae1d1",
-          "title": "Bombardier to Invest $270 Million in U.S. Expansion as Trump Softens Stance",
-          "url": "https://www.wsj.com/business/bombardier-to-invest-270-million-in-u-s-expansion-6d0c88cb?mod=rss_markets_main",
-          "publishedAt": "2026-10-23T15:29:00.000Z",
-          "teaser": "The expansion, which includes projects in Texas, Indiana, Kansas and Connecticut, will directly add 800 U.S. jobs, the Montreal-based business-jet maker said.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "790cf57be0d9",
-          "title": "Eni to Sign up to $1.8 Billion of Infrastructure Contracts for Cyprus Gas Project in Coming Days, Sources Say",
-          "url": "https://www.wsj.com/business/energy-oil/eni-to-sign-up-to-1-8-billion-of-infrastructure-contracts-for-cyprus-gas-project-in-coming-days-sources-say-1a6fd498?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-23T15:06:00.000Z",
-          "teaser": "The contracts involve building subsea infrastructure that will help extract, treat and send gas to Egypt via underwater pipelines, according to people familiar with the matter.",
-          "firms": [],
-          "section": "private-markets"
         }
       ]
     },
     {
       "id": "ft",
       "items": [
+        {
+          "id": "54c62e0e0c71",
+          "title": "London’s most famous shopping street bans cars in bid to revive its fortunes",
+          "url": "https://www.ft.com/content/73a2ca6f-29b7-49e5-b8c7-0bde6c4e945b?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-25T12:26:15.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "a6479351b7de",
           "title": "‘Disrupter’ exchanges battle for ETFs in challenge to NYSE and Nasdaq",
@@ -98,53 +107,6 @@
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "6325f935b8ae",
-          "title": "KKR founders back Valencia in deal valuing football club at €1.25bn",
-          "url": "https://www.ft.com/content/f75c25c2-4164-4dfc-9d56-fc6a86704c47?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-23T12:02:13.000Z",
-          "teaser": "",
-          "firms": [
-            "KKR"
-          ],
-          "section": "family-offices"
-        },
-        {
-          "id": "bcf162d2e7cd",
-          "title": "Anthropic strikes deal to launch European consultancy",
-          "url": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-23T09:04:09.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "8f5bb38eeaa7",
-          "title": "Calpers retreats from Big Tech as AI rally falters",
-          "url": "https://www.ft.com/content/e842173f-6f9f-4115-9e5f-a0f06f0df18d?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-23T04:00:18.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "b1d0c4415268",
-          "title": "Argentina’s resources boom gathers pace",
-          "url": "https://www.ft.com/content/867e072d-4e10-407d-aefc-502c77dfd95b?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-23T04:00:10.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "cde632e3fd59",
-          "title": "UK waters down ‘fit and proper’ rules set up to hold bankers to account",
-          "url": "https://www.ft.com/content/0a5c7582-133c-4e24-8e3d-daa30f5dad56?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-22T20:00:05.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "hedge-funds"
         }
       ]
     },
@@ -152,38 +114,71 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "a973ac97353e",
-          "title": "Mauritius Carrier Looks at Narrow-Body Jets in Fleet Overhaul",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-24/mauritius-carrier-looks-at-narrow-body-jets-in-fleet-overhaul",
-          "publishedAt": "2026-10-24T08:59:12.000Z",
-          "teaser": "Mauritius’ state-owned carrier is planning to add single-aisle aircraft and review the planned acquisition of wide-body planes as part of a long-term strategy review.",
+          "id": "a57203ae6ff7",
+          "title": "What’s Happening in EM: Bond Investors Turn to Developing World",
+          "url": "https://www.bloomberg.com/news/audio/2026-10-25/what-s-happening-in-em-bond-investors-turn-to-developing-world",
+          "publishedAt": "2026-10-25T12:30:00.000Z",
+          "teaser": "This week, Mpho Hlakudi and Selcuk Gokoluk discuss how some of the world’s biggest asset managers increase their exposure to emerging markets despite the surge in US Treasury yields, weakening a traditional correlation in financial markets.",
           "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "3ed6cb55f694",
+          "title": "Emerging Debt Outruns Treasuries as Rich-World Fiscal Fears Grow",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-25/emerging-debt-outruns-treasuries-as-rich-world-fiscal-fears-grow",
+          "publishedAt": "2026-10-25T12:30:00.000Z",
+          "teaser": "Investors from JPMorgan Asset Management to Generali and Ninety One SA are loading up on emerging-market debt, defying a surge in Treasury yields that would once have sent them running for the exits.",
+          "firms": [
+            "J.P. Morgan"
+          ],
           "section": "private-equity"
         },
         {
-          "id": "f713e3e52508",
-          "title": "India Regulator Orders Options Trainer Avadhut Sathe to Refund INR 5.46B",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-24/india-regulator-orders-options-trainer-avadhut-sathe-to-refund-inr-5-46b",
-          "publishedAt": "2026-10-24T03:54:47.000Z",
-          "teaser": "",
+          "id": "445e03d9e7cf",
+          "title": "IndiGo, Air India to Shift Some Flights to New Mumbai Airport",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-25/indigo-air-india-to-shift-some-flights-to-new-mumbai-airport",
+          "publishedAt": "2026-10-25T11:20:11.000Z",
+          "teaser": "IndiGo and Air India will move some of its international operations to Navi Mumbai International Airport as two of India’s biggest airlines expand their presence at the new aviation facility serving the country’s financial capital.",
           "firms": [],
           "section": "markets"
+        },
+        {
+          "id": "a078dd1c3d20",
+          "title": "Brookfield to Open Doha Office to Deepen Middle East Reach",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-25/brookfield-to-open-doha-office-to-deepen-its-middle-east-reach",
+          "publishedAt": "2026-10-25T08:47:01.000Z",
+          "teaser": "Brookfield Asset Management Ltd. is opening an office in Qatar, deepening its presence in the Middle East where many countries are grappling with the economic fallout from the war.",
+          "firms": [
+            "Brookfield"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "c5c7573e5359",
+          "title": "Goldman Cuts Kospi 12-Month Target by 25% as AI Trade Unravels",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-25/goldman-cuts-kospi-12-month-target-by-25-as-ai-trade-unravels",
+          "publishedAt": "2026-10-25T07:44:43.000Z",
+          "teaser": "Goldman Sachs Group Inc. strategists slashed their target for South Korea’s Kospi Index by 25%, after raising it repeatedly this year, as concerns over the artificial intelligence trade intensify.",
+          "firms": [
+            "Goldman Sachs"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "4047a016db94",
+          "title": "Singapore’s Wong Vows More Support for Workers, Energy Security",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-25/singapore-s-wong-vows-more-support-for-workers-energy-security",
+          "publishedAt": "2026-10-25T05:40:56.000Z",
+          "teaser": "Singapore Prime Minister Lawrence Wong pledged more support for workers and households, and said the government would step up efforts to secure energy supplies and attract investment as the city-state confronts growing global uncertainty.",
+          "firms": [],
+          "section": "private-markets"
         },
         {
           "id": "7eb4e1f31efb",
-          "title": "Singapore Expands Haze Investigation to 10 Locally Based Firms",
+          "title": "Singapore Expands Haze Inquiries to 10 Locally Based Firms",
           "url": "https://www.bloomberg.com/news/articles/2026-10-24/singapore-expands-haze-investigation-to-10-locally-based-firms",
           "publishedAt": "2026-10-24T03:20:42.000Z",
           "teaser": "Singapore expanded its investigation into haze-creating fires in Indonesia that have blanketed the city-state in smog, requesting information from 10 locally registered companies.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "896638884bf0",
-          "title": "Growth, Value Stocks Set for Reshuffle as S&P Adopts New Rules",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-24/growth-value-stocks-set-for-reshuffle-as-s-p-adopts-new-rules",
-          "publishedAt": "2026-10-24T00:12:59.000Z",
-          "teaser": "Growth and value shares are set for an overhaul after S&P Dow Jones Indices adopted new rules on how to sort equities into the two investment styles.",
           "firms": [],
           "section": "markets"
         }

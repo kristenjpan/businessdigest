@@ -1,0 +1,1521 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T14:19:45.018Z",
+  "engine": "rules-v5",
+  "edition": 33,
+  "brief": {
+    "headline": "Rexford Sells $1.3B in SoCal Industrial Assets as Leasing Rebounds",
+    "bullets": [
+      "Real Estate: Rexford Industrial Realty continued its transformation from Southern California’s biggest industrial buyer into one of its largest sellers during the third quarter after completing $1.3 billion in property sales.",
+      "Earnings & AUM: Allocators spent the week voting for hedge funds as a diversifier, and the market spent the week testing whether the vote was earned.",
+      "Fed & Rates: Investors should focus not on the rate itself.",
+      "Real Estate: A joint venture involving Avery Hall Investments, Bridge Investment Group and Declaration Partners has sealed a $95 million loan to refinance a newly built multifamily property in Brooklyn’s Gowanus neighborhood, Commercial Observer has learned.",
+      "Investor Outlook: Middle East crude flows have rebounded, but precautionary buying and portfolio hedging are among the factors keeping prices elevated, says Daan Struyven, co-head of Global Commodities Research and head of Oil Research, on the Goldman Sachs Exchanges podcast."
+    ],
+    "marketRead": "Bottom line: calm volatility and open credit markets are a supportive backdrop for dealmaking, fundraising and exits. The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the VIX is 19.0, a normal-volatility reading. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). High-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading).",
+    "themes": [
+      {
+        "id": "markets",
+        "label": "Market Moves",
+        "count": 6
+      },
+      {
+        "id": "voices",
+        "label": "Investor Outlook",
+        "count": 4
+      },
+      {
+        "id": "private-credit",
+        "label": "Private Credit",
+        "count": 3
+      },
+      {
+        "id": "family-office",
+        "label": "Family Offices & Wealth",
+        "count": 3
+      },
+      {
+        "id": "regulation",
+        "label": "Regulation & Policy",
+        "count": 2
+      },
+      {
+        "id": "macro",
+        "label": "Macro & Geopolitics",
+        "count": 2
+      }
+    ]
+  },
+  "market": [
+    {
+      "id": "SP500",
+      "label": "S&P 500",
+      "unit": "index",
+      "value": 7757.17,
+      "previous": 7712.57,
+      "asOf": "2026-10-21",
+      "history": [
+        {
+          "date": "2026-09-22",
+          "value": 7764.64
+        },
+        {
+          "date": "2026-09-23",
+          "value": 7706.03
+        },
+        {
+          "date": "2026-09-24",
+          "value": 7704.13
+        },
+        {
+          "date": "2026-09-25",
+          "value": 7743.41
+        },
+        {
+          "date": "2026-09-28",
+          "value": 7683.69
+        },
+        {
+          "date": "2026-09-29",
+          "value": 7670.84
+        },
+        {
+          "date": "2026-09-30",
+          "value": 7651.54
+        },
+        {
+          "date": "2026-10-01",
+          "value": 7666.45
+        },
+        {
+          "date": "2026-10-02",
+          "value": 7722.72
+        },
+        {
+          "date": "2026-10-05",
+          "value": 7773.95
+        },
+        {
+          "date": "2026-10-06",
+          "value": 7818.93
+        },
+        {
+          "date": "2026-10-07",
+          "value": 7801.77
+        },
+        {
+          "date": "2026-10-08",
+          "value": 7765.36
+        },
+        {
+          "date": "2026-10-09",
+          "value": 7811.54
+        },
+        {
+          "date": "2026-10-12",
+          "value": 7807.24
+        },
+        {
+          "date": "2026-10-13",
+          "value": 7805.45
+        },
+        {
+          "date": "2026-10-14",
+          "value": 7718.94
+        },
+        {
+          "date": "2026-10-15",
+          "value": 7744.06
+        },
+        {
+          "date": "2026-10-16",
+          "value": 7659.44
+        },
+        {
+          "date": "2026-10-19",
+          "value": 7690.73
+        },
+        {
+          "date": "2026-10-20",
+          "value": 7712.57
+        },
+        {
+          "date": "2026-10-21",
+          "value": 7757.17
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/SP500"
+    },
+    {
+      "id": "DGS10",
+      "label": "10-Yr Treasury",
+      "unit": "percent",
+      "value": 4.96,
+      "previous": 5.13,
+      "asOf": "2026-10-22",
+      "history": [
+        {
+          "date": "2026-09-22",
+          "value": 4.96
+        },
+        {
+          "date": "2026-09-23",
+          "value": 5.11
+        },
+        {
+          "date": "2026-09-24",
+          "value": 5.18
+        },
+        {
+          "date": "2026-09-25",
+          "value": 5.17
+        },
+        {
+          "date": "2026-09-28",
+          "value": 5.24
+        },
+        {
+          "date": "2026-09-29",
+          "value": 5.26
+        },
+        {
+          "date": "2026-09-30",
+          "value": 5.29
+        },
+        {
+          "date": "2026-10-01",
+          "value": 5.24
+        },
+        {
+          "date": "2026-10-02",
+          "value": 5.28
+        },
+        {
+          "date": "2026-10-05",
+          "value": 5.31
+        },
+        {
+          "date": "2026-10-06",
+          "value": 5.27
+        },
+        {
+          "date": "2026-10-07",
+          "value": 5.28
+        },
+        {
+          "date": "2026-10-08",
+          "value": 5.22
+        },
+        {
+          "date": "2026-10-09",
+          "value": 5.24
+        },
+        {
+          "date": "2026-10-13",
+          "value": 5.21
+        },
+        {
+          "date": "2026-10-14",
+          "value": 5.19
+        },
+        {
+          "date": "2026-10-15",
+          "value": 5.1
+        },
+        {
+          "date": "2026-10-16",
+          "value": 5.09
+        },
+        {
+          "date": "2026-10-19",
+          "value": 5.15
+        },
+        {
+          "date": "2026-10-20",
+          "value": 5.12
+        },
+        {
+          "date": "2026-10-21",
+          "value": 5.13
+        },
+        {
+          "date": "2026-10-22",
+          "value": 4.96
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
+    },
+    {
+      "id": "DGS2",
+      "label": "2-Yr Treasury",
+      "unit": "percent",
+      "value": 4.65,
+      "previous": 4.81,
+      "asOf": "2026-10-22",
+      "history": [
+        {
+          "date": "2026-09-22",
+          "value": 4.71
+        },
+        {
+          "date": "2026-09-23",
+          "value": 4.85
+        },
+        {
+          "date": "2026-09-24",
+          "value": 4.87
+        },
+        {
+          "date": "2026-09-25",
+          "value": 4.81
+        },
+        {
+          "date": "2026-09-28",
+          "value": 4.92
+        },
+        {
+          "date": "2026-09-29",
+          "value": 4.89
+        },
+        {
+          "date": "2026-09-30",
+          "value": 4.88
+        },
+        {
+          "date": "2026-10-01",
+          "value": 4.78
+        },
+        {
+          "date": "2026-10-02",
+          "value": 4.83
+        },
+        {
+          "date": "2026-10-05",
+          "value": 4.84
+        },
+        {
+          "date": "2026-10-06",
+          "value": 4.79
+        },
+        {
+          "date": "2026-10-07",
+          "value": 4.77
+        },
+        {
+          "date": "2026-10-08",
+          "value": 4.75
+        },
+        {
+          "date": "2026-10-09",
+          "value": 4.8
+        },
+        {
+          "date": "2026-10-13",
+          "value": 4.79
+        },
+        {
+          "date": "2026-10-14",
+          "value": 4.82
+        },
+        {
+          "date": "2026-10-15",
+          "value": 4.77
+        },
+        {
+          "date": "2026-10-16",
+          "value": 4.74
+        },
+        {
+          "date": "2026-10-19",
+          "value": 4.77
+        },
+        {
+          "date": "2026-10-20",
+          "value": 4.79
+        },
+        {
+          "date": "2026-10-21",
+          "value": 4.81
+        },
+        {
+          "date": "2026-10-22",
+          "value": 4.65
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/DGS2"
+    },
+    {
+      "id": "T10Y2Y",
+      "label": "10Y–2Y Curve",
+      "unit": "percent",
+      "value": 0.31,
+      "previous": 0.31,
+      "asOf": "2026-10-23",
+      "history": [
+        {
+          "date": "2026-09-23",
+          "value": 0.26
+        },
+        {
+          "date": "2026-09-24",
+          "value": 0.31
+        },
+        {
+          "date": "2026-09-25",
+          "value": 0.36
+        },
+        {
+          "date": "2026-09-28",
+          "value": 0.32
+        },
+        {
+          "date": "2026-09-29",
+          "value": 0.37
+        },
+        {
+          "date": "2026-09-30",
+          "value": 0.41
+        },
+        {
+          "date": "2026-10-01",
+          "value": 0.46
+        },
+        {
+          "date": "2026-10-02",
+          "value": 0.45
+        },
+        {
+          "date": "2026-10-05",
+          "value": 0.47
+        },
+        {
+          "date": "2026-10-06",
+          "value": 0.48
+        },
+        {
+          "date": "2026-10-07",
+          "value": 0.51
+        },
+        {
+          "date": "2026-10-08",
+          "value": 0.47
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0.44
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0.42
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0.37
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0.33
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0.35
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0.38
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0.33
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0.32
+        },
+        {
+          "date": "2026-10-22",
+          "value": 0.31
+        },
+        {
+          "date": "2026-10-23",
+          "value": 0.31
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/T10Y2Y"
+    },
+    {
+      "id": "VIXCLS",
+      "label": "VIX",
+      "unit": "index",
+      "value": 19.03,
+      "previous": 16.68,
+      "asOf": "2026-10-22",
+      "history": [
+        {
+          "date": "2026-09-23",
+          "value": 15.18
+        },
+        {
+          "date": "2026-09-24",
+          "value": 15.67
+        },
+        {
+          "date": "2026-09-25",
+          "value": 14.87
+        },
+        {
+          "date": "2026-09-28",
+          "value": 16.07
+        },
+        {
+          "date": "2026-09-29",
+          "value": 16.04
+        },
+        {
+          "date": "2026-09-30",
+          "value": 16.34
+        },
+        {
+          "date": "2026-10-01",
+          "value": 16.39
+        },
+        {
+          "date": "2026-10-02",
+          "value": 15.31
+        },
+        {
+          "date": "2026-10-05",
+          "value": 15.52
+        },
+        {
+          "date": "2026-10-06",
+          "value": 15.01
+        },
+        {
+          "date": "2026-10-07",
+          "value": 15.08
+        },
+        {
+          "date": "2026-10-08",
+          "value": 15.41
+        },
+        {
+          "date": "2026-10-09",
+          "value": 14.84
+        },
+        {
+          "date": "2026-10-12",
+          "value": 15.21
+        },
+        {
+          "date": "2026-10-13",
+          "value": 15.27
+        },
+        {
+          "date": "2026-10-14",
+          "value": 16.87
+        },
+        {
+          "date": "2026-10-15",
+          "value": 16.46
+        },
+        {
+          "date": "2026-10-16",
+          "value": 19.99
+        },
+        {
+          "date": "2026-10-19",
+          "value": 18.44
+        },
+        {
+          "date": "2026-10-20",
+          "value": 17.31
+        },
+        {
+          "date": "2026-10-21",
+          "value": 16.68
+        },
+        {
+          "date": "2026-10-22",
+          "value": 19.03
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/VIXCLS"
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "label": "High-Yield Spread",
+      "unit": "percent",
+      "value": 3.4,
+      "previous": 3.27,
+      "asOf": "2026-10-22",
+      "history": [
+        {
+          "date": "2026-09-23",
+          "value": 2.73
+        },
+        {
+          "date": "2026-09-24",
+          "value": 2.8
+        },
+        {
+          "date": "2026-09-25",
+          "value": 2.93
+        },
+        {
+          "date": "2026-09-28",
+          "value": 3.02
+        },
+        {
+          "date": "2026-09-29",
+          "value": 3.08
+        },
+        {
+          "date": "2026-09-30",
+          "value": 3.12
+        },
+        {
+          "date": "2026-10-01",
+          "value": 3.24
+        },
+        {
+          "date": "2026-10-02",
+          "value": 3.1
+        },
+        {
+          "date": "2026-10-05",
+          "value": 3.12
+        },
+        {
+          "date": "2026-10-06",
+          "value": 3.03
+        },
+        {
+          "date": "2026-10-07",
+          "value": 3.09
+        },
+        {
+          "date": "2026-10-08",
+          "value": 3.15
+        },
+        {
+          "date": "2026-10-09",
+          "value": 3.11
+        },
+        {
+          "date": "2026-10-12",
+          "value": 3.11
+        },
+        {
+          "date": "2026-10-13",
+          "value": 3.16
+        },
+        {
+          "date": "2026-10-14",
+          "value": 3.25
+        },
+        {
+          "date": "2026-10-15",
+          "value": 3.23
+        },
+        {
+          "date": "2026-10-16",
+          "value": 3.31
+        },
+        {
+          "date": "2026-10-19",
+          "value": 3.29
+        },
+        {
+          "date": "2026-10-20",
+          "value": 3.33
+        },
+        {
+          "date": "2026-10-21",
+          "value": 3.27
+        },
+        {
+          "date": "2026-10-22",
+          "value": 3.4
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+    },
+    {
+      "id": "DFF",
+      "label": "Fed Funds Rate",
+      "unit": "percent",
+      "value": 3.88,
+      "previous": 3.88,
+      "asOf": "2026-10-22",
+      "history": [
+        {
+          "date": "2026-10-01",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-02",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-03",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-04",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-05",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-06",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-07",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-08",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-09",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-10",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-11",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-12",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-13",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-14",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-15",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-16",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-17",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-18",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-19",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-20",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-21",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-22",
+          "value": 3.88
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/DFF"
+    }
+  ],
+  "topStoryIds": [
+    "328d354b75b6",
+    "10e8d5814946",
+    "e093c8a6e791"
+  ],
+  "items": [
+    {
+      "id": "e093c8a6e791",
+      "title": "Here’s the real signal to watch for the Fed’s next move",
+      "url": "https://www.marketwatch.com/story/heres-the-real-signal-to-watch-for-the-feds-next-move-9189cb51?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-25T11:30:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "rates",
+        "label": "Fed & Rates"
+      },
+      "importance": 2,
+      "takeaway": "Investors should focus not on the rate itself.",
+      "whyItMatters": "Moves in rates feed straight into borrowing costs for deals, bond prices and property values, so they change the hurdle every investment has to clear.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Basis point",
+        "explanation": "One hundredth of a percentage point (0.01%). A rate rising from 4.00% to 4.25% has risen 25 basis points."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "fdd2315ac72e",
+      "title": "Worried about this stock-market selloff? Relief may be coming after the midterms — no matter who wins.",
+      "url": "https://www.marketwatch.com/story/worried-about-this-stock-market-selloff-relief-may-be-coming-after-the-midterms-no-matter-who-wins-39322c07?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-25T13:00:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "The nine months between Election Day and June 30 have seen the S&P 500 deliver an average return of 15.5% going back to 1950.",
+      "whyItMatters": "A lasting selloff in stocks would cut the value of private companies priced against them and make IPOs harder, so watch whether it spreads.",
+      "marketContext": "The VIX is 19.0, a normal-volatility reading and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "5ba3753803d5",
+      "title": "Why economic health no longer dictates stock-market returns",
+      "url": "https://www.marketwatch.com/story/why-economic-health-no-longer-dictates-stock-market-returns-c44b88f2?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-25T12:00:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "There is a wide disconnect between Wall Street and Main Street.",
+      "whyItMatters": "Public-market swings feed directly into private-market valuations, IPO windows and investor sentiment.",
+      "marketContext": "The VIX is 19.0, a normal-volatility reading and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "b74f7652e722",
+      "title": "SEC Announces Fiscal Year 2027 Examination Priorities",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+      "publishedAt": "2026-10-23T14:10:00.000Z",
+      "source": {
+        "id": "sec-press",
+        "name": "SEC — Press Releases",
+        "homepage": "https://www.sec.gov/newsroom/press-releases",
+        "contentType": "regulator"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "regulation",
+        "label": "Regulation & Policy"
+      },
+      "importance": 2,
+      "takeaway": "The Securities and Exchange Commission today announced the Division of Examinations’ Fiscal Year 2027 examination priorities.",
+      "whyItMatters": "If regulators act on it, the change would affect how these products are offered and taxed, so the industry is pushing for clarity before rules are set.",
+      "marketContext": "The VIX is 19.0, a normal-volatility reading and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Accredited investor",
+        "explanation": "An individual or entity that meets SEC wealth or income tests and is therefore allowed to invest in most private funds."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "5a4734721cf7",
+      "title": "Young Americans are giving up on car ownership. It’s a path to financial freedom for some.",
+      "url": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-24T18:45:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "With vehicle prices soaring and ownership increasingly out of reach, some young adults are discovering that life without a car leaves them with breathing room to spend on other things.",
+      "whyItMatters": "Public-market swings feed directly into private-market valuations, IPO windows and investor sentiment.",
+      "marketContext": "The VIX is 19.0, a normal-volatility reading and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "b2cce9a62d2a",
+      "title": "The New Rules of Record Keeper Selection",
+      "url": "https://www.wealthmanagement.com/rpa-news/record-keepers-must-tailor-service-to-advisor-type",
+      "publishedAt": "2026-10-23T19:29:43.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "regulation",
+        "label": "Regulation & Policy"
+      },
+      "importance": 1,
+      "takeaway": "Study data show advocacy scores alone do not secure new plans; specialists, hybrids and wealth advisors each need distinct record keeper support to grow their practices efficiently.",
+      "whyItMatters": "If regulators act on it, the change would affect how wealth management products are offered and taxed, so the industry is pushing for clarity before rules are set.",
+      "marketContext": "The VIX is 19.0, a normal-volatility reading and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Accredited investor",
+        "explanation": "An individual or entity that meets SEC wealth or income tests and is therefore allowed to invest in most private funds."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "521f4eae2673",
+      "title": "Citi Approved for Wholly Owned Securities Venture in China",
+      "url": "https://www.marketsmedia.com/citi-approved-for-wholly-owned-securities-venture-in-china/",
+      "publishedAt": "2026-10-23T10:40:55.000Z",
+      "source": {
+        "id": "markets-media",
+        "name": "Markets Media",
+        "homepage": "https://www.marketsmedia.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "macro",
+        "label": "Macro & Geopolitics"
+      },
+      "importance": 1,
+      "takeaway": "By adding onshore capabilities, Citi can do more for clients in China’s domestic capital markets.",
+      "whyItMatters": "Investors price the economy's direction long before it shows up in data; big macro headlines often move every asset class.",
+      "marketContext": "The VIX is 19.0, a normal-volatility reading and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Recession",
+        "explanation": "A broad, sustained decline in economic activity, commonly (though not officially) defined as two quarters of shrinking GDP."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "e6b6fc7b3313",
+      "title": "Invesco Expands QQQ Innovation Suite Internationally",
+      "url": "https://www.marketsmedia.com/invesco-expands-qqq-innovation-suite-internationally/",
+      "publishedAt": "2026-10-23T18:05:34.000Z",
+      "source": {
+        "id": "markets-media",
+        "name": "Markets Media",
+        "homepage": "https://www.marketsmedia.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 1,
+      "takeaway": "The QQI ETF invests in companies outside the U.S.",
+      "whyItMatters": "Big market moves change portfolio weights and can prompt rebalancing across asset classes.",
+      "marketContext": "The VIX is 19.0, a normal-volatility reading and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "a2b504533371",
+      "title": "HSBC Launches its First Stablecoin",
+      "url": "https://www.marketsmedia.com/hsbc-launches-its-first-stablecoin/",
+      "publishedAt": "2026-10-23T10:53:07.000Z",
+      "source": {
+        "id": "markets-media",
+        "name": "Markets Media",
+        "homepage": "https://www.marketsmedia.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 1,
+      "takeaway": "Money, assets and information are moving to always-on, data-rich and programmable digital networks.",
+      "whyItMatters": "HSBC's launch adds a new way to invest in crypto, and how quickly it attracts money will show how deep demand really is.",
+      "marketContext": "The VIX is 19.0, a normal-volatility reading and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "d17806013951",
+      "title": "Obra Capital closes fifth CLO at $404m",
+      "url": "https://alternativecreditinvestor.com/2026/10/23/obra-capital-closes-fifth-clo-at-404m/",
+      "publishedAt": "2026-10-23T13:39:14.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "private-credit",
+        "label": "Private Credit"
+      },
+      "importance": 2,
+      "takeaway": "Alternatives manager Obra Capital has closed its fifth collateralised loan obligation (CLO), Obra CLO 5, at $403.6m (£303.3m).",
+      "whyItMatters": "Obra Capital's $404m deal shows private lenders are still putting money to work in private markets, and the terms they win set the bar for returns across the strategy.",
+      "marketContext": "The effective fed funds rate is 3.88% and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Most private loans pay a floating rate, so lender income tracks short-term rates while spreads show how much extra investors demand for credit risk. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "CLO",
+        "explanation": "Collateralized loan obligation, a pool of corporate loans sliced into bonds with different levels of risk and return."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "5324c662dd1c",
+      "title": "Polus resets US CLO at $400m",
+      "url": "https://alternativecreditinvestor.com/2026/10/23/polus-resets-us-clo-at-400m/",
+      "publishedAt": "2026-10-23T11:35:34.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "private-credit",
+        "label": "Private Credit"
+      },
+      "importance": 2,
+      "takeaway": "Polus Capital Management has closed the $400m (£297.5m) reset of its US collateralised loan obligation (CLO), Polus US CLO I. The firm announced the deal on LinkedIn, marking its first US CLO reset.",
+      "whyItMatters": "Polus Capital Management's $400m deal shows private lenders are still putting money to work, and the terms they win set the bar for returns across the strategy.",
+      "marketContext": "The effective fed funds rate is 3.88% and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Most private loans pay a floating rate, so lender income tracks short-term rates while spreads show how much extra investors demand for credit risk. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "CLO",
+        "explanation": "Collateralized loan obligation, a pool of corporate loans sliced into bonds with different levels of risk and return."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "6206ace99b0c",
+      "title": "New Report Highlights How Private Credit Powers Businesses Across America",
+      "url": "https://www.investmentcouncil.org/new-report-highlights-how-private-credit-powers-businesses-across-america/",
+      "publishedAt": "2026-10-22T17:14:32.000Z",
+      "source": {
+        "id": "aic",
+        "name": "American Investment Council",
+        "homepage": "https://www.investmentcouncil.org/",
+        "contentType": "research"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "private-credit",
+        "label": "Private Credit"
+      },
+      "importance": 2,
+      "takeaway": "Dunham: “Private credit direct lending plays a critical role in our economy, supporting countless small and midsized businesses across the U.S.” WASHINGTON, D.C. – Today, the American Investment Council (AIC) released a new report examining the private credit landscape.",
+      "whyItMatters": "Findings like this show where private credit is heading before it shows up in results, though one survey is a snapshot, not a trend.",
+      "marketContext": "The effective fed funds rate is 3.88% and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Most private loans pay a floating rate, so lender income tracks short-term rates while spreads show how much extra investors demand for credit risk. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Private credit",
+        "explanation": "Loans made by investment funds rather than banks, usually to mid-sized companies. They often pay higher, floating interest rates."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "bff4601f04b4",
+      "title": "Alternative Credit Europe Awards: less than a month to go",
+      "url": "https://alternativecreditinvestor.com/2026/10/23/alternative-credit-europe-awards-less-than-a-month-to-go/",
+      "publishedAt": "2026-10-23T11:12:30.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "macro",
+        "label": "Macro & Geopolitics"
+      },
+      "importance": 2,
+      "takeaway": "Time is running out to secure your table at the Alternative Credit Awards Europe 2026, hosted by Alternative Credit Investor.",
+      "whyItMatters": "Investors price the economy's direction long before it shows up in data; big macro headlines often move every asset class.",
+      "marketContext": "The VIX is 19.0, a normal-volatility reading and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Recession",
+        "explanation": "A broad, sustained decline in economic activity, commonly (though not officially) defined as two quarters of shrinking GDP."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "f3d339a24cbd",
+      "title": "Tikehau deploys €3.4bn amid market volatility",
+      "url": "https://alternativecreditinvestor.com/2026/10/23/tikehau-deploys-e3-4bn-amid-market-volatility/",
+      "publishedAt": "2026-10-23T11:02:22.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 1,
+      "takeaway": "Paris-listed alternative asset manager Tikehau Capital has deployed €3.4bn (£2.8bn) so far this year, with €943m of credit investments in the third quarter making it the busiest quarter of 2026 for asset class.",
+      "whyItMatters": "Tikehau's €3.4bn deal shows private lenders are still putting money to work, and the terms they win set the bar for returns across the strategy.",
+      "marketContext": "The VIX is 19.0, a normal-volatility reading and high-yield credit spreads are 3.40%, near long-run norms (up 13 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Direct lending",
+        "explanation": "The largest form of private credit: a fund lends directly to a company, often one owned by private equity, without a bank in the middle."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "ec0890d97ed9",
+      "title": "Raymond James Recruits $700M Advisor Team from Truist",
+      "url": "https://www.wealthmanagement.com/ibd-news/raymond-james-recruits-700m-advisor-team-from-truist",
+      "publishedAt": "2026-10-23T18:10:26.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 2,
+      "takeaway": "The Southwest Florida team joins Raymond James’ Financial Institutions Division through Pinnacle Financial Partners’ investment program.",
+      "whyItMatters": "Advisors who move usually take most of their clients' assets with them, so moves like this show which firms are winning the competition for advisors and client money.",
+      "marketContext": "The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "bfc017780e85",
+      "title": "Deals & Moves: Commonwealth Breakaway Kintra Lures Team from LPL",
+      "url": "https://www.wealthmanagement.com/ria-news/deals-moves-commonwealth-breakaway-kintra-lures-peer-team-from-lpl",
+      "publishedAt": "2026-10-23T16:23:44.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 2,
+      "takeaway": "In other moves, Modern Wealth adds a former LPL team overseeing $330M, Captrust snags Sanctuary team in its own backyard, The AmeriFlex Group adds 17 advisors in Q3, and a $576M Stifel team jumps to Osaic.",
+      "whyItMatters": "Advisors who move usually take most of their clients' assets with them, so moves like this show which firms are winning the competition for advisors and client money.",
+      "marketContext": "The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "1bc5822d05f2",
+      "title": "Lido CEO Signals Openness to International Expansion",
+      "url": "https://www.wealthmanagement.com/ria-edge/lido-ceo-signals-openness-to-international-expansion",
+      "publishedAt": "2026-10-23T18:37:04.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "people",
+        "label": "People & Leadership"
+      },
+      "importance": 1,
+      "takeaway": "Lido Advisors CEO Ken Stern outlined his firm’s growth ambitions at RIA Edge Orange County.",
+      "whyItMatters": "Leadership changes at major firms can signal strategic shifts, succession planning or a new push into a growth area.",
+      "marketContext": "The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the VIX is 19.0, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "RIA",
+        "explanation": "Registered investment adviser, an independent firm legally obliged to act in its clients' best interests when giving investment advice."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "ff45cbcbd9f3",
+      "title": "\"Health Is Wealth\": Unicoin Foundation Launches Crypto for Good Breast Cancer Campaign",
+      "url": "https://www.prnewswire.com/news-releases/health-is-wealth-unicoin-foundation-launches-crypto-for-good-breast-cancer-campaign-302918389.html",
+      "publishedAt": "2026-10-23T20:45:00.000Z",
+      "source": {
+        "id": "prn-financial",
+        "name": "PR Newswire — Financial Services",
+        "homepage": "https://www.prnewswire.com/news-releases/financial-services-latest-news/",
+        "contentType": "press-release"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 1,
+      "takeaway": "RISE IN PINK aims to turn Breast Cancer Awareness Month into action, mobilizing communities to fund early detection, breast health education and patient support while recognizing donors' generosity with digital tokens MIAMI, Oct. 23.",
+      "whyItMatters": "RISE IN PINK's new offering gives wealth clients and advisors a new way into crypto; compare its fees and how easily you can get your money out with existing options.",
+      "marketContext": "The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "quote",
+      "aiSummarized": false
+    },
+    {
+      "id": "328d354b75b6",
+      "title": "Rexford Sells $1.3B in SoCal Industrial Assets as Leasing Rebounds",
+      "url": "https://commercialobserver.com/2026/10/rexford-industrial-q3/",
+      "publishedAt": "2026-10-23T19:25:07.000Z",
+      "source": {
+        "id": "commercial-observer",
+        "name": "Commercial Observer",
+        "homepage": "https://commercialobserver.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [],
+      "theme": {
+        "id": "real-estate",
+        "label": "Real Estate"
+      },
+      "importance": 3,
+      "takeaway": "Rexford Industrial Realty continued its transformation from Southern California’s biggest industrial buyer into one of its largest sellers during the third quarter after completing $1.3 billion in property sales.",
+      "whyItMatters": "The $1.3bn deal for this industrial property is a fresh price point for industrial property values, which owners, lenders and appraisers use to value similar buildings.",
+      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "REIT",
+        "explanation": "Real estate investment trust, a company that owns income-producing property and must pay out most of its income to shareholders. Many trade on stock exchanges; non-traded REITs such as BREIT are sold to individuals and limit how much can be withdrawn."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "c98f66907eaa",
+      "title": "KKR Refis Brooklyn Apartments With $95M Loan",
+      "url": "https://commercialobserver.com/2026/10/kkr-brooklyn-apartments/",
+      "publishedAt": "2026-10-23T14:52:27.000Z",
+      "source": {
+        "id": "commercial-observer",
+        "name": "Commercial Observer",
+        "homepage": "https://commercialobserver.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [
+        "KKR"
+      ],
+      "theme": {
+        "id": "real-estate",
+        "label": "Real Estate"
+      },
+      "importance": 3,
+      "takeaway": "A joint venture involving Avery Hall Investments, Bridge Investment Group and Declaration Partners has sealed a $95 million loan to refinance a newly built multifamily property in Brooklyn’s Gowanus neighborhood, Commercial Observer has learned.",
+      "whyItMatters": "A $95m loan on this apartment property shows lenders will still back the right buildings, a read on how far the apartment lending market has recovered.",
+      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Treasury yield",
+        "explanation": "The interest rate the U.S. government pays to borrow. The 10-year yield is the benchmark that influences mortgage rates, corporate borrowing and asset valuations."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "5ea5400533d0",
+      "title": "IHG Reports Q3 2026 Trading Update",
+      "url": "https://lodgingmagazine.com/ihg-reports-q3-2026-trading-update/",
+      "publishedAt": "2026-10-23T13:23:37.000Z",
+      "source": {
+        "id": "lodging-magazine",
+        "name": "Lodging Magazine",
+        "homepage": "https://lodgingmagazine.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [
+        "IHG"
+      ],
+      "theme": {
+        "id": "hotels",
+        "label": "Hotels & Hospitality"
+      },
+      "importance": 2,
+      "takeaway": "Highlights Include: Statement From Leadership Elie Maalouf, Chief Executive Officer, IHG Hotels & Resorts, said: “RevPAR growth accelerated in the third quarter to 5.3 percent as IHG’s breadth by geography, brands and stay occasions captured increasing guest demand around the world.",
+      "whyItMatters": "Room-rate, occupancy and RevPAR trends show whether travel demand is holding up, which drives hotel values and the profits of the brands and REITs that own them.",
+      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "RevPAR",
+        "explanation": "Revenue per available room: a hotel's room revenue divided by all its rooms, sold or not. It equals occupancy times average daily rate, so it captures both how full a hotel is and what it charges. It is the industry's headline performance number."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "1f6e87c1ac42",
+      "title": "Avatar Hotel Announces Opening of New Restaurant",
+      "url": "https://lodgingmagazine.com/avatar-hotel-announces-opening-of-new-restaurant/",
+      "publishedAt": "2026-10-23T13:03:26.000Z",
+      "source": {
+        "id": "lodging-magazine",
+        "name": "Lodging Magazine",
+        "homepage": "https://lodgingmagazine.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [
+        "Hilton"
+      ],
+      "theme": {
+        "id": "hotels",
+        "label": "Hotels & Hospitality"
+      },
+      "importance": 2,
+      "takeaway": "SANTA CLARA, California—Avatar Hotel Santa Clara, Tapestry Collection by Hilton, announced the opening of Goldie’s Diner, its signature restaurant that offers elevated comfort food and handcrafted cocktails.",
+      "whyItMatters": "Avatar Hotel adding hotels grows its fee income without owning the buildings, which is why investors watch hotel companies' pipelines as closely as their profits.",
+      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "RevPAR",
+        "explanation": "Revenue per available room: a hotel's room revenue divided by all its rooms, sold or not. It equals occupancy times average daily rate, so it captures both how full a hotel is and what it charges. It is the industry's headline performance number."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "10e8d5814946",
+      "title": "Inflows Do Not Diversify a Crowded Book",
+      "url": "https://hedgeco.net/news/10/2026/inflows-do-not-diversify-a-crowded-book.html",
+      "publishedAt": "2026-10-25T12:18:11.000Z",
+      "source": {
+        "id": "hedgeco",
+        "name": "HedgeCo Networks",
+        "homepage": "https://www.hedgeco.net/news/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [],
+      "theme": {
+        "id": "earnings",
+        "label": "Earnings & AUM"
+      },
+      "importance": 2,
+      "takeaway": "Allocators spent the week voting for hedge funds as a diversifier, and the market spent the week testing whether the vote was earned.",
+      "whyItMatters": "New money flowing in shows demand for hedge funds is still growing, and money keeps flowing to the biggest managers, which gives them more say over fees and terms.",
+      "marketContext": "The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the VIX is 19.0, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Assets under management (AUM)",
+        "explanation": "The total market value of money a firm invests on behalf of clients. It is the main yardstick of an asset manager's size."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "cd7b36869470",
+      "title": "Why Oil Prices Are Surging Despite Recovering Supply",
+      "url": "https://www.goldmansachs.com/insights/series/exchanges-at-goldman-sachs/index.html",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "source": {
+        "id": "gs-exchanges",
+        "name": "Goldman Sachs Exchanges",
+        "homepage": "https://www.goldmansachs.com/insights/podcasts/",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [
+        "Goldman Sachs"
+      ],
+      "theme": {
+        "id": "voices",
+        "label": "Investor Outlook"
+      },
+      "importance": 3,
+      "takeaway": "Middle East crude flows have rebounded, but precautionary buying and portfolio hedging are among the factors keeping prices elevated, says Daan Struyven, co-head of Global Commodities Research and head of Oil Research, on the Goldman Sachs Exchanges podcast.",
+      "whyItMatters": "This take comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Market cycle",
+        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    },
+    {
+      "id": "48abb00f7f19",
+      "title": "How a Chicago Restaurant Has Stayed Open For Nearly Three Decades",
+      "url": "https://omny.fm/shows/odd-lots/how-a-chicago-restaurant-has-stayed-open-for-nearly-three-decades",
+      "publishedAt": "2026-10-24T08:00:00.000Z",
+      "source": {
+        "id": "odd-lots",
+        "name": "Odd Lots (Bloomberg podcast)",
+        "homepage": "https://www.bloomberg.com/oddlots",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [],
+      "theme": {
+        "id": "voices",
+        "label": "Investor Outlook"
+      },
+      "importance": 2,
+      "takeaway": "By the time he graduated, he helped grow that single coffee shop into four locations across campus.",
+      "whyItMatters": "This take comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Market cycle",
+        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    },
+    {
+      "id": "3104b4594841",
+      "title": "Embracing the Bond Market: Masters in Business with Robin Wigglesworth",
+      "url": "https://omny.fm/shows/masters-in-business/embracing-the-bond-market-masters-in-business-with-robin-wigglesworth",
+      "publishedAt": "2026-10-23T21:00:00.000Z",
+      "source": {
+        "id": "masters-in-business",
+        "name": "Masters in Business (Bloomberg podcast)",
+        "homepage": "https://www.bloomberg.com/podcasts/series/masters-in-business",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [],
+      "theme": {
+        "id": "voices",
+        "label": "Investor Outlook"
+      },
+      "importance": 2,
+      "takeaway": "Barry speaks with Robin Wigglesworth, editor of Financial Times' Alphaville blog and author of the new book 'A Fabulous Debt: The Epic Story of How Bonds Built the Modern World'.",
+      "whyItMatters": "Robin Wigglesworth's take on bonds comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Market cycle",
+        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    },
+    {
+      "id": "2b4a29588f0f",
+      "title": "The Forgotten Godmother of Economic Literature",
+      "url": "https://omny.fm/shows/odd-lots/odd-lots-the-forgotten-godmother-of-economic-literature-podcast",
+      "publishedAt": "2026-10-23T08:00:00.000Z",
+      "source": {
+        "id": "odd-lots",
+        "name": "Odd Lots (Bloomberg podcast)",
+        "homepage": "https://www.bloomberg.com/oddlots",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [],
+      "theme": {
+        "id": "voices",
+        "label": "Investor Outlook"
+      },
+      "importance": 2,
+      "takeaway": "And among the book's earliest readers, and most ardent advocates, was a Regency-era novelist named Maria Edgeworth.",
+      "whyItMatters": "This take comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 23.)",
+      "beginnerNote": {
+        "term": "Market cycle",
+        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    }
+  ],
+  "stats": {
+    "sourcesChecked": 52,
+    "sourcesOk": 34,
+    "candidates": 91,
+    "selected": 27
+  }
+}
