@@ -1,80 +1,82 @@
 {
-  "generatedAt": "2026-10-25T14:19:45.018Z",
+  "generatedAt": "2026-10-26T16:46:13.459Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "d9c6bce076b0",
-          "title": "The Growing Battle Between Credit-Card Firms and Points Junkies",
-          "url": "https://www.wsj.com/articles/the-growing-battle-between-credit-card-firms-and-points-junkies-e840b792?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-25T11:04:00.000Z",
-          "teaser": "",
+          "id": "9be441d3cd4f",
+          "title": "Bon Secours Affiliate to Acquire Surgery Partners in $5.7 Billion Take-Private Deal",
+          "url": "https://www.wsj.com/pro/private-equity/bon-secours-affiliate-to-acquire-surgery-partners-in-5-7-billion-take-private-deal-10321162?mod=rss_markets_main",
+          "publishedAt": "2026-10-26T16:40:00.000Z",
+          "teaser": "Bain Capital-backed Surgery Partners operates through a network of ambulatory surgery centers, surgical hospitals and physician partnerships.",
+          "firms": [
+            "Bain Capital"
+          ],
+          "section": "private-equity"
+        },
+        {
+          "id": "8f49dee17083",
+          "title": "U.S. Stocks Higher as Tech Rallies",
+          "url": "https://www.wsj.com/finance/investing/stock-futures-treasurys-steady-as-brazilian-assets-slide-402fb905?mod=rss_markets_main",
+          "publishedAt": "2026-10-26T16:20:00.000Z",
+          "teaser": "U.S. stocks rose as tech shares rallied, with investors seemingly setting aside the AI jitters that plagued some stocks earlier in the session.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "fb07776b3969",
-          "title": "The Cat-and-Mouse Game Between Premium Credit-Card Firms and Points Junkies",
-          "url": "https://www.wsj.com/finance/banking/the-cat-and-mouse-game-between-premium-credit-card-firms-and-points-junkies-8ce2e30a?mod=rss_markets_main",
-          "publishedAt": "2026-10-25T00:00:00.000Z",
-          "teaser": "A subculture of people obsessed with reaping rewards is prompting banks to adjust to their evolving tactics.",
+          "id": "6f972c1b7092",
+          "title": "Brazilian Markets Crash After Lula’s Surprise Election Win Stuns Investors",
+          "url": "https://www.wsj.com/finance/brazils-surprise-election-outcome-set-to-batter-stocks-real-35253aa8?mod=rss_markets_main",
+          "publishedAt": "2026-10-26T16:11:00.000Z",
+          "teaser": "Brazil’s main stock market index dropped to a two-month low after President Luiz Inácio Lula da Silva secured a surprise victory in the presidential election runoff.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "5bf5b936afe2",
-          "title": "How Trade Desk Rescued Executives’ Stock Options From a Dive in the Share Price",
-          "url": "https://www.wsj.com/business/how-trade-desk-rescued-executives-stock-options-from-a-dive-in-the-share-price-8c055b27?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-24T20:04:00.000Z",
-          "teaser": "CEO Jeff Green used his supervoting power to approve the repricing of options over opposition from outside investors.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "1979e29b8651",
-          "title": "Moderna Investors Should Brace for More Whiplash",
-          "url": "https://www.wsj.com/health/pharma/moderna-investors-should-brace-for-more-whiplash-5c32f32d?mod=rss_markets_main",
-          "publishedAt": "2026-10-24T09:30:00.000Z",
-          "teaser": "Even after its latest sharp fall, the drugmaker’s stock price assumes wild successes.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "8cb5f4b8fae0",
-          "title": "Stocks Pulled in Two Directions, Fall to End Volatile Week",
-          "url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8?mod=rss_markets_main",
-          "publishedAt": "2026-10-23T21:10:00.000Z",
-          "teaser": "Inflation and jitters over artificial intelligence are fighting for investors’ attention.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "1d0f15fdcb84",
-          "title": "U.S. Stocks Fall as Oil Prices Hit Five-Month High",
-          "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-oil-prices-hit-five-month-high-a800db83?mod=rss_markets_main",
-          "publishedAt": "2026-10-23T20:34:00.000Z",
-          "teaser": "U.S. stocks declined as Wall Street continued its move toward less risky investments and as oil prices climbed to their highest level in five months.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "69b78cd25f09",
-          "title": "Stock Selloff Continues as Oil Surges",
-          "url": "https://www.wsj.com/finance/stocks/stock-selloff-continues-as-oil-surges-a6d20245?mod=rss_markets_main",
-          "publishedAt": "2026-10-23T20:19:00.000Z",
-          "teaser": "Plus, SK Hynix scraps U.S. IPO plan for its flash-memory subsidiary and American Express cuts 5% of its headcount.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "9af0e6bc52e9",
-          "title": "Oil Prices Rise on Fears of Middle East Conflict Escalation",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-middle-east-risks-persist-c1262364?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-23T19:54:00.000Z",
-          "teaser": "Oil prices closed out the week solidly higher with the market on edge about the possibility of renewed U.S.-Iran hostilities and further attacks on Saudi energy infrastructure.",
+          "id": "0a8df831b57c",
+          "title": "Meta Plans up to $95 Billion in Financing to Power Its AI Growth",
+          "url": "https://www.wsj.com/tech/ai/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan-10b8947e?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-26T13:49:00.000Z",
+          "teaser": "The Facebook parent said it would look to raise up to $95 billion to help fund its massive investments in artificial-intelligence infrastructure and personal superintelligence.",
           "firms": [],
           "section": "private-markets"
+        },
+        {
+          "id": "c91b193df79c",
+          "title": "Banks Target Influencers Who Pursue Credit-Card Points a Little Too Far",
+          "url": "https://www.wsj.com/cmo-today/banks-target-influencers-who-pursue-credit-card-points-a-little-too-far-616e1e5e?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-26T12:50:00.000Z",
+          "teaser": "Plus, secrecy mixes with a studio’s unusual celebrity to make ‘You Can See Everything’ a smash.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "b3fa641f0ff2",
+          "title": "South Korea Holds a Key to America’s Shipbuilding Revival",
+          "url": "https://www.wsj.com/logistics-report/south-korea-holds-a-key-to-americas-shipbuilding-revival-99b645f7?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-26T11:02:00.000Z",
+          "teaser": "Plus, Audi is planning a $4.2 billion investment to build its first U.S. factory, and recyclers pick apart retiring wind turbines for rare earths.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "eb6a1f85a988",
+          "title": "The Shifting Ground for Private Equity-Backed CEOs",
+          "url": "https://www.wsj.com/articles/the-shifting-ground-for-private-equity-backed-ceos-cf380bb0?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-26T09:58:00.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "e304cf160fb3",
+          "title": "Galp Energia Shares Fall After Moeve Merger-Talks Collapse, Overshadowing Positive Earnings",
+          "url": "https://www.wsj.com/business/energy-oil/galp-raises-full-year-view-after-oil-price-assumption-increase-ee79aceb?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-26T09:06:00.000Z",
+          "teaser": "The stock fell more than 8% after talks with Moeve on a potential downstream combination broke down, overshadowing earnings growth and a full-year guidance hike.",
+          "firms": [],
+          "section": "private-equity"
         }
       ]
     },
@@ -82,28 +84,73 @@
       "id": "ft",
       "items": [
         {
-          "id": "54c62e0e0c71",
-          "title": "London’s most famous shopping street bans cars in bid to revive its fortunes",
-          "url": "https://www.ft.com/content/73a2ca6f-29b7-49e5-b8c7-0bde6c4e945b?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-25T12:26:15.000Z",
+          "id": "9939d78be2c9",
+          "title": "French bonds rally after Moody’s rating reprieve",
+          "url": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-26T16:32:54.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "a6479351b7de",
-          "title": "‘Disrupter’ exchanges battle for ETFs in challenge to NYSE and Nasdaq",
-          "url": "https://www.ft.com/content/8dd8e115-c45e-4b66-8390-b5eeea4671d5?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-24T04:00:04.000Z",
+          "id": "418b78e945f5",
+          "title": "Apollo takes minority stake in Abu Dhabi’s Mubadala Capital",
+          "url": "https://www.ft.com/content/306b6168-e8be-4781-82e3-d5dea8bc4de2?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-26T14:50:43.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "f816e7e9dd64",
+          "title": "Anthropic begins countdown to IPO with prospectus filing",
+          "url": "https://www.ft.com/content/f6ecfecd-d797-4d2c-b427-d333297949cb?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-26T14:41:35.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "02de069ddb8b",
+          "title": "Brazil’s markets tumble as investors bet Lula will add to fiscal pain",
+          "url": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-26T14:38:26.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "d456a8832205",
-          "title": "Gold drops below $4,000 as ‘haven’ asset joins market sell-off",
-          "url": "https://www.ft.com/content/5a6e15e9-249d-4d59-a140-c51302930a9f?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-23T14:37:46.000Z",
+          "id": "354cf174afe3",
+          "title": "Meta plans $95bn stock offering to bankroll AI expansion",
+          "url": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-26T12:34:22.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "28284ea5c959",
+          "title": "The rise and fall of the £150bn ‘diversified growth fund’ phenomenon",
+          "url": "https://www.ft.com/content/cec7ecab-27fa-41ce-93f8-e6a6061599d1",
+          "publishedAt": "2026-10-26T06:00:01.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "76554ce590c1",
+          "title": "‘Do no harm’ — what gilt investors want from Healey in the Budget",
+          "url": "https://www.ft.com/content/244ae9ad-0778-4afe-8b6a-c2b1b9f81771?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-26T05:00:20.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "c4ef7f1bdaa8",
+          "title": "Junk borrowers are stuck between a $2tn rock and a hard place",
+          "url": "https://www.ft.com/content/053a8758-2814-45a5-87ca-0c71ce5f7816?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-26T05:00:20.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
@@ -114,73 +161,49 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "a57203ae6ff7",
-          "title": "What’s Happening in EM: Bond Investors Turn to Developing World",
-          "url": "https://www.bloomberg.com/news/audio/2026-10-25/what-s-happening-in-em-bond-investors-turn-to-developing-world",
-          "publishedAt": "2026-10-25T12:30:00.000Z",
-          "teaser": "This week, Mpho Hlakudi and Selcuk Gokoluk discuss how some of the world’s biggest asset managers increase their exposure to emerging markets despite the surge in US Treasury yields, weakening a traditional correlation in financial markets.",
+          "id": "6c80094cc8d7",
+          "title": "Poland’s Zloty Sinks to Three-Year Low Amid Central Bank Row",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-26/poland-s-zloty-sinks-to-three-year-low-amid-central-bank-row",
+          "publishedAt": "2026-10-26T15:58:50.000Z",
+          "teaser": "Poland’s zloty slumped to the weakest level in nearly three years in a deepening selloff that’s been fueled by investors retreating from risky assets and a conflict between the government and the central bank.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "3ed6cb55f694",
-          "title": "Emerging Debt Outruns Treasuries as Rich-World Fiscal Fears Grow",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-25/emerging-debt-outruns-treasuries-as-rich-world-fiscal-fears-grow",
-          "publishedAt": "2026-10-25T12:30:00.000Z",
-          "teaser": "Investors from JPMorgan Asset Management to Generali and Ninety One SA are loading up on emerging-market debt, defying a surge in Treasury yields that would once have sent them running for the exits.",
-          "firms": [
-            "J.P. Morgan"
-          ],
+          "id": "5da4b3ad363a",
+          "title": "Redotpay Said to Prepare Confidential IPO Filing By Year-End",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-26/redotpay-said-to-prepare-confidential-ipo-filing-by-year-end",
+          "publishedAt": "2026-10-26T15:29:13.000Z",
+          "teaser": "Crypto firm Redotpay is considering filing confidentially for a US initial public offering by year-end, according to people familiar with the matter, after months of deliberation and wrangling with regulatory issues.",
+          "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "445e03d9e7cf",
-          "title": "IndiGo, Air India to Shift Some Flights to New Mumbai Airport",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-25/indigo-air-india-to-shift-some-flights-to-new-mumbai-airport",
-          "publishedAt": "2026-10-25T11:20:11.000Z",
-          "teaser": "IndiGo and Air India will move some of its international operations to Navi Mumbai International Airport as two of India’s biggest airlines expand their presence at the new aviation facility serving the country’s financial capital.",
+          "id": "9c7771d77081",
+          "title": "Citadel Securities’ Shah Says AI Trade Has No ‘Margin for Error’",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-26/citadel-securities-shah-says-ai-trade-has-no-margin-for-error",
+          "publishedAt": "2026-10-26T15:16:26.000Z",
+          "teaser": "Markets have become so invested in the artificial intelligence trade that there is very little room for error if the massive spending doesn’t pay off, according to Citadel Securities.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "a078dd1c3d20",
-          "title": "Brookfield to Open Doha Office to Deepen Middle East Reach",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-25/brookfield-to-open-doha-office-to-deepen-its-middle-east-reach",
-          "publishedAt": "2026-10-25T08:47:01.000Z",
-          "teaser": "Brookfield Asset Management Ltd. is opening an office in Qatar, deepening its presence in the Middle East where many countries are grappling with the economic fallout from the war.",
-          "firms": [
-            "Brookfield"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "c5c7573e5359",
-          "title": "Goldman Cuts Kospi 12-Month Target by 25% as AI Trade Unravels",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-25/goldman-cuts-kospi-12-month-target-by-25-as-ai-trade-unravels",
-          "publishedAt": "2026-10-25T07:44:43.000Z",
-          "teaser": "Goldman Sachs Group Inc. strategists slashed their target for South Korea’s Kospi Index by 25%, after raising it repeatedly this year, as concerns over the artificial intelligence trade intensify.",
-          "firms": [
-            "Goldman Sachs"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "4047a016db94",
-          "title": "Singapore’s Wong Vows More Support for Workers, Energy Security",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-25/singapore-s-wong-vows-more-support-for-workers-energy-security",
-          "publishedAt": "2026-10-25T05:40:56.000Z",
-          "teaser": "Singapore Prime Minister Lawrence Wong pledged more support for workers and households, and said the government would step up efforts to secure energy supplies and attract investment as the city-state confronts growing global uncertainty.",
+          "id": "5365980c0c83",
+          "title": "US Stocks Gain as Investors Parse Anthropic IPO Filing",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-26/us-stock-futures-gain-ahead-of-big-tech-earnings-fed-decision",
+          "publishedAt": "2026-10-26T12:38:56.000Z",
+          "teaser": "US stocks gained on Monday as investors digest Anthropic PBC’s filing for its initial public offering and look forward to key big tech earnings this week as well as the Federal Reserve’s next decision on Wednesday.",
           "firms": [],
-          "section": "private-markets"
+          "section": "private-equity"
         },
         {
-          "id": "7eb4e1f31efb",
-          "title": "Singapore Expands Haze Inquiries to 10 Locally Based Firms",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-24/singapore-expands-haze-investigation-to-10-locally-based-firms",
-          "publishedAt": "2026-10-24T03:20:42.000Z",
-          "teaser": "Singapore expanded its investigation into haze-creating fires in Indonesia that have blanketed the city-state in smog, requesting information from 10 locally registered companies.",
+          "id": "bbaf0e8eaa68",
+          "title": "Stocks Get Tech Boost as Anthropic Files for IPO: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
+          "publishedAt": "2026-10-25T22:09:07.000Z",
+          "teaser": "A revival of the artificial-intelligence trade fueled gains in stocks as Anthropic PBC filed for an IPO, with investors bracing for this week’s results from tech giants and the Federal Reserve decision.",
           "firms": [],
-          "section": "markets"
+          "section": "private-equity"
         }
       ]
     },
@@ -195,15 +218,6 @@
           "teaser": "",
           "firms": [],
           "section": "private-markets"
-        },
-        {
-          "id": "a9c3e4759708",
-          "title": "The AI industry’s gigantic debts are making investors nervous",
-          "url": "https://www.economist.com/business/2026/10/18/the-ai-industrys-gigantic-debts-are-making-investors-nervous",
-          "publishedAt": "2026-10-18T20:19:28.000Z",
-          "teaser": "Who will be left to pick up the bill in the event of a crash?",
-          "firms": [],
-          "section": "markets"
         }
       ]
     }
