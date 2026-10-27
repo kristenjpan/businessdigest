@@ -1,47 +1,47 @@
 {
-  "date": "2026-10-26",
-  "generatedAt": "2026-10-26T16:46:13.459Z",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T15:51:13.850Z",
   "engine": "rules-v5",
-  "edition": 34,
+  "edition": 35,
   "brief": {
-    "headline": "KKR founders join €1.25bn Valencia football club investment",
+    "headline": "Former Blackstone executive’s Town Lane raises $1.9bn for second real estate fund",
     "bullets": [
-      "M&A & Buyouts: The family offices of KKR co-founders Henry Kravis and George Roberts have joined a US investment consortium acquiring a 42% stake in Spanish football club Valencia CF, in a transaction valuing the club at €1.25bn, according to a report by the Financial Times.",
-      "Real Estate: Audi intends to invest approximately $4 billion in a manufacturing site at the Middle Georgia Megasite on Route 96 near Interstate 75.",
-      "People & Leadership: KKR has appointed Brian J. Lee, the former chief risk officer of the Goldman Sachs Group, to its board of directors.",
-      "Hotels & Hospitality: Accor reported its third-quarter 2026 results.",
-      "Real Estate: UK property development lender CrowdProperty has secured a £100m forward flow partnership with ColCap Financial UK to direct private capital to small and regional housebuilders."
+      "Fundraising: Town Lane Management, the real estate investment firm founded by former Blackstone executive Tyler Henritze, has raised $1.9bn for its second fund, exceeding its fundraising target by more than 25%, according to a report by Bloomberg.",
+      "M&A & Buyouts: Universal Music Group has held preliminary discussions with private equity firms including Apollo Global Management, TPG and Blackstone over a potential take-private transaction, although the talks have not progressed into a formal sale process, according to a report by Bloomberg.",
+      "Private Credit: Blackstone-backed data centre operator QTS Realty Trust is seeking to raise approximately $800m through a private debt placement, as demand for artificial intelligence infrastructure drives further financing activity across private credit markets, according to a report by Bloomberg.",
+      "AI & Technology: They also discuss how they built one of the most influential media companies of the last decade and lessons from their new book, Simplify: Do 50% More with 50% Less.",
+      "Real Estate: TKO wants to buy a hotel portfolio roughly four times the size of its own."
     ],
-    "marketRead": "Bottom line: calm volatility and open credit markets are a supportive backdrop for dealmaking, fundraising and exits. The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the VIX is 19.4, a normal-volatility reading. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). High-yield credit spreads are 3.38%, near long-run norms (down 2 bps on the prior reading).",
+    "marketRead": "Bottom line: calm volatility and open credit markets are a supportive backdrop for dealmaking, fundraising and exits. The S&P 500 stands at 7,676.77 (up 0.7% on the prior reading) and the VIX is 18.4, a normal-volatility reading. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and the 10Y–2Y yield curve is +0.32 pts (positively sloped). High-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading).",
     "themes": [
       {
         "id": "deals",
         "label": "M&A & Buyouts",
-        "count": 4
+        "count": 6
       },
       {
-        "id": "rates",
-        "label": "Fed & Rates",
-        "count": 3
-      },
-      {
-        "id": "voices",
-        "label": "Investor Outlook",
-        "count": 3
-      },
-      {
-        "id": "people",
-        "label": "People & Leadership",
-        "count": 3
-      },
-      {
-        "id": "hotels",
-        "label": "Hotels & Hospitality",
+        "id": "markets",
+        "label": "Market Moves",
         "count": 3
       },
       {
         "id": "real-estate",
         "label": "Real Estate",
+        "count": 3
+      },
+      {
+        "id": "family-office",
+        "label": "Family Offices & Wealth",
+        "count": 3
+      },
+      {
+        "id": "insurance",
+        "label": "Insurance & Retirement",
+        "count": 2
+      },
+      {
+        "id": "earnings",
+        "label": "Earnings & AUM",
         "count": 2
       }
     ]
@@ -51,22 +51,10 @@
       "id": "SP500",
       "label": "S&P 500",
       "unit": "index",
-      "value": 7757.17,
-      "previous": 7712.57,
-      "asOf": "2026-10-21",
+      "value": 7676.77,
+      "previous": 7623.68,
+      "asOf": "2026-10-26",
       "history": [
-        {
-          "date": "2026-09-22",
-          "value": 7764.64
-        },
-        {
-          "date": "2026-09-23",
-          "value": 7706.03
-        },
-        {
-          "date": "2026-09-24",
-          "value": 7704.13
-        },
         {
           "date": "2026-09-25",
           "value": 7743.41
@@ -142,6 +130,18 @@
         {
           "date": "2026-10-21",
           "value": 7757.17
+        },
+        {
+          "date": "2026-10-22",
+          "value": 7663.43
+        },
+        {
+          "date": "2026-10-23",
+          "value": 7623.68
+        },
+        {
+          "date": "2026-10-26",
+          "value": 7676.77
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/SP500"
@@ -150,14 +150,10 @@
       "id": "DGS10",
       "label": "10-Yr Treasury",
       "unit": "percent",
-      "value": 4.96,
-      "previous": 5.13,
-      "asOf": "2026-10-22",
+      "value": 5,
+      "previous": 4.96,
+      "asOf": "2026-10-23",
       "history": [
-        {
-          "date": "2026-09-22",
-          "value": 4.96
-        },
         {
           "date": "2026-09-23",
           "value": 5.11
@@ -241,6 +237,10 @@
         {
           "date": "2026-10-22",
           "value": 4.96
+        },
+        {
+          "date": "2026-10-23",
+          "value": 5
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
@@ -249,14 +249,10 @@
       "id": "DGS2",
       "label": "2-Yr Treasury",
       "unit": "percent",
-      "value": 4.65,
-      "previous": 4.81,
-      "asOf": "2026-10-22",
+      "value": 4.69,
+      "previous": 4.65,
+      "asOf": "2026-10-23",
       "history": [
-        {
-          "date": "2026-09-22",
-          "value": 4.71
-        },
         {
           "date": "2026-09-23",
           "value": 4.85
@@ -340,6 +336,10 @@
         {
           "date": "2026-10-22",
           "value": 4.65
+        },
+        {
+          "date": "2026-10-23",
+          "value": 4.69
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS2"
@@ -348,14 +348,10 @@
       "id": "T10Y2Y",
       "label": "10Y–2Y Curve",
       "unit": "percent",
-      "value": 0.31,
+      "value": 0.32,
       "previous": 0.31,
-      "asOf": "2026-10-23",
+      "asOf": "2026-10-26",
       "history": [
-        {
-          "date": "2026-09-23",
-          "value": 0.26
-        },
         {
           "date": "2026-09-24",
           "value": 0.31
@@ -439,6 +435,10 @@
         {
           "date": "2026-10-23",
           "value": 0.31
+        },
+        {
+          "date": "2026-10-26",
+          "value": 0.32
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/T10Y2Y"
@@ -447,14 +447,10 @@
       "id": "VIXCLS",
       "label": "VIX",
       "unit": "index",
-      "value": 19.45,
-      "previous": 19.03,
-      "asOf": "2026-10-23",
+      "value": 18.39,
+      "previous": 19.45,
+      "asOf": "2026-10-26",
       "history": [
-        {
-          "date": "2026-09-24",
-          "value": 15.67
-        },
         {
           "date": "2026-09-25",
           "value": 14.87
@@ -538,6 +534,10 @@
         {
           "date": "2026-10-23",
           "value": 19.45
+        },
+        {
+          "date": "2026-10-26",
+          "value": 18.39
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/VIXCLS"
@@ -546,14 +546,10 @@
       "id": "BAMLH0A0HYM2",
       "label": "High-Yield Spread",
       "unit": "percent",
-      "value": 3.38,
-      "previous": 3.4,
-      "asOf": "2026-10-23",
+      "value": 3.3,
+      "previous": 3.38,
+      "asOf": "2026-10-26",
       "history": [
-        {
-          "date": "2026-09-24",
-          "value": 2.8
-        },
         {
           "date": "2026-09-25",
           "value": 2.93
@@ -637,6 +633,10 @@
         {
           "date": "2026-10-23",
           "value": 3.38
+        },
+        {
+          "date": "2026-10-26",
+          "value": 3.3
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
@@ -647,12 +647,8 @@
       "unit": "percent",
       "value": 3.88,
       "previous": 3.88,
-      "asOf": "2026-10-22",
+      "asOf": "2026-10-23",
       "history": [
-        {
-          "date": "2026-10-01",
-          "value": 3.88
-        },
         {
           "date": "2026-10-02",
           "value": 3.88
@@ -736,17 +732,77 @@
         {
           "date": "2026-10-22",
           "value": 3.88
+        },
+        {
+          "date": "2026-10-23",
+          "value": 3.88
         }
       ],
       "sourceUrl": "https://fred.stlouisfed.org/series/DFF"
     }
   ],
   "topStoryIds": [
-    "ecc74bf82c99",
-    "d722f2136ae1",
-    "ae3bba0fca7c"
+    "ab4d6c830d61",
+    "08e9b3f665d7",
+    "16a8fad7ca91"
   ],
   "items": [
+    {
+      "id": "8fa413aedac0",
+      "title": "Aviva Investors Expands Tokenised Offering",
+      "url": "https://www.marketsmedia.com/aviva-investors-expands-tokenised-offering/",
+      "publishedAt": "2026-10-27T09:39:45.000Z",
+      "source": {
+        "id": "markets-media",
+        "name": "Markets Media",
+        "homepage": "https://www.marketsmedia.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "The fund manager has launched a tokenised share class for its £22bn Sterling Liquidity Fund.",
+      "whyItMatters": "This launch adds a new way to invest in crypto, and how quickly it attracts money will show how deep demand really is.",
+      "marketContext": "The VIX is 18.4, a normal-volatility reading and high-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 26.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "7792dc5d08e6",
+      "title": "Apollo Invests in Mubadala Capital",
+      "url": "https://www.marketsmedia.com/apollo-invests-in-mubadala-capital/",
+      "publishedAt": "2026-10-27T08:39:17.000Z",
+      "source": {
+        "id": "markets-media",
+        "name": "Markets Media",
+        "homepage": "https://www.marketsmedia.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "Founded in 2011, Mubadala has grown into an alternative manager with $60bn across five investment strategies.",
+      "whyItMatters": "Apollo's deal is a fresh marker for what buyers will pay right now, so owners of similar businesses, and the funds that hold them, may be valued against it.",
+      "marketContext": "The VIX is 18.4, a normal-volatility reading and high-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 26.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
     {
       "id": "e93deb0c7b49",
       "title": "Wealth Management Invest: Fixed Income Opportunities in a Higher-Rate Market with Sean Banai",
@@ -767,66 +823,10 @@
       "importance": 2,
       "takeaway": "Voya's Sean Banai discusses Federal Reserve’s rate path, persistent inflation and Treasury yields, and how to generate attractive income without taking on extra duration.",
       "whyItMatters": "Rising stocks lift the value of private companies priced against public peers and help keep the IPO window open for exits.",
-      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 23.)",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and the 10Y–2Y yield curve is +0.32 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 26.)",
       "beginnerNote": {
         "term": "Treasury yield",
         "explanation": "The interest rate the U.S. government pays to borrow. The 10-year yield is the benchmark that influences mortgage rates, corporate borrowing and asset valuations."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "a561663197f1",
-      "title": "Views From 6,230: What Advisors Need from Asset Managers",
-      "url": "https://www.wealthmanagement.com/etfs/views-from-6-230-what-advisors-need-from-asset-managers",
-      "publishedAt": "2026-10-26T15:23:58.000Z",
-      "source": {
-        "id": "wealthmanagement",
-        "name": "WealthManagement.com",
-        "homepage": "https://www.wealthmanagement.com/",
-        "contentType": "news"
-      },
-      "section": "markets",
-      "firms": [],
-      "theme": {
-        "id": "voices",
-        "label": "Investor Outlook"
-      },
-      "importance": 2,
-      "takeaway": "Founder ETFs' Michael Monaghan discusses how stronger partnerships between financial advisors and asset managers can help advisors deliver more value, deepen client engagement and win new business.",
-      "whyItMatters": "Commentary from leading investors shows how the people who allocate the most capital are thinking, often before it shows up in their portfolios.",
-      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 23.)",
-      "beginnerNote": {
-        "term": "Market cycle",
-        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "03b2f4a5d77d",
-      "title": "MarketAxess Q3 Average Daily Volume Increases 13%",
-      "url": "https://www.marketsmedia.com/marketaxess-q3-average-daily-volume-increases-13/",
-      "publishedAt": "2026-10-26T08:45:10.000Z",
-      "source": {
-        "id": "markets-media",
-        "name": "Markets Media",
-        "homepage": "https://www.marketsmedia.com/",
-        "contentType": "news"
-      },
-      "section": "markets",
-      "firms": [],
-      "theme": {
-        "id": "rates",
-        "label": "Fed & Rates"
-      },
-      "importance": 2,
-      "takeaway": "There was growth across both credit and rates, and market share gains in high yield and municipal bonds.",
-      "whyItMatters": "Interest rates are the gravity of finance. They set borrowing costs for deals, the discount rate on every asset and the return on cash.",
-      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 23.)",
-      "beginnerNote": {
-        "term": "Basis point",
-        "explanation": "One hundredth of a percentage point (0.01%). A rate rising from 4.00% to 4.25% has risen 25 basis points."
       },
       "storyType": "news",
       "aiSummarized": false
@@ -848,10 +848,10 @@
         "id": "markets",
         "label": "Market Moves"
       },
-      "importance": 2,
+      "importance": 1,
       "takeaway": "There is an opportunity to fund the next phase of growth, but it will not stay open indefinitely.",
       "whyItMatters": "Public-market swings feed directly into private-market valuations, IPO windows and investor sentiment.",
-      "marketContext": "The VIX is 19.4, a normal-volatility reading and high-yield credit spreads are 3.38%, near long-run norms (down 2 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
+      "marketContext": "The VIX is 18.4, a normal-volatility reading and high-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 26.)",
       "beginnerNote": {
         "term": "Volatility (VIX)",
         "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
@@ -860,10 +860,40 @@
       "aiSummarized": false
     },
     {
-      "id": "ae3bba0fca7c",
-      "title": "KKR bolsters board with ex-Goldman Sachs chief risk officer",
-      "url": "https://alternativecreditinvestor.com/2026/10/26/kkr-bolsters-board-with-ex-goldman-sachs-chief-risk-officer/",
-      "publishedAt": "2026-10-26T11:41:26.000Z",
+      "id": "16a8fad7ca91",
+      "title": "Blackstone-backed QTS seeks $800m private debt financing",
+      "url": "https://www.privateequitywire.co.uk/blackstone-backed-qts-seeks-800m-private-debt-financing/",
+      "publishedAt": "2026-10-27T09:49:21.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [
+        "Blackstone"
+      ],
+      "theme": {
+        "id": "private-credit",
+        "label": "Private Credit"
+      },
+      "importance": 4,
+      "takeaway": "Blackstone-backed data centre operator QTS Realty Trust is seeking to raise approximately $800m through a private debt placement, as demand for artificial intelligence infrastructure drives further financing activity across private credit markets, according to a report by Bloomberg.",
+      "whyItMatters": "Blackstone's $800m target is a test of investor appetite for private credit, and how much is actually raised will show whether money is still flowing to the strategy.",
+      "marketContext": "The effective fed funds rate is 3.88% and high-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading). Most private loans pay a floating rate, so lender income tracks short-term rates while spreads show how much extra investors demand for credit risk. (FRED data as of Oct 26.)",
+      "beginnerNote": {
+        "term": "Private credit",
+        "explanation": "Loans made by investment funds rather than banks, usually to mid-sized companies. They often pay higher, floating interest rates."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "7b7996a5f39a",
+      "title": "Blackstone doubles down in India with new office in Bengaluru",
+      "url": "https://alternativecreditinvestor.com/2026/10/27/blackstone-doubles-down-in-india-with-new-office-in-bengaluru/",
+      "publishedAt": "2026-10-27T09:32:25.000Z",
       "source": {
         "id": "alt-credit-investor",
         "name": "Alternative Credit Investor",
@@ -872,20 +902,19 @@
       },
       "section": "private-markets",
       "firms": [
-        "KKR",
-        "Goldman Sachs"
+        "Blackstone"
       ],
       "theme": {
-        "id": "people",
-        "label": "People & Leadership"
+        "id": "insurance",
+        "label": "Insurance & Retirement"
       },
       "importance": 4,
-      "takeaway": "KKR has appointed Brian J. Lee, the former chief risk officer of the Goldman Sachs Group, to its board of directors.",
-      "whyItMatters": "Leadership changes at major firms can signal strategic shifts, succession planning or a new push into a growth area.",
-      "marketContext": "The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the VIX is 19.4, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 23.)",
+      "takeaway": "Blackstone has expanded its presence in India with the opening of a new office in Bengaluru, its second office in the country.",
+      "whyItMatters": "Opening 401(k)s and retirement accounts to private markets could unlock a huge new pool of capital, with implications for fees and investor protection.",
+      "marketContext": "The 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Oct 26.)",
       "beginnerNote": {
-        "term": "General partner (GP)",
-        "explanation": "The firm that runs a private fund, picks the investments and earns fees plus a share of profits."
+        "term": "Annuity",
+        "explanation": "An insurance product that pays a guaranteed income, often for life. Insurers invest the premiums, increasingly in private credit."
       },
       "storyType": "news",
       "aiSummarized": false
@@ -912,7 +941,7 @@
       "importance": 3,
       "takeaway": "UK property development lender CrowdProperty has secured a £100m forward flow partnership with ColCap Financial UK to direct private capital to small and regional housebuilders.",
       "whyItMatters": "A £100m loan on this property in Europe shows lenders will still back the right buildings, a read on how far the property lending market has recovered.",
-      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 23.)",
+      "marketContext": "The 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and the 10Y–2Y yield curve is +0.32 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 26.)",
       "beginnerNote": {
         "term": "Cap rate",
         "explanation": "A property's yearly net operating income divided by its price. A building earning $5 million a year that sells for $100 million has a 5% cap rate. A lower cap rate means a higher price, and cap rates tend to rise when interest rates rise."
@@ -921,59 +950,29 @@
       "aiSummarized": false
     },
     {
-      "id": "371e5aee7ad0",
-      "title": "Brookfield expands Middle East presence with Qatar office",
-      "url": "https://www.privateequitywire.co.uk/brookfield-expands-middle-east-presence-with-qatar-office/",
-      "publishedAt": "2026-10-26T10:38:38.000Z",
+      "id": "1ef96743e28b",
+      "title": "AllianceBernstein generates $6.6bn of net inflows in Q3 amid demand for credit",
+      "url": "https://alternativecreditinvestor.com/2026/10/27/alliancebernstein-generates-6-6bn-of-net-inflows-in-q3-amid-demand-for-credit/",
+      "publishedAt": "2026-10-27T14:26:35.000Z",
       "source": {
-        "id": "pe-wire",
-        "name": "Private Equity Wire",
-        "homepage": "https://www.privateequitywire.co.uk/",
-        "contentType": "news"
-      },
-      "section": "private-markets",
-      "firms": [
-        "Brookfield"
-      ],
-      "theme": {
-        "id": "private-markets",
-        "label": "Private Markets"
-      },
-      "importance": 3,
-      "takeaway": "Brookfield Asset Management is establishing an office in Doha, expanding its Middle East operations as the alternative asset manager strengthens its regional credit business and investment partnerships, according to a report by Bloomberg.",
-      "whyItMatters": "Private markets now hold a large and growing share of global investment capital; shifts here affect pensions, endowments and family offices alike.",
-      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and high-yield credit spreads are 3.38%, near long-run norms (down 2 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 23.)",
-      "beginnerNote": {
-        "term": "Limited partner (LP)",
-        "explanation": "The investors in a private fund, such as pensions, endowments, insurers and family offices. They commit capital but do not manage the fund."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "78014ec0bbf6",
-      "title": "UK to inject £20.4bn into state-backed investment institutions",
-      "url": "https://www.privateequitywire.co.uk/uk-to-inject-20-4bn-into-state-backed-investment-institutions/",
-      "publishedAt": "2026-10-26T10:43:59.000Z",
-      "source": {
-        "id": "pe-wire",
-        "name": "Private Equity Wire",
-        "homepage": "https://www.privateequitywire.co.uk/",
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
         "contentType": "news"
       },
       "section": "private-markets",
       "firms": [],
       "theme": {
-        "id": "infrastructure",
-        "label": "Infrastructure & Energy"
+        "id": "earnings",
+        "label": "Earnings & AUM"
       },
       "importance": 2,
-      "takeaway": "The UK government is preparing to provide an additional £20.4bn in funding to the National Wealth Fund (NWF) and British Business Bank (BBB), expanding state-backed financing for private businesses and infrastructure projects, according to a report by the Financial Times.",
-      "whyItMatters": "Infrastructure assets offer long-dated, often inflation-linked cash flows, which appeals to investors seeking stability.",
-      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Oct 23.)",
+      "takeaway": "AllianceBernstein reported net inflows of $6.6bn (£4.9bn) in the third quarter, its highest quarterly flow result in four years, following “strong” institutional demand across liquid and illiquid credit.",
+      "whyItMatters": "AllianceBernstein pulling in $6.6bn shows demand is still growing, and money keeps flowing to the biggest managers, which gives them more say over fees and terms.",
+      "marketContext": "The S&P 500 stands at 7,676.77 (up 0.7% on the prior reading) and the VIX is 18.4, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 26.)",
       "beginnerNote": {
-        "term": "Infrastructure fund",
-        "explanation": "A fund that owns essential physical assets such as power, pipelines, data centers, airports and fiber, which usually produce steady, long-term cash flows."
+        "term": "Assets under management (AUM)",
+        "explanation": "The total market value of money a firm invests on behalf of clients. It is the main yardstick of an asset manager's size."
       },
       "storyType": "news",
       "aiSummarized": false
@@ -1000,7 +999,7 @@
       "importance": 4,
       "takeaway": "The family offices of KKR co-founders Henry Kravis and George Roberts have joined a US investment consortium acquiring a 42% stake in Spanish football club Valencia CF, in a transaction valuing the club at €1.25bn, according to a report by the Financial Times.",
       "whyItMatters": "Advisors who move usually take most of their clients' assets with them, so moves like this show which firms are winning the competition for advisors and client money.",
-      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and high-yield credit spreads are 3.38%, near long-run norms (down 2 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 23.)",
+      "marketContext": "The 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and high-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 26.)",
       "beginnerNote": {
         "term": "Family office",
         "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
@@ -1009,10 +1008,40 @@
       "aiSummarized": false
     },
     {
-      "id": "bfc017780e85",
-      "title": "Deals & Moves: Commonwealth Breakaway Kintra Lures Team from LPL",
-      "url": "https://www.wealthmanagement.com/ria-news/deals-moves-commonwealth-breakaway-kintra-lures-peer-team-from-lpl",
-      "publishedAt": "2026-10-23T16:23:44.000Z",
+      "id": "2e78b3206213",
+      "title": "Rockefeller Adds J.P. Morgan Team in Houston",
+      "url": "https://www.wealthmanagement.com/ria-news/rockefeller-adds-14b-jp-morgan-team-in-houston",
+      "publishedAt": "2026-10-26T18:30:06.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [
+        "J.P. Morgan"
+      ],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "Rockefeller Capital Management has expanded its Global Family Office division, bringing on a seven-member Houston team led by Chris Sheets and Forrest Green from J.P. Morgan.",
+      "whyItMatters": "Advisors who move usually take most of their clients' assets with them, so moves like this show which firms are winning the competition for advisors and client money.",
+      "marketContext": "The S&P 500 stands at 7,676.77 (up 0.7% on the prior reading) and the 10-year Treasury yield is 5.00% (up 4 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 26.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "0f8b2c31ee5d",
+      "title": "Why Access, Not Appetite, Is Holding Advisors Back in Alternatives",
+      "url": "https://www.wealthmanagement.com/alternative-investments/why-access-not-appetite-is-holding-advisors-back-in-alternatives",
+      "publishedAt": "2026-10-27T15:27:38.000Z",
       "source": {
         "id": "wealthmanagement",
         "name": "WealthManagement.com",
@@ -1025,10 +1054,10 @@
         "id": "family-office",
         "label": "Family Offices & Wealth"
       },
-      "importance": 2,
-      "takeaway": "In other moves, Modern Wealth adds a former LPL team overseeing $330M, Captrust snags Sanctuary team in its own backyard, The AmeriFlex Group adds 17 advisors in Q3, and a $576M Stifel team jumps to Osaic.",
-      "whyItMatters": "Advisors who move usually take most of their clients' assets with them, so moves like this show which firms are winning the competition for advisors and client money.",
-      "marketContext": "The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 23.)",
+      "importance": 3,
+      "takeaway": "Allocations to outstanding investments are won through relationships, and terms are negotiated only when there is size and scale.",
+      "whyItMatters": "New products aimed at private wealth are changing how individuals access private equity, credit and real estate, including liquidity terms and fees.",
+      "marketContext": "The S&P 500 stands at 7,676.77 (up 0.7% on the prior reading) and the 10-year Treasury yield is 5.00% (up 4 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 26.)",
       "beginnerNote": {
         "term": "Family office",
         "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
@@ -1037,10 +1066,10 @@
       "aiSummarized": false
     },
     {
-      "id": "1bc5822d05f2",
-      "title": "Lido CEO Signals Openness to International Expansion",
-      "url": "https://www.wealthmanagement.com/ria-edge/lido-ceo-signals-openness-to-international-expansion",
-      "publishedAt": "2026-10-23T18:37:04.000Z",
+      "id": "f62956aa7d21",
+      "title": "RIA Edge Podcast: Scaling RIAs While Preserving Advisor Control with Jim Dickson",
+      "url": "https://www.wealthmanagement.com/ria-edge/ria-edge-podcast-scaling-rias-while-preserving-advisor-control-with-jim-dickson",
+      "publishedAt": "2026-10-27T13:32:50.000Z",
       "source": {
         "id": "wealthmanagement",
         "name": "WealthManagement.com",
@@ -1050,13 +1079,13 @@
       "section": "family-offices",
       "firms": [],
       "theme": {
-        "id": "people",
-        "label": "People & Leadership"
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
       },
-      "importance": 1,
-      "takeaway": "Lido Advisors CEO Ken Stern outlined his firm’s growth ambitions at RIA Edge Orange County.",
-      "whyItMatters": "Leadership changes at major firms can signal strategic shifts, succession planning or a new push into a growth area.",
-      "marketContext": "The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the VIX is 19.4, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 23.)",
+      "importance": 3,
+      "takeaway": "Elevation Point’s Jim Dickson details how minority capital can support RIA growth while advisors retain meaningful ownership and decision-making control.",
+      "whyItMatters": "Private-market firms are racing to reach wealthy families and individuals, their biggest new source of growth after pensions and endowments.",
+      "marketContext": "The S&P 500 stands at 7,676.77 (up 0.7% on the prior reading) and the 10-year Treasury yield is 5.00% (up 4 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 26.)",
       "beginnerNote": {
         "term": "RIA",
         "explanation": "Registered investment adviser, an independent firm legally obliged to act in its clients' best interests when giving investment advice."
@@ -1065,38 +1094,10 @@
       "aiSummarized": false
     },
     {
-      "id": "5dcc720794f0",
-      "title": "Apollo to take minority stake in Abu Dhabi’s Mubadala Capital",
-      "url": "https://alternativecreditinvestor.com/2026/10/26/apollo-to-take-minority-stake-in-abu-dhabis-mubadala-capital/",
-      "publishedAt": "2026-10-26T12:45:51.000Z",
-      "source": {
-        "id": "alt-credit-investor",
-        "name": "Alternative Credit Investor",
-        "homepage": "https://alternativecreditinvestor.com/",
-        "contentType": "news"
-      },
-      "section": "private-equity",
-      "firms": [],
-      "theme": {
-        "id": "deals",
-        "label": "M&A & Buyouts"
-      },
-      "importance": 3,
-      "takeaway": "Apollo has made a strategic investment in Mubadala Capital, the alternative asset management arm of Abu Dhabi’s Mubadala Investment Company, to support the next phase of its growth.",
-      "whyItMatters": "Apollo's deal is a fresh marker for what buyers will pay right now, so owners of similar businesses, and the funds that hold them, may be valued against it.",
-      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and high-yield credit spreads are 3.38%, near long-run norms (down 2 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 23.)",
-      "beginnerNote": {
-        "term": "Take-private",
-        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "34f568ee8e62",
-      "title": "IDG Capital leads bidding for ASMPT unit valued above $1bn",
-      "url": "https://www.privateequitywire.co.uk/idg-capital-leads-bidding-for-asmpt-unit-valued-above-1bn/",
-      "publishedAt": "2026-10-26T10:48:01.000Z",
+      "id": "08e9b3f665d7",
+      "title": "Apollo, TPG and Blackstone held preliminary buyout talks with Universal Music",
+      "url": "https://www.privateequitywire.co.uk/apollo-tpg-and-blackstone-held-preliminary-buyout-talks-with-universal-music/",
+      "publishedAt": "2026-10-27T09:58:13.000Z",
       "source": {
         "id": "pe-wire",
         "name": "Private Equity Wire",
@@ -1104,15 +1105,19 @@
         "contentType": "news"
       },
       "section": "private-equity",
-      "firms": [],
+      "firms": [
+        "Blackstone",
+        "Apollo",
+        "TPG"
+      ],
       "theme": {
         "id": "deals",
         "label": "M&A & Buyouts"
       },
-      "importance": 3,
-      "takeaway": "IDG Capital has emerged as the frontrunner to acquire ASMPT's surface mount technology (SMT) business, in a potential transaction valuing the electronics manufacturing equipment unit at more than $1bn, according to a report by Reuters.",
-      "whyItMatters": "Large transactions reset valuation benchmarks for comparable companies, public and private.",
-      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and high-yield credit spreads are 3.38%, near long-run norms (down 2 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 23.)",
+      "importance": 4,
+      "takeaway": "Universal Music Group has held preliminary discussions with private equity firms including Apollo Global Management, TPG and Blackstone over a potential take-private transaction, although the talks have not progressed into a formal sale process, according to a report by Bloomberg.",
+      "whyItMatters": "Deal activity is the heartbeat of private equity: it shows sponsors are willing to put capital to work at today's prices and financing costs.",
+      "marketContext": "The 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and high-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 26.)",
       "beginnerNote": {
         "term": "Take-private",
         "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
@@ -1121,10 +1126,40 @@
       "aiSummarized": false
     },
     {
-      "id": "e9bb5b3c1b6f",
-      "title": "Man Group expands Meiji Yasuda Life Insurance partnership with private credit commitment",
-      "url": "https://alternativecreditinvestor.com/2026/10/26/meiji-yasuda-life-insurance-increases-capital-commitment-to-man-groups-private-credit-strategies/",
-      "publishedAt": "2026-10-26T10:44:30.000Z",
+      "id": "557f3888f179",
+      "title": "Apollo deepens Abu Dhabi ties with strategic investment in Mubadala Capital",
+      "url": "https://www.opalesque.com/fullarticle/716914/Apollo_deepens_Abu_Dhabi_ties_with_strategic_investment691.html",
+      "publishedAt": "2026-10-26T23:45:00.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [
+        "Apollo"
+      ],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 4,
+      "takeaway": "Apollo Global Management is buying a minority stake in Mubadala Capital, the alternative asset management arm of Abu Dhabi's Mubadala wealth fund, and will commit capital across its investment strategies.",
+      "whyItMatters": "Each deal reveals where sponsors see value and which sectors they expect to outperform.",
+      "marketContext": "The 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and high-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 26.)",
+      "beginnerNote": {
+        "term": "Take-private",
+        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "073e3c517dde",
+      "title": "Ares Capital to acquire MidCap Financial from Apollo for $2.6bn",
+      "url": "https://alternativecreditinvestor.com/2026/10/27/ares-capital-to-acquire-midcap-financial-from-apollo-for-2-6bn/",
+      "publishedAt": "2026-10-27T12:05:12.000Z",
       "source": {
         "id": "alt-credit-investor",
         "name": "Alternative Credit Investor",
@@ -1132,15 +1167,17 @@
         "contentType": "news"
       },
       "section": "private-equity",
-      "firms": [],
+      "firms": [
+        "Ares"
+      ],
       "theme": {
         "id": "deals",
         "label": "M&A & Buyouts"
       },
       "importance": 3,
-      "takeaway": "Man Group has expanded its strategic partnership with Meiji Yasuda Life Insurance Company, with a focus on private credit and an opportunity for the life insurer to acquire an equity stake in the alternative manager.",
-      "whyItMatters": "Man Group's tie-up is a sign of where private credit is heading, but its value to investors depends on how many customers actually use it.",
-      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and high-yield credit spreads are 3.38%, near long-run norms (down 2 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 23.)",
+      "takeaway": "Ares Capital has agreed to acquire private credit fund MidCap Financial Investment (MFIC) from Apollo in a stock-and-cash transaction for an enterprise value of approximately $2.6bn (£1.9bn), cementing its position as the largest publicly traded business development company (BDC).",
+      "whyItMatters": "Ares Capital's $2.6bn deal is a fresh marker for what buyers will pay right now, so owners of similar businesses, and the funds that hold them, may be valued against it.",
+      "marketContext": "The 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and high-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 26.)",
       "beginnerNote": {
         "term": "Private credit",
         "explanation": "Loans made by investment funds rather than banks, usually to mid-sized companies. They often pay higher, floating interest rates."
@@ -1149,10 +1186,10 @@
       "aiSummarized": false
     },
     {
-      "id": "10ac5b5ae04b",
-      "title": "Pantheon Closed Its Eighth Global Private Equity Secondaries Fund at $6 Billion, 71% Above Its Target",
-      "url": "https://hedgeco.net/news/10/2026/pantheon-closed-its-eighth-global-private-equity-secondaries-fund-at-6-billion-71-above-its-target.html",
-      "publishedAt": "2026-10-26T10:11:14.000Z",
+      "id": "d43acebb4ee0",
+      "title": "Francisco Partners Completed Its $650 Million Take-Private of Healthcare Practice Software Company Weave",
+      "url": "https://hedgeco.net/news/10/2026/francisco-partners-completed-its-650-million-take-private-of-healthcare-practice-software-company-weave.html",
+      "publishedAt": "2026-10-27T10:52:23.000Z",
       "source": {
         "id": "hedgeco",
         "name": "HedgeCo Networks",
@@ -1162,29 +1199,90 @@
       "section": "private-equity",
       "firms": [],
       "theme": {
-        "id": "exits",
-        "label": "Exits & Secondaries"
+        "id": "deals",
+        "label": "M&A & Buyouts"
       },
       "importance": 3,
-      "takeaway": "Pantheon has held the final close of Pantheon Global Secondaries Fund VIII and associated vehicles with $6 billion of commitments.",
-      "whyItMatters": "Continuation funds let managers keep their best assets longer while giving existing investors a way out, so the key question for investors is whether the price is fair.",
-      "marketContext": "The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the VIX is 19.4, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 23.)",
+      "takeaway": "Francisco Partners has completed its acquisition of Weave Communications, the Lehi, Utah-based patient engagement and payments software company.",
+      "whyItMatters": "Francisco Partners' $650 million deal is a fresh marker for what buyers will pay right now, so owners of similar businesses, and the funds that hold them, may be valued against it.",
+      "marketContext": "The 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and high-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 26.)",
       "beginnerNote": {
-        "term": "Fund close",
-        "explanation": "A milestone in fundraising. The first close lets a fund start investing; the final close means no new investors can join."
+        "term": "Take-private",
+        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
       },
       "storyType": "news",
       "aiSummarized": false
     },
     {
-      "id": "d722f2136ae1",
-      "title": "Audi Building $4B Plant in C. Georgia",
-      "url": "https://www.connectcre.com/stories/audi-building-4b-plant-in-c-georgia/",
-      "publishedAt": "2026-10-26T14:03:32.000Z",
+      "id": "ab4d6c830d61",
+      "title": "Former Blackstone executive’s Town Lane raises $1.9bn for second real estate fund",
+      "url": "https://www.privateequitywire.co.uk/former-blackstone-executives-town-lane-raises-1-9bn-for-second-real-estate-fund/",
+      "publishedAt": "2026-10-27T10:01:44.000Z",
       "source": {
-        "id": "connect-cre",
-        "name": "Connect CRE",
-        "homepage": "https://www.connectcre.com/",
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [
+        "Blackstone"
+      ],
+      "theme": {
+        "id": "fundraising",
+        "label": "Fundraising"
+      },
+      "importance": 5,
+      "takeaway": "Town Lane Management, the real estate investment firm founded by former Blackstone executive Tyler Henritze, has raised $1.9bn for its second fund, exceeding its fundraising target by more than 25%, according to a report by Bloomberg.",
+      "whyItMatters": "A new fund like this shows where investors are putting money in property, and fresh capital tends to support prices for the kind of property it targets.",
+      "marketContext": "The S&P 500 stands at 7,676.77 (up 0.7% on the prior reading) and the 10-year Treasury yield is 5.00% (up 4 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Oct 26.)",
+      "beginnerNote": {
+        "term": "Dry powder",
+        "explanation": "Money investors have committed to private funds that has not yet been invested. It is a measure of how much buying power is waiting on the sidelines."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "9fcee8dd7ac5",
+      "title": "Brookfield, Proprium-Backed Avid Offer $1.6B For Ingenia, Topping Warburg Pincus Bid",
+      "url": "https://www.mingtiandi.com/real-estate/finance/brookfield-avid-offer-1-6b-for-ingenia-topping-warburg-bid/",
+      "publishedAt": "2026-10-26T13:56:07.000Z",
+      "source": {
+        "id": "mingtiandi",
+        "name": "Mingtiandi",
+        "homepage": "https://www.mingtiandi.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [
+        "Brookfield",
+        "Warburg Pincus"
+      ],
+      "theme": {
+        "id": "real-estate",
+        "label": "Real Estate"
+      },
+      "importance": 4,
+      "takeaway": "Brookfield Asset Management has teamed up with an Australian property group backed by US real estate investor Proprium Capital Partners to make a A$2.2 billion ($1.6 billion) buyout offer for Ingenia Communities Group.",
+      "whyItMatters": "Real estate is highly sensitive to interest rates, so it is often the first place higher or lower borrowing costs show up in valuations.",
+      "marketContext": "The 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and the 10Y–2Y yield curve is +0.32 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 26.)",
+      "beginnerNote": {
+        "term": "Leveraged buyout (LBO)",
+        "explanation": "Buying a company using a large amount of borrowed money, secured against the company's own cash flows, to amplify returns."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "39bf0e083147",
+      "title": "TKO’s CEO Makes Case for $2 Billion Bid on Service Properties’ Hotels",
+      "url": "https://skift.com/2026/10/27/tkos-ceo-makes-case-for-2-billion-bid-on-service-properties-hotels/",
+      "publishedAt": "2026-10-27T10:00:00.000Z",
+      "source": {
+        "id": "skift",
+        "name": "Skift",
+        "homepage": "https://skift.com/",
         "contentType": "news"
       },
       "section": "real-estate",
@@ -1194,9 +1292,9 @@
         "label": "Real Estate"
       },
       "importance": 4,
-      "takeaway": "Audi intends to invest approximately $4 billion in a manufacturing site at the Middle Georgia Megasite on Route 96 near Interstate 75.",
-      "whyItMatters": "Real estate is highly sensitive to interest rates, so it is often the first place higher or lower borrowing costs show up in valuations.",
-      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 23.)",
+      "takeaway": "TKO wants to buy a hotel portfolio roughly four times the size of its own.",
+      "whyItMatters": "A $2 billion bid for these hotels shows what buyers will pay for hotels today, a price benchmark for hotel owners, lenders and the REITs that own them.",
+      "marketContext": "The 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and the 10Y–2Y yield curve is +0.32 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 26.)",
       "beginnerNote": {
         "term": "Cap rate",
         "explanation": "A property's yearly net operating income divided by its price. A building earning $5 million a year that sells for $100 million has a 5% cap rate. A lower cap rate means a higher price, and cap rates tend to rise when interest rates rise."
@@ -1205,98 +1303,68 @@
       "aiSummarized": false
     },
     {
-      "id": "1f7199bb97cc",
-      "title": "Accor Reports Q3 2026 Results",
-      "url": "https://lodgingmagazine.com/accor-reports-q3-2026-results/",
-      "publishedAt": "2026-10-26T14:53:55.000Z",
+      "id": "da5ef026b08e",
+      "title": "Australia’s Challenger Rejects Daiichi Life’s $4.4B Buyout Bid, Keeps Talks Open",
+      "url": "https://www.mingtiandi.com/real-estate/finance/australias-challenger-rejects-4-4b-daiichi-life-buyout-bid/",
+      "publishedAt": "2026-10-26T13:46:10.000Z",
       "source": {
-        "id": "lodging-magazine",
-        "name": "Lodging Magazine",
-        "homepage": "https://lodgingmagazine.com/",
-        "contentType": "news"
-      },
-      "section": "real-estate",
-      "firms": [
-        "Accor"
-      ],
-      "theme": {
-        "id": "hotels",
-        "label": "Hotels & Hospitality"
-      },
-      "importance": 3,
-      "takeaway": "Accor reported its third-quarter 2026 results.",
-      "whyItMatters": "Hotels are an operating business as much as property, so their profits swing with travel demand, labor costs and room rates.",
-      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 23.)",
-      "beginnerNote": {
-        "term": "EBITDA",
-        "explanation": "Earnings before interest, taxes, depreciation and amortization, a common proxy for a company's operating cash flow used to price deals."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "af46990ce96f",
-      "title": "Riverside Wharf JV Lands $145M Construction Loan for Dream Hotel",
-      "url": "https://www.connectcre.com/stories/riverside-wharf-jv-lands-145m-construction-loan-for-dream-hotel/",
-      "publishedAt": "2026-10-26T14:15:30.000Z",
-      "source": {
-        "id": "connect-cre",
-        "name": "Connect CRE",
-        "homepage": "https://www.connectcre.com/",
+        "id": "mingtiandi",
+        "name": "Mingtiandi",
+        "homepage": "https://www.mingtiandi.com/",
         "contentType": "news"
       },
       "section": "real-estate",
       "firms": [],
       "theme": {
-        "id": "hotels",
-        "label": "Hotels & Hospitality"
+        "id": "deals",
+        "label": "M&A & Buyouts"
       },
-      "importance": 3,
-      "takeaway": "Driftwood Capital, in partnership with MV Real Estate Holdings and Merrimac Ventures, closed on a $145 million construction loan from Centennial Bank to advance development of Riverside Wharf, a $350 million hospitality-driven complex on the Miami River.",
-      "whyItMatters": "A $145m loan on this hotel property shows lenders will still back the right buildings, a read on how far the hotel lending market has recovered.",
-      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 23.)",
+      "importance": 4,
+      "takeaway": "Australian investment manager Challenger has rejected a A$6.3 billion ($4.4 billion) buyout proposal from Japan’s Daiichi Life while leaving the door open to an improved offer from its largest shareholder.",
+      "whyItMatters": "Large transactions reset valuation benchmarks for comparable companies, public and private.",
+      "marketContext": "The 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and high-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Oct 26.)",
       "beginnerNote": {
-        "term": "RevPAR",
-        "explanation": "Revenue per available room: a hotel's room revenue divided by all its rooms, sold or not. It equals occupancy times average daily rate, so it captures both how full a hotel is and what it charges. It is the industry's headline performance number."
+        "term": "Leveraged buyout (LBO)",
+        "explanation": "Buying a company using a large amount of borrowed money, secured against the company's own cash flows, to amplify returns."
       },
       "storyType": "news",
       "aiSummarized": false
     },
     {
-      "id": "dd768f81b40b",
-      "title": "Dreamscape Hospitality Assumes Management of Legacy Hotel in Green Bay, Plans Marriott Soft Brand Transition",
-      "url": "https://www.hospitalitynet.org/news/4135106/dreamscape-hospitality-assumes-management-of-legacy-hotel-in-green-bay-plans-marriott-soft-brand-transition",
-      "publishedAt": "2026-10-26T13:11:36.000Z",
+      "id": "1e1c639c0b16",
+      "title": "Systematic Long/Short Hedge Funds Had Their Worst Week Since 2024 as AI Stocks Fell, Goldman Sachs Said",
+      "url": "https://hedgeco.net/news/10/2026/systematic-long-short-hedge-funds-had-their-worst-week-since-2024-as-ai-stocks-fell-goldman-sachs-said.html",
+      "publishedAt": "2026-10-27T10:52:14.000Z",
       "source": {
-        "id": "hospitality-net",
-        "name": "Hospitality Net",
-        "homepage": "https://www.hospitalitynet.org/",
+        "id": "hedgeco",
+        "name": "HedgeCo Networks",
+        "homepage": "https://www.hedgeco.net/news/",
         "contentType": "news"
       },
-      "section": "real-estate",
+      "section": "hedge-funds",
       "firms": [
-        "Marriott"
+        "Goldman Sachs"
       ],
       "theme": {
-        "id": "hotels",
-        "label": "Hotels & Hospitality"
+        "id": "ai-tech",
+        "label": "AI & Technology"
       },
       "importance": 3,
-      "takeaway": "Dreamscape Hospitality takes over management of the all-suite Legacy Hotel in Green Bay, Wisconsin, with plans to convert the property to a Marriott soft brand.",
-      "whyItMatters": "Hotel values move with travel demand and room rates, so hotel news is an early read on consumer and business spending.",
-      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Oct 23.)",
+      "takeaway": "Systematic long/short hedge funds had their worst week in two years last week, falling about 2%.",
+      "whyItMatters": "A lasting selloff in AI stocks would cut the value of private companies priced against them and make IPOs harder, so watch whether it spreads.",
+      "marketContext": "The S&P 500 stands at 7,676.77 (up 0.7% on the prior reading) and the VIX is 18.4, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 26.)",
       "beginnerNote": {
-        "term": "RevPAR",
-        "explanation": "Revenue per available room: a hotel's room revenue divided by all its rooms, sold or not. It equals occupancy times average daily rate, so it captures both how full a hotel is and what it charges. It is the industry's headline performance number."
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
       },
-      "storyType": "news",
+      "storyType": "quote",
       "aiSummarized": false
     },
     {
-      "id": "95b311eb3afa",
-      "title": "Warren Buffett won his 10-year bet against hedge funds. Here's what the SP 500 has done since it ended",
-      "url": "https://www.opalesque.com/fullarticle/716899/Warren_Buffett_won_his_bet_against_hedge689.html",
-      "publishedAt": "2026-10-25T23:45:00.000Z",
+      "id": "85e1210218e6",
+      "title": "Trend hedge funds saw worst week since 2024 as AI stocks fell",
+      "url": "https://www.opalesque.com/fullarticle/716908/Trend_hedge_funds_saw_worst_week_since_2024690.html",
+      "publishedAt": "2026-10-26T23:55:00.000Z",
       "source": {
         "id": "opalesque",
         "name": "Opalesque",
@@ -1305,44 +1373,16 @@
       },
       "section": "hedge-funds",
       "firms": [
-        "Berkshire"
+        "Goldman Sachs"
       ],
       "theme": {
         "id": "hedge-funds",
         "label": "Hedge Funds"
       },
       "importance": 3,
-      "takeaway": "In December 2007, Warren Buffett bet that a low-cost S P 500 index fund would beat a selection of hedge funds over 2008-2017.",
-      "whyItMatters": "Hedge-fund performance and positioning show how sophisticated money is navigating current markets.",
-      "marketContext": "The VIX is 19.4, a normal-volatility reading and high-yield credit spreads are 3.38%, near long-run norms (down 2 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
-      "beginnerNote": {
-        "term": "Treasury yield",
-        "explanation": "The interest rate the U.S. government pays to borrow. The 10-year yield is the benchmark that influences mortgage rates, corporate borrowing and asset valuations."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "2bae93044a30",
-      "title": "U.S. Spot Bitcoin ETFs Lost $137.9 Million on October 23 but Finished the Week $301.2 Million Higher",
-      "url": "https://hedgeco.net/news/10/2026/u-s-spot-bitcoin-etfs-lost-137-9-million-on-october-23-but-finished-the-week-301-2-million-higher.html",
-      "publishedAt": "2026-10-26T10:11:22.000Z",
-      "source": {
-        "id": "hedgeco",
-        "name": "HedgeCo Networks",
-        "homepage": "https://www.hedgeco.net/news/",
-        "contentType": "news"
-      },
-      "section": "hedge-funds",
-      "firms": [],
-      "theme": {
-        "id": "hedge-funds",
-        "label": "Hedge Funds"
-      },
-      "importance": 2,
-      "takeaway": "U.S. spot bitcoin exchange-traded funds recorded $137.9 million of net outflows on Friday, October 23, a second straight day of redemptions.",
-      "whyItMatters": "$137.9 million of withdrawals show investors cooling on crypto, and if outflows continue they weigh on prices and on the managers' fee income.",
-      "marketContext": "The VIX is 19.4, a normal-volatility reading and high-yield credit spreads are 3.38%, near long-run norms (down 2 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 23.)",
+      "takeaway": "Systematic long/short funds fell 2% in the week, their worst since 2024, and fundamental long/short funds lost another 1.1%.",
+      "whyItMatters": "A lasting selloff in AI stocks would cut the value of private companies priced against them and make IPOs harder, so watch whether it spreads.",
+      "marketContext": "The VIX is 18.4, a normal-volatility reading and high-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 26.)",
       "beginnerNote": {
         "term": "Multi-strategy fund",
         "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
@@ -1351,10 +1391,10 @@
       "aiSummarized": false
     },
     {
-      "id": "99b9481cafda",
-      "title": "'Total meltdown' in riskiest debt unnerves market: Credit Weekly",
-      "url": "https://www.opalesque.com/fullarticle/716894/in_riskiest_debt_unnerves_market_Credit689.html",
-      "publishedAt": "2026-10-25T23:53:20.000Z",
+      "id": "66a416c4454b",
+      "title": "Commodities shine, event driven lags as hedge fund inflows top $100bn year-to-date",
+      "url": "https://www.opalesque.com/fullarticle/716906/Commodities_shine_event_driven_lags_as_hedge_fund690.html",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
       "source": {
         "id": "opalesque",
         "name": "Opalesque",
@@ -1364,25 +1404,25 @@
       "section": "hedge-funds",
       "firms": [],
       "theme": {
-        "id": "rates",
-        "label": "Fed & Rates"
+        "id": "earnings",
+        "label": "Earnings & AUM"
       },
       "importance": 2,
-      "takeaway": "Stress is spreading through the lowest-rated corners of credit: yields on CCC-rated junk bonds have hit their highest since the pandemic, the average US high-yield risk premium reached a 17-month high, and primary markets saw the year's biggest number of pulled deals.",
-      "whyItMatters": "Stress' deal shows private lenders are still putting money to work in bonds, and the terms they win set the bar for returns across the strategy.",
-      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 23.)",
+      "takeaway": "Matthias Knab, Opalesque for New Managers: Hedge funds attracted $36bn of net new money in the third quarter of 2026, even as returns slipped into slightly negative territory after an exceptional second quarter, according to the latest Quarterly Hedge Fund Report from fund administrator Citco.",
+      "whyItMatters": "$100bn of new money shows demand for hedge funds is still growing, and money keeps flowing to the biggest managers, which gives them more say over fees and terms.",
+      "marketContext": "The S&P 500 stands at 7,676.77 (up 0.7% on the prior reading) and the VIX is 18.4, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 26.)",
       "beginnerNote": {
-        "term": "Basis point",
-        "explanation": "One hundredth of a percentage point (0.01%). A rate rising from 4.00% to 4.25% has risen 25 basis points."
+        "term": "Assets under management (AUM)",
+        "explanation": "The total market value of money a firm invests on behalf of clients. It is the main yardstick of an asset manager's size."
       },
       "storyType": "news",
       "aiSummarized": false
     },
     {
-      "id": "bfab5f674816",
-      "title": "Multicoin names HYPE top holding on October 19: What it means for the Hyperliquid price",
-      "url": "https://www.opalesque.com/fullarticle/716897/Multicoin_names_HYPE_top_holding_on_October_19689.html",
-      "publishedAt": "2026-10-25T23:48:20.000Z",
+      "id": "8b9bdfd6fad2",
+      "title": "Hedge fund Verition sued by Ex-Asia business development head",
+      "url": "https://www.opalesque.com/fullarticle/716907/Hedge_fund_Verition_sued_by_business_development690.html",
+      "publishedAt": "2026-10-26T23:56:40.000Z",
       "source": {
         "id": "opalesque",
         "name": "Opalesque",
@@ -1392,18 +1432,76 @@
       "section": "hedge-funds",
       "firms": [],
       "theme": {
-        "id": "people",
-        "label": "People & Leadership"
+        "id": "hedge-funds",
+        "label": "Hedge Funds"
       },
       "importance": 2,
-      "takeaway": "Multicoin Capital identified HYPE, the token of decentralized exchange Hyperliquid, as its largest hedge fund holding on October 19, with general partner Spencer Applebaum saying the firm bought the tokens on the public market.",
-      "whyItMatters": "Leadership changes at Multicoin can reset strategy and priorities, so clients and fund investors will watch what the new team changes.",
-      "marketContext": "The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the VIX is 19.4, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 23.)",
+      "takeaway": "The $15 billion multi-strategy hedge fund firm Verition Fund Management has been sued by its former Asia-Pacific business development head….",
+      "whyItMatters": "The outcome could mean fines or new limits, and cases like this often set the rules the rest of the industry has to follow.",
+      "marketContext": "The VIX is 18.4, a normal-volatility reading and high-yield credit spreads are 3.30%, near long-run norms (down 8 bps on the prior reading). Overall risk appetite is healthy. (FRED data as of Oct 26.)",
       "beginnerNote": {
-        "term": "General partner (GP)",
-        "explanation": "The firm that runs a private fund, picks the investments and earns fees plus a share of profits."
+        "term": "Multi-strategy fund",
+        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
       },
       "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "320de2f5babb",
+      "title": "Axios Co-Founders Jim VandeHei and Mike Allen on the 2026 Midterms, AI, and Simplifying Your Life",
+      "url": "https://insideblackstone.podbean.com/e/axios/",
+      "publishedAt": "2026-10-27T06:00:00.000Z",
+      "source": {
+        "id": "inside-blackstone",
+        "name": "Inside Blackstone (podcast)",
+        "homepage": "https://www.blackstone.com/insights/",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [
+        "Blackstone"
+      ],
+      "theme": {
+        "id": "ai-tech",
+        "label": "AI & Technology"
+      },
+      "importance": 5,
+      "takeaway": "They also discuss how they built one of the most influential media companies of the last decade and lessons from their new book, Simplify: Do 50% More with 50% Less.",
+      "whyItMatters": "This take on AI comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The S&P 500 stands at 7,676.77 (up 0.7% on the prior reading) and the VIX is 18.4, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 26.)",
+      "beginnerNote": {
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    },
+    {
+      "id": "805cce40a0fa",
+      "title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+      "url": "https://colossus.com/episode/the-limits-of-intelligence/",
+      "publishedAt": "2026-10-27T08:00:00.000Z",
+      "source": {
+        "id": "invest-like-the-best",
+        "name": "Invest Like the Best",
+        "homepage": "https://www.joincolossus.com/",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [],
+      "theme": {
+        "id": "voices",
+        "label": "Investor Outlook"
+      },
+      "importance": 3,
+      "takeaway": "We also cover why he avoids investing in the AI build-out, how AI agents will push customers to the lowest-cost provider, and why he is comfortable with 80% of his portfolio in one stock.",
+      "whyItMatters": "Cliff Sosin's take on AI comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and the 10Y–2Y yield curve is +0.32 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 26.)",
+      "beginnerNote": {
+        "term": "Market cycle",
+        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
+      },
+      "storyType": "podcast",
       "aiSummarized": false
     },
     {
@@ -1423,97 +1521,13 @@
         "id": "insurance",
         "label": "Insurance & Retirement"
       },
-      "importance": 3,
+      "importance": 2,
       "takeaway": "Scott started his LP career at AlpInvest and joined Texas Teachers sixteen years ago, when the private equity program was six people and $7 billion.",
       "whyItMatters": "Scott Ramsower's take on secondaries comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
-      "marketContext": "The 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Oct 23.)",
+      "marketContext": "The 10-year Treasury yield is 5.00% (up 4 bps on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Oct 26.)",
       "beginnerNote": {
         "term": "Limited partner (LP)",
         "explanation": "The investors in a private fund, such as pensions, endowments, insurers and family offices. They commit capital but do not manage the fund."
-      },
-      "storyType": "podcast",
-      "aiSummarized": false
-    },
-    {
-      "id": "f8cc1229759a",
-      "title": "AI Agents Are Already Changing the Price of Goods",
-      "url": "https://omny.fm/shows/odd-lots/ai-agents-are-already-changing-the-price-of-goods",
-      "publishedAt": "2026-10-26T08:00:00.000Z",
-      "source": {
-        "id": "odd-lots",
-        "name": "Odd Lots (Bloomberg podcast)",
-        "homepage": "https://www.bloomberg.com/oddlots",
-        "contentType": "podcast"
-      },
-      "section": "voices",
-      "firms": [],
-      "theme": {
-        "id": "ai-tech",
-        "label": "AI & Technology"
-      },
-      "importance": 3,
-      "takeaway": "But with the release of AI agents like Meta's Muse, tech companies are promising consumers that agents will start saving them tons of money by finding the best deals.",
-      "whyItMatters": "This take on AI comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
-      "marketContext": "The S&P 500 stands at 7,757.17 (up 0.6% on the prior reading) and the VIX is 19.4, a normal-volatility reading. Steady public markets keep the IPO window open and support private-company valuations. (FRED data as of Oct 23.)",
-      "beginnerNote": {
-        "term": "Valuation multiple",
-        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
-      },
-      "storyType": "podcast",
-      "aiSummarized": false
-    },
-    {
-      "id": "48abb00f7f19",
-      "title": "How a Chicago Restaurant Has Stayed Open For Nearly Three Decades",
-      "url": "https://omny.fm/shows/odd-lots/how-a-chicago-restaurant-has-stayed-open-for-nearly-three-decades",
-      "publishedAt": "2026-10-24T08:00:00.000Z",
-      "source": {
-        "id": "odd-lots",
-        "name": "Odd Lots (Bloomberg podcast)",
-        "homepage": "https://www.bloomberg.com/oddlots",
-        "contentType": "podcast"
-      },
-      "section": "voices",
-      "firms": [],
-      "theme": {
-        "id": "voices",
-        "label": "Investor Outlook"
-      },
-      "importance": 2,
-      "takeaway": "By the time he graduated, he helped grow that single coffee shop into four locations across campus.",
-      "whyItMatters": "This take comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
-      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 23.)",
-      "beginnerNote": {
-        "term": "Market cycle",
-        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
-      },
-      "storyType": "podcast",
-      "aiSummarized": false
-    },
-    {
-      "id": "3104b4594841",
-      "title": "Embracing the Bond Market: Masters in Business with Robin Wigglesworth",
-      "url": "https://omny.fm/shows/masters-in-business/embracing-the-bond-market-masters-in-business-with-robin-wigglesworth",
-      "publishedAt": "2026-10-23T21:00:00.000Z",
-      "source": {
-        "id": "masters-in-business",
-        "name": "Masters in Business (Bloomberg podcast)",
-        "homepage": "https://www.bloomberg.com/podcasts/series/masters-in-business",
-        "contentType": "podcast"
-      },
-      "section": "voices",
-      "firms": [],
-      "theme": {
-        "id": "voices",
-        "label": "Investor Outlook"
-      },
-      "importance": 2,
-      "takeaway": "Barry speaks with Robin Wigglesworth, editor of Financial Times' Alphaville blog and author of the new book 'A Fabulous Debt: The Epic Story of How Bonds Built the Modern World'.",
-      "whyItMatters": "Robin Wigglesworth's take on bonds comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
-      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.96% (down 17 bps on the prior reading) and the 10Y–2Y yield curve is +0.31 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Oct 23.)",
-      "beginnerNote": {
-        "term": "Market cycle",
-        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
       },
       "storyType": "podcast",
       "aiSummarized": false
@@ -1522,7 +1536,7 @@
   "stats": {
     "sourcesChecked": 52,
     "sourcesOk": 34,
-    "candidates": 155,
+    "candidates": 163,
     "selected": 27
   }
 }

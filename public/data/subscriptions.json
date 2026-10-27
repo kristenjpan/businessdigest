@@ -1,82 +1,82 @@
 {
-  "generatedAt": "2026-10-26T16:46:13.459Z",
+  "generatedAt": "2026-10-27T15:51:13.850Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "9be441d3cd4f",
-          "title": "Bon Secours Affiliate to Acquire Surgery Partners in $5.7 Billion Take-Private Deal",
-          "url": "https://www.wsj.com/pro/private-equity/bon-secours-affiliate-to-acquire-surgery-partners-in-5-7-billion-take-private-deal-10321162?mod=rss_markets_main",
-          "publishedAt": "2026-10-26T16:40:00.000Z",
-          "teaser": "Bain Capital-backed Surgery Partners operates through a network of ambulatory surgery centers, surgical hospitals and physician partnerships.",
+          "id": "f24bae71cef3",
+          "title": "Don’t Let Politics Poison Your Portfolio",
+          "url": "https://www.wsj.com/finance/investing/dont-let-politics-poison-your-portfolio-f346b227?mod=rss_markets_main",
+          "publishedAt": "2026-10-27T14:55:00.000Z",
+          "teaser": "Plus, not much FOMO on private markets.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "ad829ce18beb",
+          "title": "S&P Global Explores Potential Spinoff of Financial Data and AI Units",
+          "url": "https://www.wsj.com/business/earnings/s-p-global-raises-year-outlook-as-profit-improves-247fb8c2?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-27T13:55:00.000Z",
+          "teaser": "The provider of credit ratings, indices and data analytics posted third-quarter net income of $1.24 billion, or $4.25 a share, up from $1.18 billion, or $3.86 or a share, a year earlier.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "59aa46d73be4",
+          "title": "U.K. Fiscal Discipline in Focus Ahead of Burnham Government’s First Budget",
+          "url": "https://www.wsj.com/economy/central-banking/u-k-fiscal-discipline-in-focus-ahead-of-burnham-governments-first-budget-5fa7e2a9?mod=rss_markets_main",
+          "publishedAt": "2026-10-27T12:51:00.000Z",
+          "teaser": "Investors will be watching for a possible increase in the bank corporation tax surcharge, higher taxes on gambling, and changes to property taxes.",
+          "firms": [],
+          "section": "real-estate"
+        },
+        {
+          "id": "b596a6e59b37",
+          "title": "Janus Launches First Tokenized Fund Licensing the Nasdaq-100 Index",
+          "url": "https://www.wsj.com/finance/investing/janus-launches-first-tokenized-fund-licensing-the-nasdaq-100-index-5af1cf65?mod=rss_markets_main",
+          "publishedAt": "2026-10-27T12:00:00.000Z",
+          "teaser": "Nasdaq opened up licensing deals on its Big Tech benchmark to other money managers earlier this year.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "0e0e2231973c",
+          "title": "The Morning Risk Report: The Biggest Takeaways From Anthropic’s IPO Prospectus",
+          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-the-biggest-takeaways-from-anthropics-ipo-prospectus-f786ea5e?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-27T11:24:00.000Z",
+          "teaser": "Plus: Florida’s role in battling big tech and China warns U.S. over investment curbs.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "40c0650ab056",
+          "title": "PayPal Lifts Full-Year Outlook, CEO Stresses Turnaround Plan",
+          "url": "https://www.wsj.com/business/retail/paypal-lifts-full-year-outlook-ceo-stresses-turnaround-plan-15cd0e2e?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-27T11:10:00.000Z",
+          "teaser": "PayPal Holdings lifted its full-year outlook and reported higher revenue in the third quarter as the financial-technology company looks to persuade investors that it can grow and thrive as an independent entity.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "4165f7f6889e",
+          "title": "These Funds Thrive on Investors’ Impatience",
+          "url": "https://www.wsj.com/finance/investing/these-funds-thrive-on-investors-impatience-48a6d3a4?mod=rss_markets_main",
+          "publishedAt": "2026-10-27T10:37:00.000Z",
+          "teaser": "Plus, is Anthropic misanthropic?",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "db18339f8448",
+          "title": "Ares Private-Credit Fund to Buy Competitor From Apollo",
+          "url": "https://www.wsj.com/finance/investing/ares-private-credit-fund-to-buy-competitor-from-apollo-daecb67c?mod=rss_markets_main",
+          "publishedAt": "2026-10-27T10:26:00.000Z",
+          "teaser": "The merger of the two business-development companies will boost Ares Capital Corp. to over $31 billion.",
           "firms": [
-            "Bain Capital"
+            "Ares"
           ],
-          "section": "private-equity"
-        },
-        {
-          "id": "8f49dee17083",
-          "title": "U.S. Stocks Higher as Tech Rallies",
-          "url": "https://www.wsj.com/finance/investing/stock-futures-treasurys-steady-as-brazilian-assets-slide-402fb905?mod=rss_markets_main",
-          "publishedAt": "2026-10-26T16:20:00.000Z",
-          "teaser": "U.S. stocks rose as tech shares rallied, with investors seemingly setting aside the AI jitters that plagued some stocks earlier in the session.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "6f972c1b7092",
-          "title": "Brazilian Markets Crash After Lula’s Surprise Election Win Stuns Investors",
-          "url": "https://www.wsj.com/finance/brazils-surprise-election-outcome-set-to-batter-stocks-real-35253aa8?mod=rss_markets_main",
-          "publishedAt": "2026-10-26T16:11:00.000Z",
-          "teaser": "Brazil’s main stock market index dropped to a two-month low after President Luiz Inácio Lula da Silva secured a surprise victory in the presidential election runoff.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "0a8df831b57c",
-          "title": "Meta Plans up to $95 Billion in Financing to Power Its AI Growth",
-          "url": "https://www.wsj.com/tech/ai/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan-10b8947e?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-26T13:49:00.000Z",
-          "teaser": "The Facebook parent said it would look to raise up to $95 billion to help fund its massive investments in artificial-intelligence infrastructure and personal superintelligence.",
-          "firms": [],
           "section": "private-markets"
-        },
-        {
-          "id": "c91b193df79c",
-          "title": "Banks Target Influencers Who Pursue Credit-Card Points a Little Too Far",
-          "url": "https://www.wsj.com/cmo-today/banks-target-influencers-who-pursue-credit-card-points-a-little-too-far-616e1e5e?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-26T12:50:00.000Z",
-          "teaser": "Plus, secrecy mixes with a studio’s unusual celebrity to make ‘You Can See Everything’ a smash.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "b3fa641f0ff2",
-          "title": "South Korea Holds a Key to America’s Shipbuilding Revival",
-          "url": "https://www.wsj.com/logistics-report/south-korea-holds-a-key-to-americas-shipbuilding-revival-99b645f7?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-26T11:02:00.000Z",
-          "teaser": "Plus, Audi is planning a $4.2 billion investment to build its first U.S. factory, and recyclers pick apart retiring wind turbines for rare earths.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "eb6a1f85a988",
-          "title": "The Shifting Ground for Private Equity-Backed CEOs",
-          "url": "https://www.wsj.com/articles/the-shifting-ground-for-private-equity-backed-ceos-cf380bb0?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-26T09:58:00.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "e304cf160fb3",
-          "title": "Galp Energia Shares Fall After Moeve Merger-Talks Collapse, Overshadowing Positive Earnings",
-          "url": "https://www.wsj.com/business/energy-oil/galp-raises-full-year-view-after-oil-price-assumption-increase-ee79aceb?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-26T09:06:00.000Z",
-          "teaser": "The stock fell more than 8% after talks with Moeve on a potential downstream combination broke down, overshadowing earnings growth and a full-year guidance hike.",
-          "firms": [],
-          "section": "private-equity"
         }
       ]
     },
@@ -84,76 +84,78 @@
       "id": "ft",
       "items": [
         {
-          "id": "9939d78be2c9",
-          "title": "French bonds rally after Moody’s rating reprieve",
-          "url": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-26T16:32:54.000Z",
+          "id": "5755330c49de",
+          "title": "Anthropic and the AI cluster effect in fundraising",
+          "url": "https://www.ft.com/content/689a2114-57c5-4391-a335-dc97e5716610",
+          "publishedAt": "2026-10-27T14:02:23.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "aeb1251203e8",
+          "title": "Tech stocks gain as AI trade revives",
+          "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-27T13:22:51.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "418b78e945f5",
-          "title": "Apollo takes minority stake in Abu Dhabi’s Mubadala Capital",
-          "url": "https://www.ft.com/content/306b6168-e8be-4781-82e3-d5dea8bc4de2?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-26T14:50:43.000Z",
+          "id": "f428feda8cd7",
+          "title": "Bolsonaro says he was ordered to surrender passport as his party concedes election",
+          "url": "https://www.ft.com/content/ae37754c-6200-425d-8f8f-ce0b0f7cc250?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-27T12:47:39.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "4d8a47c4a2dc",
+          "title": "Anthropic’s big financial reveal",
+          "url": "https://www.ft.com/content/d1dca5d1-467f-4311-a004-82bb1ef761e0?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-27T05:00:29.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "f816e7e9dd64",
-          "title": "Anthropic begins countdown to IPO with prospectus filing",
-          "url": "https://www.ft.com/content/f6ecfecd-d797-4d2c-b427-d333297949cb?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-26T14:41:35.000Z",
+          "id": "5b01dff6fb46",
+          "title": "Insurers bullish on private markets even as government bond yields rise",
+          "url": "https://www.ft.com/content/26aea932-a70f-4d6a-bb41-b37079658652?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-27T05:00:28.000Z",
+          "teaser": "",
+          "firms": [
+            "BlackRock"
+          ],
+          "section": "private-markets"
+        },
+        {
+          "id": "1021bc8699ab",
+          "title": "Where auditors can lift their game",
+          "url": "https://www.ft.com/content/59bc903b-9ccd-4d86-8529-7ea9d83344e9?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-27T05:00:18.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "4e11b65403a2",
+          "title": "DWS to honour just 10% of redemption requests at flagship property fund",
+          "url": "https://www.ft.com/content/8868926c-3ee2-45e8-9705-0cb195fcc493?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-26T18:16:52.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "real-estate"
+        },
+        {
+          "id": "ddc27eb31ade",
+          "title": "‘Bold but sane’: what we learnt from Anthropic’s 240,000-word IPO filing",
+          "url": "https://www.ft.com/content/a6c43402-719e-4295-ae5f-541edb0aeb29?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-26T17:45:49.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
-        },
-        {
-          "id": "02de069ddb8b",
-          "title": "Brazil’s markets tumble as investors bet Lula will add to fiscal pain",
-          "url": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-26T14:38:26.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "354cf174afe3",
-          "title": "Meta plans $95bn stock offering to bankroll AI expansion",
-          "url": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-26T12:34:22.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "28284ea5c959",
-          "title": "The rise and fall of the £150bn ‘diversified growth fund’ phenomenon",
-          "url": "https://www.ft.com/content/cec7ecab-27fa-41ce-93f8-e6a6061599d1",
-          "publishedAt": "2026-10-26T06:00:01.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "76554ce590c1",
-          "title": "‘Do no harm’ — what gilt investors want from Healey in the Budget",
-          "url": "https://www.ft.com/content/244ae9ad-0778-4afe-8b6a-c2b1b9f81771?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-26T05:00:20.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "c4ef7f1bdaa8",
-          "title": "Junk borrowers are stuck between a $2tn rock and a hard place",
-          "url": "https://www.ft.com/content/053a8758-2814-45a5-87ca-0c71ce5f7816?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-26T05:00:20.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -161,49 +163,31 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "6c80094cc8d7",
-          "title": "Poland’s Zloty Sinks to Three-Year Low Amid Central Bank Row",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-26/poland-s-zloty-sinks-to-three-year-low-amid-central-bank-row",
-          "publishedAt": "2026-10-26T15:58:50.000Z",
-          "teaser": "Poland’s zloty slumped to the weakest level in nearly three years in a deepening selloff that’s been fueled by investors retreating from risky assets and a conflict between the government and the central bank.",
+          "id": "c2c7d84ac545",
+          "title": "Altice International, Lenders Near Deadline to Negotiate Rework",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-27/altice-international-lenders-near-deadline-to-negotiate-rework",
+          "publishedAt": "2026-10-27T14:52:36.000Z",
+          "teaser": "Negotiations between Altice International and its creditors to rejig the company’s capital structure are nearing a Tuesday deadline as a non-disclosure agreement is set to expire, according to people familiar with the matter.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "5da4b3ad363a",
-          "title": "Redotpay Said to Prepare Confidential IPO Filing By Year-End",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-26/redotpay-said-to-prepare-confidential-ipo-filing-by-year-end",
-          "publishedAt": "2026-10-26T15:29:13.000Z",
-          "teaser": "Crypto firm Redotpay is considering filing confidentially for a US initial public offering by year-end, according to people familiar with the matter, after months of deliberation and wrangling with regulatory issues.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "9c7771d77081",
-          "title": "Citadel Securities’ Shah Says AI Trade Has No ‘Margin for Error’",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-26/citadel-securities-shah-says-ai-trade-has-no-margin-for-error",
-          "publishedAt": "2026-10-26T15:16:26.000Z",
-          "teaser": "Markets have become so invested in the artificial intelligence trade that there is very little room for error if the massive spending doesn’t pay off, according to Citadel Securities.",
+          "id": "3e0921c57e27",
+          "title": "GQG’s Jain Looks Past Lula Rout, Says Selling Brazil a ‘Mistake’",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-27/gqg-s-jain-looks-past-lula-rout-says-selling-brazil-a-mistake",
+          "publishedAt": "2026-10-27T14:45:52.000Z",
+          "teaser": "As investors flee Brazil following Luiz Inácio Lula da Silva’s surprise re-election, Rajiv Jain is preparing to do what he has done before: buy into the panic.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "5365980c0c83",
-          "title": "US Stocks Gain as Investors Parse Anthropic IPO Filing",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-26/us-stock-futures-gain-ahead-of-big-tech-earnings-fed-decision",
-          "publishedAt": "2026-10-26T12:38:56.000Z",
-          "teaser": "US stocks gained on Monday as investors digest Anthropic PBC’s filing for its initial public offering and look forward to key big tech earnings this week as well as the Federal Reserve’s next decision on Wednesday.",
+          "id": "8c3b2dfdc270",
+          "title": "Bond Market Doubts Gridlock Will Ease Deficit Woes This Time",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-27/bond-market-doubts-grow-over-gridlock-as-cure-for-deficit-angst",
+          "publishedAt": "2026-10-27T11:45:00.000Z",
+          "teaser": "Bond investors are growing skeptical that the potential return of gridlock on Capitol Hill will ease their worries about the US fiscal trajectory the way it has for decades.",
           "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "bbaf0e8eaa68",
-          "title": "Stocks Get Tech Boost as Anthropic Files for IPO: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
-          "publishedAt": "2026-10-25T22:09:07.000Z",
-          "teaser": "A revival of the artificial-intelligence trade fueled gains in stocks as Anthropic PBC filed for an IPO, with investors bracing for this week’s results from tech giants and the Federal Reserve decision.",
-          "firms": [],
-          "section": "private-equity"
+          "section": "markets"
         }
       ]
     },
@@ -211,13 +195,13 @@
       "id": "economist",
       "items": [
         {
-          "id": "94eb60955a9a",
-          "title": "Who will buy $120bn-worth of fresh Japanese government bonds?",
-          "url": "https://www.economist.com/finance-and-economics/2026/10/19/who-will-buy-120bn-worth-of-fresh-japanese-government-bonds",
-          "publishedAt": "2026-10-19T18:11:37.000Z",
+          "id": "41da513ecc19",
+          "title": "Don’t expect supersize profits from Anthropic soon",
+          "url": "https://www.economist.com/business/2026/10/26/dont-expect-supersize-profits-from-anthropic-soon",
+          "publishedAt": "2026-10-26T22:23:01.000Z",
           "teaser": "",
           "firms": [],
-          "section": "private-markets"
+          "section": "private-equity"
         }
       ]
     }
