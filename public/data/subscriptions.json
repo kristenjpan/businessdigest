@@ -1,88 +1,140 @@
 {
-  "generatedAt": "2026-10-27T15:51:13.850Z",
+  "generatedAt": "2026-10-28T16:35:28.775Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "f24bae71cef3",
-          "title": "Don’t Let Politics Poison Your Portfolio",
-          "url": "https://www.wsj.com/finance/investing/dont-let-politics-poison-your-portfolio-f346b227?mod=rss_markets_main",
-          "publishedAt": "2026-10-27T14:55:00.000Z",
-          "teaser": "Plus, not much FOMO on private markets.",
+          "id": "f4582a760225",
+          "title": "Weil Gotshal Leaders Discussing Plan to Wind Down Law Firm",
+          "url": "https://www.wsj.com/business/weil-gotshal-leaders-discussing-plan-to-wind-down-law-firm-09d60c10?mod=rss_markets_main",
+          "publishedAt": "2026-10-28T16:31:00.000Z",
+          "teaser": "The once-storied firm suffered a series of high-profile defections and failed merger talks that left it with few options.",
           "firms": [],
           "section": "private-markets"
         },
         {
-          "id": "ad829ce18beb",
-          "title": "S&P Global Explores Potential Spinoff of Financial Data and AI Units",
-          "url": "https://www.wsj.com/business/earnings/s-p-global-raises-year-outlook-as-profit-improves-247fb8c2?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-27T13:55:00.000Z",
-          "teaser": "The provider of credit ratings, indices and data analytics posted third-quarter net income of $1.24 billion, or $4.25 a share, up from $1.18 billion, or $3.86 or a share, a year earlier.",
+          "id": "9fdfa790f60f",
+          "title": "The ‘Touchy-Feely’ Lessons of a Family Firm That Has Never Had a Layoff in 75 Years",
+          "url": "https://www.wsj.com/lifestyle/careers/the-touchy-feely-lessons-of-a-family-firm-that-has-never-had-a-layoff-in-75-years-149f9958?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-28T15:00:00.000Z",
+          "teaser": "Plus, why Microsoft is offering buyouts to a quarter of its workforce and CEOs are going back to school after making it to the top.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "59aa46d73be4",
-          "title": "U.K. Fiscal Discipline in Focus Ahead of Burnham Government’s First Budget",
-          "url": "https://www.wsj.com/economy/central-banking/u-k-fiscal-discipline-in-focus-ahead-of-burnham-governments-first-budget-5fa7e2a9?mod=rss_markets_main",
-          "publishedAt": "2026-10-27T12:51:00.000Z",
-          "teaser": "Investors will be watching for a possible increase in the bank corporation tax surcharge, higher taxes on gambling, and changes to property taxes.",
-          "firms": [],
-          "section": "real-estate"
-        },
-        {
-          "id": "b596a6e59b37",
-          "title": "Janus Launches First Tokenized Fund Licensing the Nasdaq-100 Index",
-          "url": "https://www.wsj.com/finance/investing/janus-launches-first-tokenized-fund-licensing-the-nasdaq-100-index-5af1cf65?mod=rss_markets_main",
-          "publishedAt": "2026-10-27T12:00:00.000Z",
-          "teaser": "Nasdaq opened up licensing deals on its Big Tech benchmark to other money managers earlier this year.",
+          "id": "e2777862d738",
+          "title": "GE Vernova to Buy Grid-Equipment Manufacturer for $9 Billion as Energy Demand Grows",
+          "url": "https://www.wsj.com/business/energy-oil/ge-vernova-to-buy-high-voltage-grid-equipment-manufacturer-for-9-billion-b29dd2ef?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-28T14:18:00.000Z",
+          "teaser": "The energy company, formed from the breakup of General Electric, said the acquisition will create scale across its electrification portfolio.",
           "firms": [],
           "section": "private-markets"
         },
         {
-          "id": "0e0e2231973c",
-          "title": "The Morning Risk Report: The Biggest Takeaways From Anthropic’s IPO Prospectus",
-          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-the-biggest-takeaways-from-anthropics-ipo-prospectus-f786ea5e?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-27T11:24:00.000Z",
-          "teaser": "Plus: Florida’s role in battling big tech and China warns U.S. over investment curbs.",
+          "id": "a7c68bad88cf",
+          "title": "Dropbox to Cut About 6% of Global Workforce",
+          "url": "https://www.wsj.com/business/earnings/dropbox-to-cut-about-6-of-global-workforce-a899fbfb?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-28T14:09:00.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "31ea35306532",
+          "title": "Mercedes-Benz to Offer Voluntary Buyouts for Support Staff as Market Worsens",
+          "url": "https://www.wsj.com/business/mercedes-benz-to-accelerate-efficiency-drive-as-market-conditions-worsen-a7d30c4f?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-28T13:47:00.000Z",
+          "teaser": "The luxury-car maker said it is pushing ahead with plans to become more efficient in the face of deteriorating market conditions.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "40c0650ab056",
-          "title": "PayPal Lifts Full-Year Outlook, CEO Stresses Turnaround Plan",
-          "url": "https://www.wsj.com/business/retail/paypal-lifts-full-year-outlook-ceo-stresses-turnaround-plan-15cd0e2e?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-27T11:10:00.000Z",
-          "teaser": "PayPal Holdings lifted its full-year outlook and reported higher revenue in the third quarter as the financial-technology company looks to persuade investors that it can grow and thrive as an independent entity.",
+          "id": "b857a0a22155",
+          "title": "UBS CEO Signals Possible Switzerland Exit Over Capital Demands",
+          "url": "https://www.wsj.com/finance/banking/ubs-profit-climbs-as-wealth-management-inflows-increase-868e9b5f?mod=rss_markets_main",
+          "publishedAt": "2026-10-28T11:58:00.000Z",
+          "teaser": "The group is caught in a dispute with lawmakers in its home country over proposals to introduce more demanding capital requirements on its foreign subsidiaries.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "8e32a3bc9e49",
+          "title": "The ‘Buy, Borrow and Die’ Wealth Strategy Gains in Popularity",
+          "url": "https://www.wsj.com/finance/investing/the-buy-borrow-and-die-wealth-strategy-gains-in-popularity-a3001c20?mod=rss_markets_main",
+          "publishedAt": "2026-10-28T10:48:00.000Z",
+          "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "4165f7f6889e",
-          "title": "These Funds Thrive on Investors’ Impatience",
-          "url": "https://www.wsj.com/finance/investing/these-funds-thrive-on-investors-impatience-48a6d3a4?mod=rss_markets_main",
-          "publishedAt": "2026-10-27T10:37:00.000Z",
-          "teaser": "Plus, is Anthropic misanthropic?",
+          "id": "c2d375119552",
+          "title": "Global Government Bond Yields Rise Ahead of Fed Decision, U.K. Budget",
+          "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-rise-ahead-of-federal-reserve-interest-rate-decision-b1f7ef58?mod=rss_markets_main",
+          "publishedAt": "2026-10-28T09:57:00.000Z",
+          "teaser": "Yields on Treasurys rose in European morning trade, as investors focused on the Federal Reserve’s interest-rate decision as well as the U.K. budget.",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "db18339f8448",
-          "title": "Ares Private-Credit Fund to Buy Competitor From Apollo",
-          "url": "https://www.wsj.com/finance/investing/ares-private-credit-fund-to-buy-competitor-from-apollo-daecb67c?mod=rss_markets_main",
-          "publishedAt": "2026-10-27T10:26:00.000Z",
-          "teaser": "The merger of the two business-development companies will boost Ares Capital Corp. to over $31 billion.",
-          "firms": [
-            "Ares"
-          ],
-          "section": "private-markets"
         }
       ]
     },
     {
       "id": "ft",
       "items": [
+        {
+          "id": "d751751f9b00",
+          "title": "Mubadala Capital dealmaker to launch his own venture fund",
+          "url": "https://www.ft.com/content/e9827543-51c9-451b-b180-e7e2276aa957?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-28T15:44:48.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "ac4c1b764986",
+          "title": "This is a very interesting time for trashy credit (and all those who love it)",
+          "url": "https://www.ft.com/content/856aa6be-5543-493c-8d2e-a78c6b772f61",
+          "publishedAt": "2026-10-28T06:00:03.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "hedge-funds"
+        },
+        {
+          "id": "3d43519431d1",
+          "title": "Can an investor be too big to care about ethics?",
+          "url": "https://www.ft.com/content/b0e32e1b-20f2-46f1-a931-6b1acfeb242e?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-28T05:00:15.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "b9ba691e4b76",
+          "title": "Anthropic’s seven founders tighten grip ahead of blockbuster IPO",
+          "url": "https://www.ft.com/content/24a35e41-2641-4cec-97f5-a974412f9952?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-28T05:00:06.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "1ac42cd824f6",
+          "title": "China rushes to shore up markets as AI trade sours",
+          "url": "https://www.ft.com/content/2bb82c45-04b2-4ccc-9002-f54483fb044e?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-28T03:54:50.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "029291a1cb2f",
+          "title": "The limits of hedging the AI boom",
+          "url": "https://www.ft.com/content/0b0ae366-c1e0-4c35-8cad-c924a23d33e7?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-27T17:07:56.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "5755330c49de",
           "title": "Anthropic and the AI cluster effect in fundraising",
@@ -91,71 +143,6 @@
           "teaser": "",
           "firms": [],
           "section": "private-markets"
-        },
-        {
-          "id": "aeb1251203e8",
-          "title": "Tech stocks gain as AI trade revives",
-          "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-27T13:22:51.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "f428feda8cd7",
-          "title": "Bolsonaro says he was ordered to surrender passport as his party concedes election",
-          "url": "https://www.ft.com/content/ae37754c-6200-425d-8f8f-ce0b0f7cc250?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-27T12:47:39.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "4d8a47c4a2dc",
-          "title": "Anthropic’s big financial reveal",
-          "url": "https://www.ft.com/content/d1dca5d1-467f-4311-a004-82bb1ef761e0?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-27T05:00:29.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "5b01dff6fb46",
-          "title": "Insurers bullish on private markets even as government bond yields rise",
-          "url": "https://www.ft.com/content/26aea932-a70f-4d6a-bb41-b37079658652?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-27T05:00:28.000Z",
-          "teaser": "",
-          "firms": [
-            "BlackRock"
-          ],
-          "section": "private-markets"
-        },
-        {
-          "id": "1021bc8699ab",
-          "title": "Where auditors can lift their game",
-          "url": "https://www.ft.com/content/59bc903b-9ccd-4d86-8529-7ea9d83344e9?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-27T05:00:18.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "4e11b65403a2",
-          "title": "DWS to honour just 10% of redemption requests at flagship property fund",
-          "url": "https://www.ft.com/content/8868926c-3ee2-45e8-9705-0cb195fcc493?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-26T18:16:52.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "real-estate"
-        },
-        {
-          "id": "ddc27eb31ade",
-          "title": "‘Bold but sane’: what we learnt from Anthropic’s 240,000-word IPO filing",
-          "url": "https://www.ft.com/content/a6c43402-719e-4295-ae5f-541edb0aeb29?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-26T17:45:49.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
         }
       ]
     },
@@ -163,29 +150,47 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "c2c7d84ac545",
-          "title": "Altice International, Lenders Near Deadline to Negotiate Rework",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-27/altice-international-lenders-near-deadline-to-negotiate-rework",
-          "publishedAt": "2026-10-27T14:52:36.000Z",
-          "teaser": "Negotiations between Altice International and its creditors to rejig the company’s capital structure are nearing a Tuesday deadline as a non-disclosure agreement is set to expire, according to people familiar with the matter.",
+          "id": "899fbc16799d",
+          "title": "Investors Jolted by Lula Win Search for Bottom After Brazil Rout",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-28/investors-jolted-by-lula-win-search-for-bottom-after-brazil-rout",
+          "publishedAt": "2026-10-28T14:00:59.000Z",
+          "teaser": "Investors blindsided by President Luiz Inácio Lula da Silva’s re-election are balking at buying into Brazil’s markets after bullish bets on the nation’s assets unraveled spectacularly.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "3e0921c57e27",
-          "title": "GQG’s Jain Looks Past Lula Rout, Says Selling Brazil a ‘Mistake’",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-27/gqg-s-jain-looks-past-lula-rout-says-selling-brazil-a-mistake",
-          "publishedAt": "2026-10-27T14:45:52.000Z",
-          "teaser": "As investors flee Brazil following Luiz Inácio Lula da Silva’s surprise re-election, Rajiv Jain is preparing to do what he has done before: buy into the panic.",
+          "id": "a19ae022610c",
+          "title": "Barclays Turns to Insurers to Hedge Billions of Data Center Debt",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-28/barclays-turns-to-insurers-to-hedge-billions-of-data-center-debt",
+          "publishedAt": "2026-10-28T14:00:28.000Z",
+          "teaser": "Barclays Plc is looking to buy default protection on more than $10 billion of debt to finance artificial intelligence infrastructure in a bid to create capacity for more lending as hyperscaler funding needs soar.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "a2f172d288ee",
+          "title": "Peltz’s Trian Offers $1.4 Billion to Take Wendy’s Private",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-28/peltz-s-trian-offers-1-4-billion-for-wendy-s-wsj-reports",
+          "publishedAt": "2026-10-28T12:29:55.000Z",
+          "teaser": "Nelson Peltz’s Trian Fund Management offered to buy out Wendy’s Co. for about $1.4 billion, saying the burger chain will be better off attempting a multiyear turnaround bid as a private company.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "8c3b2dfdc270",
-          "title": "Bond Market Doubts Gridlock Will Ease Deficit Woes This Time",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-27/bond-market-doubts-grow-over-gridlock-as-cure-for-deficit-angst",
-          "publishedAt": "2026-10-27T11:45:00.000Z",
-          "teaser": "Bond investors are growing skeptical that the potential return of gridlock on Capitol Hill will ease their worries about the US fiscal trajectory the way it has for decades.",
+          "id": "0810e5949e1e",
+          "title": "GE Vernova to Pay $9 Billion for Grid Supplier Trench Group",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-28/ge-vernova-agrees-to-pay-9-billion-to-acquire-trench-group",
+          "publishedAt": "2026-10-28T10:16:16.000Z",
+          "teaser": "GE Vernova Inc. agreed to pay $9 billion to acquire Trench Group in a deal aimed at bolstering its portfolio of high-voltage power grid equipment to meet the surging demand for electricity.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "088c304f108d",
+          "title": "S&P 500 Churns in Countdown to Fed, Tech Earnings: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-27/stock-market-today-dow-s-p-live-updates",
+          "publishedAt": "2026-10-27T22:09:07.000Z",
+          "teaser": "Wall Street investors refrained from making big moves before key tech results and a Federal Reserve decision that will shape the outlook for markets through the remainder of 2026.",
           "firms": [],
           "section": "markets"
         }
@@ -194,6 +199,15 @@
     {
       "id": "economist",
       "items": [
+        {
+          "id": "046aeaf6120c",
+          "title": "In an AI blow-up, would insurance pay out?",
+          "url": "https://www.economist.com/finance-and-economics/2026/10/27/in-an-ai-blow-up-would-insurance-pay-out",
+          "publishedAt": "2026-10-27T22:26:42.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "41da513ecc19",
           "title": "Don’t expect supersize profits from Anthropic soon",
