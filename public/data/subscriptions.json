@@ -1,78 +1,80 @@
 {
-  "generatedAt": "2026-10-28T16:35:28.775Z",
+  "generatedAt": "2026-10-29T16:53:12.840Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "f4582a760225",
-          "title": "Weil Gotshal Leaders Discussing Plan to Wind Down Law Firm",
-          "url": "https://www.wsj.com/business/weil-gotshal-leaders-discussing-plan-to-wind-down-law-firm-09d60c10?mod=rss_markets_main",
-          "publishedAt": "2026-10-28T16:31:00.000Z",
-          "teaser": "The once-storied firm suffered a series of high-profile defections and failed merger talks that left it with few options.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "9fdfa790f60f",
-          "title": "The ‘Touchy-Feely’ Lessons of a Family Firm That Has Never Had a Layoff in 75 Years",
-          "url": "https://www.wsj.com/lifestyle/careers/the-touchy-feely-lessons-of-a-family-firm-that-has-never-had-a-layoff-in-75-years-149f9958?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-28T15:00:00.000Z",
-          "teaser": "Plus, why Microsoft is offering buyouts to a quarter of its workforce and CEOs are going back to school after making it to the top.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "e2777862d738",
-          "title": "GE Vernova to Buy Grid-Equipment Manufacturer for $9 Billion as Energy Demand Grows",
-          "url": "https://www.wsj.com/business/energy-oil/ge-vernova-to-buy-high-voltage-grid-equipment-manufacturer-for-9-billion-b29dd2ef?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-28T14:18:00.000Z",
-          "teaser": "The energy company, formed from the breakup of General Electric, said the acquisition will create scale across its electrification portfolio.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "a7c68bad88cf",
-          "title": "Dropbox to Cut About 6% of Global Workforce",
-          "url": "https://www.wsj.com/business/earnings/dropbox-to-cut-about-6-of-global-workforce-a899fbfb?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-28T14:09:00.000Z",
-          "teaser": "",
+          "id": "0acc9a5ab7c0",
+          "title": "Chevron Is Back to Searching for Oil and Gas in Far-Flung Places",
+          "url": "https://www.wsj.com/business/energy-oil/chevron-is-back-to-searching-for-oil-and-gas-in-far-flung-places-85082fbf?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-29T16:33:00.000Z",
+          "teaser": "The company is riding financial and political tailwinds to further oil exploration and investment, while global conflicts crimp energy supplies.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "31ea35306532",
-          "title": "Mercedes-Benz to Offer Voluntary Buyouts for Support Staff as Market Worsens",
-          "url": "https://www.wsj.com/business/mercedes-benz-to-accelerate-efficiency-drive-as-market-conditions-worsen-a7d30c4f?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-28T13:47:00.000Z",
-          "teaser": "The luxury-car maker said it is pushing ahead with plans to become more efficient in the face of deteriorating market conditions.",
+          "id": "400eaaf27ab8",
+          "title": "U.S. Stocks Fall After Alphabet Earnings Spark More AI Jitters",
+          "url": "https://www.wsj.com/finance/stocks/ai-stocks-fall-after-alphabet-earnings-disappoint-61d526ed?mod=rss_markets_main",
+          "publishedAt": "2026-10-29T16:25:00.000Z",
+          "teaser": "U.S. stocks fell, led by the Nasdaq Composite, after Alphabet’s earnings disappointed investors and sparked another bout of AI jitters.",
           "firms": [],
-          "section": "private-equity"
+          "section": "markets"
         },
         {
-          "id": "b857a0a22155",
-          "title": "UBS CEO Signals Possible Switzerland Exit Over Capital Demands",
-          "url": "https://www.wsj.com/finance/banking/ubs-profit-climbs-as-wealth-management-inflows-increase-868e9b5f?mod=rss_markets_main",
-          "publishedAt": "2026-10-28T11:58:00.000Z",
-          "teaser": "The group is caught in a dispute with lawmakers in its home country over proposals to introduce more demanding capital requirements on its foreign subsidiaries.",
-          "firms": [],
-          "section": "private-equity"
+          "id": "34562966d5ba",
+          "title": "Euro Could Trade-Range Bound Vs Dollar After ECB Decision",
+          "url": "https://www.wsj.com/finance/currencies/asian-currencies-mixed-ahead-of-u-s-data-1ac5a50c?mod=rss_markets_main",
+          "publishedAt": "2026-10-29T15:59:00.000Z",
+          "teaser": "The euro recovered from initial losses and was up slightly against the dollar and could stay within a tight range against the dollar for the remainder of the year, J.P. Morgan Private Bank said.",
+          "firms": [
+            "J.P. Morgan"
+          ],
+          "section": "markets"
         },
         {
-          "id": "8e32a3bc9e49",
-          "title": "The ‘Buy, Borrow and Die’ Wealth Strategy Gains in Popularity",
-          "url": "https://www.wsj.com/finance/investing/the-buy-borrow-and-die-wealth-strategy-gains-in-popularity-a3001c20?mod=rss_markets_main",
-          "publishedAt": "2026-10-28T10:48:00.000Z",
+          "id": "5a1aeb56ee05",
+          "title": "Gulf Oil Giants Work to Expand Overseas Storage As War Exposes Supply Risks",
+          "url": "https://www.wsj.com/business/energy-oil/gulf-oil-giants-work-to-expand-overseas-storage-as-war-exposes-supply-risks-e9580e1c?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-29T13:56:00.000Z",
+          "teaser": "With the Iran war threatening key energy infrastructure and shipping lanes, producers are increasingly looking beyond their borders to keep crude flowing.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "8144b70baa5c",
+          "title": "A Protein Pioneer Hikes Prices to Fund a Marketing Turnaround",
+          "url": "https://www.wsj.com/cmo-today/a-protein-pioneer-hikes-prices-to-fund-a-marketing-turnaround-99cabd2c?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-29T13:46:00.000Z",
+          "teaser": "Plus, spoofed balance-check websites are draining gift cards and leaving retailers to manage the fallout.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "e5f4c46aebd9",
+          "title": "Mastercard Profit Rises on Payment Network, Services Growth",
+          "url": "https://www.wsj.com/business/earnings/mastercard-profit-rises-on-payment-network-services-growth-62ba9c95?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-29T12:39:00.000Z",
+          "teaser": "The credit-card company posted a third-quarter profit of $4.63 billion, or $5.28 a share, as revenue grew 14% to $9.81 billion.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "de61f4b7aca4",
+          "title": "Bankers Still Sound Cautious About AI Boom",
+          "url": "https://www.wsj.com/finance/investing/bankers-still-sound-cautious-about-ai-boom-94522118?mod=rss_markets_main",
+          "publishedAt": "2026-10-29T10:30:00.000Z",
           "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "c2d375119552",
-          "title": "Global Government Bond Yields Rise Ahead of Fed Decision, U.K. Budget",
-          "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-rise-ahead-of-federal-reserve-interest-rate-decision-b1f7ef58?mod=rss_markets_main",
-          "publishedAt": "2026-10-28T09:57:00.000Z",
-          "teaser": "Yields on Treasurys rose in European morning trade, as investors focused on the Federal Reserve’s interest-rate decision as well as the U.K. budget.",
+          "id": "86479b3653ce",
+          "title": "Alphabet Still Has the Ingredients to Win in an AI Pullback",
+          "url": "https://www.wsj.com/tech/ai/alphabet-still-has-the-ingredients-to-win-in-an-ai-pullback-6583aa7c?mod=rss_markets_main",
+          "publishedAt": "2026-10-29T09:30:00.000Z",
+          "teaser": "The tech giant is no longer loved by investors, despite its many advantages.",
           "firms": [],
           "section": "markets"
         }
@@ -82,64 +84,55 @@
       "id": "ft",
       "items": [
         {
-          "id": "d751751f9b00",
-          "title": "Mubadala Capital dealmaker to launch his own venture fund",
-          "url": "https://www.ft.com/content/e9827543-51c9-451b-b180-e7e2276aa957?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-28T15:44:48.000Z",
+          "id": "f63d136d49b4",
+          "title": "Josh Kushner and OpenAI-backed group agree deal for US home security firm",
+          "url": "https://www.ft.com/content/f88e30a0-1252-4695-97b0-03da22e5fd42?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-29T16:06:14.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-markets"
         },
         {
-          "id": "ac4c1b764986",
-          "title": "This is a very interesting time for trashy credit (and all those who love it)",
-          "url": "https://www.ft.com/content/856aa6be-5543-493c-8d2e-a78c6b772f61",
-          "publishedAt": "2026-10-28T06:00:03.000Z",
+          "id": "aa4d251f8b2b",
+          "title": "Druckenmiller backs push to bring risky crypto-style bets to Wall Street",
+          "url": "https://www.ft.com/content/08dea965-63c8-4e63-a69d-b2c2a8e909eb?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-29T14:54:48.000Z",
           "teaser": "",
           "firms": [],
           "section": "hedge-funds"
         },
         {
-          "id": "3d43519431d1",
-          "title": "Can an investor be too big to care about ethics?",
-          "url": "https://www.ft.com/content/b0e32e1b-20f2-46f1-a931-6b1acfeb242e?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-28T05:00:15.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "b9ba691e4b76",
-          "title": "Anthropic’s seven founders tighten grip ahead of blockbuster IPO",
-          "url": "https://www.ft.com/content/24a35e41-2641-4cec-97f5-a974412f9952?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-28T05:00:06.000Z",
+          "id": "5ca63aafb752",
+          "title": "Two fears will decide the fate of Anthropic’s giant IPO",
+          "url": "https://www.ft.com/content/9fd6faa4-0e06-4b2b-975a-3e6d3a7f3d7f?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-29T14:41:41.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "1ac42cd824f6",
-          "title": "China rushes to shore up markets as AI trade sours",
-          "url": "https://www.ft.com/content/2bb82c45-04b2-4ccc-9002-f54483fb044e?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-28T03:54:50.000Z",
+          "id": "ab44767fb461",
+          "title": "US economy beats forecasts to grow at 3.4% rate in third quarter",
+          "url": "https://www.ft.com/content/f2de9f3c-3290-4e87-bbc2-55430025f2ab?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-29T14:40:39.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "029291a1cb2f",
-          "title": "The limits of hedging the AI boom",
-          "url": "https://www.ft.com/content/0b0ae366-c1e0-4c35-8cad-c924a23d33e7?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-27T17:07:56.000Z",
+          "id": "d762f07174e0",
+          "title": "Private equity’s growing pains",
+          "url": "https://www.ft.com/content/b36c5561-b601-48f4-bdbc-9a2227a958fa?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-29T05:00:30.000Z",
           "teaser": "",
           "firms": [],
-          "section": "markets"
+          "section": "private-equity"
         },
         {
-          "id": "5755330c49de",
-          "title": "Anthropic and the AI cluster effect in fundraising",
-          "url": "https://www.ft.com/content/689a2114-57c5-4391-a335-dc97e5716610",
-          "publishedAt": "2026-10-27T14:02:23.000Z",
+          "id": "d751751f9b00",
+          "title": "Mubadala Capital dealmaker to launch his own venture fund",
+          "url": "https://www.ft.com/content/e9827543-51c9-451b-b180-e7e2276aa957?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-28T15:44:48.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-markets"
@@ -150,47 +143,49 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "899fbc16799d",
-          "title": "Investors Jolted by Lula Win Search for Bottom After Brazil Rout",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-28/investors-jolted-by-lula-win-search-for-bottom-after-brazil-rout",
-          "publishedAt": "2026-10-28T14:00:59.000Z",
-          "teaser": "Investors blindsided by President Luiz Inácio Lula da Silva’s re-election are balking at buying into Brazil’s markets after bullish bets on the nation’s assets unraveled spectacularly.",
-          "firms": [],
-          "section": "markets"
+          "id": "97f795d505ba",
+          "title": "Citadel Can Subpoena Top Marshall Wace Executives, Judge Rules",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-29/citadel-can-subpoena-top-marshall-wace-executives-judge-rules",
+          "publishedAt": "2026-10-29T16:30:54.000Z",
+          "teaser": "Citadel won access to the communications of two of Marshall Wace’s most senior executives as part of a legal fight over the British hedge fund’s recruitment of former Citadel portfolio manager Daniel Shatz as global credit head.",
+          "firms": [
+            "Citadel"
+          ],
+          "section": "hedge-funds"
         },
         {
-          "id": "a19ae022610c",
-          "title": "Barclays Turns to Insurers to Hedge Billions of Data Center Debt",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-28/barclays-turns-to-insurers-to-hedge-billions-of-data-center-debt",
-          "publishedAt": "2026-10-28T14:00:28.000Z",
-          "teaser": "Barclays Plc is looking to buy default protection on more than $10 billion of debt to finance artificial intelligence infrastructure in a bid to create capacity for more lending as hyperscaler funding needs soar.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "a2f172d288ee",
-          "title": "Peltz’s Trian Offers $1.4 Billion to Take Wendy’s Private",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-28/peltz-s-trian-offers-1-4-billion-for-wendy-s-wsj-reports",
-          "publishedAt": "2026-10-28T12:29:55.000Z",
-          "teaser": "Nelson Peltz’s Trian Fund Management offered to buy out Wendy’s Co. for about $1.4 billion, saying the burger chain will be better off attempting a multiyear turnaround bid as a private company.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "0810e5949e1e",
-          "title": "GE Vernova to Pay $9 Billion for Grid Supplier Trench Group",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-28/ge-vernova-agrees-to-pay-9-billion-to-acquire-trench-group",
-          "publishedAt": "2026-10-28T10:16:16.000Z",
-          "teaser": "GE Vernova Inc. agreed to pay $9 billion to acquire Trench Group in a deal aimed at bolstering its portfolio of high-voltage power grid equipment to meet the surging demand for electricity.",
+          "id": "3672b09d3b35",
+          "title": "Hungary, US Sign Agreement on ‘Trump Peace Pipeline Framework’",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-29/hungary-us-sign-agreement-on-trump-peace-pipeline-framework",
+          "publishedAt": "2026-10-29T16:08:24.000Z",
+          "teaser": "Hungary and the US signed an agreement on the “Trump Peace Pipelines Framework” to strengthen cooperation on developing regional natural gas and oil infrastructure, Hungarian Foreign Minister Anita Orban said.",
           "firms": [],
           "section": "private-markets"
         },
         {
-          "id": "088c304f108d",
-          "title": "S&P 500 Churns in Countdown to Fed, Tech Earnings: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-27/stock-market-today-dow-s-p-live-updates",
-          "publishedAt": "2026-10-27T22:09:07.000Z",
-          "teaser": "Wall Street investors refrained from making big moves before key tech results and a Federal Reserve decision that will shape the outlook for markets through the remainder of 2026.",
+          "id": "708e9118dd85",
+          "title": "Applebee’s Owner Adopts Poison Pill to Fend Off Takeover",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-29/applebee-s-owner-adopts-poison-pill-to-fend-off-hostile-takeover",
+          "publishedAt": "2026-10-29T15:21:07.000Z",
+          "teaser": "Applebee’s parent Dine Brands Global Inc. has adopted a poison pill to fend off a takeover bid from the investment firms Cobblers Cove Capital and Arkhouse Management.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "6b463116d2d8",
+          "title": "Paschi Investors Deal Crushing Blow to CEO in Win for Intesa",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-29/monte-paschi-investors-reject-banco-bpm-bid-in-win-for-intesa",
+          "publishedAt": "2026-10-29T14:43:36.000Z",
+          "teaser": "Banca Monte dei Paschi di Siena SpA’s investors overwhelmingly rejected the main element of CEO Luigi Lovaglio’s defense against a takeover by Intesa Sanpaolo SpA, setting up the world’s oldest bank for the potential loss of its independence.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "8b4dc6d6f4c7",
+          "title": "Tech Stocks Slide as Alphabet’s Record Plunge Revives AI Fears",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-29/us-stock-futures-fall-as-alphabet-sales-miss-revives-ai-fears",
+          "publishedAt": "2026-10-29T11:09:59.000Z",
+          "teaser": "Tech stocks were dragged lower by a record drop in Alphabet Inc. after disappointing results renewed investor concerns about the threat that artificial intelligence poses to its core business.",
           "firms": [],
           "section": "markets"
         }
@@ -199,6 +194,24 @@
     {
       "id": "economist",
       "items": [
+        {
+          "id": "e7df79ebfb7a",
+          "title": "Why it’s a bad time to be a rat-killer",
+          "url": "https://www.economist.com/business/2026/10/29/why-its-a-bad-time-to-be-a-rat-killer",
+          "publishedAt": "2026-10-29T13:48:04.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "e9d99ff10111",
+          "title": "China’s stock markets are the great global exception",
+          "url": "https://www.economist.com/finance-and-economics/2026/10/28/chinas-stock-markets-are-the-great-global-exception",
+          "publishedAt": "2026-10-28T19:48:19.000Z",
+          "teaser": "If the country is winning the future, why are its investors so glum?",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "046aeaf6120c",
           "title": "In an AI blow-up, would insurance pay out?",
