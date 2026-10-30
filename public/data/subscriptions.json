@@ -1,80 +1,78 @@
 {
-  "generatedAt": "2026-10-29T16:53:12.840Z",
+  "generatedAt": "2026-10-30T16:41:11.943Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "0acc9a5ab7c0",
-          "title": "Chevron Is Back to Searching for Oil and Gas in Far-Flung Places",
-          "url": "https://www.wsj.com/business/energy-oil/chevron-is-back-to-searching-for-oil-and-gas-in-far-flung-places-85082fbf?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-29T16:33:00.000Z",
-          "teaser": "The company is riding financial and political tailwinds to further oil exploration and investment, while global conflicts crimp energy supplies.",
+          "id": "dfe7ebc00e89",
+          "title": "AstraZeneca Launches $1.5 Billion Savings Plan to Fund Drug Pipeline",
+          "url": "https://www.wsj.com/business/earnings/astrazeneca-posts-revenue-profit-growth-on-strong-cancer-drug-sales-ec7ebdb5?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-30T15:03:00.000Z",
+          "teaser": "The U.K. drugmaker benefited from strong sales of cancer drugs that offset the effect of patent expirations and lifted the group’s top line.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "4c470c137f60",
+          "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving China Information",
+          "url": "https://www.wsj.com/tech/chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-798eb6a1?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-30T13:01:00.000Z",
+          "teaser": "Investigators believed the woman, Alice Huang, was recruited based on her relationship with Jensen Huang.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "400eaaf27ab8",
-          "title": "U.S. Stocks Fall After Alphabet Earnings Spark More AI Jitters",
-          "url": "https://www.wsj.com/finance/stocks/ai-stocks-fall-after-alphabet-earnings-disappoint-61d526ed?mod=rss_markets_main",
-          "publishedAt": "2026-10-29T16:25:00.000Z",
-          "teaser": "U.S. stocks fell, led by the Nasdaq Composite, after Alphabet’s earnings disappointed investors and sparked another bout of AI jitters.",
+          "id": "c928588b566f",
+          "title": "The Extra-Strength Funds That Are Too Much of a Good Thing",
+          "url": "https://www.wsj.com/finance/investing/the-extra-strength-funds-that-are-too-much-of-a-good-thing-c71362eb?mod=rss_markets_main",
+          "publishedAt": "2026-10-30T13:00:00.000Z",
+          "teaser": "A new kind of sector ETF concentrates even more of your money in the top stocks.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "34562966d5ba",
-          "title": "Euro Could Trade-Range Bound Vs Dollar After ECB Decision",
-          "url": "https://www.wsj.com/finance/currencies/asian-currencies-mixed-ahead-of-u-s-data-1ac5a50c?mod=rss_markets_main",
-          "publishedAt": "2026-10-29T15:59:00.000Z",
-          "teaser": "The euro recovered from initial losses and was up slightly against the dollar and could stay within a tight range against the dollar for the remainder of the year, J.P. Morgan Private Bank said.",
-          "firms": [
-            "J.P. Morgan"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "5a1aeb56ee05",
-          "title": "Gulf Oil Giants Work to Expand Overseas Storage As War Exposes Supply Risks",
-          "url": "https://www.wsj.com/business/energy-oil/gulf-oil-giants-work-to-expand-overseas-storage-as-war-exposes-supply-risks-e9580e1c?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-29T13:56:00.000Z",
-          "teaser": "With the Iran war threatening key energy infrastructure and shipping lanes, producers are increasingly looking beyond their borders to keep crude flowing.",
+          "id": "a6767644bd4a",
+          "title": "Volkswagen Pauses Work on ID.Golf Model to Preserve Cash Flow",
+          "url": "https://www.wsj.com/business/autos/volkswagen-pauses-work-on-id-golf-model-to-preserve-cash-flow-4054161a?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-30T11:53:00.000Z",
+          "teaser": "The German automaker said it will temporarily pause development until it can securely accommodate the necessary investments.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "8144b70baa5c",
-          "title": "A Protein Pioneer Hikes Prices to Fund a Marketing Turnaround",
-          "url": "https://www.wsj.com/cmo-today/a-protein-pioneer-hikes-prices-to-fund-a-marketing-turnaround-99cabd2c?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-29T13:46:00.000Z",
-          "teaser": "Plus, spoofed balance-check websites are draining gift cards and leaving retailers to manage the fallout.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "e5f4c46aebd9",
-          "title": "Mastercard Profit Rises on Payment Network, Services Growth",
-          "url": "https://www.wsj.com/business/earnings/mastercard-profit-rises-on-payment-network-services-growth-62ba9c95?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-29T12:39:00.000Z",
-          "teaser": "The credit-card company posted a third-quarter profit of $4.63 billion, or $5.28 a share, as revenue grew 14% to $9.81 billion.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "de61f4b7aca4",
-          "title": "Bankers Still Sound Cautious About AI Boom",
-          "url": "https://www.wsj.com/finance/investing/bankers-still-sound-cautious-about-ai-boom-94522118?mod=rss_markets_main",
-          "publishedAt": "2026-10-29T10:30:00.000Z",
+          "id": "6d381ac7db2d",
+          "title": "Alphabet Seen as a Tech One-Stop AI Shop",
+          "url": "https://www.wsj.com/finance/investing/alphabet-seen-as-a-tech-one-stop-ai-shop-659c55ee?mod=rss_markets_main",
+          "publishedAt": "2026-10-30T10:25:00.000Z",
           "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "86479b3653ce",
-          "title": "Alphabet Still Has the Ingredients to Win in an AI Pullback",
-          "url": "https://www.wsj.com/tech/ai/alphabet-still-has-the-ingredients-to-win-in-an-ai-pullback-6583aa7c?mod=rss_markets_main",
-          "publishedAt": "2026-10-29T09:30:00.000Z",
-          "teaser": "The tech giant is no longer loved by investors, despite its many advantages.",
+          "id": "e4150e9b2654",
+          "title": "Monte dei Paschi Investors Reject Defense Plan Against Intesa’s Bid",
+          "url": "https://www.wsj.com/finance/investing/monte-dei-paschi-investors-reject-defense-plan-against-intesas-bid-0800184a?mod=rss_markets_main",
+          "publishedAt": "2026-10-30T07:08:00.000Z",
+          "teaser": "Around 91% of voters rejected the proposed offers, valued together at nearly $40 billion, which the bank’s CEO launched in August to try to fend off Intesa’s planned takeover.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "568b70c6aee4",
+          "title": "Why Josh Kushner’s Firm Just Spent $7.6 Billion on a 150-Year-Old Company",
+          "url": "https://www.wsj.com/finance/investing/why-josh-kushners-firm-just-spent-7-6-billion-on-a-150-year-old-company-8bfdd9f8?mod=rss_markets_main",
+          "publishedAt": "2026-10-29T23:00:00.000Z",
+          "teaser": "Thrive Holdings is acquiring ADT, part of a buying spree that shows his ambitions beyond traditional venture capital.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "4dbe943dc347",
+          "title": "Alphabet’s Market Value Drops $500 Billion",
+          "url": "https://www.wsj.com/tech/alphabets-market-value-drops-500-billion-df24d044?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-10-29T21:30:00.000Z",
+          "teaser": "Plus, the DOJ expanded its criminal investigation into the Alaska Senate race, and the U.S. national debt reached 100% of GDP.",
           "firms": [],
           "section": "markets"
         }
@@ -84,58 +82,76 @@
       "id": "ft",
       "items": [
         {
-          "id": "f63d136d49b4",
-          "title": "Josh Kushner and OpenAI-backed group agree deal for US home security firm",
-          "url": "https://www.ft.com/content/f88e30a0-1252-4695-97b0-03da22e5fd42?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-29T16:06:14.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "aa4d251f8b2b",
-          "title": "Druckenmiller backs push to bring risky crypto-style bets to Wall Street",
-          "url": "https://www.ft.com/content/08dea965-63c8-4e63-a69d-b2c2a8e909eb?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-29T14:54:48.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "5ca63aafb752",
-          "title": "Two fears will decide the fate of Anthropic’s giant IPO",
-          "url": "https://www.ft.com/content/9fd6faa4-0e06-4b2b-975a-3e6d3a7f3d7f?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-29T14:41:41.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "ab44767fb461",
-          "title": "US economy beats forecasts to grow at 3.4% rate in third quarter",
-          "url": "https://www.ft.com/content/f2de9f3c-3290-4e87-bbc2-55430025f2ab?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-29T14:40:39.000Z",
+          "id": "cb3a0b1fb317",
+          "title": "US tech stocks tumble as earnings stoke AI spending fears",
+          "url": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-30T16:08:03.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "d762f07174e0",
-          "title": "Private equity’s growing pains",
-          "url": "https://www.ft.com/content/b36c5561-b601-48f4-bdbc-9a2227a958fa?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-29T05:00:30.000Z",
+          "id": "3dcc41554c67",
+          "title": "Partners plans to halve withdrawal limits on strained private equity fund",
+          "url": "https://www.ft.com/content/e42fabdb-2fa1-47ef-a014-9873639c40ae?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-30T12:38:38.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "d751751f9b00",
-          "title": "Mubadala Capital dealmaker to launch his own venture fund",
-          "url": "https://www.ft.com/content/e9827543-51c9-451b-b180-e7e2276aa957?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-28T15:44:48.000Z",
+          "id": "409bd5ff9eef",
+          "title": "How North Korea became a hacking superpower",
+          "url": "https://www.ft.com/content/46c03338-63d5-43fc-a946-ebcbe9e1c07a?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-30T11:20:19.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "4ebff88d777e",
+          "title": "A half-dozen Halloween charts to haunt and horrify investors",
+          "url": "https://www.ft.com/content/8d03cff5-3ed0-44c7-840b-b8414b1248bc",
+          "publishedAt": "2026-10-30T06:00:01.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "2dcb91d8283e",
+          "title": "The story of Anthropic in three numbers",
+          "url": "https://www.ft.com/content/fe539e51-61d4-49e8-ab1f-65fd19a74b66?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-30T05:00:31.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "daed84785b29",
+          "title": "Inside the make-or-break AI mega-project behind Nscale’s $35bn IPO",
+          "url": "https://www.ft.com/content/ee86c4b6-1fe4-467e-8f18-9c08df288aff?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-30T05:00:13.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "f63d136d49b4",
+          "title": "Josh Kushner and OpenAI-backed group agree deal for US home security firm",
+          "url": "https://www.ft.com/content/f88e30a0-1252-4695-97b0-03da22e5fd42?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-29T20:28:20.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-markets"
+        },
+        {
+          "id": "46238db02278",
+          "title": "Investors double withdrawal requests at Partners’ flagship US private equity fund",
+          "url": "https://www.ft.com/content/1ff658df-963e-4b92-9e12-f0cf5517b2ec?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-29T16:59:02.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
         }
       ]
     },
@@ -143,49 +159,56 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "97f795d505ba",
-          "title": "Citadel Can Subpoena Top Marshall Wace Executives, Judge Rules",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-29/citadel-can-subpoena-top-marshall-wace-executives-judge-rules",
-          "publishedAt": "2026-10-29T16:30:54.000Z",
-          "teaser": "Citadel won access to the communications of two of Marshall Wace’s most senior executives as part of a legal fight over the British hedge fund’s recruitment of former Citadel portfolio manager Daniel Shatz as global credit head.",
-          "firms": [
-            "Citadel"
-          ],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "3672b09d3b35",
-          "title": "Hungary, US Sign Agreement on ‘Trump Peace Pipeline Framework’",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-29/hungary-us-sign-agreement-on-trump-peace-pipeline-framework",
-          "publishedAt": "2026-10-29T16:08:24.000Z",
-          "teaser": "Hungary and the US signed an agreement on the “Trump Peace Pipelines Framework” to strengthen cooperation on developing regional natural gas and oil infrastructure, Hungarian Foreign Minister Anita Orban said.",
+          "id": "c7577a70057e",
+          "title": "Miami Firms Buy InterContinental Hotel for About $300 Million",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/miami-firms-buy-intercontinental-hotel-for-about-300-million",
+          "publishedAt": "2026-10-30T16:22:09.000Z",
+          "teaser": "Gencom and White Bridge Capital bought the InterContinental hotel in downtown Miami, marking the companies’ third joint hospitality deal in the past year.",
           "firms": [],
-          "section": "private-markets"
+          "section": "real-estate"
         },
         {
-          "id": "708e9118dd85",
-          "title": "Applebee’s Owner Adopts Poison Pill to Fend Off Takeover",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-29/applebee-s-owner-adopts-poison-pill-to-fend-off-hostile-takeover",
-          "publishedAt": "2026-10-29T15:21:07.000Z",
-          "teaser": "Applebee’s parent Dine Brands Global Inc. has adopted a poison pill to fend off a takeover bid from the investment firms Cobblers Cove Capital and Arkhouse Management.",
+          "id": "8a2db18ef7bd",
+          "title": "Gilead-Backed Aspen Neuroscience Shares Decline 2% After US IPO",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/gilead-backed-aspen-neuroscience-shares-decline-2-after-us-ipo",
+          "publishedAt": "2026-10-30T15:53:45.000Z",
+          "teaser": "Aspen Neuroscience Inc., a clinical-stage developer of cell therapies, fell 2% after raising about $140.6 million in a US initial public offering.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "40a8159ebc7b",
+          "title": "Dermatology Biotech Bambusa Slides 7% After $168.9 Million IPO",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/dermatology-biotech-bambusa-slides-7-after-168-9-million-ipo",
+          "publishedAt": "2026-10-30T15:37:00.000Z",
+          "teaser": "Bambusa Therapeutics Inc. shares slipped 7% in its trading debut after the early-stage biotech focused on dermatology and autoimmune diseases raised $168.9 million in a US initial public offering.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "24f5a28ae2a3",
+          "title": "Iceland’s Top Tourist Attraction Blue Lagoon Spa Plans IPO",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/iceland-s-top-tourist-attraction-blue-lagoon-spa-plans-ipo",
+          "publishedAt": "2026-10-30T15:14:52.000Z",
+          "teaser": "Iceland’s main tourist attraction, a geothermal seawater spa Blue Lagoon that’s on the doorstep of an active volcano, is planning an initial public offering.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "a7fdbd753aae",
+          "title": "Uber Joins HSBC, Franklin Templeton in Blockchain Investing Test",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/uber-joins-hsbc-franklin-templeton-in-blockchain-investing-test",
+          "publishedAt": "2026-10-30T15:00:00.000Z",
+          "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "6b463116d2d8",
-          "title": "Paschi Investors Deal Crushing Blow to CEO in Win for Intesa",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-29/monte-paschi-investors-reject-banco-bpm-bid-in-win-for-intesa",
-          "publishedAt": "2026-10-29T14:43:36.000Z",
-          "teaser": "Banca Monte dei Paschi di Siena SpA’s investors overwhelmingly rejected the main element of CEO Luigi Lovaglio’s defense against a takeover by Intesa Sanpaolo SpA, setting up the world’s oldest bank for the potential loss of its independence.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "8b4dc6d6f4c7",
-          "title": "Tech Stocks Slide as Alphabet’s Record Plunge Revives AI Fears",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-29/us-stock-futures-fall-as-alphabet-sales-miss-revives-ai-fears",
-          "publishedAt": "2026-10-29T11:09:59.000Z",
-          "teaser": "Tech stocks were dragged lower by a record drop in Alphabet Inc. after disappointing results renewed investor concerns about the threat that artificial intelligence poses to its core business.",
+          "id": "6a3e5a36a173",
+          "title": "Credit Market’s Most Trusted Hedges Are Breaking in AI Era",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/ai-debt-drives-wedge-between-corporate-bonds-and-credit-hedges",
+          "publishedAt": "2026-10-30T14:25:24.000Z",
+          "teaser": "Some of the most popular ways to hedge credit are breaking down just as concerns mount over the flood of artificial intelligence-linked debt.",
           "firms": [],
           "section": "markets"
         }
