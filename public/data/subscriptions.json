@@ -1,9 +1,36 @@
 {
-  "generatedAt": "2026-10-31T15:42:26.251Z",
+  "generatedAt": "2026-11-01T16:47:36.319Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
+        {
+          "id": "adc769980956",
+          "title": "AI Investors Are Racing to Get Insurance on the Biggest Market Bet in History",
+          "url": "https://www.wsj.com/finance/stocks/ai-investors-are-racing-to-get-insurance-on-the-biggest-market-bet-in-history-a60e296f?mod=rss_markets_main",
+          "publishedAt": "2026-11-01T15:23:00.000Z",
+          "teaser": "With trillions of dollars riding on the artificial-intelligence trade, investors, traders and even tech executives are hunting for high-stakes protection.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "8ed2987e383b",
+          "title": "Investors Are Hedging Against the Risks of the AI Boom",
+          "url": "https://www.wsj.com/articles/investors-are-hedging-against-the-risks-of-the-ai-boom-603203d5?mod=rss_markets_main",
+          "publishedAt": "2026-11-01T12:00:00.000Z",
+          "teaser": "Plus, inside the final days of Darline Graham’s reluctant Senate run, and two owners claim to have the same legendary Porsche.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "bd6bdc9be915",
+          "title": "Investors Are Betting a Blue Wave Will Help Hospitals. Don’t Count on It.",
+          "url": "https://www.wsj.com/health/healthcare/investors-are-betting-a-blue-wave-will-help-hospitals-dont-count-on-it-411ab127?mod=rss_markets_main",
+          "publishedAt": "2026-11-01T10:30:00.000Z",
+          "teaser": "Markets are anticipating a reversal of Trump’s Medicaid cuts.",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "4c470c137f60",
           "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving China Information",
@@ -48,39 +75,48 @@
           "teaser": "Intel suffered its worst-ever daily decline as investors’ anxieties hit new highs.",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "dfe7ebc00e89",
-          "title": "AstraZeneca Launches $1.5 Billion Savings Plan to Fund Drug Pipeline",
-          "url": "https://www.wsj.com/business/earnings/astrazeneca-posts-revenue-profit-growth-on-strong-cancer-drug-sales-ec7ebdb5?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-30T15:03:00.000Z",
-          "teaser": "The U.K. drugmaker benefited from strong sales of cancer drugs that offset the effect of patent expirations and lifted the group’s top line.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "c928588b566f",
-          "title": "The Extra-Strength Funds That Are Too Much of a Good Thing",
-          "url": "https://www.wsj.com/finance/investing/the-extra-strength-funds-that-are-too-much-of-a-good-thing-c71362eb?mod=rss_markets_main",
-          "publishedAt": "2026-10-30T13:00:00.000Z",
-          "teaser": "A new kind of sector ETF concentrates even more of your money in the top stocks.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "a6767644bd4a",
-          "title": "Volkswagen Pauses Work on ID.Golf Model to Preserve Cash Flow",
-          "url": "https://www.wsj.com/business/autos/volkswagen-pauses-work-on-id-golf-model-to-preserve-cash-flow-4054161a?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-30T11:53:00.000Z",
-          "teaser": "The German automaker said it will temporarily pause development until it can securely accommodate the necessary investments.",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
     {
       "id": "ft",
       "items": [
+        {
+          "id": "85b56b3c34df",
+          "title": "Junk debt rout sparks ‘bloodbath’ for credit investors",
+          "url": "https://www.ft.com/content/fdc9a85d-d2c4-465f-99ca-609d68b6d443?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-01T14:54:55.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "2dd86fe094f9",
+          "title": "Quant hedge fund to spin out of Tudor in record $9bn launch",
+          "url": "https://www.ft.com/content/8ee19897-1d15-4dd7-8ca8-162c4ea22b3a?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-01T05:00:18.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "hedge-funds"
+        },
+        {
+          "id": "54a96fefdb07",
+          "title": "Oil majors resist pressure to invest in new refineries as fuel prices keep rising",
+          "url": "https://www.ft.com/content/4d63f08d-3556-4d84-8e1d-40f866741d15?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-01T05:00:18.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "eb2e347328d8",
+          "title": "Bond investors sit out ‘most consequential’ US midterm elections in years",
+          "url": "https://www.ft.com/content/937308d7-aa2e-4dac-b19b-423d83bc1253?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-01T05:00:17.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "6fae7d7e43ba",
           "title": "Investors trim growth bets over fears of US economy’s AI exposure",
@@ -91,28 +127,10 @@
           "section": "markets"
         },
         {
-          "id": "c3ca0d399506",
-          "title": "Crypto exchanges rush to tighten security after $6.3bn Binance heist",
-          "url": "https://www.ft.com/content/c7062e37-86fd-45ef-8f58-573de0fcaaf0?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-31T10:38:18.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
           "id": "8f37a81c35cd",
           "title": "Chart of the Week: Bond investors may cheer gridlock",
           "url": "https://www.ft.com/content/9570b122-5418-41e6-b91b-b95af96ec881?syn-25a6b1a6=1",
           "publishedAt": "2026-10-31T10:30:01.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "0ce35fa7e089",
-          "title": "French banks’ rising profits fail to reverse sell-off as political fears bite",
-          "url": "https://www.ft.com/content/d1c2c34b-7bfb-470a-a51d-bbada1c6ccef?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-31T05:00:40.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
@@ -134,26 +152,6 @@
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "d6da1e335bac",
-          "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
-          "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-30T18:19:08.000Z",
-          "teaser": "",
-          "firms": [
-            "Blackstone"
-          ],
-          "section": "private-markets"
-        },
-        {
-          "id": "887fdfdd73ae",
-          "title": "Apollo and Thrive capitalise on private equity’s generational shift",
-          "url": "https://www.ft.com/content/95480c09-5018-4400-b9c1-f2d53373a47c?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-30T17:24:07.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
         }
       ]
     },
@@ -161,13 +159,33 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "3902977cae6f",
-          "title": "Senegal Lawmakers Reject Budget Again, Putting IMF Deal at Risk",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-31/senegal-lawmakers-reject-budget-again-putting-imf-deal-at-risk",
-          "publishedAt": "2026-10-31T12:27:56.000Z",
-          "teaser": "Senegalese lawmakers have again rejected the government’s revised 2026 finance law, prolonging a standoff that threatens to delay approval of a crucial International Monetary Fund program.",
+          "id": "0b347e6f2946",
+          "title": "Mike Wilson Says Buy Stock Dip Regardless of Who Wins Midterms",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/mike-wilson-says-buy-stock-dip-regardless-of-who-wins-midterms",
+          "publishedAt": "2026-11-01T14:00:00.000Z",
+          "teaser": "Morgan Stanley’s Mike Wilson says he sees a few “clearing events” ahead for the stock market that have the potential to take it lower temporarily, creating a great opportunity for investors to pile back in.",
+          "firms": [
+            "Morgan Stanley"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "55b68aa3c0b6",
+          "title": "Brazil Shakeup Sounds Warning on Crowded Emerging-Market Trades",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/brazil-shakeup-sounds-warning-on-crowded-emerging-market-trades",
+          "publishedAt": "2026-11-01T13:30:00.000Z",
+          "teaser": "Brazil’s market selloff has delivered a stark warning to emerging-market investors: crowded trades can unravel with alarming speed.",
           "firms": [],
           "section": "markets"
+        },
+        {
+          "id": "5374497eae1f",
+          "title": "Serbia’s Banks Urged to Scrutinize Money Flows Amid Power Shift",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/serbia-s-banks-urged-to-scrutinize-money-flows-amid-power-shift",
+          "publishedAt": "2026-11-01T10:41:04.000Z",
+          "teaser": "Serbia’s student-led movement that’s poised to take power after last month’s election is urging banks to step up scrutiny of capital flows from the country during the transition period to a new government.",
+          "firms": [],
+          "section": "private-markets"
         }
       ]
     },
