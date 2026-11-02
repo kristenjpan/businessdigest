@@ -1,24 +1,55 @@
 {
-  "generatedAt": "2026-11-01T16:47:36.319Z",
+  "generatedAt": "2026-11-02T20:19:22.145Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
+        {
+          "id": "7139c16a3c32",
+          "title": "Oracle Looks to Raise $20 Billion to Fund AI Ambitions",
+          "url": "https://www.wsj.com/finance/oracle-looks-to-raise-20-billion-to-fund-ai-ambitions-582c814f?mod=rss_markets_main",
+          "publishedAt": "2026-11-02T14:58:00.000Z",
+          "teaser": "The software company is selling $10 billion in common stock and $10 billion in bonds, according to separate filings with the Securities and Exchange Commission.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "c31fafa6f1df",
+          "title": "Marriott Revenue Rises on Broad-Based Demand in U.S., Canada",
+          "url": "https://www.wsj.com/business/earnings/marriott-revenue-rises-on-broad-based-demand-in-u-s-canada-5799d605?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-02T12:35:00.000Z",
+          "teaser": "Marriott International’s quarterly revenue rose, with the hotel company pointing to broad-based demand in the U.S. and Canada as well as improving travel trends in the Middle East.",
+          "firms": [
+            "Marriott"
+          ],
+          "section": "real-estate"
+        },
+        {
+          "id": "55499e765f8a",
+          "title": "Blackstone Leads $3.1 Billion Investment in Mitsubishi’s Stake in LNG Canada",
+          "url": "https://www.wsj.com/finance/investing/blackstone-leads-3-1-billion-investment-in-mitsubishis-stake-in-lng-canada-96379858?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-02T10:54:00.000Z",
+          "teaser": "A Blackstone-led group has agreed to invest $3.1 billion in Mitsubishi Corp.’s interest in a natural-gas liquefaction project in Canada.",
+          "firms": [
+            "Blackstone"
+          ],
+          "section": "private-equity"
+        },
+        {
+          "id": "1ecc24d5b29a",
+          "title": "European Indexes Open Mostly Lower as Healthcare Stocks Slide",
+          "url": "https://www.wsj.com/finance/stocks/nikkei-falls-0-9-dragged-by-bank-tech-stocks-a63f180d?mod=rss_markets_main",
+          "publishedAt": "2026-11-02T08:25:00.000Z",
+          "teaser": "European stock indexes were mostly lower at the open, as investors recalibrated after last week’s strength.",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "adc769980956",
           "title": "AI Investors Are Racing to Get Insurance on the Biggest Market Bet in History",
           "url": "https://www.wsj.com/finance/stocks/ai-investors-are-racing-to-get-insurance-on-the-biggest-market-bet-in-history-a60e296f?mod=rss_markets_main",
           "publishedAt": "2026-11-01T15:23:00.000Z",
           "teaser": "With trillions of dollars riding on the artificial-intelligence trade, investors, traders and even tech executives are hunting for high-stakes protection.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "8ed2987e383b",
-          "title": "Investors Are Hedging Against the Risks of the AI Boom",
-          "url": "https://www.wsj.com/articles/investors-are-hedging-against-the-risks-of-the-ai-boom-603203d5?mod=rss_markets_main",
-          "publishedAt": "2026-11-01T12:00:00.000Z",
-          "teaser": "Plus, inside the final days of Darline Graham’s reluctant Senate run, and two owners claim to have the same legendary Porsche.",
           "firms": [],
           "section": "markets"
         },
@@ -30,57 +61,39 @@
           "teaser": "Markets are anticipating a reversal of Trump’s Medicaid cuts.",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "4c470c137f60",
-          "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving China Information",
-          "url": "https://www.wsj.com/tech/chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-798eb6a1?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-10-31T12:47:00.000Z",
-          "teaser": "Investigators believed the woman, Alice Huang, was recruited based on her relationship with Jensen Huang.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "6ddc00e70bbf",
-          "title": "Wall Street Is Starting to Call the Shots in America’s AI Build-Out",
-          "url": "https://www.wsj.com/finance/the-new-bottleneck-in-americas-ai-build-out-a-shortage-of-cheap-money-0c14c84d?mod=rss_markets_main",
-          "publishedAt": "2026-10-31T03:00:00.000Z",
-          "teaser": "Lenders and investors are getting choosier about their bets and demanding stricter terms, as the AI build-out enters a new phase.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "1a8fb02f3de2",
-          "title": "Hedge Fund Arini Offloads $800 Million in Debt as Losses Deepen",
-          "url": "https://www.wsj.com/finance/investing/hedge-fund-arini-offloads-800-million-in-debt-as-losses-deepen-2d24626c?mod=rss_markets_main",
-          "publishedAt": "2026-10-30T22:43:00.000Z",
-          "teaser": "Hamza Lemssouguer’s fund known for its bold bets suffered margin calls after several investments tumbled.",
-          "firms": [],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "e55be90c4e53",
-          "title": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling",
-          "url": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-amazon-intel-earnings-spark-more-ai-selling-5670f50d?mod=rss_markets_main",
-          "publishedAt": "2026-10-30T22:04:00.000Z",
-          "teaser": "U.S. stocks fell as the AI selloff began to feed on itself following more disappointing earnings reports from Amazon and Intel, leaving investors to wonder if the tech correction could become a speculative bust.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "06cd21b082c3",
-          "title": "The Week the Cracks in the AI Trade Grew Deeper",
-          "url": "https://www.wsj.com/finance/stocks/the-week-the-cracks-in-the-ai-trade-grew-deeper-9e25b20f?mod=rss_markets_main",
-          "publishedAt": "2026-10-30T20:52:00.000Z",
-          "teaser": "Intel suffered its worst-ever daily decline as investors’ anxieties hit new highs.",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
     {
       "id": "ft",
       "items": [
+        {
+          "id": "2e15f3ca81af",
+          "title": "Anthropic reveals $900bn AI spending commitments ahead of IPO",
+          "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-02T16:31:21.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "a96fc9d07b62",
+          "title": "What the increasingly awkward data centre construction delays mean for investors",
+          "url": "https://www.ft.com/content/824fcec4-bded-44f3-9e42-565ba0d2cfa8",
+          "publishedAt": "2026-11-02T06:00:08.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "fe66889f6ad9",
+          "title": "The biggest-ever hedge fund spinout",
+          "url": "https://www.ft.com/content/08f99037-1bd5-4eb5-9213-4097ebf3475c?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-02T06:00:08.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "hedge-funds"
+        },
         {
           "id": "85b56b3c34df",
           "title": "Junk debt rout sparks ‘bloodbath’ for credit investors",
@@ -116,42 +129,6 @@
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "6fae7d7e43ba",
-          "title": "Investors trim growth bets over fears of US economy’s AI exposure",
-          "url": "https://www.ft.com/content/56b0d5fa-829c-47b1-b07b-b4be18f60151?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-31T14:00:02.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "8f37a81c35cd",
-          "title": "Chart of the Week: Bond investors may cheer gridlock",
-          "url": "https://www.ft.com/content/9570b122-5418-41e6-b91b-b95af96ec881?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-31T10:30:01.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "efc7a7f0db7a",
-          "title": "US midterms loom over jittery investors",
-          "url": "https://www.ft.com/content/6c099dc6-1fb3-44fc-b011-70229e3755cb?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-31T05:00:39.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "cb3a0b1fb317",
-          "title": "US tech stocks tumble as concerns over AI spending intensify",
-          "url": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-30T21:13:50.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -159,33 +136,69 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "0b347e6f2946",
-          "title": "Mike Wilson Says Buy Stock Dip Regardless of Who Wins Midterms",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-01/mike-wilson-says-buy-stock-dip-regardless-of-who-wins-midterms",
-          "publishedAt": "2026-11-01T14:00:00.000Z",
-          "teaser": "Morgan Stanley’s Mike Wilson says he sees a few “clearing events” ahead for the stock market that have the potential to take it lower temporarily, creating a great opportunity for investors to pile back in.",
-          "firms": [
-            "Morgan Stanley"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "55b68aa3c0b6",
-          "title": "Brazil Shakeup Sounds Warning on Crowded Emerging-Market Trades",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-01/brazil-shakeup-sounds-warning-on-crowded-emerging-market-trades",
-          "publishedAt": "2026-11-01T13:30:00.000Z",
-          "teaser": "Brazil’s market selloff has delivered a stark warning to emerging-market investors: crowded trades can unravel with alarming speed.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "5374497eae1f",
-          "title": "Serbia’s Banks Urged to Scrutinize Money Flows Amid Power Shift",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-01/serbia-s-banks-urged-to-scrutinize-money-flows-amid-power-shift",
-          "publishedAt": "2026-11-01T10:41:04.000Z",
-          "teaser": "Serbia’s student-led movement that’s poised to take power after last month’s election is urging banks to step up scrutiny of capital flows from the country during the transition period to a new government.",
+          "id": "e91bb3380283",
+          "title": "Carney’s Push to Fast-Track Oil Pipeline Faces Mounting Indigenous Lawsuits",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/carney-s-push-to-fast-track-oil-pipeline-faces-mounting-indigenous-lawsuits",
+          "publishedAt": "2026-11-02T19:04:23.000Z",
+          "teaser": "Prime Minister Mark Carney faces a wave of court challenges to his decision to fast-track a pipeline project under a legal mechanism his government devised to speed up construction of major infrastructure.",
           "firms": [],
           "section": "private-markets"
+        },
+        {
+          "id": "1190bea40c4e",
+          "title": "Millennium Pulls Over $1.5 Billion From Two External Hedge Funds",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/millennium-pulls-over-1-5-billion-from-two-external-hedge-funds",
+          "publishedAt": "2026-11-02T19:00:02.000Z",
+          "teaser": "Millennium Management is redeeming more than $1.5 billion of leveraged cash from two external hedge funds that the multistrategy investment firm backed last year.",
+          "firms": [
+            "Millennium"
+          ],
+          "section": "hedge-funds"
+        },
+        {
+          "id": "379331dd3218",
+          "title": "Anthropic IPO Explained: S-1 Filing, Nasdaq Listing and Key Risks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/anthropic-ipo-explained-s-1-filing-nasdaq-listing-and-key-risks",
+          "publishedAt": "2026-11-02T18:35:29.000Z",
+          "teaser": "In late 2020, a group of senior OpenAI employees unhappy with what they saw as the company’s failure to adequately prioritize AI ethics and safety left the firm to form Anthropic PBC.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "f900bc79d184",
+          "title": "Vista, Elliott’s Cloud Software to Refinance $2 Billion of Debt",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/vista-elliott-s-cloud-software-to-refinance-2-billion-of-debt",
+          "publishedAt": "2026-11-02T18:23:35.000Z",
+          "teaser": "Private equity-backed Cloud Software Group, which owns brands including Citrix and Tibco, kicked off a transaction on Monday to address its upcoming debt maturities.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "25f2a9b43cfb",
+          "title": "Anthropic Braces for Pre-IPO Election Impact as AI Debate Rages",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/anthropic-braces-for-pre-ipo-election-impact-as-ai-debate-rages",
+          "publishedAt": "2026-11-02T18:03:06.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "ef4b254a8592",
+          "title": "Oracle Seeks $20 Billion for AI Growth as Meta Weighs New Debt",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/oracle-is-offering-10-billion-of-high-grade-dollar-bonds",
+          "publishedAt": "2026-11-02T12:45:05.000Z",
+          "teaser": "Oracle Corp. started selling $20 billion of debt and equity on Monday, pushing ahead with plans to raise money for artificial intelligence investments despite increasing signs that money managers are jittery about tech companies’ spending.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "cb20ae4584a2",
+          "title": "Alphabet Pays Up to Entice Buyers to €6 Billion Bond Sale",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/alphabet-kicks-off-sale-of-its-second-euro-bond-this-year",
+          "publishedAt": "2026-11-02T07:17:51.000Z",
+          "teaser": "Alphabet Inc. raised €6 billion ($6.7 billion) in its second euro bond sale this year, offering considerably higher yields than in its transaction in May after concerns over the pace of AI spending drove a credit-market selloff.",
+          "firms": [],
+          "section": "markets"
         }
       ]
     },
