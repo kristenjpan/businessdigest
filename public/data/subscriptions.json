@@ -1,64 +1,78 @@
 {
-  "generatedAt": "2026-11-02T20:19:22.145Z",
+  "generatedAt": "2026-11-03T17:47:58.380Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "7139c16a3c32",
-          "title": "Oracle Looks to Raise $20 Billion to Fund AI Ambitions",
-          "url": "https://www.wsj.com/finance/oracle-looks-to-raise-20-billion-to-fund-ai-ambitions-582c814f?mod=rss_markets_main",
-          "publishedAt": "2026-11-02T14:58:00.000Z",
-          "teaser": "The software company is selling $10 billion in common stock and $10 billion in bonds, according to separate filings with the Securities and Exchange Commission.",
+          "id": "0f67c072a455",
+          "title": "Unilever Eyes $1.1 Billion in Savings as It Plans Leaner Future Away From Food",
+          "url": "https://www.wsj.com/business/unilever-eyes-1-1-billion-in-savings-as-it-plans-leaner-future-away-from-food-9ed3cfc8?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-03T17:18:00.000Z",
+          "teaser": "The consumer-goods group will outline plans at an investor event Wednesday to save 1 billion euros by the end of 2029 by recuperating some costs and overhauling operations.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "c31fafa6f1df",
-          "title": "Marriott Revenue Rises on Broad-Based Demand in U.S., Canada",
-          "url": "https://www.wsj.com/business/earnings/marriott-revenue-rises-on-broad-based-demand-in-u-s-canada-5799d605?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-02T12:35:00.000Z",
-          "teaser": "Marriott International’s quarterly revenue rose, with the hotel company pointing to broad-based demand in the U.S. and Canada as well as improving travel trends in the Middle East.",
-          "firms": [
-            "Marriott"
-          ],
-          "section": "real-estate"
+          "id": "5665778a8269",
+          "title": "FBI Probes Autism Therapy Provider That Billed $30,000 a Day",
+          "url": "https://www.wsj.com/us-news/law/fbi-probes-autism-therapy-provider-that-billed-30-000-a-day-cd1885ea?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-03T16:32:00.000Z",
+          "teaser": "The investigation follows a Wall Street Journal article examining the billing and collection practices of the Perfect Child.",
+          "firms": [],
+          "section": "markets"
         },
         {
-          "id": "55499e765f8a",
-          "title": "Blackstone Leads $3.1 Billion Investment in Mitsubishi’s Stake in LNG Canada",
-          "url": "https://www.wsj.com/finance/investing/blackstone-leads-3-1-billion-investment-in-mitsubishis-stake-in-lng-canada-96379858?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-02T10:54:00.000Z",
-          "teaser": "A Blackstone-led group has agreed to invest $3.1 billion in Mitsubishi Corp.’s interest in a natural-gas liquefaction project in Canada.",
-          "firms": [
-            "Blackstone"
-          ],
+          "id": "7a01e1c01142",
+          "title": "Shopify Squeezed by AI Compute Costs, Pre-Holiday Infrastructure Buildout",
+          "url": "https://www.wsj.com/business/earnings/shopify-profit-revenue-up-as-merchant-volume-rises-4614feba?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-03T15:51:00.000Z",
+          "teaser": "The ecommerce company’s third-quarter results and holiday guidance signaled mounting cost pressure from artificial-intelligence compute and infrastructure buildout costs.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "25dae6a4e465",
+          "title": "The Final Seconds Before a Learjet Plunged Into a Florida Street",
+          "url": "https://www.wsj.com/us-news/the-final-seconds-before-a-learjet-plunged-into-a-florida-street-315b0c97?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-03T13:12:00.000Z",
+          "teaser": "The NTSB expects weather to be a major focus in the crash investigation.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "e936dcc9ecc6",
+          "title": "Beijing Reins In IPO Rush After AI Concerns Hit Stock Market",
+          "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b?mod=rss_markets_main",
+          "publishedAt": "2026-11-03T13:02:00.000Z",
+          "teaser": "China’s market regulator told banks that ongoing IPO processes would continue but that it wouldn’t be taking up new listings for now.",
+          "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "1ecc24d5b29a",
-          "title": "European Indexes Open Mostly Lower as Healthcare Stocks Slide",
-          "url": "https://www.wsj.com/finance/stocks/nikkei-falls-0-9-dragged-by-bank-tech-stocks-a63f180d?mod=rss_markets_main",
-          "publishedAt": "2026-11-02T08:25:00.000Z",
-          "teaser": "European stock indexes were mostly lower at the open, as investors recalibrated after last week’s strength.",
+          "id": "921bc815b05d",
+          "title": "Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-03T12:51:00.000Z",
+          "teaser": "Oil prices rose, recovering some of the previous session’s steep losses as investors weighed fresh U.S. strikes on Iran against continuing diplomatic efforts.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "adc769980956",
-          "title": "AI Investors Are Racing to Get Insurance on the Biggest Market Bet in History",
-          "url": "https://www.wsj.com/finance/stocks/ai-investors-are-racing-to-get-insurance-on-the-biggest-market-bet-in-history-a60e296f?mod=rss_markets_main",
-          "publishedAt": "2026-11-01T15:23:00.000Z",
-          "teaser": "With trillions of dollars riding on the artificial-intelligence trade, investors, traders and even tech executives are hunting for high-stakes protection.",
+          "id": "c6281362b904",
+          "title": "Permira Extends Its Wave of Exit Activity to Corporate Buyers With Octus Sale",
+          "url": "https://www.wsj.com/pro/private-equity/europes-permira-extends-its-wave-of-exit-activity-to-corporate-buyers-with-octus-sale-67e6133c?mod=rss_markets_main",
+          "publishedAt": "2026-11-03T12:11:00.000Z",
+          "teaser": "The firm’s $3.54 billion sale of the credit specialist to London Stock Exchange Group marks the sixth sale this year to strategic buyers.",
           "firms": [],
-          "section": "markets"
+          "section": "private-equity"
         },
         {
-          "id": "bd6bdc9be915",
-          "title": "Investors Are Betting a Blue Wave Will Help Hospitals. Don’t Count on It.",
-          "url": "https://www.wsj.com/health/healthcare/investors-are-betting-a-blue-wave-will-help-hospitals-dont-count-on-it-411ab127?mod=rss_markets_main",
-          "publishedAt": "2026-11-01T10:30:00.000Z",
-          "teaser": "Markets are anticipating a reversal of Trump’s Medicaid cuts.",
+          "id": "b8cd70789ee7",
+          "title": "McDonald’s Is Beefing Up, but It Won’t Be Cheap",
+          "url": "https://www.wsj.com/finance/stocks/mcdonalds-is-beefing-up-but-it-wont-be-cheap-9ce73fff?mod=rss_markets_main",
+          "publishedAt": "2026-11-03T11:25:00.000Z",
+          "teaser": "Plus, AI investors are on election watch.",
           "firms": [],
           "section": "markets"
         }
@@ -68,67 +82,51 @@
       "id": "ft",
       "items": [
         {
-          "id": "2e15f3ca81af",
-          "title": "Anthropic reveals $900bn AI spending commitments ahead of IPO",
-          "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-02T16:31:21.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "a96fc9d07b62",
-          "title": "What the increasingly awkward data centre construction delays mean for investors",
-          "url": "https://www.ft.com/content/824fcec4-bded-44f3-9e42-565ba0d2cfa8",
-          "publishedAt": "2026-11-02T06:00:08.000Z",
+          "id": "0ef0d29181a8",
+          "title": "Russia unleashes massive attack on Ukraine’s energy infrastructure",
+          "url": "https://www.ft.com/content/52c2f86b-46a8-4710-9c05-f186baf3827f",
+          "publishedAt": "2026-11-03T16:00:05.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-markets"
         },
         {
-          "id": "fe66889f6ad9",
-          "title": "The biggest-ever hedge fund spinout",
-          "url": "https://www.ft.com/content/08f99037-1bd5-4eb5-9213-4097ebf3475c?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-02T06:00:08.000Z",
+          "id": "906d127f4853",
+          "title": "Marshall Wace and Millennium hit as hedge funds suffer in October’s AI rout",
+          "url": "https://www.ft.com/content/fae029f1-f03e-4509-852e-396fa4863271?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-03T15:21:33.000Z",
           "teaser": "",
           "firms": [],
           "section": "hedge-funds"
         },
         {
-          "id": "85b56b3c34df",
-          "title": "Junk debt rout sparks ‘bloodbath’ for credit investors",
-          "url": "https://www.ft.com/content/fdc9a85d-d2c4-465f-99ca-609d68b6d443?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-01T14:54:55.000Z",
+          "id": "321bd5fe5915",
+          "title": "Apollo lends record $114bn as it piles into AI financing boom",
+          "url": "https://www.ft.com/content/72cb3140-49ba-4ce1-be8c-ee5295612b55?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-03T11:34:25.000Z",
           "teaser": "",
           "firms": [],
-          "section": "markets"
+          "section": "private-markets"
         },
         {
-          "id": "2dd86fe094f9",
-          "title": "Quant hedge fund to spin out of Tudor in record $9bn launch",
-          "url": "https://www.ft.com/content/8ee19897-1d15-4dd7-8ca8-162c4ea22b3a?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-01T05:00:18.000Z",
+          "id": "7b8bad176e3c",
+          "title": "Menopause specialist sold in €2.6bn private equity deal",
+          "url": "https://www.ft.com/content/79867d48-6d4a-4e5e-ba62-105f7181f6b1?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-03T09:45:05.000Z",
           "teaser": "",
-          "firms": [],
-          "section": "hedge-funds"
+          "firms": [
+            "Carlyle"
+          ],
+          "section": "private-equity"
         },
         {
-          "id": "54a96fefdb07",
-          "title": "Oil majors resist pressure to invest in new refineries as fuel prices keep rising",
-          "url": "https://www.ft.com/content/4d63f08d-3556-4d84-8e1d-40f866741d15?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-01T05:00:18.000Z",
+          "id": "7bdff878b3a8",
+          "title": "Todd Boehly insurer amasses billions in lending tied to his Beverly Hills project",
+          "url": "https://www.ft.com/content/e633f11e-ebc2-4482-94de-72c3a3b89841?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-03T05:00:13.000Z",
           "teaser": "",
           "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "eb2e347328d8",
-          "title": "Bond investors sit out ‘most consequential’ US midterm elections in years",
-          "url": "https://www.ft.com/content/937308d7-aa2e-4dac-b19b-423d83bc1253?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-01T05:00:17.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
+          "section": "private-markets"
         }
       ]
     },
@@ -136,69 +134,71 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "e91bb3380283",
-          "title": "Carney’s Push to Fast-Track Oil Pipeline Faces Mounting Indigenous Lawsuits",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-02/carney-s-push-to-fast-track-oil-pipeline-faces-mounting-indigenous-lawsuits",
-          "publishedAt": "2026-11-02T19:04:23.000Z",
-          "teaser": "Prime Minister Mark Carney faces a wave of court challenges to his decision to fast-track a pipeline project under a legal mechanism his government devised to speed up construction of major infrastructure.",
+          "id": "490ba7671fbf",
+          "title": "JPMorgan’s Michele Urges Treasury to Ax ‘Orphan’ 20-Year Bond",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/jpmorgan-s-michele-urges-treasury-to-ax-orphan-20-year-bond",
+          "publishedAt": "2026-11-03T17:26:02.000Z",
+          "teaser": "JPMorgan Asset Management’s Bob Michele has some advice for Treasury Secretary Scott Bessent: get rid of the 20-year bond.",
+          "firms": [
+            "J.P. Morgan"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "da8fab989a74",
+          "title": "Hydro-Quebec Forced to Import More Power After Deals With US Utilities",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/hydro-quebec-forced-to-import-more-power-after-deals-with-us-utilities",
+          "publishedAt": "2026-11-03T17:18:12.000Z",
+          "teaser": "Hydro-Quebec, a Canadian renewable-energy powerhouse with major US export contracts, is stretching an investment plan worth C$200 billion ($143 billion) by six years to 2041.",
           "firms": [],
           "section": "private-markets"
         },
         {
-          "id": "1190bea40c4e",
-          "title": "Millennium Pulls Over $1.5 Billion From Two External Hedge Funds",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-02/millennium-pulls-over-1-5-billion-from-two-external-hedge-funds",
-          "publishedAt": "2026-11-02T19:00:02.000Z",
-          "teaser": "Millennium Management is redeeming more than $1.5 billion of leveraged cash from two external hedge funds that the multistrategy investment firm backed last year.",
+          "id": "33e24d3b226e",
+          "title": "Chile Pension Funds Breath Sigh of Relief as Swap Losses Narrow",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/chile-pension-funds-breath-sigh-of-relief-as-swap-losses-narrow",
+          "publishedAt": "2026-11-03T16:48:24.000Z",
+          "teaser": "Chilean pension funds saw returns rebound in October as a drop in US yields narrowed losses on massive interest-rate swap positions that have sparked anger from politicians and undermined faith in the system among savers.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "63180d96edc7",
+          "title": "Morgan Stanley Offers $2.3 Billion Debt for Dell Family Deal",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/morgan-stanley-offers-2-3-billion-debt-for-dell-family-deal",
+          "publishedAt": "2026-11-03T16:43:57.000Z",
+          "teaser": "Morgan Stanley has kicked off a $2.3 billion debt deal to help finance Baldwin Insurance Group Inc.’s acquisition by billionaire Michael Dell’s family office and Sequence Holdings.",
           "firms": [
-            "Millennium"
+            "Morgan Stanley"
           ],
-          "section": "hedge-funds"
+          "section": "family-offices"
         },
         {
-          "id": "379331dd3218",
-          "title": "Anthropic IPO Explained: S-1 Filing, Nasdaq Listing and Key Risks",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-02/anthropic-ipo-explained-s-1-filing-nasdaq-listing-and-key-risks",
-          "publishedAt": "2026-11-02T18:35:29.000Z",
-          "teaser": "In late 2020, a group of senior OpenAI employees unhappy with what they saw as the company’s failure to adequately prioritize AI ethics and safety left the firm to form Anthropic PBC.",
+          "id": "cf3c3fdc3f85",
+          "title": "Technology Stocks Lead S&P 500 Higher With Midterm Vote Underway",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/us-stocks-waver-as-election-ai-bubble-risks-weigh-on-outlook",
+          "publishedAt": "2026-11-03T13:15:16.000Z",
+          "teaser": "US stocks advanced as Americans headed to the polls on Election Day, with control of both chambers of Congress at stake and investors assessing potential risks to the artificial intelligence trade.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "f84f99daac41",
+          "title": "NextEra Offers New Safeguards for $67 Billion Dominion Deal",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/nextera-agrees-to-more-safeguards-for-67-billion-dominion-deal",
+          "publishedAt": "2026-11-03T12:24:22.000Z",
+          "teaser": "NextEra Energy Inc. offered Virginia additional customer and financial protections, the utility’s latest bid to convince the state to approve its $67 billion acquisition of Dominion Energy Inc.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "f900bc79d184",
-          "title": "Vista, Elliott’s Cloud Software to Refinance $2 Billion of Debt",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-02/vista-elliott-s-cloud-software-to-refinance-2-billion-of-debt",
-          "publishedAt": "2026-11-02T18:23:35.000Z",
-          "teaser": "Private equity-backed Cloud Software Group, which owns brands including Citrix and Tibco, kicked off a transaction on Monday to address its upcoming debt maturities.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "25f2a9b43cfb",
-          "title": "Anthropic Braces for Pre-IPO Election Impact as AI Debate Rages",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-02/anthropic-braces-for-pre-ipo-election-impact-as-ai-debate-rages",
-          "publishedAt": "2026-11-02T18:03:06.000Z",
+          "id": "cb3fdf6403c5",
+          "title": "Major Hedge Funds Mostly Lose in ‘Nowhere to Hide’ October",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/major-hedge-funds-mostly-lose-in-nowhere-to-hide-october",
+          "publishedAt": "2026-11-03T11:40:08.000Z",
           "teaser": "",
           "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "ef4b254a8592",
-          "title": "Oracle Seeks $20 Billion for AI Growth as Meta Weighs New Debt",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-02/oracle-is-offering-10-billion-of-high-grade-dollar-bonds",
-          "publishedAt": "2026-11-02T12:45:05.000Z",
-          "teaser": "Oracle Corp. started selling $20 billion of debt and equity on Monday, pushing ahead with plans to raise money for artificial intelligence investments despite increasing signs that money managers are jittery about tech companies’ spending.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "cb20ae4584a2",
-          "title": "Alphabet Pays Up to Entice Buyers to €6 Billion Bond Sale",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-02/alphabet-kicks-off-sale-of-its-second-euro-bond-this-year",
-          "publishedAt": "2026-11-02T07:17:51.000Z",
-          "teaser": "Alphabet Inc. raised €6 billion ($6.7 billion) in its second euro bond sale this year, offering considerably higher yields than in its transaction in May after concerns over the pace of AI spending drove a credit-market selloff.",
-          "firms": [],
-          "section": "markets"
+          "section": "hedge-funds"
         }
       ]
     },
@@ -231,15 +231,6 @@
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "41da513ecc19",
-          "title": "Don’t expect supersize profits from Anthropic soon",
-          "url": "https://www.economist.com/business/2026/10/26/dont-expect-supersize-profits-from-anthropic-soon",
-          "publishedAt": "2026-10-26T22:23:01.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
         }
       ]
     }
