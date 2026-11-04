@@ -1,78 +1,78 @@
 {
-  "generatedAt": "2026-11-03T17:47:58.380Z",
+  "generatedAt": "2026-11-04T17:57:54.837Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "0f67c072a455",
-          "title": "Unilever Eyes $1.1 Billion in Savings as It Plans Leaner Future Away From Food",
-          "url": "https://www.wsj.com/business/unilever-eyes-1-1-billion-in-savings-as-it-plans-leaner-future-away-from-food-9ed3cfc8?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-03T17:18:00.000Z",
-          "teaser": "The consumer-goods group will outline plans at an investor event Wednesday to save 1 billion euros by the end of 2029 by recuperating some costs and overhauling operations.",
+          "id": "20d27d4149e0",
+          "title": "U.S. Stocks Jump After Democrats Sweep Congress",
+          "url": "https://www.wsj.com/finance/investing/stock-futures-edge-lower-treasurys-strengthen-after-democratic-sweep-f2198d07?mod=rss_markets_main",
+          "publishedAt": "2026-11-04T17:23:00.000Z",
+          "teaser": "U.S. stocks are surging as investors react to a blue wave that puts Democrats in control of both chambers of Congress.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "5665778a8269",
-          "title": "FBI Probes Autism Therapy Provider That Billed $30,000 a Day",
-          "url": "https://www.wsj.com/us-news/law/fbi-probes-autism-therapy-provider-that-billed-30-000-a-day-cd1885ea?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-03T16:32:00.000Z",
-          "teaser": "The investigation follows a Wall Street Journal article examining the billing and collection practices of the Perfect Child.",
+          "id": "fbe37065886a",
+          "title": "Oil Prices Fall as Investors Weigh U.S. Midterm Results, Iran Risks",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-investors-weigh-u-s-midterm-results-iran-risks-1d97da8a?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-04T13:46:00.000Z",
+          "teaser": "Oil prices extended losses Wednesday as investors weighed the Democrats’ sweep of Congress and the implications for Trump’s approach to Iran.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "7a01e1c01142",
-          "title": "Shopify Squeezed by AI Compute Costs, Pre-Holiday Infrastructure Buildout",
-          "url": "https://www.wsj.com/business/earnings/shopify-profit-revenue-up-as-merchant-volume-rises-4614feba?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-03T15:51:00.000Z",
-          "teaser": "The ecommerce company’s third-quarter results and holiday guidance signaled mounting cost pressure from artificial-intelligence compute and infrastructure buildout costs.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "25dae6a4e465",
-          "title": "The Final Seconds Before a Learjet Plunged Into a Florida Street",
-          "url": "https://www.wsj.com/us-news/the-final-seconds-before-a-learjet-plunged-into-a-florida-street-315b0c97?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-03T13:12:00.000Z",
-          "teaser": "The NTSB expects weather to be a major focus in the crash investigation.",
+          "id": "0282e2362cae",
+          "title": "Apple Can be an Expensive AI Safe Haven",
+          "url": "https://www.wsj.com/finance/investing/apple-can-be-an-expensive-ai-safe-haven-15014fb9?mod=rss_markets_main",
+          "publishedAt": "2026-11-04T11:26:00.000Z",
+          "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "e936dcc9ecc6",
-          "title": "Beijing Reins In IPO Rush After AI Concerns Hit Stock Market",
-          "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b?mod=rss_markets_main",
-          "publishedAt": "2026-11-03T13:02:00.000Z",
-          "teaser": "China’s market regulator told banks that ongoing IPO processes would continue but that it wouldn’t be taking up new listings for now.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "921bc815b05d",
-          "title": "Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-03T12:51:00.000Z",
-          "teaser": "Oil prices rose, recovering some of the previous session’s steep losses as investors weighed fresh U.S. strikes on Iran against continuing diplomatic efforts.",
+          "id": "0f6c1755cf49",
+          "title": "Index Funds Are Better When They’re Lucky and Smart",
+          "url": "https://www.wsj.com/finance/stocks/index-funds-are-better-when-theyre-lucky-and-smart-3f64f351?mod=rss_markets_main",
+          "publishedAt": "2026-11-04T11:22:00.000Z",
+          "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "c6281362b904",
-          "title": "Permira Extends Its Wave of Exit Activity to Corporate Buyers With Octus Sale",
-          "url": "https://www.wsj.com/pro/private-equity/europes-permira-extends-its-wave-of-exit-activity-to-corporate-buyers-with-octus-sale-67e6133c?mod=rss_markets_main",
-          "publishedAt": "2026-11-03T12:11:00.000Z",
-          "teaser": "The firm’s $3.54 billion sale of the credit specialist to London Stock Exchange Group marks the sixth sale this year to strategic buyers.",
+          "id": "c3ca88576bd8",
+          "title": "How Beer Companies Stole Happy Hour From Liquor Brands",
+          "url": "https://www.wsj.com/business/retail/how-beer-companies-stole-happy-hour-from-liquor-brands-342e96c7?mod=rss_markets_main",
+          "publishedAt": "2026-11-04T10:30:00.000Z",
+          "teaser": "Diageo and Pernod Ricard have missed the cocktails-in-a-can craze, and investors are paying the price.",
           "firms": [],
-          "section": "private-equity"
+          "section": "markets"
         },
         {
-          "id": "b8cd70789ee7",
-          "title": "McDonald’s Is Beefing Up, but It Won’t Be Cheap",
-          "url": "https://www.wsj.com/finance/stocks/mcdonalds-is-beefing-up-but-it-wont-be-cheap-9ce73fff?mod=rss_markets_main",
-          "publishedAt": "2026-11-03T11:25:00.000Z",
-          "teaser": "Plus, AI investors are on election watch.",
+          "id": "1398ba6c21d3",
+          "title": "Democrats’ Victory to Add Volatility to AI Trade",
+          "url": "https://www.wsj.com/finance/stocks/nikkei-flat-supported-by-financial-airline-stocks-87443383?mod=rss_markets_main",
+          "publishedAt": "2026-11-04T10:27:00.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "62b266e19f47",
+          "title": "Lockheed Martin to Pay $29.5 Million to Settle Federal Probe Over Diversity Efforts",
+          "url": "https://www.wsj.com/business/lockheed-martin-to-pay-29-5-million-to-settle-federal-probe-over-diversity-efforts-fbf1adf1?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-04T00:36:00.000Z",
+          "teaser": "The Trump administration has been investigating big U.S. companies under a novel use of a law meant to police U.S. government contractors.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "2bef17e6f8f8",
+          "title": "Apple Shares Slip, Meta Debt Costs Rise",
+          "url": "https://www.wsj.com/finance/stocks/apple-shares-slip-meta-debt-costs-rise-a8eb0510?mod=rss_markets_main",
+          "publishedAt": "2026-11-03T21:21:00.000Z",
+          "teaser": "",
           "firms": [],
           "section": "markets"
         }
@@ -82,48 +82,75 @@
       "id": "ft",
       "items": [
         {
-          "id": "0ef0d29181a8",
-          "title": "Russia unleashes massive attack on Ukraine’s energy infrastructure",
-          "url": "https://www.ft.com/content/52c2f86b-46a8-4710-9c05-f186baf3827f",
-          "publishedAt": "2026-11-03T16:00:05.000Z",
+          "id": "1f8196de7abd",
+          "title": "Stocks climb after Democrats’ sweep",
+          "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-04T17:09:03.000Z",
           "teaser": "",
           "firms": [],
-          "section": "private-markets"
+          "section": "markets"
         },
         {
-          "id": "906d127f4853",
-          "title": "Marshall Wace and Millennium hit as hedge funds suffer in October’s AI rout",
-          "url": "https://www.ft.com/content/fae029f1-f03e-4509-852e-396fa4863271?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-03T15:21:33.000Z",
+          "id": "300b407272a5",
+          "title": "Anthropic is an opportunity to rethink IPO rules",
+          "url": "https://www.ft.com/content/5083bad9-2a6e-4dc8-9627-1d41f9aa5b5b",
+          "publishedAt": "2026-11-04T11:38:48.000Z",
           "teaser": "",
           "firms": [],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "321bd5fe5915",
-          "title": "Apollo lends record $114bn as it piles into AI financing boom",
-          "url": "https://www.ft.com/content/72cb3140-49ba-4ce1-be8c-ee5295612b55?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-03T11:34:25.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "7b8bad176e3c",
-          "title": "Menopause specialist sold in €2.6bn private equity deal",
-          "url": "https://www.ft.com/content/79867d48-6d4a-4e5e-ba62-105f7181f6b1?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-03T09:45:05.000Z",
-          "teaser": "",
-          "firms": [
-            "Carlyle"
-          ],
           "section": "private-equity"
         },
         {
-          "id": "7bdff878b3a8",
-          "title": "Todd Boehly insurer amasses billions in lending tied to his Beverly Hills project",
-          "url": "https://www.ft.com/content/e633f11e-ebc2-4482-94de-72c3a3b89841?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-03T05:00:13.000Z",
+          "id": "e1abaee43e68",
+          "title": "Copper and conflict trigger profit surge for Buffett-backed Japanese commodity traders",
+          "url": "https://www.ft.com/content/656f10c4-26ec-430e-adfa-dcadf0dd61ff?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-04T09:42:01.000Z",
+          "teaser": "",
+          "firms": [
+            "Berkshire"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "4befc061a6e7",
+          "title": "How audacious London debt trader Hamza Lemssouguer came unstuck",
+          "url": "https://www.ft.com/content/29c178c1-2960-4670-b510-f90b4b559903?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-04T05:00:18.000Z",
+          "teaser": "Arini Capital Management went from start-up to Mayfair mainstay in four years.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "7c6c97dd341a",
+          "title": "Are we ready for an AI bust?",
+          "url": "https://www.ft.com/content/b954b99c-b71e-4334-9789-18e2b69de76d?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-04T05:00:18.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "fb164c65635e",
+          "title": "Cricket Australia chief defends controversial sale plan",
+          "url": "https://www.ft.com/content/a03d241a-5e93-41ae-b019-50879c6d1ad9?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-04T01:00:06.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "8bc49fa1024a",
+          "title": "Investors watch US state races for signs of backlash against AI boom",
+          "url": "https://www.ft.com/content/c8a092e5-c1e4-46b8-83e1-73404900a0c5?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-03T20:25:23.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "c186d0a67211",
+          "title": "A chill wind in the AI credit market",
+          "url": "https://www.ft.com/content/5f08f1fb-4948-4420-8fe4-3c8c8cc492ef?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-03T18:18:22.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-markets"
@@ -134,71 +161,58 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "490ba7671fbf",
-          "title": "JPMorgan’s Michele Urges Treasury to Ax ‘Orphan’ 20-Year Bond",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-03/jpmorgan-s-michele-urges-treasury-to-ax-orphan-20-year-bond",
-          "publishedAt": "2026-11-03T17:26:02.000Z",
-          "teaser": "JPMorgan Asset Management’s Bob Michele has some advice for Treasury Secretary Scott Bessent: get rid of the 20-year bond.",
-          "firms": [
-            "J.P. Morgan"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "da8fab989a74",
-          "title": "Hydro-Quebec Forced to Import More Power After Deals With US Utilities",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-03/hydro-quebec-forced-to-import-more-power-after-deals-with-us-utilities",
-          "publishedAt": "2026-11-03T17:18:12.000Z",
-          "teaser": "Hydro-Quebec, a Canadian renewable-energy powerhouse with major US export contracts, is stretching an investment plan worth C$200 billion ($143 billion) by six years to 2041.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "33e24d3b226e",
-          "title": "Chile Pension Funds Breath Sigh of Relief as Swap Losses Narrow",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-03/chile-pension-funds-breath-sigh-of-relief-as-swap-losses-narrow",
-          "publishedAt": "2026-11-03T16:48:24.000Z",
-          "teaser": "Chilean pension funds saw returns rebound in October as a drop in US yields narrowed losses on massive interest-rate swap positions that have sparked anger from politicians and undermined faith in the system among savers.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "63180d96edc7",
-          "title": "Morgan Stanley Offers $2.3 Billion Debt for Dell Family Deal",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-03/morgan-stanley-offers-2-3-billion-debt-for-dell-family-deal",
-          "publishedAt": "2026-11-03T16:43:57.000Z",
-          "teaser": "Morgan Stanley has kicked off a $2.3 billion debt deal to help finance Baldwin Insurance Group Inc.’s acquisition by billionaire Michael Dell’s family office and Sequence Holdings.",
-          "firms": [
-            "Morgan Stanley"
-          ],
-          "section": "family-offices"
-        },
-        {
-          "id": "cf3c3fdc3f85",
-          "title": "Technology Stocks Lead S&P 500 Higher With Midterm Vote Underway",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-03/us-stocks-waver-as-election-ai-bubble-risks-weigh-on-outlook",
-          "publishedAt": "2026-11-03T13:15:16.000Z",
-          "teaser": "US stocks advanced as Americans headed to the polls on Election Day, with control of both chambers of Congress at stake and investors assessing potential risks to the artificial intelligence trade.",
+          "id": "23feb78c3088",
+          "title": "Alcohol Jumps as Blue Wave Lifts Trade, Immigration Hope",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/alcohol-stocks-jump-as-blue-wave-lifts-tariff-immigration-hopes",
+          "publishedAt": "2026-11-04T17:19:47.000Z",
+          "teaser": "Investors are betting alcohol companies are among the winners of last night’s midterm election landslide on views a new Congress will push back on the Trump administration’s immigration and trade policies that dented booze businesses.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "f84f99daac41",
-          "title": "NextEra Offers New Safeguards for $67 Billion Dominion Deal",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-03/nextera-agrees-to-more-safeguards-for-67-billion-dominion-deal",
-          "publishedAt": "2026-11-03T12:24:22.000Z",
-          "teaser": "NextEra Energy Inc. offered Virginia additional customer and financial protections, the utility’s latest bid to convince the state to approve its $67 billion acquisition of Dominion Energy Inc.",
+          "id": "9f80786a5e58",
+          "title": "Big Tech Soars on Bet Dems Will Save AI Spenders From Themselves",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/big-tech-stocks-soar-as-traders-bet-democrats-will-slow-ai-spend",
+          "publishedAt": "2026-11-04T17:07:54.000Z",
+          "teaser": "The shares of US technology giants led the market higher on Wednesday as investors bet that a Democrat-controlled Congress will slow the massive spending on artificial intelligence that’s eating up free cash flow.",
           "firms": [],
-          "section": "private-equity"
+          "section": "markets"
         },
         {
-          "id": "cb3fdf6403c5",
-          "title": "Major Hedge Funds Mostly Lose in ‘Nowhere to Hide’ October",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-03/major-hedge-funds-mostly-lose-in-nowhere-to-hide-october",
-          "publishedAt": "2026-11-03T11:40:08.000Z",
-          "teaser": "",
+          "id": "368a1c8c3bb8",
+          "title": "Credit Traders Make Big Post-Midterm Bet on Data-Center Slowdown",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/hyperscalers-lead-credit-market-gains-amid-broad-risk-on-rally",
+          "publishedAt": "2026-11-04T13:27:18.000Z",
+          "teaser": "Credit markets are starting to price in winners and losers from an expected slowdown in data center development after a Democratic sweep in the US midterm elections this week.",
           "firms": [],
-          "section": "hedge-funds"
+          "section": "private-markets"
+        },
+        {
+          "id": "d18225bee23e",
+          "title": "European Stocks Rally as US Midterm Result Boosts Sentiment",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/european-stocks-set-to-dip-as-democrat-sweep-stokes-ai-worries",
+          "publishedAt": "2026-11-04T05:51:38.000Z",
+          "teaser": "European stocks rose Wednesday to approach the record high set in August, after Democrats won control of both chambers of Congress in the US midterms.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "b7df16a971bc",
+          "title": "Tech Megacaps Lead S&P 500 Higher as Midterm Uncertainty Eases",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/us-equity-futures-inch-higher-as-investors-await-midterm-results",
+          "publishedAt": "2026-11-04T00:01:14.000Z",
+          "teaser": "Technology megacaps rallied, leading the broader stock market higher, as Democrats swept to power in Congress and President Donald Trump said he would accept the midterm results, easing uncertainty and prompting investors to buy the recent dip.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "e8995929dee0",
+          "title": "Latest Oil Market News and Analysis for Nov. 4",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/latest-oil-market-news-and-analysis-for-nov-4",
+          "publishedAt": "2026-11-03T23:08:04.000Z",
+          "teaser": "Brent oil futures plunged 10% to trade below $100 a barrel as investors wagered that a Democratic sweep in the US midterm elections could usher a quicker end to a months-long conflict that upended global energy markets.",
+          "firms": [],
+          "section": "markets"
         }
       ]
     },
@@ -220,15 +234,6 @@
           "url": "https://www.economist.com/finance-and-economics/2026/10/28/chinas-stock-markets-are-the-great-global-exception",
           "publishedAt": "2026-10-28T19:48:19.000Z",
           "teaser": "If the country is winning the future, why are its investors so glum?",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "046aeaf6120c",
-          "title": "In an AI blow-up, would insurance pay out?",
-          "url": "https://www.economist.com/finance-and-economics/2026/10/27/in-an-ai-blow-up-would-insurance-pay-out",
-          "publishedAt": "2026-10-27T22:26:42.000Z",
-          "teaser": "",
           "firms": [],
           "section": "markets"
         }
