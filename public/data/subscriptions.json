@@ -1,33 +1,69 @@
 {
-  "generatedAt": "2026-11-04T17:57:54.837Z",
+  "generatedAt": "2026-11-05T17:58:28.688Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
+          "id": "bb1111da9852",
+          "title": "Nvidia-Backed Cohere Says IPO Timing Uncertain Despite Surging Revenue",
+          "url": "https://www.wsj.com/pro/venture-capital/nvidia-backed-cohere-says-ipo-timing-uncertain-despite-surging-revenue-3310476f?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-05T15:53:00.000Z",
+          "teaser": "Canadian artificial-intelligence company Cohere’s timeline for going public remains uncertain despite surging revenue, its chief executive said, as the startup draws fresh backing from Nvidia and the Canadian government.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "4408d048845f",
+          "title": "Zipline Reaches $21.5 Billion Valuation as Drone Delivery Gains Traction",
+          "url": "https://www.wsj.com/business/drone-startup-zipline-raises-1-5-billion-at-21-5-billion-valuation-1d166eec?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-05T14:48:00.000Z",
+          "teaser": "Chief Executive Keller Cliffton, who co-founded Zipline in 2014, said the company’s skyrocketing valuation is a sign that autonomous delivery has finally gained wider acceptance among both investors and commercial partners.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "d3a3dc0d84b4",
+          "title": "Wendy’s Rejects Trian’s $1.4 Billion Takeover Offer",
+          "url": "https://www.wsj.com/business/deals/wendys-rejects-trians-1-4-billion-takeover-offer-984b1892?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-05T13:20:00.000Z",
+          "teaser": "The struggling burger chain backed its own turnaround bid instead of being taken private by Nelson Peltz’s hedge fund.",
+          "firms": [],
+          "section": "hedge-funds"
+        },
+        {
+          "id": "053dad3db871",
+          "title": "Stock Market Today: Nasdaq Sinks 5% as Investors Retreat From AI Trade After Election",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026?mod=rss_markets_main",
+          "publishedAt": "2026-11-05T09:25:53.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "dfd689339d1e",
+          "title": "BP Sells 5% Stake in Aker BP for $1 Billion as Balance Sheet Repair Continues",
+          "url": "https://www.wsj.com/business/energy-oil/bp-sells-5-stake-in-aker-bp-for-1-billion-as-balance-sheet-repair-continues-ac5e1934?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-05T08:20:00.000Z",
+          "teaser": "The British energy major is looking to accelerate efforts to shore up its balance sheet and simplify its portfolio.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "d116c92636d2",
+          "title": "Ethan Allen Shareholders Hand Board Control to Activist Investor Doug Bergeron",
+          "url": "https://www.wsj.com/business/retail/ethan-allen-shareholders-hand-board-control-to-activist-investor-doug-bergeron-c79df327?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-04T20:08:00.000Z",
+          "teaser": "Bergeron said the new board will focus on strengthening corporate governance, returning to profitable growth, and selecting a successor to CEO Farooq Kathwari.",
+          "firms": [],
+          "section": "hedge-funds"
+        },
+        {
           "id": "20d27d4149e0",
           "title": "U.S. Stocks Jump After Democrats Sweep Congress",
           "url": "https://www.wsj.com/finance/investing/stock-futures-edge-lower-treasurys-strengthen-after-democratic-sweep-f2198d07?mod=rss_markets_main",
-          "publishedAt": "2026-11-04T17:23:00.000Z",
+          "publishedAt": "2026-11-04T19:16:00.000Z",
           "teaser": "U.S. stocks are surging as investors react to a blue wave that puts Democrats in control of both chambers of Congress.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "fbe37065886a",
-          "title": "Oil Prices Fall as Investors Weigh U.S. Midterm Results, Iran Risks",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-investors-weigh-u-s-midterm-results-iran-risks-1d97da8a?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-04T13:46:00.000Z",
-          "teaser": "Oil prices extended losses Wednesday as investors weighed the Democrats’ sweep of Congress and the implications for Trump’s approach to Iran.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "0282e2362cae",
-          "title": "Apple Can be an Expensive AI Safe Haven",
-          "url": "https://www.wsj.com/finance/investing/apple-can-be-an-expensive-ai-safe-haven-15014fb9?mod=rss_markets_main",
-          "publishedAt": "2026-11-04T11:26:00.000Z",
-          "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
           "firms": [],
           "section": "markets"
         },
@@ -39,42 +75,6 @@
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "c3ca88576bd8",
-          "title": "How Beer Companies Stole Happy Hour From Liquor Brands",
-          "url": "https://www.wsj.com/business/retail/how-beer-companies-stole-happy-hour-from-liquor-brands-342e96c7?mod=rss_markets_main",
-          "publishedAt": "2026-11-04T10:30:00.000Z",
-          "teaser": "Diageo and Pernod Ricard have missed the cocktails-in-a-can craze, and investors are paying the price.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "1398ba6c21d3",
-          "title": "Democrats’ Victory to Add Volatility to AI Trade",
-          "url": "https://www.wsj.com/finance/stocks/nikkei-flat-supported-by-financial-airline-stocks-87443383?mod=rss_markets_main",
-          "publishedAt": "2026-11-04T10:27:00.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "62b266e19f47",
-          "title": "Lockheed Martin to Pay $29.5 Million to Settle Federal Probe Over Diversity Efforts",
-          "url": "https://www.wsj.com/business/lockheed-martin-to-pay-29-5-million-to-settle-federal-probe-over-diversity-efforts-fbf1adf1?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-04T00:36:00.000Z",
-          "teaser": "The Trump administration has been investigating big U.S. companies under a novel use of a law meant to police U.S. government contractors.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "2bef17e6f8f8",
-          "title": "Apple Shares Slip, Meta Debt Costs Rise",
-          "url": "https://www.wsj.com/finance/stocks/apple-shares-slip-meta-debt-costs-rise-a8eb0510?mod=rss_markets_main",
-          "publishedAt": "2026-11-03T21:21:00.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -82,78 +82,76 @@
       "id": "ft",
       "items": [
         {
-          "id": "1f8196de7abd",
-          "title": "Stocks climb after Democrats’ sweep",
-          "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-04T17:09:03.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "300b407272a5",
-          "title": "Anthropic is an opportunity to rethink IPO rules",
-          "url": "https://www.ft.com/content/5083bad9-2a6e-4dc8-9627-1d41f9aa5b5b",
-          "publishedAt": "2026-11-04T11:38:48.000Z",
+          "id": "31399458f26d",
+          "title": "So, about that Anthropic IPO . . .",
+          "url": "https://www.ft.com/content/2fbd60ee-060a-4957-b9c5-3b5a0ce88e1a?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-05T17:01:56.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "e1abaee43e68",
-          "title": "Copper and conflict trigger profit surge for Buffett-backed Japanese commodity traders",
-          "url": "https://www.ft.com/content/656f10c4-26ec-430e-adfa-dcadf0dd61ff?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-04T09:42:01.000Z",
+          "id": "9afb6285e105",
+          "title": "Top private equity dealmaker to quit UK for Greece",
+          "url": "https://www.ft.com/content/6f36556a-01e4-4767-b75d-806cee8e2a06?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-05T17:00:12.000Z",
           "teaser": "",
-          "firms": [
-            "Berkshire"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "4befc061a6e7",
-          "title": "How audacious London debt trader Hamza Lemssouguer came unstuck",
-          "url": "https://www.ft.com/content/29c178c1-2960-4670-b510-f90b4b559903?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-04T05:00:18.000Z",
-          "teaser": "Arini Capital Management went from start-up to Mayfair mainstay in four years.",
           "firms": [],
-          "section": "markets"
+          "section": "private-equity"
         },
         {
-          "id": "7c6c97dd341a",
-          "title": "Are we ready for an AI bust?",
-          "url": "https://www.ft.com/content/b954b99c-b71e-4334-9789-18e2b69de76d?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-04T05:00:18.000Z",
+          "id": "51579df24b34",
+          "title": "Nasdaq tumbles in chaotic trading as Democratic ‘blue wave’ sparks AI fears",
+          "url": "https://www.ft.com/content/7c6ceb4f-d7b1-49ec-9047-0e2e4cd2615c?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-05T16:59:34.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "fb164c65635e",
-          "title": "Cricket Australia chief defends controversial sale plan",
-          "url": "https://www.ft.com/content/a03d241a-5e93-41ae-b019-50879c6d1ad9?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-04T01:00:06.000Z",
+          "id": "4ac512d9adf7",
+          "title": "French bank Crédit Mutuel Arkéa seeks to recover funds after €100mn hack",
+          "url": "https://www.ft.com/content/3f6ef089-f478-4d00-a080-21a88ffd721b?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-05T13:28:53.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "8bc49fa1024a",
-          "title": "Investors watch US state races for signs of backlash against AI boom",
-          "url": "https://www.ft.com/content/c8a092e5-c1e4-46b8-83e1-73404900a0c5?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-03T20:25:23.000Z",
+          "id": "3eadfc00c2d3",
+          "title": "Battle-tested European drone maker takes step towards €7bn IPO",
+          "url": "https://www.ft.com/content/58106ce0-31ec-4814-b1b4-bba34778e9e7?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-05T12:59:10.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "97a37684b14b",
+          "title": "Wall Street bets Democratic sweep will empower moderates in Washington",
+          "url": "https://www.ft.com/content/18739027-d5cc-4e18-825e-d43ac7d1ef9f?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-05T11:00:07.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "c186d0a67211",
-          "title": "A chill wind in the AI credit market",
-          "url": "https://www.ft.com/content/5f08f1fb-4948-4420-8fe4-3c8c8cc492ef?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-03T18:18:22.000Z",
+          "id": "ea23526373c7",
+          "title": "How will the Democrats’ sweep shape policy and markets?",
+          "url": "https://www.ft.com/content/d0f7a709-3c57-4cd4-8467-4516a58d9749?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-05T05:00:00.000Z",
           "teaser": "",
           "firms": [],
-          "section": "private-markets"
+          "section": "markets"
+        },
+        {
+          "id": "1f8196de7abd",
+          "title": "US stocks post best day since August after Democrats sweep midterms",
+          "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-05T03:11:55.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
         }
       ]
     },
@@ -161,56 +159,49 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "23feb78c3088",
-          "title": "Alcohol Jumps as Blue Wave Lifts Trade, Immigration Hope",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/alcohol-stocks-jump-as-blue-wave-lifts-tariff-immigration-hopes",
-          "publishedAt": "2026-11-04T17:19:47.000Z",
-          "teaser": "Investors are betting alcohol companies are among the winners of last night’s midterm election landslide on views a new Congress will push back on the Trump administration’s immigration and trade policies that dented booze businesses.",
+          "id": "861ee384f845",
+          "title": "Lula Consults Mantega, Leftist Economists on Plans for New Term",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-05/lula-consults-mantega-leftist-economists-on-plans-for-new-term",
+          "publishedAt": "2026-11-05T17:48:55.000Z",
+          "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "9f80786a5e58",
-          "title": "Big Tech Soars on Bet Dems Will Save AI Spenders From Themselves",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/big-tech-stocks-soar-as-traders-bet-democrats-will-slow-ai-spend",
-          "publishedAt": "2026-11-04T17:07:54.000Z",
-          "teaser": "The shares of US technology giants led the market higher on Wednesday as investors bet that a Democrat-controlled Congress will slow the massive spending on artificial intelligence that’s eating up free cash flow.",
+          "id": "0f5dcf2d3c69",
+          "title": "Treasuries Soar as Tech-Stock Selloff Lures Investors to Havens",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-05/treasuries-extend-advance-as-technology-shares-resume-slide",
+          "publishedAt": "2026-11-05T15:54:44.000Z",
+          "teaser": "Treasuries rose as a Democratic sweep in the US midterms led to a selloff in shares of large US technology companies, stoking demand for havens.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "368a1c8c3bb8",
-          "title": "Credit Traders Make Big Post-Midterm Bet on Data-Center Slowdown",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/hyperscalers-lead-credit-market-gains-amid-broad-risk-on-rally",
-          "publishedAt": "2026-11-04T13:27:18.000Z",
-          "teaser": "Credit markets are starting to price in winners and losers from an expected slowdown in data center development after a Democratic sweep in the US midterm elections this week.",
-          "firms": [],
-          "section": "private-markets"
+          "id": "75fd3bbde8f8",
+          "title": "Carlyle Shares Slump On Bigger-Than-Expected Drop in Fees",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-05/carlyle-beats-as-deal-exits-mitigate-dip-in-fee-related-earnings",
+          "publishedAt": "2026-11-05T11:01:00.000Z",
+          "teaser": "Carlyle Group Inc. shares fell the most in more than a year after the firm reported a bigger-than-expected drop in a key measure of earnings as a slew of exits left the firm with fewer fee-generating assets.",
+          "firms": [
+            "Carlyle"
+          ],
+          "section": "private-equity"
         },
         {
-          "id": "d18225bee23e",
-          "title": "European Stocks Rally as US Midterm Result Boosts Sentiment",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/european-stocks-set-to-dip-as-democrat-sweep-stokes-ai-worries",
-          "publishedAt": "2026-11-04T05:51:38.000Z",
-          "teaser": "European stocks rose Wednesday to approach the record high set in August, after Democrats won control of both chambers of Congress in the US midterms.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "b7df16a971bc",
-          "title": "Tech Megacaps Lead S&P 500 Higher as Midterm Uncertainty Eases",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/us-equity-futures-inch-higher-as-investors-await-midterm-results",
-          "publishedAt": "2026-11-04T00:01:14.000Z",
-          "teaser": "Technology megacaps rallied, leading the broader stock market higher, as Democrats swept to power in Congress and President Donald Trump said he would accept the midterm results, easing uncertainty and prompting investors to buy the recent dip.",
+          "id": "46d6303679dc",
+          "title": "Gold Pares Gains as Tech Rout Prompts Investors to Cut Risk",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/gold-holds-above-4-000-as-dollar-yields-fall-on-midterm-result",
+          "publishedAt": "2026-11-04T23:58:33.000Z",
+          "teaser": "Gold pared gains as some investors sold the precious metal to reduce exposure, with risk-off sentiment deepening across broader markets.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "e8995929dee0",
-          "title": "Latest Oil Market News and Analysis for Nov. 4",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-03/latest-oil-market-news-and-analysis-for-nov-4",
-          "publishedAt": "2026-11-03T23:08:04.000Z",
-          "teaser": "Brent oil futures plunged 10% to trade below $100 a barrel as investors wagered that a Democratic sweep in the US midterm elections could usher a quicker end to a months-long conflict that upended global energy markets.",
+          "id": "8d9d77161f50",
+          "title": "Nasdaq 100 Sinks 5% as Chipmaker Selloff Deepens: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
+          "publishedAt": "2026-11-04T22:15:04.000Z",
+          "teaser": "A post-election slide in chipmakers snowballed, dragging the Nasdaq 100 down 5%, as investors bailed from the sector on speculation congressional Democrats will clamp down on the artificial-intelligence industry.",
           "firms": [],
           "section": "markets"
         }
@@ -220,20 +211,20 @@
       "id": "economist",
       "items": [
         {
-          "id": "e7df79ebfb7a",
-          "title": "Why it’s a bad time to be a rat-killer",
-          "url": "https://www.economist.com/business/2026/10/29/why-its-a-bad-time-to-be-a-rat-killer",
-          "publishedAt": "2026-10-29T13:48:04.000Z",
+          "id": "3c3917ae3049",
+          "title": "Can a DoorDash-Instacart fusion stand up to Amazon and Walmart?",
+          "url": "https://www.economist.com/business/2026/11/05/can-a-doordash-instacart-fusion-stand-up-to-amazon-and-walmart",
+          "publishedAt": "2026-11-05T13:58:17.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "e9d99ff10111",
-          "title": "China’s stock markets are the great global exception",
-          "url": "https://www.economist.com/finance-and-economics/2026/10/28/chinas-stock-markets-are-the-great-global-exception",
-          "publishedAt": "2026-10-28T19:48:19.000Z",
-          "teaser": "If the country is winning the future, why are its investors so glum?",
+          "id": "024a8096c492",
+          "title": "What markets make of the midterms",
+          "url": "https://www.economist.com/finance-and-economics/2026/11/04/what-markets-make-of-the-midterms",
+          "publishedAt": "2026-11-04T21:48:18.000Z",
+          "teaser": "",
           "firms": [],
           "section": "markets"
         }
