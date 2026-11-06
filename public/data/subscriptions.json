@@ -1,80 +1,82 @@
 {
-  "generatedAt": "2026-11-05T17:58:28.688Z",
+  "generatedAt": "2026-11-06T17:26:46.512Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "bb1111da9852",
-          "title": "Nvidia-Backed Cohere Says IPO Timing Uncertain Despite Surging Revenue",
-          "url": "https://www.wsj.com/pro/venture-capital/nvidia-backed-cohere-says-ipo-timing-uncertain-despite-surging-revenue-3310476f?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-05T15:53:00.000Z",
-          "teaser": "Canadian artificial-intelligence company Cohere’s timeline for going public remains uncertain despite surging revenue, its chief executive said, as the startup draws fresh backing from Nvidia and the Canadian government.",
+          "id": "7ce9d96488af",
+          "title": "Norway’s Oil Fund Reaches $224.5 Million Settlement With KPMG Over SVB Collapse",
+          "url": "https://www.wsj.com/finance/banking/norway-oil-fund-reaches-224-5-million-settlement-with-kpmg-over-silicon-valley-bank-collapse-e0cc9045?mod=rss_markets_main",
+          "publishedAt": "2026-11-06T15:05:00.000Z",
+          "teaser": "Norges Bank Investment Management and co-lead plaintiff Sjunde AP-fonden, Sweden’s state pension fund, reached a $224.5 million settlement in principle.",
           "firms": [],
-          "section": "private-equity"
+          "section": "private-markets"
         },
         {
-          "id": "4408d048845f",
-          "title": "Zipline Reaches $21.5 Billion Valuation as Drone Delivery Gains Traction",
-          "url": "https://www.wsj.com/business/drone-startup-zipline-raises-1-5-billion-at-21-5-billion-valuation-1d166eec?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-05T14:48:00.000Z",
-          "teaser": "Chief Executive Keller Cliffton, who co-founded Zipline in 2014, said the company’s skyrocketing valuation is a sign that autonomous delivery has finally gained wider acceptance among both investors and commercial partners.",
+          "id": "996e8ea75f24",
+          "title": "Brookfield Asset Management Fundraises $25 Billion in Quarter, Led by Infrastructure Strategies",
+          "url": "https://www.wsj.com/finance/investing/brookfield-asset-management-fundraises-25-billion-in-quarter-led-by-infrastructure-strategies-b07bc57b?mod=rss_markets_main",
+          "publishedAt": "2026-11-06T12:30:00.000Z",
+          "teaser": "Brookfield Asset Management is seeing no let up in fundraising efforts as it tracks toward a record year, driven by the alternative asset manager’s infrastructure franchise as investors seek out real assets for stability and returns.",
+          "firms": [
+            "Brookfield"
+          ],
+          "section": "private-markets"
+        },
+        {
+          "id": "6455f23f3616",
+          "title": "Zipline Valuation Soars as Drone Startup Raises Funds, Expands Walmart Deal",
+          "url": "https://www.wsj.com/logistics-report/zipline-valuation-soars-as-drone-startup-raises-funds-expands-walmart-deal-48676792?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-06T11:51:00.000Z",
+          "teaser": "Plus, Democrats are targeting Trump’s Canada tariffs, and emails offer a peek into the Houthis’ little-known office for clearing Red Sea transits.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "d3a3dc0d84b4",
-          "title": "Wendy’s Rejects Trian’s $1.4 Billion Takeover Offer",
-          "url": "https://www.wsj.com/business/deals/wendys-rejects-trians-1-4-billion-takeover-offer-984b1892?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-05T13:20:00.000Z",
-          "teaser": "The struggling burger chain backed its own turnaround bid instead of being taken private by Nelson Peltz’s hedge fund.",
+          "id": "63b440f4c8ed",
+          "title": "AI’s Role in Finance Is Here to Stay—and Adoption Near Universal: BDO",
+          "url": "https://www.wsj.com/cfo-journal/ais-role-in-finance-is-here-to-stayand-adoption-near-universal-bdo-801d4137?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-06T11:45:00.000Z",
+          "teaser": "Plus, Wendy’s board rejects offer from Nelson Peltz’s hedge fund.",
           "firms": [],
           "section": "hedge-funds"
         },
         {
-          "id": "053dad3db871",
-          "title": "Stock Market Today: Nasdaq Sinks 5% as Investors Retreat From AI Trade After Election",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026?mod=rss_markets_main",
-          "publishedAt": "2026-11-05T09:25:53.000Z",
-          "teaser": "",
+          "id": "6909d32367db",
+          "title": "Profits Are About as Good as They’ll Get",
+          "url": "https://www.wsj.com/finance/stocks/profits-are-about-as-good-as-theyll-get-72154bc8?mod=rss_markets_main",
+          "publishedAt": "2026-11-06T11:44:00.000Z",
+          "teaser": "Plus, tech investors are in shock.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "dfd689339d1e",
-          "title": "BP Sells 5% Stake in Aker BP for $1 Billion as Balance Sheet Repair Continues",
-          "url": "https://www.wsj.com/business/energy-oil/bp-sells-5-stake-in-aker-bp-for-1-billion-as-balance-sheet-repair-continues-ac5e1934?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-05T08:20:00.000Z",
-          "teaser": "The British energy major is looking to accelerate efforts to shore up its balance sheet and simplify its portfolio.",
+          "id": "4635206fb83c",
+          "title": "What the Midterm Shake-Up Means for Markets and Investors",
+          "url": "https://www.wsj.com/finance/investing/what-the-midterm-shake-up-means-for-markets-and-investors-b1135215?mod=rss_markets_main",
+          "publishedAt": "2026-11-06T10:42:00.000Z",
+          "teaser": "Plus, Israel’s most important alliance confronts its biggest test in decades, and what’s next for Texas after the Democratic sweep.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "5dadb7945b31",
+          "title": "Healthcare Stocks Caught Up in Market Selloff",
+          "url": "https://www.wsj.com/finance/stocks/nikkei-falls-5-9-dragged-by-chip-stocks-d8937761?mod=rss_markets_main",
+          "publishedAt": "2026-11-06T10:11:00.000Z",
+          "teaser": "European healthcare stocks were being caught up in the wider market selloff, possibly hit by investors taking profits on recent gains in the sector, Wealth Club said.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "136c3a296829",
+          "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation",
+          "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b?mod=rss_markets_main",
+          "publishedAt": "2026-11-06T04:36:00.000Z",
+          "teaser": "Other investors say October financial results could lessen the blow of the market rout.",
           "firms": [],
           "section": "private-equity"
-        },
-        {
-          "id": "d116c92636d2",
-          "title": "Ethan Allen Shareholders Hand Board Control to Activist Investor Doug Bergeron",
-          "url": "https://www.wsj.com/business/retail/ethan-allen-shareholders-hand-board-control-to-activist-investor-doug-bergeron-c79df327?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-04T20:08:00.000Z",
-          "teaser": "Bergeron said the new board will focus on strengthening corporate governance, returning to profitable growth, and selecting a successor to CEO Farooq Kathwari.",
-          "firms": [],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "20d27d4149e0",
-          "title": "U.S. Stocks Jump After Democrats Sweep Congress",
-          "url": "https://www.wsj.com/finance/investing/stock-futures-edge-lower-treasurys-strengthen-after-democratic-sweep-f2198d07?mod=rss_markets_main",
-          "publishedAt": "2026-11-04T19:16:00.000Z",
-          "teaser": "U.S. stocks are surging as investors react to a blue wave that puts Democrats in control of both chambers of Congress.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "0f6c1755cf49",
-          "title": "Index Funds Are Better When They’re Lucky and Smart",
-          "url": "https://www.wsj.com/finance/stocks/index-funds-are-better-when-theyre-lucky-and-smart-3f64f351?mod=rss_markets_main",
-          "publishedAt": "2026-11-04T11:22:00.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -82,73 +84,73 @@
       "id": "ft",
       "items": [
         {
-          "id": "31399458f26d",
-          "title": "So, about that Anthropic IPO . . .",
-          "url": "https://www.ft.com/content/2fbd60ee-060a-4957-b9c5-3b5a0ce88e1a?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-05T17:01:56.000Z",
+          "id": "1abac3d1740e",
+          "title": "UK retail investors buy the dip after bruising tech sell-off",
+          "url": "https://www.ft.com/content/64c72979-1f97-4d25-8dc9-7c47c6089191?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-06T14:28:49.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "family-offices"
+        },
+        {
+          "id": "f1cbd6935a33",
+          "title": "Arini’s credit troubles suggest roach-hunting season is back",
+          "url": "https://www.ft.com/content/59a3bb17-5b09-4223-9077-413140b8a05b?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-06T14:23:53.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "01fc394a04a6",
+          "title": "My portfolio returns went from hero to zero (actually I’d take zero)",
+          "url": "https://www.ft.com/content/44211bf7-0f18-4e55-81b8-01e750ae785f?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-06T13:34:06.000Z",
+          "teaser": "One stock in my Asia fund made me look clever for months.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "da21b20d685b",
+          "title": "Swinging oil prices highlight majors’ high-quality problem",
+          "url": "https://www.ft.com/content/0f3065ce-239e-4afb-a865-a45ef3e48c42?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-06T12:42:33.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "cf2f4693ec36",
+          "title": "Telecoms entrepreneur behind ‘breathtaking fraud’ hit with freezing orders",
+          "url": "https://www.ft.com/content/aa99a49b-d6fa-473e-9e8a-7d7906ab4f79?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-06T12:23:58.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "b2cde2aa7c46",
+          "title": "Monzo explores fundraising at £7.5bn valuation as private equity talks stall",
+          "url": "https://www.ft.com/content/6553ec40-00a8-4832-8ca5-c528b9da224a?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-06T07:44:30.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "9afb6285e105",
-          "title": "Top private equity dealmaker to quit UK for Greece",
-          "url": "https://www.ft.com/content/6f36556a-01e4-4767-b75d-806cee8e2a06?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-05T17:00:12.000Z",
-          "teaser": "",
+          "id": "4fb1b4a18dae",
+          "title": "Ark Invest wants to bring some ‘disruptive innovation’ to interval funds",
+          "url": "https://www.ft.com/content/dce2b9da-a4c6-4016-af78-7c41ac41a6b0",
+          "publishedAt": "2026-11-06T06:00:04.000Z",
+          "teaser": "Tokenised, exchange-traded interval funds with venture capital exposure and hedge fund-level fees.",
           "firms": [],
-          "section": "private-equity"
+          "section": "hedge-funds"
         },
         {
-          "id": "51579df24b34",
-          "title": "Nasdaq tumbles in chaotic trading as Democratic ‘blue wave’ sparks AI fears",
-          "url": "https://www.ft.com/content/7c6ceb4f-d7b1-49ec-9047-0e2e4cd2615c?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-05T16:59:34.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "4ac512d9adf7",
-          "title": "French bank Crédit Mutuel Arkéa seeks to recover funds after €100mn hack",
-          "url": "https://www.ft.com/content/3f6ef089-f478-4d00-a080-21a88ffd721b?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-05T13:28:53.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "3eadfc00c2d3",
-          "title": "Battle-tested European drone maker takes step towards €7bn IPO",
-          "url": "https://www.ft.com/content/58106ce0-31ec-4814-b1b4-bba34778e9e7?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-05T12:59:10.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "97a37684b14b",
-          "title": "Wall Street bets Democratic sweep will empower moderates in Washington",
-          "url": "https://www.ft.com/content/18739027-d5cc-4e18-825e-d43ac7d1ef9f?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-05T11:00:07.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "ea23526373c7",
-          "title": "How will the Democrats’ sweep shape policy and markets?",
-          "url": "https://www.ft.com/content/d0f7a709-3c57-4cd4-8467-4516a58d9749?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-05T05:00:00.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "1f8196de7abd",
-          "title": "US stocks post best day since August after Democrats sweep midterms",
-          "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-05T03:11:55.000Z",
+          "id": "3a2f46ab267b",
+          "title": "Why investors soured on the Democrats",
+          "url": "https://www.ft.com/content/f49c25d4-d77c-415d-b25b-5aaf7aaaac4a?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-06T05:00:00.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
@@ -159,49 +161,62 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "861ee384f845",
-          "title": "Lula Consults Mantega, Leftist Economists on Plans for New Term",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-05/lula-consults-mantega-leftist-economists-on-plans-for-new-term",
-          "publishedAt": "2026-11-05T17:48:55.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "0f5dcf2d3c69",
-          "title": "Treasuries Soar as Tech-Stock Selloff Lures Investors to Havens",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-05/treasuries-extend-advance-as-technology-shares-resume-slide",
-          "publishedAt": "2026-11-05T15:54:44.000Z",
-          "teaser": "Treasuries rose as a Democratic sweep in the US midterms led to a selloff in shares of large US technology companies, stoking demand for havens.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "75fd3bbde8f8",
-          "title": "Carlyle Shares Slump On Bigger-Than-Expected Drop in Fees",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-05/carlyle-beats-as-deal-exits-mitigate-dip-in-fee-related-earnings",
-          "publishedAt": "2026-11-05T11:01:00.000Z",
-          "teaser": "Carlyle Group Inc. shares fell the most in more than a year after the firm reported a bigger-than-expected drop in a key measure of earnings as a slew of exits left the firm with fewer fee-generating assets.",
+          "id": "ec6ddcd02134",
+          "title": "Millennium Parting Ways With Two More Credit Trading Pods",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/millennium-parting-ways-with-two-more-credit-trading-pods",
+          "publishedAt": "2026-11-06T15:48:00.000Z",
+          "teaser": "At least two more credit trading pods running money for Millennium Management are leaving the hedge fund giant.",
           "firms": [
-            "Carlyle"
+            "Millennium"
           ],
+          "section": "hedge-funds"
+        },
+        {
+          "id": "a4c887acfc8e",
+          "title": "Goldman US Stock Panic Gauge Hits Extreme, Signaling Rebound",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/goldman-s-us-stock-panic-gauge-hits-extreme-signaling-rebound",
+          "publishedAt": "2026-11-06T15:28:07.000Z",
+          "teaser": "Goldman Sachs Group Inc. traders said the violent selloff in US equities has pushed market panic to an extreme level that historically signals a strong rebound over the medium term.",
+          "firms": [
+            "Goldman Sachs"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "28c2d038c17b",
+          "title": "Anthropic IPO Buyers See Valuation as Low as $1.1 Trillion",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+          "publishedAt": "2026-11-06T13:12:57.000Z",
+          "teaser": "Anthropic PBC’s initial public offering plans ran into a punishing post-election selloff, prompting a rethink among prospective investors of the company’s expected valuation.",
+          "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "46d6303679dc",
-          "title": "Gold Pares Gains as Tech Rout Prompts Investors to Cut Risk",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/gold-holds-above-4-000-as-dollar-yields-fall-on-midterm-result",
-          "publishedAt": "2026-11-04T23:58:33.000Z",
-          "teaser": "Gold pared gains as some investors sold the precious metal to reduce exposure, with risk-off sentiment deepening across broader markets.",
+          "id": "7442a0deb75b",
+          "title": "Brookfield Raises $25 Billion Amid AI Push as Profits Rise",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/brookfield-raises-123-billion-amid-ai-build-out-as-profits-rise",
+          "publishedAt": "2026-11-06T12:09:41.000Z",
+          "teaser": "Brookfield Asset Management raised $25 billion in the third quarter, driven by credit and infrastructure, as the money manager positions itself as a key player funding the build-out of artificial intelligence.",
+          "firms": [
+            "Brookfield"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "4ec03c4b3e52",
+          "title": "Brazil Puts Rare Earths at Heart of Critical Minerals Push",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-05/brazil-puts-rare-earths-copper-atop-critical-minerals-list",
+          "publishedAt": "2026-11-05T22:50:30.000Z",
+          "teaser": "Brazil approved its first list of critical and strategic minerals under a new national policy aimed at attracting investment and expanding domestic processing of resources increasingly sought by Western countries to reduce reliance on China.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "8d9d77161f50",
-          "title": "Nasdaq 100 Sinks 5% as Chipmaker Selloff Deepens: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
-          "publishedAt": "2026-11-04T22:15:04.000Z",
-          "teaser": "A post-election slide in chipmakers snowballed, dragging the Nasdaq 100 down 5%, as investors bailed from the sector on speculation congressional Democrats will clamp down on the artificial-intelligence industry.",
+          "id": "b5f12c05884a",
+          "title": "DraftKings Plunges 29% After Slashing Profit Projection",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-05/draftkings-plunges-on-2027-forecast-that-misses-estimates",
+          "publishedAt": "2026-11-05T21:47:56.000Z",
+          "teaser": "DraftKings Inc. shares fell as much as 29% on Friday after the company sharply reduced its profit forecast as a result of continued investment in its prediction-market product.",
           "firms": [],
           "section": "markets"
         }
@@ -210,6 +225,15 @@
     {
       "id": "economist",
       "items": [
+        {
+          "id": "827ce5d9d3b4",
+          "title": "Markets realise they hate America’s blue wave",
+          "url": "https://www.economist.com/finance-and-economics/2026/11/05/markets-realise-they-hate-americas-blue-wave",
+          "publishedAt": "2026-11-05T23:41:07.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "3c3917ae3049",
           "title": "Can a DoorDash-Instacart fusion stand up to Amazon and Walmart?",
