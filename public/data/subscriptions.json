@@ -1,9 +1,67 @@
 {
-  "generatedAt": "2026-11-06T17:26:46.512Z",
+  "generatedAt": "2026-11-07T16:22:58.539Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
+        {
+          "id": "f3103149aae1",
+          "title": "Berkshire Hathaway’s Quarterly Profit Falls After Investment Gains Shrink",
+          "url": "https://www.wsj.com/business/earnings/berkshire-hathaway-brkb-q3-earnings-report-2026-stock-02843721?mod=rss_markets_main",
+          "publishedAt": "2026-11-07T15:14:00.000Z",
+          "teaser": "The conglomerate posted a 28% decline in quarterly net income after investment gains slumped and the conglomerate’s insurance operations reported lower profits.",
+          "firms": [
+            "Berkshire"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "7acc79f3ad37",
+          "title": "A Berkshire Hathaway Electric Utility Wants a Historic Rate Hike in California",
+          "url": "https://www.wsj.com/business/energy-oil/a-berkshire-hathaway-electric-utility-wants-a-historic-rate-hike-in-california-b7a0cc70?mod=rss_markets_main",
+          "publishedAt": "2026-11-06T23:33:00.000Z",
+          "teaser": "Pacific Power is asking state regulators to approve a 57% rate increase that would boost the typical residential power bill by $120 a month.",
+          "firms": [
+            "Berkshire"
+          ],
+          "section": "private-markets"
+        },
+        {
+          "id": "e05f57e848c8",
+          "title": "The Wild Week That Brought AI Investors to the Brink",
+          "url": "https://www.wsj.com/finance/stocks/midterms-markets-week-ai-trade-97b3fc5d?mod=rss_markets_main",
+          "publishedAt": "2026-11-06T23:29:00.000Z",
+          "teaser": "Democrats’ victories supercharged anxieties that had been building for weeks.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "1734c88b9ec0",
+          "title": "U.S. Stocks Mixed After Jobs Data, Muted AI Rebound",
+          "url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-after-jobs-data-muted-ai-rebound-945344f6?mod=rss_markets_main",
+          "publishedAt": "2026-11-06T22:01:00.000Z",
+          "teaser": "U.S. stocks ended mixed after strong jobs data and a modest rebound for AI companies failed to quell investor nerves about the sustainability of the AI boom.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "fe86d5cf4b11",
+          "title": "Tech Stocks Recover Some Losses",
+          "url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13?mod=rss_markets_main",
+          "publishedAt": "2026-11-06T21:24:00.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "b39ead08465e",
+          "title": "Alphabet’s Drone Unit to Invest Up to $125 Million in New Texas Facility",
+          "url": "https://www.wsj.com/business/alphabets-drone-unit-to-invest-up-to-125-million-in-new-texas-facility-d9725c3b?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-06T19:56:00.000Z",
+          "teaser": "Wing is investing up to $125 million over the next two years on a new manufacturing facility in Fort Worth, with the capacity to build tens of thousands of aircraft each year.",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "7ce9d96488af",
           "title": "Norway’s Oil Fund Reaches $224.5 Million Settlement With KPMG Over SVB Collapse",
@@ -14,17 +72,6 @@
           "section": "private-markets"
         },
         {
-          "id": "996e8ea75f24",
-          "title": "Brookfield Asset Management Fundraises $25 Billion in Quarter, Led by Infrastructure Strategies",
-          "url": "https://www.wsj.com/finance/investing/brookfield-asset-management-fundraises-25-billion-in-quarter-led-by-infrastructure-strategies-b07bc57b?mod=rss_markets_main",
-          "publishedAt": "2026-11-06T12:30:00.000Z",
-          "teaser": "Brookfield Asset Management is seeing no let up in fundraising efforts as it tracks toward a record year, driven by the alternative asset manager’s infrastructure franchise as investors seek out real assets for stability and returns.",
-          "firms": [
-            "Brookfield"
-          ],
-          "section": "private-markets"
-        },
-        {
           "id": "6455f23f3616",
           "title": "Zipline Valuation Soars as Drone Startup Raises Funds, Expands Walmart Deal",
           "url": "https://www.wsj.com/logistics-report/zipline-valuation-soars-as-drone-startup-raises-funds-expands-walmart-deal-48676792?mod=pls_whats_news_us_business_f",
@@ -32,57 +79,50 @@
           "teaser": "Plus, Democrats are targeting Trump’s Canada tariffs, and emails offer a peek into the Houthis’ little-known office for clearing Red Sea transits.",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "63b440f4c8ed",
-          "title": "AI’s Role in Finance Is Here to Stay—and Adoption Near Universal: BDO",
-          "url": "https://www.wsj.com/cfo-journal/ais-role-in-finance-is-here-to-stayand-adoption-near-universal-bdo-801d4137?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-06T11:45:00.000Z",
-          "teaser": "Plus, Wendy’s board rejects offer from Nelson Peltz’s hedge fund.",
-          "firms": [],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "6909d32367db",
-          "title": "Profits Are About as Good as They’ll Get",
-          "url": "https://www.wsj.com/finance/stocks/profits-are-about-as-good-as-theyll-get-72154bc8?mod=rss_markets_main",
-          "publishedAt": "2026-11-06T11:44:00.000Z",
-          "teaser": "Plus, tech investors are in shock.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "4635206fb83c",
-          "title": "What the Midterm Shake-Up Means for Markets and Investors",
-          "url": "https://www.wsj.com/finance/investing/what-the-midterm-shake-up-means-for-markets-and-investors-b1135215?mod=rss_markets_main",
-          "publishedAt": "2026-11-06T10:42:00.000Z",
-          "teaser": "Plus, Israel’s most important alliance confronts its biggest test in decades, and what’s next for Texas after the Democratic sweep.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "5dadb7945b31",
-          "title": "Healthcare Stocks Caught Up in Market Selloff",
-          "url": "https://www.wsj.com/finance/stocks/nikkei-falls-5-9-dragged-by-chip-stocks-d8937761?mod=rss_markets_main",
-          "publishedAt": "2026-11-06T10:11:00.000Z",
-          "teaser": "European healthcare stocks were being caught up in the wider market selloff, possibly hit by investors taking profits on recent gains in the sector, Wealth Club said.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "136c3a296829",
-          "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation",
-          "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b?mod=rss_markets_main",
-          "publishedAt": "2026-11-06T04:36:00.000Z",
-          "teaser": "Other investors say October financial results could lessen the blow of the market rout.",
-          "firms": [],
-          "section": "private-equity"
         }
       ]
     },
     {
       "id": "ft",
       "items": [
+        {
+          "id": "63307c236c9d",
+          "title": "Berkshire Hathaway ploughs $9.6bn into share buybacks",
+          "url": "https://www.ft.com/content/1f153350-2377-4e48-a073-0539376eab4c?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-07T15:18:43.000Z",
+          "teaser": "",
+          "firms": [
+            "Berkshire"
+          ],
+          "section": "private-markets"
+        },
+        {
+          "id": "1711556ac2f5",
+          "title": "How Wall Street’s all-in bet on AI blew up",
+          "url": "https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-07T05:00:31.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "hedge-funds"
+        },
+        {
+          "id": "6800a6c7d09f",
+          "title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
+          "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-06T21:00:09.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "80f2aa522904",
+          "title": "A new phase in the tech market correction",
+          "url": "https://www.ft.com/content/a91d70f1-d335-4d58-a6d8-1052658211ba?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-06T18:24:44.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "1abac3d1740e",
           "title": "UK retail investors buy the dip after bruising tech sell-off",
@@ -118,42 +158,6 @@
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "cf2f4693ec36",
-          "title": "Telecoms entrepreneur behind ‘breathtaking fraud’ hit with freezing orders",
-          "url": "https://www.ft.com/content/aa99a49b-d6fa-473e-9e8a-7d7906ab4f79?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-06T12:23:58.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "b2cde2aa7c46",
-          "title": "Monzo explores fundraising at £7.5bn valuation as private equity talks stall",
-          "url": "https://www.ft.com/content/6553ec40-00a8-4832-8ca5-c528b9da224a?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-06T07:44:30.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "4fb1b4a18dae",
-          "title": "Ark Invest wants to bring some ‘disruptive innovation’ to interval funds",
-          "url": "https://www.ft.com/content/dce2b9da-a4c6-4016-af78-7c41ac41a6b0",
-          "publishedAt": "2026-11-06T06:00:04.000Z",
-          "teaser": "Tokenised, exchange-traded interval funds with venture capital exposure and hedge fund-level fees.",
-          "firms": [],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "3a2f46ab267b",
-          "title": "Why investors soured on the Democrats",
-          "url": "https://www.ft.com/content/f49c25d4-d77c-415d-b25b-5aaf7aaaac4a?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-06T05:00:00.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -161,62 +165,49 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "ec6ddcd02134",
-          "title": "Millennium Parting Ways With Two More Credit Trading Pods",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/millennium-parting-ways-with-two-more-credit-trading-pods",
-          "publishedAt": "2026-11-06T15:48:00.000Z",
-          "teaser": "At least two more credit trading pods running money for Millennium Management are leaving the hedge fund giant.",
-          "firms": [
-            "Millennium"
-          ],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "a4c887acfc8e",
-          "title": "Goldman US Stock Panic Gauge Hits Extreme, Signaling Rebound",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/goldman-s-us-stock-panic-gauge-hits-extreme-signaling-rebound",
-          "publishedAt": "2026-11-06T15:28:07.000Z",
-          "teaser": "Goldman Sachs Group Inc. traders said the violent selloff in US equities has pushed market panic to an extreme level that historically signals a strong rebound over the medium term.",
-          "firms": [
-            "Goldman Sachs"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "28c2d038c17b",
-          "title": "Anthropic IPO Buyers See Valuation as Low as $1.1 Trillion",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-          "publishedAt": "2026-11-06T13:12:57.000Z",
-          "teaser": "Anthropic PBC’s initial public offering plans ran into a punishing post-election selloff, prompting a rethink among prospective investors of the company’s expected valuation.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "7442a0deb75b",
-          "title": "Brookfield Raises $25 Billion Amid AI Push as Profits Rise",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/brookfield-raises-123-billion-amid-ai-build-out-as-profits-rise",
-          "publishedAt": "2026-11-06T12:09:41.000Z",
-          "teaser": "Brookfield Asset Management raised $25 billion in the third quarter, driven by credit and infrastructure, as the money manager positions itself as a key player funding the build-out of artificial intelligence.",
-          "firms": [
-            "Brookfield"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "4ec03c4b3e52",
-          "title": "Brazil Puts Rare Earths at Heart of Critical Minerals Push",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-05/brazil-puts-rare-earths-copper-atop-critical-minerals-list",
-          "publishedAt": "2026-11-05T22:50:30.000Z",
-          "teaser": "Brazil approved its first list of critical and strategic minerals under a new national policy aimed at attracting investment and expanding domestic processing of resources increasingly sought by Western countries to reduce reliance on China.",
+          "id": "40cfba93fc4d",
+          "title": "Protein Craze Fuels an Investment Boom in Livestock Health",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/protein-craze-fuels-an-investment-boom-in-livestock-health",
+          "publishedAt": "2026-11-07T15:00:00.000Z",
+          "teaser": "Animal health companies are tapping into the protein craze, investing billions of dollars to build up businesses focused on making cattle, pigs and poultry healthier for human consumption.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "b5f12c05884a",
-          "title": "DraftKings Plunges 29% After Slashing Profit Projection",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-05/draftkings-plunges-on-2027-forecast-that-misses-estimates",
-          "publishedAt": "2026-11-05T21:47:56.000Z",
-          "teaser": "DraftKings Inc. shares fell as much as 29% on Friday after the company sharply reduced its profit forecast as a result of continued investment in its prediction-market product.",
+          "id": "8db4e0c6639f",
+          "title": "Turkey Arrests Former Regulatory Executive in Growing Fund Probe",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/turkey-arrests-former-regulatory-executive-in-growing-fund-probe",
+          "publishedAt": "2026-11-07T13:56:55.000Z",
+          "teaser": "Turkish authorities arrested the former deputy chairman of the country’s markets regulator, state-run Anadolu Agency reported on Saturday, the latest executive to be caught up in a widening fund scandal.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "564b3c4b95e7",
+          "title": "Wall Street Strategists Call Stock Rout a Fresh Reason to Buy",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/wall-street-strategists-call-stock-rout-a-fresh-reason-to-buy",
+          "publishedAt": "2026-11-07T13:30:00.000Z",
+          "teaser": "A slew of Wall Street strategists were banking on a short-term selloff following the US midterm elections to give investors an opportunity to buy stocks at a discount.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "4b05da619487",
+          "title": "Berkshire Hathaway Boosts Buybacks as Operating Income Slips",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/berkshire-hathaway-s-operating-earnings-fall-buybacks-rise",
+          "publishedAt": "2026-11-07T13:01:21.000Z",
+          "teaser": "Berkshire Hathaway Inc. spent about $9.6 billion to buy back its own shares in the third quarter, a sign the company’s executives viewed the stock as undervalued.",
+          "firms": [
+            "Berkshire"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "7a73c8b66fd9",
+          "title": "How a Bank Scandal Is Taking Down Trump’s Ally in Paraguay",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/how-a-banking-scandal-is-taking-down-trump-s-ally-in-paraguay",
+          "publishedAt": "2026-11-06T00:24:58.000Z",
+          "teaser": "Officials at the Inter-American Development Bank’s investment arm suspected something was off almost as soon as they walked through the doors of Paraguay’s Ueno Bank SA.",
           "firms": [],
           "section": "markets"
         }
