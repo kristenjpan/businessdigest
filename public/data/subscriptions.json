@@ -1,82 +1,82 @@
 {
-  "generatedAt": "2026-11-08T16:38:26.368Z",
+  "generatedAt": "2026-11-09T20:40:36.560Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "22205520eaf1",
-          "title": "After a Tech Rout, Stock Funds Hold a 9.9% Gain for 2026",
-          "url": "https://www.wsj.com/finance/investing/after-tech-rout-stock-funds-hold-9-9-gain-2026-9d6d9773?mod=rss_markets_main",
-          "publishedAt": "2026-11-08T15:00:00.000Z",
-          "teaser": "Fund investors in October felt the downdraft in artificial-intelligence shares.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "3accb62aac4d",
-          "title": "DoorDash Shareholders Aren’t Convinced the Company Can Take On Amazon",
-          "url": "https://www.wsj.com/business/retail/doordash-shareholders-arent-convinced-the-company-can-take-on-amazon-bdb22c70?mod=rss_markets_main",
-          "publishedAt": "2026-11-08T10:30:00.000Z",
-          "teaser": "Following Instacart acquisition plans and an Amazon deal with rival Uber Eats, DoorDash stock is on sale.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "914ca459aa01",
-          "title": "The Shadowy Crypto Services Helping the Binance Hackers Launder Stolen Billions",
-          "url": "https://www.wsj.com/finance/currencies/the-shadowy-crypto-services-helping-the-binance-hackers-launder-stolen-billions-28641737?mod=rss_markets_main",
-          "publishedAt": "2026-11-07T17:00:00.000Z",
-          "teaser": "Some crypto developers say they can’t stop North Korean hackers from laundering stolen funds through their platforms, frustrating law enforcement.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "f3103149aae1",
-          "title": "Berkshire Hathaway’s Quarterly Profit Falls After Investment Gains Shrink",
-          "url": "https://www.wsj.com/business/earnings/berkshire-hathaway-brkb-q3-earnings-report-2026-stock-02843721?mod=rss_markets_main",
-          "publishedAt": "2026-11-07T15:14:00.000Z",
-          "teaser": "The conglomerate posted a 28% decline in quarterly net income after investment gains slumped and its insurance operations reported lower profits.",
+          "id": "a7b7fd072f68",
+          "title": "KKR’s Nuttall Says Firm to Be Cautious With AI Bets",
+          "url": "https://www.wsj.com/pro/private-equity/kkr-profit-rises-on-fee-related-earnings-growth-4a62dcfb?mod=rss_markets_main",
+          "publishedAt": "2026-11-09T20:31:00.000Z",
+          "teaser": "The alternative-asset manager reported higher-than-expected third-quarter profit while telling investors its AI exposure is limited.",
           "firms": [
-            "Berkshire"
+            "KKR"
           ],
           "section": "markets"
         },
         {
-          "id": "7acc79f3ad37",
-          "title": "A Berkshire Hathaway Electric Utility Wants a Historic Rate Hike in California",
-          "url": "https://www.wsj.com/business/energy-oil/a-berkshire-hathaway-electric-utility-wants-a-historic-rate-hike-in-california-b7a0cc70?mod=rss_markets_main",
-          "publishedAt": "2026-11-06T23:33:00.000Z",
-          "teaser": "Pacific Power is asking state regulators to approve a 57% rate increase that would boost the typical residential power bill by $120 a month.",
+          "id": "3e570e1487c6",
+          "title": "Jensen Huang Doesn’t Believe in Succession Planning. It’s Become a Big Risk for Nvidia.",
+          "url": "https://www.wsj.com/tech/jensen-huang-doesnt-believe-in-succession-planning-its-become-a-big-risk-for-nvidia-abd9ea9d?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-09T19:59:00.000Z",
+          "teaser": "The board of directors has launched an investigation into reports that the CEO was targeted by a Chinese spy.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "893110675e97",
+          "title": "U.S., Eurozone Bond Yields Rise Ahead of Inflation, Rates Outlook",
+          "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-lower-as-oil-prices-decline-71869e97?mod=rss_markets_main",
+          "publishedAt": "2026-11-09T19:33:00.000Z",
+          "teaser": "U.S. and eurozone government bond yields rose as investors pivoted back to economic fundamentals.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "6f6cedc53b46",
+          "title": "AI Backlash Weighs on Dollar",
+          "url": "https://www.wsj.com/finance/currencies/new-zealand-dollar-climbs-as-traders-await-election-result-033c6116?mod=rss_markets_main",
+          "publishedAt": "2026-11-09T19:33:00.000Z",
+          "teaser": "The dollar weakened as the political backlash against AI infrastructure weighed on the currency.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "578ca0896216",
+          "title": "Jensen Huang’s Affair Rings Alarm Bells for Nvidia Investors",
+          "url": "https://www.wsj.com/finance/stocks/jensen-huangs-affair-rings-alarm-bells-for-nvidia-investors-03e79135?mod=rss_markets_main",
+          "publishedAt": "2026-11-09T19:30:00.000Z",
+          "teaser": "Even if the woman Huang had an affair with isn’t a spy, a relationship with an executive of a major customer should matter to shareholders.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "3fc51a995561",
+          "title": "U.S. Stocks Leap Despite Nvidia Slide",
+          "url": "https://www.wsj.com/finance/stocks/stock-futures-treasurys-steady-but-nvidia-slides-premarket-on-huang-probe-31deea55?mod=rss_markets_main",
+          "publishedAt": "2026-11-09T19:29:00.000Z",
+          "teaser": "U.S. stocks jumped, even as Nvidia’s shares sank after the company’s board launched an investigation into CEO Jensen Huang.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "7c74f031cd33",
+          "title": "Canada Taps Senior Bridgewater Executive to Run Sovereign Wealth Fund",
+          "url": "https://www.wsj.com/world/americas/canada-taps-senior-bridgewater-executive-to-run-sovereign-wealth-fund-d1e3a284?mod=rss_markets_main",
+          "publishedAt": "2026-11-09T17:13:00.000Z",
+          "teaser": "Karen Karniol-Tambour’s appointment marks the next step in Prime Minister Mark Carney’s effort to jump start the construction of so-called national projects, and help promising domestic startups expand.",
           "firms": [
-            "Berkshire"
+            "Bridgewater"
           ],
           "section": "private-markets"
         },
         {
-          "id": "e05f57e848c8",
-          "title": "The Wild Week That Brought AI Investors to the Brink",
-          "url": "https://www.wsj.com/finance/stocks/midterms-markets-week-ai-trade-97b3fc5d?mod=rss_markets_main",
-          "publishedAt": "2026-11-06T23:29:00.000Z",
-          "teaser": "Democrats’ victories supercharged anxieties that had been building for weeks.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "1734c88b9ec0",
-          "title": "U.S. Stocks Mixed After Jobs Data, Muted AI Rebound",
-          "url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-after-jobs-data-muted-ai-rebound-945344f6?mod=rss_markets_main",
-          "publishedAt": "2026-11-06T22:01:00.000Z",
-          "teaser": "U.S. stocks ended mixed after strong jobs data and a modest rebound for AI companies failed to quell investor nerves about the sustainability of the AI boom.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "fe86d5cf4b11",
-          "title": "Tech Stocks Recover Some Losses",
-          "url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13?mod=rss_markets_main",
-          "publishedAt": "2026-11-06T21:24:00.000Z",
-          "teaser": "",
+          "id": "2f10ac00bab0",
+          "title": "Honda to Invest $3 Billion in New Ohio Plant to Boost Hybrid Vehicle Production",
+          "url": "https://www.wsj.com/business/autos/honda-to-invest-3-billion-in-new-ohio-plant-to-boost-hybrid-vehicle-production-4b2c7bc6?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-09T16:56:00.000Z",
+          "teaser": "The facility, which is expected to begin production in 2029, would be capable of building 240,000 vehicles a year, bringing the company’s total U.S. auto production capacity to about 1.3 million annually.",
           "firms": [],
           "section": "markets"
         }
@@ -85,6 +85,42 @@
     {
       "id": "ft",
       "items": [
+        {
+          "id": "ff160daec81b",
+          "title": "Nvidia shares fall as it probes alleged Chinese spy scandal",
+          "url": "https://www.ft.com/content/fa3b0a35-1aa9-4f31-97b4-e4c599e3e654?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-09T19:53:16.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "c2bc6f2eec8b",
+          "title": "Fund manager Nick Train has best month since 2000 on back of AI sell-off",
+          "url": "https://www.ft.com/content/e3a7d3b9-5391-4f2d-a12a-2b252a18b73a?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-09T16:21:23.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "624b1fdcbf9a",
+          "title": "Alleged Chinese spy linked to Nvidia chief pitched AI chip deals to investors",
+          "url": "https://www.ft.com/content/5d8c1e1d-6ce0-4eb4-9f5c-722fa5c4841d?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-09T15:35:45.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "d69b309a59d5",
+          "title": "How BP and Shell fell out of love with the forecourt",
+          "url": "https://www.ft.com/content/a4340e1e-a849-4e42-938e-dec328fa13d0?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-09T05:00:07.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "hedge-funds"
+        },
         {
           "id": "58803d962dbb",
           "title": "Private equity firm seeks to take control of LIV Golf from Saudi wealth fund",
@@ -102,44 +138,6 @@
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "63307c236c9d",
-          "title": "Berkshire Hathaway steps up share buybacks with $9.6bn of purchases",
-          "url": "https://www.ft.com/content/1f153350-2377-4e48-a073-0539376eab4c?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-07T16:43:06.000Z",
-          "teaser": "",
-          "firms": [
-            "Berkshire"
-          ],
-          "section": "private-markets"
-        },
-        {
-          "id": "1711556ac2f5",
-          "title": "How Wall Street’s all-in bet on AI blew up",
-          "url": "https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-07T05:00:31.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "6800a6c7d09f",
-          "title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
-          "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-06T21:00:09.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "80f2aa522904",
-          "title": "A new phase in the tech market correction",
-          "url": "https://www.ft.com/content/a91d70f1-d335-4d58-a6d8-1052658211ba?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-06T18:24:44.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -147,49 +145,58 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "a90fc44c9f34",
-          "title": "Wall Street Races for Megadeals as Countdown Begins on Trump Era",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-08/wall-street-races-for-megadeals-as-countdown-begins-on-trump-era",
-          "publishedAt": "2026-11-08T14:00:00.000Z",
-          "teaser": "President Donald Trump’s return to the White House changed the political calculus around mergers and acquisitions, reviving companies’ desire for dream deals that had become difficult to pull off.",
+          "id": "1050604b3a5c",
+          "title": "Private Credit Lenders Eye $1.3 Billion Loan for Fullscript",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/private-credit-lenders-eye-1-3-billion-loan-for-fullscript",
+          "publishedAt": "2026-11-09T19:44:30.000Z",
+          "teaser": "A group of private credit lenders is in talks to provide a $1.3 billion loan to finance L Catterton’s acquisition of healthcare platform Fullscript, after the deal was unable to drum up enough interest in the leveraged loan market.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "157f0a73042e",
+          "title": "Australia Watchdog Probes Bathla as Private Credit Flaws Persist",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/australia-watchdog-probes-bathla-as-private-credit-flaws-persist",
+          "publishedAt": "2026-11-09T18:00:00.000Z",
+          "teaser": "Australia’s corporate regulator has opened an investigation into insolvent Sydney developer Bathla Group as its latest surveillance showed that poor practices persist in the country’s A$250 billion ($172 billion) private credit industry.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "817aeb98b2af",
+          "title": "Ecopetrol Is Selling $2 Billion in Bonds in Global Markets",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/ecopetrol-taps-bond-market-for-the-first-time-in-two-years",
+          "publishedAt": "2026-11-09T17:11:42.000Z",
+          "teaser": "Ecopetrol SA is offering dollar bonds for the first time in more than two years, the second Colombian company to tap global markets this month as it refinances debt used to fund its expansion in Brazil.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "79bedbc53926",
-          "title": "Democratic Sweep Tests Trump-Linked Trades Across Latin America",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-08/democratic-sweep-tests-trump-linked-trades-across-latin-america",
-          "publishedAt": "2026-11-08T13:30:00.000Z",
-          "teaser": "Investors who spent the past year factoring countries’ standing with Donald Trump into their Latin America trades are confronting a new variable: a Democratic-controlled US Congress.",
+          "id": "725c86b11b7c",
+          "title": "Most Treasuries Fall as Investors Regain Risk Appetite",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/treasuries-fall-before-auction-as-investors-regain-risk-appetite",
+          "publishedAt": "2026-11-09T17:03:34.000Z",
+          "teaser": "Most Treasuries fell as investor appetite for riskier assets including stocks and corporate bonds recovered, damping the appeal of US government bonds as a hedge.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "ad25358cfef5",
-          "title": "China Set to Lead World in Energy Investment in 2026, CCTV Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-08/china-set-to-lead-world-in-energy-investment-in-2026-cctv-says",
-          "publishedAt": "2026-11-08T04:02:33.000Z",
-          "teaser": "China is expected to invest $940 billion in energy in 2026, the most by any country, according to the Global Energy Transition Report 2026 released by the China Enterprise Reform and Development Society, China Central Television reported Sunday.",
+          "id": "dfff8bc32bec",
+          "title": "US Natural Gas Surges Most in Six Weeks, Triggers Short Squeeze",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/us-natural-gas-jumps-as-cooler-forecasts-trigger-short-covering",
+          "publishedAt": "2026-11-09T14:47:05.000Z",
+          "teaser": "US natural gas futures jumped by as much as 8.3%, the most since September, after forecasts for cooler weather along the Atlantic seaboard gave prices an upward push and forced hedge funds to unwind bearish bets.",
+          "firms": [],
+          "section": "hedge-funds"
+        },
+        {
+          "id": "c16f63ca5b81",
+          "title": "Anthropic IPO’s Moment of Truth Nears as Waiting Period Ends",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/anthropic-ipo-s-moment-of-truth-nears-as-waiting-period-expires",
+          "publishedAt": "2026-11-09T14:20:12.000Z",
+          "teaser": "Anthropic PBC can begin formally marketing its much-anticipated IPO as early as Tuesday, enabling it to make the case to investors that now is the right time to go public despite last week’s swoon in artificial intelligence-related stocks.",
           "firms": [],
           "section": "private-equity"
-        },
-        {
-          "id": "78173ad27f43",
-          "title": "AI Slump Revives Asia’s Forgotten Trades From China to India",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-08/ai-slump-revives-asia-s-forgotten-trades-from-china-to-india",
-          "publishedAt": "2026-11-08T00:00:00.000Z",
-          "teaser": "The unraveling of the AI trade after the US midterm elections is forcing investors to rethink their Asia playbook, reviving demand for out-of-favor Chinese and Indian stocks as well as companies poised to benefit from easing inflation and trade tensions.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "8db4e0c6639f",
-          "title": "Top Turkish Regulators Taken Into Custody in Fund Probe",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-07/turkey-arrests-former-regulatory-executive-in-growing-fund-probe",
-          "publishedAt": "2026-11-07T13:56:55.000Z",
-          "teaser": "Turkish authorities detained top officials from the country’s regulators on Saturday, local media reported, the latest executives to be caught up in a widening fund scandal.",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
