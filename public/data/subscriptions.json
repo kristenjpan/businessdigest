@@ -1,84 +1,80 @@
 {
-  "generatedAt": "2026-11-09T20:40:36.560Z",
+  "generatedAt": "2026-11-10T17:44:50.249Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "a7b7fd072f68",
-          "title": "KKR’s Nuttall Says Firm to Be Cautious With AI Bets",
-          "url": "https://www.wsj.com/pro/private-equity/kkr-profit-rises-on-fee-related-earnings-growth-4a62dcfb?mod=rss_markets_main",
-          "publishedAt": "2026-11-09T20:31:00.000Z",
-          "teaser": "The alternative-asset manager reported higher-than-expected third-quarter profit while telling investors its AI exposure is limited.",
-          "firms": [
-            "KKR"
-          ],
-          "section": "markets"
+          "id": "9610b34a23e2",
+          "title": "Anthropic to Seek $1.3 Trillion Valuation in IPO",
+          "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-valuation-8337b669?mod=rss_markets_main",
+          "publishedAt": "2026-11-10T15:40:00.000Z",
+          "teaser": "The Claude maker’s stock-market debut is seen as a litmus test for investors on edge over the AI trade.",
+          "firms": [],
+          "section": "private-equity"
         },
         {
-          "id": "3e570e1487c6",
-          "title": "Jensen Huang Doesn’t Believe in Succession Planning. It’s Become a Big Risk for Nvidia.",
-          "url": "https://www.wsj.com/tech/jensen-huang-doesnt-believe-in-succession-planning-its-become-a-big-risk-for-nvidia-abd9ea9d?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-09T19:59:00.000Z",
-          "teaser": "The board of directors has launched an investigation into reports that the CEO was targeted by a Chinese spy.",
+          "id": "dec3a88d4e18",
+          "title": "Why Nvidia CEO Jensen Huang Is Unique",
+          "url": "https://www.wsj.com/cio-journal/why-nvidia-ceo-jensen-huang-is-unique-586439c8?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-10T14:28:00.000Z",
+          "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "893110675e97",
-          "title": "U.S., Eurozone Bond Yields Rise Ahead of Inflation, Rates Outlook",
-          "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-lower-as-oil-prices-decline-71869e97?mod=rss_markets_main",
-          "publishedAt": "2026-11-09T19:33:00.000Z",
-          "teaser": "U.S. and eurozone government bond yields rose as investors pivoted back to economic fundamentals.",
+          "id": "e07ad8f6db02",
+          "title": "Why the Credit Default Swap Market—Red Hot in the AI Trade—Is Vital for CFOs",
+          "url": "https://www.wsj.com/cfo-journal/why-the-credit-default-swap-marketred-hot-in-the-ai-tradeis-vital-for-cfos-9a8aac4a?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-10T11:59:00.000Z",
+          "teaser": "Plus, the key-man risk at Nvidia following the company board’s probe into CEO Jensen Huang.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "6f6cedc53b46",
-          "title": "AI Backlash Weighs on Dollar",
-          "url": "https://www.wsj.com/finance/currencies/new-zealand-dollar-climbs-as-traders-await-election-result-033c6116?mod=rss_markets_main",
-          "publishedAt": "2026-11-09T19:33:00.000Z",
-          "teaser": "The dollar weakened as the political backlash against AI infrastructure weighed on the currency.",
+          "id": "607b59ebe6ab",
+          "title": "CoreWeave Brings AI’s Financing Concern Into Focus",
+          "url": "https://www.wsj.com/finance/investing/coreweave-brings-ais-financing-concern-into-focus-20f3a19e?mod=rss_markets_main",
+          "publishedAt": "2026-11-10T11:25:00.000Z",
+          "teaser": "Plus, Nvidia’s spy-scandal storm rages, and corporate America braces for investigations.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "578ca0896216",
-          "title": "Jensen Huang’s Affair Rings Alarm Bells for Nvidia Investors",
-          "url": "https://www.wsj.com/finance/stocks/jensen-huangs-affair-rings-alarm-bells-for-nvidia-investors-03e79135?mod=rss_markets_main",
-          "publishedAt": "2026-11-09T19:30:00.000Z",
-          "teaser": "Even if the woman Huang had an affair with isn’t a spy, a relationship with an executive of a major customer should matter to shareholders.",
+          "id": "e03136a89e94",
+          "title": "Capitol Hill’s Bark Is Worse Than Its Bite for Bank Stocks",
+          "url": "https://www.wsj.com/finance/investing/capitol-hills-bark-is-worse-than-its-bite-for-bank-stocks-a6a6ce84?mod=rss_markets_main",
+          "publishedAt": "2026-11-10T11:25:00.000Z",
+          "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "3fc51a995561",
-          "title": "U.S. Stocks Leap Despite Nvidia Slide",
-          "url": "https://www.wsj.com/finance/stocks/stock-futures-treasurys-steady-but-nvidia-slides-premarket-on-huang-probe-31deea55?mod=rss_markets_main",
-          "publishedAt": "2026-11-09T19:29:00.000Z",
-          "teaser": "U.S. stocks jumped, even as Nvidia’s shares sank after the company’s board launched an investigation into CEO Jensen Huang.",
+          "id": "463e68e7a269",
+          "title": "Wall Street Pay Set to Climb After Volatile Markets and IPOs Fuel Bank Profits",
+          "url": "https://www.wsj.com/finance/wall-street-pay-set-to-climb-after-volatile-markets-and-ipos-fuel-bank-profits-94fd9137?mod=rss_markets_main",
+          "publishedAt": "2026-11-10T11:00:00.000Z",
+          "teaser": "Traders and investment bankers are set to see among the biggest bumps in bonuses.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "ba63fa69527e",
+          "title": "Volkswagen Backer Porsche SE Urges Faster Cost Cuts as Losses Mount",
+          "url": "https://www.wsj.com/business/earnings/volkswagen-backer-porsche-se-urges-faster-cost-cuts-as-losses-mount-152e5422?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-10T08:50:00.000Z",
+          "teaser": "Volkswagen’s major shareholder said it swung to a loss in the first nine months of the year, mainly due to an impairment on the value of its investments in Volkswagen and sports-car maker Porsche AG.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "7c74f031cd33",
-          "title": "Canada Taps Senior Bridgewater Executive to Run Sovereign Wealth Fund",
-          "url": "https://www.wsj.com/world/americas/canada-taps-senior-bridgewater-executive-to-run-sovereign-wealth-fund-d1e3a284?mod=rss_markets_main",
-          "publishedAt": "2026-11-09T17:13:00.000Z",
-          "teaser": "Karen Karniol-Tambour’s appointment marks the next step in Prime Minister Mark Carney’s effort to jump start the construction of so-called national projects, and help promising domestic startups expand.",
-          "firms": [
-            "Bridgewater"
-          ],
-          "section": "private-markets"
-        },
-        {
-          "id": "2f10ac00bab0",
-          "title": "Honda to Invest $3 Billion in New Ohio Plant to Boost Hybrid Vehicle Production",
-          "url": "https://www.wsj.com/business/autos/honda-to-invest-3-billion-in-new-ohio-plant-to-boost-hybrid-vehicle-production-4b2c7bc6?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-09T16:56:00.000Z",
-          "teaser": "The facility, which is expected to begin production in 2029, would be capable of building 240,000 vehicles a year, bringing the company’s total U.S. auto production capacity to about 1.3 million annually.",
+          "id": "c770af9552e2",
+          "title": "Banco BPM Says Board to Discuss Credit Agricole Merger Proposal",
+          "url": "https://www.wsj.com/finance/banco-bpm-says-board-to-discuss-credit-agricole-merger-proposal-c58b61e7?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-10T06:38:00.000Z",
+          "teaser": "Banco BPM said its board would discuss a proposal it received from its largest shareholder, Credit Agricole, regarding a combination with the French bank’s Italian operations.",
           "firms": [],
-          "section": "markets"
+          "section": "private-equity"
         }
       ]
     },
@@ -86,10 +82,48 @@
       "id": "ft",
       "items": [
         {
+          "id": "8792b1f1c155",
+          "title": "Goldman Sachs expects Anthropic revenue to exceed $600bn by 2030",
+          "url": "https://www.ft.com/content/fd209548-d2df-470c-ab9a-caadbec08b58?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-10T14:52:07.000Z",
+          "teaser": "",
+          "firms": [
+            "Goldman Sachs"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "dbacfd04b532",
+          "title": "Anthropic targets valuation of up to $1.4tn in IPO",
+          "url": "https://www.ft.com/content/5654e210-4be3-4550-b975-129c9a2e7fe5?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-10T13:07:48.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "72157d5e5297",
+          "title": "The index impact of SpaceX’s record-shattering IPO",
+          "url": "https://www.ft.com/content/141176cd-79ce-4633-9def-eaee96db1762",
+          "publishedAt": "2026-11-10T10:11:22.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "e01cc2bdd35a",
+          "title": "Investors pile into defensive stocks amid fears AI bull market may be over",
+          "url": "https://www.ft.com/content/efe9653b-6802-485e-8eae-97fa2e6df770?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-10T05:00:11.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
           "id": "ff160daec81b",
           "title": "Nvidia shares fall as it probes alleged Chinese spy scandal",
           "url": "https://www.ft.com/content/fa3b0a35-1aa9-4f31-97b4-e4c599e3e654?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-09T19:53:16.000Z",
+          "publishedAt": "2026-11-09T21:24:32.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
@@ -102,42 +136,6 @@
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "624b1fdcbf9a",
-          "title": "Alleged Chinese spy linked to Nvidia chief pitched AI chip deals to investors",
-          "url": "https://www.ft.com/content/5d8c1e1d-6ce0-4eb4-9f5c-722fa5c4841d?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-09T15:35:45.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "d69b309a59d5",
-          "title": "How BP and Shell fell out of love with the forecourt",
-          "url": "https://www.ft.com/content/a4340e1e-a849-4e42-938e-dec328fa13d0?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-09T05:00:07.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "58803d962dbb",
-          "title": "Private equity firm seeks to take control of LIV Golf from Saudi wealth fund",
-          "url": "https://www.ft.com/content/cbab2db2-3180-40c5-8fa6-af51adc74768?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-08T14:32:40.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "9c1a60497a9f",
-          "title": "Crypto industry braces for reckoning over Trump ties",
-          "url": "https://www.ft.com/content/f1b98a61-4103-447c-bb9a-3dccc0819f61?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-08T05:00:19.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -145,58 +143,82 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "1050604b3a5c",
-          "title": "Private Credit Lenders Eye $1.3 Billion Loan for Fullscript",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-09/private-credit-lenders-eye-1-3-billion-loan-for-fullscript",
-          "publishedAt": "2026-11-09T19:44:30.000Z",
-          "teaser": "A group of private credit lenders is in talks to provide a $1.3 billion loan to finance L Catterton’s acquisition of healthcare platform Fullscript, after the deal was unable to drum up enough interest in the leveraged loan market.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "157f0a73042e",
-          "title": "Australia Watchdog Probes Bathla as Private Credit Flaws Persist",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-09/australia-watchdog-probes-bathla-as-private-credit-flaws-persist",
-          "publishedAt": "2026-11-09T18:00:00.000Z",
-          "teaser": "Australia’s corporate regulator has opened an investigation into insolvent Sydney developer Bathla Group as its latest surveillance showed that poor practices persist in the country’s A$250 billion ($172 billion) private credit industry.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "817aeb98b2af",
-          "title": "Ecopetrol Is Selling $2 Billion in Bonds in Global Markets",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-09/ecopetrol-taps-bond-market-for-the-first-time-in-two-years",
-          "publishedAt": "2026-11-09T17:11:42.000Z",
-          "teaser": "Ecopetrol SA is offering dollar bonds for the first time in more than two years, the second Colombian company to tap global markets this month as it refinances debt used to fund its expansion in Brazil.",
+          "id": "e9527576cf14",
+          "title": "Peloton Draws $6.8 Billion of Demand for Debut Junk-Bond Sale",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/peloton-draws-6-8-billion-of-demand-for-debut-junk-bond-sale",
+          "publishedAt": "2026-11-10T17:02:51.000Z",
+          "teaser": "Peloton Interactive Inc. has attracted strong investor demand for its debut junk-bond sale, allowing the fitness company to boost the deal’s size and slash borrowing costs.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "725c86b11b7c",
-          "title": "Most Treasuries Fall as Investors Regain Risk Appetite",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-09/treasuries-fall-before-auction-as-investors-regain-risk-appetite",
-          "publishedAt": "2026-11-09T17:03:34.000Z",
-          "teaser": "Most Treasuries fell as investor appetite for riskier assets including stocks and corporate bonds recovered, damping the appeal of US government bonds as a hedge.",
+          "id": "48b65c5c36c2",
+          "title": "Franklin Templeton Brazil Trims Risk, Sees No Changes With Lula",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/franklin-templeton-brazil-trims-risk-sees-no-changes-with-lula",
+          "publishedAt": "2026-11-10T16:56:02.000Z",
+          "teaser": "Franklin Templeton Brazil is cutting risk across its portfolio on expectations that President Luiz Inácio Lula da Silva’s new administration won’t bring about the changes investors see as key to improve the nation’s finances.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "dfff8bc32bec",
-          "title": "US Natural Gas Surges Most in Six Weeks, Triggers Short Squeeze",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-09/us-natural-gas-jumps-as-cooler-forecasts-trigger-short-covering",
-          "publishedAt": "2026-11-09T14:47:05.000Z",
-          "teaser": "US natural gas futures jumped by as much as 8.3%, the most since September, after forecasts for cooler weather along the Atlantic seaboard gave prices an upward push and forced hedge funds to unwind bearish bets.",
+          "id": "304a28e3a614",
+          "title": "Morgan Stanley Says Argentina Bonds Price In Too Much Pessimism",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/morgan-stanley-says-argentina-bonds-price-in-too-much-pessimism",
+          "publishedAt": "2026-11-10T16:53:27.000Z",
+          "teaser": "The selloff in Argentina’s debt amid a dramatic shift in expectations ahead of the country’s presidential election next year has gone too far, according to Morgan Stanley.",
+          "firms": [
+            "Morgan Stanley"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "1489f280fcd5",
+          "title": "UAE Energy Contractor NMDC Plans December Acquisition, CEO Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/uae-energy-contractor-nmdc-plans-december-acquisition-ceo-says",
+          "publishedAt": "2026-11-10T16:37:35.000Z",
+          "teaser": "Energy and marine services company NMDC Group PJSC aims to announce an acquisition next month as the Middle Eastern company looks to boost growth after the war caused a slump in its regional business, said Chief Executive Officer Yasser Zaghloul.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "dba72d63af64",
+          "title": "Hedge Funds Ask SEC, CFTC to Go Slow in Push to 24/7 Trading",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/hedge-funds-ask-sec-cftc-to-go-slow-in-push-to-24-7-trading",
+          "publishedAt": "2026-11-10T16:34:10.000Z",
+          "teaser": "The Trump administration should proceed slowly in the ramp up to round-the-clock trading, the Managed Funds Association said in a letter sent Tuesday to US government regulators.",
           "firms": [],
           "section": "hedge-funds"
         },
         {
-          "id": "c16f63ca5b81",
-          "title": "Anthropic IPO’s Moment of Truth Nears as Waiting Period Ends",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-09/anthropic-ipo-s-moment-of-truth-nears-as-waiting-period-expires",
-          "publishedAt": "2026-11-09T14:20:12.000Z",
-          "teaser": "Anthropic PBC can begin formally marketing its much-anticipated IPO as early as Tuesday, enabling it to make the case to investors that now is the right time to go public despite last week’s swoon in artificial intelligence-related stocks.",
+          "id": "3dc4a2e70ee1",
+          "title": "Tribunal Finds Emerge Canada Mismanaged Cathie Wood-Linked ETFs",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/tribunal-finds-emerge-canada-mismanaged-cathie-wood-linked-etfs",
+          "publishedAt": "2026-11-10T16:28:30.000Z",
+          "teaser": "The failed investment firm that sold Toronto-listed versions of Cathie Wood’s exchange-traded funds took self-dealing loans, maintained improper records and failed to act in the best interest of its funds, Canada’s top securities regulator ruled.",
           "firms": [],
-          "section": "private-equity"
+          "section": "markets"
+        },
+        {
+          "id": "3368004116fa",
+          "title": "Goldman, Citi Among Banks in $270 Million Stablecoin Backing",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/goldman-citi-among-banks-in-270-million-stablecoin-backing",
+          "publishedAt": "2026-11-10T16:12:55.000Z",
+          "teaser": "A group of financial firms including Goldman Sachs Group Inc., Citigroup Inc., Banco Santander SA and Deutsche Bank AG have committed around $270 million in funding toward a joint stablecoin venture, according to people familiar with the matter.",
+          "firms": [
+            "Goldman Sachs"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "d69aaeaa9b2b",
+          "title": "JPMorgan Eyes Big Discount to Get Software Debt Off Banks’ Books",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/jpmorgan-weighs-big-discount-to-lure-lenders-for-software-debt",
+          "publishedAt": "2026-11-09T21:46:26.000Z",
+          "teaser": "Banks led by JPMorgan Chase & Co. could offer one of the year’s biggest discounts to sell some of the $5 billion in debt for software firm Qualtrics International Inc. that the underwriters were stuck holding a few months ago.",
+          "firms": [
+            "J.P. Morgan"
+          ],
+          "section": "markets"
         }
       ]
     },
