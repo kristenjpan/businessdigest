@@ -1,80 +1,80 @@
 {
-  "generatedAt": "2026-11-11T17:51:37.294Z",
+  "generatedAt": "2026-11-12T18:13:02.872Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "bc6d7e3f410a",
-          "title": "CoreWeave Finds a Workaround to Capital Constraints—for Now",
-          "url": "https://www.wsj.com/business/energy-oil/coreweave-finds-a-workaround-to-capital-constraintsfor-now-1f548211?mod=rss_markets_main",
-          "publishedAt": "2026-11-11T17:45:00.000Z",
-          "teaser": "The company’s ambitious plans will still require cooperation from capital markets.",
+          "id": "e7cd6242cc82",
+          "title": "Beijing Is Trying to Build a Chinese Rival for Insuring World Shipping",
+          "url": "https://www.wsj.com/business/logistics/beijing-is-trying-to-build-a-chinese-rival-for-insuring-world-shipping-eaf8ccdb?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-12T17:43:00.000Z",
+          "teaser": "Officials have been sounding out shippers, banks and insurers in China about amassing funds for a marine-insurance hub.",
           "firms": [],
-          "section": "markets"
+          "section": "private-markets"
         },
         {
-          "id": "fa37f590f725",
-          "title": "Nasdaq Jumps After CoreWeave Earnings",
-          "url": "https://www.wsj.com/finance/commodities-futures/nasdaq-futures-rally-as-ai-optimism-returns-af100e62?mod=rss_markets_main",
-          "publishedAt": "2026-11-11T17:14:00.000Z",
-          "teaser": "U.S. stocks rose, led by the Nasdaq composite, after upbeat earnings from CoreWeave eased investors’ fears about the AI trade.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "fa416c817a67",
-          "title": "AkzoNobel-Axalta $25 Billion Merger Could Harm Competition, U.K. Regulator Warns",
-          "url": "https://www.wsj.com/business/deals/akzonobel-axaltas-25-billion-merger-could-harm-competition-u-k-regulator-warns-d3a59010?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-11T09:18:00.000Z",
-          "teaser": "The Competition and Markets Authority said the merger would be referred for an in-depth investigation unless the parties offered to address concerns.",
+          "id": "6ca826aa05fe",
+          "title": "Cravath Employee Is Charged With Insider Trading Using Confidential Deal Information",
+          "url": "https://www.wsj.com/finance/regulation/cravath-employee-is-charged-with-insider-trading-using-confidential-deal-information-a5cdd0a9?mod=rss_markets_main",
+          "publishedAt": "2026-11-12T17:25:00.000Z",
+          "teaser": "Prosecutors said the employee netted $70,000 in profits related to client matters including Paramount’s acquisition of Warner Bros.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "452cfc9ad570",
-          "title": "KKR, Germany’s RWE Invest $16 Billion in U.K. Wind-Power Projects",
-          "url": "https://www.wsj.com/business/deals/rwe-kkr-join-forces-on-16-billion-of-u-k-wind-power-projects-4b489bce?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-11T08:44:00.000Z",
-          "teaser": "Both parties will develop, construct and operate the Vanguard West and East projects in the British North Sea, which rank among the U.K.’s largest offshore-wind developments.",
+          "id": "6bbd29b248c0",
+          "title": "Oil Prices Rebound as Trump Questions Need for Iran Deal",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-investors-weigh-u-s-iran-diplomacy-296e2847?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-12T14:07:00.000Z",
+          "teaser": "Oil prices rebounded from initial declines as investors assessed the prospects for renewed U.S.-Iran negotiations after Trump said Washington no longer needed an agreement with Tehran.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "39ac8d1316dc",
+          "title": "Kraft Heinz Has a Comeback Plan: Cheesy Ramen and High-Protein Jell-O",
+          "url": "https://www.wsj.com/business/retail/kraft-heinz-has-a-comeback-plan-cheesy-ramen-and-high-protein-jell-o-6fbfc2f8?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-12T13:57:00.000Z",
+          "teaser": "The packaged-food giant is stepping up investments in new products to bring life to its aging brands.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "0b83ed903616",
+          "title": "Brookfield Earnings Buoyed by Fund Raising, Wealth Solutions Growth",
+          "url": "https://www.wsj.com/finance/investing/brookfield-earnings-buoyed-by-fund-raising-wealth-solutions-growth-05a27297?mod=rss_markets_main",
+          "publishedAt": "2026-11-12T12:57:00.000Z",
+          "teaser": "Brookfield notched stronger earnings in the third quarter as the investment firm saw strong fundraising in its asset-management operations and growth in wealth solutions.",
           "firms": [
-            "KKR"
+            "Brookfield"
           ],
+          "section": "markets"
+        },
+        {
+          "id": "37e8086047db",
+          "title": "CoreWeave Balances Capital Needs Against Expanding Data Center Footprint",
+          "url": "https://www.wsj.com/finance/investing/coreweave-balances-capital-needs-against-expanding-data-center-footprint-1933f5b5?mod=rss_markets_main",
+          "publishedAt": "2026-11-12T11:38:00.000Z",
+          "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
+          "firms": [],
           "section": "private-markets"
         },
         {
-          "id": "0bccc4c7be19",
-          "title": "Stock Market Today: CoreWeave Shares Jump 25%, Re-Energizing the AI Trade",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-11-2026?mod=rss_markets_main",
-          "publishedAt": "2026-11-11T08:21:53.000Z",
-          "teaser": "",
+          "id": "0a173b3d2696",
+          "title": "The Inflation Fight May Be About to Turn Painful",
+          "url": "https://www.wsj.com/finance/investing/the-inflation-fight-may-be-about-to-turn-painful-1d053d79?mod=rss_markets_main",
+          "publishedAt": "2026-11-12T10:57:00.000Z",
+          "teaser": "Plus, retirees’ investments, the affordability agenda and the downsides of a boring job market.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "e83c1f869fcc",
-          "title": "Dangote Cement Shelves Secondary London Listing",
-          "url": "https://www.wsj.com/business/dangote-cement-shelves-secondary-london-listing-b50c3fa5?mod=rss_markets_main",
-          "publishedAt": "2026-11-11T07:35:00.000Z",
-          "teaser": "Nigerian-listed Dangote Cement dropped plans to pursue a secondary listing on the London Stock Exchange, citing current market conditions without elaborating.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "c0b986ba4f42",
-          "title": "E.ON Backs Guidance as Energy Infrastructure Investments Continue",
-          "url": "https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-11T07:05:00.000Z",
-          "teaser": "The electric utility group said new projects for industrial and commercial customers were a key growth driver, and added earnings were supported by smart-meters and other assets.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "4ce9610ca942",
-          "title": "Law Firm Wachtell Lipton to Lead Nvidia Internal Investigation",
-          "url": "https://www.wsj.com/tech/law-firm-wachtell-lipton-to-lead-nvidia-internal-investigation-d37731c7?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-10T23:05:00.000Z",
-          "teaser": "The elite New York firm will probe whether the technology company was the target of foreign espionage effort.",
+          "id": "80a2ff3bb188",
+          "title": "European Stock Indexes Higher as Investors Rotate Away From AI",
+          "url": "https://www.wsj.com/finance/stocks/nikkei-falls-0-2-dragged-by-electronics-stocks-0da84013?mod=rss_markets_main",
+          "publishedAt": "2026-11-12T08:23:00.000Z",
+          "teaser": "European stock indexes rose at the open, as the tech-light continent benefited from a rotation away from artificial-intelligence stocks.",
           "firms": [],
           "section": "markets"
         }
@@ -84,75 +84,73 @@
       "id": "ft",
       "items": [
         {
-          "id": "e4e6c2d5784e",
-          "title": "US tech stocks surge as AI trade revives",
-          "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-11T15:54:42.000Z",
+          "id": "f7498150d53a",
+          "title": "Singapore barred Alice Huang for giving police ‘inaccurate information’",
+          "url": "https://www.ft.com/content/fa23a8ad-29bf-4971-aa44-6b25b247c193?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-12T14:32:51.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "3cebbe43a8b0",
-          "title": "Saudi oil production rebounds close to prewar levels",
-          "url": "https://www.ft.com/content/c844b957-3c98-43a3-b02e-2d0f5368bd49?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-11T13:29:33.000Z",
+          "id": "ece26333da3e",
+          "title": "Can anything derail Anthropic’s IPO?",
+          "url": "https://www.ft.com/content/b9ad2b19-4f2a-4f26-89b6-940985a0b9d4?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-12T05:00:22.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "ccb75be0043f",
+          "title": "Growth investing or gambling?",
+          "url": "https://www.ft.com/content/92eb0eca-aee8-45af-b336-7a9a20da0a64?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-12T05:00:12.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "e813debc1f27",
+          "title": "Indian shares bounce back as investors seek AI shelter",
+          "url": "https://www.ft.com/content/99a27744-23bd-4cb9-92e4-7712dd658920?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-12T04:43:55.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "19a5ea3db42f",
+          "title": "Trump’s fossil fuel drive comes as war prompts energy security worries",
+          "url": "https://www.ft.com/content/9b79e9f6-4805-4299-bf76-1743ac258054?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-12T01:00:02.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-markets"
         },
         {
-          "id": "6ef14878d0d8",
-          "title": "Anthropic’s IPO is too important to fail",
-          "url": "https://www.ft.com/content/26fd23df-830e-481b-a3bc-19bcab48c5f6",
-          "publishedAt": "2026-11-11T10:23:49.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "1f1e170e3385",
-          "title": "The barriers to creating a European SpaceX",
-          "url": "https://www.ft.com/content/58d7ab59-688f-4d15-9c7f-96e621775777",
-          "publishedAt": "2026-11-11T05:11:49.000Z",
+          "id": "be7ec72a7fdc",
+          "title": "ExxonMobil launches legal challenge to EU carbon capture rules",
+          "url": "https://www.ft.com/content/377d2ae5-112f-411f-bfc1-5e498948cb7b?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-11T21:26:48.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "548673eb3d7e",
-          "title": "France and Belgium fall foul of Eurozone bond market’s new divide",
-          "url": "https://www.ft.com/content/5263808c-e8ac-44b8-baa3-af7e8c788684?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-11T05:00:12.000Z",
+          "id": "e4e6c2d5784e",
+          "title": "US tech stocks rally as AI trade revives",
+          "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-11T21:04:17.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "d7b387730e3b",
-          "title": "Ken Griffin’s dream city",
-          "url": "https://www.ft.com/content/592a8b23-6095-42ba-bff6-2ec3b61ede65?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-11T05:00:02.000Z",
-          "teaser": "",
-          "firms": [
-            "Citadel"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "ed638bceb0a4",
-          "title": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more",
-          "url": "https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-11T00:27:38.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "7f1433780ced",
-          "title": "Senior US soldier arrested in UK on suspicion of spying for Russia",
-          "url": "https://www.ft.com/content/94aa4846-58c6-4c17-b25a-095f122b4809?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-10T23:36:56.000Z",
+          "id": "d921609fe702",
+          "title": "CoreWeave wants to sit with the credit-market grown-ups",
+          "url": "https://www.ft.com/content/16d4593e-b9ce-4eab-90af-9835c79eb9f2?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-11T18:57:00.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
@@ -163,11 +161,29 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "b34b0744d458",
-          "title": "Vanguard Says Tax-Loss Inflows to Muni ETFs Likely to Stick",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/vanguard-says-tax-loss-inflows-to-muni-etfs-likely-to-stick",
-          "publishedAt": "2026-11-11T16:33:53.000Z",
-          "teaser": "Tax-loss harvesting has turbocharged the growth of municipal-bond exchange traded funds in 2026 at the expense of open-end mutual funds, which may lose much of those assets for good, according to Vanguard Group.",
+          "id": "40d633f20d57",
+          "title": "US-Held Venezuela Oil Fund Used $9 Billion to Buoy Bolivar",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/us-held-venezuela-oil-sales-fund-paid-out-12-1-billion",
+          "publishedAt": "2026-11-12T15:56:04.000Z",
+          "teaser": "Venezuela’s US-controlled custody account disbursed $12.1 billion to the country between January and September, with most of the money used to inject dollars into the economy, according to a US State Department report.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "5a98ece1fb95",
+          "title": "Nvidia’s $10 Billion Anthropic IPO Pledge in Focus With CEO Exit",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-s-10-billion-anthropic-ipo-pledge-in-focus-with-ceo-exit",
+          "publishedAt": "2026-11-12T15:35:27.000Z",
+          "teaser": "Anthropic PBC’s plans for a record initial public offering are under fresh scrutiny after Nvidia Corp.’s CEO was unexpectedly ousted, highlighting the links between the two artificial intelligence giants.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "2f1fcfd747dd",
+          "title": "GPU Financing Filters Further Into ABS With Planned Newton Deal",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/newton-eyes-equipment-loan-abs-bond-sale-including-ai-chip-debt",
+          "publishedAt": "2026-11-11T19:03:02.000Z",
+          "teaser": "Newton Commercial Finance, a joint venture between Apple Bank and Eagle Point Credit Management, is in early talks with investors about a potential $180 million bond offering partly backed by artificial intelligence chip loans.",
           "firms": [],
           "section": "markets"
         }
@@ -176,6 +192,15 @@
     {
       "id": "economist",
       "items": [
+        {
+          "id": "355b805b285a",
+          "title": "Italy’s proposed exit tax causes ructions",
+          "url": "https://www.economist.com/finance-and-economics/2026/11/12/italys-proposed-exit-tax-causes-ructions",
+          "publishedAt": "2026-11-12T10:35:00.000Z",
+          "teaser": "Taxing rich emigrants’ capital gains may be good in theory.",
+          "firms": [],
+          "section": "private-equity"
+        },
         {
           "id": "a20ff58f7ff7",
           "title": "Lessons from a miserable month for hedge funds",
@@ -190,24 +215,6 @@
           "title": "Markets realise they hate America’s blue wave",
           "url": "https://www.economist.com/finance-and-economics/2026/11/05/markets-realise-they-hate-americas-blue-wave",
           "publishedAt": "2026-11-05T23:41:07.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "3c3917ae3049",
-          "title": "Can a DoorDash-Instacart fusion stand up to Amazon and Walmart?",
-          "url": "https://www.economist.com/business/2026/11/05/can-a-doordash-instacart-fusion-stand-up-to-amazon-and-walmart",
-          "publishedAt": "2026-11-05T13:58:17.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "024a8096c492",
-          "title": "What markets make of the midterms",
-          "url": "https://www.economist.com/finance-and-economics/2026/11/04/what-markets-make-of-the-midterms",
-          "publishedAt": "2026-11-04T21:48:18.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
