@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-11-13T17:40:56.263Z",
+  "generatedAt": "2026-11-14T16:34:32.722Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
+        {
+          "id": "861f9afd7dd8",
+          "title": "Tech Stocks Fall as Next Week Brings Big Tests for the AI Trade",
+          "url": "https://www.wsj.com/finance/stocks/tech-stocks-fall-as-next-week-brings-big-tests-for-the-ai-trade-6a346b49?mod=rss_markets_main",
+          "publishedAt": "2026-11-13T21:19:00.000Z",
+          "teaser": "Plus, Nvidia closes lower and Anthropic CEO hopes IPO will “overdeliver.”",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "26f1cfe5cf37",
+          "title": "Anthropic Chief Tells Jamie Dimon He Hopes IPO Will ‘Underpromise and Overdeliver’",
+          "url": "https://www.wsj.com/finance/anthropic-chief-tells-jamie-dimon-he-hopes-ipo-will-underpromise-and-overdeliver-1ba2dd71?mod=rss_markets_main",
+          "publishedAt": "2026-11-13T18:46:00.000Z",
+          "teaser": "The artificial-intelligence giant, which is expected to begin trading Thursday, is targeting a valuation of roughly $1.33 trillion or more.",
+          "firms": [
+            "J.P. Morgan"
+          ],
+          "section": "private-equity"
+        },
         {
           "id": "6ca826aa05fe",
           "title": "Cravath Employee Is Charged With Insider Trading Using Confidential Deal Information",
@@ -33,7 +53,7 @@
         },
         {
           "id": "eafcb1f39808",
-          "title": "Stock Market Today: Nvidia Shares Slide Again as Investors Eye Fallout From Huang's Removal",
+          "title": "Stock Market News, Nov. 13, 2026: Nvidia Shares Drop Again as Investors Eye Fallout From Huang's Removal",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-13-2026?mod=rss_markets_main",
           "publishedAt": "2026-11-13T09:55:33.000Z",
           "teaser": "",
@@ -57,26 +77,6 @@
           "teaser": "Officials have been sounding out shippers, banks and insurers in China about amassing funds for a marine-insurance hub.",
           "firms": [],
           "section": "private-markets"
-        },
-        {
-          "id": "39ac8d1316dc",
-          "title": "Kraft Heinz Has a Comeback Plan: Cheesy Ramen and High-Protein Jell-O",
-          "url": "https://www.wsj.com/business/retail/kraft-heinz-has-a-comeback-plan-cheesy-ramen-and-high-protein-jell-o-6fbfc2f8?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-12T13:57:00.000Z",
-          "teaser": "The packaged-food giant is stepping up investments in new products to bring life to its aging brands.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "0b83ed903616",
-          "title": "Brookfield Earnings Buoyed by Fund Raising, Wealth Solutions Growth",
-          "url": "https://www.wsj.com/finance/investing/brookfield-earnings-buoyed-by-fund-raising-wealth-solutions-growth-05a27297?mod=rss_markets_main",
-          "publishedAt": "2026-11-12T12:57:00.000Z",
-          "teaser": "Brookfield notched stronger earnings in the third quarter as the investment firm saw strong fundraising in its asset-management operations and growth in wealth solutions.",
-          "firms": [
-            "Brookfield"
-          ],
-          "section": "markets"
         }
       ]
     },
@@ -84,22 +84,49 @@
       "id": "ft",
       "items": [
         {
+          "id": "63b6aa158a3c",
+          "title": "Hedge fund woes expose the dangers of hot money once again",
+          "url": "https://www.ft.com/content/7c60b026-23ff-4b50-8a2b-7e9614ef7970",
+          "publishedAt": "2026-11-14T05:00:38.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "hedge-funds"
+        },
+        {
+          "id": "ffa3688e69c8",
+          "title": "What Europe’s rising public debt means for your portfolio",
+          "url": "https://www.ft.com/content/45684ea3-dba8-476b-8667-2cdbdb5dfd8d",
+          "publishedAt": "2026-11-14T05:00:17.000Z",
+          "teaser": "How do you invest when hard-up governments are looking for cuts and tax raids?",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "9896210f0dd0",
+          "title": "Sam Bankman-Fried would have made nearly $40bn in Anthropic IPO",
+          "url": "https://www.ft.com/content/0ef40ac9-6d01-428f-98c8-a52bf5b9a787?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-13T23:39:26.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
           "id": "12e7efc71fc9",
-          "title": "US Treasuries set for worst week since Trump’s ‘liberation day’",
+          "title": "US Treasuries record worst week since Trump’s ‘liberation day’",
           "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-13T17:13:57.000Z",
+          "publishedAt": "2026-11-13T22:12:03.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "3089c4bb16cc",
-          "title": "Will Jensen Huang sell his $135bn of stock?",
-          "url": "https://www.ft.com/content/7a1ee00c-ddbd-4ae2-8323-e4dc603d7a41?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-13T13:22:54.000Z",
+          "id": "f1ced52c9e65",
+          "title": "Anthropic’s Amodei ‘not super fussed’ about market turmoil ahead of IPO",
+          "url": "https://www.ft.com/content/4b7b83d7-7fea-4ce2-bfe3-4f2cf75b1d82?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-13T19:41:26.000Z",
           "teaser": "",
           "firms": [],
-          "section": "markets"
+          "section": "private-equity"
         },
         {
           "id": "96ecb0d70048",
@@ -118,24 +145,6 @@
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "ece26333da3e",
-          "title": "Can anything derail Anthropic’s IPO?",
-          "url": "https://www.ft.com/content/b9ad2b19-4f2a-4f26-89b6-940985a0b9d4?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-12T05:00:22.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "ccb75be0043f",
-          "title": "Growth investing or gambling?",
-          "url": "https://www.ft.com/content/92eb0eca-aee8-45af-b336-7a9a20da0a64?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-12T05:00:12.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -143,60 +152,24 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "aa2b49559355",
-          "title": "SEC Moves to Rein In Executive Pay Disclosures to Investors",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/sec-moves-to-rein-in-executive-pay-disclosures-to-investors",
-          "publishedAt": "2026-11-13T17:11:50.000Z",
-          "teaser": "Executive compensation disclosures are in for an overhaul as part of the Securities and Exchange Commission’s plan to scale back the information that publicly-traded companies must give investors.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "112d49beab69",
-          "title": "K-Beauty Boom Becomes Wall Street’s Latest Investment Play",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/k-beauty-boom-becomes-wall-street-s-latest-investment-play",
-          "publishedAt": "2026-11-13T16:55:53.000Z",
-          "teaser": "Korean beauty products have long filled American medicine cabinets.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "28964445e6f1",
-          "title": "H&R Investors Vote Down Sale to Blackstone and GO, Rebuking CEO",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/h-r-investors-vote-down-sale-to-blackstone-and-go-rebuking-ceo",
-          "publishedAt": "2026-11-13T16:06:06.000Z",
-          "teaser": "Shareholders of H&R Real Estate Investment Trust voted against a plan to break up and sell the company to buyers including Blackstone Inc., rejecting a complex deal that would have allowed the CEO’s family to buy a package of real estate assets at a discount.",
-          "firms": [
-            "Blackstone"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "d4b59c10abc7",
-          "title": "Third Chicago CFO’s Surprise Exit Sparks Credit Rating Fears",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/third-chicago-cfo-resigns-from-johnson-administration-this-year-mwf6350o",
-          "publishedAt": "2026-11-13T16:04:20.000Z",
-          "teaser": "Chicago has lost its third chief financial officer this year, raising concerns about the city’s credit ratings as it scrambles to close an $882 million budget deficit.",
+          "id": "4902f61e5758",
+          "title": "SpaceX’s S&P 500 Bid Gets New Life as Musk Pitches Tesla Merger",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/spacex-s-s-p-500-bid-gets-new-life-as-musk-pitches-tesla-merger",
+          "publishedAt": "2026-11-14T14:00:00.000Z",
+          "teaser": "Just months after SpaceX was denied a swift entry into the S&P 500 Index, Elon Musk may have found a backdoor: Merging with Tesla Inc., one of the stock-market benchmark’s biggest members.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "242da0c0776f",
-          "title": "Bond Investors Expect More Pain After Week of Soaring Yields",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over",
-          "publishedAt": "2026-11-13T06:00:17.000Z",
-          "teaser": "Just when global bond investors were starting to believe the worst of this year’s rout was over, surging Treasury yields are making them think again.",
-          "firms": [],
+          "id": "b95e616f8545",
+          "title": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027",
+          "publishedAt": "2026-11-14T10:16:50.000Z",
+          "teaser": "Goldman Sachs expects earnings growth to drive a 19% return for the MSCI Asia ex-Japan Index in dollar terms next year, even as it warned that uncertainty over artificial intelligence could fuel volatility.",
+          "firms": [
+            "Goldman Sachs"
+          ],
           "section": "markets"
-        },
-        {
-          "id": "1fd5256feb85",
-          "title": "Citadel Securities Taps Diameter’s Zimmerman for IG Trading",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-12/citadel-securities-hires-zimmerman-from-diameter-for-ig-trading",
-          "publishedAt": "2026-11-12T21:59:07.000Z",
-          "teaser": "Citadel Securities LLC has hired Matthew Zimmerman from Diameter Capital Partners LP for investment-grade corporate bond trading.",
-          "firms": [],
-          "section": "private-markets"
         }
       ]
     },
