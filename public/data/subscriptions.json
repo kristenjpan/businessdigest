@@ -1,9 +1,18 @@
 {
-  "generatedAt": "2026-11-14T16:34:32.722Z",
+  "generatedAt": "2026-11-15T17:01:33.830Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
+        {
+          "id": "e410e902f81a",
+          "title": "The Individual Investors Who Are Hot on Anthropic’s IPO but Cool on AI",
+          "url": "https://www.wsj.com/finance/stocks/the-individual-investors-who-are-hot-on-anthropics-ipo-but-cool-on-ai-461f89b4?mod=rss_markets_main",
+          "publishedAt": "2026-11-15T10:30:00.000Z",
+          "teaser": "Artificial intelligent’s future makes it hard for some to sit out the trillion-dollar offering, but it’s complicated.",
+          "firms": [],
+          "section": "private-equity"
+        },
         {
           "id": "861f9afd7dd8",
           "title": "Tech Stocks Fall as Next Week Brings Big Tests for the AI Trade",
@@ -23,66 +32,51 @@
             "J.P. Morgan"
           ],
           "section": "private-equity"
-        },
-        {
-          "id": "6ca826aa05fe",
-          "title": "Cravath Employee Is Charged With Insider Trading Using Confidential Deal Information",
-          "url": "https://www.wsj.com/finance/regulation/cravath-employee-is-charged-with-insider-trading-using-confidential-deal-information-a5cdd0a9?mod=rss_markets_main",
-          "publishedAt": "2026-11-13T15:18:00.000Z",
-          "teaser": "Prosecutors said the employee netted $70,000 in profits related to client matters including Paramount’s acquisition of Warner Bros.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "030a7fb05444",
-          "title": "The Stock Market’s Bargain Bin Is Secretly Stuffed With AI Stocks",
-          "url": "https://www.wsj.com/finance/investing/the-stock-markets-bargain-bin-is-secretly-stuffed-with-ai-stocks-8fa3edbe?mod=rss_markets_main",
-          "publishedAt": "2026-11-13T14:00:00.000Z",
-          "teaser": "Value funds don’t always offer the exposure to cheap, boring stocks that investors might expect.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "6a61669fc336",
-          "title": "Kraft Heinz Plans to Bring New Life to Old Brands",
-          "url": "https://www.wsj.com/finance/investing/kraft-heinz-plans-to-bring-new-life-to-old-brands-8aa9f069?mod=rss_markets_main",
-          "publishedAt": "2026-11-13T11:27:00.000Z",
-          "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "eafcb1f39808",
-          "title": "Stock Market News, Nov. 13, 2026: Nvidia Shares Drop Again as Investors Eye Fallout From Huang's Removal",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-13-2026?mod=rss_markets_main",
-          "publishedAt": "2026-11-13T09:55:33.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "e09ece1d0c8b",
-          "title": "SpaceX Plans More Than $74 Billion in Texas, Arizona Data-Center Investments",
-          "url": "https://www.wsj.com/business/spacex-plans-more-than-74-billion-in-texas-arizona-data-center-investments-b9ff4ba3?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-12T18:13:00.000Z",
-          "teaser": "The company said it plans to spend around $24 billion on a data center in the Rio Grande Valley in Texas and roughly $50 billion on a campus in Cochise County, Ariz.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "e7cd6242cc82",
-          "title": "Beijing Is Trying to Build a Chinese Rival for Insuring World Shipping",
-          "url": "https://www.wsj.com/business/logistics/beijing-is-trying-to-build-a-chinese-rival-for-insuring-world-shipping-eaf8ccdb?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-12T17:43:00.000Z",
-          "teaser": "Officials have been sounding out shippers, banks and insurers in China about amassing funds for a marine-insurance hub.",
-          "firms": [],
-          "section": "private-markets"
         }
       ]
     },
     {
       "id": "ft",
       "items": [
+        {
+          "id": "93743783bb08",
+          "title": "Anthropic’s IPO is the next big test for AI",
+          "url": "https://www.ft.com/content/bc8ac781-9837-46de-b7ed-958886ba43af?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-15T11:40:44.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "4197c799c5dc",
+          "title": "Pension funds raise alarm on systemic risk from climate events",
+          "url": "https://www.ft.com/content/fcce6df7-7040-4c83-84ea-30f8fbac1239?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-15T10:00:04.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "e84ff27f1bac",
+          "title": "Brookfield and KKR vie over $700mn deal for Gulf retailer Eyewa",
+          "url": "https://www.ft.com/content/a240f6b7-724c-4ad5-a4b1-2e04897e2fe8?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-15T05:00:04.000Z",
+          "teaser": "",
+          "firms": [
+            "KKR",
+            "Brookfield"
+          ],
+          "section": "private-markets"
+        },
+        {
+          "id": "4fd0514ad1db",
+          "title": "One router overload brought US air travel to a standstill",
+          "url": "https://www.ft.com/content/9df17e1c-c77a-4f67-b5b4-1adb64bcd063?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-14T22:57:26.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
         {
           "id": "63b6aa158a3c",
           "title": "Hedge fund woes expose the dangers of hot money once again",
@@ -118,33 +112,6 @@
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "f1ced52c9e65",
-          "title": "Anthropic’s Amodei ‘not super fussed’ about market turmoil ahead of IPO",
-          "url": "https://www.ft.com/content/4b7b83d7-7fea-4ce2-bfe3-4f2cf75b1d82?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-13T19:41:26.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "96ecb0d70048",
-          "title": "AI boom will lift Nvidia even after Huang’s exit, investors say",
-          "url": "https://www.ft.com/content/ecb2b4ed-1b61-4c8a-a2e7-a6f9c85a59ff?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-12T23:26:26.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "6902fd6e6dd6",
-          "title": "Kalshi cuts ties to Donald Trump Jr after Democrats’ midterm sweep",
-          "url": "https://www.ft.com/content/1352ac24-bdd6-4093-9ebd-7b27b6fd29d3?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-12T22:45:07.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -152,23 +119,39 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "4902f61e5758",
-          "title": "SpaceX’s S&P 500 Bid Gets New Life as Musk Pitches Tesla Merger",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/spacex-s-s-p-500-bid-gets-new-life-as-musk-pitches-tesla-merger",
-          "publishedAt": "2026-11-14T14:00:00.000Z",
-          "teaser": "Just months after SpaceX was denied a swift entry into the S&P 500 Index, Elon Musk may have found a backdoor: Merging with Tesla Inc., one of the stock-market benchmark’s biggest members.",
+          "id": "be678f2389f4",
+          "title": "Bond Drought in Emerging Markets Lifts Prices as Sales Slump 41%",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/bond-drought-in-emerging-markets-lifts-prices-as-sales-slump-41",
+          "publishedAt": "2026-11-15T12:30:00.000Z",
+          "teaser": "New sales of emerging-market government bonds have cratered in the second half of the year despite strong demand from international investors, creating a supply shortage that’s supporting prices before an expected rebound in issuance early next year.",
           "firms": [],
-          "section": "private-equity"
+          "section": "markets"
         },
         {
-          "id": "b95e616f8545",
-          "title": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027",
-          "publishedAt": "2026-11-14T10:16:50.000Z",
-          "teaser": "Goldman Sachs expects earnings growth to drive a 19% return for the MSCI Asia ex-Japan Index in dollar terms next year, even as it warned that uncertainty over artificial intelligence could fuel volatility.",
-          "firms": [
-            "Goldman Sachs"
-          ],
+          "id": "a66438d53c88",
+          "title": "State Street, Pictet Call Time on Europe’s Stock Market Rally",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/state-street-pictet-call-time-on-europe-s-stock-market-rally",
+          "publishedAt": "2026-11-15T08:00:00.000Z",
+          "teaser": "For weeks, European stocks have outshone other markets, pushing higher as AI ructions tripped up benchmarks elsewhere.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "401474eae53d",
+          "title": "Crypto’s Slow-Motion Selloff Leaves Traders Weary and Hopeless",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless",
+          "publishedAt": "2026-11-15T05:10:27.000Z",
+          "teaser": "Bitcoin’s latest selloff is testing the resolve of some of the cryptocurrency market’s most committed investors, as a succession of setbacks pushes prices toward their lowest levels of the year and major sources of demand weaken.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "99892725955d",
+          "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+          "publishedAt": "2026-11-14T20:00:00.000Z",
+          "teaser": "US corporate bonds have been rallying in recent weeks, drawing the attention of money managers seeking shelter from turbulence in stocks.",
+          "firms": [],
           "section": "markets"
         }
       ]
