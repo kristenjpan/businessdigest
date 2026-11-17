@@ -1,80 +1,80 @@
 {
-  "generatedAt": "2026-11-16T20:22:27.617Z",
+  "generatedAt": "2026-11-17T19:08:39.801Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "cf7f783686aa",
-          "title": "Tesla to Invest Over $3 Billion to Expand German Factory in Cybercab Bet",
-          "url": "https://www.wsj.com/business/autos/tesla-to-invest-over-3-billion-to-expand-german-factory-in-cybercab-bet-6355017a?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-16T17:42:00.000Z",
-          "teaser": "Tesla will add a new facility at its Berlin-Brandenburg factory as the electric-vehicle maker seeks to boost production of its autonomous Cybercab.",
+          "id": "7947cca113ba",
+          "title": "Corporate-Card Startup Ramp Raising Funds at $70 Billion Valuation",
+          "url": "https://www.wsj.com/finance/corporate-card-startup-ramp-raising-funds-at-70-billion-valuation-631b071a?mod=rss_markets_main",
+          "publishedAt": "2026-11-17T18:31:00.000Z",
+          "teaser": "The financing round is the fast-growing company’s third fundraise in a year.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "fdbb47fb846e",
+          "title": "U.S. Treasury, Eurozone Bond Yields Edge Lower",
+          "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-eurozone-bond-yields-edge-lower-as-fresh-drivers-are-sought-746b3b6d?mod=rss_markets_main",
+          "publishedAt": "2026-11-17T17:56:00.000Z",
+          "teaser": "U.S. Treasury and eurozone government bond yields fell slightly on Tuesday amid continued caution over artificial intelligence as investors processed fresh economic indicators.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "e5221a5829b7",
-          "title": "Activist Calls on Landlord Invitation Homes to Sell Houses ‘One at a Time’",
-          "url": "https://www.wsj.com/business/deals/activist-calls-on-landlord-invitation-homes-to-sell-houses-one-at-a-time-a11169a1?mod=rss_markets_main",
-          "publishedAt": "2026-11-16T17:10:00.000Z",
-          "teaser": "Land & Buildings says the company should sell homes and buy back shares after a ban on large investors buying single-family homes threatens to limit its growth.",
+          "id": "371c639d6fa9",
+          "title": "Anthropic Plans to Raise IPO Price After Strong Demand",
+          "url": "https://www.wsj.com/finance/anthropic-plans-to-raise-ipo-price-after-strong-demand-1a6b0af1?mod=rss_markets_main",
+          "publishedAt": "2026-11-17T17:02:00.000Z",
+          "teaser": "The company has pitched investors through market tumult and the shock resignation of Nvidia’s Jensen Huang.",
           "firms": [],
-          "section": "hedge-funds"
+          "section": "private-equity"
         },
         {
-          "id": "5d9b6084cdfe",
-          "title": "Eli Lilly to Buy Calytrix Bio for Up to $1.5 Billion",
-          "url": "https://www.wsj.com/business/deals/eli-lilly-to-buy-calytrix-bio-for-up-to-1-5-billion-591745e4?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-16T16:58:00.000Z",
-          "teaser": "Calytrix Bio, a privately held biotechnology company backed by JPMorgan Chase, is developing therapies aimed at a group of rare blood cancers.",
+          "id": "533c8983c299",
+          "title": "JPMorgan Chase Names Bregje de Best to Succeed Jeremy Barnum as CFO",
+          "url": "https://www.wsj.com/finance/banking/jpmorgan-chase-names-bregje-de-best-to-succeed-jeremy-barnum-as-cfo-ea77f240?mod=rss_markets_main",
+          "publishedAt": "2026-11-17T16:34:00.000Z",
+          "teaser": "De Best joined JPMorgan in 2006 and has been finance chief of its commercial and investment bank since June 2025.",
           "firms": [
             "J.P. Morgan"
           ],
           "section": "markets"
         },
         {
-          "id": "6b1a35fea7f6",
-          "title": "Former Buyout Execs Launch Secondaries Firm to Target Hidden-Gem Assets in Asia",
-          "url": "https://www.wsj.com/pro/private-equity/former-buyout-execs-launch-secondaries-firm-to-target-hidden-gem-assets-in-asia-546861fd?mod=rss_markets_main",
-          "publishedAt": "2026-11-16T16:25:00.000Z",
-          "teaser": "Two former buyout executives have launched an Asia-focused secondaries investment firm to target the region’s backlog of long-held private-equity investments.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "46b5ca7f7878",
-          "title": "Intel Sued by Investors After 29% Stock Plunge",
-          "url": "https://www.wsj.com/tech/intel-sued-by-investors-after-29-stock-plunge-c6591bbf?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-16T15:52:00.000Z",
-          "teaser": "Intel is being sued by shareholders who claim the U.S. chip maker failed to disclose the scale of a slump in personal-computer sales.",
+          "id": "03719d954eca",
+          "title": "Investors Press for Answers From Nvidia, Where ‘Everything Has Changed’",
+          "url": "https://www.wsj.com/finance/stocks/investors-press-for-answers-from-nvidia-where-everything-has-changed-9fa681ce?mod=rss_markets_main",
+          "publishedAt": "2026-11-17T16:00:00.000Z",
+          "teaser": "The chip maker captivated Wall Street for its vital role in the AI economy.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "5ef513a3240a",
-          "title": "UniCredit’s Commerzbank Bid Gets EU, U.S. Approval",
-          "url": "https://www.wsj.com/business/deals/unicredits-commerzbank-bid-gets-eu-approval-44a821a6?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-16T15:13:00.000Z",
-          "teaser": "The European Union’s merger regulator approved UniCredit’s bid to take control of Germany’s Commerzbank, clearing a key regulatory hurdle for a takeover that has been two years in the making and previously faced opposition in Berlin.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "d8b34cd36142",
-          "title": "Yen Could Strengthen Versus Dollar by Year-End",
-          "url": "https://www.wsj.com/finance/currencies/singapore-dollar-consolidates-but-may-be-weighed-by-risk-off-sentiment-1a00f31b?mod=rss_markets_main",
-          "publishedAt": "2026-11-16T14:57:00.000Z",
-          "teaser": "The Japanese yen was little changed against the dollar, but could appreciate towards year-end, supported by improving economic conditions in Japan, fund inflows and the Bank of Japan raising interest rates, Bank of America forex strategists said.",
+          "id": "255c3f45ff5b",
+          "title": "Volatility Has Fundamentally Rewired the AI Trade",
+          "url": "https://www.wsj.com/finance/investing/volatility-has-fundamentally-rewired-the-ai-trade-53678137?mod=rss_markets_main",
+          "publishedAt": "2026-11-17T11:25:00.000Z",
+          "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "e4a4fe69d206",
-          "title": "EQT Ventures Invests $10 Million in Enterprise AI Company Edra",
-          "url": "https://www.wsj.com/tech/ai/eqt-ventures-invests-10-million-in-enterprise-ai-company-edra-4a17c551?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-16T14:49:00.000Z",
-          "teaser": "Move comes after EQT Ventures deployed Edra’s technology at its internal service desk.",
+          "id": "925e5f0aa9eb",
+          "title": "Why Big Investors Are Burning Lenders on Apartment Loans",
+          "url": "https://www.wsj.com/real-estate/commercial/why-big-investors-are-burning-lenders-on-apartment-loans-7129d849?mod=rss_markets_main",
+          "publishedAt": "2026-11-17T10:30:00.000Z",
+          "teaser": "Deep-pocketed landlords like Brookfield may be the most willing to cut their losses on troubled properties.",
+          "firms": [],
+          "section": "real-estate"
+        },
+        {
+          "id": "d8f20f4d8537",
+          "title": "Asian Stocks Fall as U.S. Moves to Tighten Chip Curbs",
+          "url": "https://www.wsj.com/finance/stocks/asia-stocks-fall-as-u-s-commerce-department-cracks-down-on-chip-shipments-689af812?mod=rss_markets_main",
+          "publishedAt": "2026-11-17T06:49:00.000Z",
+          "teaser": "The move exacerbated investor concerns over the artificial-intelligence boom and spurring risk-off sentiment.",
           "firms": [],
           "section": "markets"
         }
@@ -84,78 +84,78 @@
       "id": "ft",
       "items": [
         {
-          "id": "c943166eb393",
-          "title": "UK SFO charges eight over alleged £251mn London Capital & Finance fraud",
-          "url": "https://www.ft.com/content/a81eebb0-237a-4b0f-ace5-cab71cb9a326?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-16T17:49:49.000Z",
+          "id": "a60e5f4e7283",
+          "title": "Trump Media investors learn the Truth about betting on bitcoin",
+          "url": "https://www.ft.com/content/2c686fe5-0a39-45ad-a26e-87c1f813ec7d?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-17T17:30:01.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "203341578297",
-          "title": "Greece becomes unlikely haven for European investors",
-          "url": "https://www.ft.com/content/e2bfe9ca-b0a2-439c-8ee3-4108c9955ecd?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-16T16:08:28.000Z",
+          "id": "5976d711a327",
+          "title": "Ukraine destroys section of Crimea bridge in fierce exchange",
+          "url": "https://www.ft.com/content/eb8031c0-a96a-4408-b762-b92ff0402f82?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-17T16:24:55.000Z",
           "teaser": "",
           "firms": [],
-          "section": "markets"
+          "section": "private-markets"
         },
         {
-          "id": "882bb95c1dbc",
-          "title": "Diamondback strikes $5bn deal to expand drilling in oil-rich Permian Basin",
-          "url": "https://www.ft.com/content/a56fc76f-af32-45b2-8ae1-d5e211cb9643?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-16T13:12:30.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "51ff637b1133",
-          "title": "Biggest IPOs this year lose investors money as AI frenzy fades",
-          "url": "https://www.ft.com/content/7974acec-e378-4298-a1a7-2b16b00d8b32?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-16T11:47:31.000Z",
+          "id": "992bf473be59",
+          "title": "TG Jones put up for sale by private equity firm after less than 18 months",
+          "url": "https://www.ft.com/content/2bd39e07-effd-4582-9760-573c0df841a9?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-17T12:28:38.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "014367e3742f",
-          "title": "‘Success and fame’ undermine tech leaders, warns Nvidia and Tesla investor",
-          "url": "https://www.ft.com/content/5b39e975-b9f5-4ff9-a7d2-ce6a30c4fdbd?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-16T11:00:03.000Z",
+          "id": "4802617c65aa",
+          "title": "Trump moves to ease pension rules for investment firms linked to misconduct",
+          "url": "https://www.ft.com/content/fe6861a1-cc15-4fce-8a8d-7c3fdce2b022?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-17T11:00:06.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "d2514a781bda",
-          "title": "The perfect sell-off",
-          "url": "https://www.ft.com/content/a61f1fe9-55d9-498e-9ecc-c3a66980d63a?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-16T06:30:01.000Z",
+          "id": "123306a39496",
+          "title": "Jay-Z backed music rights firm raises nearly $700mn to expand portfolio",
+          "url": "https://www.ft.com/content/3b51a260-2e6c-452e-a109-ea7c1fe85b3a?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-17T05:00:25.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "c7b968431fab",
+          "title": "Rothschild & Co anchors Italy at heart of European growth plan",
+          "url": "https://www.ft.com/content/f214db12-7c8a-4d54-8582-b57289513c29?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-17T05:00:06.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "6c7cba5b7d2d",
-          "title": "Tiny quant fund joins UK tax giants",
-          "url": "https://www.ft.com/content/8919e96e-df3d-41b8-99fa-b8ebcab5e99a?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-16T06:00:02.000Z",
+          "id": "cfd53899b4df",
+          "title": "CVC plans to back out of Italian deal with Advent, triggering potential legal clash",
+          "url": "https://www.ft.com/content/bd65d6e0-3ecb-498c-b684-c7e4c782a0ae?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-16T23:08:52.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "f8a9c3510e9b",
+          "title": "Chevron nears $5bn deal for Blackstone-backed oil producer in US Gulf",
+          "url": "https://www.ft.com/content/92e1c14a-f836-40b0-8d9e-0ed1c1d2fea9?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-16T21:20:03.000Z",
           "teaser": "",
           "firms": [
-            "Citadel"
+            "Blackstone"
           ],
           "section": "markets"
-        },
-        {
-          "id": "93743783bb08",
-          "title": "Anthropic’s IPO is the next big test for AI",
-          "url": "https://www.ft.com/content/bc8ac781-9837-46de-b7ed-958886ba43af?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-15T11:40:44.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
         }
       ]
     },
@@ -163,64 +163,64 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "4954f82c435e",
-          "title": "Citigroup Pulls $400 Million Loan for IT Provider UST Global",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/citigroup-pulls-400-million-loan-for-it-provider-ust-global",
-          "publishedAt": "2026-11-16T19:42:22.000Z",
-          "teaser": "A group of banks led by Citigroup Inc. has pulled a debt deal for UST Global Inc. from the syndicated loan market after lenders did not attract enough demand from investors.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "e21f16dde6ac",
-          "title": "Virgin Media O2 Downgraded by Moody’s on Turnaround Concerns",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/virgin-media-o2-downgraded-by-moody-s-on-turnaround-concerns",
-          "publishedAt": "2026-11-16T19:34:46.000Z",
-          "teaser": "Virgin Media O2’s credit grade was cut one level by Moody’s Ratings amid continued uncertainty over the timing and pace of the UK telecom’s turnaround efforts.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "3993698935de",
-          "title": "Macquarie Warns of Data Center Exuberance Amid Capex Super Cycle",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/macquarie-warns-of-data-center-exuberance-amid-capex-super-cycle",
-          "publishedAt": "2026-11-16T19:00:00.000Z",
-          "teaser": "",
+          "id": "230244e9e683",
+          "title": "Mark Walter’s Largest Insurer Sees Sales Plunge After US Probe",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/mark-walter-s-largest-insurer-reports-sales-plunge-amid-us-probe",
+          "publishedAt": "2026-11-17T17:11:07.000Z",
+          "teaser": "Annuity sales at billionaire Los Angeles Dodgers owner Mark Walter’s largest insurance company dropped after a federal investigation into the firm’s accounting practices became public.",
           "firms": [],
           "section": "private-markets"
         },
         {
-          "id": "f304700a2399",
-          "title": "Nasdaq 100 Tumbles as Nvidia Earnings, Anthropic IPO Loom",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/nasdaq-100-plunges-as-nvidia-earnings-anthropic-ipo-on-horizon",
-          "publishedAt": "2026-11-16T18:51:04.000Z",
-          "teaser": "Tech stocks extended their slump on Monday as investors remained skittish around the AI trade ahead of Nvidia Corp. earnings and the expected initial public offering of Anthropic PBC this week.",
+          "id": "48075636725b",
+          "title": "Treasuries Rise as Risk-Averse Investors Dump Stocks, Buy Bonds",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/treasuries-rise-as-risk-averse-investors-dump-stocks-buy-bonds",
+          "publishedAt": "2026-11-17T16:26:24.000Z",
+          "teaser": "Treasuries gained as investors, alarmed by the latest in a series of technology breakdowns over the past week, flocked to US government bonds as a haven from stocks.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "982ed6e2cd85",
+          "title": "SpaceX Debt for AI Chips to Hit Market as Soon as This Week",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/spacex-debt-for-ai-chips-to-hit-market-as-soon-as-this-week",
+          "publishedAt": "2026-11-17T14:53:10.000Z",
+          "teaser": "SpaceX may kick off part of a $40 billion debt sale to fund its purchase of artificial intelligence chips as soon as this week, according to people with knowledge of the matter.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "8457c3fe8488",
+          "title": "Tech Stocks Sink Before Nvidia’s First Results After Huang Exit",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/nasdaq-100-futures-rise-as-investors-prepare-for-nvidia-results",
+          "publishedAt": "2026-11-17T13:13:35.000Z",
+          "teaser": "US stocks slumped for a fourth day as investors looked to an all-important earnings release from Nvidia Corp. after the market close to potentially help restore confidence in the artificial-intelligence trade.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "3baaf42d7807",
-          "title": "GSA, Calpers Buy £600 Million Student Housing Portfolio",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-16/gsa-buys-600-million-student-housing-portfolio-from-sanctuary",
-          "publishedAt": "2026-11-16T09:01:00.000Z",
-          "teaser": "Global Student Accommodation and the California Public Employees’ Retirement System bought a majority stake in a portfolio of student dormitories for about £600 million from a UK housing association.",
+          "id": "a07d443e3a14",
+          "title": "Stocks Fall on Tech Jitters Before Nvidia Results: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates",
+          "publishedAt": "2026-11-16T22:06:51.000Z",
+          "teaser": "A selloff in technology giants dragged down stocks on mounting concerns about technical disruptions, with investors also looking to Nvidia Corp.’s earnings for a read on the outlook for artificial intelligence.",
           "firms": [],
-          "section": "real-estate"
-        },
-        {
-          "id": "2c0dbe644d4c",
-          "title": "Stocks Fall Before Nvidia Earnings, Anthropic IPO: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/stock-market-today-dow-s-p-live-updates",
-          "publishedAt": "2026-11-15T22:11:32.000Z",
-          "teaser": "A selloff in technology stocks carried into a new week as Wall Street traders geared up for Nvidia Corp.’s high-stakes earnings and Anthropic PBC’s expected market debut in the coming days.",
-          "firms": [],
-          "section": "private-equity"
+          "section": "markets"
         }
       ]
     },
     {
       "id": "economist",
       "items": [
+        {
+          "id": "99d49c5ec7ab",
+          "title": "Trump Inc is in free fall",
+          "url": "https://www.economist.com/business/2026/11/16/trump-inc-is-in-free-fall",
+          "publishedAt": "2026-11-16T21:37:36.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "ec26110215b8",
           "title": "Anthropic’s giant IPO puts the heat on OpenAI",
