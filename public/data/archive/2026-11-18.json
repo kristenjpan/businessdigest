@@ -1,0 +1,1536 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T18:48:54.784Z",
+  "engine": "rules-v5",
+  "edition": 57,
+  "brief": {
+    "headline": "Blackstone data centre REIT strikes $5bn AWS deal",
+    "bullets": [
+      "M&A & Buyouts: Blackstone Digital Infrastructure Trust (BXDC) has agreed to acquire a 75% stake in two joint ventures with Amazon Web Services (AWS) in a transaction valued at about $5bn, according to a report by Bloomberg.",
+      "Regulation & Policy: Blackstone, Apollo Global Management and Pimco are seeking a larger share of the EU’s €10trn insurance asset market ahead of Solvency II reforms that could free up €80bn in regulatory capital based on insurers’ existing holdings, according to a Bloomberg report citing S&P Global Ratings.",
+      "Fed & Rates: Federal Reserve official Barr spoke on “Investing in America’s Underserved Communities” at Making Missing Markets: Catalyzing Capital and Igniting Innovation, Federal Reserve Bank of New York, New York, New York.",
+      "Hotels & Hospitality: Accor just committed $1.8 billion to buyout the minority investors in its Ennismore joint venture.",
+      "Investor Outlook: The global economy is forecast to grow 2.8% in 2027, though energy and AI could test its resilience, Jan Hatzius, chief economist and head of Goldman Sachs Research says on the Exchanges podcast."
+    ],
+    "marketRead": "Bottom line: signals are mixed, with some markets calm and others showing strain, so expect selective risk-taking. The S&P 500 stands at 7,340.53 (down 1.0% on the prior reading) and the VIX is 25.5, an elevated reading that signals nervous markets. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.30 pts (positively sloped). High-yield credit spreads are 3.43%, near long-run norms (up 9 bps on the prior reading).",
+    "themes": [
+      {
+        "id": "family-office",
+        "label": "Family Offices & Wealth",
+        "count": 4
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure & Energy",
+        "count": 3
+      },
+      {
+        "id": "deals",
+        "label": "M&A & Buyouts",
+        "count": 3
+      },
+      {
+        "id": "hedge-funds",
+        "label": "Hedge Funds",
+        "count": 3
+      },
+      {
+        "id": "rates",
+        "label": "Fed & Rates",
+        "count": 2
+      },
+      {
+        "id": "people",
+        "label": "People & Leadership",
+        "count": 2
+      }
+    ]
+  },
+  "market": [
+    {
+      "id": "SP500",
+      "label": "S&P 500",
+      "unit": "index",
+      "value": 7340.53,
+      "previous": 7416.59,
+      "asOf": "2026-11-17",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "value": 7690.73
+        },
+        {
+          "date": "2026-10-20",
+          "value": 7712.57
+        },
+        {
+          "date": "2026-10-21",
+          "value": 7757.17
+        },
+        {
+          "date": "2026-10-22",
+          "value": 7663.43
+        },
+        {
+          "date": "2026-10-23",
+          "value": 7623.68
+        },
+        {
+          "date": "2026-10-26",
+          "value": 7676.77
+        },
+        {
+          "date": "2026-10-27",
+          "value": 7722.6
+        },
+        {
+          "date": "2026-10-28",
+          "value": 7743.98
+        },
+        {
+          "date": "2026-10-29",
+          "value": 7720.39
+        },
+        {
+          "date": "2026-10-30",
+          "value": 7580.07
+        },
+        {
+          "date": "2026-11-02",
+          "value": 7541.4
+        },
+        {
+          "date": "2026-11-03",
+          "value": 7568.92
+        },
+        {
+          "date": "2026-11-04",
+          "value": 7688.62
+        },
+        {
+          "date": "2026-11-05",
+          "value": 7353.73
+        },
+        {
+          "date": "2026-11-06",
+          "value": 7376.86
+        },
+        {
+          "date": "2026-11-09",
+          "value": 7549.94
+        },
+        {
+          "date": "2026-11-10",
+          "value": 7520.93
+        },
+        {
+          "date": "2026-11-11",
+          "value": 7619.38
+        },
+        {
+          "date": "2026-11-12",
+          "value": 7592.4
+        },
+        {
+          "date": "2026-11-13",
+          "value": 7561.67
+        },
+        {
+          "date": "2026-11-16",
+          "value": 7416.59
+        },
+        {
+          "date": "2026-11-17",
+          "value": 7340.53
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/SP500"
+    },
+    {
+      "id": "DGS10",
+      "label": "10-Yr Treasury",
+      "unit": "percent",
+      "value": 5.12,
+      "previous": 5.15,
+      "asOf": "2026-11-16",
+      "history": [
+        {
+          "date": "2026-10-15",
+          "value": 5.1
+        },
+        {
+          "date": "2026-10-16",
+          "value": 5.09
+        },
+        {
+          "date": "2026-10-19",
+          "value": 5.15
+        },
+        {
+          "date": "2026-10-20",
+          "value": 5.12
+        },
+        {
+          "date": "2026-10-21",
+          "value": 5.13
+        },
+        {
+          "date": "2026-10-22",
+          "value": 4.96
+        },
+        {
+          "date": "2026-10-23",
+          "value": 5
+        },
+        {
+          "date": "2026-10-26",
+          "value": 5
+        },
+        {
+          "date": "2026-10-27",
+          "value": 4.99
+        },
+        {
+          "date": "2026-10-28",
+          "value": 5.05
+        },
+        {
+          "date": "2026-10-29",
+          "value": 4.98
+        },
+        {
+          "date": "2026-10-30",
+          "value": 4.94
+        },
+        {
+          "date": "2026-11-02",
+          "value": 4.91
+        },
+        {
+          "date": "2026-11-03",
+          "value": 4.95
+        },
+        {
+          "date": "2026-11-04",
+          "value": 4.9
+        },
+        {
+          "date": "2026-11-05",
+          "value": 4.84
+        },
+        {
+          "date": "2026-11-06",
+          "value": 4.86
+        },
+        {
+          "date": "2026-11-09",
+          "value": 4.88
+        },
+        {
+          "date": "2026-11-10",
+          "value": 4.98
+        },
+        {
+          "date": "2026-11-12",
+          "value": 5.1
+        },
+        {
+          "date": "2026-11-13",
+          "value": 5.15
+        },
+        {
+          "date": "2026-11-16",
+          "value": 5.12
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
+    },
+    {
+      "id": "DGS2",
+      "label": "2-Yr Treasury",
+      "unit": "percent",
+      "value": 4.83,
+      "previous": 4.88,
+      "asOf": "2026-11-16",
+      "history": [
+        {
+          "date": "2026-10-15",
+          "value": 4.77
+        },
+        {
+          "date": "2026-10-16",
+          "value": 4.74
+        },
+        {
+          "date": "2026-10-19",
+          "value": 4.77
+        },
+        {
+          "date": "2026-10-20",
+          "value": 4.79
+        },
+        {
+          "date": "2026-10-21",
+          "value": 4.81
+        },
+        {
+          "date": "2026-10-22",
+          "value": 4.65
+        },
+        {
+          "date": "2026-10-23",
+          "value": 4.69
+        },
+        {
+          "date": "2026-10-26",
+          "value": 4.68
+        },
+        {
+          "date": "2026-10-27",
+          "value": 4.7
+        },
+        {
+          "date": "2026-10-28",
+          "value": 4.67
+        },
+        {
+          "date": "2026-10-29",
+          "value": 4.61
+        },
+        {
+          "date": "2026-10-30",
+          "value": 4.56
+        },
+        {
+          "date": "2026-11-02",
+          "value": 4.59
+        },
+        {
+          "date": "2026-11-03",
+          "value": 4.61
+        },
+        {
+          "date": "2026-11-04",
+          "value": 4.58
+        },
+        {
+          "date": "2026-11-05",
+          "value": 4.46
+        },
+        {
+          "date": "2026-11-06",
+          "value": 4.51
+        },
+        {
+          "date": "2026-11-09",
+          "value": 4.56
+        },
+        {
+          "date": "2026-11-10",
+          "value": 4.73
+        },
+        {
+          "date": "2026-11-12",
+          "value": 4.86
+        },
+        {
+          "date": "2026-11-13",
+          "value": 4.88
+        },
+        {
+          "date": "2026-11-16",
+          "value": 4.83
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/DGS2"
+    },
+    {
+      "id": "T10Y2Y",
+      "label": "10Y–2Y Curve",
+      "unit": "percent",
+      "value": 0.3,
+      "previous": 0.29,
+      "asOf": "2026-11-17",
+      "history": [
+        {
+          "date": "2026-10-16",
+          "value": 0.35
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0.38
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0.33
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0.32
+        },
+        {
+          "date": "2026-10-22",
+          "value": 0.31
+        },
+        {
+          "date": "2026-10-23",
+          "value": 0.31
+        },
+        {
+          "date": "2026-10-26",
+          "value": 0.32
+        },
+        {
+          "date": "2026-10-27",
+          "value": 0.29
+        },
+        {
+          "date": "2026-10-28",
+          "value": 0.38
+        },
+        {
+          "date": "2026-10-29",
+          "value": 0.37
+        },
+        {
+          "date": "2026-10-30",
+          "value": 0.38
+        },
+        {
+          "date": "2026-11-02",
+          "value": 0.32
+        },
+        {
+          "date": "2026-11-03",
+          "value": 0.34
+        },
+        {
+          "date": "2026-11-04",
+          "value": 0.32
+        },
+        {
+          "date": "2026-11-05",
+          "value": 0.38
+        },
+        {
+          "date": "2026-11-06",
+          "value": 0.35
+        },
+        {
+          "date": "2026-11-09",
+          "value": 0.32
+        },
+        {
+          "date": "2026-11-10",
+          "value": 0.25
+        },
+        {
+          "date": "2026-11-12",
+          "value": 0.24
+        },
+        {
+          "date": "2026-11-13",
+          "value": 0.27
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0.29
+        },
+        {
+          "date": "2026-11-17",
+          "value": 0.3
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/T10Y2Y"
+    },
+    {
+      "id": "VIXCLS",
+      "label": "VIX",
+      "unit": "index",
+      "value": 25.46,
+      "previous": 22.91,
+      "asOf": "2026-11-17",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "value": 18.44
+        },
+        {
+          "date": "2026-10-20",
+          "value": 17.31
+        },
+        {
+          "date": "2026-10-21",
+          "value": 16.68
+        },
+        {
+          "date": "2026-10-22",
+          "value": 19.03
+        },
+        {
+          "date": "2026-10-23",
+          "value": 19.45
+        },
+        {
+          "date": "2026-10-26",
+          "value": 18.39
+        },
+        {
+          "date": "2026-10-27",
+          "value": 17.52
+        },
+        {
+          "date": "2026-10-28",
+          "value": 16.91
+        },
+        {
+          "date": "2026-10-29",
+          "value": 17.2
+        },
+        {
+          "date": "2026-10-30",
+          "value": 19.42
+        },
+        {
+          "date": "2026-11-02",
+          "value": 21.15
+        },
+        {
+          "date": "2026-11-03",
+          "value": 20.83
+        },
+        {
+          "date": "2026-11-04",
+          "value": 16.61
+        },
+        {
+          "date": "2026-11-05",
+          "value": 28.18
+        },
+        {
+          "date": "2026-11-06",
+          "value": 25.64
+        },
+        {
+          "date": "2026-11-09",
+          "value": 19.92
+        },
+        {
+          "date": "2026-11-10",
+          "value": 19.46
+        },
+        {
+          "date": "2026-11-11",
+          "value": 17.49
+        },
+        {
+          "date": "2026-11-12",
+          "value": 18.7
+        },
+        {
+          "date": "2026-11-13",
+          "value": 19.3
+        },
+        {
+          "date": "2026-11-16",
+          "value": 22.91
+        },
+        {
+          "date": "2026-11-17",
+          "value": 25.46
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/VIXCLS"
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "label": "High-Yield Spread",
+      "unit": "percent",
+      "value": 3.43,
+      "previous": 3.34,
+      "asOf": "2026-11-17",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "value": 3.29
+        },
+        {
+          "date": "2026-10-20",
+          "value": 3.33
+        },
+        {
+          "date": "2026-10-21",
+          "value": 3.27
+        },
+        {
+          "date": "2026-10-22",
+          "value": 3.4
+        },
+        {
+          "date": "2026-10-23",
+          "value": 3.38
+        },
+        {
+          "date": "2026-10-26",
+          "value": 3.3
+        },
+        {
+          "date": "2026-10-27",
+          "value": 3.18
+        },
+        {
+          "date": "2026-10-28",
+          "value": 3.14
+        },
+        {
+          "date": "2026-10-29",
+          "value": 3.26
+        },
+        {
+          "date": "2026-10-30",
+          "value": 3.44
+        },
+        {
+          "date": "2026-11-02",
+          "value": 3.43
+        },
+        {
+          "date": "2026-11-03",
+          "value": 3.4
+        },
+        {
+          "date": "2026-11-04",
+          "value": 3.32
+        },
+        {
+          "date": "2026-11-05",
+          "value": 3.48
+        },
+        {
+          "date": "2026-11-06",
+          "value": 3.42
+        },
+        {
+          "date": "2026-11-09",
+          "value": 3.34
+        },
+        {
+          "date": "2026-11-10",
+          "value": 3.3
+        },
+        {
+          "date": "2026-11-11",
+          "value": 3.3
+        },
+        {
+          "date": "2026-11-12",
+          "value": 3.2
+        },
+        {
+          "date": "2026-11-13",
+          "value": 3.23
+        },
+        {
+          "date": "2026-11-16",
+          "value": 3.34
+        },
+        {
+          "date": "2026-11-17",
+          "value": 3.43
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+    },
+    {
+      "id": "DFF",
+      "label": "Fed Funds Rate",
+      "unit": "percent",
+      "value": 3.88,
+      "previous": 3.88,
+      "asOf": "2026-11-16",
+      "history": [
+        {
+          "date": "2026-10-26",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-27",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-28",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-29",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-30",
+          "value": 3.88
+        },
+        {
+          "date": "2026-10-31",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-01",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-02",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-03",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-04",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-05",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-06",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-07",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-08",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-09",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-10",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-11",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-12",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-13",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-14",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-15",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-16",
+          "value": 3.88
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/DFF"
+    }
+  ],
+  "topStoryIds": [
+    "8fe5718f3740",
+    "a69c65603f13",
+    "8a3dc2d04dd6"
+  ],
+  "items": [
+    {
+      "id": "8a3dc2d04dd6",
+      "title": "Barr, Investing in America’s Underserved Communities",
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm",
+      "publishedAt": "2026-11-18T18:35:00.000Z",
+      "source": {
+        "id": "fed-speeches",
+        "name": "Federal Reserve — Speeches",
+        "homepage": "https://www.federalreserve.gov/newsevents/speeches.htm",
+        "contentType": "regulator"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "rates",
+        "label": "Fed & Rates"
+      },
+      "importance": 3,
+      "takeaway": "Federal Reserve official Barr spoke on “Investing in America’s Underserved Communities” at Making Missing Markets: Catalyzing Capital and Igniting Innovation, Federal Reserve Bank of New York, New York, New York.",
+      "whyItMatters": "Fed officials' comments move expectations for the next rate decision, which sets borrowing costs for deals and the yield on cash and bonds.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.30 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Basis point",
+        "explanation": "One hundredth of a percentage point (0.01%). A rate rising from 4.00% to 4.25% has risen 25 basis points."
+      },
+      "storyType": "quote",
+      "aiSummarized": false
+    },
+    {
+      "id": "64aad33a1b6b",
+      "title": "Waller, Considerations at the Intersection of Payments and Tokenized Markets",
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
+      "publishedAt": "2026-11-17T14:10:00.000Z",
+      "source": {
+        "id": "fed-speeches",
+        "name": "Federal Reserve — Speeches",
+        "homepage": "https://www.federalreserve.gov/newsevents/speeches.htm",
+        "contentType": "regulator"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "rates",
+        "label": "Fed & Rates"
+      },
+      "importance": 2,
+      "takeaway": "Federal Reserve official Waller spoke on “Considerations at the Intersection of Payments and Tokenized Markets” at “Navigating the Future of Banking and Payments,” The Clearing House Annual Conference 2026, New York, New York.",
+      "whyItMatters": "This launch adds a new way to invest in crypto, and how quickly it attracts money will show how deep demand really is.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.30 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Basis point",
+        "explanation": "One hundredth of a percentage point (0.01%). A rate rising from 4.00% to 4.25% has risen 25 basis points."
+      },
+      "storyType": "quote",
+      "aiSummarized": false
+    },
+    {
+      "id": "97ed4b50d763",
+      "title": "Nearly half of home builders are cutting prices and offering lower mortgage rates as they struggle to find buyers",
+      "url": "https://www.marketwatch.com/story/nearly-half-of-home-builders-are-cutting-prices-and-offering-lower-mortgage-rates-as-they-struggle-to-find-buyers-033351e1?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-18T17:14:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "More builders are cutting prices in spite of rising construction costs that make it more expensive to build new homes.",
+      "whyItMatters": "Moves in rates feed straight into borrowing costs for deals, bond prices and property values, so they change the hurdle every investment has to clear.",
+      "marketContext": "The VIX is 25.5, an elevated reading that signals nervous markets and high-yield credit spreads are 3.43%, near long-run norms (up 9 bps on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "64bd6d4c219b",
+      "title": "The Transfer Path to Succession Planning",
+      "url": "https://www.wealthmanagement.com/high-net-worth/the-transfer-path-to-succession-planning",
+      "publishedAt": "2026-11-18T16:41:00.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "people",
+        "label": "People & Leadership"
+      },
+      "importance": 2,
+      "takeaway": "Best practices for handing the family business to the rising generation.",
+      "whyItMatters": "Leadership changes at Best can reset strategy and priorities, so clients and fund investors will watch what the new team changes.",
+      "marketContext": "The S&P 500 stands at 7,340.53 (down 1.0% on the prior reading) and the VIX is 25.5, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "General partner (GP)",
+        "explanation": "The firm that runs a private fund, picks the investments and earns fees plus a share of profits."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "a826abda95b4",
+      "title": "T. Rowe Price favours asset-backed credit over direct lending in 2027",
+      "url": "https://alternativecreditinvestor.com/2026/11/18/t-rowe-price-favours-asset-backed-credit-over-direct-lending-in-2027/",
+      "publishedAt": "2026-11-18T14:27:41.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "private-credit",
+        "label": "Private Credit"
+      },
+      "importance": 3,
+      "takeaway": "T. Rowe Price has identified asset-backed credit and other specialist financing strategies as more attractive opportunities than broad direct lending heading into 2027.",
+      "whyItMatters": "T. Rowe Price's deal shows private lenders are still putting money to work in direct lending, and the terms they win set the bar for returns across the strategy.",
+      "marketContext": "The effective fed funds rate is 3.88% and high-yield credit spreads are 3.43%, near long-run norms (up 9 bps on the prior reading). Most private loans pay a floating rate, so lender income tracks short-term rates while spreads show how much extra investors demand for credit risk. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Private credit",
+        "explanation": "Loans made by investment funds rather than banks, usually to mid-sized companies. They often pay higher, floating interest rates."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "3755a33b6d3f",
+      "title": "BlackRock seeks approval for listed private markets fund structure",
+      "url": "https://privateequitywire.com/news/blackrock-seeks-approval-for-listed-private-markets-fund-structure",
+      "publishedAt": "2026-11-17T10:16:00.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [
+        "BlackRock"
+      ],
+      "theme": {
+        "id": "private-markets",
+        "label": "Private Markets"
+      },
+      "importance": 3,
+      "takeaway": "The proposed fund would reportedly disclose its holdings daily and offer to repurchase at least 2% of its outstanding shares each month.",
+      "whyItMatters": "Private markets now hold a large and growing share of global investment capital; shifts here affect pensions, endowments and family offices alike.",
+      "marketContext": "The 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and high-yield credit spreads are 3.43%, near long-run norms (up 9 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Evergreen fund",
+        "explanation": "A private-markets fund with no end date that accepts new money and allows limited periodic withdrawals. It is the main format for bringing private assets to wealthy individuals."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "57b5b23ff83b",
+      "title": "Private equity power storage investment hits $4bn",
+      "url": "https://privateequitywire.com/news/private-equity-power-storage-investment-hits-4bn",
+      "publishedAt": "2026-11-17T10:13:00.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [
+        "Brookfield"
+      ],
+      "theme": {
+        "id": "infrastructure",
+        "label": "Infrastructure & Energy"
+      },
+      "importance": 3,
+      "takeaway": "Ten leading private equity firms invested $4bn directly in power storage projects in 2025, up from $89m in 2020, according to BloombergNEF data reported by Bloomberg.",
+      "whyItMatters": "Infrastructure assets offer long-dated, often inflation-linked cash flows, which appeals to investors seeking stability.",
+      "marketContext": "The 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Infrastructure fund",
+        "explanation": "A fund that owns essential physical assets such as power, pipelines, data centers, airports and fiber, which usually produce steady, long-term cash flows."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "17d43dffeea0",
+      "title": "P Capital Partners expands into Germany with Munich office",
+      "url": "https://alternativecreditinvestor.com/2026/11/18/p-capital-partners-expands-into-germany-with-munich-office/",
+      "publishedAt": "2026-11-18T14:01:30.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "people",
+        "label": "People & Leadership"
+      },
+      "importance": 2,
+      "takeaway": "Moritz Frerker will join the firm in early 2027 as head of Germany and managing director within its corporate strategy.",
+      "whyItMatters": "Leadership changes at major firms can signal strategic shifts, succession planning or a new push into a growth area.",
+      "marketContext": "The S&P 500 stands at 7,340.53 (down 1.0% on the prior reading) and the VIX is 25.5, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Private credit",
+        "explanation": "Loans made by investment funds rather than banks, usually to mid-sized companies. They often pay higher, floating interest rates."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "76a92866f7d2",
+      "title": "Osaic-Owned CW Advisors Adds $920M Boston Firm",
+      "url": "https://www.wealthmanagement.com/ria-news/cw-advisors-buys-93-financial-adds-fifth-boston-office",
+      "publishedAt": "2026-11-18T18:23:29.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "The Boston-based wealth manager's seventh deal since joining Osaic keeps the firm on pace for eight acquisitions this year.",
+      "whyItMatters": "Private-market firms are racing to reach wealthy families and individuals, their biggest new source of growth after pensions and endowments.",
+      "marketContext": "The S&P 500 stands at 7,340.53 (down 1.0% on the prior reading) and the 10-year Treasury yield is 5.12% (down 3 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "9c38d1687bfd",
+      "title": "SNL’s ‘Sister’ Skit on Eldercare Is Too Relatable",
+      "url": "https://www.wealthmanagement.com/estate-planning/snl-s-sister-skit-on-eldercare-is-too-relatable",
+      "publishedAt": "2026-11-18T17:39:38.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "The viral skit resonated so widely because it hits on a nearly universal experience in the U.S.: the daunting task of caring for an aging parent with hardly any structural support.",
+      "whyItMatters": "New products aimed at private wealth are changing how individuals access private equity, credit and real estate, including liquidity terms and fees.",
+      "marketContext": "The S&P 500 stands at 7,340.53 (down 1.0% on the prior reading) and the 10-year Treasury yield is 5.12% (down 3 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "2a32910d7a9d",
+      "title": "DeepVest Launches AutoLab for Advisor Task Automation",
+      "url": "https://www.wealthmanagement.com/advisor-support-platforms/deepvest-launches-autolab-for-advisor-task-automation",
+      "publishedAt": "2026-11-18T17:05:22.000Z",
+      "source": {
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "AutoLab flags client, portfolio and market triggers, then routes advisor-approved actions into workflows spanning plans, communications and CRM tasks.",
+      "whyItMatters": "DeepVest's new offering gives wealth clients and advisors a new way into the market; compare its fees and how easily you can get your money out with existing options.",
+      "marketContext": "The S&P 500 stands at 7,340.53 (down 1.0% on the prior reading) and the 10-year Treasury yield is 5.12% (down 3 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "ac8ccad9e039",
+      "title": "S3 E6 – Why Advisors Collaborate with Family Offices ft. Richard Eisenbraun",
+      "url": "https://share.transistor.fm/s/9ed5bb0c",
+      "publishedAt": "2026-11-18T08:15:00.000Z",
+      "source": {
+        "id": "our-family-office",
+        "name": "The Our Family Office Podcast",
+        "homepage": "https://ourfamilyoffice.com/",
+        "contentType": "podcast"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
+      },
+      "importance": 3,
+      "takeaway": "Richard draws on more than 15 years of experience practicing tax and corporate law at BLG, and serving on a variety of Boards, to bring a unique perspective to complex situations, such as generational shift in private companies, mergers & acquisitions, cross-border investment.",
+      "whyItMatters": "This take on wealth management comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The S&P 500 stands at 7,340.53 (down 1.0% on the prior reading) and the 10-year Treasury yield is 5.12% (down 3 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    },
+    {
+      "id": "a69c65603f13",
+      "title": "Blackstone and Apollo target €10trn EU insurance market ahead of Solvency II reforms",
+      "url": "https://privateequitywire.com/news/6-blackstone-and-apollo-target-10trn-eu-insurance-market-ahead-of-solvency-ii-reforms",
+      "publishedAt": "2026-11-18T10:30:00.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [
+        "Blackstone",
+        "Apollo"
+      ],
+      "theme": {
+        "id": "regulation",
+        "label": "Regulation & Policy"
+      },
+      "importance": 4,
+      "takeaway": "Blackstone, Apollo Global Management and Pimco are seeking a larger share of the EU’s €10trn insurance asset market ahead of Solvency II reforms that could free up €80bn in regulatory capital based on insurers’ existing holdings, according to a Bloomberg report citing S&P Global Ratings.",
+      "whyItMatters": "Regulatory scrutiny of private funds is rising as the industry grows; new rules often reshape fees, disclosure and access.",
+      "marketContext": "The VIX is 25.5, an elevated reading that signals nervous markets and high-yield credit spreads are 3.43%, near long-run norms (up 9 bps on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Accredited investor",
+        "explanation": "An individual or entity that meets SEC wealth or income tests and is therefore allowed to invest in most private funds."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "9a9abffe5eba",
+      "title": "Billionaire Paul Tudor Jones doubles stake in BlackRock's Bitcoin ETF",
+      "url": "https://www.opalesque.com/fullarticle/717159/Billionaire_Paul_Tudor_Jones_doubles_stake_in715.html",
+      "publishedAt": "2026-11-17T23:48:20.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [
+        "BlackRock"
+      ],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 3,
+      "takeaway": "Tudor Investment Corporation held 1.36 million shares of BlackRock's iShares Bitcoin Trust (IBIT) worth $64.6m as of September 30, up 98% from 688,529 shares worth $22.9m at the end of June, according to a November 16 SEC filing.",
+      "whyItMatters": "BlackRock's deal is a fresh marker for what buyers will pay right now, so owners of similar businesses, and the funds that hold them, may be valued against it.",
+      "marketContext": "The 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and high-yield credit spreads are 3.43%, near long-run norms (up 9 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Take-private",
+        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "0d940575116d",
+      "title": "Anthropic weighs pricing IPO above $80 as hedge fund demand swells",
+      "url": "https://www.opalesque.com/fullarticle/717153/Anthropic_weighs_pricing_IPO_above_as_hedge715.html",
+      "publishedAt": "2026-11-17T23:58:20.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [],
+      "theme": {
+        "id": "exits",
+        "label": "Exits & Secondaries"
+      },
+      "importance": 2,
+      "takeaway": "Anthropic is preparing to lift its IPO price above $80 a share after receiving unusually large orders from hedge funds, a move that would value the Claude developer at $1.5tn to $1.6tn, up from the roughly $1.33tn implied by earlier terms.",
+      "whyItMatters": "Anthropic's $80 sale gives a live read on what private assets are really worth, and every completed sale returns cash that investors can put into new funds.",
+      "marketContext": "The S&P 500 stands at 7,340.53 (down 1.0% on the prior reading) and the VIX is 25.5, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "IPO",
+        "explanation": "Initial public offering, when a private company first sells shares on a stock exchange. It is a key exit route for private-equity and venture investors."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "694508683ddd",
+      "title": "Solana Foundation Took a Majority Stake in Crypto Data Provider CoinGecko",
+      "url": "https://hedgeco.net/news/11/2026/solana-foundation-took-a-majority-stake-in-crypto-data-provider-coingecko.html",
+      "publishedAt": "2026-11-17T11:50:06.000Z",
+      "source": {
+        "id": "hedgeco",
+        "name": "HedgeCo Networks",
+        "homepage": "https://www.hedgeco.net/news/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 2,
+      "takeaway": "The Solana Foundation has taken a majority stake in CoinGecko, one of the most widely used cryptocurrency price-tracking and market data platforms, according to CoinDesk.",
+      "whyItMatters": "The deal is a fresh marker for what buyers will pay right now, so owners of similar businesses, and the funds that hold them, may be valued against it.",
+      "marketContext": "The 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and high-yield credit spreads are 3.43%, near long-run norms (up 9 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Take-private",
+        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "8fe5718f3740",
+      "title": "Blackstone data centre REIT strikes $5bn AWS deal",
+      "url": "https://privateequitywire.com/news/blackstone-data-centre-reit-strikes-5bn-aws-deal",
+      "publishedAt": "2026-11-17T10:21:00.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [
+        "Blackstone"
+      ],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 5,
+      "takeaway": "Blackstone Digital Infrastructure Trust (BXDC) has agreed to acquire a 75% stake in two joint ventures with Amazon Web Services (AWS) in a transaction valued at about $5bn, according to a report by Bloomberg.",
+      "whyItMatters": "Each deal reveals where sponsors see value and which sectors they expect to outperform.",
+      "marketContext": "The 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and high-yield credit spreads are 3.43%, near long-run norms (up 9 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "REIT",
+        "explanation": "Real estate investment trust, a company that owns income-producing property and must pay out most of its income to shareholders. Many trade on stock exchanges; non-traded REITs such as BREIT are sold to individuals and limit how much can be withdrawn."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "b8adf86a06aa",
+      "title": "Accor’s $1.8 Billion Ennismore Buyout Tops 4 Rival Lifestyle Deals Combined",
+      "url": "https://skift.com/2026/11/17/accors-1-8-billion-ennismore-buyout-tops-4-rival-lifestyle-deals-combined/",
+      "publishedAt": "2026-11-18T02:26:14.000Z",
+      "source": {
+        "id": "skift",
+        "name": "Skift",
+        "homepage": "https://skift.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [
+        "Accor"
+      ],
+      "theme": {
+        "id": "hotels",
+        "label": "Hotels & Hospitality"
+      },
+      "importance": 4,
+      "takeaway": "Accor just committed $1.8 billion to buyout the minority investors in its Ennismore joint venture.",
+      "whyItMatters": "Hotel values move with travel demand and room rates, so hotel news is an early read on consumer and business spending.",
+      "marketContext": "The 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.30 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Leveraged buyout (LBO)",
+        "explanation": "Buying a company using a large amount of borrowed money, secured against the company's own cash flows, to amplify returns."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "c7279c3644d8",
+      "title": "Blue Owl Acquires Northern Virginia Data Center for $780M",
+      "url": "https://commercialobserver.com/2026/11/blue-owl-virginia-data-center-gainesville-crossing/",
+      "publishedAt": "2026-11-17T20:05:32.000Z",
+      "source": {
+        "id": "commercial-observer",
+        "name": "Commercial Observer",
+        "homepage": "https://commercialobserver.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [
+        "Blue Owl"
+      ],
+      "theme": {
+        "id": "infrastructure",
+        "label": "Infrastructure & Energy"
+      },
+      "importance": 4,
+      "takeaway": "A Blue Owl Capital affiliate has acquired a 54-megawatt data center in Northern Virginia for $779.5 million, growing its portfolio in one of the country’s largest markets for digital infrastructure.",
+      "whyItMatters": "Blue Owl's $780m deal is a fresh marker for what buyers will pay right now, so owners of similar businesses, and the funds that hold them, may be valued against it.",
+      "marketContext": "The 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Infrastructure fund",
+        "explanation": "A fund that owns essential physical assets such as power, pipelines, data centers, airports and fiber, which usually produce steady, long-term cash flows."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "d58cd0844ac7",
+      "title": "New $200M Tampa Rental Community to Include Mark Wahlberg’s Gym",
+      "url": "https://www.connectcre.com/stories/new-200m-tampa-rental-community-to-include-mark-wahlbergs-gym/",
+      "publishedAt": "2026-11-18T16:34:14.000Z",
+      "source": {
+        "id": "connect-cre",
+        "name": "Connect CRE",
+        "homepage": "https://www.connectcre.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [],
+      "theme": {
+        "id": "real-estate",
+        "label": "Real Estate"
+      },
+      "importance": 3,
+      "takeaway": "DoMo at Cass, a $200 million luxury multifamily development rising in Tampa, will be the location for actor Mark Wahlberg’s first fitness center, called Municipal Gym.",
+      "whyItMatters": "Real estate trends reveal where demand is strong (data centers, logistics, housing) and where it is weak (older offices).",
+      "marketContext": "The 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.30 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Cap rate",
+        "explanation": "A property's yearly net operating income divided by its price. A building earning $5 million a year that sells for $100 million has a 5% cap rate. A lower cap rate means a higher price, and cap rates tend to rise when interest rates rise."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "491753c550d2",
+      "title": "Platforms and hedge funds outpace 'traditional' funds",
+      "url": "https://www.opalesque.com/fullarticle/717156/Platforms_and_hedge_funds_outpace_funds715.html",
+      "publishedAt": "2026-11-17T23:53:20.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [
+        "BlackRock"
+      ],
+      "theme": {
+        "id": "hedge-funds",
+        "label": "Hedge Funds"
+      },
+      "importance": 3,
+      "takeaway": "Evident's first AI index for asset managers, covering 30 firms and 320 publicly disclosed AI use cases, finds that platforms and hedge funds have reached greater AI maturity than traditional managers, with BlackRock, Vanguard and Fidelity ranked first to third.",
+      "whyItMatters": "Large multi-strategy and macro funds move significant capital; their moves can amplify market trends.",
+      "marketContext": "The VIX is 25.5, an elevated reading that signals nervous markets and high-yield credit spreads are 3.43%, near long-run norms (up 9 bps on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Multi-strategy fund",
+        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "cb1750ed90c6",
+      "title": "Jeff Bezos' former hedge fund is buying Bitcoin again",
+      "url": "https://www.opalesque.com/fullarticle/717158/Jeff_former_hedge_fund_is_buying_Bitcoin715.html",
+      "publishedAt": "2026-11-17T23:50:00.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [
+        "BlackRock"
+      ],
+      "theme": {
+        "id": "hedge-funds",
+        "label": "Hedge Funds"
+      },
+      "importance": 3,
+      "takeaway": "E. Shaw, where Jeff Bezos worked before founding Amazon, bought $89.9m of BlackRock's Bitcoin ETF in the third quarter after holding none three months earlier, according to its latest SEC filing.",
+      "whyItMatters": "Hedge-fund performance and positioning show how sophisticated money is navigating current markets.",
+      "marketContext": "The VIX is 25.5, an elevated reading that signals nervous markets and high-yield credit spreads are 3.43%, near long-run norms (up 9 bps on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Multi-strategy fund",
+        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "8375e4729a40",
+      "title": "Pantera Led a $30 Million Series A for Stablecoin FX Platform Codex at a $130 Million Valuation",
+      "url": "https://hedgeco.net/news/11/2026/pantera-led-a-30-million-series-a-for-stablecoin-fx-platform-codex-at-a-130-million-valuation.html",
+      "publishedAt": "2026-11-18T11:52:04.000Z",
+      "source": {
+        "id": "hedgeco",
+        "name": "HedgeCo Networks",
+        "homepage": "https://www.hedgeco.net/news/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [],
+      "theme": {
+        "id": "hedge-funds",
+        "label": "Hedge Funds"
+      },
+      "importance": 2,
+      "takeaway": "Codex, a stablecoin foreign-exchange platform for businesses, has raised a $30 million Series A led by Pantera Capital, valuing the company at $130 million post-money.",
+      "whyItMatters": "This funding round shows where growth investors are placing bets in crypto, and its price becomes a marker for rivals raising next.",
+      "marketContext": "The VIX is 25.5, an elevated reading that signals nervous markets and high-yield credit spreads are 3.43%, near long-run norms (up 9 bps on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Multi-strategy fund",
+        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "790b6f8ad12a",
+      "title": "Citco-Administered Hedge Funds Lost 1.2% in October as Global Macro Fell 4.5%, but Inflows Hit a Tenth Straight Month",
+      "url": "https://hedgeco.net/news/11/2026/citco-administered-hedge-funds-lost-1-2-in-october-as-global-macro-fell-4-5-but-inflows-hit-a-tenth-straight-month.html",
+      "publishedAt": "2026-11-18T11:51:55.000Z",
+      "source": {
+        "id": "hedgeco",
+        "name": "HedgeCo Networks",
+        "homepage": "https://www.hedgeco.net/news/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [],
+      "theme": {
+        "id": "earnings",
+        "label": "Earnings & AUM"
+      },
+      "importance": 2,
+      "takeaway": "Hedge funds administered by Citco posted a second consecutive monthly loss in October, according to the administrator's latest Monthly Hedge Fund Update.",
+      "whyItMatters": "New money for Hedge shows demand for hedge funds is still growing, and money keeps flowing to the biggest managers, which gives them more say over fees and terms.",
+      "marketContext": "The S&P 500 stands at 7,340.53 (down 1.0% on the prior reading) and the VIX is 25.5, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Global macro",
+        "explanation": "A hedge-fund strategy that bets on big economic trends through interest rates, currencies, commodities and stock indices."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "55904cae49d0",
+      "title": "FIGS CEO Trina Spear on Scrubs, The Power of Customer Obsession, and the Jobs AI Can't Replace",
+      "url": "https://insideblackstone.podbean.com/e/trinaspear/",
+      "publishedAt": "2026-11-17T07:00:00.000Z",
+      "source": {
+        "id": "inside-blackstone",
+        "name": "Inside Blackstone (podcast)",
+        "homepage": "https://www.blackstone.com/insights/",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [
+        "Blackstone"
+      ],
+      "theme": {
+        "id": "infrastructure",
+        "label": "Infrastructure & Energy"
+      },
+      "importance": 4,
+      "takeaway": "Trina Spear left Blackstone in 2013 to build a brand that started by selling scrubs out of the back of a car.",
+      "whyItMatters": "This take on AI comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Infrastructure fund",
+        "explanation": "A fund that owns essential physical assets such as power, pipelines, data centers, airports and fiber, which usually produce steady, long-term cash flows."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    },
+    {
+      "id": "cd7b36869470",
+      "title": "Steady Global Economic Growth in 2027 Outlook But Risks Tilted to Downside",
+      "url": "https://www.goldmansachs.com/insights/series/exchanges-at-goldman-sachs/index.html",
+      "publishedAt": "2026-11-17T20:39:00.000Z",
+      "source": {
+        "id": "gs-exchanges",
+        "name": "Goldman Sachs Exchanges",
+        "homepage": "https://www.goldmansachs.com/insights/podcasts/",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [
+        "Goldman Sachs"
+      ],
+      "theme": {
+        "id": "voices",
+        "label": "Investor Outlook"
+      },
+      "importance": 4,
+      "takeaway": "The global economy is forecast to grow 2.8% in 2027, though energy and AI could test its resilience, Jan Hatzius, chief economist and head of Goldman Sachs Research says on the Exchanges podcast.",
+      "whyItMatters": "This take on AI comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.30 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Market cycle",
+        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    },
+    {
+      "id": "540271cc50ab",
+      "title": "How GTA VI Became the Most Expensive Video Game Ever Made",
+      "url": "https://omny.fm/shows/odd-lots/how-gta-vi-became-the-most-expensive-video-game-ever-made",
+      "publishedAt": "2026-11-18T11:00:00.000Z",
+      "source": {
+        "id": "odd-lots",
+        "name": "Odd Lots (Bloomberg podcast)",
+        "homepage": "https://www.bloomberg.com/oddlots",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [],
+      "theme": {
+        "id": "voices",
+        "label": "Investor Outlook"
+      },
+      "importance": 3,
+      "takeaway": "Bloomberg News video game reporter Jason Schreier has been following Rockstar Games and its quest to release GTA VI for a long time.",
+      "whyItMatters": "This take comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.12% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.30 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Nov 17.)",
+      "beginnerNote": {
+        "term": "Market cycle",
+        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    }
+  ],
+  "stats": {
+    "sourcesChecked": 52,
+    "sourcesOk": 33,
+    "candidates": 184,
+    "selected": 27
+  }
+}
