@@ -1,82 +1,85 @@
 {
-  "generatedAt": "2026-11-19T18:57:48.524Z",
+  "generatedAt": "2026-11-20T18:34:29.660Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "5d403ea88127",
-          "title": "What to Know About Anthropic’s Record-Breaking IPO",
-          "url": "https://www.wsj.com/finance/stocks/what-to-know-about-anthropics-record-breaking-ipo-372a1fec?mod=rss_markets_main",
-          "publishedAt": "2026-11-19T18:14:00.000Z",
-          "teaser": "Shares in the maker of the Claude chatbot began trading midday Thursday.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "0c99aba299be",
-          "title": "Canada’s Banking Regulator Moves to Level Playing Field for Smaller Lenders",
-          "url": "https://www.wsj.com/finance/regulation/canadas-banking-regulator-moves-to-level-playing-field-for-smaller-lenders-b8c5eae6?mod=rss_markets_main",
-          "publishedAt": "2026-11-19T17:21:00.000Z",
-          "teaser": "Canada’s financial-industry watchdog plans to soften capital requirements for smaller lenders in a bid to boost competition and break the hold of the handful of major banks on the industry.",
+          "id": "944db6e0514b",
+          "title": "Anthropic Mathematician Says AI Has Solved the Most Famous Problem in Math",
+          "url": "https://www.wsj.com/tech/ai/anthropic-mathematician-says-claude-has-solved-the-most-famous-problem-in-math-9361920b?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-20T17:28:00.000Z",
+          "teaser": "For 167 years, the Riemann hypothesis eluded mathematicians.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "0edad30c8487",
-          "title": "Anthropic’s IPO Is a Win for Venture. Its Success Could Reshape the Industry.",
-          "url": "https://www.wsj.com/pro/venture-capital/anthropics-ipo-is-a-win-for-venture-its-success-could-reshape-the-industry-2bfdecc0?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-19T16:53:00.000Z",
-          "teaser": "The Claude chatbot maker’s backers invested capital at an unprecedented scale into the artificial-intelligence giant in a departure from venture’s usual playbook.",
+          "id": "f4fe7be88d9f",
+          "title": "Dollar Falls as Risk Aversion Grips Wall Street",
+          "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-may-be-weighed-by-risk-off-sentiment-38aa30b7?mod=rss_markets_main",
+          "publishedAt": "2026-11-20T14:48:00.000Z",
+          "teaser": "The dollar edged lower after hype around Anthropic’s blockbuster IPO faded as markets worry about AI’s lofty ambitions.",
           "firms": [],
-          "section": "private-equity"
+          "section": "markets"
         },
         {
-          "id": "bf5ffaf13e57",
-          "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
-          "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87?mod=rss_markets_main",
-          "publishedAt": "2026-11-19T15:52:00.000Z",
-          "teaser": "The incident involved data belonging to thousands of customers, but it isn’t disrupting payment services or connected to banking issues earlier this week.",
+          "id": "b21ce620daaf",
+          "title": "Gold, Silver Drop to Lowest Levels in Over a Year",
+          "url": "https://www.wsj.com/finance/commodities-futures/gold-silver-drop-to-lowest-levels-in-over-a-year-c657402c?mod=rss_markets_main",
+          "publishedAt": "2026-11-20T14:14:00.000Z",
+          "teaser": "Expectations for tighter monetary policy appear to have overshadowed the typical demand for gold as a safe haven for risk-averse investors.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "ca939c7b9229",
+          "title": "The Morning Risk Report: China’s AI Firms Are Hooked on Nvidia Chips. Now Comes the Withdrawal.",
+          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-chinas-ai-firms-are-hooked-on-nvidia-chips-now-comes-the-withdrawal-57391e23?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-20T12:57:00.000Z",
+          "teaser": "Plus: IHG sued over alleged forced labor and Visa, Mastercard and JPMorgan customer data leaked by hackers.",
           "firms": [
-            "J.P. Morgan"
+            "J.P. Morgan",
+            "IHG"
           ],
           "section": "markets"
         },
         {
-          "id": "1d8482d46e66",
-          "title": "Evonik Shares Tumble After BASF Ends Takeover Efforts",
-          "url": "https://www.wsj.com/business/evonik-shares-tumble-after-basf-ends-takeover-efforts-7cae3722?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-19T15:29:00.000Z",
-          "teaser": "German chemicals giant BASF dropped its efforts to acquire Evonik Industries, abandoning a deal that could have exceeded $12 billion and sending shares in the target company sharply lower.",
+          "id": "80968a30939c",
+          "title": "What I Learned From CFOs About ‘Time-Maxxing’",
+          "url": "https://www.wsj.com/cfo-journal/what-i-learned-from-cfos-about-time-maxxing-1cdcdde7?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-20T12:12:00.000Z",
+          "teaser": "Plus, what to know about Anthropic’s record-breaking IPO.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "6049a709c24b",
-          "title": "Thousands of Anthropic Employees and Investors Are Set to Reap Fortunes",
-          "url": "https://www.wsj.com/tech/ai/thousands-of-anthropic-employees-and-investors-are-set-to-reap-fortunes-d9c3c6ed?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-19T14:00:00.000Z",
-          "teaser": "A majority of the AI frontier lab’s more than 5,000 employees are expected to become millionaires.",
+          "id": "0532e1d39010",
+          "title": "Union Pacific CEO Apologizes as March Remark Fuels Opposition to Merger",
+          "url": "https://www.wsj.com/logistics-report/union-pacific-ceo-apologizes-as-march-remark-fuels-opposition-to-merger-028c18ec?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-20T12:02:00.000Z",
+          "teaser": "Plus: Walmart’s revenue rises as e-commerce grows, in-store sales slide; U.S. group wins right to explore for rare earths in Kenya.",
           "firms": [],
-          "section": "markets"
+          "section": "private-equity"
         },
         {
-          "id": "7e889b1845e9",
-          "title": "Dodgers Owner Walter Faces Probe From State Regulator That Says It Was ‘Misled’",
-          "url": "https://www.wsj.com/finance/regulation/dodgers-owner-walter-faces-probe-from-state-regulator-that-says-it-was-misled-8f527738?mod=rss_markets_main",
-          "publishedAt": "2026-11-19T13:40:00.000Z",
-          "teaser": "Delaware’s insurance department has joined federal authorities in investigating loans Walter’s insurers made to entities he also controls.",
+          "id": "271b9dd456c4",
+          "title": "Data Centers Are the Growth Engine of America’s Power Grid",
+          "url": "https://www.wsj.com/finance/investing/data-centers-are-the-growth-engine-of-americas-power-grid-e16e0eaa?mod=rss_markets_main",
+          "publishedAt": "2026-11-20T11:25:00.000Z",
+          "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
           "firms": [],
-          "section": "markets"
+          "section": "private-markets"
         },
         {
-          "id": "7e3a6e14c5d3",
-          "title": "Bill Zerella, Known for Taking Startups Public, on Why He Joined Stord as CFO",
-          "url": "https://www.wsj.com/cfo-journal/bill-zerella-known-for-taking-startups-public-on-why-he-joined-stord-as-cfo-816bc0e8?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-19T12:50:00.000Z",
-          "teaser": "Plus, Anthropic raises $81 billion in biggest IPO ever.",
-          "firms": [],
-          "section": "markets"
+          "id": "b00eae4cbc78",
+          "title": "TPG, Corpay to Buy Finance Platform Bill for About $6 Billion",
+          "url": "https://www.wsj.com/business/deals/tpg-corpay-to-buy-finance-platform-bill-for-about-6-billion-9f8be10c?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-20T04:51:00.000Z",
+          "teaser": "Bill Holdings will be acquired in a deal valued at about $6 billion, with TPG set to buy a majority stake and Corpay agreeing to buy a minority interest.",
+          "firms": [
+            "TPG"
+          ],
+          "section": "private-equity"
         }
       ]
     },
@@ -84,73 +87,75 @@
       "id": "ft",
       "items": [
         {
-          "id": "df33ebc7e597",
-          "title": "Trump administration plans further cuts at US audit regulator",
-          "url": "https://www.ft.com/content/9c07ad42-0778-4a1c-b30b-f561f672f92e?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-19T16:54:41.000Z",
+          "id": "684dcbf07908",
+          "title": "Jamie Dimon vows to claw back ‘unfair’ UK bank tax",
+          "url": "https://www.ft.com/content/4dd143d0-0b10-4bb8-ac15-e04702fa8b9a?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-20T17:08:46.000Z",
+          "teaser": "",
+          "firms": [
+            "J.P. Morgan"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "fbb0ef253c3f",
+          "title": "The AI fever in markets is breaking",
+          "url": "https://www.ft.com/content/b1b2e948-ff5e-48c4-bc3e-f8e75c9e4af1?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-20T15:23:38.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "cfb89713dcfb",
-          "title": "Houthi air strike hits Saudi sovereign wealth fund headquarters",
-          "url": "https://www.ft.com/content/05ed47a5-7cc1-402f-ad0d-826ba09a05c8?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-19T16:38:08.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "1f4f7904707e",
-          "title": "Nscale warns of its exposure to suppliers facing US blacklist",
-          "url": "https://www.ft.com/content/97912585-2412-496c-a224-78e69328bcdb?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-19T14:39:18.000Z",
+          "id": "ca1b4ecb67a7",
+          "title": "US tech rout deepens as Anthropic shares tumble",
+          "url": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-20T14:01:58.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "936b7cd9a728",
-          "title": "The key to Anthropic’s value",
-          "url": "https://www.ft.com/content/aa8290dc-a20a-45af-97ab-1e71f97f236a?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-19T13:47:00.000Z",
+          "id": "56880aa47234",
+          "title": "‘A necessary evil’: how Anthropic pulled off its IPO",
+          "url": "https://www.ft.com/content/149d497e-0567-4467-bcfb-269b8b8eb157?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-20T12:02:46.000Z",
+          "teaser": "Fears about the AI trade did not damp enthusiasm for shares.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "88f2c87448e5",
+          "title": "Anthropic market cap in line with Alphaville’s guess",
+          "url": "https://www.ft.com/content/67938df3-a9ce-4eb8-9299-af0ab80db87b",
+          "publishedAt": "2026-11-20T11:57:35.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "978de2b9101b",
-          "title": "More than 100,000 UK retail investors rush to buy Anthropic shares",
-          "url": "https://www.ft.com/content/30d21725-f889-4e3d-a3a8-63ed6b55e4d8?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-19T12:31:14.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "family-offices"
-        },
-        {
-          "id": "884e4442a40a",
-          "title": "Anthropic stock begins trading after record $81bn IPO",
-          "url": "https://www.ft.com/content/7a6b211d-c73b-4953-97ee-ed92dab8ee07?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-19T10:10:00.000Z",
+          "id": "fc283a6b3755",
+          "title": "So, Anthropic is finally a public company. What now?",
+          "url": "https://www.ft.com/content/017044a9-76dc-4cb4-9259-a844a96f2757",
+          "publishedAt": "2026-11-20T05:19:35.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "64d4bb67d42a",
-          "title": "Anthropic raises $81bn in record IPO",
-          "url": "https://www.ft.com/content/62c0510b-ca65-441e-9baf-675b93903b9e?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-19T07:04:26.000Z",
+          "id": "b3d77399a1e9",
+          "title": "Trump to host memecoin dinner as Democrats take aim at ‘conflicts of interest’",
+          "url": "https://www.ft.com/content/0cb87e56-2b97-4c91-bfa7-a7ab616fd58e?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-20T05:00:27.000Z",
           "teaser": "",
           "firms": [],
-          "section": "private-equity"
+          "section": "markets"
         },
         {
-          "id": "41c7f907561c",
-          "title": "Energy markets can ‘manage without’ the Strait of Hormuz, says IEA",
-          "url": "https://www.ft.com/content/1e00aad2-0007-4328-8492-0fea09aa69ad?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-19T05:00:28.000Z",
+          "id": "fb635d8eceb2",
+          "title": "Anthropic’s Wall Street stimulus fades",
+          "url": "https://www.ft.com/content/4f7cf30e-5c9a-489f-bd01-2283a6c9d0e9?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-20T05:00:26.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-markets"
@@ -161,77 +166,37 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "6bf9807d4f3d",
-          "title": "BlackRock’s New Proposal Looks to Mix Ease of Trading With Private Market Access",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-11-19/blackrock-s-new-proposal-looks-to-mix-ease-of-trading-with-private-market-access",
-          "publishedAt": "2026-11-19T17:33:42.000Z",
-          "teaser": "The proposed fund structure brings together two things investors are obsessed with.",
-          "firms": [
-            "BlackRock"
-          ],
-          "section": "private-markets"
-        },
-        {
-          "id": "862b4d062127",
-          "title": "BP Said to Weigh Divesting Its Key West Africa LNG Plant GTA",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/bp-said-to-weigh-divesting-its-key-west-africa-lng-plant-gta",
-          "publishedAt": "2026-11-19T17:20:54.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "b46b4a594f1a",
-          "title": "Banks Swap Battered Brazil for Mexico in Regional Equity Picks",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/banks-swap-battered-brazil-for-mexico-in-regional-equity-picks",
-          "publishedAt": "2026-11-19T16:43:48.000Z",
-          "teaser": "Banks from Wall Street to Brazil’s Faria Lima financial hub are switching their stock preferences to Mexico and away from Brazil as diverging growth, rates and earnings outlooks reshape the investment case across Latin America.",
+          "id": "018b1511ff9b",
+          "title": "Treasuries Rally as AI Selloff Sends Investors to Haven Assets",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/treasuries-eye-longest-rally-in-five-months-on-haven-demand",
+          "publishedAt": "2026-11-20T04:33:23.000Z",
+          "teaser": "US Treasuries soared as mounting doubts over the artificial intelligence trade sent stocks tumbling and investors flocking to haven assets.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "f9a5b7428d3f",
-          "title": "AMD Falls on Hunterbrook Short Call That Cites China Risks",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/amd-slides-after-hunterbrook-shorts-stock-cites-circular-deals",
-          "publishedAt": "2026-11-19T16:12:28.000Z",
-          "teaser": "Advanced Micro Devices Inc. shares slid after Hunterbrook Capital said it shorted the stock, following a report by its media affiliate that the chipmaker is reliant on a potentially risky business in China.",
+          "id": "a08f8d2bf066",
+          "title": "S&P 500 Falls 10% From Record to Enter Correction: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
+          "publishedAt": "2026-11-19T22:03:40.000Z",
+          "teaser": "A bruising tech rout roiled global markets, driving US stocks toward their longest slide since 2020 as investors piled into bonds.",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "f30883307950",
-          "title": "Sanofi Weighs Takeover of US Drugmaker Insmed",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/sanofi-weighs-takeover-of-us-drugmaker-insmed",
-          "publishedAt": "2026-11-19T15:05:37.000Z",
-          "teaser": "Sanofi SA is weighing an acquisition of US drugmaker Insmed Inc., people familiar with the matter said, as the French pharmaceuticals company hunts for its next blockbuster treatment under a new CEO.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "70da7e81f5bc",
-          "title": "Anthropic Shares Jump 17% After $107.3 Billion IPO Breaks Record",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-poised-to-surge-after-107-3-billion-ipo-tops-spacex",
-          "publishedAt": "2026-11-19T14:52:54.000Z",
-          "teaser": "Anthropic PBC shares pared earlier gains to trade 17% above their IPO price after the artificial intelligence lab’s blockbuster $107.3 billion debut broke SpaceX’s record for the biggest-ever offering.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "cb0dbd848151",
-          "title": "Blue Owl Plans $513 Million CMBS for Amazon-Leased Data Center",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/blue-owl-plans-513-million-cmbs-for-amazon-leased-data-center",
-          "publishedAt": "2026-11-19T00:54:52.000Z",
-          "teaser": "Blue Owl Capital Inc. is preparing to sell $513 million of commercial mortgage backed securities to fund the acquisition of a Northern Virginia data center that’s fully leased to Amazon.com Inc., according to people with knowledge of the matter.",
-          "firms": [
-            "Blue Owl"
-          ],
-          "section": "private-markets"
         }
       ]
     },
     {
       "id": "economist",
       "items": [
+        {
+          "id": "bc459f2a154b",
+          "title": "Anthropic soars, but it may soon be back, cap in hand",
+          "url": "https://www.economist.com/business/2026/11/19/anthropic-soars-but-it-may-soon-be-back-cap-in-hand",
+          "publishedAt": "2026-11-19T23:15:40.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
         {
           "id": "99d49c5ec7ab",
           "title": "Trump Inc is in free fall",
