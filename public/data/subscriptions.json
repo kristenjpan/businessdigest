@@ -1,24 +1,71 @@
 {
-  "generatedAt": "2026-11-20T18:34:29.660Z",
+  "generatedAt": "2026-11-21T17:25:30.609Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
+        {
+          "id": "def0dbf818fc",
+          "title": "The Blame Game Has Begun Over Anthropic’s Turbulent Trading Debut",
+          "url": "https://www.wsj.com/finance/stocks/the-blame-game-has-begun-over-anthropics-turbulent-trading-debut-280a34b1?mod=rss_markets_main",
+          "publishedAt": "2026-11-21T02:16:00.000Z",
+          "teaser": "The AI giant’s stock slid in its second day of trading, at one point dropping to just 5 cents above its IPO price.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "f78ebd9ae6d0",
+          "title": "They Run Anthropic. They Want to Keep It Weird. They’re Brother and Sister.",
+          "url": "https://www.wsj.com/tech/ai/anthropic-dario-daniela-amodei-siblings-ipo-be84ad11?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-21T02:00:00.000Z",
+          "teaser": "Dario and Daniela Amodei were on top of the biggest IPO ever Thursday–and a market rout one day later.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "8df93c9bfdcb",
+          "title": "Activist Nelson Peltz Walked Away From the Investment He Loved Most. Now He’s Back.",
+          "url": "https://www.wsj.com/business/wendys-nelson-peltz-bid-activist-49d3a1ea?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-21T01:00:00.000Z",
+          "teaser": "The investor is trying to buy Wendy’s again.",
+          "firms": [],
+          "section": "hedge-funds"
+        },
+        {
+          "id": "d260f9157fd3",
+          "title": "Oxford and MIT Didn’t Bite. So Ken Griffin Took His Miami Campus Elsewhere.",
+          "url": "https://www.wsj.com/business/ken-griffin-citadel-miami-carnegie-mellon-338bcd20?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-21T01:00:00.000Z",
+          "teaser": "The Citadel founder ended up making what would be the largest single gift in higher education—$3 billion to Carnegie Mellon.",
+          "firms": [
+            "Citadel"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "6f232f6bc590",
+          "title": "Anthropic’s IPO Turmoil Caps $4 Trillion AI Wipeout on Wall Street",
+          "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90?mod=rss_markets_main",
+          "publishedAt": "2026-11-20T23:36:00.000Z",
+          "teaser": "A brutal selloff in stocks got worse as the week wore on, and not even the biggest IPO in history could slow it down.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "ab977d8fb03d",
+          "title": "Opinion | Why China Wants to Control a Yacht Maker",
+          "url": "https://www.wsj.com/opinion/why-china-wants-to-control-a-yacht-maker-69ca60c7?mod=rss_markets_main",
+          "publishedAt": "2026-11-20T23:11:00.000Z",
+          "teaser": "The story of Italy’s Ferretti Group points to a vulnerability in the West’s system to control investment by foreign adversaries.",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "944db6e0514b",
           "title": "Anthropic Mathematician Says AI Has Solved the Most Famous Problem in Math",
           "url": "https://www.wsj.com/tech/ai/anthropic-mathematician-says-claude-has-solved-the-most-famous-problem-in-math-9361920b?mod=pls_whats_news_us_business_f",
           "publishedAt": "2026-11-20T17:28:00.000Z",
           "teaser": "For 167 years, the Riemann hypothesis eluded mathematicians.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "f4fe7be88d9f",
-          "title": "Dollar Falls as Risk Aversion Grips Wall Street",
-          "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-may-be-weighed-by-risk-off-sentiment-38aa30b7?mod=rss_markets_main",
-          "publishedAt": "2026-11-20T14:48:00.000Z",
-          "teaser": "The dollar edged lower after hype around Anthropic’s blockbuster IPO faded as markets worry about AI’s lofty ambitions.",
           "firms": [],
           "section": "markets"
         },
@@ -30,56 +77,6 @@
           "teaser": "Expectations for tighter monetary policy appear to have overshadowed the typical demand for gold as a safe haven for risk-averse investors.",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "ca939c7b9229",
-          "title": "The Morning Risk Report: China’s AI Firms Are Hooked on Nvidia Chips. Now Comes the Withdrawal.",
-          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-chinas-ai-firms-are-hooked-on-nvidia-chips-now-comes-the-withdrawal-57391e23?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-20T12:57:00.000Z",
-          "teaser": "Plus: IHG sued over alleged forced labor and Visa, Mastercard and JPMorgan customer data leaked by hackers.",
-          "firms": [
-            "J.P. Morgan",
-            "IHG"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "80968a30939c",
-          "title": "What I Learned From CFOs About ‘Time-Maxxing’",
-          "url": "https://www.wsj.com/cfo-journal/what-i-learned-from-cfos-about-time-maxxing-1cdcdde7?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-20T12:12:00.000Z",
-          "teaser": "Plus, what to know about Anthropic’s record-breaking IPO.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "0532e1d39010",
-          "title": "Union Pacific CEO Apologizes as March Remark Fuels Opposition to Merger",
-          "url": "https://www.wsj.com/logistics-report/union-pacific-ceo-apologizes-as-march-remark-fuels-opposition-to-merger-028c18ec?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-20T12:02:00.000Z",
-          "teaser": "Plus: Walmart’s revenue rises as e-commerce grows, in-store sales slide; U.S. group wins right to explore for rare earths in Kenya.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "271b9dd456c4",
-          "title": "Data Centers Are the Growth Engine of America’s Power Grid",
-          "url": "https://www.wsj.com/finance/investing/data-centers-are-the-growth-engine-of-americas-power-grid-e16e0eaa?mod=rss_markets_main",
-          "publishedAt": "2026-11-20T11:25:00.000Z",
-          "teaser": "Some of the best analysis and insight on investing, the wealth-management business and more.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "b00eae4cbc78",
-          "title": "TPG, Corpay to Buy Finance Platform Bill for About $6 Billion",
-          "url": "https://www.wsj.com/business/deals/tpg-corpay-to-buy-finance-platform-bill-for-about-6-billion-9f8be10c?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-20T04:51:00.000Z",
-          "teaser": "Bill Holdings will be acquired in a deal valued at about $6 billion, with TPG set to buy a majority stake and Corpay agreeing to buy a minority interest.",
-          "firms": [
-            "TPG"
-          ],
-          "section": "private-equity"
         }
       ]
     },
@@ -87,15 +84,40 @@
       "id": "ft",
       "items": [
         {
-          "id": "684dcbf07908",
-          "title": "Jamie Dimon vows to claw back ‘unfair’ UK bank tax",
-          "url": "https://www.ft.com/content/4dd143d0-0b10-4bb8-ac15-e04702fa8b9a?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-20T17:08:46.000Z",
+          "id": "4749a04829b9",
+          "title": "Navy budget pick has family investments in Trump Jr-linked contractor",
+          "url": "https://www.ft.com/content/145e6fab-d93a-412d-8670-0554064fdf98?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-21T16:19:19.000Z",
           "teaser": "",
-          "firms": [
-            "J.P. Morgan"
-          ],
+          "firms": [],
           "section": "markets"
+        },
+        {
+          "id": "a55ce1749647",
+          "title": "How can investors succeed in markets today?",
+          "url": "https://www.ft.com/content/22b3765d-ff3d-4f07-8982-5a222dbb862e?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-21T05:00:16.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "448352dfcd27",
+          "title": "Nvidia faces US regulator’s probe into its accounting",
+          "url": "https://www.ft.com/content/9b28ed72-aac4-4291-9734-bf60b66645ab?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-20T21:58:08.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "56880aa47234",
+          "title": "Inside Anthropic’s historic IPO",
+          "url": "https://www.ft.com/content/149d497e-0567-4467-bcfb-269b8b8eb157?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-20T21:21:29.000Z",
+          "teaser": "Can the low-key company preserve its idiosyncratic culture in the glare of public markets?",
+          "firms": [],
+          "section": "private-equity"
         },
         {
           "id": "fbb0ef253c3f",
@@ -108,21 +130,12 @@
         },
         {
           "id": "ca1b4ecb67a7",
-          "title": "US tech rout deepens as Anthropic shares tumble",
+          "title": "Markets sell-off as it happened: Nasdaq 100 enters bear market, Anthropic shares drop 8.5% a day after blockbuster market debut",
           "url": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1",
           "publishedAt": "2026-11-20T14:01:58.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "56880aa47234",
-          "title": "‘A necessary evil’: how Anthropic pulled off its IPO",
-          "url": "https://www.ft.com/content/149d497e-0567-4467-bcfb-269b8b8eb157?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-20T12:02:46.000Z",
-          "teaser": "Fears about the AI trade did not damp enthusiasm for shares.",
-          "firms": [],
-          "section": "private-equity"
         },
         {
           "id": "88f2c87448e5",
@@ -141,24 +154,6 @@
           "teaser": "",
           "firms": [],
           "section": "private-equity"
-        },
-        {
-          "id": "b3d77399a1e9",
-          "title": "Trump to host memecoin dinner as Democrats take aim at ‘conflicts of interest’",
-          "url": "https://www.ft.com/content/0cb87e56-2b97-4c91-bfa7-a7ab616fd58e?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-20T05:00:27.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "fb635d8eceb2",
-          "title": "Anthropic’s Wall Street stimulus fades",
-          "url": "https://www.ft.com/content/4f7cf30e-5c9a-489f-bd01-2283a6c9d0e9?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-20T05:00:26.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
         }
       ]
     },
@@ -166,20 +161,22 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "018b1511ff9b",
-          "title": "Treasuries Rally as AI Selloff Sends Investors to Haven Assets",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-20/treasuries-eye-longest-rally-in-five-months-on-haven-demand",
-          "publishedAt": "2026-11-20T04:33:23.000Z",
-          "teaser": "US Treasuries soared as mounting doubts over the artificial intelligence trade sent stocks tumbling and investors flocking to haven assets.",
-          "firms": [],
+          "id": "691aeea036b1",
+          "title": "Goldman’s SpaceX Pitch Helps Solve AI Debt Puzzle: Credit Weekly",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
+          "publishedAt": "2026-11-21T15:31:22.000Z",
+          "teaser": "Goldman Sachs Group Inc. spent more than a year trying to solve one of tech’s biggest headaches: how to pay for AI chips without wrecking corporate balance sheets.",
+          "firms": [
+            "Goldman Sachs"
+          ],
           "section": "markets"
         },
         {
-          "id": "a08f8d2bf066",
-          "title": "S&P 500 Falls 10% From Record to Enter Correction: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
-          "publishedAt": "2026-11-19T22:03:40.000Z",
-          "teaser": "A bruising tech rout roiled global markets, driving US stocks toward their longest slide since 2020 as investors piled into bonds.",
+          "id": "7c528fadd502",
+          "title": "Italy’s Webuild Completes Takeover of Construction Group Trevi",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/italy-s-webuild-completes-takeover-of-construction-group-trevi",
+          "publishedAt": "2026-11-21T08:42:34.000Z",
+          "teaser": "Webuild SpA, Italy’s biggest construction company, completed its tender offer for smaller competitor Trevi, adding to a string of acquisitions.",
           "firms": [],
           "section": "markets"
         }
