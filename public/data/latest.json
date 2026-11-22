@@ -1,27 +1,37 @@
 {
-  "date": "2026-11-21",
-  "generatedAt": "2026-11-21T17:25:30.609Z",
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T17:47:10.729Z",
   "engine": "rules-v5",
-  "edition": 60,
+  "edition": 61,
   "brief": {
     "headline": "Private credit gains ground in Asia amid AI boom",
     "bullets": [
       "Private Credit: Private credit is gaining ground in Asia as demand for flexible capital grows and the AI boom needs funding, according to KKR.",
-      "Real Estate: Gaylord Rockies in Aurora plans a $305M expansion with 450 rooms and a luxury indoor water park, boosting group travel and events.",
-      "M&A & Buyouts: Private equity firm TPG has agreed to acquire financial software provider BILL Holdings in partnership with Corpay in an all-cash take-private valued at about $6bn, according to a report by Reuters.",
-      "Investor Outlook: Barry speaks with David Eichhorn, CEO and Head of Investment Strategies at NISA Investment Advisors.",
-      "Hotels & Hospitality: Diriyah has canceled a $191 million hotel contract and won’t say why."
+      "Private Markets: Medicare costs are higher and patients stay longer at hospice providers owned by private-equity firms, new research has found.",
+      "Real Estate: If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
+      "Private Credit: Two prints from the same week point in opposite directions.",
+      "Investor Outlook: Barry speaks with David Eichhorn, CEO and Head of Investment Strategies at NISA Investment Advisors."
     ],
     "marketRead": "Bottom line: signals are mixed, with some markets calm and others showing strain, so expect selective risk-taking. The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the VIX is 28.4, an elevated reading that signals nervous markets. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.29 pts (positively sloped). High-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading).",
     "themes": [
       {
-        "id": "rates",
-        "label": "Fed & Rates",
+        "id": "ai-tech",
+        "label": "AI & Technology",
+        "count": 6
+      },
+      {
+        "id": "real-estate",
+        "label": "Real Estate",
         "count": 3
       },
       {
-        "id": "hotels",
-        "label": "Hotels & Hospitality",
+        "id": "markets",
+        "label": "Market Moves",
+        "count": 3
+      },
+      {
+        "id": "family-office",
+        "label": "Family Offices & Wealth",
         "count": 3
       },
       {
@@ -32,16 +42,6 @@
       {
         "id": "private-credit",
         "label": "Private Credit",
-        "count": 2
-      },
-      {
-        "id": "fundraising",
-        "label": "Fundraising",
-        "count": 2
-      },
-      {
-        "id": "family-office",
-        "label": "Family Offices & Wealth",
         "count": 2
       }
     ]
@@ -743,10 +743,122 @@
   ],
   "topStoryIds": [
     "3cc08ea61b5e",
-    "65235164c503",
-    "1ac2a823cb00"
+    "91bc026d2609",
+    "c52011ecd8c5"
   ],
   "items": [
+    {
+      "id": "c52011ecd8c5",
+      "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
+      "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-22T17:00:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "real-estate",
+        "label": "Real Estate"
+      },
+      "importance": 2,
+      "takeaway": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
+      "whyItMatters": "Real estate trends reveal where demand is strong (data centers, logistics, housing) and where it is weak (older offices).",
+      "marketContext": "The 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.29 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Nov 20.)",
+      "beginnerNote": {
+        "term": "Cap rate",
+        "explanation": "A property's yearly net operating income divided by its price. A building earning $5 million a year that sells for $100 million has a 5% cap rate. A lower cap rate means a higher price, and cap rates tend to rise when interest rates rise."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "9dfd5a1985ad",
+      "title": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
+      "url": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-22T15:01:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "ai-tech",
+        "label": "AI & Technology"
+      },
+      "importance": 2,
+      "takeaway": "There’s been no shortage of trends deemed once-in-a-generation by executives on earnings calls.",
+      "whyItMatters": "Capital flowing into AI shapes returns across asset classes, from tech equities to power infrastructure and private credit for data centers.",
+      "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the VIX is 28.4, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 20.)",
+      "beginnerNote": {
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
+      },
+      "storyType": "quote",
+      "aiSummarized": false
+    },
+    {
+      "id": "26541281d355",
+      "title": "‘I felt so seen’: Why families across America are laughing — and crying — over SNL’s ‘Sister’ sketch",
+      "url": "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-22T16:18:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "The late-night comedy sketch does the impossible by making female caregivers feel seen.",
+      "whyItMatters": "Public-market swings feed directly into private-market valuations, IPO windows and investor sentiment.",
+      "marketContext": "The VIX is 28.4, an elevated reading that signals nervous markets and high-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 20.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "quote",
+      "aiSummarized": false
+    },
+    {
+      "id": "31dfa678a4d1",
+      "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
+      "publishedAt": "2026-11-20T18:03:24.000Z",
+      "source": {
+        "id": "sec-press",
+        "name": "SEC — Press Releases",
+        "homepage": "https://www.sec.gov/newsroom/press-releases",
+        "contentType": "regulator"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "regulation",
+        "label": "Regulation & Policy"
+      },
+      "importance": 2,
+      "takeaway": "The Securities and Exchange Commission today issued a proposal to address the inefficiencies in the current governance and funding model of the Consolidated Audit Trail (CAT).",
+      "whyItMatters": "Signs of strain are an early warning for its investors: more defaults or deferred interest would cut income and push down the value of the loans.",
+      "marketContext": "The VIX is 28.4, an elevated reading that signals nervous markets and high-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 20.)",
+      "beginnerNote": {
+        "term": "Accredited investor",
+        "explanation": "An individual or entity that meets SEC wealth or income tests and is therefore allowed to invest in most private funds."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
     {
       "id": "da9cc5ebd5f3",
       "title": "Cook, The U.S. Economy in Global Context",
@@ -776,38 +888,10 @@
       "aiSummarized": false
     },
     {
-      "id": "b31d9867d890",
-      "title": "Waller, Opening Remarks",
-      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm",
-      "publishedAt": "2026-11-20T13:25:00.000Z",
-      "source": {
-        "id": "fed-speeches",
-        "name": "Federal Reserve — Speeches",
-        "homepage": "https://www.federalreserve.gov/newsevents/speeches.htm",
-        "contentType": "regulator"
-      },
-      "section": "markets",
-      "firms": [],
-      "theme": {
-        "id": "rates",
-        "label": "Fed & Rates"
-      },
-      "importance": 2,
-      "takeaway": "Federal Reserve official Waller spoke on “Opening Remarks” at the 2026 College Fed Challenge Finals, Board of Governors of the Federal Reserve System, Washington, D.C.",
-      "whyItMatters": "Fed officials' comments move expectations for the next rate decision, which sets borrowing costs for deals and the yield on cash and bonds.",
-      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.29 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Nov 20.)",
-      "beginnerNote": {
-        "term": "Basis point",
-        "explanation": "One hundredth of a percentage point (0.01%). A rate rising from 4.00% to 4.25% has risen 25 basis points."
-      },
-      "storyType": "quote",
-      "aiSummarized": false
-    },
-    {
-      "id": "3a68823c8dae",
-      "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
-      "publishedAt": "2026-11-19T14:39:02.000Z",
+      "id": "8cf63b9f3cc1",
+      "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
+      "publishedAt": "2026-11-20T14:28:28.000Z",
       "source": {
         "id": "sec-press",
         "name": "SEC — Press Releases",
@@ -821,8 +905,8 @@
         "label": "Regulation & Policy"
       },
       "importance": 2,
-      "takeaway": "The Securities and Exchange Commission today charged eight Colorado-based entities, likely operated by individuals located overseas, for defrauding U.S. investors out of more than $37 million.",
-      "whyItMatters": "If regulators act on it, the change would affect how crypto products are offered and taxed, so the industry is pushing for clarity before rules are set.",
+      "takeaway": "The Securities and Exchange Commission today announced that it has obtained a temporary restraining order, asset freeze, expedited discovery, and other relief against Indianapolis-based Backward Hat Capital.",
+      "whyItMatters": "The outcome could mean fines or new limits, and cases like this often set the rules the rest of the industry has to follow.",
       "marketContext": "The VIX is 28.4, an elevated reading that signals nervous markets and high-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 20.)",
       "beginnerNote": {
         "term": "Accredited investor",
@@ -832,31 +916,59 @@
       "aiSummarized": false
     },
     {
-      "id": "c8279dbe2376",
-      "title": "Jefferson, Monetary Policy amid Frequent and Complex Shocks",
-      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm",
-      "publishedAt": "2026-11-19T14:25:00.000Z",
+      "id": "a668ab4ec6b7",
+      "title": "Humanized Content vs. AI Slop",
+      "url": "https://www.wealthmanagement.com/marketing/humanized-content-vs-ai-slop",
+      "publishedAt": "2026-11-20T19:31:17.000Z",
       "source": {
-        "id": "fed-speeches",
-        "name": "Federal Reserve — Speeches",
-        "homepage": "https://www.federalreserve.gov/newsevents/speeches.htm",
-        "contentType": "regulator"
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
+        "contentType": "news"
       },
       "section": "markets",
       "firms": [],
       "theme": {
-        "id": "rates",
-        "label": "Fed & Rates"
+        "id": "ai-tech",
+        "label": "AI & Technology"
       },
-      "importance": 2,
-      "takeaway": "Federal Reserve official Jefferson spoke on “Monetary Policy amid Frequent and Complex Shocks” at the International Monetary Fund and Central Bank of Brazil Conference “A Quarter Century of Inflation Targeting in Latin America: Progress, Challenges, and the Road Ahead,” Brasília, Brazil.",
-      "whyItMatters": "Fed officials' comments move expectations for the next rate decision, which sets borrowing costs for deals and the yield on cash and bonds.",
-      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.29 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Nov 20.)",
+      "importance": 1,
+      "takeaway": "Artificial intelligence has made content easier to produce, but attention harder to earn.",
+      "whyItMatters": "Capital flowing into AI shapes returns across asset classes, from tech equities to power infrastructure and private credit for data centers.",
+      "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the VIX is 28.4, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 20.)",
       "beginnerNote": {
-        "term": "Basis point",
-        "explanation": "One hundredth of a percentage point (0.01%). A rate rising from 4.00% to 4.25% has risen 25 basis points."
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
       },
-      "storyType": "quote",
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "e0a436105eb6",
+      "title": "S&P 500 Falls Deeper In Correction As AI Enthusiasm Unravels",
+      "url": "https://www.fa-mag.com/news/s-p-500-falls-deeper-in-correction-as-ai-enthusiasm-unravels-89311.html",
+      "publishedAt": "2026-11-20T15:00:00.000Z",
+      "source": {
+        "id": "fa-mag",
+        "name": "Financial Advisor Magazine",
+        "homepage": "https://www.fa-mag.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "ai-tech",
+        "label": "AI & Technology"
+      },
+      "importance": 1,
+      "takeaway": "The downside momentum is driven by the companies at the heart of the AI boom.",
+      "whyItMatters": "A lasting selloff in stocks would cut the value of private companies priced against them and make IPOs harder, so watch whether it spreads.",
+      "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the VIX is 28.4, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 20.)",
+      "beginnerNote": {
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
+      },
+      "storyType": "news",
       "aiSummarized": false
     },
     {
@@ -878,7 +990,7 @@
         "id": "private-credit",
         "label": "Private Credit"
       },
-      "importance": 4,
+      "importance": 3,
       "takeaway": "Private credit is gaining ground in Asia as demand for flexible capital grows and the AI boom needs funding, according to KKR.",
       "whyItMatters": "Private credit has grown into one of the fastest-growing corners of finance as non-bank lenders take share from banks.",
       "marketContext": "The effective fed funds rate is 3.88% and high-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading). Most private loans pay a floating rate, so lender income tracks short-term rates while spreads show how much extra investors demand for credit risk. (FRED data as of Nov 20.)",
@@ -890,44 +1002,14 @@
       "aiSummarized": false
     },
     {
-      "id": "c470c0f84519",
-      "title": "KKR takes minority stake in Gentari’s Indian renewables platform",
-      "url": "https://privateequitywire.com/news/kkr-takes-minority-stake-in-gentaris-indian-renewables-platform",
-      "publishedAt": "2026-11-20T09:45:00.000Z",
+      "id": "1ed7b67f85f2",
+      "title": "Hedge Fund Allocations Are Now Judged Against Private Credit, Not Cash",
+      "url": "https://hedgeco.net/news/11/2026/hedge-fund-allocations-are-now-judged-against-private-credit-not-cash.html",
+      "publishedAt": "2026-11-22T12:56:58.000Z",
       "source": {
-        "id": "pe-wire",
-        "name": "Private Equity Wire",
-        "homepage": "https://www.privateequitywire.co.uk/",
-        "contentType": "news"
-      },
-      "section": "private-markets",
-      "firms": [
-        "KKR"
-      ],
-      "theme": {
-        "id": "infrastructure",
-        "label": "Infrastructure & Energy"
-      },
-      "importance": 3,
-      "takeaway": "KKR has made a minority investment in the Indian renewables platform of Petronas-backed Gentari, providing growth capital for its expansion in the country, according to a report by the Wall Street Journal.",
-      "whyItMatters": "KKR's deal is a fresh marker for what buyers will pay right now, so owners of similar businesses, and the funds that hold them, may be valued against it.",
-      "marketContext": "The 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Nov 20.)",
-      "beginnerNote": {
-        "term": "Infrastructure fund",
-        "explanation": "A fund that owns essential physical assets such as power, pipelines, data centers, airports and fiber, which usually produce steady, long-term cash flows."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "89b760bdb6de",
-      "title": "Managers look beyond rate rises to assess borrower risk",
-      "url": "https://alternativecreditinvestor.com/2026/11/20/managers-look-beyond-rate-rises-to-assess-borrower-risk/",
-      "publishedAt": "2026-11-20T10:13:37.000Z",
-      "source": {
-        "id": "alt-credit-investor",
-        "name": "Alternative Credit Investor",
-        "homepage": "https://alternativecreditinvestor.com/",
+        "id": "hedgeco",
+        "name": "HedgeCo Networks",
+        "homepage": "https://www.hedgeco.net/news/",
         "contentType": "news"
       },
       "section": "private-markets",
@@ -936,9 +1018,9 @@
         "id": "private-credit",
         "label": "Private Credit"
       },
-      "importance": 2,
-      "takeaway": "The European Central Bank raised its three key rates by 25 basis points on 10 September, taking the deposit facility rate to 2.5 per cent.",
-      "whyItMatters": "Developments here show how easily companies can borrow outside the banking system, and at what price.",
+      "importance": 3,
+      "takeaway": "Two prints from the same week point in opposite directions.",
+      "whyItMatters": "Private credit's rapid growth draws regulatory attention; loan quality and valuations are the key things to watch.",
       "marketContext": "The effective fed funds rate is 3.88% and high-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading). Most private loans pay a floating rate, so lender income tracks short-term rates while spreads show how much extra investors demand for credit risk. (FRED data as of Nov 20.)",
       "beginnerNote": {
         "term": "Private credit",
@@ -948,29 +1030,87 @@
       "aiSummarized": false
     },
     {
-      "id": "8ed8c1987218",
-      "title": "India’s SatSure raises $7m from government-backed space fund",
-      "url": "https://privateequitywire.com/news/indias-satsure-raises-7m-from-government-backed-space-fund",
-      "publishedAt": "2026-11-20T09:44:00.000Z",
+      "id": "d6e109ed3947",
+      "title": "S&P Global to Present at Goldman Sachs Financial Services Conference on December 8, 2026",
+      "url": "https://www.prnewswire.com/news-releases/sp-global-to-present-at-goldman-sachs-financial-services-conference-on-december-8-2026-302947341.html",
+      "publishedAt": "2026-11-20T21:30:00.000Z",
       "source": {
-        "id": "pe-wire",
-        "name": "Private Equity Wire",
-        "homepage": "https://www.privateequitywire.co.uk/",
+        "id": "prn-financial",
+        "name": "PR Newswire — Financial Services",
+        "homepage": "https://www.prnewswire.com/news-releases/financial-services-latest-news/",
+        "contentType": "press-release"
+      },
+      "section": "private-markets",
+      "firms": [
+        "Goldman Sachs"
+      ],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "Session will be Webcast NEW YORK, Nov. 20, 2026 /PRNewswire/ -- Martina Cheung, President and Chief Executive Officer of S&P Global (NYSE: SPGI), will participate in Goldman Sachs' 2026 Financial Services Conference on December 8, 2026 in New York, NY.",
+      "whyItMatters": "Big market moves change portfolio weights and can prompt rebalancing across asset classes.",
+      "marketContext": "The VIX is 28.4, an elevated reading that signals nervous markets and high-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 20.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "4bbd647868a6",
+      "title": "Barings: Lenders must get to grips with AI risk in 2027",
+      "url": "https://alternativecreditinvestor.com/2026/11/20/barings-lenders-must-get-to-grips-with-ai-risk-in-2027/",
+      "publishedAt": "2026-11-20T15:10:24.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
         "contentType": "news"
       },
       "section": "private-markets",
       "firms": [],
       "theme": {
-        "id": "fundraising",
-        "label": "Fundraising"
+        "id": "ai-tech",
+        "label": "AI & Technology"
       },
       "importance": 2,
-      "takeaway": "SatSure expects to close the round by December 2026, with INR1.65bn in fresh equity, INR250m in venture debt and INR100m in secondary transactions.",
-      "whyItMatters": "India's $7m raise shows investors are still committing money to secondaries, and a strong raise makes it easier for other managers in the strategy to raise too.",
-      "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the 10-year Treasury yield is 5.04% (down 3 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Nov 20.)",
+      "takeaway": "Understanding the impact of artificial intelligence (AI) on existing companies will become increasingly critical for direct lenders in 2027 as dispersion and competition become more pronounced, Barings has said.",
+      "whyItMatters": "AI is the dominant investment theme of the cycle, driving public-market leadership, data-center demand and venture valuations.",
+      "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the VIX is 28.4, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 20.)",
       "beginnerNote": {
-        "term": "Secondaries",
-        "explanation": "The market for buying and selling existing stakes in private funds or companies. It gives investors a way out before a fund ends."
+        "term": "Private credit",
+        "explanation": "Loans made by investment funds rather than banks, usually to mid-sized companies. They often pay higher, floating interest rates."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "f47ef769cdda",
+      "title": "abrdn Income Credit Strategies Fund (ACP) Announces Upcoming 1-for-4 Reverse Stock Split",
+      "url": "https://www.prnewswire.com/news-releases/abrdn-income-credit-strategies-fund-acp-announces-upcoming-1-for-4-reverse-stock-split-302946182.html",
+      "publishedAt": "2026-11-20T21:17:00.000Z",
+      "source": {
+        "id": "prn-financial",
+        "name": "PR Newswire — Financial Services",
+        "homepage": "https://www.prnewswire.com/news-releases/financial-services-latest-news/",
+        "contentType": "press-release"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 1,
+      "takeaway": "PHILADELPHIA, Nov. 20, 2026 /PRNewswire/ -- The Board of Trustees of abrdn Income Credit Strategies Fund (NYSE: ACP) has approved a 1-for-4 reverse stock split of the Fund's issued and outstanding common shares, effective prior to the opening of trading on December 7, 2026.",
+      "whyItMatters": "Public-market swings feed directly into private-market valuations, IPO windows and investor sentiment.",
+      "marketContext": "The VIX is 28.4, an elevated reading that signals nervous markets and high-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 20.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
       },
       "storyType": "news",
       "aiSummarized": false
@@ -1004,31 +1144,29 @@
       "aiSummarized": false
     },
     {
-      "id": "98a4e4de8b79",
-      "title": "Franklin Templeton hires head of Latin America",
-      "url": "https://alternativecreditinvestor.com/2026/11/20/franklin-templeton-hires-head-of-latin-america/",
-      "publishedAt": "2026-11-20T10:50:10.000Z",
+      "id": "aad7a42aff53",
+      "title": "Deals & Moves: EP Wealth Acquires Tech Industry-Focused RIA",
+      "url": "https://www.wealthmanagement.com/ria-news/deals-moves-ep-wealth-expands-presence-with-silicon-valley-clients",
+      "publishedAt": "2026-11-20T18:15:00.000Z",
       "source": {
-        "id": "alt-credit-investor",
-        "name": "Alternative Credit Investor",
-        "homepage": "https://alternativecreditinvestor.com/",
+        "id": "wealthmanagement",
+        "name": "WealthManagement.com",
+        "homepage": "https://www.wealthmanagement.com/",
         "contentType": "news"
       },
       "section": "family-offices",
-      "firms": [
-        "BlackRock"
-      ],
+      "firms": [],
       "theme": {
-        "id": "people",
-        "label": "People & Leadership"
+        "id": "deals",
+        "label": "M&A & Buyouts"
       },
       "importance": 2,
-      "takeaway": "Franklin Templeton has hired former BlackRock executive Nicolas Gomez as head of Latin America to help lead the expansion of its private markets and investment solutions business in the region.",
-      "whyItMatters": "Advisors who move usually take most of their clients' assets with them, so moves like this show which firms are winning the competition for advisors and client money.",
-      "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the VIX is 28.4, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 20.)",
+      "takeaway": "In other moves, Concurrent adds a $700M former Raymond James team, Emigrant-backed Pure Financial pens its eighth deal, and Emigrant reinvests in $3.2B Moneco Advisors.",
+      "whyItMatters": "Deals & Moves: EP Wealth's deal adds to the consolidation of advisory firms, which gives clients bigger platforms but can change their advisor's fees, products and independence.",
+      "marketContext": "The 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and high-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 20.)",
       "beginnerNote": {
-        "term": "General partner (GP)",
-        "explanation": "The firm that runs a private fund, picks the investments and earns fees plus a share of profits."
+        "term": "RIA",
+        "explanation": "Registered investment adviser, an independent firm legally obliged to act in its clients' best interests when giving investment advice."
       },
       "storyType": "news",
       "aiSummarized": false
@@ -1062,10 +1200,10 @@
       "aiSummarized": false
     },
     {
-      "id": "42ad99a15479",
-      "title": "Indiana Advisor Arrested, Charged In $600 Million Ponzi Scheme",
-      "url": "https://www.fa-mag.com/news/indiana-advisor-arrested--charged-in--600-million-ponzi-scheme-89287.html",
-      "publishedAt": "2026-11-19T13:30:00.000Z",
+      "id": "30c5e3f0f02e",
+      "title": "Bitcoin Falls To More Than Two-Year Low As Global Markets Sink",
+      "url": "https://www.fa-mag.com/news/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink-89312.html",
+      "publishedAt": "2026-11-20T15:15:00.000Z",
       "source": {
         "id": "fa-mag",
         "name": "Financial Advisor Magazine",
@@ -1075,60 +1213,58 @@
       "section": "family-offices",
       "firms": [],
       "theme": {
-        "id": "fundraising",
-        "label": "Fundraising"
+        "id": "family-office",
+        "label": "Family Offices & Wealth"
       },
       "importance": 2,
-      "takeaway": "Phillip Patrick Williams launched the fund while registered with Kingsview Wealth Management.",
-      "whyItMatters": "Big fundraises show where institutional money is flowing and hand managers fresh dry powder to put to work over the next few years.",
+      "takeaway": "This downturn in bitcoin's price has been marked by an erosion in demand.",
+      "whyItMatters": "A lasting selloff in crypto would cut the value of private companies priced against them and make IPOs harder, so watch whether it spreads.",
       "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the 10-year Treasury yield is 5.04% (down 3 bps on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Nov 20.)",
       "beginnerNote": {
-        "term": "Dry powder",
-        "explanation": "Money investors have committed to private funds that has not yet been invested. It is a measure of how much buying power is waiting on the sidelines."
+        "term": "Family office",
+        "explanation": "A private firm that manages the investments and affairs of a wealthy family. A single-family office serves one family; a multi-family office serves several."
       },
       "storyType": "news",
       "aiSummarized": false
     },
     {
-      "id": "1ac2a823cb00",
-      "title": "TPG and Corpay to take BILL Holdings private for $6bn",
-      "url": "https://privateequitywire.com/news/tpg-and-corpay-to-take-bill-holdings-private-for-6bn",
-      "publishedAt": "2026-11-20T09:45:00.000Z",
+      "id": "91bc026d2609",
+      "title": "Private equity has been buying up hospice centers — with striking consequences",
+      "url": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-22T17:22:00.000Z",
       "source": {
-        "id": "pe-wire",
-        "name": "Private Equity Wire",
-        "homepage": "https://www.privateequitywire.co.uk/",
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
         "contentType": "news"
       },
       "section": "private-equity",
-      "firms": [
-        "TPG"
-      ],
+      "firms": [],
       "theme": {
-        "id": "deals",
-        "label": "M&A & Buyouts"
+        "id": "private-markets",
+        "label": "Private Markets"
       },
       "importance": 3,
-      "takeaway": "Private equity firm TPG has agreed to acquire financial software provider BILL Holdings in partnership with Corpay in an all-cash take-private valued at about $6bn, according to a report by Reuters.",
-      "whyItMatters": "Each deal reveals where sponsors see value and which sectors they expect to outperform.",
+      "takeaway": "Medicare costs are higher and patients stay longer at hospice providers owned by private-equity firms, new research has found.",
+      "whyItMatters": "Private markets now hold a large and growing share of global investment capital; shifts here affect pensions, endowments and family offices alike.",
       "marketContext": "The 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and high-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 20.)",
       "beginnerNote": {
-        "term": "Take-private",
-        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
+        "term": "Limited partner (LP)",
+        "explanation": "The investors in a private fund, such as pensions, endowments, insurers and family offices. They commit capital but do not manage the fund."
       },
       "storyType": "news",
       "aiSummarized": false
     },
     {
-      "id": "e3a946d4a9a8",
-      "title": "How To Evaluate An IPO Before Buying Shares: 7 Things To Check",
-      "url": "https://www.fa-mag.com/news/how-to-evaluate-an-ipo-before-buying-shares--7-things-to-check-89304.html",
-      "publishedAt": "2026-11-20T11:30:00.000Z",
+      "id": "bf58231b6616",
+      "title": "How to Go 2x Long Anthropic (ANT): Leverage Shares by Themes Explains ANUU, the 2x Leveraged Anthropic ETF Launching Monday",
+      "url": "https://www.prnewswire.com/news-releases/how-to-go-2x-long-anthropic-ant-leverage-shares-by-themes-explains-anuu-the-2x-leveraged-anthropic-etf-launching-monday-302947477.html",
+      "publishedAt": "2026-11-21T19:00:00.000Z",
       "source": {
-        "id": "fa-mag",
-        "name": "Financial Advisor Magazine",
-        "homepage": "https://www.fa-mag.com/",
-        "contentType": "news"
+        "id": "prn-financial",
+        "name": "PR Newswire — Financial Services",
+        "homepage": "https://www.prnewswire.com/news-releases/financial-services-latest-news/",
+        "contentType": "press-release"
       },
       "section": "private-equity",
       "firms": [],
@@ -1137,8 +1273,8 @@
         "label": "Exits & Secondaries"
       },
       "importance": 2,
-      "takeaway": "It's crucial to be skeptical and dig deeper if anything seems unclear or amiss.",
-      "whyItMatters": "The sale gives a live read on what private assets are really worth, and every completed sale returns cash that investors can put into new funds.",
+      "takeaway": "Following Anthropic's $83-per-share IPO pricing and Nasdaq trading debut at $111.50-per-share on November 19, 2026, Leverage Shares by Themes outlines how investors can gain long exposure to Anthropic stock (ANT).",
+      "whyItMatters": "Secondaries and continuation vehicles have become key liquidity tools while traditional IPO and M&A exits recover.",
       "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the VIX is 28.4, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 20.)",
       "beginnerNote": {
         "term": "IPO",
@@ -1148,15 +1284,15 @@
       "aiSummarized": false
     },
     {
-      "id": "e00c3d49d21f",
-      "title": "Barclays and Lone Star eye potential Metro Bank deal",
-      "url": "https://privateequitywire.com/news/barclays-and-lone-star-eye-potential-metro-bank-deal",
-      "publishedAt": "2026-11-20T09:46:00.000Z",
+      "id": "dd5c93ca2bc5",
+      "title": "Verlinvest Announces Commencement of Technical Tender Offer to Facilitate Buyout of Joint Venture Partner's Interest in Oatly Group AB",
+      "url": "https://www.prnewswire.com/news-releases/verlinvest-announces-commencement-of-technical-tender-offer-to-facilitate-buyout-of-joint-venture-partners-interest-in-oatly-group-ab-302947330.html",
+      "publishedAt": "2026-11-20T21:06:00.000Z",
       "source": {
-        "id": "pe-wire",
-        "name": "Private Equity Wire",
-        "homepage": "https://www.privateequitywire.co.uk/",
-        "contentType": "news"
+        "id": "prn-financial",
+        "name": "PR Newswire — Financial Services",
+        "homepage": "https://www.prnewswire.com/news-releases/financial-services-latest-news/",
+        "contentType": "press-release"
       },
       "section": "private-equity",
       "firms": [],
@@ -1164,41 +1300,13 @@
         "id": "deals",
         "label": "M&A & Buyouts"
       },
-      "importance": 2,
-      "takeaway": "Barclays has shown early takeover interest in Metro Bank, while private equity firms Lone Star Funds and Centerbridge Partners are among those that could consider bids for the UK lender, according to a report by Bloomberg.",
-      "whyItMatters": "Each deal reveals where sponsors see value and which sectors they expect to outperform.",
+      "importance": 1,
+      "takeaway": "RECOMMENDS THAT HOLDERS OF SECURITIES OF OATLY GROUP AB SHOULD NOT TENDER INTO THE TENDER OFFER DESCRIBED IN THIS ANNOUNCEMENT.",
+      "whyItMatters": "Deal activity is the heartbeat of private equity: it shows sponsors are willing to put capital to work at today's prices and financing costs.",
       "marketContext": "The 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and high-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 20.)",
       "beginnerNote": {
-        "term": "Take-private",
-        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "873b92cdb9f4",
-      "title": "Alternative funds return nearly $2 for every $1 called in Q2 2026: Canoe",
-      "url": "https://www.opalesque.com/fullarticle/717205/Alternative_funds_return_nearly_for_every720.html",
-      "publishedAt": "2026-11-19T23:56:40.000Z",
-      "source": {
-        "id": "opalesque",
-        "name": "Opalesque",
-        "homepage": "https://www.opalesque.com/",
-        "contentType": "news"
-      },
-      "section": "private-equity",
-      "firms": [],
-      "theme": {
-        "id": "exits",
-        "label": "Exits & Secondaries"
-      },
-      "importance": 2,
-      "takeaway": "Investors received $39.8bn in distributions against $20.1bn in capital calls, a net outflow of $19.7bn across six major asset classes.",
-      "whyItMatters": "$2 of withdrawals show investors cooling, and if outflows continue they weigh on prices and on the managers' fee income.",
-      "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the VIX is 28.4, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 20.)",
-      "beginnerNote": {
-        "term": "Distributions (DPI)",
-        "explanation": "Cash a fund actually returns to investors. DPI (distributions to paid-in capital) measures how much cash has come back per dollar invested."
+        "term": "Leveraged buyout (LBO)",
+        "explanation": "Buying a company using a large amount of borrowed money, secured against the company's own cash flows, to amplify returns."
       },
       "storyType": "news",
       "aiSummarized": false
@@ -1220,7 +1328,7 @@
         "id": "real-estate",
         "label": "Real Estate"
       },
-      "importance": 3,
+      "importance": 2,
       "takeaway": "Gaylord Rockies in Aurora plans a $305M expansion with 450 rooms and a luxury indoor water park, boosting group travel and events.",
       "whyItMatters": "Property is a core holding for family offices and pensions; shifts in values or flows affect a large share of private portfolios.",
       "marketContext": "The 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.29 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Nov 20.)",
@@ -1248,7 +1356,7 @@
         "id": "hotels",
         "label": "Hotels & Hospitality"
       },
-      "importance": 3,
+      "importance": 2,
       "takeaway": "Diriyah has canceled a $191 million hotel contract and won’t say why.",
       "whyItMatters": "Diriyah's step back suggests the strategy has become harder to raise money for or profit from, which can mean better prices and terms for those who stay in.",
       "marketContext": "The 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.29 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Nov 20.)",
@@ -1278,7 +1386,7 @@
         "id": "hotels",
         "label": "Hotels & Hospitality"
       },
-      "importance": 3,
+      "importance": 2,
       "takeaway": "ORLANDO, Florida—Hyatt Regency Orlando announced a series of enhancements specifically designed to add even more possibilities for planners.",
       "whyItMatters": "Upgrades like this help an older property compete for tenants and lift its value, which is why owners keep investing even when sales are slow.",
       "marketContext": "The 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.29 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Nov 20.)",
@@ -1290,149 +1398,29 @@
       "aiSummarized": false
     },
     {
-      "id": "92e4e8624880",
-      "title": "Homewood Suites by Hilton Holyoke-Springfield/North Completes Renovation",
-      "url": "https://lodgingmagazine.com/homewood-suites-by-hilton-holyoke-springfield-north-completes-renovation/",
-      "publishedAt": "2026-11-19T19:52:06.000Z",
+      "id": "5c1a5aebbfbc",
+      "title": "Japanese Firm Sells Irvine Retail Center For $31.4M: The Los Angeles Deal Sheet",
+      "url": "https://www.bisnow.com/news/los-angeles/deal-sheet/japanese-firm-sells-irvine-retail-center-for-31m-los-angeles-deal-sheet",
+      "publishedAt": "2026-11-20T21:50:16.000Z",
       "source": {
-        "id": "lodging-magazine",
-        "name": "Lodging Magazine",
-        "homepage": "https://lodgingmagazine.com/",
+        "id": "bisnow",
+        "name": "Bisnow",
+        "homepage": "https://www.bisnow.com/",
         "contentType": "news"
       },
       "section": "real-estate",
-      "firms": [
-        "Hilton"
-      ],
-      "theme": {
-        "id": "hotels",
-        "label": "Hotels & Hospitality"
-      },
-      "importance": 2,
-      "takeaway": "CANTON, Massachusetts—Buffalo Lodging Associates, LLC, announced the completion of an extensive renovation at the four-story, 114-suite Homewood Suites by Hilton Holyoke.",
-      "whyItMatters": "Upgrades like this help an older hotel compete for guests and lift its value, which is why owners keep investing even when sales are slow.",
-      "marketContext": "The 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.29 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Nov 20.)",
-      "beginnerNote": {
-        "term": "RevPAR",
-        "explanation": "Revenue per available room: a hotel's room revenue divided by all its rooms, sold or not. It equals occupancy times average daily rate, so it captures both how full a hotel is and what it charges. It is the industry's headline performance number."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "a76f3395d322",
-      "title": "Pershing Square stock drops as valuation concerns weigh on Bill Ackman's fund",
-      "url": "https://www.opalesque.com/fullarticle/717212/Pershing_Square_stock_drops_as_valuation_concerns_weigh721.html",
-      "publishedAt": "2026-11-19T23:45:00.000Z",
-      "source": {
-        "id": "opalesque",
-        "name": "Opalesque",
-        "homepage": "https://www.opalesque.com/",
-        "contentType": "news"
-      },
-      "section": "hedge-funds",
-      "firms": [
-        "Pershing Square"
-      ],
-      "theme": {
-        "id": "regulation",
-        "label": "Regulation & Policy"
-      },
-      "importance": 2,
-      "takeaway": "Pershing Square stock has plunged 42% from its all-time high, extending its sell-off on Thursday to its lowest level since August.",
-      "whyItMatters": "A lasting selloff in stocks would cut the value of private companies priced against them and make IPOs harder, so watch whether it spreads.",
-      "marketContext": "The VIX is 28.4, an elevated reading that signals nervous markets and high-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 20.)",
-      "beginnerNote": {
-        "term": "Assets under management (AUM)",
-        "explanation": "The total market value of money a firm invests on behalf of clients. It is the main yardstick of an asset manager's size."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "77d81c4f0a6b",
-      "title": "Hedge funds are dumping AI stocks at a record pace. Where is the money going?",
-      "url": "https://www.opalesque.com/fullarticle/717219/Hedge_funds_are_dumping_AI_stocks_at_a721.html",
-      "publishedAt": "2026-11-19T23:33:20.000Z",
-      "source": {
-        "id": "opalesque",
-        "name": "Opalesque",
-        "homepage": "https://www.opalesque.com/",
-        "contentType": "news"
-      },
-      "section": "hedge-funds",
-      "firms": [
-        "Goldman Sachs"
-      ],
-      "theme": {
-        "id": "ai-tech",
-        "label": "AI & Technology"
-      },
-      "importance": 2,
-      "takeaway": "Hedge funds sold roughly $20bn of tech stocks over two weeks in October, according to Goldman Sachs data, the fastest pace of tech selling in a decade.",
-      "whyItMatters": "A lasting selloff in AI stocks would cut the value of private companies priced against them and make IPOs harder, so watch whether it spreads.",
-      "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the VIX is 28.4, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 20.)",
-      "beginnerNote": {
-        "term": "Valuation multiple",
-        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "05545178de96",
-      "title": "Activist hedge fund Parvus calls for Accor CEO's departure",
-      "url": "https://www.opalesque.com/fullarticle/717222/Activist_hedge_fund_Parvus_calls_for_Accor722.html",
-      "publishedAt": "2026-11-19T23:28:20.000Z",
-      "source": {
-        "id": "opalesque",
-        "name": "Opalesque",
-        "homepage": "https://www.opalesque.com/",
-        "contentType": "news"
-      },
-      "section": "hedge-funds",
-      "firms": [
-        "Accor"
-      ],
-      "theme": {
-        "id": "hedge-funds",
-        "label": "Hedge Funds"
-      },
-      "importance": 2,
-      "takeaway": "Activist investor Parvus Asset Management has urged Accor CEO and chairman Sebastien Bazin to step down over an \"unfocused strategy\" and \"inconsistent capital allocation,\" the Financial Times reported, citing a letter.",
-      "whyItMatters": "Accor's campaign can push a company to sell assets, cut costs or change leaders, and the share price often moves before anything changes.",
-      "marketContext": "The VIX is 28.4, an elevated reading that signals nervous markets and high-yield credit spreads are 3.52%, near long-run norms (up 5 bps on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 20.)",
-      "beginnerNote": {
-        "term": "Activist investor",
-        "explanation": "An investor who buys a stake in a company and pushes management for changes such as new strategy, board seats or a sale, to unlock value."
-      },
-      "storyType": "news",
-      "aiSummarized": false
-    },
-    {
-      "id": "becb84194be0",
-      "title": "Institutions Bought a Net 49,229 Bitcoin Through U.S. Spot ETPs in the Third Quarter, Led by Wealth Platforms, Galaxy Research Found",
-      "url": "https://hedgeco.net/news/11/2026/institutions-bought-a-net-49229-bitcoin-through-u-s-spot-etps-in-the-third-quarter-led-by-wealth-platforms-galaxy-research-found.html",
-      "publishedAt": "2026-11-20T11:49:01.000Z",
-      "source": {
-        "id": "hedgeco",
-        "name": "HedgeCo Networks",
-        "homepage": "https://www.hedgeco.net/news/",
-        "contentType": "news"
-      },
-      "section": "hedge-funds",
       "firms": [],
       "theme": {
-        "id": "holdings",
-        "label": "13F & Positioning"
+        "id": "real-estate",
+        "label": "Real Estate"
       },
       "importance": 2,
-      "takeaway": "Institutional investors returned to U.S. spot bitcoin exchange-traded products as net buyers in the third quarter.",
-      "whyItMatters": "Institutions' deal is a fresh marker for what buyers will pay right now, so owners of similar businesses, and the funds that hold them, may be valued against it.",
-      "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the VIX is 28.4, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 20.)",
+      "takeaway": "Daiwa House sold Irvine’s Trade Marketplace for $31.4M, plus other major SoCal retail, sports and mixed-use real estate deals.",
+      "whyItMatters": "Real estate trends reveal where demand is strong (data centers, logistics, housing) and where it is weak (older offices).",
+      "marketContext": "The 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.29 pts (positively sloped). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Nov 20.)",
       "beginnerNote": {
-        "term": "13F filing",
-        "explanation": "A quarterly SEC report listing the U.S. stocks held by managers with over $100 million. It is published up to 45 days after quarter-end and excludes short positions."
+        "term": "Cap rate",
+        "explanation": "A property's yearly net operating income divided by its price. A building earning $5 million a year that sells for $100 million has a 5% cap rate. A lower cap rate means a higher price, and cap rates tend to rise when interest rates rise."
       },
       "storyType": "news",
       "aiSummarized": false
@@ -1468,41 +1456,10 @@
       "aiSummarized": false
     },
     {
-      "id": "49ddfafc6ef8",
-      "title": "Evolution of Digital Assets at Grayscale – Peter Mintzberg (EP.528)",
-      "url": "https://tedseides.libsyn.com/evolution-of-digital-assets-at-grayscale-peter-mintzberg-ep528",
-      "publishedAt": "2026-11-19T09:00:00.000Z",
-      "source": {
-        "id": "capital-allocators",
-        "name": "Capital Allocators with Ted Seides",
-        "homepage": "https://www.capitalallocators.com/",
-        "contentType": "podcast"
-      },
-      "section": "voices",
-      "firms": [
-        "BlackRock",
-        "Goldman Sachs"
-      ],
-      "theme": {
-        "id": "voices",
-        "label": "Investor Outlook"
-      },
-      "importance": 3,
-      "takeaway": "Peter joined Grayscale two years ago after a career in strategy and M&A at Goldman Sachs, Apollo, and BlackRock.",
-      "whyItMatters": "Peter Mintzberg's take comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
-      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 5.04% (down 3 bps on the prior reading) and the 10Y–2Y yield curve is +0.29 pts (positively sloped). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Nov 20.)",
-      "beginnerNote": {
-        "term": "Market cycle",
-        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
-      },
-      "storyType": "podcast",
-      "aiSummarized": false
-    },
-    {
-      "id": "81bd9493aed5",
-      "title": "This Is The Problem With AI's Most Bullish Chart",
-      "url": "https://omny.fm/shows/odd-lots/this-is-the-problem-with-ais-most-bullish-chart",
-      "publishedAt": "2026-11-19T09:00:00.000Z",
+      "id": "97a7b4dae85d",
+      "title": "How AI Is Forcing China to Reshape Industrial Policy",
+      "url": "https://omny.fm/shows/odd-lots/how-ai-is-forcing-china-to-reshape-industrial-policy",
+      "publishedAt": "2026-11-21T09:00:00.000Z",
       "source": {
         "id": "odd-lots",
         "name": "Odd Lots (Bloomberg podcast)",
@@ -1516,12 +1473,40 @@
         "label": "AI & Technology"
       },
       "importance": 2,
-      "takeaway": "Despite Nvidia's earnings outlook looking good, and despite the scale of the Anthropic IPO — it's oversubscribed, as you might know — there are so many open questions about the state of the industry right now.",
+      "takeaway": "He explains how companies draw on shared expertise and supply chains to expand across industries including smartphones, robotics, EVs and semiconductors.",
       "whyItMatters": "This take on AI comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
       "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the VIX is 28.4, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 20.)",
       "beginnerNote": {
-        "term": "IPO",
-        "explanation": "Initial public offering, when a private company first sells shares on a stock exchange. It is a key exit route for private-equity and venture investors."
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    },
+    {
+      "id": "5b6cda4cdab1",
+      "title": "How an American AI Company Uses Chinese Open-Weight Models",
+      "url": "https://omny.fm/shows/odd-lots/how-an-american-ai-company-uses-chinese-open-weight-models",
+      "publishedAt": "2026-11-20T09:00:00.000Z",
+      "source": {
+        "id": "odd-lots",
+        "name": "Odd Lots (Bloomberg podcast)",
+        "homepage": "https://www.bloomberg.com/oddlots",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [],
+      "theme": {
+        "id": "ai-tech",
+        "label": "AI & Technology"
+      },
+      "importance": 2,
+      "takeaway": "Any effort to discourage US businesses from using Chinese open-source could be a big deal for both the AI industry and the market, where investors are still debating whether customers will ultimately be willing to pay for pricier homegrown frontier models versus cheaper alternatives.",
+      "whyItMatters": "This take on AI comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The S&P 500 stands at 7,175.83 (down 2.0% on the prior reading) and the VIX is 28.4, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 20.)",
+      "beginnerNote": {
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
       },
       "storyType": "podcast",
       "aiSummarized": false
@@ -1530,7 +1515,7 @@
   "stats": {
     "sourcesChecked": 52,
     "sourcesOk": 34,
-    "candidates": 181,
+    "candidates": 76,
     "selected": 27
   }
 }

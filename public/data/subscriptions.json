@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:25:30.609Z",
+  "generatedAt": "2026-11-22T17:47:10.729Z",
   "publishers": [
     {
       "id": "wsj",
@@ -15,7 +15,7 @@
         },
         {
           "id": "f78ebd9ae6d0",
-          "title": "They Run Anthropic. They Want to Keep It Weird. They’re Brother and Sister.",
+          "title": "The Brother-Sister Duo Who Want to Keep Anthropic Weird",
           "url": "https://www.wsj.com/tech/ai/anthropic-dario-daniela-amodei-siblings-ipo-be84ad11?mod=pls_whats_news_us_business_f",
           "publishedAt": "2026-11-21T02:00:00.000Z",
           "teaser": "Dario and Daniela Amodei were on top of the biggest IPO ever Thursday–and a market rout one day later.",
@@ -61,20 +61,11 @@
           "section": "markets"
         },
         {
-          "id": "944db6e0514b",
-          "title": "Anthropic Mathematician Says AI Has Solved the Most Famous Problem in Math",
-          "url": "https://www.wsj.com/tech/ai/anthropic-mathematician-says-claude-has-solved-the-most-famous-problem-in-math-9361920b?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-20T17:28:00.000Z",
-          "teaser": "For 167 years, the Riemann hypothesis eluded mathematicians.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "b21ce620daaf",
-          "title": "Gold, Silver Drop to Lowest Levels in Over a Year",
-          "url": "https://www.wsj.com/finance/commodities-futures/gold-silver-drop-to-lowest-levels-in-over-a-year-c657402c?mod=rss_markets_main",
-          "publishedAt": "2026-11-20T14:14:00.000Z",
-          "teaser": "Expectations for tighter monetary policy appear to have overshadowed the typical demand for gold as a safe haven for risk-averse investors.",
+          "id": "2b52f76c926c",
+          "title": "Databricks In Early Talks To Raise Funds At $225 Billion Valuation",
+          "url": "https://www.wsj.com/tech/ai/databricks-in-early-talks-to-raise-funds-at-225-billion-valuation-e593b1de?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-20T22:50:00.000Z",
+          "teaser": "The new financing would represent a nearly 20% increase from its August valuation.",
           "firms": [],
           "section": "markets"
         }
@@ -84,28 +75,55 @@
       "id": "ft",
       "items": [
         {
-          "id": "4749a04829b9",
-          "title": "Navy budget pick has family investments in Trump Jr-linked contractor",
-          "url": "https://www.ft.com/content/145e6fab-d93a-412d-8670-0554064fdf98?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-21T16:19:19.000Z",
+          "id": "2480e7e6ec89",
+          "title": "Will Anthropic’s IPO buck the tech sell-off?",
+          "url": "https://www.ft.com/content/1dc8290b-8100-434d-963c-79002c15f244?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-22T12:00:06.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "1c4f007e6cc3",
+          "title": "Nscale slows hiring and curtails spending ahead of planned $35bn IPO",
+          "url": "https://www.ft.com/content/98f5aa90-5581-45ed-8e9b-d72217c56df8",
+          "publishedAt": "2026-11-22T11:32:52.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "fecd4f01291b",
+          "title": "Did Anthropic and its bankers get a key call wrong after IPO?",
+          "url": "https://www.ft.com/content/d501198c-14a4-4b96-8880-c3997545902e",
+          "publishedAt": "2026-11-22T11:00:05.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "a89df1499854",
+          "title": "Argentina’s borrowing costs jump as Milei’s falling popularity rattles investors",
+          "url": "https://www.ft.com/content/f3ecede4-74a3-431a-89c5-a06fcd30812a?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-22T05:00:14.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
+        },
+        {
+          "id": "e1a800843e3c",
+          "title": "Private equity backers flag fresh concerns about sell-to-yourself deals",
+          "url": "https://www.ft.com/content/d299785f-dc83-4850-95b8-e08b9a643f98?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-22T05:00:06.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
         },
         {
           "id": "a55ce1749647",
           "title": "How can investors succeed in markets today?",
           "url": "https://www.ft.com/content/22b3765d-ff3d-4f07-8982-5a222dbb862e?syn-25a6b1a6=1",
           "publishedAt": "2026-11-21T05:00:16.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "448352dfcd27",
-          "title": "Nvidia faces US regulator’s probe into its accounting",
-          "url": "https://www.ft.com/content/9b28ed72-aac4-4291-9734-bf60b66645ab?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-20T21:58:08.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
@@ -118,42 +136,6 @@
           "teaser": "Can the low-key company preserve its idiosyncratic culture in the glare of public markets?",
           "firms": [],
           "section": "private-equity"
-        },
-        {
-          "id": "fbb0ef253c3f",
-          "title": "The AI fever in markets is breaking",
-          "url": "https://www.ft.com/content/b1b2e948-ff5e-48c4-bc3e-f8e75c9e4af1?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-20T15:23:38.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "ca1b4ecb67a7",
-          "title": "Markets sell-off as it happened: Nasdaq 100 enters bear market, Anthropic shares drop 8.5% a day after blockbuster market debut",
-          "url": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-20T14:01:58.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "88f2c87448e5",
-          "title": "Anthropic market cap in line with Alphaville’s guess",
-          "url": "https://www.ft.com/content/67938df3-a9ce-4eb8-9299-af0ab80db87b",
-          "publishedAt": "2026-11-20T11:57:35.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "fc283a6b3755",
-          "title": "So, Anthropic is finally a public company. What now?",
-          "url": "https://www.ft.com/content/017044a9-76dc-4cb4-9259-a844a96f2757",
-          "publishedAt": "2026-11-20T05:19:35.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
         }
       ]
     },
@@ -161,22 +143,38 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "691aeea036b1",
-          "title": "Goldman’s SpaceX Pitch Helps Solve AI Debt Puzzle: Credit Weekly",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
-          "publishedAt": "2026-11-21T15:31:22.000Z",
-          "teaser": "Goldman Sachs Group Inc. spent more than a year trying to solve one of tech’s biggest headaches: how to pay for AI chips without wrecking corporate balance sheets.",
-          "firms": [
-            "Goldman Sachs"
-          ],
+          "id": "e791d01d2b6f",
+          "title": "Investors Brave Stock Market ‘Fragility’ as AI Trade Falters",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/investors-brave-stock-market-fragility-as-ai-trade-falters",
+          "publishedAt": "2026-11-22T15:00:00.000Z",
+          "teaser": "The stomach-churning selloff that rocked equities has options traders girding for more volatility ahead.",
+          "firms": [],
           "section": "markets"
         },
         {
-          "id": "7c528fadd502",
-          "title": "Italy’s Webuild Completes Takeover of Construction Group Trevi",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-21/italy-s-webuild-completes-takeover-of-construction-group-trevi",
-          "publishedAt": "2026-11-21T08:42:34.000Z",
-          "teaser": "Webuild SpA, Italy’s biggest construction company, completed its tender offer for smaller competitor Trevi, adding to a string of acquisitions.",
+          "id": "20297f1296ef",
+          "title": "Oil Shock Response Sets Emerging-Market Bond Winners and Losers",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/oil-shock-response-sets-emerging-market-bond-winners-and-losers",
+          "publishedAt": "2026-11-22T13:30:00.000Z",
+          "teaser": "Fuel subsidies are driving a widening divide in emerging markets, with investors favoring bonds from nations that have taken the painful steps to curb them.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "284492e2c4e3",
+          "title": "Taiwan Mulls Lowering Margin Requirement to Support Stock Market",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/taiwan-mulls-lowering-margin-requirement-to-support-stock-market",
+          "publishedAt": "2026-11-22T12:35:15.000Z",
+          "teaser": "Taiwan is considering lowering the margin requirement ratio for stock investors using borrowed funds as it tries to stem a selloff after the benchmark equity index’s worst week in 35 years.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "95fdff1faa06",
+          "title": "S. Korea Rolls Out Phased Measures to Stabilize Stock Market",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/s-korea-rolls-out-phased-measures-to-stabilize-volatile-markets",
+          "publishedAt": "2026-11-22T10:16:45.000Z",
+          "teaser": "South Korea announced phased measures to calm markets amid rising volatility, including ensuring a stock stabilization fund is in place to respond when needed, top financial officials said after an emergency meeting on Sunday.",
           "firms": [],
           "section": "markets"
         }
@@ -185,6 +183,15 @@
     {
       "id": "economist",
       "items": [
+        {
+          "id": "18bebf0816df",
+          "title": "Saudi Arabia’s $1trn wealth pot suffers an identity crisis",
+          "url": "https://www.economist.com/finance-and-economics/2026/11/22/saudi-arabias-1trn-wealth-pot-suffers-an-identity-crisis",
+          "publishedAt": "2026-11-22T11:13:42.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "bc459f2a154b",
           "title": "Anthropic soars, but it may soon be back, cap in hand",
