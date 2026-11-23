@@ -1,71 +1,78 @@
 {
-  "generatedAt": "2026-11-22T17:47:10.729Z",
+  "generatedAt": "2026-11-23T22:00:21.393Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "def0dbf818fc",
-          "title": "The Blame Game Has Begun Over Anthropic’s Turbulent Trading Debut",
-          "url": "https://www.wsj.com/finance/stocks/the-blame-game-has-begun-over-anthropics-turbulent-trading-debut-280a34b1?mod=rss_markets_main",
-          "publishedAt": "2026-11-21T02:16:00.000Z",
-          "teaser": "The AI giant’s stock slid in its second day of trading, at one point dropping to just 5 cents above its IPO price.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "f78ebd9ae6d0",
-          "title": "The Brother-Sister Duo Who Want to Keep Anthropic Weird",
-          "url": "https://www.wsj.com/tech/ai/anthropic-dario-daniela-amodei-siblings-ipo-be84ad11?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-21T02:00:00.000Z",
-          "teaser": "Dario and Daniela Amodei were on top of the biggest IPO ever Thursday–and a market rout one day later.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "8df93c9bfdcb",
-          "title": "Activist Nelson Peltz Walked Away From the Investment He Loved Most. Now He’s Back.",
-          "url": "https://www.wsj.com/business/wendys-nelson-peltz-bid-activist-49d3a1ea?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-21T01:00:00.000Z",
-          "teaser": "The investor is trying to buy Wendy’s again.",
-          "firms": [],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "d260f9157fd3",
-          "title": "Oxford and MIT Didn’t Bite. So Ken Griffin Took His Miami Campus Elsewhere.",
-          "url": "https://www.wsj.com/business/ken-griffin-citadel-miami-carnegie-mellon-338bcd20?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-21T01:00:00.000Z",
-          "teaser": "The Citadel founder ended up making what would be the largest single gift in higher education—$3 billion to Carnegie Mellon.",
-          "firms": [
-            "Citadel"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "6f232f6bc590",
-          "title": "Anthropic’s IPO Turmoil Caps $4 Trillion AI Wipeout on Wall Street",
-          "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90?mod=rss_markets_main",
-          "publishedAt": "2026-11-20T23:36:00.000Z",
-          "teaser": "A brutal selloff in stocks got worse as the week wore on, and not even the biggest IPO in history could slow it down.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "ab977d8fb03d",
-          "title": "Opinion | Why China Wants to Control a Yacht Maker",
-          "url": "https://www.wsj.com/opinion/why-china-wants-to-control-a-yacht-maker-69ca60c7?mod=rss_markets_main",
-          "publishedAt": "2026-11-20T23:11:00.000Z",
-          "teaser": "The story of Italy’s Ferretti Group points to a vulnerability in the West’s system to control investment by foreign adversaries.",
+          "id": "a8cd7084a24e",
+          "title": "‘I Fell Off My Chair.’ Investors Marvel as Huang’s Return Sends Stocks Rocketing.",
+          "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6?mod=rss_markets_main",
+          "publishedAt": "2026-11-23T21:45:00.000Z",
+          "teaser": "The tech-heavy Nasdaq composite roars back from last week’s selloff, adding more than $2 trillion in market value.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "2b52f76c926c",
-          "title": "Databricks In Early Talks To Raise Funds At $225 Billion Valuation",
-          "url": "https://www.wsj.com/tech/ai/databricks-in-early-talks-to-raise-funds-at-225-billion-valuation-e593b1de?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-20T22:50:00.000Z",
-          "teaser": "The new financing would represent a nearly 20% increase from its August valuation.",
+          "id": "71fa9573a15d",
+          "title": "Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip",
+          "url": "https://www.wsj.com/finance/investing/u-s-european-bond-yields-rise-reversing-last-weeks-sharp-falls-9afadf09?mod=rss_markets_main",
+          "publishedAt": "2026-11-23T21:15:00.000Z",
+          "teaser": "U.S. Treasury yields rose as investors piled into riskier assets after Jensen Huang’s reinstatement as chief executive officer of Nvidia.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "cb7a89bb64bf",
+          "title": "Nvidia Chief’s Return Lifts Many Boats",
+          "url": "https://www.wsj.com/finance/stocks/nvidia-chiefs-return-lifts-many-boats-3b515f16?mod=rss_markets_main",
+          "publishedAt": "2026-11-23T21:12:00.000Z",
+          "teaser": "Plus, credit markets aren’t so bullish about Jensen Huang’s reinstatement, and Anthropic’s impending bond-market challenge.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "c62602f5ccec",
+          "title": "Oil Prices Fall as Traders Weigh Supply Surplus, Gulf Attacks",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-edge-lower-as-traders-weigh-supply-surplus-gulf-attacks-6861119f?mod=rss_markets_main",
+          "publishedAt": "2026-11-23T21:08:00.000Z",
+          "teaser": "Oil prices fell as traders weighed expectations of a global supply surplus against renewed attacks on shipping in the Middle East and concerns over disruptions to regional oil infrastructure.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "39fb2e023852",
+          "title": "Opinion | Don’t Privatize Air Transportation. Modernize",
+          "url": "https://www.wsj.com/opinion/dont-privatize-air-transportation-modernize-5cbbe619?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-23T17:32:00.000Z",
+          "teaser": "Our country’s problem with air-traffic control is decades-old infrastructure.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "8ff7458e89b9",
+          "title": "Anthropic Committed to Spend $900 Billion. Wall Street Expects Its Debt to Be Junk.",
+          "url": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d?mod=rss_markets_main",
+          "publishedAt": "2026-11-23T14:20:00.000Z",
+          "teaser": "After a turbulent IPO, the startup’s credit rating will affect its capital plans and the future of the AI industry.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "91b8bf048ab3",
+          "title": "European Chip Stocks Surge After Nvidia Reinstates Huang as CEO",
+          "url": "https://www.wsj.com/finance/stocks/some-underperforming-japan-stocks-may-start-rising-after-strong-results-e6e3f434?mod=rss_markets_main",
+          "publishedAt": "2026-11-23T14:17:00.000Z",
+          "teaser": "Europe’s AI-linked stocks rebounded sharply in early trade as investors returned to the sector after last week’s heavy selloff.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "fba7da03afd1",
+          "title": "Nestle’s CEO Sees Limits to Recipe Reworks Amid Ultraprocessed Food Pushback",
+          "url": "https://www.wsj.com/business/nestles-ceo-sees-limits-to-recipe-reworks-amid-ultraprocessed-food-pushback-f02fb6ec?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-23T12:57:00.000Z",
+          "teaser": "With a portfolio built on repeat snacking, the redevelopment of well-known recipes has one key constraint: the taste can’t change too much.",
           "firms": [],
           "section": "markets"
         }
@@ -75,13 +82,58 @@
       "id": "ft",
       "items": [
         {
-          "id": "2480e7e6ec89",
-          "title": "Will Anthropic’s IPO buck the tech sell-off?",
-          "url": "https://www.ft.com/content/1dc8290b-8100-434d-963c-79002c15f244?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-22T12:00:06.000Z",
+          "id": "325a364b8fd4",
+          "title": "Huang’s return is a triumph of money over morals",
+          "url": "https://www.ft.com/content/189b5df2-2d06-42db-8843-1a542efb0a8f?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-23T16:51:47.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "bddb04bea67e",
+          "title": "What happens when bubbles burst",
+          "url": "https://www.ft.com/content/aa71d6bc-bbca-4e95-81b1-20895ac0cb59?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-23T16:00:11.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "51136259feb1",
+          "title": "Pension fund managers complain they were fired for shunning tech stocks",
+          "url": "https://www.ft.com/content/047a6fec-f0da-41e1-94f6-f7698e4c8cb0?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-23T05:00:13.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "849bfd7962ad",
+          "title": "Boost for £1bn Acorn carbon capture scheme as new developer buys stake",
+          "url": "https://www.ft.com/content/a216892d-190c-41dd-8473-03643a8c5350?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-23T05:00:13.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
+        },
+        {
+          "id": "ec12a7c8dbed",
+          "title": "Why private capital is betting big on mix-and-match deals",
+          "url": "https://www.ft.com/content/78b01bf4-3550-41cb-ac52-2f3426b58232?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-23T05:00:04.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "e76788652e51",
+          "title": "Investors flip the switch on the AI trade",
+          "url": "https://www.ft.com/content/77bfc0d6-e494-4e8c-86ec-b15c5cb79688?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-23T05:00:00.000Z",
+          "teaser": "After tech stocks tumbled, are markets entering a new era?",
+          "firms": [],
+          "section": "markets"
         },
         {
           "id": "1c4f007e6cc3",
@@ -100,85 +152,12 @@
           "teaser": "",
           "firms": [],
           "section": "private-equity"
-        },
-        {
-          "id": "a89df1499854",
-          "title": "Argentina’s borrowing costs jump as Milei’s falling popularity rattles investors",
-          "url": "https://www.ft.com/content/f3ecede4-74a3-431a-89c5-a06fcd30812a?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-22T05:00:14.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "e1a800843e3c",
-          "title": "Private equity backers flag fresh concerns about sell-to-yourself deals",
-          "url": "https://www.ft.com/content/d299785f-dc83-4850-95b8-e08b9a643f98?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-22T05:00:06.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "a55ce1749647",
-          "title": "How can investors succeed in markets today?",
-          "url": "https://www.ft.com/content/22b3765d-ff3d-4f07-8982-5a222dbb862e?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-21T05:00:16.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "56880aa47234",
-          "title": "Inside Anthropic’s historic IPO",
-          "url": "https://www.ft.com/content/149d497e-0567-4467-bcfb-269b8b8eb157?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-20T21:21:29.000Z",
-          "teaser": "Can the low-key company preserve its idiosyncratic culture in the glare of public markets?",
-          "firms": [],
-          "section": "private-equity"
         }
       ]
     },
     {
       "id": "bloomberg",
-      "items": [
-        {
-          "id": "e791d01d2b6f",
-          "title": "Investors Brave Stock Market ‘Fragility’ as AI Trade Falters",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/investors-brave-stock-market-fragility-as-ai-trade-falters",
-          "publishedAt": "2026-11-22T15:00:00.000Z",
-          "teaser": "The stomach-churning selloff that rocked equities has options traders girding for more volatility ahead.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "20297f1296ef",
-          "title": "Oil Shock Response Sets Emerging-Market Bond Winners and Losers",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/oil-shock-response-sets-emerging-market-bond-winners-and-losers",
-          "publishedAt": "2026-11-22T13:30:00.000Z",
-          "teaser": "Fuel subsidies are driving a widening divide in emerging markets, with investors favoring bonds from nations that have taken the painful steps to curb them.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "284492e2c4e3",
-          "title": "Taiwan Mulls Lowering Margin Requirement to Support Stock Market",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/taiwan-mulls-lowering-margin-requirement-to-support-stock-market",
-          "publishedAt": "2026-11-22T12:35:15.000Z",
-          "teaser": "Taiwan is considering lowering the margin requirement ratio for stock investors using borrowed funds as it tries to stem a selloff after the benchmark equity index’s worst week in 35 years.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "95fdff1faa06",
-          "title": "S. Korea Rolls Out Phased Measures to Stabilize Stock Market",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/s-korea-rolls-out-phased-measures-to-stabilize-volatile-markets",
-          "publishedAt": "2026-11-22T10:16:45.000Z",
-          "teaser": "South Korea announced phased measures to calm markets amid rising volatility, including ensuring a stock stabilization fund is in place to respond when needed, top financial officials said after an emergency meeting on Sunday.",
-          "firms": [],
-          "section": "markets"
-        }
-      ]
+      "items": []
     },
     {
       "id": "economist",
@@ -198,24 +177,6 @@
           "url": "https://www.economist.com/business/2026/11/19/anthropic-soars-but-it-may-soon-be-back-cap-in-hand",
           "publishedAt": "2026-11-19T23:15:40.000Z",
           "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "99d49c5ec7ab",
-          "title": "Trump Inc is in free fall",
-          "url": "https://www.economist.com/business/2026/11/16/trump-inc-is-in-free-fall",
-          "publishedAt": "2026-11-16T21:37:36.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "ec26110215b8",
-          "title": "Anthropic’s giant IPO puts the heat on OpenAI",
-          "url": "https://www.economist.com/business/2026/11/15/anthropics-giant-ipo-puts-the-heat-on-openai",
-          "publishedAt": "2026-11-15T19:49:20.000Z",
-          "teaser": "Coding agents are big business.",
           "firms": [],
           "section": "private-equity"
         }
