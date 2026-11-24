@@ -1,24 +1,71 @@
 {
-  "generatedAt": "2026-11-23T22:00:21.393Z",
+  "generatedAt": "2026-11-24T20:37:50.212Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
+        {
+          "id": "d793e6bf9449",
+          "title": "The Retail Investors Who Believed Nvidia’s Board—and Got Burned by Its U-Turn",
+          "url": "https://www.wsj.com/finance/stocks/the-retail-investors-who-believed-nvidias-boardand-got-burned-by-its-u-turn-05349a63?mod=rss_markets_main",
+          "publishedAt": "2026-11-24T16:01:00.000Z",
+          "teaser": "Nvidia’s board said as recently as last week that Jensen Huang wouldn’t return as CEO.",
+          "firms": [],
+          "section": "family-offices"
+        },
+        {
+          "id": "81b86cf16782",
+          "title": "Dollar Could Rise Further in 2027 if Fed Lifts Rates",
+          "url": "https://www.wsj.com/articles/dollar-stays-strong-after-nvidia-news-boosts-u-s-tech-stocks-a0c603c2?mod=rss_markets_main",
+          "publishedAt": "2026-11-24T15:17:00.000Z",
+          "teaser": "The DXY dollar index fell after hitting a 20-month high.",
+          "firms": [
+            "J.P. Morgan"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "a765094c8455",
+          "title": "Stripe’s Valuation Set to Top $200 Billion in Latest Investor Talks",
+          "url": "https://www.wsj.com/business/stripes-valuation-set-to-top-200-billion-in-latest-investor-talks-122c9027?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-24T14:20:00.000Z",
+          "teaser": "A tender offer for employees’ shares would likely be completed early next year.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "30e92b25fced",
+          "title": "AI Selloff a Realignment of Expectations, Not Broken Investment Cycle",
+          "url": "https://www.wsj.com/finance/stocks/nikkei-rises-2-7-led-by-chip-metals-stocks-82c1bb9d?mod=rss_markets_main",
+          "publishedAt": "2026-11-24T11:04:00.000Z",
+          "teaser": "Julius Baer said the recent selloff in the AI trade was a realignment of expectations and valuations, rather than an indication that the investment cycle is fundamentally broken.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "0b7634963ff0",
+          "title": "Stock Market Today: Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026?mod=rss_markets_main",
+          "publishedAt": "2026-11-24T09:53:51.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "2a07c6fbad99",
+          "title": "Jensen Huang Is Back at Nvidia. Major Investigations Still Surround Him.",
+          "url": "https://www.wsj.com/tech/ai/jensen-huang-is-back-at-nvidia-major-investigations-still-surround-him-c904001c?mod=rss_markets_main",
+          "publishedAt": "2026-11-23T22:15:00.000Z",
+          "teaser": "Several probes are examining the chip maker, its CEO and issues related to his initial ouster.",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "a8cd7084a24e",
           "title": "‘I Fell Off My Chair.’ Investors Marvel as Huang’s Return Sends Stocks Rocketing.",
           "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6?mod=rss_markets_main",
           "publishedAt": "2026-11-23T21:45:00.000Z",
           "teaser": "The tech-heavy Nasdaq composite roars back from last week’s selloff, adding more than $2 trillion in market value.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "71fa9573a15d",
-          "title": "Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip",
-          "url": "https://www.wsj.com/finance/investing/u-s-european-bond-yields-rise-reversing-last-weeks-sharp-falls-9afadf09?mod=rss_markets_main",
-          "publishedAt": "2026-11-23T21:15:00.000Z",
-          "teaser": "U.S. Treasury yields rose as investors piled into riskier assets after Jensen Huang’s reinstatement as chief executive officer of Nvidia.",
           "firms": [],
           "section": "markets"
         },
@@ -30,51 +77,6 @@
           "teaser": "Plus, credit markets aren’t so bullish about Jensen Huang’s reinstatement, and Anthropic’s impending bond-market challenge.",
           "firms": [],
           "section": "markets"
-        },
-        {
-          "id": "c62602f5ccec",
-          "title": "Oil Prices Fall as Traders Weigh Supply Surplus, Gulf Attacks",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-edge-lower-as-traders-weigh-supply-surplus-gulf-attacks-6861119f?mod=rss_markets_main",
-          "publishedAt": "2026-11-23T21:08:00.000Z",
-          "teaser": "Oil prices fell as traders weighed expectations of a global supply surplus against renewed attacks on shipping in the Middle East and concerns over disruptions to regional oil infrastructure.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "39fb2e023852",
-          "title": "Opinion | Don’t Privatize Air Transportation. Modernize",
-          "url": "https://www.wsj.com/opinion/dont-privatize-air-transportation-modernize-5cbbe619?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-23T17:32:00.000Z",
-          "teaser": "Our country’s problem with air-traffic control is decades-old infrastructure.",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "8ff7458e89b9",
-          "title": "Anthropic Committed to Spend $900 Billion. Wall Street Expects Its Debt to Be Junk.",
-          "url": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d?mod=rss_markets_main",
-          "publishedAt": "2026-11-23T14:20:00.000Z",
-          "teaser": "After a turbulent IPO, the startup’s credit rating will affect its capital plans and the future of the AI industry.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "91b8bf048ab3",
-          "title": "European Chip Stocks Surge After Nvidia Reinstates Huang as CEO",
-          "url": "https://www.wsj.com/finance/stocks/some-underperforming-japan-stocks-may-start-rising-after-strong-results-e6e3f434?mod=rss_markets_main",
-          "publishedAt": "2026-11-23T14:17:00.000Z",
-          "teaser": "Europe’s AI-linked stocks rebounded sharply in early trade as investors returned to the sector after last week’s heavy selloff.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "fba7da03afd1",
-          "title": "Nestle’s CEO Sees Limits to Recipe Reworks Amid Ultraprocessed Food Pushback",
-          "url": "https://www.wsj.com/business/nestles-ceo-sees-limits-to-recipe-reworks-amid-ultraprocessed-food-pushback-f02fb6ec?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-23T12:57:00.000Z",
-          "teaser": "With a portfolio built on repeat snacking, the redevelopment of well-known recipes has one key constraint: the taste can’t change too much.",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -82,82 +84,159 @@
       "id": "ft",
       "items": [
         {
-          "id": "325a364b8fd4",
-          "title": "Huang’s return is a triumph of money over morals",
-          "url": "https://www.ft.com/content/189b5df2-2d06-42db-8843-1a542efb0a8f?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-23T16:51:47.000Z",
+          "id": "519716230c66",
+          "title": "Anthropic falls below IPO price as tech rally fades",
+          "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-24T20:07:51.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "4c5beba78ea7",
+          "title": "Shanghai’s powerful Communist Party boss toppled as Xi escalates purge",
+          "url": "https://www.ft.com/content/02240d42-ccd8-4b4d-b0e3-49a04c950eea?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-24T15:55:20.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "bddb04bea67e",
-          "title": "What happens when bubbles burst",
-          "url": "https://www.ft.com/content/aa71d6bc-bbca-4e95-81b1-20895ac0cb59?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-23T16:00:11.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "51136259feb1",
-          "title": "Pension fund managers complain they were fired for shunning tech stocks",
-          "url": "https://www.ft.com/content/047a6fec-f0da-41e1-94f6-f7698e4c8cb0?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-23T05:00:13.000Z",
+          "id": "f011f2543934",
+          "title": "Banks regain some ground in the private credit tug of war",
+          "url": "https://www.ft.com/content/bf403337-6e87-4aba-a306-17d63fbf1a81?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-24T14:46:28.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-markets"
         },
         {
-          "id": "849bfd7962ad",
-          "title": "Boost for £1bn Acorn carbon capture scheme as new developer buys stake",
-          "url": "https://www.ft.com/content/a216892d-190c-41dd-8473-03643a8c5350?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-23T05:00:13.000Z",
+          "id": "95f44b99a73d",
+          "title": "CrowdStrike bucks Silicon Valley’s invincible-founder trend",
+          "url": "https://www.ft.com/content/fda29491-ca21-4172-9889-52ffc6d4a25d?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-24T12:49:55.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "ec12a7c8dbed",
-          "title": "Why private capital is betting big on mix-and-match deals",
-          "url": "https://www.ft.com/content/78b01bf4-3550-41cb-ac52-2f3426b58232?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-23T05:00:04.000Z",
+          "id": "6e6536ed7fdd",
+          "title": "BlackRock wants to launch private market ETFs. Because of course it does",
+          "url": "https://www.ft.com/content/77678ba7-c93f-4d29-b101-b99931b065e9",
+          "publishedAt": "2026-11-24T12:23:52.000Z",
           "teaser": "",
-          "firms": [],
-          "section": "private-equity"
+          "firms": [
+            "BlackRock"
+          ],
+          "section": "private-markets"
         },
         {
-          "id": "e76788652e51",
-          "title": "Investors flip the switch on the AI trade",
-          "url": "https://www.ft.com/content/77bfc0d6-e494-4e8c-86ec-b15c5cb79688?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-23T05:00:00.000Z",
-          "teaser": "After tech stocks tumbled, are markets entering a new era?",
+          "id": "69ef99bf88a7",
+          "title": "Ousted BP chair Albert Manifold to join Aggreko board after IPO",
+          "url": "https://www.ft.com/content/99b832dc-dd09-4eac-8121-dacc246a306e?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-24T10:12:31.000Z",
+          "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "1c4f007e6cc3",
-          "title": "Nscale slows hiring and curtails spending ahead of planned $35bn IPO",
-          "url": "https://www.ft.com/content/98f5aa90-5581-45ed-8e9b-d72217c56df8",
-          "publishedAt": "2026-11-22T11:32:52.000Z",
+          "id": "525af206da2a",
+          "title": "SpaceX-Tesla: the directors negotiating the biggest merger ever",
+          "url": "https://www.ft.com/content/2585e45e-9133-4215-a2d8-e1275e1033b9?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-24T05:00:16.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "fecd4f01291b",
-          "title": "Did Anthropic and its bankers get a key call wrong after IPO?",
-          "url": "https://www.ft.com/content/d501198c-14a4-4b96-8880-c3997545902e",
-          "publishedAt": "2026-11-22T11:00:05.000Z",
+          "id": "52b40cc6c79f",
+          "title": "We are the ‘Tesla’ of ratings, says tiny agency behind private credit boom",
+          "url": "https://www.ft.com/content/26739054-0455-449b-9566-97fb4986088d?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-24T05:00:15.000Z",
           "teaser": "",
           "firms": [],
-          "section": "private-equity"
+          "section": "private-markets"
         }
       ]
     },
     {
       "id": "bloomberg",
-      "items": []
+      "items": [
+        {
+          "id": "b395f0ea1f26",
+          "title": "Netflix Buys Seinfeld Studio Lot After Goldman Forecloses",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/netflix-buys-seinfeld-la-studio-lot-after-goldman-forecloses",
+          "publishedAt": "2026-11-24T20:15:34.000Z",
+          "teaser": "Netflix Inc. announced it’s buying Radford Studio Center, the historic Los Angeles lot where Seinfeld was filmed, for $380 million after Goldman Sachs Group Inc. took control of the property.",
+          "firms": [
+            "Goldman Sachs"
+          ],
+          "section": "real-estate"
+        },
+        {
+          "id": "30333922e465",
+          "title": "Advent Weighs Takeover Of Testing Firm Bureau Veritas",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/advent-weighs-takeover-of-testing-firm-bureau-veritas",
+          "publishedAt": "2026-11-24T19:58:23.000Z",
+          "teaser": "Advent is considering a bid to acquire French testing firm Bureau Veritas SA, people with knowledge of the matter said, in what would be one of the largest buyouts of a European company this year.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "b2213b06233a",
+          "title": "Quant Funds Reduce US Treasury Short Bets, Fueling Bond Rally",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/trend-followers-dump-bond-shorts-as-stocks-swoon-aids-haven-bids",
+          "publishedAt": "2026-11-24T19:08:17.000Z",
+          "teaser": "Trend-chasing quant funds are trimming their long-held short positions in US Treasuries, fueling a bond rally as an equity selloff revives haven demand for government debt.",
+          "firms": [],
+          "section": "hedge-funds"
+        },
+        {
+          "id": "c67c97dba850",
+          "title": "FHFA Clears FICO 10T Scores for Fannie Mae and Freddie Mac",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/fhfa-clears-fico-10t-scores-for-fannie-mae-and-freddie-mac",
+          "publishedAt": "2026-11-24T18:48:49.000Z",
+          "teaser": "Fannie Mae and Freddie Mac will allow FICO 10T credit scores, the Federal Housing Finance Agency announced Tuesday.",
+          "firms": [],
+          "section": "real-estate"
+        },
+        {
+          "id": "d94d99edefbb",
+          "title": "Turkey Frees Ex-Minister Jailed in Fund Crisis After 18 Days",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/turkey-frees-ex-minister-arrested-in-fund-scandal-after-18-days",
+          "publishedAt": "2026-11-24T13:40:02.000Z",
+          "teaser": "Turkey released former minister Fatma Betul Sayan Kaya from jail just 18 days after she was arrested in an investment-fund investigation that’s shaken the country’s markets.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "bc9058b8abe3",
+          "title": "Anthropic Shares Plunge Below IPO Price in Fourth Trading Day",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+          "publishedAt": "2026-11-24T11:19:24.000Z",
+          "teaser": "Anthropic PBC shares sank as much as nearly 9% below their $83 initial public offering price, wiping out gains for investors who piled into the artificial intelligence lab’s record-setting debut last week.",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "25f7372c4020",
+          "title": "Treasuries Advance as Stocks Fall, Reviving Haven Demand",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/treasuries-advance-as-cheaper-oil-alleviates-inflation-concerns",
+          "publishedAt": "2026-11-24T04:42:33.000Z",
+          "teaser": "Treasuries rose on haven demand as US stocks surrendered a portion of Monday’s steep gains, suggesting investors remain uneasy about the potential for technology investment to continue to drive economic growth.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "b256ac88c829",
+          "title": "Nasdaq 100 Sinks as AI Rout Fuels Gains in Bonds: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
+          "publishedAt": "2026-11-23T22:06:46.000Z",
+          "teaser": "Wall Street’s doubts about the durability of the artificial-intelligence trade spurred losses in technology stocks while driving investors to the safety of bonds.",
+          "firms": [],
+          "section": "markets"
+        }
+      ]
     },
     {
       "id": "economist",
