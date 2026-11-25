@@ -1,80 +1,80 @@
 {
-  "generatedAt": "2026-11-24T20:37:50.212Z",
+  "generatedAt": "2026-11-25T19:53:46.314Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
         {
-          "id": "d793e6bf9449",
-          "title": "The Retail Investors Who Believed Nvidia’s Board—and Got Burned by Its U-Turn",
-          "url": "https://www.wsj.com/finance/stocks/the-retail-investors-who-believed-nvidias-boardand-got-burned-by-its-u-turn-05349a63?mod=rss_markets_main",
-          "publishedAt": "2026-11-24T16:01:00.000Z",
-          "teaser": "Nvidia’s board said as recently as last week that Jensen Huang wouldn’t return as CEO.",
+          "id": "3e4469826025",
+          "title": "Dan Loeb’s Hedge Fund Returns to Startup Investing Years After FTX Loss",
+          "url": "https://www.wsj.com/finance/investing/dan-loebs-hedge-fund-returns-to-startup-investing-years-after-ftx-loss-46f36108?mod=rss_markets_main",
+          "publishedAt": "2026-11-25T19:33:00.000Z",
+          "teaser": "The billionaire told investors that Third Point overhauled its process for investing in late-stage private companies.",
           "firms": [],
-          "section": "family-offices"
+          "section": "hedge-funds"
         },
         {
-          "id": "81b86cf16782",
-          "title": "Dollar Could Rise Further in 2027 if Fed Lifts Rates",
-          "url": "https://www.wsj.com/articles/dollar-stays-strong-after-nvidia-news-boosts-u-s-tech-stocks-a0c603c2?mod=rss_markets_main",
-          "publishedAt": "2026-11-24T15:17:00.000Z",
-          "teaser": "The DXY dollar index fell after hitting a 20-month high.",
+          "id": "3233fc7cc942",
+          "title": "Jamie Dimon Loved Britain—Until It Raised Taxes on JPMorgan",
+          "url": "https://www.wsj.com/finance/banking/jamie-dimon-loved-britainuntil-it-raised-taxes-on-jpmorgan-3462d7b6?mod=rss_markets_main",
+          "publishedAt": "2026-11-25T18:24:00.000Z",
+          "teaser": "The chief executive wants to strike back against the U.K. after its cash-strapped government targeted banks for extra revenue.",
           "firms": [
             "J.P. Morgan"
           ],
           "section": "markets"
         },
         {
-          "id": "a765094c8455",
-          "title": "Stripe’s Valuation Set to Top $200 Billion in Latest Investor Talks",
-          "url": "https://www.wsj.com/business/stripes-valuation-set-to-top-200-billion-in-latest-investor-talks-122c9027?mod=pls_whats_news_us_business_f",
-          "publishedAt": "2026-11-24T14:20:00.000Z",
-          "teaser": "A tender offer for employees’ shares would likely be completed early next year.",
+          "id": "d2a1a99bca65",
+          "title": "Copper Slumps Amid AI Roller Coaster But Physical Supply Remains Tight",
+          "url": "https://www.wsj.com/finance/commodities-futures/copper-slumps-amid-ai-roller-coaster-but-physical-supply-remains-tight-14fd2a91?mod=rss_markets_main",
+          "publishedAt": "2026-11-25T16:30:00.000Z",
+          "teaser": "The metal was heading for one of its worst monthly performances in more than a decade as investors retreated from riskier assets and tariff uncertainty clouded the global demand outlook.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "30e92b25fced",
-          "title": "AI Selloff a Realignment of Expectations, Not Broken Investment Cycle",
-          "url": "https://www.wsj.com/finance/stocks/nikkei-rises-2-7-led-by-chip-metals-stocks-82c1bb9d?mod=rss_markets_main",
-          "publishedAt": "2026-11-24T11:04:00.000Z",
-          "teaser": "Julius Baer said the recent selloff in the AI trade was a realignment of expectations and valuations, rather than an indication that the investment cycle is fundamentally broken.",
+          "id": "2cfd17dd275d",
+          "title": "Where to Find Bargains After the AI Power Boom Reality Check",
+          "url": "https://www.wsj.com/finance/where-to-find-bargains-after-the-ai-power-boom-reality-check-a6be0739?mod=rss_markets_main",
+          "publishedAt": "2026-11-25T10:30:00.000Z",
+          "teaser": "The sharp correction to power stocks creates an opportunity for investors.",
           "firms": [],
-          "section": "markets"
+          "section": "private-markets"
         },
         {
-          "id": "0b7634963ff0",
-          "title": "Stock Market Today: Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026?mod=rss_markets_main",
-          "publishedAt": "2026-11-24T09:53:51.000Z",
-          "teaser": "",
+          "id": "ed7d104bef2c",
+          "title": "U.K. Regulator Says McCormick Sale of Colman’s Could Address Unilever Foods Merger Concerns",
+          "url": "https://www.wsj.com/business/retail/u-k-regulator-says-mccormick-sale-of-colmans-could-address-unilever-foods-merger-concerns-f700a2ae?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-25T08:30:00.000Z",
+          "teaser": "McCormick’s proposed sale of the Colman’s brand could remedy competition concerns following a probe into its planned $65 billion tie-up with Unilever Foods.",
           "firms": [],
-          "section": "markets"
+          "section": "private-equity"
         },
         {
-          "id": "2a07c6fbad99",
-          "title": "Jensen Huang Is Back at Nvidia. Major Investigations Still Surround Him.",
-          "url": "https://www.wsj.com/tech/ai/jensen-huang-is-back-at-nvidia-major-investigations-still-surround-him-c904001c?mod=rss_markets_main",
-          "publishedAt": "2026-11-23T22:15:00.000Z",
-          "teaser": "Several probes are examining the chip maker, its CEO and issues related to his initial ouster.",
+          "id": "5f36a8efdf69",
+          "title": "Anthropic Had the Biggest IPO Ever. The Trade Is Already Unraveling.",
+          "url": "https://www.wsj.com/finance/stocks/anthropic-had-the-biggest-ipo-ever-the-trade-is-already-unraveling-f971d7c5?mod=rss_markets_main",
+          "publishedAt": "2026-11-24T22:07:00.000Z",
+          "teaser": "The Claude model developer fell below its offering price on Tuesday, extending its slide to three straight sessions.",
           "firms": [],
-          "section": "markets"
+          "section": "private-equity"
         },
         {
-          "id": "a8cd7084a24e",
-          "title": "‘I Fell Off My Chair.’ Investors Marvel as Huang’s Return Sends Stocks Rocketing.",
-          "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6?mod=rss_markets_main",
-          "publishedAt": "2026-11-23T21:45:00.000Z",
-          "teaser": "The tech-heavy Nasdaq composite roars back from last week’s selloff, adding more than $2 trillion in market value.",
+          "id": "d793e6bf9449",
+          "title": "The Retail Investors Who Believed Nvidia’s Board—and Got Burned by Its U-Turn",
+          "url": "https://www.wsj.com/finance/stocks/the-retail-investors-who-believed-nvidias-boardand-got-burned-by-its-u-turn-05349a63?mod=rss_markets_main",
+          "publishedAt": "2026-11-24T21:53:00.000Z",
+          "teaser": "Nvidia’s board said as recently as last week that Jensen Huang wouldn’t return as CEO.",
           "firms": [],
-          "section": "markets"
+          "section": "family-offices"
         },
         {
-          "id": "cb7a89bb64bf",
-          "title": "Nvidia Chief’s Return Lifts Many Boats",
-          "url": "https://www.wsj.com/finance/stocks/nvidia-chiefs-return-lifts-many-boats-3b515f16?mod=rss_markets_main",
-          "publishedAt": "2026-11-23T21:12:00.000Z",
-          "teaser": "Plus, credit markets aren’t so bullish about Jensen Huang’s reinstatement, and Anthropic’s impending bond-market challenge.",
+          "id": "eecbc7a6d1e3",
+          "title": "Nvidia’s Relief Rally Stalls",
+          "url": "https://www.wsj.com/finance/stocks/nvidias-relief-rally-stalls-a9455613?mod=rss_markets_main",
+          "publishedAt": "2026-11-24T21:23:00.000Z",
+          "teaser": "Plus, Anthropic dips below its IPO price, and the investors who won—and lost—in the Nvidia saga.",
           "firms": [],
           "section": "markets"
         }
@@ -84,78 +84,76 @@
       "id": "ft",
       "items": [
         {
-          "id": "519716230c66",
-          "title": "Anthropic falls below IPO price as tech rally fades",
-          "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-24T20:07:51.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "4c5beba78ea7",
-          "title": "Shanghai’s powerful Communist Party boss toppled as Xi escalates purge",
-          "url": "https://www.ft.com/content/02240d42-ccd8-4b4d-b0e3-49a04c950eea?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-24T15:55:20.000Z",
+          "id": "06e3e1964d69",
+          "title": "US stocks endure volatile session as AI trade remains under pressure",
+          "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-25T19:39:04.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "f011f2543934",
-          "title": "Banks regain some ground in the private credit tug of war",
-          "url": "https://www.ft.com/content/bf403337-6e87-4aba-a306-17d63fbf1a81?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-24T14:46:28.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-markets"
-        },
-        {
-          "id": "95f44b99a73d",
-          "title": "CrowdStrike bucks Silicon Valley’s invincible-founder trend",
-          "url": "https://www.ft.com/content/fda29491-ca21-4172-9889-52ffc6d4a25d?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-24T12:49:55.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "6e6536ed7fdd",
-          "title": "BlackRock wants to launch private market ETFs. Because of course it does",
-          "url": "https://www.ft.com/content/77678ba7-c93f-4d29-b101-b99931b065e9",
-          "publishedAt": "2026-11-24T12:23:52.000Z",
-          "teaser": "",
-          "firms": [
-            "BlackRock"
-          ],
-          "section": "private-markets"
-        },
-        {
-          "id": "69ef99bf88a7",
-          "title": "Ousted BP chair Albert Manifold to join Aggreko board after IPO",
-          "url": "https://www.ft.com/content/99b832dc-dd09-4eac-8121-dacc246a306e?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-24T10:12:31.000Z",
+          "id": "640cd5b86c4d",
+          "title": "The fund manager’s dilemma over AI",
+          "url": "https://www.ft.com/content/c62ca4c2-dfc4-4943-86a4-fee8fd5a1f4a?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-25T18:05:53.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "525af206da2a",
-          "title": "SpaceX-Tesla: the directors negotiating the biggest merger ever",
-          "url": "https://www.ft.com/content/2585e45e-9133-4215-a2d8-e1275e1033b9?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-24T05:00:16.000Z",
+          "id": "0a5f1bba4deb",
+          "title": "NBA rallies private equity for €10bn European arena fund",
+          "url": "https://www.ft.com/content/e70a4095-2e8a-4211-aa38-1ad6a95169cb?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-25T13:00:04.000Z",
           "teaser": "",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "52b40cc6c79f",
-          "title": "We are the ‘Tesla’ of ratings, says tiny agency behind private credit boom",
-          "url": "https://www.ft.com/content/26739054-0455-449b-9566-97fb4986088d?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-24T05:00:15.000Z",
+          "id": "15b21cd3f7fd",
+          "title": "Under the hood of Global Auto Holdings",
+          "url": "https://www.ft.com/content/bdbeeeff-d7d9-4062-bf9f-b37f180485d5?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-25T10:00:04.000Z",
           "teaser": "",
           "firms": [],
-          "section": "private-markets"
+          "section": "hedge-funds"
+        },
+        {
+          "id": "f466ee2a23c8",
+          "title": "‘Anflopic’ bodes badly for OpenAI’s IPO prospects",
+          "url": "https://www.ft.com/content/1c62dcfe-826f-4638-a9ee-c3b3009bc45d",
+          "publishedAt": "2026-11-25T06:00:02.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "3f6662b40b9a",
+          "title": "London hedge fund Qube squares up to US rivals in expansion drive",
+          "url": "https://www.ft.com/content/b519698f-6ace-47e9-9cd5-1e18f8fdd71b?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-25T05:00:22.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "hedge-funds"
+        },
+        {
+          "id": "9f61c757d04c",
+          "title": "How an ex-McKinsey partner reverse engineered a $500bn wealth manager",
+          "url": "https://www.ft.com/content/2a40938d-d3c8-47dd-a5e9-b728b685a5ed?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-25T05:00:04.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "family-offices"
+        },
+        {
+          "id": "606736d6f6e5",
+          "title": "Nscale says it has option to stay private as tech sell-off threatens $35bn IPO",
+          "url": "https://www.ft.com/content/189d0c46-3c66-420b-af7d-a1d0b78d68ac?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-24T22:50:57.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
         }
       ]
     },
@@ -163,76 +161,69 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "b395f0ea1f26",
-          "title": "Netflix Buys Seinfeld Studio Lot After Goldman Forecloses",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/netflix-buys-seinfeld-la-studio-lot-after-goldman-forecloses",
-          "publishedAt": "2026-11-24T20:15:34.000Z",
-          "teaser": "Netflix Inc. announced it’s buying Radford Studio Center, the historic Los Angeles lot where Seinfeld was filmed, for $380 million after Goldman Sachs Group Inc. took control of the property.",
+          "id": "766d6b0d49cd",
+          "title": "Ontario Teachers’ CEO Says ‘Very Long’ AI Buildout Imperils Bets",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/ontario-teachers-ceo-says-very-long-ai-buildout-imperils-bets",
+          "publishedAt": "2026-11-25T18:02:51.000Z",
+          "teaser": "Ontario Teachers’ Pension Plan Chief Executive Officer Jo Taylor said the success of artificial intelligence will hinge on how long it takes to build infrastructure for the technology.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "86aef493fadb",
+          "title": "CoreWeave’s Banks to Sell $4.5 Billion Meta-Tied Loan Next Week",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/coreweave-s-banks-to-sell-4-5-billion-meta-tied-loan-next-week",
+          "publishedAt": "2026-11-25T17:25:23.000Z",
+          "teaser": "CoreWeave Inc.’s bankers at Morgan Stanley and Mitsubishi UFJ Financial Group Inc. are preparing a $4.5 billion loan sale for as soon as next week, with the financing secured by graphics processing units for Meta Platforms Inc.",
           "firms": [
-            "Goldman Sachs"
+            "Morgan Stanley"
           ],
-          "section": "real-estate"
+          "section": "markets"
         },
         {
-          "id": "30333922e465",
-          "title": "Advent Weighs Takeover Of Testing Firm Bureau Veritas",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/advent-weighs-takeover-of-testing-firm-bureau-veritas",
-          "publishedAt": "2026-11-24T19:58:23.000Z",
-          "teaser": "Advent is considering a bid to acquire French testing firm Bureau Veritas SA, people with knowledge of the matter said, in what would be one of the largest buyouts of a European company this year.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "b2213b06233a",
-          "title": "Quant Funds Reduce US Treasury Short Bets, Fueling Bond Rally",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/trend-followers-dump-bond-shorts-as-stocks-swoon-aids-haven-bids",
-          "publishedAt": "2026-11-24T19:08:17.000Z",
-          "teaser": "Trend-chasing quant funds are trimming their long-held short positions in US Treasuries, fueling a bond rally as an equity selloff revives haven demand for government debt.",
-          "firms": [],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "c67c97dba850",
-          "title": "FHFA Clears FICO 10T Scores for Fannie Mae and Freddie Mac",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/fhfa-clears-fico-10t-scores-for-fannie-mae-and-freddie-mac",
-          "publishedAt": "2026-11-24T18:48:49.000Z",
-          "teaser": "Fannie Mae and Freddie Mac will allow FICO 10T credit scores, the Federal Housing Finance Agency announced Tuesday.",
-          "firms": [],
-          "section": "real-estate"
-        },
-        {
-          "id": "d94d99edefbb",
-          "title": "Turkey Frees Ex-Minister Jailed in Fund Crisis After 18 Days",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/turkey-frees-ex-minister-arrested-in-fund-scandal-after-18-days",
-          "publishedAt": "2026-11-24T13:40:02.000Z",
-          "teaser": "Turkey released former minister Fatma Betul Sayan Kaya from jail just 18 days after she was arrested in an investment-fund investigation that’s shaken the country’s markets.",
+          "id": "f2b6642d0fae",
+          "title": "Michael Burry Is More Long Than Short After Dumping Nasdaq Puts",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/michael-burry-is-more-long-than-short-after-dumping-nasdaq-puts",
+          "publishedAt": "2026-11-25T17:18:09.000Z",
+          "teaser": "The selloff in technology stocks has left investor Michael Burry, who became famous for betting against the US mortgage market in 2008, with more long equity positions than short ones after unloading his put options on the tech-heavy Nasdaq 100 Index.",
           "firms": [],
           "section": "markets"
         },
         {
-          "id": "bc9058b8abe3",
-          "title": "Anthropic Shares Plunge Below IPO Price in Fourth Trading Day",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-          "publishedAt": "2026-11-24T11:19:24.000Z",
-          "teaser": "Anthropic PBC shares sank as much as nearly 9% below their $83 initial public offering price, wiping out gains for investors who piled into the artificial intelligence lab’s record-setting debut last week.",
+          "id": "f2d205d9772f",
+          "title": "JPMorgan Backs Drone Engine Maker’s Muni Sale in Wisconsin",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/jpmorgan-backs-drone-engine-maker-s-10-million-muni-bond-sale",
+          "publishedAt": "2026-11-25T15:20:02.000Z",
+          "teaser": "A drone engine manufacturer is making its debut in the US municipal bond market with a familiar name standing behind the debt: JPMorgan Chase & Co.",
+          "firms": [
+            "J.P. Morgan"
+          ],
+          "section": "markets"
+        },
+        {
+          "id": "d825edc9cf0f",
+          "title": "BC Partners Buys GSE Agency With Golfer DeChambeau on List",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/bc-partners-buys-gse-sport-agency-with-golfer-dechambeau-on-list",
+          "publishedAt": "2026-11-25T14:01:00.000Z",
+          "teaser": "BC Partners’ credit arm has agreed to buy a majority stake in GSE Worldwide, a sports marketing agency which represents athletes such as golf celebrity Bryson DeChambeau and former NFL and MLB star Bo Jackson.",
           "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "25f7372c4020",
-          "title": "Treasuries Advance as Stocks Fall, Reviving Haven Demand",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/treasuries-advance-as-cheaper-oil-alleviates-inflation-concerns",
-          "publishedAt": "2026-11-24T04:42:33.000Z",
-          "teaser": "Treasuries rose on haven demand as US stocks surrendered a portion of Monday’s steep gains, suggesting investors remain uneasy about the potential for technology investment to continue to drive economic growth.",
+          "id": "6002c203fcdc",
+          "title": "Aareal Bank Offers Over 12% Premium on Riskiest Part of SRT",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/aareal-bank-nears-commercial-real-estate-srt-with-12-premium",
+          "publishedAt": "2026-11-25T10:04:32.000Z",
+          "teaser": "Aareal Bank AG is set to pay investors a premium of more than 12% to hedge part of the risk on a commercial real estate lending book worth around €2.5 billion ($2.7 billion) in only its second such deal.",
           "firms": [],
-          "section": "markets"
+          "section": "real-estate"
         },
         {
-          "id": "b256ac88c829",
-          "title": "Nasdaq 100 Sinks as AI Rout Fuels Gains in Bonds: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
-          "publishedAt": "2026-11-23T22:06:46.000Z",
-          "teaser": "Wall Street’s doubts about the durability of the artificial-intelligence trade spurred losses in technology stocks while driving investors to the safety of bonds.",
+          "id": "ccf5ee394d6f",
+          "title": "Treasury Yields Hit Two-Month Low as Risk-Off Move Accelerates",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/treasuries-rise-across-curve-as-ai-concerns-dent-risk-sentiment",
+          "publishedAt": "2026-11-25T06:49:34.000Z",
+          "teaser": "Treasuries soared on Wednesday as a full-blown selloff in global equities over the sustainability of the AI trade prompted investors to rush into the safety of US government debt.",
           "firms": [],
           "section": "markets"
         }
