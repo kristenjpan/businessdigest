@@ -1,9 +1,45 @@
 {
-  "generatedAt": "2026-11-25T19:53:46.314Z",
+  "generatedAt": "2026-11-26T19:34:43.585Z",
   "publishers": [
     {
       "id": "wsj",
       "items": [
+        {
+          "id": "ef025ee40a54",
+          "title": "Opinion | Does Nvidia Really Need Its Brilliant Nutjob?",
+          "url": "https://www.wsj.com/opinion/does-nvidia-really-need-its-brilliant-nutjob-33b21d47?mod=rss_markets_main",
+          "publishedAt": "2026-11-26T18:10:00.000Z",
+          "teaser": "President Trump brought back Jensen Huang before investors could fully assess his value to the company.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "ffa27abdd33d",
+          "title": "Oil Prices Rise as Traders Weigh Middle East Supply Risks, OPEC+ Meeting",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-mixed-as-traders-weigh-middle-east-supply-risks-opec-meeting-c234598a?mod=pls_whats_news_us_business_f",
+          "publishedAt": "2026-11-26T12:45:00.000Z",
+          "teaser": "Oil prices rose as traders assessed persistent threats to Middle Eastern oil infrastructure and shipping ahead of a meeting of major oil producers this weekend.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "5f816874e80d",
+          "title": "Asian Stocks Rise as Investors Shrug Off U.S. Tariff Plan",
+          "url": "https://www.wsj.com/finance/asian-stocks-rise-as-investors-shrug-off-u-s-tariff-plan-f8daa85b?mod=rss_markets_main",
+          "publishedAt": "2026-11-26T05:22:00.000Z",
+          "teaser": "Asian markets rose Thursday as investors brushed aside new U.S. tariff proposals and Wall Street recouped most of its sharp losses ahead of the Thanksgiving holiday.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "04cfb7b15377",
+          "title": "Aschenbrenner’s Situational Awareness Tells Investors It Lost 65% in Third Quarter",
+          "url": "https://www.wsj.com/finance/investing/aschenbrenners-situational-awareness-tells-investors-it-lost-65-in-third-quarter-de8e9797?mod=rss_markets_main",
+          "publishedAt": "2026-11-26T01:04:00.000Z",
+          "teaser": "The hedge fund that nearly went out of business after steep losses this summer said it has worked to learn from its mistakes.",
+          "firms": [],
+          "section": "hedge-funds"
+        },
         {
           "id": "3e4469826025",
           "title": "Dan Loeb’s Hedge Fund Returns to Startup Investing Years After FTX Loss",
@@ -25,15 +61,6 @@
           "section": "markets"
         },
         {
-          "id": "d2a1a99bca65",
-          "title": "Copper Slumps Amid AI Roller Coaster But Physical Supply Remains Tight",
-          "url": "https://www.wsj.com/finance/commodities-futures/copper-slumps-amid-ai-roller-coaster-but-physical-supply-remains-tight-14fd2a91?mod=rss_markets_main",
-          "publishedAt": "2026-11-25T16:30:00.000Z",
-          "teaser": "The metal was heading for one of its worst monthly performances in more than a decade as investors retreated from riskier assets and tariff uncertainty clouded the global demand outlook.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
           "id": "2cfd17dd275d",
           "title": "Where to Find Bargains After the AI Power Boom Reality Check",
           "url": "https://www.wsj.com/finance/where-to-find-bargains-after-the-ai-power-boom-reality-check-a6be0739?mod=rss_markets_main",
@@ -50,33 +77,6 @@
           "teaser": "McCormick’s proposed sale of the Colman’s brand could remedy competition concerns following a probe into its planned $65 billion tie-up with Unilever Foods.",
           "firms": [],
           "section": "private-equity"
-        },
-        {
-          "id": "5f36a8efdf69",
-          "title": "Anthropic Had the Biggest IPO Ever. The Trade Is Already Unraveling.",
-          "url": "https://www.wsj.com/finance/stocks/anthropic-had-the-biggest-ipo-ever-the-trade-is-already-unraveling-f971d7c5?mod=rss_markets_main",
-          "publishedAt": "2026-11-24T22:07:00.000Z",
-          "teaser": "The Claude model developer fell below its offering price on Tuesday, extending its slide to three straight sessions.",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "d793e6bf9449",
-          "title": "The Retail Investors Who Believed Nvidia’s Board—and Got Burned by Its U-Turn",
-          "url": "https://www.wsj.com/finance/stocks/the-retail-investors-who-believed-nvidias-boardand-got-burned-by-its-u-turn-05349a63?mod=rss_markets_main",
-          "publishedAt": "2026-11-24T21:53:00.000Z",
-          "teaser": "Nvidia’s board said as recently as last week that Jensen Huang wouldn’t return as CEO.",
-          "firms": [],
-          "section": "family-offices"
-        },
-        {
-          "id": "eecbc7a6d1e3",
-          "title": "Nvidia’s Relief Rally Stalls",
-          "url": "https://www.wsj.com/finance/stocks/nvidias-relief-rally-stalls-a9455613?mod=rss_markets_main",
-          "publishedAt": "2026-11-24T21:23:00.000Z",
-          "teaser": "Plus, Anthropic dips below its IPO price, and the investors who won—and lost—in the Nvidia saga.",
-          "firms": [],
-          "section": "markets"
         }
       ]
     },
@@ -84,10 +84,28 @@
       "id": "ft",
       "items": [
         {
-          "id": "06e3e1964d69",
-          "title": "US stocks endure volatile session as AI trade remains under pressure",
-          "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-25T19:39:04.000Z",
+          "id": "f54f157e39a3",
+          "title": "VC investors dump old funds at steep discounts to chase AI riches",
+          "url": "https://www.ft.com/content/0278cbea-a0b6-4a30-80f2-f31ac6657f11?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-26T11:00:06.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "8068df8a8e5a",
+          "title": "The debtlike deals beating buyouts",
+          "url": "https://www.ft.com/content/0d0a770d-39d6-45cd-89e4-7877d2448cf1?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-26T05:00:29.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "private-equity"
+        },
+        {
+          "id": "0769f64cce62",
+          "title": "Software stocks spared in tech rout as AI narrative shifts",
+          "url": "https://www.ft.com/content/90b82a64-4f58-45d7-8a6a-4c2730545b65?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-26T05:00:29.000Z",
           "teaser": "",
           "firms": [],
           "section": "markets"
@@ -118,42 +136,6 @@
           "teaser": "",
           "firms": [],
           "section": "hedge-funds"
-        },
-        {
-          "id": "f466ee2a23c8",
-          "title": "‘Anflopic’ bodes badly for OpenAI’s IPO prospects",
-          "url": "https://www.ft.com/content/1c62dcfe-826f-4638-a9ee-c3b3009bc45d",
-          "publishedAt": "2026-11-25T06:00:02.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
-        },
-        {
-          "id": "3f6662b40b9a",
-          "title": "London hedge fund Qube squares up to US rivals in expansion drive",
-          "url": "https://www.ft.com/content/b519698f-6ace-47e9-9cd5-1e18f8fdd71b?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-25T05:00:22.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "hedge-funds"
-        },
-        {
-          "id": "9f61c757d04c",
-          "title": "How an ex-McKinsey partner reverse engineered a $500bn wealth manager",
-          "url": "https://www.ft.com/content/2a40938d-d3c8-47dd-a5e9-b728b685a5ed?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-25T05:00:04.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "family-offices"
-        },
-        {
-          "id": "606736d6f6e5",
-          "title": "Nscale says it has option to stay private as tech sell-off threatens $35bn IPO",
-          "url": "https://www.ft.com/content/189d0c46-3c66-420b-af7d-a1d0b78d68ac?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-24T22:50:57.000Z",
-          "teaser": "",
-          "firms": [],
-          "section": "private-equity"
         }
       ]
     },
@@ -161,69 +143,76 @@
       "id": "bloomberg",
       "items": [
         {
-          "id": "766d6b0d49cd",
-          "title": "Ontario Teachers’ CEO Says ‘Very Long’ AI Buildout Imperils Bets",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/ontario-teachers-ceo-says-very-long-ai-buildout-imperils-bets",
-          "publishedAt": "2026-11-25T18:02:51.000Z",
-          "teaser": "Ontario Teachers’ Pension Plan Chief Executive Officer Jo Taylor said the success of artificial intelligence will hinge on how long it takes to build infrastructure for the technology.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "86aef493fadb",
-          "title": "CoreWeave’s Banks to Sell $4.5 Billion Meta-Tied Loan Next Week",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/coreweave-s-banks-to-sell-4-5-billion-meta-tied-loan-next-week",
-          "publishedAt": "2026-11-25T17:25:23.000Z",
-          "teaser": "CoreWeave Inc.’s bankers at Morgan Stanley and Mitsubishi UFJ Financial Group Inc. are preparing a $4.5 billion loan sale for as soon as next week, with the financing secured by graphics processing units for Meta Platforms Inc.",
+          "id": "52318fa01d37",
+          "title": "KKR Banks Line Up €550 Million of Debt to Back Logoplaste Buyout",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/kkr-banks-line-up-550-million-of-debt-to-back-logoplaste-buyout",
+          "publishedAt": "2026-11-26T17:47:30.000Z",
+          "teaser": "Banks have lined up €550 million ($603.5 million) of loans to back KKR & Co.’s acquisition of packaging company Logoplaste, according to people familiar with the situation.",
           "firms": [
-            "Morgan Stanley"
+            "KKR"
           ],
-          "section": "markets"
-        },
-        {
-          "id": "f2b6642d0fae",
-          "title": "Michael Burry Is More Long Than Short After Dumping Nasdaq Puts",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/michael-burry-is-more-long-than-short-after-dumping-nasdaq-puts",
-          "publishedAt": "2026-11-25T17:18:09.000Z",
-          "teaser": "The selloff in technology stocks has left investor Michael Burry, who became famous for betting against the US mortgage market in 2008, with more long equity positions than short ones after unloading his put options on the tech-heavy Nasdaq 100 Index.",
-          "firms": [],
-          "section": "markets"
-        },
-        {
-          "id": "f2d205d9772f",
-          "title": "JPMorgan Backs Drone Engine Maker’s Muni Sale in Wisconsin",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/jpmorgan-backs-drone-engine-maker-s-10-million-muni-bond-sale",
-          "publishedAt": "2026-11-25T15:20:02.000Z",
-          "teaser": "A drone engine manufacturer is making its debut in the US municipal bond market with a familiar name standing behind the debt: JPMorgan Chase & Co.",
-          "firms": [
-            "J.P. Morgan"
-          ],
-          "section": "markets"
-        },
-        {
-          "id": "d825edc9cf0f",
-          "title": "BC Partners Buys GSE Agency With Golfer DeChambeau on List",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/bc-partners-buys-gse-sport-agency-with-golfer-dechambeau-on-list",
-          "publishedAt": "2026-11-25T14:01:00.000Z",
-          "teaser": "BC Partners’ credit arm has agreed to buy a majority stake in GSE Worldwide, a sports marketing agency which represents athletes such as golf celebrity Bryson DeChambeau and former NFL and MLB star Bo Jackson.",
-          "firms": [],
           "section": "private-equity"
         },
         {
-          "id": "6002c203fcdc",
-          "title": "Aareal Bank Offers Over 12% Premium on Riskiest Part of SRT",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/aareal-bank-nears-commercial-real-estate-srt-with-12-premium",
-          "publishedAt": "2026-11-25T10:04:32.000Z",
-          "teaser": "Aareal Bank AG is set to pay investors a premium of more than 12% to hedge part of the risk on a commercial real estate lending book worth around €2.5 billion ($2.7 billion) in only its second such deal.",
+          "id": "0cb17b518431",
+          "title": "Mexican Peso Sees Worst Losing Streak Since 2021 on Carry Unwind",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/mexican-peso-sees-worst-losing-streak-since-2021-on-carry-unwind",
+          "publishedAt": "2026-11-26T15:07:52.000Z",
+          "teaser": "The Mexican peso is headed for its longest losing streak in five years as investors flee to safe haven assets and the popular carry trade unravels.",
           "firms": [],
-          "section": "real-estate"
+          "section": "markets"
         },
         {
-          "id": "ccf5ee394d6f",
-          "title": "Treasury Yields Hit Two-Month Low as Risk-Off Move Accelerates",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-25/treasuries-rise-across-curve-as-ai-concerns-dent-risk-sentiment",
-          "publishedAt": "2026-11-25T06:49:34.000Z",
-          "teaser": "Treasuries soared on Wednesday as a full-blown selloff in global equities over the sustainability of the AI trade prompted investors to rush into the safety of US government debt.",
+          "id": "4063c5e83742",
+          "title": "Altria, Japan Tobacco Explore Takeover of Imperial Brands",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/altria-studies-deal-for-cigarette-maker-imperial-brands",
+          "publishedAt": "2026-11-26T13:08:53.000Z",
+          "teaser": "Altria Group Inc. and Japan Tobacco Inc. are exploring a potential takeover of British cigarette maker Imperial Brands Plc, accelerating consolidation in the declining cigarette market in what would be one of the biggest UK acquisitions in a decade.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "99178be3d95f",
+          "title": "UBS Vows to Remain Global as Swiss Capital Outlook Darkens",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/ubs-vows-to-remain-global-as-swiss-capital-outlook-darkens",
+          "publishedAt": "2026-11-26T13:08:31.000Z",
+          "teaser": "UBS Group AG’s top leadership sought to reassure staff that Switzerland’s effort to tighten regulation won’t take away something the bank has been building for decades — a truly global business.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "d06b8119c980",
+          "title": "BBVA Eyes Hedge for About $500 million in Data Center Loans",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/bbva-weighs-srt-to-hedge-about-500-million-of-data-center-loans",
+          "publishedAt": "2026-11-26T12:27:00.000Z",
+          "teaser": "BBVA SA is considering a deal that would offload risk on about €500 million ($547 million) of data center loans, as banks worldwide explore multiple ways to hedge their exposure to artificial intelligence-related infrastructure.",
+          "firms": [],
+          "section": "private-markets"
+        },
+        {
+          "id": "a786dd31861c",
+          "title": "Copper Rebounds as Tech Rally Lifts Battered Industrial Metals",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/copper-rebounds-from-lowest-this-year-as-volatility-hits-metals",
+          "publishedAt": "2026-11-26T02:01:10.000Z",
+          "teaser": "Copper recovered from an 11-month low on Thursday alongside gains in other commodities and technology stocks, as investors returned to riskier assets following days of sharp losses.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "d13b953c2793",
+          "title": "Gold Hovers Near 15-Month Low as Traders Eye Fed Path, AI Stocks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/gold-edges-lower-as-us-inflation-data-fuels-bets-for-rate-hikes",
+          "publishedAt": "2026-11-26T00:18:09.000Z",
+          "teaser": "Gold hovered near the lowest level in about 15 months on Thursday, as investors weighed the prospect of further Federal Reserve rate hikes against a relief rally in wider markets amid a comeback in technology shares.",
+          "firms": [],
+          "section": "markets"
+        },
+        {
+          "id": "8fadf88ff4d4",
+          "title": "Global Stocks Climb as AI Trade Mounts a Comeback: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/stock-market-today-dow-s-p-live-updates",
+          "publishedAt": "2026-11-25T22:10:42.000Z",
+          "teaser": "Stocks rose as investors in Europe and Asia took their cue from a comeback in technology shares on Wall Street after days of sharp swings.",
           "firms": [],
           "section": "markets"
         }
@@ -232,6 +221,24 @@
     {
       "id": "economist",
       "items": [
+        {
+          "id": "915275fcbb81",
+          "title": "The fall of China’s most trusted wealth manager",
+          "url": "https://www.economist.com/finance-and-economics/2026/11/26/the-fall-of-chinas-most-trusted-wealth-manager",
+          "publishedAt": "2026-11-26T09:47:52.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "family-offices"
+        },
+        {
+          "id": "32b6197416ef",
+          "title": "Jensen Huang returns. But Nvidia will never be the same",
+          "url": "https://www.economist.com/business/2026/11/23/jensen-huang-returns-but-nvidia-will-never-be-the-same",
+          "publishedAt": "2026-11-23T16:30:30.000Z",
+          "teaser": "",
+          "firms": [],
+          "section": "markets"
+        },
         {
           "id": "18bebf0816df",
           "title": "Saudi Arabia’s $1trn wealth pot suffers an identity crisis",
