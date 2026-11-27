@@ -1,0 +1,1541 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T19:26:36.890Z",
+  "engine": "rules-v5",
+  "edition": 66,
+  "brief": {
+    "headline": "Banks line up €550m in loans for KKR’s Logoplaste buyout",
+    "bullets": [
+      "M&A & Buyouts: A group of banks has arranged €550m in loans to back KKR’s acquisition of Portuguese packaging manufacturer Logoplaste from Ontario Teachers’ Pension Plan, in a deal that could value the business at more than €1.2bn, according to a report by Bloomberg.",
+      "Fundraising: Invesco Real Estate has closed Invesco Real Estate Asia Fund V with $1.35 billion of total commitments, its largest closed-end fundraise for the region.",
+      "Hedge Funds: Bridgewater's machine-learning fund, AIA Macro, launched in July 2024 with almost $2bn and now runs over $4.5bn.",
+      "AI & Technology: Regulated enterprises can now buy LigaData's data and governed AI through Google Cloud and run them wherever their data strategy requires, from the cloud to sovereign on-premises environments with LigaData's Barq Citadel.",
+      "Fundraising: GEF Capital Partners has raised $615 million at the first close of South Asia Growth Fund IV."
+    ],
+    "marketRead": "Bottom line: signals are mixed, with some markets calm and others showing strain, so expect selective risk-taking. The S&P 500 stands at 7,182.78 (down 0.3% on the prior reading) and the VIX is 26.8, an elevated reading that signals nervous markets. The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and the 10Y–2Y yield curve is +0.24 pts (nearly flat). High-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading).",
+    "themes": [
+      {
+        "id": "markets",
+        "label": "Market Moves",
+        "count": 5
+      },
+      {
+        "id": "private-markets",
+        "label": "Private Markets",
+        "count": 3
+      },
+      {
+        "id": "deals",
+        "label": "M&A & Buyouts",
+        "count": 3
+      },
+      {
+        "id": "hedge-funds",
+        "label": "Hedge Funds",
+        "count": 3
+      },
+      {
+        "id": "voices",
+        "label": "Investor Outlook",
+        "count": 3
+      },
+      {
+        "id": "ai-tech",
+        "label": "AI & Technology",
+        "count": 2
+      }
+    ]
+  },
+  "market": [
+    {
+      "id": "SP500",
+      "label": "S&P 500",
+      "unit": "index",
+      "value": 7182.78,
+      "previous": 7201.09,
+      "asOf": "2026-11-25",
+      "history": [
+        {
+          "date": "2026-10-27",
+          "value": 7722.6
+        },
+        {
+          "date": "2026-10-28",
+          "value": 7743.98
+        },
+        {
+          "date": "2026-10-29",
+          "value": 7720.39
+        },
+        {
+          "date": "2026-10-30",
+          "value": 7580.07
+        },
+        {
+          "date": "2026-11-02",
+          "value": 7541.4
+        },
+        {
+          "date": "2026-11-03",
+          "value": 7568.92
+        },
+        {
+          "date": "2026-11-04",
+          "value": 7688.62
+        },
+        {
+          "date": "2026-11-05",
+          "value": 7353.73
+        },
+        {
+          "date": "2026-11-06",
+          "value": 7376.86
+        },
+        {
+          "date": "2026-11-09",
+          "value": 7549.94
+        },
+        {
+          "date": "2026-11-10",
+          "value": 7520.93
+        },
+        {
+          "date": "2026-11-11",
+          "value": 7619.38
+        },
+        {
+          "date": "2026-11-12",
+          "value": 7592.4
+        },
+        {
+          "date": "2026-11-13",
+          "value": 7561.67
+        },
+        {
+          "date": "2026-11-16",
+          "value": 7416.59
+        },
+        {
+          "date": "2026-11-17",
+          "value": 7340.53
+        },
+        {
+          "date": "2026-11-18",
+          "value": 7323.63
+        },
+        {
+          "date": "2026-11-19",
+          "value": 7175.83
+        },
+        {
+          "date": "2026-11-20",
+          "value": 6910.39
+        },
+        {
+          "date": "2026-11-23",
+          "value": 7237.17
+        },
+        {
+          "date": "2026-11-24",
+          "value": 7201.09
+        },
+        {
+          "date": "2026-11-25",
+          "value": 7182.78
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/SP500"
+    },
+    {
+      "id": "DGS10",
+      "label": "10-Yr Treasury",
+      "unit": "percent",
+      "value": 4.91,
+      "previous": 4.92,
+      "asOf": "2026-11-24",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "value": 5
+        },
+        {
+          "date": "2026-10-26",
+          "value": 5
+        },
+        {
+          "date": "2026-10-27",
+          "value": 4.99
+        },
+        {
+          "date": "2026-10-28",
+          "value": 5.05
+        },
+        {
+          "date": "2026-10-29",
+          "value": 4.98
+        },
+        {
+          "date": "2026-10-30",
+          "value": 4.94
+        },
+        {
+          "date": "2026-11-02",
+          "value": 4.91
+        },
+        {
+          "date": "2026-11-03",
+          "value": 4.95
+        },
+        {
+          "date": "2026-11-04",
+          "value": 4.9
+        },
+        {
+          "date": "2026-11-05",
+          "value": 4.84
+        },
+        {
+          "date": "2026-11-06",
+          "value": 4.86
+        },
+        {
+          "date": "2026-11-09",
+          "value": 4.88
+        },
+        {
+          "date": "2026-11-10",
+          "value": 4.98
+        },
+        {
+          "date": "2026-11-12",
+          "value": 5.1
+        },
+        {
+          "date": "2026-11-13",
+          "value": 5.15
+        },
+        {
+          "date": "2026-11-16",
+          "value": 5.12
+        },
+        {
+          "date": "2026-11-17",
+          "value": 5.1
+        },
+        {
+          "date": "2026-11-18",
+          "value": 5.07
+        },
+        {
+          "date": "2026-11-19",
+          "value": 5.04
+        },
+        {
+          "date": "2026-11-20",
+          "value": 4.92
+        },
+        {
+          "date": "2026-11-23",
+          "value": 4.92
+        },
+        {
+          "date": "2026-11-24",
+          "value": 4.91
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
+    },
+    {
+      "id": "DGS2",
+      "label": "2-Yr Treasury",
+      "unit": "percent",
+      "value": 4.63,
+      "previous": 4.63,
+      "asOf": "2026-11-24",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "value": 4.69
+        },
+        {
+          "date": "2026-10-26",
+          "value": 4.68
+        },
+        {
+          "date": "2026-10-27",
+          "value": 4.7
+        },
+        {
+          "date": "2026-10-28",
+          "value": 4.67
+        },
+        {
+          "date": "2026-10-29",
+          "value": 4.61
+        },
+        {
+          "date": "2026-10-30",
+          "value": 4.56
+        },
+        {
+          "date": "2026-11-02",
+          "value": 4.59
+        },
+        {
+          "date": "2026-11-03",
+          "value": 4.61
+        },
+        {
+          "date": "2026-11-04",
+          "value": 4.58
+        },
+        {
+          "date": "2026-11-05",
+          "value": 4.46
+        },
+        {
+          "date": "2026-11-06",
+          "value": 4.51
+        },
+        {
+          "date": "2026-11-09",
+          "value": 4.56
+        },
+        {
+          "date": "2026-11-10",
+          "value": 4.73
+        },
+        {
+          "date": "2026-11-12",
+          "value": 4.86
+        },
+        {
+          "date": "2026-11-13",
+          "value": 4.88
+        },
+        {
+          "date": "2026-11-16",
+          "value": 4.83
+        },
+        {
+          "date": "2026-11-17",
+          "value": 4.8
+        },
+        {
+          "date": "2026-11-18",
+          "value": 4.8
+        },
+        {
+          "date": "2026-11-19",
+          "value": 4.76
+        },
+        {
+          "date": "2026-11-20",
+          "value": 4.63
+        },
+        {
+          "date": "2026-11-23",
+          "value": 4.63
+        },
+        {
+          "date": "2026-11-24",
+          "value": 4.63
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/DGS2"
+    },
+    {
+      "id": "T10Y2Y",
+      "label": "10Y–2Y Curve",
+      "unit": "percent",
+      "value": 0.24,
+      "previous": 0.28,
+      "asOf": "2026-11-25",
+      "history": [
+        {
+          "date": "2026-10-26",
+          "value": 0.32
+        },
+        {
+          "date": "2026-10-27",
+          "value": 0.29
+        },
+        {
+          "date": "2026-10-28",
+          "value": 0.38
+        },
+        {
+          "date": "2026-10-29",
+          "value": 0.37
+        },
+        {
+          "date": "2026-10-30",
+          "value": 0.38
+        },
+        {
+          "date": "2026-11-02",
+          "value": 0.32
+        },
+        {
+          "date": "2026-11-03",
+          "value": 0.34
+        },
+        {
+          "date": "2026-11-04",
+          "value": 0.32
+        },
+        {
+          "date": "2026-11-05",
+          "value": 0.38
+        },
+        {
+          "date": "2026-11-06",
+          "value": 0.35
+        },
+        {
+          "date": "2026-11-09",
+          "value": 0.32
+        },
+        {
+          "date": "2026-11-10",
+          "value": 0.25
+        },
+        {
+          "date": "2026-11-12",
+          "value": 0.24
+        },
+        {
+          "date": "2026-11-13",
+          "value": 0.27
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0.29
+        },
+        {
+          "date": "2026-11-17",
+          "value": 0.3
+        },
+        {
+          "date": "2026-11-18",
+          "value": 0.27
+        },
+        {
+          "date": "2026-11-19",
+          "value": 0.28
+        },
+        {
+          "date": "2026-11-20",
+          "value": 0.29
+        },
+        {
+          "date": "2026-11-23",
+          "value": 0.29
+        },
+        {
+          "date": "2026-11-24",
+          "value": 0.28
+        },
+        {
+          "date": "2026-11-25",
+          "value": 0.24
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/T10Y2Y"
+    },
+    {
+      "id": "VIXCLS",
+      "label": "VIX",
+      "unit": "index",
+      "value": 26.8,
+      "previous": 28.29,
+      "asOf": "2026-11-26",
+      "history": [
+        {
+          "date": "2026-10-28",
+          "value": 16.91
+        },
+        {
+          "date": "2026-10-29",
+          "value": 17.2
+        },
+        {
+          "date": "2026-10-30",
+          "value": 19.42
+        },
+        {
+          "date": "2026-11-02",
+          "value": 21.15
+        },
+        {
+          "date": "2026-11-03",
+          "value": 20.83
+        },
+        {
+          "date": "2026-11-04",
+          "value": 16.61
+        },
+        {
+          "date": "2026-11-05",
+          "value": 28.18
+        },
+        {
+          "date": "2026-11-06",
+          "value": 25.64
+        },
+        {
+          "date": "2026-11-09",
+          "value": 19.92
+        },
+        {
+          "date": "2026-11-10",
+          "value": 19.46
+        },
+        {
+          "date": "2026-11-11",
+          "value": 17.49
+        },
+        {
+          "date": "2026-11-12",
+          "value": 18.7
+        },
+        {
+          "date": "2026-11-13",
+          "value": 19.3
+        },
+        {
+          "date": "2026-11-16",
+          "value": 22.91
+        },
+        {
+          "date": "2026-11-17",
+          "value": 25.46
+        },
+        {
+          "date": "2026-11-18",
+          "value": 24.56
+        },
+        {
+          "date": "2026-11-19",
+          "value": 28.44
+        },
+        {
+          "date": "2026-11-20",
+          "value": 35.89
+        },
+        {
+          "date": "2026-11-23",
+          "value": 26.62
+        },
+        {
+          "date": "2026-11-24",
+          "value": 26.36
+        },
+        {
+          "date": "2026-11-25",
+          "value": 28.29
+        },
+        {
+          "date": "2026-11-26",
+          "value": 26.8
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/VIXCLS"
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "label": "High-Yield Spread",
+      "unit": "percent",
+      "value": 3.77,
+      "previous": 3.77,
+      "asOf": "2026-11-26",
+      "history": [
+        {
+          "date": "2026-10-28",
+          "value": 3.14
+        },
+        {
+          "date": "2026-10-29",
+          "value": 3.26
+        },
+        {
+          "date": "2026-10-30",
+          "value": 3.44
+        },
+        {
+          "date": "2026-11-02",
+          "value": 3.43
+        },
+        {
+          "date": "2026-11-03",
+          "value": 3.4
+        },
+        {
+          "date": "2026-11-04",
+          "value": 3.32
+        },
+        {
+          "date": "2026-11-05",
+          "value": 3.48
+        },
+        {
+          "date": "2026-11-06",
+          "value": 3.42
+        },
+        {
+          "date": "2026-11-09",
+          "value": 3.34
+        },
+        {
+          "date": "2026-11-10",
+          "value": 3.3
+        },
+        {
+          "date": "2026-11-11",
+          "value": 3.3
+        },
+        {
+          "date": "2026-11-12",
+          "value": 3.2
+        },
+        {
+          "date": "2026-11-13",
+          "value": 3.23
+        },
+        {
+          "date": "2026-11-16",
+          "value": 3.34
+        },
+        {
+          "date": "2026-11-17",
+          "value": 3.43
+        },
+        {
+          "date": "2026-11-18",
+          "value": 3.47
+        },
+        {
+          "date": "2026-11-19",
+          "value": 3.52
+        },
+        {
+          "date": "2026-11-20",
+          "value": 3.76
+        },
+        {
+          "date": "2026-11-23",
+          "value": 3.63
+        },
+        {
+          "date": "2026-11-24",
+          "value": 3.72
+        },
+        {
+          "date": "2026-11-25",
+          "value": 3.77
+        },
+        {
+          "date": "2026-11-26",
+          "value": 3.77
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+    },
+    {
+      "id": "DFF",
+      "label": "Fed Funds Rate",
+      "unit": "percent",
+      "value": 3.88,
+      "previous": 3.88,
+      "asOf": "2026-11-24",
+      "history": [
+        {
+          "date": "2026-11-03",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-04",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-05",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-06",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-07",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-08",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-09",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-10",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-11",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-12",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-13",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-14",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-15",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-16",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-17",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-18",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-19",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-20",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-21",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-22",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-23",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-24",
+          "value": 3.88
+        }
+      ],
+      "sourceUrl": "https://fred.stlouisfed.org/series/DFF"
+    }
+  ],
+  "topStoryIds": [
+    "8a91a3bb998b",
+    "425042803142",
+    "138cce0ec6ec"
+  ],
+  "items": [
+    {
+      "id": "123e0fbb2fa8",
+      "title": "Artificial intelligence usage is exploding, yet spending is stalling. Why a foundational rule of economics is breaking.",
+      "url": "https://www.marketwatch.com/story/artificial-intelligence-usage-is-exploding-yet-spending-is-stalling-why-a-foundational-rule-of-economics-is-breaking-9c7ad4b3?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-27T15:01:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "ai-tech",
+        "label": "AI & Technology"
+      },
+      "importance": 2,
+      "takeaway": "For frontier model lab developers, the increased consumption of AI tokens (the means by which they get paid for their compute) is a positive.",
+      "whyItMatters": "If regulators act on it, the change would affect how AI products are offered and taxed, so the industry is pushing for clarity before rules are set.",
+      "marketContext": "The S&P 500 stands at 7,182.78 (down 0.3% on the prior reading) and the VIX is 26.8, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "423e07574f3d",
+      "title": "The warnings behind this week’s stock-market rally",
+      "url": "https://www.marketwatch.com/story/the-warnings-behind-this-weeks-stock-market-rally-86e5319c?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-27T18:40:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "Also in Weekend Reads: Important tips for Medicare enrollment, how to spot online shopping scams and marital advice from The Moneyist.",
+      "whyItMatters": "Rising stocks lift the value of private companies priced against public peers and help keep the IPO window open for exits.",
+      "marketContext": "The VIX is 26.8, an elevated reading that signals nervous markets and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "fb310d87da14",
+      "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
+      "url": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-27T17:04:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "Luxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales.",
+      "whyItMatters": "Big market moves change portfolio weights and can prompt rebalancing across asset classes.",
+      "marketContext": "The VIX is 26.8, an elevated reading that signals nervous markets and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "a4490ea7c70c",
+      "title": "Nvidia’s stock has tumbled 28% over one chaotic month. The next big test lies in the week ahead",
+      "url": "https://www.marketwatch.com/story/nvidias-stock-has-tumbled-27-over-one-chaotic-month-the-next-big-test-lies-in-the-week-ahead-06449777?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-27T14:56:00.000Z",
+      "source": {
+        "id": "marketwatch-top",
+        "name": "MarketWatch — Top Stories",
+        "homepage": "https://www.marketwatch.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "Jensen Huang faces tough questions from Congress this week.",
+      "whyItMatters": "A lasting selloff in stocks would cut the value of private companies priced against them and make IPOs harder, so watch whether it spreads.",
+      "marketContext": "The VIX is 26.8, an elevated reading that signals nervous markets and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "29a644d17f07",
+      "title": "DTCC Tokenization Service Considers Adding Functionality",
+      "url": "https://www.marketsmedia.com/dtcc-tokenization-service-considers-adding-functionality/",
+      "publishedAt": "2026-11-27T16:34:43.000Z",
+      "source": {
+        "id": "markets-media",
+        "name": "Markets Media",
+        "homepage": "https://www.marketsmedia.com/",
+        "contentType": "news"
+      },
+      "section": "markets",
+      "firms": [],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 2,
+      "takeaway": "The most important firms in the financial industry are starting to use the service.",
+      "whyItMatters": "Big market moves change portfolio weights and can prompt rebalancing across asset classes.",
+      "marketContext": "The VIX is 26.8, an elevated reading that signals nervous markets and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "33568a1e11cb",
+      "title": "New York pension fund weighs $4bn financing backed by private credit stakes",
+      "url": "https://privateequitywire.com/news/new-york-pension-weighs-4bn-financing-backed-by-private-credit-stakes",
+      "publishedAt": "2026-11-26T10:27:00.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [
+        "Blackstone",
+        "Ares",
+        "Blue Owl"
+      ],
+      "theme": {
+        "id": "insurance",
+        "label": "Insurance & Retirement"
+      },
+      "importance": 3,
+      "takeaway": "New York State Common Retirement Fund is considering raising about $4bn through a collateralised fund obligation backed by stakes in private credit funds managed by Blackstone, Blue Owl Capital and others, according to a report by Bloomberg.",
+      "whyItMatters": "This $4bn deal shows private lenders are still putting money to work in private credit, and the terms they win set the bar for returns across the strategy.",
+      "marketContext": "The 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and the effective fed funds rate is 3.88%. Long-lived assets such as infrastructure, insurance portfolios and annuities are priced off these yields. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Private credit",
+        "explanation": "Loans made by investment funds rather than banks, usually to mid-sized companies. They often pay higher, floating interest rates."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "1008c8dffff8",
+      "title": "NBA enlists private capital firms for €10bn European arena financing",
+      "url": "https://privateequitywire.com/news/nba-enlists-private-capital-firms-for-10bn-european-arena-financing",
+      "publishedAt": "2026-11-26T10:20:00.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [
+        "Blackstone",
+        "KKR",
+        "Ares",
+        "BlackRock"
+      ],
+      "theme": {
+        "id": "private-markets",
+        "label": "Private Markets"
+      },
+      "importance": 3,
+      "takeaway": "The National Basketball Association is assembling a group of private capital firms to finance arena development for its proposed European league and expects commitments to exceed €10bn, according to a report by the Financial Times.",
+      "whyItMatters": "This €10bn deal shows private lenders are still putting money to work, and the terms they win set the bar for returns across the strategy.",
+      "marketContext": "The 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Limited partner (LP)",
+        "explanation": "The investors in a private fund, such as pensions, endowments, insurers and family offices. They commit capital but do not manage the fund."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "c4fddf4d3890",
+      "title": "LigaData Brings Data Flare and Barq to Google Cloud Marketplace",
+      "url": "https://www.prnewswire.com/news-releases/ligadata-brings-data-flare-and-barq-to-google-cloud-marketplace-302950709.html",
+      "publishedAt": "2026-11-27T13:37:00.000Z",
+      "source": {
+        "id": "prn-financial",
+        "name": "PR Newswire — Financial Services",
+        "homepage": "https://www.prnewswire.com/news-releases/financial-services-latest-news/",
+        "contentType": "press-release"
+      },
+      "section": "private-markets",
+      "firms": [
+        "Citadel"
+      ],
+      "theme": {
+        "id": "ai-tech",
+        "label": "AI & Technology"
+      },
+      "importance": 3,
+      "takeaway": "Regulated enterprises can now buy LigaData's data and governed AI through Google Cloud and run them wherever their data strategy requires, from the cloud to sovereign on-premises environments with LigaData's Barq Citadel.",
+      "whyItMatters": "Capital flowing into AI shapes returns across asset classes, from tech equities to power infrastructure and private credit for data centers.",
+      "marketContext": "The S&P 500 stands at 7,182.78 (down 0.3% on the prior reading) and the VIX is 26.8, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Valuation multiple",
+        "explanation": "How expensive a company is relative to its earnings or sales, for example 12× EBITDA. Higher multiples mean investors are paying more for each dollar of profit."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "cf013c0e3617",
+      "title": "GEF Capital Partners Raises $615 Million at First Close of South Asia Growth Fund IV, Topping Its Target for India Climate Investing",
+      "url": "https://hedgeco.net/news/11/2026/gef-capital-partners-raises-615-million-at-first-close-of-south-asia-growth-fund-iv-topping-its-target-for-india-climate-investing.html",
+      "publishedAt": "2026-11-27T11:53:38.000Z",
+      "source": {
+        "id": "hedgeco",
+        "name": "HedgeCo Networks",
+        "homepage": "https://www.hedgeco.net/news/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "fundraising",
+        "label": "Fundraising"
+      },
+      "importance": 3,
+      "takeaway": "GEF Capital Partners has raised $615 million at the first close of South Asia Growth Fund IV.",
+      "whyItMatters": "GEF Capital Partners' $615 million raise shows investors are still committing money, and a strong raise makes it easier for other managers in the strategy to raise too.",
+      "marketContext": "The S&P 500 stands at 7,182.78 (down 0.3% on the prior reading) and the 10-year Treasury yield is 4.91% (down 1 bp on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Fund close",
+        "explanation": "A milestone in fundraising. The first close lets a fund start investing; the final close means no new investors can join."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "bd338ff45685",
+      "title": "Stalled exits drive growth in GP and LP financing",
+      "url": "https://alternativecreditinvestor.com/2026/11/27/stalled-exits-drive-growth-in-gp-and-lp-financing/",
+      "publishedAt": "2026-11-27T14:54:29.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "private-markets",
+      "firms": [],
+      "theme": {
+        "id": "private-markets",
+        "label": "Private Markets"
+      },
+      "importance": 2,
+      "takeaway": "Fokke Lucas, a partner at 17Capital, said GP and LP financing is currently one of the biggest growth areas in fund finance.",
+      "whyItMatters": "Stalled's sale gives a live read on what private assets are really worth, and every completed sale returns cash that investors can put into new funds.",
+      "marketContext": "The 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Limited partner (LP)",
+        "explanation": "The investors in a private fund, such as pensions, endowments, insurers and family offices. They commit capital but do not manage the fund."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "f9ec842ab1c3",
+      "title": "HarbourVest joins Allfunds private markets programme in wealth push",
+      "url": "https://alternativecreditinvestor.com/2026/11/27/harbourvest-joins-allfunds-private-markets-programme-in-wealth-push/",
+      "publishedAt": "2026-11-27T11:28:16.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "family-offices",
+      "firms": [],
+      "theme": {
+        "id": "people",
+        "label": "People & Leadership"
+      },
+      "importance": 2,
+      "takeaway": "HarbourVest Partners has joined Allfunds Private Partners (APP), the fund distribution platform’s private markets programme, as its first multi-manager partner.",
+      "whyItMatters": "Advisors who move usually take most of their clients' assets with them, so moves like this show which firms are winning the competition for advisors and client money.",
+      "marketContext": "The S&P 500 stands at 7,182.78 (down 0.3% on the prior reading) and the VIX is 26.8, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Distributions (DPI)",
+        "explanation": "Cash a fund actually returns to investors. DPI (distributions to paid-in capital) measures how much cash has come back per dollar invested."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "8a91a3bb998b",
+      "title": "Banks line up €550m in loans for KKR’s Logoplaste buyout",
+      "url": "https://privateequitywire.com/news/banks-line-up-550m-in-loans-for-kkrs-logoplaste-buyout",
+      "publishedAt": "2026-11-27T10:27:00.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [
+        "KKR",
+        "Goldman Sachs"
+      ],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 4,
+      "takeaway": "A group of banks has arranged €550m in loans to back KKR’s acquisition of Portuguese packaging manufacturer Logoplaste from Ontario Teachers’ Pension Plan, in a deal that could value the business at more than €1.2bn, according to a report by Bloomberg.",
+      "whyItMatters": "KKR's €550m deal shows private lenders are still putting money to work in private equity, and the terms they win set the bar for returns across the strategy.",
+      "marketContext": "The 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Leveraged buyout (LBO)",
+        "explanation": "Buying a company using a large amount of borrowed money, secured against the company's own cash flows, to amplify returns."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "0825cf43e9f7",
+      "title": "easyJet profit falls 89% ahead of £5.7bn Apollo takeover",
+      "url": "https://privateequitywire.com/news/easyjet-profit-falls-89-ahead-of-5-7bn-apollo-takeover",
+      "publishedAt": "2026-11-26T10:15:00.000Z",
+      "source": {
+        "id": "pe-wire",
+        "name": "Private Equity Wire",
+        "homepage": "https://www.privateequitywire.co.uk/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [
+        "Apollo"
+      ],
+      "theme": {
+        "id": "earnings",
+        "label": "Earnings & AUM"
+      },
+      "importance": 3,
+      "takeaway": "EasyJet’s annual headline pre-tax profit fell 89% to £71m as higher fuel costs and weaker demand squeezed earnings ahead of its proposed £5.7bn takeover by Apollo Global Management, according to a report by Reuters.",
+      "whyItMatters": "Apollo's £5.7bn deal is a fresh marker for what buyers will pay right now, so owners of similar businesses, and the funds that hold them, may be valued against it.",
+      "marketContext": "The S&P 500 stands at 7,182.78 (down 0.3% on the prior reading) and the VIX is 26.8, an elevated reading that signals nervous markets. Volatile public markets tend to shut the IPO window and delay exits. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Assets under management (AUM)",
+        "explanation": "The total market value of money a firm invests on behalf of clients. It is the main yardstick of an asset manager's size."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "e102726c4567",
+      "title": "Saudi Public Investment Fund seek sale of 25% stake in Newcastle United",
+      "url": "https://www.opalesque.com/fullarticle/717312/Saudi_Public_Investment_Fund_seek_sale_of731.html",
+      "publishedAt": "2026-11-26T23:38:20.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [
+        "J.P. Morgan"
+      ],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 3,
+      "takeaway": "Saudi Arabia's PIF, which owns 84% of Newcastle United, is looking to sell a 25% stake and has appointed JP Morgan to run the process.",
+      "whyItMatters": "The sale gives a live read on what private assets are really worth, and every completed sale returns cash that investors can put into new funds.",
+      "marketContext": "The 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Take-private",
+        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "8df56bbfff40",
+      "title": "Bank of Singapore and iCapital launch private markets strategy",
+      "url": "https://alternativecreditinvestor.com/2026/11/27/bank-of-singapore-and-icapital-launch-private-markets-strategy/",
+      "publishedAt": "2026-11-27T15:58:32.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [],
+      "theme": {
+        "id": "private-markets",
+        "label": "Private Markets"
+      },
+      "importance": 2,
+      "takeaway": "Bank of Singapore has launched a private markets strategy with alternative investment platform iCapital, it was reported on Friday (27 November).",
+      "whyItMatters": "Bank's launch adds a new way to invest in private markets, and how quickly it attracts money will show how deep demand really is.",
+      "marketContext": "The 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Private credit",
+        "explanation": "Loans made by investment funds rather than banks, usually to mid-sized companies. They often pay higher, floating interest rates."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "2297da6de10c",
+      "title": "Arrow Global deployment jumps 47pc",
+      "url": "https://alternativecreditinvestor.com/2026/11/26/arrow-global-deployment-jumps-47pc/",
+      "publishedAt": "2026-11-26T12:35:16.000Z",
+      "source": {
+        "id": "alt-credit-investor",
+        "name": "Alternative Credit Investor",
+        "homepage": "https://alternativecreditinvestor.com/",
+        "contentType": "news"
+      },
+      "section": "private-equity",
+      "firms": [],
+      "theme": {
+        "id": "deals",
+        "label": "M&A & Buyouts"
+      },
+      "importance": 2,
+      "takeaway": "Arrow Global deployed €2.8bn (£2.3bn) in the first nine months of the year, up 47 per cent from €1.9bn in the same period of 2025, the European asset manager has said.",
+      "whyItMatters": "Arrow Global's deal shows private lenders are still putting money to work, and the terms they win set the bar for returns across the strategy.",
+      "marketContext": "The 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Open debt markets make leveraged deals easier to finance and support valuations. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Take-private",
+        "explanation": "When a private-equity firm buys all the shares of a listed company and removes it from the stock exchange."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "425042803142",
+      "title": "Invesco Real Estate Closes Its Fifth and Largest Asia Value-Add Fund at $1.35 Billion Including Sidecar Capital",
+      "url": "https://hedgeco.net/news/11/2026/invesco-real-estate-closes-its-fifth-and-largest-asia-value-add-fund-at-1-35-billion-including-sidecar-capital.html",
+      "publishedAt": "2026-11-26T11:49:08.000Z",
+      "source": {
+        "id": "hedgeco",
+        "name": "HedgeCo Networks",
+        "homepage": "https://www.hedgeco.net/news/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [],
+      "theme": {
+        "id": "fundraising",
+        "label": "Fundraising"
+      },
+      "importance": 4,
+      "takeaway": "Invesco Real Estate has closed Invesco Real Estate Asia Fund V with $1.35 billion of total commitments, its largest closed-end fundraise for the region.",
+      "whyItMatters": "Invesco Real Estate's new fund shows where investors are putting money in property, and fresh capital tends to support prices for the kind of property it targets.",
+      "marketContext": "The S&P 500 stands at 7,182.78 (down 0.3% on the prior reading) and the 10-year Treasury yield is 4.91% (down 1 bp on the prior reading). Stock and bond levels change how much room investors have for private assets. When public holdings fall, private allocations look overweight (the \"denominator effect\"). (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Dry powder",
+        "explanation": "Money investors have committed to private funds that has not yet been invested. It is a measure of how much buying power is waiting on the sidelines."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "35c9c8810ee1",
+      "title": "Hyatt Celebrate 10 Years of me and all hotels, with a Focus on Distinctive Lifestyle Hospitality and European Growth",
+      "url": "https://www.hospitalitynet.org/news/4135723/hyatt-celebrate-10-years-of-me-and-all-hotels-with-a-focus-on-distinctive-lifestyle-hospitality-and-european-growth",
+      "publishedAt": "2026-11-27T10:34:42.000Z",
+      "source": {
+        "id": "hospitality-net",
+        "name": "Hospitality Net",
+        "homepage": "https://www.hospitalitynet.org/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [
+        "Hyatt"
+      ],
+      "theme": {
+        "id": "hotels",
+        "label": "Hotels & Hospitality"
+      },
+      "importance": 3,
+      "takeaway": "Hyatt marks 10 years of Me and All Hotels, a lifestyle brand acquired in June 2024, now comprising nine properties and 1,651 rooms across Germany and Switzerland, with plans for further European growth.",
+      "whyItMatters": "Hotel values move with travel demand and room rates, so hotel news is an early read on consumer and business spending.",
+      "marketContext": "The 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and the 10Y–2Y yield curve is +0.24 pts (nearly flat). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "RevPAR",
+        "explanation": "Revenue per available room: a hotel's room revenue divided by all its rooms, sold or not. It equals occupancy times average daily rate, so it captures both how full a hotel is and what it charges. It is the industry's headline performance number."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "9e765ac2f2e9",
+      "title": "Google Buys King's Cross HQ For £500M: The London Deal Sheet",
+      "url": "https://www.bisnow.com/news/london/deal-sheet/google-buys-king-s-cross-hq-for-pound500m-the-london-deal-sheet",
+      "publishedAt": "2026-11-26T19:15:41.000Z",
+      "source": {
+        "id": "bisnow",
+        "name": "Bisnow",
+        "homepage": "https://www.bisnow.com/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [],
+      "theme": {
+        "id": "real-estate",
+        "label": "Real Estate"
+      },
+      "importance": 3,
+      "takeaway": "Google buys 6 Pancras Square in King's Cross for £500M, plus major London housing, planning, funding and people moves.",
+      "whyItMatters": "Google's £500m deal is a fresh marker for what buyers will pay right now, so owners of similar businesses, and the funds that hold them, may be valued against it.",
+      "marketContext": "The 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and the 10Y–2Y yield curve is +0.24 pts (nearly flat). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Cap rate",
+        "explanation": "A property's yearly net operating income divided by its price. A building earning $5 million a year that sells for $100 million has a 5% cap rate. A lower cap rate means a higher price, and cap rates tend to rise when interest rates rise."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "4561cdb66816",
+      "title": "Hotel Tech’s Shelf Reaches 1,900 Products, Everyone Courts the Small-Company Traveler, and Promises Go Missing Between Sales and Operations",
+      "url": "https://www.hospitalitynet.org/editorial/4135730/hotel-techs-shelf-reaches-1900-products-everyone-courts-the-small-company-traveler-and-promises-go-missing-between-sales-and-operations",
+      "publishedAt": "2026-11-27T15:45:00.000Z",
+      "source": {
+        "id": "hospitality-net",
+        "name": "Hospitality Net",
+        "homepage": "https://www.hospitalitynet.org/",
+        "contentType": "news"
+      },
+      "section": "real-estate",
+      "firms": [],
+      "theme": {
+        "id": "hotels",
+        "label": "Hotels & Hospitality"
+      },
+      "importance": 2,
+      "takeaway": "Friday closed the week with a count of nearly 1,900 hotel technology products on the shelf, and a look at who now sells rooms to the business travelers that small companies send out on their own.",
+      "whyItMatters": "The sale of this hotel shows what buyers will pay for hotels today, a price benchmark for hotel owners, lenders and the REITs that own them.",
+      "marketContext": "The 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and the 10Y–2Y yield curve is +0.24 pts (nearly flat). Property values move inversely to long-term yields, because buyers compare rental income with what \"safe\" Treasuries pay. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "RevPAR",
+        "explanation": "Revenue per available room: a hotel's room revenue divided by all its rooms, sold or not. It equals occupancy times average daily rate, so it captures both how full a hotel is and what it charges. It is the industry's headline performance number."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "138cce0ec6ec",
+      "title": "Inside Bridgewater's $4.5 billion AI-powered hedge fund",
+      "url": "https://www.opalesque.com/fullarticle/717309/Inside_billion_hedge_fund730.html",
+      "publishedAt": "2026-11-26T23:43:20.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [
+        "Bridgewater"
+      ],
+      "theme": {
+        "id": "hedge-funds",
+        "label": "Hedge Funds"
+      },
+      "importance": 4,
+      "takeaway": "Bridgewater's machine-learning fund, AIA Macro, launched in July 2024 with almost $2bn and now runs over $4.5bn.",
+      "whyItMatters": "Hedge funds are often the first to act on shifts in rates, currencies and volatility, so their behavior is an early signal.",
+      "marketContext": "The VIX is 26.8, an elevated reading that signals nervous markets and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Alpha",
+        "explanation": "Returns above what the overall market delivered, a measure of a manager's skill rather than just market exposure."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "b5fcb3da0053",
+      "title": "Hedge funds are retreating from stocks, but not everyone is following them",
+      "url": "https://www.opalesque.com/fullarticle/717303/Hedge_funds_are_retreating_from_stocks_but_not730.html",
+      "publishedAt": "2026-11-26T23:53:20.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [
+        "Goldman Sachs"
+      ],
+      "theme": {
+        "id": "hedge-funds",
+        "label": "Hedge Funds"
+      },
+      "importance": 3,
+      "takeaway": "Goldman Sachs' hedge fund clients raised their ETF shorts by 19 percentage points in a single week after five weeks of cutting exposure.",
+      "whyItMatters": "Large multi-strategy and macro funds move significant capital; their moves can amplify market trends.",
+      "marketContext": "The VIX is 26.8, an elevated reading that signals nervous markets and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Multi-strategy fund",
+        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "4de4fe2d38e0",
+      "title": "Capital preservation rather than chasing the market higher is how hedge funds are negotiating market volatility",
+      "url": "https://www.opalesque.com/fullarticle/717302/Capital_preservation_rather_than_chasing_the_market_higher730.html",
+      "publishedAt": "2026-11-26T23:55:00.000Z",
+      "source": {
+        "id": "opalesque",
+        "name": "Opalesque",
+        "homepage": "https://www.opalesque.com/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [
+        "Goldman Sachs"
+      ],
+      "theme": {
+        "id": "markets",
+        "label": "Market Moves"
+      },
+      "importance": 3,
+      "takeaway": "Funds are cutting net and gross exposure and adding shorts through single stocks, index futures and ETFs, which casts doubt on a Santa rally.",
+      "whyItMatters": "Rising stocks lift the value of private companies priced against public peers and help keep the IPO window open for exits.",
+      "marketContext": "The VIX is 26.8, an elevated reading that signals nervous markets and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Volatility (VIX)",
+        "explanation": "The VIX measures how much the stock market expects prices to swing over the next month. Above about 20 signals nervousness; below about 15 signals calm."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "c8329e0640ca",
+      "title": "Citadel Plans to Return About $3.5 Billion in 2026 Profits to Investors as Its Wellington Fund Gains 15.3% Through October",
+      "url": "https://hedgeco.net/news/11/2026/citadel-plans-to-return-about-3-5-billion-in-2026-profits-to-investors-as-its-wellington-fund-gains-15-3-through-october.html",
+      "publishedAt": "2026-11-26T11:49:02.000Z",
+      "source": {
+        "id": "hedgeco",
+        "name": "HedgeCo Networks",
+        "homepage": "https://www.hedgeco.net/news/",
+        "contentType": "news"
+      },
+      "section": "hedge-funds",
+      "firms": [
+        "Citadel"
+      ],
+      "theme": {
+        "id": "hedge-funds",
+        "label": "Hedge Funds"
+      },
+      "importance": 3,
+      "takeaway": "Ken Griffin's Citadel plans to return roughly $3.5 billion of 2026 profits to its hedge fund investors, according to a Bloomberg report cited by Hedgeweek and Investing.com.",
+      "whyItMatters": "Citadel's results show where client money is flowing right now, and gains at the biggest managers often come at the expense of smaller rivals chasing the same clients.",
+      "marketContext": "The VIX is 26.8, an elevated reading that signals nervous markets and high-yield credit spreads are 3.77%, near long-run norms (unchanged on the prior reading). Signals on risk appetite are mixed. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Multi-strategy fund",
+        "explanation": "A hedge fund that allocates money to many independent trading teams (pods) across strategies, aiming for steady returns with tight risk limits."
+      },
+      "storyType": "news",
+      "aiSummarized": false
+    },
+    {
+      "id": "2466518170d3",
+      "title": "Isabella Weber's Vision for an Affordability Agenda",
+      "url": "https://omny.fm/shows/odd-lots/isabella-webers-vision-for-an-affordability-agenda",
+      "publishedAt": "2026-11-27T09:00:00.000Z",
+      "source": {
+        "id": "odd-lots",
+        "name": "Odd Lots (Bloomberg podcast)",
+        "homepage": "https://www.bloomberg.com/oddlots",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [],
+      "theme": {
+        "id": "voices",
+        "label": "Investor Outlook"
+      },
+      "importance": 3,
+      "takeaway": "The most important word in politics right now is affordability.",
+      "whyItMatters": "Isabella Weber's take comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and the 10Y–2Y yield curve is +0.24 pts (nearly flat). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Market cycle",
+        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    },
+    {
+      "id": "c01bdceaeeae",
+      "title": "Marc Levinson on How UPS Created Modern Logistics",
+      "url": "https://omny.fm/shows/odd-lots/marc-levinson-on-how-ups-created-modern-logistics",
+      "publishedAt": "2026-11-26T09:00:00.000Z",
+      "source": {
+        "id": "odd-lots",
+        "name": "Odd Lots (Bloomberg podcast)",
+        "homepage": "https://www.bloomberg.com/oddlots",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [],
+      "theme": {
+        "id": "voices",
+        "label": "Investor Outlook"
+      },
+      "importance": 2,
+      "takeaway": "UPS was founded nearly a century ago in the basement of a Seattle saloon by James E. Casey and his business partner Claude Ryan.",
+      "whyItMatters": "Marc Levinson's take comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and the 10Y–2Y yield curve is +0.24 pts (nearly flat). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Market cycle",
+        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    },
+    {
+      "id": "f7e442eafb3d",
+      "title": "At The Money Fan Favorite: Who Is Wealthy in America, and How Did They Get Rich?",
+      "url": "https://omny.fm/shows/masters-in-business/at-the-money-fan-favorite-who-is-wealthy-in-america-and-how-did-they-get-rich",
+      "publishedAt": "2026-11-25T22:12:06.000Z",
+      "source": {
+        "id": "masters-in-business",
+        "name": "Masters in Business (Bloomberg podcast)",
+        "homepage": "https://www.bloomberg.com/podcasts/series/masters-in-business",
+        "contentType": "podcast"
+      },
+      "section": "voices",
+      "firms": [],
+      "theme": {
+        "id": "voices",
+        "label": "Investor Outlook"
+      },
+      "importance": 2,
+      "takeaway": "On this special, fan favorite episode of ‘At The Money’, Barry speaks with Owen Zidar, a professor of Economics and Public Affairs at Princeton and Eric Zwick, a professor of Economic and Finance at the University of Chicago Booth School of Business about their latest book.",
+      "whyItMatters": "This take comes from someone close to the action, so use it as a check on your own assumptions rather than as a forecast.",
+      "marketContext": "The effective fed funds rate is 3.88%, the 10-year Treasury yield is 4.91% (down 1 bp on the prior reading) and the 10Y–2Y yield curve is +0.24 pts (nearly flat). Rates set the hurdle every investment has to clear and drive borrowing costs across the economy. (FRED data as of Nov 26.)",
+      "beginnerNote": {
+        "term": "Market cycle",
+        "explanation": "The recurring pattern of expansion, peak, downturn and recovery in markets. Investors like Howard Marks argue that knowing where you are in the cycle matters more than prediction."
+      },
+      "storyType": "podcast",
+      "aiSummarized": false
+    }
+  ],
+  "stats": {
+    "sourcesChecked": 52,
+    "sourcesOk": 34,
+    "candidates": 104,
+    "selected": 27
+  }
+}
